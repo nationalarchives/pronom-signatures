@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1779,
+  "formatName": "Notation Interchange File Format",
+  "version": null,
+  "formatDescription": "Notation Interchange File Format (NIFF) is a music notation file format used primarily for transferring music notation between different scorewriters.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.music-niff",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/974",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1337,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494658{4}4E494646",
+      "endianness": null,
+      "name": "NIFF",
+      "note": "BOF: RIFX{4}NIFF\r\nC header file from format SDK: http://www.music-notation.info/niffsdk/niff.h"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

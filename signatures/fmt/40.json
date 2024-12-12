@@ -1,0 +1,143 @@
+{
+  "fileFormatID": 690,
+  "formatName": "Microsoft Word Document",
+  "version": "97-2003",
+  "formatDescription": "With the release of Word 97, Microsoft revised the native binary word processing format, which is based on its generic OLE2 Compound Document Format. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. A Word document is stored as a \u2018WordDocument\u2019 stream within a Compound Document Format file. The format remained unchanged with the releases of Word 2000, 2002 and 2003. An alternative extension of .wbk refers to a backup file of a Word document, however there is no material or structural difference between a .wbk file and the .doc file it is a backup of.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Apr 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Microsoft Word for Windows Document (97-XP)",
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.word.doc",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/40",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 182,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 97 - 2002",
+      "note": "Compound document header + WordDocument user stream + version number"
+    },
+    {
+      "signatureID": 182,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "57006F007200640044006F00630075006D0065006E007400{42}02(00|01)",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 97 - 2002",
+      "note": "Compound document header + WordDocument user stream + version number"
+    },
+    {
+      "signatureID": 182,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "4D6963726F736F667420576F7264(20382E30|20392E30|2031302E30|2D446F6B756D656E74)",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 97 - 2002",
+      "note": "Compound document header + WordDocument user stream + version number"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wbk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 76,
+      "relatedFormatName": "Microsoft Word Document Template"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1553,
+      "relatedFormatName": "Microsoft Word Document (Password Protected)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1554,
+      "relatedFormatName": "Microsoft Word Document Template (Password Protected)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1401,
+      "relatedFormatName": "Microsoft Word (Generic)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 688,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "1020",
+      "description": "Microsoft Word 97 OLE2",
+      "files": [
+        {
+          "path": "WordDocument"
+        },
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "40",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "10 00 00 00 'Word.Document.8' 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

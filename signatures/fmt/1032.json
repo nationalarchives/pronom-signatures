@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1837,
+  "formatName": "Stata Data (DTA) Format",
+  "version": "111",
+  "formatDescription": "Stata is a research data analysis and statistical software package. The DTA format contains the Stata dataset.  Please contact the PRONOM team if you can provide further information about this format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1032",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1391,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6F(01|02)01{105}00",
+      "endianness": null,
+      "name": "Stata DTA 111",
+      "note": "This signature is based on observation from a range of samples and inference from a later specification. This signature could be improved with a better understanding of the formal specification.\r\n\r\n'o' 0x(01|02)=(big|little) endianness filetype (0x01) 0x00 at position 109"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dta",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

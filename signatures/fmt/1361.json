@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2179,
+  "formatName": "Amiga Disk File",
+  "version": null,
+  "formatDescription": "An Amiga Disk File is the file format used by Amiga computers and emulators to store images of disks. It is a sector by sector dump of an Amiga formatted disk. It's uses include backup, disk virtualisation and game production.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Amiga_Disk_File\r\nhttp://lclevy.free.fr/adflib/adf_info.html",
+  "lastUpdatedDate": "21 Jul 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1361",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1745,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "444F53(00|01|02|03|04|05|06|07)",
+      "endianness": null,
+      "name": "Amiga Disk File",
+      "note": "BOF: \u2018DOS\u2019 followed by \u201800|01|02|03|04|05|06|07\u2019 depending on the format of the disk. More information on the internal signature can be found here: http://lclevy.free.fr/adflib/adf_info.html#p41"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "adf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

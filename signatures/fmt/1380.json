@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2198,
+  "formatName": "xdomea",
+  "version": "2.4.0",
+  "formatDescription": "xdomea is an XML interface for the exchange of documents, cases, and records, typically used by digital record management systems in Germany.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Mar 2023",
+  "formatSourceID": 232,
+  "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+  "formatProvenance": "Further information about xdomea is published here: https://xoev.de/de/xdomea",
+  "formatSourceDate": "22 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1380",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1758,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A78646F6D65613D(22|27)75726E3A786F65762D64653A78646F6D65613A736368656D613A322E342E30(22|27)",
+      "endianness": null,
+      "name": "xdomea 2.4.0",
+      "note": "ASCII header: <?xml version=\"1.0\" (alternatively with single quotes), followed by xdomea namespace declaration xmlns:domea=\"urn:xoev-de:xdomea:schema:2.4.0\" (alternatively with single quotes)"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2664,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

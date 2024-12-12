@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2630,
+  "formatName": "Koala MicroIllustrator Graphic File",
+  "version": null,
+  "formatDescription": "Koala MicroIllustrator is a graphics program for the Atari line of computers. Koala MicroIllustrator Graphics files are raster image files associated with this software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Koala_MicroIllustrator",
+  "lastUpdatedDate": "12 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1780",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2120,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF80C9C71A",
+      "endianness": null,
+      "name": "Koala MicroIllustrator Graphic File",
+      "note": "BOF:'\u00ff\u20ac\u00c9\u00c7' followed by 0x1A (Substitute)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2808,
+  "formatName": "Draw.io Diagram (XML) File",
+  "version": null,
+  "formatDescription": "A vector image file that is stored as in a standard XML file. This format is used by draw.io and app used to provide interactive graphs and charts that will display in some browsers. Draw.io is also known as app.diagrams.net and the format was developed by diagrams.net.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1946",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2291,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 50,
+      "byteSequence": "3C6D7866696C65",
+      "endianness": null,
+      "name": "Draw.io Diagram",
+      "note": "BOF; Offset: 0-20; Bytes: \u201c<mxfile\u201d EOF; Offset: 0; Bytes: \"</diagram></mxfile>\""
+    },
+    {
+      "signatureID": 2291,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C2F6469616772616D3E3C2F6D7866696C653E",
+      "endianness": null,
+      "name": "Draw.io Diagram",
+      "note": "BOF; Offset: 0-20; Bytes: \u201c<mxfile\u201d EOF; Offset: 0; Bytes: \"</diagram></mxfile>\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "drawio",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2748,
+  "formatName": "Memory Stick Voice File (MSV)/Digital Voice File (DVF)",
+  "version": "LPEC Codec",
+  "formatDescription": "The Memory Stick Voice (MSV) format is an audio file format that was used on the Sony Memory Stick IC recorder, specifically the ICD-MS1 model. Two versions of the MSV format exist: MSV (ADPCM) and MSV (LPEC). The first version, MSV (ADPCM), uses an unspecified type of ADPCM compression, while this version MSV (LPEC) uses Sony's proprietary Long-term Predicted Excitation Coding (LPEC) codec.\r\n\r\nThe Digital Voice File (DVF) is an audio file format that was used for recording messages on certain Sony IC recorder models, including the ICD-BP100 and ICD-BP120. DVF files utilized both the Long-term Predicted Excitation Coding (LPEC) as in this version and TRC codecs in their formation. However, as of March 31, 2017, the software used to manage the DVF files, known as Digital Voice Editor, was discontinued and is no longer available for download.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1892",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2233,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D535F564F494345{4}01(01|02|03)0000534F4E5920434F52504F524154494F4E{28}00(15|19|20|24|2A|2C|4A|4C)00(01|02)",
+      "endianness": null,
+      "name": "MSV/DVF LPEC",
+      "note": "Description: 'MS_VOICE' followed by 00x01(01|02|03)0000 'SONY CORPORATION' and then after 28 bytes the following sequence 00x00(15|19|20|24|2A|2C|4A|4C)00(01|02)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "msv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dvf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1259,
+      "relatedFormatName": "Sony Digital Voice File/Sony Memory Stick Voice File"
+    }
+  ]
+}

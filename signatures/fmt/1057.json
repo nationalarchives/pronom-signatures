@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1862,
+  "formatName": "SNAP Archive Data File",
+  "version": null,
+  "formatDescription": "Snap Survey provides a selection of software which allows users to design surveys. The SNAP Survey archive file is an compressed version of the SNAP Meta Data and if one is present a SNAP Raw Data file. If it is a survey with email invitations, and responses, it also compresses system files about the current state of the mailing.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "11 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1057",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1425,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "530075007200760065007900{0-64}0061007200630068006900760065002000660069006C006500",
+      "endianness": null,
+      "name": "SNAP Archive data file",
+      "note": "S.u.r.v.e.y{0-64}.a.r.c.h.i.v.e. .f.i.l.e."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "adf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

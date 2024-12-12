@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 525,
+  "formatName": "StarOffice Calc",
+  "version": "5.x",
+  "formatDescription": "StarCalc is part of StarOffice, a proprietary office suite. StarCalc is a spreadsheet application. StarOffice originated in 1985 as StarWriter by StarDivision, which was acquired by Sun Microsystems in 1999. Sun was itself acquired by Oracle Corporation in 2010. StarOffice was known briefly as Oracle Open Office before being discontinued in 2011.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/359",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "sdc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "23320",
+      "description": "StarOffice Calc 5.x OLE2",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'StarCalc 5.0'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

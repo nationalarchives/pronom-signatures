@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1975,
+  "formatName": "Praat Script File",
+  "version": null,
+  "formatDescription": "Praat is a computer software package for the scientific analysis of speech in phonetics, developed by Paul Boersma and David Weenink of the University of Amsterdam. The Praat script file acts like a set of macros, allowing the user to rerun a set of actions as often as needed.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 237,
+  "provenanceCompoundName": "University of British Columbia / University of British Columbia",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1165",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "praat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

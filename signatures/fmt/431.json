@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1217,
+  "formatName": "Corel R.A.V.E.",
+  "version": "2",
+  "formatDescription": "Corel R.A.V.E. (Real Animated Vector Effects) is the vector-based animation application which comes bundled as part of the CorelDRAW Graphics Suite (starting in version 10).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 181,
+  "provenanceCompoundName": "Museum of London / Museum of London",
+  "formatProvenance": "08/2023 (v.113)- Added priority over fmt/1886 (Resource Interchange Format (RIFF)) and updated description. Submitted by New York Public Libraries and Preservica.; 11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/431",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 648,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}434152427672736E",
+      "endianness": null,
+      "name": "Corel R.A.V.E version 2",
+      "note": "ASCII: RIFF{4}CARBvrsn (where B is the version)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "clk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

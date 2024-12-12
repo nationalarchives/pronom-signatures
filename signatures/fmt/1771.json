@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2621,
+  "formatName": "ESRI Persistent Auxiliary Metadata File",
+  "version": null,
+  "formatDescription": "The ESRI Persistent Auxiliary Metadata File is a format produced by ArcGIS software, which accompanies the raster file (and sits alongside it). lnformation for the raster dataset, such a statistics, tables, histograms and co-ordinates, is stored in this auxiliary file if it cannot be stored internally. The files have the extension .aux.xml, but due to limitations of PRONOM, have been added with extension.xml as well as aux.xml.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/auxiliary-files.htm",
+  "lastUpdatedDate": "22 Sep 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Sep 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1771",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2109,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 30,
+      "byteSequence": "3C50414D446174617365743E{10-200}3C4D6574616461746120646F6D61696E3D22(4553524922|4573726922)3E",
+      "endianness": null,
+      "name": "Esri Persistent Auxiliary Metadata File",
+      "note": "BOF offset 0-30, magic bytes: <PAMDataset>(10-200)<Metadata domain=\"ESRI\"|\"Esri\">\r\nEOF, offset 0-1:</PAMDataset>"
+    },
+    {
+      "signatureID": 2109,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1,
+      "byteSequence": "3C2F50414D446174617365743E",
+      "endianness": null,
+      "name": "Esri Persistent Auxiliary Metadata File",
+      "note": "BOF offset 0-30, magic bytes: <PAMDataset>(10-200)<Metadata domain=\"ESRI\"|\"Esri\">\r\nEOF, offset 0-1:</PAMDataset>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "aux.xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

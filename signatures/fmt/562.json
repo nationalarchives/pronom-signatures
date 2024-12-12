@@ -1,0 +1,75 @@
+{
+  "fileFormatID": 1350,
+  "formatName": "Adobe Illustrator",
+  "version": "13.0",
+  "formatDescription": "The documents (files) created by Adobe Illustrator are PostScript language documents. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page.\r\nBeginning with version 9, the Adobe Illustrated ai file format included both a pdf copy of the illustration and a postscript copy. Beginning with Adobe Illustrator 13.0. the PDF that Illustrator embeds in the file so that other apps can read the file is PDF 1.5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/Adobe_Illustrator_Artwork\r\n\r\nhttps://en.wikipedia.org/wiki/Adobe_Illustrator_Artwork\r\n\r\nhttps://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html",
+  "lastUpdatedDate": "24 May 2023",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "08/2023 ( v113)- Signature file updated. Submitted by Brigham Young University as part of research to be found here: https://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf",
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.illustrator-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/562",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 896,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D61742039",
+      "endianness": null,
+      "name": "Adobe Illustrator 13.0",
+      "note": "Header PDF-1.5. Comment %!PS-Adobe-3.0 declares that the file contains a Postscript program. The comment \u201c%AI5_FileFormat 9\u201d indicates that the format is that of a version 13.0 Adobe Illustrator file."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ai",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1351,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1349,
+      "relatedFormatName": "Adobe Illustrator"
+    }
+  ]
+}

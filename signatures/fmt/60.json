@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 683,
+  "formatName": "Excel 95 Workbook (xls)",
+  "version": "7",
+  "formatDescription": "PUID deprecated. Please see fmt/60: Microsoft Excel 5.0/95 Workbook (xls).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Apr 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/60",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 684,
+      "relatedFormatName": "Microsoft Excel 97 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1861,
+  "formatName": "SNAP Main Data File",
+  "version": null,
+  "formatDescription": "Snap Survey provides a selection of software which allows users to design surveys. The SNAP Meta Data file is generated and is used to build and manage the survey.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jul 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1056",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1423,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534E4150204D61696E20646174612066696C65",
+      "endianness": null,
+      "name": "SNAP Main data file",
+      "note": "SNAP Main data file"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

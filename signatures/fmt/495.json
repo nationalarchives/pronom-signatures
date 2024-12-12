@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1282,
+  "formatName": "ATCO-CIF",
+  "version": null,
+  "formatDescription": "ATCO-CIF is a file format for interchange of bus timetable information, primarily between the Department for Transport and service providers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/495",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 768,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4154434F2D434946",
+      "endianness": null,
+      "name": "ATCO-CIF",
+      "note": "BOF: ATCO-CIF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

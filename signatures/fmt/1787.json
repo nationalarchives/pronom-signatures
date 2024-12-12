@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2637,
+  "formatName": "G9B Graphics Format Bitmap",
+  "version": null,
+  "formatDescription": "G9B is a raster image graphics format associated with the GFX9000, a GFX9k library for MSX computers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/G9B\r\n\r\nhttps://www.teambomba.net/gfx9klib.html",
+  "lastUpdatedDate": "25 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1787",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2127,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "473942",
+      "endianness": null,
+      "name": "G9B Graphics Format Bitmap",
+      "note": "BOF:'G9B'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "g9b",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

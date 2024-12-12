@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2831,
+  "formatName": "Final Writer Document",
+  "version": null,
+  "formatDescription": "Final Writer was a word processer for the Amiga home computer. Final Writer files will often lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1966",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2314,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "464F524D{4}53575254",
+      "endianness": null,
+      "name": "Final Writer Document",
+      "note": "Based on the Interchange File Format. \u201cFORM\u201d {4} \u201cSWRT\u201d"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 221,
+      "relatedFormatName": "Interchange File"
+    }
+  ]
+}

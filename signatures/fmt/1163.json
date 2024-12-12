@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1973,
+  "formatName": "Folio Definition File",
+  "version": null,
+  "formatDescription": "The Folio Definition File is a companion to the Folio Flat File, and contains a definition of the structure of the Flat File.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1163",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1545,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 256,
+      "byteSequence": "3C434D3E",
+      "endianness": null,
+      "name": "Folio Definition File",
+      "note": "BOF, offset 0-256: , both of \r\n'<CM>' and 'Folio,DEF'"
+    },
+    {
+      "signatureID": 1545,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 256,
+      "byteSequence": "466F6C696F2C444546",
+      "endianness": null,
+      "name": "Folio Definition File",
+      "note": "BOF, offset 0-256: , both of \r\n'<CM>' and 'Folio,DEF'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "def",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

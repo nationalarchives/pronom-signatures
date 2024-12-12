@@ -1,0 +1,99 @@
+{
+  "fileFormatID": 254,
+  "formatName": "PageMaker PC Document",
+  "version": "6.5-7.0",
+  "formatDescription": "PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994. File extensions begin with either p or t, signifying the PageMaker file or PageMaker template, followed by the version number 65 or with the extensions pmd or pmt.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "10 Oct 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.pagemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/181",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "p65",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "t65",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pmd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pmt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 2554,
+      "relatedFormatName": "PageMaker Mac Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1680,
+      "relatedFormatName": "Pagemaker Document (Generic)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 247,
+      "relatedFormatName": "PageMaker PC Document"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "25200",
+      "description": "PageMaker PC Document Version 6.5",
+      "files": [
+        {
+          "path": "PageMaker",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "6",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "FF 99"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "4D 50 32 06"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1271,
+  "formatName": "7Zip format",
+  "version": null,
+  "formatDescription": "An archive format associated with the 7-Zip application. Its default compression method is LZMA, but it supports other compression methods as well.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://7-zip.org/7z.html\r\nhttps://filext.com/file-extension/7Z\r\nhttps://fileinfo.com/extension/7z",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.",
+  "formatSourceDate": "18 Dec 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/484",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 756,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "377ABCAF271C",
+      "endianness": null,
+      "name": "7Zip",
+      "note": "BOF: 7z\u00bc\u00af'."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "7z",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

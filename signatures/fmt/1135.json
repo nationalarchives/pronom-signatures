@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1945,
+  "formatName": "SQLite Database File Format",
+  "version": "2",
+  "formatDescription": "SQLite is a relational database management system. SQLite does not define a formal file extension, but .sqlite, and .db are commonly used.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2018",
+  "formatSourceID": 232,
+  "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1135",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1517,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2A2A20546869732066696C6520636F6E7461696E7320616E2053514C69746520322E??206461746162617365202A2A",
+      "endianness": null,
+      "name": "SQLite Database 2",
+      "note": "BOF: \"** This file contains an SQLite 2.\"<wildcard byte>\" database **\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sqlite",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "db",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1528,
+      "relatedFormatName": "SQLite Database File Format"
+    }
+  ]
+}

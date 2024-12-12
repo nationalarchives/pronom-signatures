@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 2298,
+  "formatName": "TEI P4 XML - Corpus File",
+  "version": "P4",
+  "formatDescription": "The Text Encoding Initiative Guidelines provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. P4 is serialised as XML. \r\nConceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display. \r\n\r\nNote that TEI permits customisations and some may mean that the file no longer matches the attached signatures. This is especially the case where TEI is fragmented, embedded within other XML or when other XML namespaces are used.\r\n\r\nInformation on how to convert TEI P4 to TEI P5 can be found at https://www.tei-c.org/Vault/P4/migrate.html and a script at https://www.tei-c.org/Vault/P4/p4top5.xsl Such automated conversion is not guaranteed to be lossless, particularly when the TEI has been customised. \r\n\r\nP4 differs from the proceeding P3 version by being in XML rather than in SGML",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://tei-c.org/Vault/P4/\r\n\r\nhttps://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip4\r\n\r\nhttps://en.wikipedia.org/wiki/Text_Encoding_Initiative",
+  "lastUpdatedDate": "19 Oct 2021",
+  "formatSourceID": 236,
+  "provenanceCompoundName": "Victoria University of Wellington / Victoria University of Wellington",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/tei+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1475",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1847,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}746569436F727075732E32",
+      "endianness": null,
+      "name": "TEI P4 XML - Corpus",
+      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-512 bytes followed by 'teiCorpus.2'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tei",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "odd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

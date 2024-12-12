@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 1692,
+  "formatName": "QuadriSpace Format",
+  "version": null,
+  "formatDescription": "QuadriSpace provide 3D Publishing and Documentation software. This entry currently covers each known QuadriSpace-specifc format, however it may be possible and necessary to separate different QuadriSpace formats into their own entries in the future.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description, Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/888",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1237,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "9F087C4E",
+      "endianness": null,
+      "name": "QuadriSpace Format",
+      "note": "BOF: \u0178.|N\r\nWith further research it may be possible to distinguish between different types of QuadriSpace formats. For now, known formats that conform to this signature pattern are:\r\n.qsd - QuadriSpace Document Format\r\n.qst - QuadriSpace Template\r\n.qsm - QuadriSpace Model\r\n.qsl - QuadriSpace Material"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "qsd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qsl",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qsm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qst",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

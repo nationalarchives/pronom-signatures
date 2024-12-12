@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1716,
+  "formatName": "CRAM File Format",
+  "version": "3.x",
+  "formatDescription": "CRAM is a framework technology and file format for compression of raw sequence data in the field of bioinformatics.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/911",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1261,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4352414D03",
+      "endianness": null,
+      "name": "CRAM v3",
+      "note": "Magic: CRAM, major version: 0x03\r\nSpecification: http://samtools.github.io/hts-specs/CRAMv3.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cram",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1715,
+      "relatedFormatName": "CRAM File Format"
+    }
+  ]
+}

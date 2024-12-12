@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1841,
+  "formatName": "Stata Data (DTA) Format",
+  "version": "117",
+  "formatDescription": "Stata is a research data analysis and statistical software package. The DTA format contains the Stata dataset.  DTA version 117 is known to be associated with Stata software version 13. Please contact the PRONOM team if you can provide further information about this format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1036",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1395,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C73746174615F6474613E3C6865616465723E3C72656C656173653E3131373C2F72656C656173653E",
+      "endianness": null,
+      "name": "Stata DTA 117",
+      "note": "<stata_dta><header><release>117</release>\r\nBased on specification: http://www.stata.com/help.cgi?dta_117"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dta",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

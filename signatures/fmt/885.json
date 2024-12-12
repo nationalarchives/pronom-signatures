@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1689,
+  "formatName": "BASIC File",
+  "version": null,
+  "formatDescription": ".bas is a file extension commonly related to BASIC (Beginners All-purpose Symbolic Instructional Code) source code.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/885",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "bas",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1806,
+  "formatName": "OpenEXR",
+  "version": "2",
+  "formatDescription": "OpenEXR is a raster image file format developed by Industrial Light and Magic for use in computer imaging applications. The published specification for OpenEXR describes version 2 of the file format. Version 1 was used internally by Industrial Light and Magic before OpenEXR was released as open source.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1001",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/x-exr",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1364,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "762F310102",
+      "endianness": null,
+      "name": "OpenEXR",
+      "note": "BOF: Magic 0x762F3101, version 02\r\nhttp://www.openexr.com/openexrfilelayout.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "exr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

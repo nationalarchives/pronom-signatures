@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1464,
+  "formatName": "Chasys Draw image file",
+  "version": null,
+  "formatDescription": "CD5 is the native image format used by Chasys Draw IES, a suite of image-editing applications.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Links: http://en.wikipedia.org/wiki/Chasys_Draw_IES",
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/665",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 997,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5F434435100000001A0003",
+      "endianness": null,
+      "name": "Chasys Draw CD5",
+      "note": "BOF: _CD5......."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cd5",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

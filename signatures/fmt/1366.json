@@ -1,0 +1,60 @@
+{
+  "fileFormatID": 2184,
+  "formatName": "ESRI Published Map Format",
+  "version": null,
+  "formatDescription": "The PMF file is a read-only map file created with ArcMap, an application included with ESRI Desktop GIS. It can be viewed with the ArcReader application. PMF files allow the protecting of data and confidentiality by enabling the creator to limit the data views, printing, zooming and other features of a map.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Sep 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "03 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1366",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "47000",
+      "description": "ESRI Published Map Format",
+      "files": [
+        {
+          "path": "Supplemental Stream",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "55",
+                  "sequence": "4D 00 61 00 70 00 20 00 50 00 72 00 6F 00 64 00 75 00 63 00 65 00 64 00 20 00 77 00 69 00 74 00 68 00 20 00 41 00 72 00 63 00 47 00 49 00 53 00 20 00 62 00 79 00 20 00 45 00 53 00 52 00 49"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

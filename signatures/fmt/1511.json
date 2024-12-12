@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2335,
+  "formatName": "Microsoft Publisher",
+  "version": "1",
+  "formatDescription": "Microsoft Publisher is a desktop publishing application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-mspublisher",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1511",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1882,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 8,
+      "byteSequence": "E7AC2C00",
+      "endianness": null,
+      "name": "Microsoft Publisher 1",
+      "note": "BOF, offset 0-8 0xE7AC2C00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pub",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,86 @@
+{
+  "fileFormatID": 664,
+  "formatName": "Portable Network Graphics",
+  "version": "1.0",
+  "formatDescription": "Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "PNG (1.0)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/11",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/png",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.png",
+      "identifierType": "Apple Uniform Type Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 58,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "89504E470D0A1A0A0000000D49484452",
+      "endianness": null,
+      "name": "PNG 1.0",
+      "note": "Signature + IHDR chunk at BOF, IEND chunk at EOF"
+    },
+    {
+      "signatureID": 58,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "0000000049454E44AE426082",
+      "endianness": null,
+      "name": "PNG 1.0",
+      "note": "Signature + IHDR chunk at BOF, IEND chunk at EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "png",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 665,
+      "relatedFormatName": "Portable Network Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 666,
+      "relatedFormatName": "Portable Network Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1740,
+      "relatedFormatName": "Animated Portable Network Graphics"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 665,
+      "relatedFormatName": "Portable Network Graphics"
+    }
+  ]
+}

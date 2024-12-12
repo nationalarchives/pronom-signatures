@@ -1,0 +1,66 @@
+{
+  "fileFormatID": 734,
+  "formatName": "Microsoft Word for Windows Document",
+  "version": "2.0",
+  "formatDescription": "Word Document format is a word processing format developed by Microsoft. Word 2.0 format is the native file format of Microsoft Word 2.0 for Windows. It is proprietary and Microsoft does not make details of its structure public. A Word document file comprises a header section followed by a text section, which contains the document text in ANSI characters, followed by a format section, which contains formatting information about the text.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.word.doc",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/38",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 127,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "DBA5{16}00000000",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 2.0",
+      "note": "Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 688,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 733,
+      "relatedFormatName": "Microsoft Word for Windows Document"
+    }
+  ]
+}

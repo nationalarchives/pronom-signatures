@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1977,
+  "formatName": "Softimage 3D Picture File Format",
+  "version": null,
+  "formatDescription": "The Softimage 3D Picture format is a native raster image format of Autodesk's Softimage 3D computer graphics application. A full technical description of the format can be found in the Internet Archive: https://web.archive.org/web/20160802085201/http://softimage.wiki.softimage.com/index.php/?title=PIC_file_format",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "31 Jul 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1167",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1548,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5380F634{84}50494354",
+      "endianness": null,
+      "name": "Softimage PIC Format",
+      "note": "BOF: Magic 0x5380F634 {84} 'PICT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

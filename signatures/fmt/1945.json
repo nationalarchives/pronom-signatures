@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2807,
+  "formatName": "Common Loudspeaker Format (CLF)",
+  "version": "2",
+  "formatDescription": "Common Loudspeaker Format or CLF is an open file format designed for louspeaker manufacturers to supply data to end users in the professional sound community. It has been created to make louspeaker performance and polar data available in an open but secure format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Common_Loudspeaker_Format\r\nhttp://www.clfgroup.org/index.htm",
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Nov 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1945",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 687,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41BD0A0001{15}76(31|32)2E30{12}00000000000000000000000000000000",
+      "endianness": null,
+      "name": "CLF2",
+      "note": "BOF: 00x41BD0A0001 then after 15 bytes 00x76(31|32)2E30 then in 12 bytes 16 null bytes"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cf2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 2744,
+      "relatedFormatName": "Common Instrument File (CIF)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2805,
+      "relatedFormatName": "Common Loudspeaker Format (CLF)"
+    }
+  ]
+}

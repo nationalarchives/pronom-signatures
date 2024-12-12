@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2487,
+  "formatName": "Arts & Letters Clip Art Library",
+  "version": null,
+  "formatDescription": "Arts & Letters Clip Art Library format is a multi-image vector graphics format associated with the Arts & Letters  application. Arts & Letters is a computer software for editing vector graphics. It was created by Computer Support Corporation and uses technology born on mainframes that migrated to the DOS platform in the 1980's.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Arts_%26_Letters_clip_art_library\r\n\r\nhttps://www.arts-letters.com/about/",
+  "lastUpdatedDate": "04 Apr 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1660",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1994,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "435553544F4D00",
+      "endianness": null,
+      "name": "Arts & Letters Clip Art Library",
+      "note": "BOF; Offset: 0; Magic Bytes: 'CUSTOM, then 0x00'\r\n\r\nEOF; Offset: 0; Magic Bytes; '\u00ff\u00ff'"
+    },
+    {
+      "signatureID": 1994,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFF",
+      "endianness": null,
+      "name": "Arts & Letters Clip Art Library",
+      "note": "BOF; Offset: 0; Magic Bytes: 'CUSTOM, then 0x00'\r\n\r\nEOF; Offset: 0; Magic Bytes; '\u00ff\u00ff'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "yal",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

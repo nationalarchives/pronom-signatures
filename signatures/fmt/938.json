@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1743,
+  "formatName": "Python Source Code File",
+  "version": null,
+  "formatDescription": "A source code file written in Python that can be run by a Python interpreter. Python is a multi-paradigm, high-level general-purpose programming language which was conceived in the late 1980s as a successor to the ABC programming language. Its extensive standard library, as well as a steadily growing number of third-party modules, provides functions, classes and more for a wide range of tasks, including scientific computing, machine learning and web scraping.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Official documentation can be accessed at https://www.python.org/doc/",
+  "lastUpdatedDate": "21 Mar 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Description was submitted by Stadtarchiv Hof (Municipal Archives of Hof, Free State of Bavaria, Germany) in v112 of PRONOM signature file.",
+  "formatSourceDate": "13 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/938",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "py",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

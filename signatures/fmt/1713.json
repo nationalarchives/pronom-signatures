@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2549,
+  "formatName": "Calc602 Project File",
+  "version": "1.0",
+  "formatDescription": "Binary format used by spreadsheet programme Calc602 containing information about all currently open files, layout on the screen, macros loaded into memory etc.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Oct 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1713",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2045,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "536F6674776172653630320D0A43616C6336303220762E312E303020576F726B5370616365",
+      "endianness": null,
+      "name": "Calc602 Project File v.1.0",
+      "note": "BOF Absolute from beginning of file, magic bytes: Software602\r\nCalc602 v.1.00 WorkSpace"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pc6",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2625,
+      "relatedFormatName": "Calc602 Project File"
+    }
+  ]
+}

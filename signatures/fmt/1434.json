@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2252,
+  "formatName": "Minitab Project",
+  "version": "12-13",
+  "formatDescription": "Minitab is a statistical analysis package originally developed at the Pennsylvania State University. A worksheet file contains an exported worksheet, while a project file contains all project-related data including all worksheets, settings, graphs and history.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "29 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1434",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "54020",
+      "description": "Minitab Project 12-13",
+      "files": [
+        {
+          "path": "Index",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "512",
+                  "sequence": "'MINITAB'"
+                }
+              ],
+              "reference": "EOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

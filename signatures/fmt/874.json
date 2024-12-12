@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 1678,
+  "formatName": "Turtle",
+  "version": null,
+  "formatDescription": "Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/874",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/turtle",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ttl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

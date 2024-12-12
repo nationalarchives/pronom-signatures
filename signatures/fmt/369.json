@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1116,
+  "formatName": "ASPRS Lidar Data Exchange Format",
+  "version": "1.1",
+  "formatDescription": "The Lidar Data Exchange Format is a binary file format for the interchange of LIDAR (Light Detection and Ranging) optical remote sensing data. \r\nSpecifications available at http://www.asprs.org/Committee-General/LASer-LAS-File-Format-Exchange-Activities.html",
+  "releaseDate": "07 Mar 2005",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Format information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration involving North Carolina, Kentucky, Utah, and Montana state archives, and sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress.",
+  "formatSourceDate": "03 Nov 2011",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS, Image (Raster)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/369",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 540,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4C415346{20}0101{78}[00:99]",
+      "endianness": null,
+      "name": "ASPRS Lidar Data Exchange Format 1.1",
+      "note": "ASCII header: LASF, followed after 20 bytes by version number 1.1"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "las",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "laz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1117,
+      "relatedFormatName": "ASPRS Lidar Data Exchange Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1115,
+      "relatedFormatName": "ASPRS Lidar Data Exchange Format"
+    }
+  ]
+}

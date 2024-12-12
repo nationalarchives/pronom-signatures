@@ -1,0 +1,90 @@
+{
+  "fileFormatID": 692,
+  "formatName": "Windows Media Audio",
+  "version": null,
+  "formatDescription": "Windows Media Audio Format is a subtype of the Advanced Systems Format, developed by Microsoft for storing audio data streams. It comprises a Header Object, which describes the properties of the data streams, a Data Object, which contains the actual data streams stored in Data Packets and, optionally, one or more Index Objects. Audio data is stored using the Windows Media Audio codec, and the format supports streaming across networks.",
+  "releaseDate": "01 Dec 2004",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "WMA",
+  "formatTypes": "Audio",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/x-ms-wma",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.windows-media-wma",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/132",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 81,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+      "endianness": null,
+      "name": "Windows Media Audio",
+      "note": "Header Object + Stream Properties Object (stream type = Audio Stream) with WMA Codec ID"
+    },
+    {
+      "signatureID": 81,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}409E69F84D5BCF11A8FD00805F5C442B{38}(6101|6201|6301)",
+      "endianness": null,
+      "name": "Windows Media Audio",
+      "note": "Header Object + Stream Properties Object (stream type = Audio Stream) with WMA Codec ID"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wma",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "asf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 693,
+      "relatedFormatName": "Windows Media Video"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1228,
+      "relatedFormatName": "Windows Media Video (WVC1)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 691,
+      "relatedFormatName": "Advanced Systems Format"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 691,
+      "relatedFormatName": "Advanced Systems Format"
+    }
+  ]
+}

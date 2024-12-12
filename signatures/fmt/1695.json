@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2531,
+  "formatName": "602 Text file",
+  "version": "1.0-1.51",
+  "formatDescription": "This is the native file format for word processor Text602, which was released in 1988 by Czechoslovakian company 602 Svazarm (since the 1990s known as IT company Software602).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Jun 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "13 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1695",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2028,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "40435420",
+      "endianness": null,
+      "name": "602 Text file",
+      "note": "BOF Absolute from beginning of file, magic bytes: @CT followed by a space"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "602",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

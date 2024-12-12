@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1629,
+  "formatName": "MATLAB Mat File",
+  "version": "Level 7.3",
+  "formatDescription": "A Mat-file stores data in binary form. You can read and write Mat-files using MATLAB. Level 7.3 MAT-file formats were introduced in 2006 and use an HDF5 based format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 Dec 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/828",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1186,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D41544C414220372E33{114}(0002494D|02004D49)",
+      "endianness": null,
+      "name": "MATLAB Mat file 7.3",
+      "note": "MATLAB 7.3{114}(..MI|..IM)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mat",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fig",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2375,
+      "relatedFormatName": "MATLAB Mat File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1606,
+      "relatedFormatName": "MATLAB Mat File"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2589,
+  "formatName": "Nero Burning ROM Image File",
+  "version": "Generic",
+  "formatDescription": "Nero Burning ROM Image File (NRG) is a proprietary disc image format associated with Nero Burning ROM software. It acts as the utility of Nero Burning ROM and is used to create backups or copies of data for discs. This is a generic entry of NRG file format but there are two versions of this format. Its first version was launched in 1997 and was specified to store values as 32-bit integers. Its second version was introduced with version 5.5 of Nero Burning ROM software in 2001 and supports 64-bit integers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/NRG\r\n\r\nhttps://en.wikipedia.org/wiki/NRG_(file_format)#Header\r\n\r\nhttps://docs.fileformat.com/disc-and-media/nrg/",
+  "lastUpdatedDate": "19 Aug 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1743",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2084,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 12,
+      "byteSequence": "4E4552(35|4F)",
+      "endianness": null,
+      "name": "Nero Burning ROM Image File",
+      "note": "EOF; Offset: 0-12; Magic Bytes: 0x4E4552(35|4F)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nrg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1255,
+      "relatedFormatName": "ISO 9660 Disk Image File"
+    }
+  ]
+}

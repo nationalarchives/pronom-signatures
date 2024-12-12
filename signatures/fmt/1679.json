@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2515,
+  "formatName": "Garmin track log file",
+  "version": null,
+  "formatDescription": "Gmn files are used within Garmin Forerunner watches, which track GPS and heart rate data when work by the user during exercise. Gmn files store data relating to the exercise session, which can include heart rate, altitude, timestamp and position (latitude and longitude).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Apr 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1679",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2012,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C406741724D694E403E",
+      "endianness": null,
+      "name": "Garmin track log file",
+      "note": "BOF Absolute from beginning of file, magic bytes: <@gArMiN@>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gmn",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

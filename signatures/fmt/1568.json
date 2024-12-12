@@ -1,0 +1,83 @@
+{
+  "fileFormatID": 2393,
+  "formatName": "ISDOCX Information System Document",
+  "version": "5.x",
+  "formatDescription": "ISDOCX is a type of ZIP container file for transferring ISDOC documents and other material. Then content of this file format varies, but it should always contain ISDOC file format, and usually does contain a Portable Document Format (PDF). This signiture records a general ISDOCX file format, however there are several versions of this format which can be found here: http://www.isdoc.cz/index.php?id=1316. Versions 6.0.1 must also contain 'manifest.xml' namespace file, this signiture records all versions prior to 6.0.1 without a 'manifest.xml' namespace file.\r\n\r\nISDOC format is a type of Extensible Markup Language (XML) file format specific for transfer of financial, as well as other documents. It allows paperless exchanging of invoices and other documents, processing and portability among companies, public administration authorities and individuals. It was defined by \u201cA Working group for Electronic Standards of data exchanging\u201d in ICT Union (formerly SPIS). The \u201cDeclaration on common approach in the area of electronic invoicing in the Czech Republic\u201d was signed on 16th October 2008. It represents a Czech customization of UBL standard https://www.iso.org/standard/66370.html. ISDOC file enables enveloped signatures including advanced IETF/W3C XML digital signatures conforming to the ETSI XAdES specification.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.isdoc.org/\r\n\r\nhttp://www.isdoc.cz/fileadmin/isdoc/6.0/readme-en.html",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification.  Removed '(Generic)' from file format name to reflect version number. Internally researched.",
+  "formatSourceDate": "06 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1568",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1910,
+      "positionType": "Absolute from EOF",
+      "offset": 12,
+      "maxOffset": 988,
+      "byteSequence": "2E6973646F63",
+      "endianness": null,
+      "name": "ISDOCX Information System Document 5.x",
+      "note": "BOF; Offset:0; Magic bytes: 'PK' & EOF; Offset:12-1000; Magic bytes: '.isdoc'"
+    },
+    {
+      "signatureID": 1910,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "504B0304140002",
+      "endianness": null,
+      "name": "ISDOCX Information System Document 5.x",
+      "note": "BOF; Offset:0; Magic bytes: 'PK' & EOF; Offset:12-1000; Magic bytes: '.isdoc'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "isdocx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2396,
+      "relatedFormatName": "ISDOCX Information System Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2533,
+      "relatedFormatName": "Calc602 Spreadsheet file"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2392,
+      "relatedFormatName": "ISDOC Information System Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2392,
+      "relatedFormatName": "ISDOC Information System Document"
+    }
+  ]
+}

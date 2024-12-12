@@ -1,0 +1,93 @@
+{
+  "fileFormatID": 1670,
+  "formatName": "Apple Safari Webarchive",
+  "version": null,
+  "formatDescription": "These files may be produced by saving a web page in various versions of Apple's Safari Web Browser. The file is a type of Binary Property List (https://en.wikipedia.org/wiki/Property_list) and will contain the html content of the page, plus any page attachments.\r\n\r\nWith further research and a better understanding of the format it may be possible to create a PRONOM identification signature, based on the 'bplist' magic number and further identifiers specific to the Apple Safari Webarchive format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 Jan 2016",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "09 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/866",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1686,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "62706C6973743030{6-500}5765624D61696E5265736F75726365",
+      "endianness": null,
+      "name": "Apple Safari Webarchive",
+      "note": "BOF:'bplist'{6-500}'WebMainResource'."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "webarchive",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 639,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 640,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 644,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1258,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1789,
+      "relatedFormatName": "Binary Property List"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2281,
+  "formatName": "Arts & Letters Graphics File",
+  "version": null,
+  "formatDescription": "Arts & Letters Graphic Files are created by a group of software, Arts & Letters Editor, Arts & Letters Draw and Arts & Letters Express, specialising in vector graphic design and developed by the Computer Support Corporation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.arts-letters.com/about/\r\nhttp://fileformats.archiveteam.org/wiki/Arts_&_Letters_graphics_file",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1458",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1823,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "417274732026204C65747465727320",
+      "endianness": null,
+      "name": "Arts and Letters Short Signature",
+      "note": "BOF: 'Arts & Letters '"
+    },
+    {
+      "signatureID": 1824,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41264C2D00417274732026204C65747465727320",
+      "endianness": null,
+      "name": "Arts and Letters Long Signature",
+      "note": "BOF: 'A&L-.Arts & Letters '"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ged",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

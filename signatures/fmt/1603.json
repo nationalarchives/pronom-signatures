@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2430,
+  "formatName": "TUNDRA",
+  "version": null,
+  "formatDescription": "TUNDRA is a graphics format and is one of several systems for expressing text-mode graphics using text characters and control characters setting positions and colours. ANSI Art was the main system of this use, but a few others were invented during the Bulletin Board System (BBS) era. The ansilove (and Ansilove-C and ansilove.js) open-source software can display TUNDRA among other formats, by converting ANSI/ASCII art to PNG images.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/TUNDRA\r\n\r\nhttps://www.ansilove.org/downloads.html",
+  "lastUpdatedDate": "21 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1603",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1938,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "1854554E4452413234",
+      "endianness": null,
+      "name": "TUNDRA",
+      "note": "BOF; Offset: 0; Magic Bytes: '.TUNDRA24'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tnd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2380,
+  "formatName": "Standard Data Format",
+  "version": null,
+  "formatDescription": "Standard Data Format (SDF) files are commonly used to transfer data between different programs. SDF files are formatted ASCII text files, in which fields are delimited with a particular character (usually a space), and each record ends with a carriage return and/or line feed.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Nov 2021",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1555",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1899,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0D0A1A",
+      "endianness": null,
+      "name": "Standard Data Format",
+      "note": "Magic bytes, BOF, offset 0: G0\r\nMagic bytes: 0x0D (Carriage Return) followed by 0x0A (Line Feed) followed by 0x1A (Substitute)"
+    },
+    {
+      "signatureID": 1899,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "4730",
+      "endianness": null,
+      "name": "Standard Data Format",
+      "note": "Magic bytes, BOF, offset 0: G0\r\nMagic bytes: 0x0D (Carriage Return) followed by 0x0A (Line Feed) followed by 0x1A (Substitute)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

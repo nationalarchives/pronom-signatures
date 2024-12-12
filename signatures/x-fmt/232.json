@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 324,
+  "formatName": "Microsoft Project Export File",
+  "version": "1.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-project",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/232",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 474,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)312E30",
+      "endianness": null,
+      "name": "Microsoft Project Export File 1.0",
+      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (1.0)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1088,
+      "relatedFormatName": "Microsoft Project Export File"
+    }
+  ]
+}

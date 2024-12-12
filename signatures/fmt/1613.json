@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2440,
+  "formatName": "XML Shareable Playlist Format",
+  "version": null,
+  "formatDescription": "Xspf is a format for sharing playlists, supported by many applications. It uses xml, so is easily edited with a text editor. The official website gives useful information as to the structure of xspf files: https://www.xspf.org/quickstart",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://www.xspf.org/spec",
+  "lastUpdatedDate": "27 Jan 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1613",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1948,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D{25-26}3C706C61796C697374{1-14}786D6C6E733D22687474703A2F2F787370662E6F72672F6E732F302F",
+      "endianness": null,
+      "name": "XML Shareable Playlist Format",
+      "note": "BOF, absolute zero: <?xml version={25-26}<playlist{1-14} xmlns=\"http://xspf.org/ns/0/\r\nEOF, offset 0-1: </playlist>"
+    },
+    {
+      "signatureID": 1948,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1,
+      "byteSequence": "3C2F706C61796C6973743E",
+      "endianness": null,
+      "name": "XML Shareable Playlist Format",
+      "note": "BOF, absolute zero: <?xml version={25-26}<playlist{1-14} xmlns=\"http://xspf.org/ns/0/\r\nEOF, offset 0-1: </playlist>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xspf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

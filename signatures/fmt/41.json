@@ -1,0 +1,151 @@
+{
+  "fileFormatID": 670,
+  "formatName": "Raw JPEG Stream",
+  "version": null,
+  "formatDescription": "Raw JPEG Stream represents JPEG bitstream sequence of digital objects. JPEG stands for Joint Photographic Experts Group, an international organization that standardized the concept of lossy compression during the late 1980s and early 1990s. It uses DCT (Discrete Cosine Transform) compression technique used for images and audio. The standard of lossy compression is able to remove some visual data invisible to human eye which averages out colour variation and reduces the file size. JPEG image consists of a sequence of segments, each beginning with a two-byte \"marker\", each of which begins with a 0xFF byte, followed by a byte indicating what kind of marker it is. The signature for this entry represents the first two bytes of every JPEG stream, which are the Start Of Image (SOI) marker with values of 0xFF and 0xD8 (indicating that the baseline is DCT-based) and the End of Image (EOI) marker with valued of 0xFF and 0xD9. The second signatures represents the \"colour transform\" field of the APP14 which is an \"Adobe\" segment, representing graphic files which may have been edited in Adobe applications such as Adobe Photoshop.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000017.shtml#:~:text=The%20Library%20of%20Congress%20Recommended,specify%20a%20version%20of%20JPEG.\r\n\r\nhttps://web.archive.org/web/20220624201809/https://www.adobe.com/creativecloud/file-types/image/raster/jpeg-file.html\r\n\r\nhttps://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Photoshop JPEG signature added 0 value to offset in EOF signature as null offset is causing max-offset to be ignored. Submitted by Preservica.",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "JPEG",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000017",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/41",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jpeg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 69,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFD8FF",
+      "endianness": null,
+      "name": "Raw JPEG",
+      "note": "SOI marker at BOF, EOI marker at EOF"
+    },
+    {
+      "signatureID": 69,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "Raw JPEG",
+      "note": "SOI marker at BOF, EOI marker at EOF"
+    },
+    {
+      "signatureID": 697,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFD8FFED{2}50686F746F73686F7020332E30003842494D",
+      "endianness": null,
+      "name": "Photoshop JPEG",
+      "note": "BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0. \r\nEOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metadata seen after the end of image marker in sample files."
+    },
+    {
+      "signatureID": 697,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 16000,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "Photoshop JPEG",
+      "note": "BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0. \r\nEOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metadata seen after the end of image marker in sample files."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jpe",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpeg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jfif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jfi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 667,
+      "relatedFormatName": "JPEG File Interchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 668,
+      "relatedFormatName": "JPEG File Interchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 669,
+      "relatedFormatName": "JPEG File Interchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 671,
+      "relatedFormatName": "Still Picture Interchange File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 675,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 676,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 751,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1444,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2330,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    }
+  ]
+}

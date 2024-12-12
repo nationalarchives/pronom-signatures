@@ -1,0 +1,99 @@
+{
+  "fileFormatID": 755,
+  "formatName": "StarOffice Draw",
+  "version": "5.x",
+  "formatDescription": "StarDraw is part of StarOffice, a proprietary office suite. StarDraw a vector graphics editor. StarOffice originated in 1985 as StarWriter by StarDivision, which was acquired by Sun Microsystems in 1999. Sun was itself acquired by Oracle Corporation in 2010. StarOffice was known briefly as Oracle Open Office before being discontinued in 2011.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.stardivision.draw",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/401",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "sda",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "23120",
+      "description": "StarOffice Draw 5.x OLE2",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'Drawing'"
+                }
+              ],
+              "reference": "BOFoffset"
+            },
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'StarDraw 5.0'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "23125",
+      "description": "StarOffice Draw 5.x OLE2",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'draw_StarDraw_50'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

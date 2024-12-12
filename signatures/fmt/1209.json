@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2019,
+  "formatName": "COLLADA Digital Asset Exchange (DAE)",
+  "version": null,
+  "formatDescription": "The COLLADA (COLLAborative Design Activity) Digital Asset Exchange format is an open standard XML specification for 3D images and animations.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1209",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "model/vnd.collada+xml",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1587,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{8-64}3C434F4C4C414441",
+      "endianness": null,
+      "name": "COLLADA DAE",
+      "note": "BOF: '<?xml version=\"1.0\"' {8-64} '<COLLADA' - The PRONOM signature does not currently distinguish between different versions of the COLLADA DAE format. Please let the PRONOM team know if this is desirable. The COLLADA XML element contains both an xmlns attribute and a version attribute that can be read to determine the specific version."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dae",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

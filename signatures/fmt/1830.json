@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2682,
+  "formatName": "3D Studio (DOS) 2D/3D Loft Object File",
+  "version": null,
+  "formatDescription": "Lft is the 3D Studio (DOS) loft object format. The original 3D Studio product was created for the DOS platform by the Yost Group, and published by Autodesk. In 3D Studio, lofting is the process of making a 2D Shape into a 3D mesh.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/LFT",
+  "lastUpdatedDate": "22 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1830",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2168,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3D2D{2}0000",
+      "endianness": null,
+      "name": "3D Studio (DOS) 2D/3D Loft Object File",
+      "note": "BOF Absolute from beginning of file, magic bytes: =-{2}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lft",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

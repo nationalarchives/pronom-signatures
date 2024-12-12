@@ -1,0 +1,84 @@
+{
+  "fileFormatID": 776,
+  "formatName": "Windows Portable Executable",
+  "version": null,
+  "formatDescription": "A Windows Portable Executable (PE) is synonymous with a program or application that can potentially be run on Microsoft Windows. An executable is a file-format object that is compiled from source code files written in languages such as C, C++, Golang, or Rust among others. A PE is native to Windows and like other executables or programs, provided a means of distributing applications that performed a certain task or tasks for a specific operating system. Executables are compiled to a certain register width, e.g. 8-bit, 16-bit, 32-bit or 64-bit; which impacts the size of variables in memory, and may impact compatibilty on older or newer versions of an operating system, respectively. Executables might require external libraries or configuration to function and so the technical environment needed to run an executable should be documented and understood in order to preserve functionality over time and to protect future potential users of these files. The Windows Portable Executable format is used for the 'executable' component of a program, as well as external libraries such as dynamic link libraries (DLLs) other potential extensions are listed as '.acm, .ax, .cpl, .dll, .drv, .efi, .exe, .mui, .ocx, .scr, .sys, .tsp, .mun') (https://en.wikipedia.org/w/index.php?title=Portable_Executable&oldid=1182679182). Despite the name, PE files will not run on other operating systems such as MacOS and Linux. Application programs must be compiled to a specific operating system architecture to run on different environments, and PE files will have been compiled to a specific Windows architecture, e.g. 32-bit (fmt-899) or 64-bit (fmt-900).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively- https://learn.microsoft.com/en-us/windows/win32/debug/pe-format",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by Ross Spencer.",
+  "formatSourceDate": "17 Feb 2006",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Common Object File Format, COFF, EXE",
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.microsoft.portable-executable",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.windows-executable",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/411",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 198,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D5A*50450000",
+      "endianness": null,
+      "name": "Windows Portable Executable",
+      "note": "Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "exe",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dll",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sys",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1704,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1705,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 774,
+      "relatedFormatName": "MS-DOS Executable"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 775,
+      "relatedFormatName": "Windows New Executable"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "fileFormatID": 1160,
+  "formatName": "Microsoft Word for Windows",
+  "version": "2007 onwards",
+  "formatDescription": "From Microsoft Office 2007 onwards, the core output format of MS Word has been based on the Office Open XML (OOXML) file format. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. Further detail on OOXML can be found within fmt/189 - Microsoft Office Open XML. An alternative extension of .wbk refers to a backup file of a Word document, however there is no material or structural difference between a .wbk file and the .doc file it is a backup of.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/412",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "docx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wbk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2678,
+      "relatedFormatName": "DOCX Strict OOXML Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1389,
+      "relatedFormatName": "Microsoft Word Template"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1391,
+      "relatedFormatName": "Microsoft Word Macro-Enabled Document Template"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "1030",
+      "description": "Microsoft Word OOXML",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "32768",
+                  "sequence": "'ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml\"'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "ZIP",
+      "id": "1040",
+      "description": "Microsoft Word OOXML (little endian unicode)",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "32768",
+                  "sequence": "'C'00 'o'00 'n'00 't'00 'e'00 'n'00 't'00 'T'00 'y'00 'p'00 'e'00 '='00 '\"'00 'a'00 'p'00 'p'00 'l'00 'i'00 'c'00 'a'00 't'00 'i'00 'o'00 'n'00 '/'00 'v'00 'n'00 'd'00 '.'00 'o'00 'p'00 'e'00 'n'00 'x'00 'm'00 'l'00 'f'00 'o'00 'r'00 'm'00 'a'00 't'00 's'00 '-'00 'o'00 'f'00 'f'00 'i'00 'c'00 'e'00 'd'00 'o'00 'c'00 'u'00 'm'00 'e'00 'n'00 't'00 '.'00 'w'00 'o'00 'r'00 'd'00 'p'00 'r'00 'o'00 'c'00 'e'00 's'00 's'00 'i'00 'n'00 'g'00 'm'00 'l'00 '.'00 'd'00 'o'00 'c'00 'u'00 'm'00 'e'00 'n'00 't'00 '.'00 'm'00 'a'00 'i'00 'n'00 '+'00 'x'00 'm'00 'l'00 '\"'00 "
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "ZIP",
+      "id": "1050",
+      "description": "Microsoft Word OOXML (big endian unicode)",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "32768",
+                  "sequence": "00'C' 00'o' 00'n' 00't' 00'e' 00'n' 00't' 00'T' 00'y' 00'p' 00'e' 00'=' 00'\"' 00'a' 00'p' 00'p' 00'l' 00'i' 00'c' 00'a' 00't' 00'i' 00'o' 00'n' 00'/' 00'v' 00'n' 00'd' 00'.' 00'o' 00'p' 00'e' 00'n' 00'x' 00'm' 00'l' 00'f' 00'o' 00'r' 00'm' 00'a' 00't' 00's' 00'-' 00'o' 00'f' 00'f' 00'i' 00'c' 00'e' 00'd' 00'o' 00'c' 00'u' 00'm' 00'e' 00'n' 00't' 00'.' 00'w' 00'o' 00'r' 00'd' 00'p' 00'r' 00'o' 00'c' 00'e' 00's' 00's' 00'i' 00'n' 00'g' 00'm' 00'l' 00'.' 00'd' 00'o' 00'c' 00'u' 00'm' 00'e' 00'n' 00't' 00'.' 00'm' 00'a' 00'i' 00'n' 00'+' 00'x' 00'm' 00'l' 00'\"' "
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

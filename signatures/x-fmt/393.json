@@ -1,0 +1,83 @@
+{
+  "fileFormatID": 736,
+  "formatName": "WordPerfect for MS-DOS Document",
+  "version": "5.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": "05 May 1988",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.wordperfect",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/393",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 130,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FF575043{5}0A0000{2}0000",
+      "endianness": null,
+      "name": "WordPerfect 5.0",
+      "note": "Document Header (Version=0.0)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wp5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wpd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "w50",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2702,
+      "relatedFormatName": "WordPerfect Macro File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 737,
+      "relatedFormatName": "WordPerfect for MS-DOS/Windows Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1754,
+      "relatedFormatName": "WordPerfect"
+    }
+  ]
+}

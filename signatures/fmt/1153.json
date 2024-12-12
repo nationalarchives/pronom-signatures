@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1963,
+  "formatName": "Lightwright Show File",
+  "version": "3",
+  "formatDescription": "Lightwright is software created by John McKernon for the management of theatrical lighting data and paperwork.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 231,
+  "provenanceCompoundName": "New York Public Library / New York Public Library",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1153",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1535,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C57464F524D4154205633",
+      "endianness": null,
+      "name": "Lightwright 3",
+      "note": "BOF: LWFORMAT V3"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lw3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

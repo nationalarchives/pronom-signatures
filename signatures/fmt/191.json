@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 916,
+  "formatName": "Sony ARW RAW Image File",
+  "version": "1.x",
+  "formatDescription": "ARW is a raw image format produced by some makes of Sony cameras. The format is based upon TIFF.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Nov 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/191",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1508,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{0-512}534F4E59{0-2048}00B001000400000002",
+      "endianness": null,
+      "name": "Sony ARW 1.x",
+      "note": "TIFF Header{0-512}\"SONY\"{0-2048} Maker Note data adjusted for endianness: Sony 'FileFormat' Exif tag 0xB000, 0x0001=byte, 0x00000004=four times, 0x01 = SR2 format, 02= ARW 1.x, 03= ARW 2.x. We can distinguish between minor versions if requested. Sony Maker Note tags described at https://sno.phy.queensu.ca/~phil/exiftool/TagNames/Sony.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "arw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

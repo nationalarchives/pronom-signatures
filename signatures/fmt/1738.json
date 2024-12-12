@@ -1,0 +1,80 @@
+{
+  "fileFormatID": 2584,
+  "formatName": "UDF Disc Image",
+  "version": null,
+  "formatDescription": "UDF Disc Image is a format that stores contents and structure of an optical disc which can be transferred on the other media. It uses Universal Disk Format (UDF) file system developed for optical media by the Optical Storage Technology Association (OSTA). It is a portable format that is recognized by several operating systems, and considered to be a successor of ISO 9660 capable to manage read/write media in better capacity. UDF is used for computer data storage for a broad range of media, including DVDs and Blu-Ray disks. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Universal_Disk_Format\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml\r\n\r\nhttps://en.wikipedia.org/wiki/Optical_disc_image\r\n\r\nhttps://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for the BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "17 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1738",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2076,
+      "positionType": "Absolute from BOF",
+      "offset": 32768,
+      "maxOffset": 4096,
+      "byteSequence": "00424541303101{2041}004E535230(32|33)01",
+      "endianness": null,
+      "name": "UDF Disc Image",
+      "note": "BOF; Offset: 32768; Max Offset: 36864; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "toast",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "iso",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cdr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2585,
+      "relatedFormatName": "UDF-ISO 9660 Bridge Disc"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2605,
+      "relatedFormatName": "Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2585,
+      "relatedFormatName": "UDF-ISO 9660 Bridge Disc"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1255,
+      "relatedFormatName": "ISO 9660 Disk Image File"
+    }
+  ]
+}

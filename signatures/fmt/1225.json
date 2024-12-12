@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2035,
+  "formatName": "PaperPort MAX",
+  "version": "5-7",
+  "formatDescription": "MAX was the native image format of earlier versions of the PaperPort document management software. Although this has been subsequently superseded by PDF, newer versions retain the ability to read, but not write MAX files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Feb 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1225",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1603,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "566947456D1A",
+      "endianness": null,
+      "name": "PaperPort MAX 5-7",
+      "note": "BOF: 'ViGEm' 0x1A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "max",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

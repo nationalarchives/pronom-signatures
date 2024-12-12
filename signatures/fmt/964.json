@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1769,
+  "formatName": "Final Draft Document",
+  "version": "5-7",
+  "formatDescription": "Final Draft is screenwriting software for writing and formatting screenplays. This entry concerns the native file format of versions 5 through 7.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Mar 2023",
+  "formatSourceID": 217,
+  "provenanceCompoundName": "Hull History Centre / Hull History Centre",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/964",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1328,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FDFDFDFD{12-64}46696E616C2044726166742C20496E63",
+      "endianness": null,
+      "name": "Final Draft 5-7",
+      "note": "BOF: 0xFDFDFDFD {12-64} string 'Final Draft, Inc'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fdr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2697,
+      "relatedFormatName": "Final Draft Document"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "fileFormatID": 723,
+  "formatName": "Drawing Interchange File Format (ASCII)",
+  "version": "R14",
+  "formatDescription": "ASCII DXF format is the ASCII encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. ASCII DXF version 14 is the version of the format associated with Release 14 of the AutoCAD family of software products.",
+  "releaseDate": "01 Feb 1997",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "ASCII DXF (R14)",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": "DXF",
+  "identifiers": [
+    {
+      "identifierText": "fmt/77",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.dxf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 112,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "30(0D0A|0A|0D)53454354494F4E(0D0A|0A|0D)202032(0D0A|0A|0D)484541444552(0D0A|0A|0D)*39(0D0A|0A|0D)2441434144564552(0D0A|0A|0D)202031(0D0A|0A|0D)414331303134*30(0D0A|0A|0D)454E44534543(0D0A|0A|0D)",
+      "endianness": null,
+      "name": "Drawing Interchange File Format R14",
+      "note": "Header section with $ACADVER group code (AC1014), EOF marker"
+    },
+    {
+      "signatureID": 112,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 5,
+      "byteSequence": "30(0D0A|0D|0A)454F46",
+      "endianness": null,
+      "name": "Drawing Interchange File Format R14",
+      "note": "Header section with $ACADVER group code (AC1014), EOF marker"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dxf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 742,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 707,
+      "relatedFormatName": "AutoCAD Drawing"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 766,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 724,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 722,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    }
+  ]
+}

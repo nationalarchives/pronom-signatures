@@ -1,0 +1,146 @@
+{
+  "fileFormatID": 941,
+  "formatName": "Microsoft Powerpoint for Windows",
+  "version": "2007 onwards",
+  "formatDescription": "From Microsoft Office 2007 onwards, the core output format of MS Powerpoint has been based on the Office Open XML (OOXML) file format. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. Further detail on OOXML can be found within fmt/189 - Microsoft Office Open XML.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Apr 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "28 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/215",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pptx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1311,
+      "relatedFormatName": "Microsoft Office Theme"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2681,
+      "relatedFormatName": "PPTX Strict OOXML Presentation"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1428,
+      "relatedFormatName": "Microsoft PowerPoint Show"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1429,
+      "relatedFormatName": "Microsoft PowerPoint Macro-Enabled Show"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1430,
+      "relatedFormatName": "Microsoft PowerPoint Template"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1431,
+      "relatedFormatName": "Microsoft PowerPoint Macro-Enabled Template"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1432,
+      "relatedFormatName": "Microsoft PowerPoint Macro-Enabled Add-In"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1436,
+      "relatedFormatName": "Microsoft PowerPoint Macro-Enabled Slide"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "3010",
+      "description": "Microsoft Powerpoint 2007 OOXML",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'ContentType=\"application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml\"'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "ZIP",
+      "id": "3020",
+      "description": "Microsoft Powerpoint 2007 OOXML little endian",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'C'00 'o'00 'n'00 't'00 'e'00 'n'00 't'00 'T'00 'y'00 'p'00 'e'00 '='00 '\"'00 'a'00 'p'00 'p'00 'l'00 'i'00 'c'00 'a'00 't'00 'i'00 'o'00 'n'00 '/'00 'v'00 'n'00 'd'00 '.'00 'o'00 'p'00 'e'00 'n'00 'x'00 'm'00 'l'00 'f'00 'o'00 'r'00 'm'00 'a'00 't'00 's'00 '-'00 'o'00 'f'00 'f'00 'i'00 'c'00 'e'00 'd'00 'o'00 'c'00 'u'00 'm'00 'e'00 'n'00 't'00 '.'00 'p'00 'r'00 'e'00 's'00 'e'00 'n'00 't'00 'a'00 't'00 'i'00 'o'00 'n'00 'm'00 'l'00 '.'00 'p'00 'r'00 'e'00 's'00 'e'00 'n'00 't'00 'a'00 't'00 'i'00 'o'00 'n'00 '.'00 'm'00 'a'00 'i'00 'n'00 '+'00 'x'00 'm'00 'l'00 '\"'00 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "ZIP",
+      "id": "3030",
+      "description": "Microsoft Powerpoint 2007 OOXML big endian",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "sequence": "00'C' 00'o' 00'n' 00't' 00'e' 00'n' 00't' 00'T' 00'y' 00'p' 00'e' 00'=' 00'\"' 00'a' 00'p' 00'p' 00'l' 00'i' 00'c' 00'a' 00't' 00'i' 00'o' 00'n' 00'/' 00'v' 00'n' 00'd' 00'.' 00'o' 00'p' 00'e' 00'n' 00'x' 00'm' 00'l' 00'f' 00'o' 00'r' 00'm' 00'a' 00't' 00's' 00'-' 00'o' 00'f' 00'f' 00'i' 00'c' 00'e' 00'd' 00'o' 00'c' 00'u' 00'm' 00'e' 00'n' 00't' 00'.' 00'p' 00'r' 00'e' 00's' 00'e' 00'n' 00't' 00'a' 00't' 00'i' 00'o' 00'n' 00'm' 00'l' 00'.' 00'p' 00'r' 00'e' 00's' 00'e' 00'n' 00't' 00'a' 00't' 00'i' 00'o' 00'n' 00'.' 00'm' 00'a' 00'i' 00'n' 00'+' 00'x' 00'm' 00'l' 00'\"' "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2125,
+  "formatName": "LocoScript Document",
+  "version": "4",
+  "formatDescription": "The LocoScript 4 Document format is a proprietary word processing format produced by LocoScript 4, a word processor released in 1996 for Amstrad PCWs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.seasip.info/Unix/Joyce/ls1frm.html",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 184,
+  "provenanceCompoundName": "British Library / British Library",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1307",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1682,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4A4F590106",
+      "endianness": null,
+      "name": "LocoScript Document Version 4",
+      "note": "BOF: Magic Bytes 'JOY..' with the last 06 byte specific to file version."
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

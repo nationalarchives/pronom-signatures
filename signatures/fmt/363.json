@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 1110,
+  "formatName": "SEG Y Data Exchange Format",
+  "version": "Generic",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Aug 2011",
+  "formatSourceID": 170,
+  "provenanceCompoundName": "Archaeology Data Service / Archaeology Data Service",
+  "formatProvenance": "Submitted by Archaeology Data Service",
+  "formatSourceDate": "19 Aug 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/363",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 532,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 320,
+      "byteSequence": "40404040404040404040404040404040404040404040",
+      "endianness": null,
+      "name": "SEG Y Data Exchange Format (Generic 1)",
+      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
+    },
+    {
+      "signatureID": 532,
+      "positionType": "Absolute from BOF",
+      "offset": 3200,
+      "maxOffset": null,
+      "byteSequence": "0000{15}[!00]{3}[!00]{2}(0100|00[01:08])",
+      "endianness": null,
+      "name": "SEG Y Data Exchange Format (Generic 1)",
+      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
+    },
+    {
+      "signatureID": 533,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 320,
+      "byteSequence": "40404040404040404040404040404040404040404040",
+      "endianness": null,
+      "name": "SEG Y Data Exchange Format (Generic 2)",
+      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
+    },
+    {
+      "signatureID": 533,
+      "positionType": "Absolute from BOF",
+      "offset": 3600,
+      "maxOffset": null,
+      "byteSequence": "0000{15}[!00]{3}[!00]{2}(0100|00[01:08])",
+      "endianness": null,
+      "name": "SEG Y Data Exchange Format (Generic 2)",
+      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "segy",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

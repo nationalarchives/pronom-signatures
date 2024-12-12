@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2304,
+  "formatName": "Micrografx In-A-Vision Drawing",
+  "version": null,
+  "formatDescription": "Micrografx In-A-Vision Drawing is a vector format which was a precursor to Corel Designer.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1481",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1853,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01FF010403060001000401FFFFFF0020",
+      "endianness": null,
+      "name": "Micrografx In-A-Vision Drawing",
+      "note": "BOF: (hex values) 01FF0104 03060001 000401FF FFFF0020"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

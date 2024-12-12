@@ -1,0 +1,106 @@
+{
+  "fileFormatID": 786,
+  "formatName": "Waveform Audio (WAVEFORMATEXTENSIBLE)",
+  "version": null,
+  "formatDescription": "Waveform Audio (WAVEFORMATEXTENSION) is an extended version of the Waveform Audio file format, and was developed by Microsoft. It is related to the Waveform Audio (WAVEFORMATEX) format, but is an even more extended version.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Aug 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "audio/x-wav",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/143",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 608,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "52494646{4}57415645666D7420{4}FEFF{38-*}64617461",
+      "endianness": "Big-endian",
+      "name": "Waveform Audio (WAVEFORMATEXTENSIBLE)",
+      "note": "RIFF header, WAVE ID, Format chunk, chunk length GTE 40, wformat Tag = decimal 65534 = 0xFEFF and Data chunk"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wave",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 656,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 735,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1314,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1508,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1509,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1510,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 843,
+  "formatName": "CATIA Model",
+  "version": "4",
+  "formatDescription": "CATIA is a 3D modelling software created by Dassault Syst\u00e8mes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 131,
+  "provenanceCompoundName": "Digital Library Research Group / MIT Libraries",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched. 04/2024 (v.118) changed first range of bytes from {2024} to *. Submitted by the J. Paul Getty Trust.",
+  "formatSourceDate": "06 Apr 2009",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "",
+      "identifierType": "Other"
+    },
+    {
+      "identifierText": "x-fmt/436",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 344,
+      "positionType": "Absolute from BOF",
+      "offset": 80,
+      "maxOffset": 0,
+      "byteSequence": "4341544941202020*434154494120534F4C5554494F4E53205634{6}52454C4541534520",
+      "endianness": null,
+      "name": "CATIA Model V4",
+      "note": "BOF offset 80, magic bytes: CATIA followed by three spaces*CATIA SOLUTIONS V4{6}RELEASE followed by one space"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mod",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "model",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

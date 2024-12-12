@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1446,
+  "formatName": "Microsoft Expression Media",
+  "version": "2",
+  "formatDescription": "Proprietary cataloguing program to manage photo and video assets.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jul 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jul 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/647",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 975,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "30323569",
+      "endianness": null,
+      "name": "Microsoft Expression Media 2",
+      "note": "BOF: 025i (Offset 4)                                                                                                                              EOF: Svar{8-54}025i(Max Offset 8)"
+    },
+    {
+      "signatureID": 975,
+      "positionType": "Absolute from EOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "53566172{8-54}30323569",
+      "endianness": null,
+      "name": "Microsoft Expression Media 2",
+      "note": "BOF: 025i (Offset 4)                                                                                                                              EOF: Svar{8-54}025i(Max Offset 8)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ivc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1447,
+      "relatedFormatName": "Media View Pro"
+    }
+  ]
+}

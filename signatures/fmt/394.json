@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1142,
+  "formatName": "DS_Store File (MAC)",
+  "version": null,
+  "formatDescription": "This format is native to MacOS where .DS_Store files are hidden files storing attributes of their containing folder. These can include view options, icon positions, and other visual information. They are created and maintained by the Finder application in every folder it accesses. Their functions are similar to those of desktop.ini files in Windows.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/.DS_Store",
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": "04/2024 (v.118)- Description created. Submitted by Archives nationales (French National Archives) as part of PRONOM Research Week 2023.",
+  "formatSourceDate": "16 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/394",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 635,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "01427564310000",
+      "endianness": null,
+      "name": "DS_Store",
+      "note": null
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ds_store",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

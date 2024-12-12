@@ -1,0 +1,31 @@
+{
+  "fileFormatID": 194,
+  "formatName": "Audio Interchange File Format",
+  "version": "1.3",
+  "formatDescription": "The Audio Interchange File Format (Audio IFF) was developed by Apple Computer, Inc., and provides a standard for storing sampled sounds. The format allows for the storage of monaural or multichannel sampled sounds at a variety of sample rates and sample widths.  Audio IFF was designed to serve primarily as an interchange format. Audio IFF conforms to the \"EA IFF 85\" Standard for Interchange Format Files developed by Electronic Arts. The audio data in a standard AIFF file is uncompressed pulse-code modulation (PCM). There is also a compressed variant of AIFF known as AIFF-C or AIFC, with various defined compression codecs. File specifications available at http://www-mmsp.ece.mcgill.ca/documents/audioformats/aiff/Docs/AIFF-1.3.pdf\r\n\r\nThis format is currently deprecated in favour of fmt/414 in order to remove a multiple identification conflict. Differences between version 1.2 and 1.3 relate to Apple II-specific application implementation. See the full specification for details.",
+  "releaseDate": "04 Jan 1989",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/135",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": []
+}

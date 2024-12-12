@@ -1,0 +1,66 @@
+{
+  "fileFormatID": 1878,
+  "formatName": "Apple Disk Image",
+  "version": null,
+  "formatDescription": "The Apple Disk Image is a disk image format commonly used by the macOS operating system, and is distinct from the earlier \tApple Disk Copy Image 4.2. Please contact the PRONOM team if you are able to provide a more thorough description of this format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified from null to 0. Internally researched.",
+  "formatSourceDate": "17 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-apple-diskimage",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.apple.disk-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1071",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1449,
+      "positionType": "Absolute from EOF",
+      "offset": 500,
+      "maxOffset": 0,
+      "byteSequence": "6B6F6C790000000400000200",
+      "endianness": null,
+      "name": "Apple Disk Image",
+      "note": "EOF, 512 offset - 'koly' block header, 4 byte version (0x00000004), 4 byte size of header (0x00000200)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 388,
+      "relatedFormatName": "BZIP2 Compressed Archive"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2586,
+      "relatedFormatName": "Apple Partition Map Disk Image"
+    }
+  ]
+}

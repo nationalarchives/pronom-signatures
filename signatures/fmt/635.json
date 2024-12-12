@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1434,
+  "formatName": "CPIO",
+  "version": null,
+  "formatDescription": "Cpio is a general file archiver utility and its associated file format, generally found in UNIX environments.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/635",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 960,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "C771",
+      "endianness": null,
+      "name": "CPIO",
+      "note": "BOF - value of 70707 in octal = 71C7 - reversed for endianness"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cpio",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

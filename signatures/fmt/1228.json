@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 2040,
+  "formatName": "NMRPipe",
+  "version": null,
+  "formatDescription": "NMRPipe is a suite of tools for Nuclear Magnetic Resonance (NMR) spectral reconstruction.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Feb 2019",
+  "formatSourceID": 240,
+  "provenanceCompoundName": "University of Illinois / University of Illinois",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Feb 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1228",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1607,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00000000898888CD7B141640",
+      "endianness": null,
+      "name": "NMRPipe Big Endian IEEE Float",
+      "note": "0x00000000898888cd7b141640"
+    },
+    {
+      "signatureID": 1608,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000000004F6EEEEF4016147B",
+      "endianness": null,
+      "name": "NMRPipe Little Endian IEEE Float",
+      "note": "0x000000004F6EEEEF4016147B"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dat",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pipe",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ft2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ft3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

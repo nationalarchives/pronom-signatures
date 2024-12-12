@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 1867,
+  "formatName": "Phase One IIQ Raw Image",
+  "version": null,
+  "formatDescription": "Phase One is a camera manufacturer and Capture One is the accompanying software. This format contains the raw image data captured by the camera's image sensor. IIQ stands for Intelligent Image Quality, a compressed version of the raw image data captured by Phase One camera equipment. IIQ has a choice of a 'Large' (lossless) or 'Small' (lossy) options. With further research it may be possible to distinguish between these outputs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Jul 2017",
+  "formatSourceID": 227,
+  "provenanceCompoundName": "Historic Environment Scotland / Historic Environment Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1061",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1432,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{4}4949494943776152",
+      "endianness": null,
+      "name": "Phase One IIQ Raw",
+      "note": "BOF: II*.{4}IIIICwaR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iiq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 673,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1995,
+  "formatName": "Apple Icon Image Format",
+  "version": null,
+  "formatDescription": "The Apple Icon Image Format is the icon format used by Apple's Mac family of Operating Systems.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "09 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1185",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1566,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "69636E73{4}(49434F4E|49434E23|69636D23|69636D34|69636D38|69637323|69637334|69637338|69733332|73386D6B|69636C34|69636C38|696C3332|6C386D6B|69636823|69636834|69636838|69683332|68386D6B|69743332|74386D6B|69637034|69637035|69637036|69633037|69633038|69633039|69633130|69633131|69633132|69633133|544F4320|69636E56)",
+      "endianness": null,
+      "name": "Apple Icon Image Format",
+      "note": "BOF: icns{4}(ICON|ICN#|icm#|icm4|icm8|ics#|ics4|ics8|is32|s8mk|icl4|icl8|il32|l8mk|ich#|ich4|ich8|ih32|h8mk|it32|t8mk|icp4|icp5|icp6|ic07|ic08|ic09|ic10|ic11|ic12|ic13|TOC |icnV) - This list is based on the list found on Wikipedia and may need to expand over time: https://en.wikipedia.org/wiki/Apple_Icon_Image_format"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "icns",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

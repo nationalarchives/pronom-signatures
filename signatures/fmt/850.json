@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1651,
+  "formatName": "NuFile Exchange Archival Library",
+  "version": null,
+  "formatDescription": "NuFX is an archive package format originally developed for the Apple II by Andrew Nicholas. Details of the format can be found here: http://nulib.com/library/FTN.e08002.htm while a library for handling the format can be found here: http://nulib.com/",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "ShrinkIt (NuFX) document",
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/850",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1209,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4EF546E96CE5",
+      "endianness": null,
+      "name": "NuFX",
+      "note": "4EF546E96CE5"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shk",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sdk",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bxy",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

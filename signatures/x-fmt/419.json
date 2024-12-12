@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 806,
+  "formatName": "DVD data file and backup data file",
+  "version": null,
+  "formatDescription": "IFO files contain DVD-Video Disc Information including headers that tell the DVD player what screen to show at startup, where each chapter starts, where audio tracks are located on the disc, etc. IFO files are accompanied by BUP files which are backups of the IFO files and therefore completely identical.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/419",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 716,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "445644564944454F2D56(4D47|5453)",
+      "endianness": null,
+      "name": "IFO/BUP",
+      "note": "BOF in ASCII 'DVDVIDEO-VTS' (VTS = Video Title Set) or 'DVDVIDEO-VMG' (VMG= Video Manager)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ifo",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bup",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

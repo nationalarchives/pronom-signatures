@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1534,
+  "formatName": "Dolby Digital AC-3",
+  "version": null,
+  "formatDescription": "AC-3 (backronymed to Audio Codec 3 or Advanced Codec 3) is the common version of Dolby Laboratories' Dolby Digital audio compression technology.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/ac3",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/735",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1062,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0B77",
+      "endianness": null,
+      "name": "Dolby Digital AC-3",
+      "note": "The file consists of repeated frames of audio data. Each frame begins with the 0x0B77 syncword. The size of the frame is determined by the nominal bit rate and sample rate as per Table 5.18 of the Digital Audio Compression Standard specification http://www.atsc.org/cms/standards/a_52-2010.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ac3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

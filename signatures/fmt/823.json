@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1623,
+  "formatName": "P00 C64 Image Format",
+  "version": null,
+  "formatDescription": "P00 is a Commodore 64 emulation format created for use with the PC64 emulator. The extension is normally 'Pxx', where the xx represents a two digit number corresponding to an incremented extension (beginning with P00) where more than one otherwise identically named P00 file exists in a single directory. For example, five files each called 'file' in a single dircetory would have the extensions p00, p01, p02, p03 and p04.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/823",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1180,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "43363446696C6500{16}00",
+      "endianness": null,
+      "name": "P00 C64 Image Format",
+      "note": "C64File.{16}."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "p00",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p01",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p02",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p03",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p04",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

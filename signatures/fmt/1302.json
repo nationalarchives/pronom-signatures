@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2120,
+  "formatName": "PrintMaster Gold Project",
+  "version": "1",
+  "formatDescription": "PrintMaster is a design and printing application. Version 1 was published by MicroLogic Software. The format has a range of extensions dependent on the type of project being created.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1302",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1677,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4C53444F43",
+      "endianness": null,
+      "name": "PrintMaster Gold Project 1",
+      "note": "BOF: MLSDOC"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ban",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cal",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "car",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "let",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sig",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

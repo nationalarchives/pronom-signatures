@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 487,
+  "formatName": "Harvard Graphics Show",
+  "version": "2.0",
+  "formatDescription": "Harvard Graphics (originally named Harvard Presentation Graphics) was a presentation and vector graphics program, used mainly on the MS-DOS platform. This entry was previous called 'Harvard Graphics Presentation', however the internal and external signatures related to the 'Show' format. Entries for Harvard Graphics Presentation have been created at fmt/1491 and fmt/1492.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/324",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 453,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "53484F57",
+      "endianness": null,
+      "name": "Harvard Graphics Show 2.0",
+      "note": "Header ASCII: SHOW"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

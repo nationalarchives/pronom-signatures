@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 634,
+  "formatName": "Scalable Vector Graphics",
+  "version": "1.0",
+  "formatDescription": "SVG is a language for describing two-dimensional graphics in XML. SVG allows for three types of graphic objects: vector graphic shapes (e.g., paths consisting of straight lines and curves), images and text. Graphical objects can be grouped, styled, transformed and composited into previously rendered objects. The feature set includes nested transformations, clipping paths, alpha masks, filter effects and template objects. SVG drawings can be interactive and dynamic. Animations can be defined and triggered either declaratively (i.e., by embedding SVG animation elements in SVG content) or via scripting.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Specifications link: http://www.w3.org/TR/2001/REC-SVG-20010904",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "SVG (1.0)",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/91",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/svg+xml",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 24,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*3C737667*7376673E",
+      "endianness": null,
+      "name": "SVG 1.0",
+      "note": "Including <svg></svg> fragments"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "svg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 635,
+      "relatedFormatName": "Scalable Vector Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1191,
+      "relatedFormatName": "Scalable Vector Graphics Tiny"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 635,
+      "relatedFormatName": "Scalable Vector Graphics"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1191,
+      "relatedFormatName": "Scalable Vector Graphics Tiny"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2869,
+  "formatName": "WinFax Fax Image",
+  "version": null,
+  "formatDescription": "File created by WinFax (including WinFax PRO), a program used to send and receive faxes in Windows; contains an electronic copy of a fax sent with a computer modem; used to digitally store fax information over the Internet.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/WinFax_Fax_Image",
+  "lastUpdatedDate": "19 Apr 2024",
+  "formatSourceID": 247,
+  "provenanceCompoundName": "National Archives of Australia / National Archives of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1995",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2350,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0B23{1}C006",
+      "endianness": null,
+      "name": "WinFax Fax Image",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0B23{1}C006"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fxr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fxm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fxs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

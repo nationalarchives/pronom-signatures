@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2673,
+  "formatName": "Audacity Audio Block File",
+  "version": null,
+  "formatDescription": "Audacity is free and open source audio editing, recording and post-processing software. The first version (0.8) was released in 2000 by Dominic Mazzoni and Roger Dannenberg at Carnegie Mellon University, Pennsylvania. It remains available today. An Audacity project consists of an aup project file, which is the name of the project followed by .aup . Next to the .aup file is a folder containing many .au files, each one being a segment of audio data. The aup file describes how audacity links the au files together to form the tracks in the project.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://manual.audacityteam.org/man/audacity_2.html#aup",
+  "lastUpdatedDate": "07 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1822",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2162,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "(2E736E64|646E732E){20}4175646163697479426C6F636B46696C65",
+      "endianness": null,
+      "name": "Audacity Audio Block File",
+      "note": "BOF Absolute from beginning of file, magic bytes: .snd|dns.{20}AudacityBlockFile"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "au",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

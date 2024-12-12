@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 1104,
+  "formatName": "Internet Data Query File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jun 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Jun 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/358",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 527,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3424,
+      "byteSequence": "5B51756572795D*(43|63)69(53|73)636F70653D",
+      "endianness": null,
+      "name": "Internet Data Query file",
+      "note": "The .idq file is divided into two sections, the names section and the query section. The names section is optional, but the query section is mandatory. The query section begins with a [Query] tag, and is followed by a set of parameters. The four mandatory parameters are \"CiScope=/\" \"CiColumns=\" \"CiRestriction=\" \"CiTemplate=\", which can appear in any order within the file after the [Query] tag"
+    },
+    {
+      "signatureID": 527,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3424,
+      "byteSequence": "5B51756572795D*(43|63)69(43|63)6F6C756D6E733D",
+      "endianness": null,
+      "name": "Internet Data Query file",
+      "note": "The .idq file is divided into two sections, the names section and the query section. The names section is optional, but the query section is mandatory. The query section begins with a [Query] tag, and is followed by a set of parameters. The four mandatory parameters are \"CiScope=/\" \"CiColumns=\" \"CiRestriction=\" \"CiTemplate=\", which can appear in any order within the file after the [Query] tag"
+    },
+    {
+      "signatureID": 527,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3424,
+      "byteSequence": "5B51756572795D*(43|63)69(54|74)656D706C6174653D2F",
+      "endianness": null,
+      "name": "Internet Data Query file",
+      "note": "The .idq file is divided into two sections, the names section and the query section. The names section is optional, but the query section is mandatory. The query section begins with a [Query] tag, and is followed by a set of parameters. The four mandatory parameters are \"CiScope=/\" \"CiColumns=\" \"CiRestriction=\" \"CiTemplate=\", which can appear in any order within the file after the [Query] tag"
+    },
+    {
+      "signatureID": 527,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3424,
+      "byteSequence": "5B51756572795D*(43|63)69(52|72)65737472696374696F6E3D{0-1}25",
+      "endianness": null,
+      "name": "Internet Data Query file",
+      "note": "The .idq file is divided into two sections, the names section and the query section. The names section is optional, but the query section is mandatory. The query section begins with a [Query] tag, and is followed by a set of parameters. The four mandatory parameters are \"CiScope=/\" \"CiColumns=\" \"CiRestriction=\" \"CiTemplate=\", which can appear in any order within the file after the [Query] tag"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "idq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

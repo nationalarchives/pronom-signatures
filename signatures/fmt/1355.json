@@ -1,0 +1,97 @@
+{
+  "fileFormatID": 2173,
+  "formatName": "WARC",
+  "version": "1.0",
+  "formatDescription": "The WARC (Web ARChive) file format offers a convention for concatenating multiple resource records (data objects), each consisting of a set of simple text headers and an arbitrary data block into one long file. The WARC format is an extension of the ARC file format (ARC) that has traditionally been used to store \"web crawls\" as sequences of content blocks harvested from the World Wide Web (\u2026)\r\nBesides the primary content recorded in ARCs, the extended WARC format accommodates related secondary content, such as assigned metadata, abbreviated duplicate detection events, later-date transformations, and segmentation of large resources\u201d. The WARC format defines no internal compression, however the standard recommends the GZIP format with \"deflate\" where compression is desirable.\r\nWARC format has been written by the members of the IIPC (http://www.netpreserve.org/) grouped within the ISO/TC46/SC4/WG12.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Jan 2020",
+  "formatSourceID": 232,
+  "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Web ARChive, ISO 28500-2009",
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/warc",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1355",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1738,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4096,
+      "byteSequence": "574152432F312E300D0A{0-512}(574152432D5265636F72642D4944|436F6E74656E742D4C656E677468|574152432D54797065|574152432D44617465)",
+      "endianness": "Little-endian",
+      "name": "WARC 1.0",
+      "note": "Matching WARC header. Header: WARC/1.0 CRLF. Then either 'WARC-Record-ID', 'WARC-Date',  'WARC-Type', 'Content-Length' all madatory fields that can appear in any order."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "warc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 639,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 640,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 644,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1029,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1258,
+      "relatedFormatName": "Hypertext Markup Language"
+    }
+  ]
+}

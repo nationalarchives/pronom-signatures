@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2206,
+  "formatName": "Muvee Reveal Project File",
+  "version": null,
+  "formatDescription": "RVL is the native file format of the video editing software Muvee Reveal, a successor product to Muvee autoProducer.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1388",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1764,
+      "positionType": "Absolute from BOF",
+      "offset": 40,
+      "maxOffset": 168,
+      "byteSequence": "3C6D7576656550726F6A6563743E3C76",
+      "endianness": null,
+      "name": "Muvee Reveal RVL",
+      "note": "BOF Offset 40-168 \"<muveeProject><v\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rvl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

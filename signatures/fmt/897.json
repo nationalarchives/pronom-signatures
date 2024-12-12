@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 1701,
+  "formatName": "Compressed MusicXML",
+  "version": null,
+  "formatDescription": "This is a ZIP container version of the MusicXML format, an XML based format. It was designed for sharing sheet music files between applications, and for archiving sheet music files for use in the future.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "The container holds the Music XML file, which has the same file name as the MXL container. Variable file names cannot currently be represented within the PRONOM container signature file.",
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.recordare.musicxml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/897",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mxl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

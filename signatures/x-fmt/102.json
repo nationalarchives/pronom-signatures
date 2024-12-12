@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 150,
+  "formatName": "3D Studio (DOS) 2D Shape File",
+  "version": null,
+  "formatDescription": "SHP is the 3D Studio (DOS) shape file format. 3D Studio DOS was the original 3D Studio product, and was created for the DOS platform by the Yost Group, and published by Autodesk.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/SHP",
+  "lastUpdatedDate": "23 Feb 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/102",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2167,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2D2D{2}0000",
+      "endianness": null,
+      "name": "3D Studio (DOS) 2D Shape File",
+      "note": "BOF Absolute from beginning of file, magic bytes: --{2}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

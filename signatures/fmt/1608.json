@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2435,
+  "formatName": "Packed-Ice True Colour Picture [Spooky Sprites] (Atari Falcon)",
+  "version": null,
+  "formatDescription": "True Colour Picture files are part of raster image graphics associated with Spooky Sprites, a graphics editor for Atari Falcon. This particular record identifies True Colour Picture files that were compressed using Packed-Ice, a file compression tool used on Atari computers. Packed-Ice was developed by pseudonym \"Axe of Delight\", later changed to \"Axe of Superior\". There are several different versions of this compression tool. The files compressed using Packed-Ice program, start with ASCII \"Ice!\", or \"ICE!\", followed by a gap between 4-11 characters and then the magic bytes of the original file format. \r\n\r\nThe Atari Falcon030 (usually shortened to Atari Falcon), released in 1992, was the final personal computer product from Atari Corporation. A high-end model of the Atari ST line, the machine is based on a Motorola 68030 CPU and a Motorola 56000 digital signal processor, a feature which distinguishes it from most other microcomputers of the era. It included a VIDEL programmable graphics system which greatly improved graphics capabilities.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Spooky_Sprites\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Pack-Ice\r\n\r\nhttps://mikro.naprvyraz.sk/docs/Coding/1/PACKING.TXT\r\n\r\nhttps://en.wikipedia.org/wiki/Atari_Falcon",
+  "lastUpdatedDate": "24 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1608",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1943,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49434521{4-11}7472753F",
+      "endianness": null,
+      "name": "Packed-Ice True Colour Picture [Spooky Sprites] (Atari Falcon)",
+      "note": "BOF; Offset: 0; Magic Bytes: 'ICE! {4-11} tru?'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "trp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tru",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2434,
+      "relatedFormatName": "True Colour Picture [Spooky Sprites] (Atari Falcon)"
+    }
+  ]
+}

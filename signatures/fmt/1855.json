@@ -1,0 +1,87 @@
+{
+  "fileFormatID": 2709,
+  "formatName": "Open Media Framework Interchange",
+  "version": "2.0",
+  "formatDescription": "The Open Media Framework Interchange (OMF Interchange) is a standard format for the interchange of digital media, designed to allow interchange between software applications and platforms. The format includes rules for identifying the original sources of the digital media data, and it can encapsulate both compressed and uncompressed digital media data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.aes.org/e-lib/browse.cfm?elib=6134\r\n\r\nhttp://fileformats.archiveteam.org/wiki/OMF_Interchange\r\n\r\nhttps://en.wikipedia.org/wiki/Open_Media_Framework_Interchange#:~:text=Open%20Media%20Framework%20(OMF)%20or,media%20across%20applications%20and%20platforms.",
+  "lastUpdatedDate": "25 Apr 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Apr 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1855",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q1459344",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2200,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "4F4D46493A4F4F424A3A4F626A436C617373",
+      "endianness": null,
+      "name": "Open Media Framework Interchange 2.0 (sig 1)",
+      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
+    },
+    {
+      "signatureID": 2200,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 24,
+      "byteSequence": "A4434DA5486472D7{4}(0200|0002)",
+      "endianness": null,
+      "name": "Open Media Framework Interchange 2.0 (sig 1)",
+      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
+    },
+    {
+      "signatureID": 2201,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "4F4D46493A4F4F424A3A4F626A436C617373",
+      "endianness": null,
+      "name": "Open Media Framework Interchange 2.0 (sig 2)",
+      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
+    },
+    {
+      "signatureID": 2201,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 24,
+      "byteSequence": "A4434DA5486472D7{4}(0200|0002)",
+      "endianness": null,
+      "name": "Open Media Framework Interchange 2.0 (sig 2)",
+      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "omf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2707,
+      "relatedFormatName": "Open Media Framework Interchange"
+    }
+  ]
+}

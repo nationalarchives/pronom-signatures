@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2477,
+  "formatName": "Bayesian Interchange Format File",
+  "version": null,
+  "formatDescription": "Bayesian Interchange files store the structure and probability tables for a Bayesian network, allowing for interchange of said networks between people, and facilitating comparison and discussion of research and other results.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "\thttp://www.cs.washington.edu/dm/vfml/appendixes/bif.htm",
+  "lastUpdatedDate": "15 Mar 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1650",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "bif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

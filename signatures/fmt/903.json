@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1708,
+  "formatName": "Blender 3D",
+  "version": "64 bit",
+  "formatDescription": "Blender is the native format of Blender, a free and open source 3D animation application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/903",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1253,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "424C454E4445522D(56|76)",
+      "endianness": null,
+      "name": "Blender 3D 64-bit",
+      "note": "BLENDER-v|V - v is little endian, V is big endian"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "blend",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

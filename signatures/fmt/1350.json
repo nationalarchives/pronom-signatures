@@ -1,0 +1,79 @@
+{
+  "fileFormatID": 2168,
+  "formatName": "Autodesk Revit Project File",
+  "version": "2019",
+  "formatDescription": "Autodesk Revit is 3D modeling software. RTE (template) files and RVT (project) files are actual Revit projects. RFA (family) files and RFT (family template) files are family files that can either be loaded into a project or saved externally.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1350",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "rvt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rte",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2169,
+      "relatedFormatName": "Autodesk Revit Family File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2164,
+      "relatedFormatName": "Autodesk Revit File"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "43040",
+      "description": "AutoDesk Revit Project File 2019",
+      "files": [
+        {
+          "path": "Formats"
+        },
+        {
+          "path": "BasicFileInfo",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "41 00 75 00 74 00 68 00 6F 00 72 00 3A 00 20 00 41 00 75 00 74 00 6F 00 64 00 65 00 73 00 6B 00 20 00 52 00 65 00 76 00 69 00 74 00 0D"
+                }
+              ],
+              "reference": "EOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

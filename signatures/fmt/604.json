@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1396,
+  "formatName": "Statistical Analysis System Data XPT (Unix)",
+  "version": "9.1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 192,
+  "provenanceCompoundName": "Tessella / Tessella",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/604",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 941,
+      "positionType": "Absolute from BOF",
+      "offset": 92,
+      "maxOffset": null,
+      "byteSequence": "53756E4F53{0-16}534153392E31",
+      "endianness": null,
+      "name": "SAS Data XPT (Unix)",
+      "note": "BOF offset 92: (SunOS{0-16}SAS9.1)\r\nEOF offset 0-63: (End of Data)"
+    },
+    {
+      "signatureID": 941,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 63,
+      "byteSequence": "456E64206F662044617461",
+      "endianness": null,
+      "name": "SAS Data XPT (Unix)",
+      "note": "BOF offset 92: (SunOS{0-16}SAS9.1)\r\nEOF offset 0-63: (End of Data)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xpt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

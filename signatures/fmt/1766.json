@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2616,
+  "formatName": "Sony SML File",
+  "version": null,
+  "formatDescription": "Sony SML files store housekeeping information used by 7-series cameras, including user-defined settings and lists. They are found in the SOUNDDEV folder in storage volumes formatted by 7-series recorders. More specifically, these files contain the following information:\r\n\r\nPROJECTFOLDERS.SML - contains any entry and setting that has been made under the Top-Level Folder selection of the File: Folder Options Setup Menu option. \r\n\r\nROLLFOLDERS.SML - contains any entry and setting that has been made under the Mid-Level Folder selection of the File: Folder Options Setup Menu option.\r\n\r\nSCENEFOLDERS.SML - contains any entry and setting that has been made under the Bottom-Level Folder selection of the File: Folder Options Setup Menu option.\r\n\r\nSCENENAMES.SML - contains any entry and setting that has been made under the Setup Menu option Rec: Scene Name/Number.\r\n\r\nTRKANAME.SML - contains any entry and setting that has been made under the Track A selection of the Rec: Track Names Setup Menu option.\r\n\r\nTRKBNAME.SML - contains any entry and setting that has been made under the Track B selection of the Rec: Track Names Setup Menu option.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.sounddevices.com/sounddev-folder-in-7-series-storage-volumes/",
+  "lastUpdatedDate": "26 Aug 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1766",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2106,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C6C69737420747970653D22{0-64}6E616D653D",
+      "endianness": null,
+      "name": "Sony SML File",
+      "note": "BOF:'<list type=' followed by a gap of 0-64 bytes followed by 'name= ; 'EOF:'</list>"
+    },
+    {
+      "signatureID": 2106,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C2F6C6973743E",
+      "endianness": null,
+      "name": "Sony SML File",
+      "note": "BOF:'<list type=' followed by a gap of 0-64 bytes followed by 'name= ; 'EOF:'</list>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

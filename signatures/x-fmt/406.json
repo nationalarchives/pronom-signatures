@@ -1,0 +1,131 @@
+{
+  "fileFormatID": 771,
+  "formatName": "PostScript",
+  "version": "2.0",
+  "formatDescription": "PostScript (.ps) file format is a type of vector graphic file, it is saved by PostScript general-purpose page description language. Developed in the 1980s by Adobe Systems, its main focus was to turn digital graphics and text ready to print, it allowed for users to more easily turn their text and graphics into printed copies.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://www.adobe.com/creativecloud/file-types/image/vector/ps-file.html#:~:text=frequently%20asked%20questions-,What%20is%20a%20PS%20file%3F,open%20it%20in%20an%20application.\r\n\r\nhttps://en.wikipedia.org/wiki/PostScript\r\n\r\nhttps://docs.fileformat.com/page-description-language/ps/\r\n\r\nhttps://fileinfo.com/extension/ps",
+  "lastUpdatedDate": "17 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2006",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.postscript",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/406",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 191,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "252150532D41646F62652D322E30",
+      "endianness": null,
+      "name": "PostScript DSC 2.0",
+      "note": "PostScript DSC header version comment + EOF comment"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ps",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 49,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 86,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1199,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1200,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1201,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1202,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1204,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1205,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1345,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1073,
+      "relatedFormatName": "EndNote Import File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2443,
+      "relatedFormatName": "BibTeX Database File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 772,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 138,
+      "relatedFormatName": "Postscript"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 177,
+  "formatName": "Quattro Pro Spreadsheet for DOS",
+  "version": "5",
+  "formatDescription": "Quattro Pro is a spreadsheet program originally developed by Borland and now part of Corel's WordPerfect Office suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "22 Dec 2015",
+  "formatSourceID": 181,
+  "provenanceCompoundName": "Museum of London / Museum of London",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/122",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 728,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "000002002151",
+      "endianness": null,
+      "name": "Quattro Pro 5",
+      "note": "BOF: ....!Q\r\nEOF: ...."
+    },
+    {
+      "signatureID": 728,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "01000000",
+      "endianness": null,
+      "name": "Quattro Pro 5",
+      "note": "BOF: ....!Q\r\nEOF: ...."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wq2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wkq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

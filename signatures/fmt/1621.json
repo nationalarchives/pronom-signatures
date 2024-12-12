@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2448,
+  "formatName": "AHX-Module Format (formerly THX module format)",
+  "version": "0-2",
+  "formatDescription": "Music files created using AHX (Abyss' Highest Experience) software, which is used to create synthesised music similar to that played on Commodore 64 systems. The software was previously known as THX, but was changed after a legal dispute with LucasFilm.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification:  http://ftp.modland.com/pub/documents/format_documentation/Abyss%27%20Highest%20eXperience%20(.ahx).txt\r\n\r\nhttp://fileformats.archiveteam.org/wiki/AHX_(Abyss)",
+  "lastUpdatedDate": "17 Feb 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Abyss' Highest Experience homepage: http://amigascne.org/abyss/ahx/",
+  "formatSourceDate": "17 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1621",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1962,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "544858",
+      "endianness": "Little-endian",
+      "name": "AHX-Module Format (formerly THX Module Format)",
+      "note": "BOF offset 0, magic bytes: THX"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ahx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

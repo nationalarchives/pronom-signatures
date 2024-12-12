@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1978,
+  "formatName": "Maya Icons or Swatches file",
+  "version": null,
+  "formatDescription": "Maya is a 3D graphics application published by Autodesk. Swatch files are created by Maya to provide preview thumbnail images of textures. Maya Icon files appear to use the same format mechanism. An unofficial description of the format layout can be found here: https://www.highend3d.com/t/renderwindoweditor-snm/3411",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1168",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1549,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D61796149636F6E73{4}5377617463686573",
+      "endianness": null,
+      "name": "Maya Icons or Swatches file",
+      "note": "BOF: MayaIcons{4}Swatches"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "icons",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "swatches",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

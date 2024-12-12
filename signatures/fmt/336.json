@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1081,
+  "formatName": "Graphic Workshop for Windows Thumbnail File",
+  "version": null,
+  "formatDescription": "Image thumbnail files created by default within Graphic Workshop whenever a graphic file is written or updated. Can contain image, keywords and/or comment information. THN files are read by Graphic Workshop when it wants to display thumbnail images. The files themselves do not store graphics in any conventional sense.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Apr 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/336",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 447,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "54484E4C",
+      "endianness": null,
+      "name": "Graphic Workshop Thumbnail File",
+      "note": "Header ASCII: THNL"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "thn",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

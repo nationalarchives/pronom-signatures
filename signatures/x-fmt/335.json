@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 498,
+  "formatName": "Lotus Freelance Smartmaster Graphics",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.118)- internal signature added. Submitted by The National Archives and Records Administration.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-freelance",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/335",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1953,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000140004445425240{155}42756C6C65746564204C697374",
+      "endianness": null,
+      "name": "Lotus Freelance Smartmaster Graphics",
+      "note": "BOF; Offset: 0; Header 00x00014000 followed by 'DEBR@' then at byte 164 'Bulleted List'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mas",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 1677,
+  "formatName": "Notation3",
+  "version": null,
+  "formatDescription": "Notation3, or N3, is a shorthand non-XML serialization of Resource Description Framework models.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/873",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/n3",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "n3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

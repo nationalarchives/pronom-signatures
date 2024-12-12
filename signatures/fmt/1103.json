@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1911,
+  "formatName": "AutoCAD Hatch Pattern",
+  "version": null,
+  "formatDescription": "A hatch pattern consists of a repeating pattern of lines, dashes, and dots, and is used within AutoCAD to represent materials to be used within the manufacture of the object defined in the CAD drawing",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1103",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1485,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2A([30:39]|[41:5A]|[61:7A]){0-80}0D0A{0-10}[30:39]2C20{0-10}[30:39]2C([30:39]|2D[30:39]|2E[30:39]){0-10}2C20{0-10}[30:39]2C([30:39]|2D[30:39]|2E[30:39]){0-128}0D0A",
+      "endianness": null,
+      "name": "AutoCAD Hatch Pattern",
+      "note": "Top line: asterisk, then a filename (up to 31 characters) that will start with a minimum of one letter or number, followed by an optional description then a line-ending. Second line: A minimum of 5 numeric (integer or floating point) values, representing Angle, X-origin, Y-origin, Delta-x, Delta-y (further values may represent optional dashes). Origins and Deltas may be negative or positive. A comma will follow each numeric value and each line will be terminated with a line ending."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

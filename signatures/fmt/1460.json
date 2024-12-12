@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2283,
+  "formatName": "Stuffit Archive File",
+  "version": "1.6-4.5",
+  "formatDescription": "The Stuffit Archive file format is a proprietary file compression format originally developed by Raymond Lau in 1987. It supports storing the Resource Fork alongside other files and is commonly used in Mac environments, though a Windows version has also been released.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/StuffIt",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-stuffit",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.stuffit.archive.sit",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1460",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1826,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53495421{6}724C617502",
+      "endianness": null,
+      "name": "Stuffit Archive File Version 1.6-4.5",
+      "note": "BOF: 'StuffIt'{6}'rLau' followed by 02, the differentiator between version 1.5 (01) and version 1.6-4.5 (02)."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sit",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

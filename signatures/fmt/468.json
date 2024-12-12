@@ -1,0 +1,94 @@
+{
+  "fileFormatID": 1255,
+  "formatName": "ISO 9660 Disk Image File",
+  "version": null,
+  "formatDescription": "ISO 9660 Disk Image File is a virtual image of optical disk, storing content and structure of an optical disc which can be transferred on the other media. This format specifically uses ISO 9660, a so-called original standard for file system for optical disc media, written by International Organization for Standardization (ISO) and considered an international technical standard available for many operating systems. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other the links attached to this entry for further information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/ISO_image\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml\r\n\r\nhttps://en.wikipedia.org/wiki/Optical_disc_image\r\n\r\nhttps://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113)- Max-offset modified for the BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "25 Oct 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/468",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 730,
+      "positionType": "Absolute from BOF",
+      "offset": 32700,
+      "maxOffset": 37700,
+      "byteSequence": "4344303031{1-16384}FF4344303031",
+      "endianness": null,
+      "name": "ISO Disk Image File",
+      "note": "BOF: CD001{1-16384}\u00ffCD001 with offset of (32700- 37700).\r\nBeginning at byte 32768, an ISO file will hold two-to-many volume descriptors, each of 2048 bytes and starting with '*CD001', where * represents the volume desciptor type as defined within the specification."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iso",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "toast",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cdr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bin",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1603,
+      "relatedFormatName": "Encase Image File/Expert Witness Compression File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2585,
+      "relatedFormatName": "UDF-ISO 9660 Bridge Disc"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2586,
+      "relatedFormatName": "Apple Partition Map Disk Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2587,
+      "relatedFormatName": "Apple Partition Map ISO 9660 Hybrid"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2589,
+      "relatedFormatName": "Nero Burning ROM Image File"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2584,
+      "relatedFormatName": "UDF Disc Image"
+    }
+  ]
+}

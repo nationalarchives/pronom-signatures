@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 761,
+  "formatName": "Drawing Interchange Binary Format",
+  "version": "1.0",
+  "formatDescription": "The Drawing Interchange Binary Format (DXB) is a vector graphics format developed by AutoDesk for its AutoCAD family of products. A DXB file comprises a file header followed by zero or more data records. Each data record begins with a single byte identifying the record type, followed by one or more data items. The DXB format should not be confused with the binary encoded version of the Drawing Interchange File Format (DXF) - DXB is an entirely separate format, being much simpler and more compact.",
+  "releaseDate": "01 Oct 1990",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Apr 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "DXB (1.0)",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/54",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 166,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4175746F4341442044584220312E300D0A1A00",
+      "endianness": null,
+      "name": "DXB 1.0",
+      "note": "File header and file terminator."
+    },
+    {
+      "signatureID": 166,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "00",
+      "endianness": null,
+      "name": "DXB 1.0",
+      "note": "File header and file terminator."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dxb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,96 @@
+{
+  "fileFormatID": 1444,
+  "formatName": "Exchangeable Image File Format (Compressed)",
+  "version": "2.21",
+  "formatDescription": "Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Feb 2022",
+  "formatSourceID": 205,
+  "provenanceCompoundName": "Public Record Office of Northern Ireland / Public Record Office of Northern Ireland",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jul 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/645",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jpeg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 973,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFD8FFE1{2}4578696600004D4D002A*900000070000000430323231",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.21 (big-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
+    },
+    {
+      "signatureID": 973,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.21 (big-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
+    },
+    {
+      "signatureID": 974,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFD8FFE1{2}45786966000049492A00*009007000400000030323231",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.21 (little-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
+    },
+    {
+      "signatureID": 974,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.21 (little-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jpg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpeg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 670,
+      "relatedFormatName": "Raw JPEG Stream"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 676,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    }
+  ]
+}

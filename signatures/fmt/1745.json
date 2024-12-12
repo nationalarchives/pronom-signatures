@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2591,
+  "formatName": "PixArt Bitmap",
+  "version": null,
+  "formatDescription": "PixArt Bitmap is a file formated related to the PixArt graphics program for the Atari line of computers",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/PixArt",
+  "lastUpdatedDate": "19 Aug 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1745",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2086,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "50495854",
+      "endianness": null,
+      "name": "PixArt Bitmap",
+      "note": "BOF:'PIXT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pix",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

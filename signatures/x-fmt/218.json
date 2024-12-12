@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 309,
+  "formatName": "ESRI Arc/Info Binary Grid",
+  "version": null,
+  "formatDescription": "An Arc/Info binary grid is a proprietary raster GIS file format developed by ESRI. The grid defines geographic space as an array of equally sized square grid points arranged in rows and columns. Each grid point stores a numeric value that represents a geographic attribute such as elevation or surface slope. Each grid cell is referenced by its x,y coordinate.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/218",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 388,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000270AFFFF(FC14|FBF8)",
+      "endianness": "Little-endian",
+      "name": "ESRI Arc/Info Binary Grid Raster File",
+      "note": null
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "adf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1399,
+  "formatName": "Statistical Analysis System Data (Windows)",
+  "version": "9.1",
+  "formatDescription": "SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. A SAS data file is a type of SAS data set that contains data values and descriptor information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2017",
+  "formatSourceID": 192,
+  "provenanceCompoundName": "Tessella / Tessella",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/607",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 944,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000000000000000000000000C2EA8160B31411CFBD92080009C7318C181F1011{7}32{116}44415441{56-64}392E3031",
+      "endianness": null,
+      "name": "SAS Data (Windows) 9.1",
+      "note": "BOF: 32 byte binary magic {7} 0x32 = Windows {116} 'DATA' {53-61} '9.01'. \r\nSignature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sas7bdat",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sd7",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1820,
+      "relatedFormatName": "Statistical Analysis System Data (Windows)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1150,
+  "formatName": "Truevision TGA Bitmap",
+  "version": "2.0",
+  "formatDescription": "The Truevision TGA File Format comprises 5 areas, each of which contains one or more fields of fixed or variable length. The 5 file areas are: (1) TGA File Header, (2) Image/Color Map Data, (3) Developer Area, (4) Extension Area and (5) TGA File Footer.\r\nThe last 3 areas, the Developer Area, the Extension Area and the TGA File Footer are new to the file specification as of September, 1989. For this reason, images created with software written before September, 1989 will probably not contain these three fields.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Further information about this file format can be obtained at \r\nhttp://www.dca.fee.unicamp.br/~martino/disciplinas/ea978/tgaffs.pdf",
+  "formatSourceDate": "16 Feb 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/402",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 601,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "54525545564953494F4E2D5846494C452E00",
+      "endianness": null,
+      "name": "Truevision TGA Bitmap 2",
+      "note": "TRUEVISION-XFILE.<null> last 18 bytes of the file"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tga",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "icb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vda",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vst",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 533,
+      "relatedFormatName": "Truevision TGA Bitmap"
+    }
+  ]
+}

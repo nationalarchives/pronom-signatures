@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2188,
+  "formatName": "Advanced Disk Catalog",
+  "version": null,
+  "formatDescription": "Advanced Disk Catalog is a cataloguing program for Windows, enabling the cataloguing of data on various media types.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Sep 2020",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1370",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1749,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0B0000004144432E436174616C6F67",
+      "endianness": null,
+      "name": "Advanced Disk Catalog",
+      "note": "BOF: 0x0B000000 \"ADC.Catalog\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "adc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

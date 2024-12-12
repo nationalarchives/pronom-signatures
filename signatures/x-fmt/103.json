@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 151,
+  "formatName": "AutoCAD Compiled Shape/Font File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Dec 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/103",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 331,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4175746F4341442D383620(736861706573|756E69666F6E74|626967666F6E74)20312E",
+      "endianness": null,
+      "name": "AutoCAD Compiled Shape/Font File",
+      "note": "Header AutoCAD-86 followed by shapes, unifont, or bigfont followed by version number."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

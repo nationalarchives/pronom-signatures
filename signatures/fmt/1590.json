@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2416,
+  "formatName": "Visual Basic Binary Form File",
+  "version": null,
+  "formatDescription": "Generated in Visual Basic, frx files encode the binary data for images specified by the accompanying .frm file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jan 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1590",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "frx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,107 @@
+{
+  "fileFormatID": 2129,
+  "formatName": "Tweet JSON",
+  "version": null,
+  "formatDescription": "Tweet JSON represents the serialization of the JSON response payload of the Twitter API when requesting a single Tweet by id. Each Tweet has an author, a message, a unique ID, a timestamp of when it was posted, and sometimes geo metadata shared by the user.\r\nEach Tweet also has \"entity\" objects, which are arrays of common Tweet contents such as hashtags, mentions, media, and links. If there are links, the JSON payload can also provide metadata such as the fully unwound URL and the webpage\u2019s title and description.\r\nIn addition to the text content itself, a Tweet can have over 150 attributes associated with it.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/json",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1311",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1687,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7B*2269645F737472223A*22726574776565746564223A",
+      "endianness": null,
+      "name": "Tweet JSON (Raw JSON)",
+      "note": "The signature assumes a starting \"{\" character, a terminating \"}\" and the JSON keys \"id_str\" and \"retweeted\". This matches the raw JSON string with no line breaks."
+    },
+    {
+      "signatureID": 1687,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7D0A",
+      "endianness": null,
+      "name": "Tweet JSON (Raw JSON)",
+      "note": "The signature assumes a starting \"{\" character, a terminating \"}\" and the JSON keys \"id_str\" and \"retweeted\". This matches the raw JSON string with no line breaks."
+    },
+    {
+      "signatureID": 1688,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7B*2269645F737472223A*22726574776565746564223A",
+      "endianness": null,
+      "name": "Tweet JSON (Linux)",
+      "note": "The signature assumes a starting \"{\" character, a terminating \"}\" and the JSON keys \"id_str\" and \"retweeted\". This matches a serialization with a new line at the end of the file in linux line-endings."
+    },
+    {
+      "signatureID": 1688,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7D",
+      "endianness": null,
+      "name": "Tweet JSON (Linux)",
+      "note": "The signature assumes a starting \"{\" character, a terminating \"}\" and the JSON keys \"id_str\" and \"retweeted\". This matches a serialization with a new line at the end of the file in linux line-endings."
+    },
+    {
+      "signatureID": 1689,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7B*2269645F737472223A*22726574776565746564223A",
+      "endianness": null,
+      "name": "Tweet JSON (Windows)",
+      "note": "The signature assumes a starting \"{\" character, a terminating \"}\" and the JSON keys \"id_str\" and \"retweeted\". This signature matches the same with a windows line-ending."
+    },
+    {
+      "signatureID": 1689,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7D0D0A",
+      "endianness": null,
+      "name": "Tweet JSON (Windows)",
+      "note": "The signature assumes a starting \"{\" character, a terminating \"}\" and the JSON keys \"id_str\" and \"retweeted\". This signature matches the same with a windows line-ending."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "json",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1617,
+      "relatedFormatName": "JSON Data Interchange Format"
+    }
+  ]
+}

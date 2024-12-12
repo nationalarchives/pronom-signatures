@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2406,
+  "formatName": "Envision Publisher Font Files",
+  "version": null,
+  "formatDescription": "SVF files are font files utilized by EnVision Publisher. \r\n\r\nEnVision Publisher was published by Software Vision in 1993, as a MS-DOS based (and later Windows 3.1) word processing program. At the time, it was an advanced desktop publishing program for Windows, with the ability to create publishing projects such as newsletters, flyers, brochures, business cards, and other printed material. The software's selling point was its low cost and ease of use of some advanced featured compared to its competitiors at the time. This desktop publishing program features a graphical WYSIWYG (What You See Is What You Get) interface, horizontal and vertical toolbars and rulers, templates for fliers and newsletters, 4 fonts, spell checker, style sheets, line, graphic, fill options, kerning, line justification, text rotation and color, cut, copy, paste, PCX and text import, zoom, page insert, clear, and delete, on-line help, and more.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.danielsays.com/ssg-dossw-ep154.html\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Envision_Publisher\r\n\r\nhttps://web.archive.org/web/19990125085618/http://www.envisionpublisher.com/",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1581",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1920,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4483F9F8F8F9F9F911FAF8F9F8F9D9F919F9",
+      "endianness": null,
+      "name": "Envision Publisher font files",
+      "note": "BOF; Offset: 0; Magic Bytes: 'D\u0192\u00f9\u00f8\u00f8\u00f9\u00f9\u00f9 \u00fa\u00f8\u00f9\u00f8\u00f9\u00d9\u00f9.\u00f9'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "svf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

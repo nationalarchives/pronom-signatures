@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1989,
+  "formatName": "Away3D Data Format",
+  "version": "2.x",
+  "formatDescription": "AWD is a binary file format for 3D scenes, objects and related data, and is intended for exchange between any conforming AWD exporter and a conforming parser. Its main use is with the Away3D engine, a 3D engine designed for ActionScript 3 and the Adobe Flash Platform.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1179",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1561,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41574402",
+      "endianness": null,
+      "name": "AWD 2.x",
+      "note": "BOF: 'AWD', major version 02\r\nThe current PRONOM identification signature doesn't distinguish between minor versions, however if this is desirable this can be determined by checking the byte value at offset position 0x04."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "awd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

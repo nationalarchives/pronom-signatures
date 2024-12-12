@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1905,
+  "formatName": "ZPAQ Archive Format",
+  "version": null,
+  "formatDescription": "ZPAQ is an open source command line file archiver developed by Matt Mahoney.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Sep 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1097",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1478,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "376B5374{9}7A5051(01|02)",
+      "endianness": null,
+      "name": "ZPAQ Archive Format variant 1",
+      "note": "BOF: 7kSt{9}zpQ(0x01|0x02) - https://github.com/zpaq/zpaq/blob/master/zpaq.cpp"
+    },
+    {
+      "signatureID": 1479,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7A5051(01|02)",
+      "endianness": null,
+      "name": "ZPAQ Archive Format variant 2",
+      "note": "BOF: zpQ(0x01|0x02) - https://github.com/zpaq/zpaq/blob/master/zpaq.cpp"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zpaq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1756,
+  "formatName": "Sonic Foundry WAVE 64",
+  "version": null,
+  "formatDescription": "W64 is a 64 bit WAV-like audio format created to overcome the 32 bit addressing limitations of conventional WAV.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Sony Media WAVE 64",
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/951",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1308,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "726966662E91CF11A5D628DB04C10000{8}77617665F3ACD311",
+      "endianness": null,
+      "name": "Sonic Foundry WAVE 64",
+      "note": "BOF: riff.\u2018\u00cf.\u00a5\u00d6(\u00db.\u00c1..{8}wave\u00f3\u00ac\u00d3."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "w64",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,146 @@
+{
+  "fileFormatID": 1223,
+  "formatName": "Digital Negative Format (DNG)",
+  "version": "1.0",
+  "formatDescription": "The Digital Negative (DNG) Specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors.  DNG is an extension of the TIFF 6.0 format, and is compatible with the TIFF-EP standard.  \r\nThis initial version accompanied the launch of DNG and related products. It was a rare, possibly unique, example of a raw image format specification published by its owner. It was adequate for representing typical images, but it had a few errors and deficiencies (specifically the lack of support for \"masked pixels\" and an inadvertent deviation from the JPEG specification) that required it soon to be replaced by the next version.",
+  "releaseDate": "27 Sep 2004",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Nov 2023",
+  "formatSourceID": 7,
+  "provenanceCompoundName": null,
+  "formatProvenance": "11/2023 (v.116)- New MIME type identifier 'image/dng' added and max offset of EOF internal signatures increased to 128000. Submitted by Brigham Young University.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/436",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/dng",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "image/tiff",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 656,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{0-4080}12C601000400000001000000",
+      "endianness": "Little-endian",
+      "name": "DNG 1.0 (little-endian, BOF)",
+      "note": "TIFF header plus DNGVersion tag near BOF"
+    },
+    {
+      "signatureID": 657,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00",
+      "endianness": "Little-endian",
+      "name": "DNG 1.0 (little-endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    },
+    {
+      "signatureID": 657,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 128000,
+      "byteSequence": "12C601000400000001000000",
+      "endianness": "Little-endian",
+      "name": "DNG 1.0 (little-endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    },
+    {
+      "signatureID": 658,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A{0-4080}C61200010000000401000000",
+      "endianness": "Big-endian",
+      "name": "DNG 1.0 (big-endian, BOF)",
+      "note": "TIFF header plus DNGVersion tag near BOF"
+    },
+    {
+      "signatureID": 659,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A",
+      "endianness": "Big-endian",
+      "name": "DNG 1.0 (big-endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    },
+    {
+      "signatureID": 659,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 128000,
+      "byteSequence": "C61200010000000401000000",
+      "endianness": "Big-endian",
+      "name": "DNG 1.0 (big-endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 673,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 797,
+      "relatedFormatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 927,
+      "relatedFormatName": "Nikon Digital SLR Camera Raw Image File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 795,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1709,
+  "formatName": "Bluetooth Snoop Packet Capture",
+  "version": null,
+  "formatDescription": "Android 4.4 introduced the ability to capture all Bluetooth HCI packets and save them to a file, typically called btsnoop_hci.log. The BtSnoop file format closely resembles the snoop format, https://www.nationalarchives.gov.uk/PRONOM/fmt/781",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/904",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1254,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6274736E6F6F7000",
+      "endianness": null,
+      "name": "Bluetooth Snoop Packet Capture",
+      "note": "BOF: 'btsnoop' string, null terminated. The next 4 bytes represent version number"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "log",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

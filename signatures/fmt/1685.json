@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2521,
+  "formatName": "EndNote Compressed Library",
+  "version": "20",
+  "formatDescription": "EndNote Library file format is generated and used via EndNote reference management software application. A software intended for the management of bibliographies and references when producing academic text or reports. Endnote software was first launched in 1989 by Niles & Associates, then in 2000 was acquired by Institute for Scientific Information\u2019s Research Soft Division, and since 2016 owned by Clarivate. The EndNote Library file format stores the references and citations in so called 'libraries' used with the software. Users of EndNote application can create their own EndNote Library files, as well as upload EndNote Library files onto their software. The latter versions of this format, starting from version 8, include .data folder to accompany the EndNote Library format. The .data folder is automatically created by EndNote, intended to store attachments. Following this update, the .data folder is recommended to be present in the EndNote Library file structure in order to use the EndNote Library format with the EndNote software. This entry describes compressed version 20 of the application, which is a ZIP compressed SQL Lite database type of format. In this later versions starting from version X, an ability to compress EndNote Library files using the EndNote application was added, in purpose to easily share EndNote library files with other EndNote users. Please see the full version history using the Web Archive Wikipedia entry link included in the Notes section.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://web.archive.org/web/20220501102310/https://en.wikipedia.org/wiki/EndNote\r\n\r\nhttps://support.clarivate.com/Endnote/s/article/EndNote-X9-3-Library-Conversion-and-Backward-Compatibility?language=en_US\r\n\r\nhttp://fileformats.archiveteam.org/wiki/EndNote_Library",
+  "lastUpdatedDate": "13 May 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "13 May 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1685",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "enlx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2518,
+      "relatedFormatName": "EndNote Library"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2519,
+      "relatedFormatName": "EndNote Compressed Library"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "70020",
+      "description": "EndNote Compressed Library v20+",
+      "files": [
+        {
+          "path": "sdb/pdb.eni"
+        },
+        {
+          "path": "sdb/sdb.eni"
+        }
+      ]
+    }
+  ]
+}

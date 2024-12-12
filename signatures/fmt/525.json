@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1312,
+  "formatName": "Adobe Printer Font Binary",
+  "version": null,
+  "formatDescription": "Printer Font Binary (.pfb) is a type 1 font made by Adobe and other companies.They are encrypted and compressed and also allow for hints, which improve the appearance of text at 300 dpi and lower resolutions. With Adobe Type Manager, Type 1 fonts can also be used on non-PostScript printers. However, Mac OS X and Windows, starting with Windows 2000, natively support Type 1 fonts, and Adobe Type Manager is not required.\r\nResearch done by The National Archives.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/525",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 816,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8001{4}252150532D41646F6265466F6E742D312E30",
+      "endianness": null,
+      "name": "Adobe Printer Font Binary",
+      "note": "BOF: \u20ac.{4}%!PS-AdobeFont-1.0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pfb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2385,
+  "formatName": "Sample Vision Audio File Format",
+  "version": null,
+  "formatDescription": "The SampleVision format is native to the Turtle Beach SampleVision program. The format supports  mono 16-bit audio and loop points.The Format was developed for use with the SampleVision software program, which was designed to send and receive samples via the MIDI interface on a PC. It consists of a variable-length header followed by a contiguous block of binary data representing the sound samples.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://help.adobe.com/archive/en_US/audition/3/audition_3_help.pdf#page=255 \r\n\r\nhttp://sox.sourceforge.net/AudioFormats-11.html\r\n\r\nhttps://nixdoc.net/man-pages/IRIX/man4/smp.4.html",
+  "lastUpdatedDate": "23 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1560",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1904,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534F554E442053414D504C452044415441",
+      "endianness": null,
+      "name": "Sample Vision Audio File Format",
+      "note": "BOF; Offset: 0; Magic Bytes: SOUND SAMPLE DATA"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "smp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

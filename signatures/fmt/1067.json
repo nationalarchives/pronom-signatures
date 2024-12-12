@@ -1,0 +1,88 @@
+{
+  "fileFormatID": 1874,
+  "formatName": "Silo",
+  "version": "PDB Variant",
+  "formatDescription": "Silo is a scientific data library created by the Lawrence Livermore National Laboratory. Silo can produce files based on the Portable Database format, or HDF5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jul 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1067",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1443,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "213C3E3C5044423E3C3E21",
+      "endianness": null,
+      "name": "SILO PDB 1",
+      "note": "BOF: !<><PDB><>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
+    },
+    {
+      "signatureID": 1443,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "5F73696C6F6C6962696E666F",
+      "endianness": null,
+      "name": "SILO PDB 1",
+      "note": "BOF: !<><PDB><>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
+    },
+    {
+      "signatureID": 1444,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "213C3C5044423A49493E3E21",
+      "endianness": null,
+      "name": "SILO PDB 2",
+      "note": "BOF: !<<PDB:II>>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
+    },
+    {
+      "signatureID": 1444,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "5F73696C6F6C6962696E666F",
+      "endianness": null,
+      "name": "SILO PDB 2",
+      "note": "BOF: !<<PDB:II>>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "silo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1871,
+      "relatedFormatName": "Portable Database"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1872,
+      "relatedFormatName": "Portable Database"
+    }
+  ]
+}

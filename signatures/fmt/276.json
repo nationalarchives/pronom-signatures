@@ -1,0 +1,217 @@
+{
+  "fileFormatID": 1016,
+  "formatName": "Acrobat PDF 1.7 - Portable Document Format",
+  "version": "1.7",
+  "formatDescription": "Portable Document Format is a platform-independent format for representing formatted documents, developed by Adobe Systems Incorporated. It is the native format of Adobe\u2019s Acrobat family of software products, version 1.7 corresponding to the release of Acrobat 8.0 and 9.0.  PDF is based on, and shares the same imaging model as, the PostScript page description language.  A PDF file comprises a Header section, a Body section containing the objects which make up the document, a Cross Reference Table, and a Trailer section.  PDF files can contain a wide variety of content, including text, images, video and audio.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "DROID 5.0 research.",
+  "formatSourceDate": "19 Jul 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/276",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 289,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1,
+      "byteSequence": "255044462D312E37",
+      "endianness": null,
+      "name": "PDF 1.7",
+      "note": "BOF: %PDF-1.7 EOF (offset up to 1024 bytes): %%EOFF(.|F.|F..|F..)"
+    },
+    {
+      "signatureID": 289,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "2525454F(46|460A|460D|460D0A|460D00)",
+      "endianness": null,
+      "name": "PDF 1.7",
+      "note": "BOF: %PDF-1.7 EOF (offset up to 1024 bytes): %%EOFF(.|F.|F..|F..)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 770,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 787,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1:1999"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 788,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1:2001"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 789,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2003"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 790,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 2:2003"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 791,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 3:2003"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 818,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2001"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 819,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 3:2002"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1100,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1263,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1264,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1265,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1266,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1267,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1268,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1275,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1276,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1277,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5g"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1278,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5pg"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1279,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5n"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1280,
+      "relatedFormatName": "Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2272,
+      "relatedFormatName": "PDF Portfolio"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 869,
+      "relatedFormatName": "TrueType Font"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1263,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1264,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1265,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1266,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1267,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1268,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    }
+  ]
+}

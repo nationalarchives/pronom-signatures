@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1605,
+  "formatName": "XAML Binary Format",
+  "version": null,
+  "formatDescription": "A XAML Binary Format (XBF) file is a pre-parsed binary representation of a .XAML file. The XBf file is created by Microsoft Visual Studio.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/805",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1170,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "58424600",
+      "endianness": null,
+      "name": "XAML",
+      "note": "Header - XBF."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xbf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

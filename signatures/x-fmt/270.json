@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 402,
+  "formatName": "OS/2 Bitmap",
+  "version": "2.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/bmp",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/270",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 505,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "424D{12}(10|30|40)000000{8}0100",
+      "endianness": null,
+      "name": "OS/2 Bitmap 2.0",
+      "note": "2-byte file type identifier ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (16, 64); offset 26 2-byte little-endian number of bit planes (always 1). \r\nThe 2 byte file type identifier BM indicates that the BMP was created by OS/2 or Windows. Windows 3.x, Windows NT, and OS/2 2.x BMP files only vary in the number of fields in the bitmap header and in the interpretation of the compression field. Bitmap headerSize is 12 for Windows 2.x BMP and OS/2 1.x BMP, 40 for Windows 3.x and Windows NT BMP, 12 to 64 for OS/2 2.x BMP, and 108 for Windows 4.x BMP. Only OS/2 2.x bitmaps have Bitmap header size of 16 and 64. If Bitmap header size is 40, only OS/2 Bitmaps can use 24-bit RLE compression on 24-bit pixel bitmaps and only oS/2 bitmaps can use Huffman 1D compression on 1-bit per pixel (monochrome) bitmaps."
+    },
+    {
+      "signatureID": 506,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "424D{12}28000000{8}0100180004000000",
+      "endianness": null,
+      "name": "OS/2 Bitmap 2.0 (24-bit RLE compression)",
+      "note": "2-byte magic number ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (40); offset 26 2-byte little-endian number of bit planes (always 1); offset 28 24-bits per pixel (1800); offset 30 Compression type 24-bit RLE (0400)."
+    },
+    {
+      "signatureID": 507,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "424D{12}28000000{8}0100010003000000",
+      "endianness": null,
+      "name": "OS/2 Bitmap 2.0 (Huffman 1D compression)",
+      "note": "2-byte magic number ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (40); offset 26 2-byte little-endian number of bit planes (always 1); offset 28 1-bit perpixel (0100); offset 30 huffman 1D compression (0300)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

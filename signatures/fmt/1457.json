@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2280,
+  "formatName": "OrgPlus File",
+  "version": null,
+  "formatDescription": "OrgPlus is an organisational chart software created by Banner Blue Software. Its current owner is Insperity Busines Services. .opx is an OrgPlus File, .opxt is an OrgPlus Template and .ops is an OrgPlus 4 Template.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/OrgPlus",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1457",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1822,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "554F4346",
+      "endianness": null,
+      "name": "OrgPlus File",
+      "note": "BOF:'UOCF'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "opx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "opxt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ops",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

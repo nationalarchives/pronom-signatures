@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2126,
+  "formatName": "LocoScript PC",
+  "version": null,
+  "formatDescription": "The LocoScript PC Document format is a proprietary word processing format produced by LocoScript PC, a word processor released in 1990 for MS-DOS 3.0 and above.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 184,
+  "provenanceCompoundName": "British Library / British Library",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1308",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1683,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "444F430101",
+      "endianness": null,
+      "name": "LocoScript PC",
+      "note": "BOF: Magic Bytes 'DOC..'"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

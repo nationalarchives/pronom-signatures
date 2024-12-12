@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 222,
+  "formatName": "Initial Graphics Exchange Specification (IGES)",
+  "version": "5.x",
+  "formatDescription": "Initial Graphics Exchange Specification, or IGES, establishes information structures for the digital representation and exchange of product definition data. It supports exchanging this data among Computer-Aided Design and Computer-Aided Manufacturing (CAD and CAM, respectively) systems.  IGES defines file structure and language formats to represent geometric, topographical, and non-geometric product definition data.  These formats are independent of the modeling method used, and they support data exchange using physical media or electronic communication protocols.",
+  "releaseDate": "01 Dec 1999",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Further information about this file format can be obtained at \r\nhttp://www.wiz-worx.com/iges5x/version5x/version5x.pdf",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "model/iges",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/158",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 459,
+      "positionType": "Absolute from BOF",
+      "offset": 72,
+      "maxOffset": null,
+      "byteSequence": "53(202020202020|303030303030)31(0D0A|0D|0A){72}(5320202020202032|5330303030303032|4720202020202031|4730303030303031)",
+      "endianness": null,
+      "name": "Initial Graphics Exchange Specification",
+      "note": "Offset 72 bytes, then section identification character S for Start section; Columns 74-80, section sequence number 1 preceded by leading blanks or zeros; cr/lf or nl;  (Column 73, section identification character S for Start section; Columns 74-80, section sequence number 2 preceded by leading blanks or zeros) or (Column 73, section identification character G for Global section; Columns 74-80, section sequence number 1 preceded by leading blanks or zeros)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iges",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "igs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

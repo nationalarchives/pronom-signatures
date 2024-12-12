@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1274,
+  "formatName": "Macro Enabled Microsoft Powerpoint",
+  "version": "2007 Onwards",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Dec 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "18 Dec 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-powerpoint.presentation.macroEnabled.12",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/487",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pptm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "3040",
+      "description": "Macro Enabled Microsoft Powerpoint 2007 OOXML",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'ContentType=\"application/vnd.ms-powerpoint.presentation.macroEnabled.main+xml\"'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2055,
+  "formatName": "FileMaker Pro Database",
+  "version": "12",
+  "formatDescription": "FileMaker Pro is a cross-platform relational database application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://support.filemaker.com/s/answerview?language=en_US&anum=1002",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 241,
+  "provenanceCompoundName": "J. Paul Getty Trust / J. Paul Getty Trust",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1237",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1617,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 14,
+      "byteSequence": "C04842414D37{0-512}4842414D323132354A414E3131C102480850726F2031322E30C0C0",
+      "endianness": null,
+      "name": "FileMaker Pro Database 12",
+      "note": "BOF: Magic bytes \u2018\u00c0HBAM7\u2019, then later in the file ASCII string \u2018HBAM2125JAN11\u00c1.H.Pro 12.0\u00c0\u00c0'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fmp12",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

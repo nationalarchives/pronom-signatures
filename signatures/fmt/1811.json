@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2662,
+  "formatName": "Vips Image",
+  "version": null,
+  "formatDescription": "The Vips file format is a native raster image format produced by the LibVips image processing library.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.libvips.org/API/current/file-format.html",
+  "lastUpdatedDate": "31 Jan 2023",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Jan 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1811",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2150,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "08F2A6B6",
+      "endianness": null,
+      "name": "Vips Little-endian",
+      "note": "Description: Hex magic: 0x08F2A6B6"
+    },
+    {
+      "signatureID": 2151,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "B6A6F208",
+      "endianness": "Big-endian",
+      "name": "Vips Big-endian",
+      "note": "Description: Hex Magic: 0xB6A6F208"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "v",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vips",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

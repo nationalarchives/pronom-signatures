@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2434,
+  "formatName": "True Colour Picture [Spooky Sprites] (Atari Falcon)",
+  "version": null,
+  "formatDescription": "True Colour Picture files are part of raster image graphics associated with Spooky Sprites, a graphics editor for Atari Falcon. \r\n\r\nThe Atari Falcon030 (usually shortened to Atari Falcon), released in 1992, was the final personal computer product from Atari Corporation. A high-end model of the Atari ST line, the machine is based on a Motorola 68030 CPU and a Motorola 56000 digital signal processor, a feature which distinguishes it from most other microcomputers of the era. It included a VIDEL programmable graphics system which greatly improved graphics capabilities.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Spooky_Sprites\r\n\r\nhttp://cd.textfiles.com/atarilibrary/atari_cd07/GRAPHICS/PAINT/SPOOKY4/SPOOKY.TXT\r\n\r\nhttps://temlib.org/AtariForumWiki/index.php/Spooky_Sprites_file_format\r\n\r\nhttps://en.wikipedia.org/wiki/Atari_Falcon",
+  "lastUpdatedDate": "24 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1607",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1942,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7472753F",
+      "endianness": null,
+      "name": "True Colour Picture [Spooky Sprites] (Atari Falcon)",
+      "note": "BOF; Offset: 0; Magic Bytes: 'tru?'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "trp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tru",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2435,
+      "relatedFormatName": "Packed-Ice True Colour Picture [Spooky Sprites] (Atari Falcon)"
+    }
+  ]
+}

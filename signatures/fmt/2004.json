@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2879,
+  "formatName": "Husqvarna-Viking Designer 1 Stitch File",
+  "version": null,
+  "formatDescription": "A Husqvarna-Viking Designer 1 Stitch File is an embroidery design file found on Floppy disk and USB thumb drives. Files with the extension shv, mhv and phv start with the ascii \"Embroidery disk created using software licensed from Viking Sewing Machines AB, Sweden\". The Husqvarna-Viking Designer 1 Embroidery machines are a type of floppy disk controlled sewing machine.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.embroidery.com/machine-embroidery-formats\r\nhttp://fileformats.archiveteam.org/wiki/SHV\r\nhttps://embrilliance.com/Help/Essentials%20Mac%201106/index.html?turl=creatingadesigner1diskorstick.htm",
+  "lastUpdatedDate": "19 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2004",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2360,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "456D62726F6964657279206469736B2063726561746564207573696E6720736F667477617265206C6963656E7365642066726F6D2056696B696E6720536577696E67204D616368696E65732041422C2053776564656E",
+      "endianness": null,
+      "name": "Husqvarna-Viking Designer 1 Stitch File",
+      "note": "BOF; Offset:0; Magic Bytes: 'Embroidery disk created using software licensed from Viking Sewing Machines AB, Sweden'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mhv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "phv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

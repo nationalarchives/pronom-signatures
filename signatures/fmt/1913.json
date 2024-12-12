@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2771,
+  "formatName": "Graphisoft Archicad Project",
+  "version": "17+",
+  "formatDescription": "Archicad is a proprietary architectural and Building Information Modelling (BIM) software application produced by Graphisoft. Files with the .pln extension are the standard working format, whereas files with the .pla extension are the Archicad archive file type, that bundles together all components, linked images and textures into a single package. This signature does not currently distinguish between specific Archicad format types.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Aug 2023",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1913",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2263,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "524F462046444220",
+      "endianness": null,
+      "name": "Archicad Project",
+      "note": "BOF; Offset: 0; Magic Bytes: \u2018ROF FDB \u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pln",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pla",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2152,
+  "formatName": "Sony PictureGear Studio PrintStudio",
+  "version": null,
+  "formatDescription": "PictureGear Studio is a creativity package published by Sony. .LMU is the native format of PrintStudio, for creating postcards, calendars and labels. LMD is a PrintStudio template.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1334",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1725,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C4D554400000100",
+      "endianness": null,
+      "name": "Sony PictureGear Studio PrintStudio",
+      "note": "BOF: 'LMUD' 0x00000100"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lmu",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "lmd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

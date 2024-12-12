@@ -1,0 +1,297 @@
+{
+  "fileFormatID": 1260,
+  "formatName": "Microsoft Office Owner File",
+  "version": null,
+  "formatDescription": "When a previously saved Word document is opened for editing, for printing, or for review, Word creates a temporary file that has a .doc file name extension. This file name extension begins with a tilde (~) that is followed by a dollar sign ($) that is followed by the remainder of the original file name. This temporary file holds the logon name of person who opens the file. This temporary file is called the \"owner file.\"",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/473",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 738,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "06{52}000600",
+      "endianness": null,
+      "name": "MS Owner file v1",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 739,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "07{52}000700",
+      "endianness": null,
+      "name": "MS Owner file v2",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 740,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "08{52}000800",
+      "endianness": null,
+      "name": "MS Owner file v3",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 741,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "09{52}000900",
+      "endianness": null,
+      "name": "MS Owner file v4",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 742,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0A{52}000A00",
+      "endianness": null,
+      "name": "MS Owner file v5",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 743,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0B{52}000B00",
+      "endianness": null,
+      "name": "MS Owner file v6",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 744,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0C{52}000C00",
+      "endianness": null,
+      "name": "MS Owner file v7",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 745,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0D{52}000D00",
+      "endianness": null,
+      "name": "MS Owner file v8",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 746,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0E{52}000E00",
+      "endianness": null,
+      "name": "MS Owner file v9",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 747,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0F{52}000F00",
+      "endianness": null,
+      "name": "MS Owner file v10",
+      "note": "1st byte is within the range of 06 to 0F. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 817,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01{52}000100",
+      "endianness": null,
+      "name": "MS Owner file v11",
+      "note": "1st byte is within the range of 01 to 0F, or 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 818,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "02{52}000200",
+      "endianness": null,
+      "name": "MS Owner file v12",
+      "note": "1st byte is within the range of 01 to 0F, or 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 819,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "03{52}000300",
+      "endianness": null,
+      "name": "MS Owner file v13",
+      "note": "1st byte is within the range of 01 to 0F, or 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 820,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "04{52}000400",
+      "endianness": null,
+      "name": "MS Owner file v14",
+      "note": "1st byte is within the range of 01 to 0F, or 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 821,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "05{52}000500",
+      "endianness": null,
+      "name": "MS Owner file v15",
+      "note": "1st byte is within the range of 01 to 0F, or 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 822,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "14{52}001400",
+      "endianness": null,
+      "name": "MS Owner file v16",
+      "note": "1st byte is within the range of 01 to 0F, or 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 1182,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "10{52}001000",
+      "endianness": null,
+      "name": "MS Owner file v17",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 1183,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "11{52}001100",
+      "endianness": null,
+      "name": "MS Owner file v18",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 1184,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "12{52}001200",
+      "endianness": null,
+      "name": "MS Owner file v19",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 1185,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "13{52}001300",
+      "endianness": null,
+      "name": "MS Owner file v20",
+      "note": "1st byte is within the hex range of 01 to 14. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00"
+    },
+    {
+      "signatureID": 2052,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "15{52}001500",
+      "endianness": null,
+      "name": "MS Owner file v21",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00."
+    },
+    {
+      "signatureID": 2053,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "16{52}001600",
+      "endianness": null,
+      "name": "MS Owner file v22",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00."
+    },
+    {
+      "signatureID": 2054,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "17{52}001700",
+      "endianness": null,
+      "name": "MS Owner file v23",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00."
+    },
+    {
+      "signatureID": 2055,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "18{52}001800",
+      "endianness": null,
+      "name": "MS Owner file v24",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00."
+    },
+    {
+      "signatureID": 2056,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "19{52}001900",
+      "endianness": null,
+      "name": "MS Owner file v25",
+      "note": "1st byte is within the hex range of 01 to 19. Next bytes are name of registered user. 55th byte is identical to 1st. 56th byte is 00."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "docx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2870,
+      "relatedFormatName": "SPIR-V"
+    }
+  ]
+}

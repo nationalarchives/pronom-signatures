@@ -1,0 +1,85 @@
+{
+  "fileFormatID": 2588,
+  "formatName": "Hierarchical File System Plus",
+  "version": null,
+  "formatDescription": "Hierarchical File System Plus (also known as HFS+, Mac OS Extended or HFS Extended) is a file system developed by Apple Inc. as a successor to the Hierarchical File System (HFS) [fmt/1105]. The system was introduced in January 1998 with the release of Mac OS 8.1 and continued to be the primary file system on Apple operating systems starting with Mac OS X, as well as one of the primary file systems used by the iPod portable media player. It features improvements to HFS, such as a 32-bit file length field rather than 16-bit to allow for much longer files names and adds support for Unicode characters in file names up to 255 characters long, containing any characters in the Unicode repertoire (though there may be OS or API-specific restrictions on permittable characters). Journaling was added in 2003 and case-sensitive file names were introduced under the HFSX option. It was replaced with the Apple File System (APFS) released with macOS High Sierra in 2017.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/HFS%2B\r\n\r\nhttps://www.ntfs.com/hfs.htm\r\n\r\nhttps://syntheway.com/Apple_HFS_Hierarchical_File_System_HFS_Plus_Mac_OS_X.htm",
+  "lastUpdatedDate": "17 Aug 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "HFS+, Mac OS Extended, HFS Extended",
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1742",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2082,
+      "positionType": "Absolute from BOF",
+      "offset": 1024,
+      "maxOffset": 1024,
+      "byteSequence": "482B0004",
+      "endianness": null,
+      "name": "Hierarchical File System Plus, sig n.1",
+      "note": "BOF; Offset: 1024; Magic Bytes:  0x482B0004 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x482B0004"
+    },
+    {
+      "signatureID": 2082,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "482B0004",
+      "endianness": null,
+      "name": "Hierarchical File System Plus, sig n.1",
+      "note": "BOF; Offset: 1024; Magic Bytes:  0x482B0004 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x482B0004"
+    },
+    {
+      "signatureID": 2083,
+      "positionType": "Absolute from BOF",
+      "offset": 1024,
+      "maxOffset": 1024,
+      "byteSequence": "48580005",
+      "endianness": null,
+      "name": "Hierarchical File System Plus, sig n.2",
+      "note": "BOF; Offset: 1024; Magic Bytes:  0x48580005 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x48580005"
+    },
+    {
+      "signatureID": 2083,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "48580005",
+      "endianness": null,
+      "name": "Hierarchical File System Plus, sig n.2",
+      "note": "BOF; Offset: 1024; Magic Bytes:  0x48580005 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x48580005"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "toast",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

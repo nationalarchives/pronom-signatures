@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 1284,
+  "formatName": "Wireless Bitmap",
+  "version": null,
+  "formatDescription": "The Wireless Application Protocol Bitmap format, or Wireless Bitmap, is a monochrome image format optimised for use on the mobile web.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "The format structure is as follows:\r\nThe first two bytes are both '00'. The next two bytes represent the width, then height of the image in pixels. The remaining bytes represent the image data. Further information regarding the format can be found on the Wikipedia page: http://en.wikipedia.org/wiki/Wireless_Application_Protocol_Bitmap_Format\r\nThe file format specification is available here: http://web.archive.org/web/20010605024138/http://www.wapforum.org/what/technical/SPEC-WAESpec-19990524.pdf\r\n\r\nIt is not possible to create a strong binary signature for this format, since the only constant bytes are the first two, both '00', which would cause an identification clash with many other formats.",
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/497",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd-wap-wbmp",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "wbmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

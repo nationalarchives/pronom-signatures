@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2870,
+  "formatName": "SPIR-V",
+  "version": null,
+  "formatDescription": "SPIR-V is a binary intermediate language for graphical shaders and compute kernels, created by Khronos.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://registry.khronos.org/SPIR-V/specs/unified1/SPIRV.html",
+  "lastUpdatedDate": "19 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1996",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2351,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0302230700000100",
+      "endianness": null,
+      "name": "SPIR-V",
+      "note": "BOF magic number 0x03022307, version 0x00000100"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spirv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1260,
+      "relatedFormatName": "Microsoft Office Owner File"
+    }
+  ]
+}

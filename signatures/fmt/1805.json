@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 2656,
+  "formatName": "Microsoft Access Database File",
+  "version": "1.0",
+  "formatDescription": "Microsoft Access Database File, formerly known as Jet MDB Database format, is propriatory file format developed and used by Microsoft as a native format for its Microsoft Access (formerly Microsoft Jet Database Engine) desktop database management system. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine, with version 1.0 having a maximum size of 128 megabytes, then increasing to 1 gigabyte with versions 1.1 and 2.0. This entry records the version 1.0 of MDB file format, for a full list of versions please follow the links provided in the Notes section.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access\r\n\r\nhttps://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access\r\n\r\nhttps://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digital/formats/fdd/fdd000462.shtml",
+  "lastUpdatedDate": "02 May 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "05 Jan 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000462",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1805",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q117456349",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2143,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01000000{1026}5269636807",
+      "endianness": null,
+      "name": "Microsoft Access Database File v1.0",
+      "note": "BOF; Offset: 0; Magic Bytes: Access database header 0x01000000, then an exact gap of 1026 bytes followed by 0x5269636807"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mdb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mda",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2657,
+      "relatedFormatName": "Microsoft Access Database File"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2658,
+      "relatedFormatName": "Microsoft Access Encrypted Database File"
+    }
+  ]
+}

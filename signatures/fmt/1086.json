@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1894,
+  "formatName": "Monkey's Audio File",
+  "version": null,
+  "formatDescription": "Monkey's Audio is a lossless audio file format created by Matt Ashland.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Aug 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Aug 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1086",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1466,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D414320{48}(E803|D007|B80B|A00F|8813)",
+      "endianness": null,
+      "name": "Monkey's Audio variant 1",
+      "note": "\"MAC \" {48} Compression level (1000|2000|3000|4000|5000) representing (FAST|NORMAL|HIGH|EXTRA_HIGH|INSANE)"
+    },
+    {
+      "signatureID": 1467,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D414320{2}(E803|D007|B80B|A00F|8813)",
+      "endianness": null,
+      "name": "Monkey's Audio variant 2",
+      "note": "\"MAC \" {2} Compression level (1000|2000|3000|4000|5000) representing (FAST|NORMAL|HIGH|EXTRA_HIGH|INSANE)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ape",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 1750,
+  "formatName": "Ogg Theora Video",
+  "version": null,
+  "formatDescription": "Ogg is a free, open container format maintained by the Xiph.Org Foundation. The Ogg container format can multiplex a number of independent streams for audio, video, text, and metadata.\r\n\r\nTheora is a free, lossy video compression format also developed by the Xiph.Org Foundation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/945",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/ogg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1288,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F6767530002{22}807468656F7261030201{32}4F676753",
+      "endianness": null,
+      "name": "Ogg Theora Video variant 1",
+      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} '\u20actheora' identifier, Major version 0x03, Minor version 0x02, Revision version 0x01 {32} next Ogg Page."
+    },
+    {
+      "signatureID": 1289,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F6767530002{22}6669736865616400{56-72}4F6767530002{22}807468656F7261030201{32}4F676753",
+      "endianness": null,
+      "name": "Ogg Theora Video variant 2",
+      "note": "Ogg Page Skeleton header (with 'fishead\\0' identifier), followed by Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} '\u20actheora' identifier, Major version 0x03, Minor version 0x02, Revision version 0x01 {32} next Ogg Page."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ogv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ogg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    }
+  ]
+}

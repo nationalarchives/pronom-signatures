@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2841,
+  "formatName": "Finale Notation File",
+  "version": "2014+",
+  "formatDescription": "Finale Notation File is the native format for music notation since 2014 created by the Finale software. Finale was originally created for Coda Music Software, later sold to Net4Music which then became MakeMusic. Originally made for Macintosh in 1988 it was later made available in Microsoft Windows.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://preservation.tylerthorsted.com/tag/font/\r\nhttps://web.archive.org/web/19990203113959/http://www.codamusic.com:80/down/finale/eeppd.txt\r\nhttps://en.wikipedia.org/wiki/Finale_(scorewriter)\r\nhttp://fileformats.archiveteam.org/wiki/Final",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "17 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.makemusic.notation",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1974",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "musx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "110000",
+      "description": "Finale Notation file",
+      "files": [
+        {
+          "path": "NotationMetadata.xml"
+        },
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.makemusic.notation'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 441,
+  "formatName": "AMI Draw Vector Image",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Dec 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/290",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 325,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "414D495F4D45544146494C455F464F524D41542056455253494F4E",
+      "endianness": null,
+      "name": "AmiDraw Vector Image",
+      "note": "Header begins with AMI_METAFILE_FORMAT VERSION."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sdw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

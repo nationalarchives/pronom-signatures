@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 2331,
+  "formatName": "Microsoft Visio Drawing",
+  "version": "2",
+  "formatDescription": "Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.visio",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1508",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1881,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "566973696F2028544D292044726177696E670D0A{6}02",
+      "endianness": null,
+      "name": "Microsoft Visio Drawing 2",
+      "note": "BOF: Visio (TM) Drawing 0x0D0A {6} 0x02"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vsd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vst",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vss",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

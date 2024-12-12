@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2514,
+  "formatName": "MATLAB Script File",
+  "version": null,
+  "formatDescription": "MATLAB (an abbreviation of MATrix LABoratory) software and language enables the user to undertake numerical computation and visualization, programme and analyze data, develop algorithms, and create models. Files with extension m are the source code that executes MATLAB commands. A single MATLAB simulation can contain multiple .m files, each one performing a different function.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Apr 2022",
+  "formatSourceID": 235,
+  "provenanceCompoundName": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1678",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "m",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

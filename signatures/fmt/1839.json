@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2691,
+  "formatName": "Microsoft Publisher Packaged Document",
+  "version": null,
+  "formatDescription": "Puz files are Microsoft Publisher documents which have been archived using the 'Pack and Go' feature of Publisher. The document and its associated files are compressed in an archive of Microsoft Cabinet format, using a .puz extension instead of the normal .cab.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PUZ",
+  "lastUpdatedDate": "28 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1839",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2178,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D534346{20}0301*2E(505542|707562)",
+      "endianness": null,
+      "name": "Microsoft Publisher Packaged Document",
+      "note": "BOF Absolute from beginning of file, magic bytes: MSCF{20}..*.(PUB|pub)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "puz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 801,
+      "relatedFormatName": "Windows Cabinet File"
+    }
+  ]
+}

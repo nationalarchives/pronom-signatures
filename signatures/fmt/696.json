@@ -1,0 +1,183 @@
+{
+  "fileFormatID": 1495,
+  "formatName": "Sibelius",
+  "version": null,
+  "formatDescription": "Sibelius is a WYSIWYG scorewriter program, created by Sibelius Software (now part of Avid Technology) for Microsoft Windows, Mac OS X, and historically RISC OS. It is used by composers, arrangers, performers, music publishers, teachers and students, particularly for writing classical, jazz, band, vocal, film and television music.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/696",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1025,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0F534942454C495553",
+      "endianness": null,
+      "name": "Sibelius",
+      "note": "Absolute from beginning of file, magic bytes: .SIBELIUS"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sib",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2848,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2849,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2851,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2852,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2854,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2855,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2856,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2857,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2859,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2860,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2861,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2862,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2863,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2864,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2865,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2866,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2848,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2849,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2851,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2852,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2854,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2855,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2856,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2857,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2859,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2860,
+      "relatedFormatName": "Sibelius Score"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2861,
+      "relatedFormatName": "Sibelius Score"
+    }
+  ]
+}

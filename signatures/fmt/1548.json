@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2373,
+  "formatName": "Visual Basics MAK File",
+  "version": "3 or earlier",
+  "formatDescription": "MAK (make) files are project files created by Microsoft Visual Basic version 3 and earlier. They store information including references to forms, source code and module files. MAK files were replaced with VBP files in Visual Basics 4 onwards.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6.0-documentation?redirectedfrom=MSDN",
+  "lastUpdatedDate": "11 Nov 2021",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1548",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1893,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 61,
+      "byteSequence": "50726F6A57696E53697A653D{7-15}0D0A50726F6A57696E53686F773D{1-3}0D0A49636F6E466F726D3D22466F726D",
+      "endianness": null,
+      "name": "Visual Basics MAK File",
+      "note": "Magic bytes EOF range 0-55: ProjWinSize=[7-15]..ProjWinShow=[1-3]..IconForm=\"Form"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mak",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

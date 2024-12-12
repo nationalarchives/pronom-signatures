@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 1456,
+  "formatName": "Open XML Paper Specification",
+  "version": null,
+  "formatDescription": "Open XML Paper Specification (also referred to as OpenXPS) is an open specification for a page description \r\nlanguage and a fixed-document format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-388.pdf",
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 207,
+  "provenanceCompoundName": "Walker Art Center / Walker Art Center",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures; 08/2023 (v.113)- Added extension oxps. Submitted by Preservica.",
+  "formatSourceDate": "14 Jul 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/oxps",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/657",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xps",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "oxps",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1630,
+      "relatedFormatName": "3MF 3D Manufacturing Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1782,
+      "relatedFormatName": "AutoCAD Design Web Format(DWFx)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "20000",
+      "description": "Open XML Paper Specification Variant 1",
+      "files": [
+        {
+          "path": "FixedDocumentSequence.fdseq"
+        }
+      ]
+    },
+    {
+      "containerType": "ZIP",
+      "id": "20010",
+      "description": "Open XML Paper Specification Variant 2",
+      "files": [
+        {
+          "path": "FixedDocSeq.fdseq"
+        }
+      ]
+    }
+  ]
+}

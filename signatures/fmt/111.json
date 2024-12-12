@@ -1,0 +1,208 @@
+{
+  "fileFormatID": 767,
+  "formatName": "OLE2 Compound Document Format",
+  "version": null,
+  "formatDescription": "The OLE2 Compound Document Format is a generic document format developed by Microsoft as the underlying native binary format for many of its Office applications. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. A Compound Document acts as a file system in which independent data streams are organised within a hierarchy of containers, called storages. All storages and streams are contained within a parent Root Storage. A Directory Stream indexes every stream and storage in the file. A Compound Document begins with the Compound Document Header, including pointers to the location of the Directory Stream and Master Sector Allocation Table. The remainder of the file is organised into Sectors, the positions of which are defined in the Sector Allocation Table and Master Sector Allocation Table.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "24 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Aug 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": "Little-endian (Intel) and Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/111",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 170,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+      "endianness": null,
+      "name": "OLE2 Compound Document Format",
+      "note": "Compound Document Header"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 76,
+      "relatedFormatName": "Microsoft Word Document Template"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 133,
+      "relatedFormatName": "Microsoft PowerPoint Presentation"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 134,
+      "relatedFormatName": "Microsoft Powerpoint Presentation"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 135,
+      "relatedFormatName": "Microsoft Powerpoint Presentation"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 165,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 376,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 682,
+      "relatedFormatName": "Microsoft Excel 5.0/95 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 684,
+      "relatedFormatName": "Microsoft Excel 97 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 685,
+      "relatedFormatName": "Microsoft Excel 2000-2003 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 688,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 690,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 822,
+      "relatedFormatName": "Microsoft Outlook Email Message"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1229,
+      "relatedFormatName": "Microsoft Visio (generic)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1230,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1553,
+      "relatedFormatName": "Microsoft Word Document (Password Protected)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1554,
+      "relatedFormatName": "Microsoft Word Document Template (Password Protected)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2471,
+      "relatedFormatName": "Roxio Label Creator Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2472,
+      "relatedFormatName": "Roxio Label Creator Project File"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 134,
+      "relatedFormatName": "Microsoft Powerpoint Presentation"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 135,
+      "relatedFormatName": "Microsoft Powerpoint Presentation"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 682,
+      "relatedFormatName": "Microsoft Excel 5.0/95 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 683,
+      "relatedFormatName": "Excel 95 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 684,
+      "relatedFormatName": "Microsoft Excel 97 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 685,
+      "relatedFormatName": "Microsoft Excel 2000-2003 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 688,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 690,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 857,
+      "relatedFormatName": "Revit Family File"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 858,
+      "relatedFormatName": "Revit Family Template"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 859,
+      "relatedFormatName": "Revit Template"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 861,
+      "relatedFormatName": "Revit External Group"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 862,
+      "relatedFormatName": "Revit Project"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1553,
+      "relatedFormatName": "Microsoft Word Document (Password Protected)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1554,
+      "relatedFormatName": "Microsoft Word Document Template (Password Protected)"
+    }
+  ]
+}

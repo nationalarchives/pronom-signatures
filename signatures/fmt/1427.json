@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2245,
+  "formatName": "MacDraw",
+  "version": "II",
+  "formatDescription": "MacDraw is a vector drawing application for the Apple Macintosh. Files of this type are likely to lack format extensions.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1427",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1795,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44525747(0000|4432)",
+      "endianness": null,
+      "name": "MacDraw II",
+      "note": "BOF: 'DRWG' ('D2'|0x0000)"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

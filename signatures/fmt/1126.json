@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1936,
+  "formatName": "Sony SR2 RAW Image File",
+  "version": null,
+  "formatDescription": "SR2 is a raw image format produced by some makes of Sony cameras. The format is based upon TIFF.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Nov 2017",
+  "formatSourceID": 202,
+  "provenanceCompoundName": "KULeuven - LIBIS / KULeuven - LIBIS",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1126",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1507,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{0-512}534F4E59{0-2048}00B001000400000001",
+      "endianness": null,
+      "name": "Sony SR2",
+      "note": "TIFF Header{0-512}\"SONY\"{0-2048} Maker Note data adjusted for endianness: Sony 'FileFormat' Exif tag 0xB000, 0x0001=byte, 0x00000004=four times, 0x01 = SR2 format. Sony Maker Note tags described at https://sno.phy.queensu.ca/~phil/exiftool/TagNames/Sony.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sr2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

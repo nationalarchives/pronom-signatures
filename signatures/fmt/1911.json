@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 2767,
+  "formatName": "Acrobat PDF/A - Portable Document Format",
+  "version": "4e",
+  "formatDescription": "PDF/A-4 is the file format described by ISO 19005-4:2020 \u201cDocument management \u2014 Electronic document file format for long-term preservation \u2014 Part 4: Use of ISO 32000-2 (PDF/A-4)\u201d. It is the first of the PDF-Archival format family to be based on PDF 2.0. PDF/A-4e is aimed at engineering use-cases that allows for rich media such as interactive 3D elements to be embedded.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.iso.org/standard/71832.html",
+  "lastUpdatedDate": "15 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": "04/2024 (v.118)- Spelling mistake corrected in MIME Type. Submitted by Archives New Zealand and Brigham Young University.",
+  "formatSourceDate": "25 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "PDF/A-4e",
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1911",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2257,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "255044462D322E[30:39]",
+      "endianness": null,
+      "name": "PDF/A-4e variant 1",
+      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019 followed by \u2018<pdfaid:conformance>E</pdfaid:conformance>\u2019"
+    },
+    {
+      "signatureID": 2257,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "3C7064666169643A706172743E343C2F7064666169643A706172743E*3C7064666169643A636F6E666F726D616E63653E453C2F7064666169643A636F6E666F726D616E63653E",
+      "endianness": null,
+      "name": "PDF/A-4e variant 1",
+      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019 followed by \u2018<pdfaid:conformance>E</pdfaid:conformance>\u2019"
+    },
+    {
+      "signatureID": 2258,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "255044462D322E[30:39]",
+      "endianness": null,
+      "name": "PDF/A-4e variant 2",
+      "note": "\u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:conformance>E</pdfaid:conformance>\u2019 followed by \u2018<pdfaid:part>4</pdfaid:part>\u2019"
+    },
+    {
+      "signatureID": 2258,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "3C7064666169643A636F6E666F726D616E63653E453C2F7064666169643A636F6E666F726D616E63653E*3C7064666169643A706172743E343C2F7064666169643A706172743E",
+      "endianness": null,
+      "name": "PDF/A-4e variant 2",
+      "note": "\u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:conformance>E</pdfaid:conformance>\u2019 followed by \u2018<pdfaid:part>4</pdfaid:part>\u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1939,
+      "relatedFormatName": "PDF 2.0 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2766,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2877,
+  "formatName": "Husqvarna / TruE Embroidery Stitch File",
+  "version": null,
+  "formatDescription": "A VIP embroidery file, and later the VP3 and VP4, are design files  created by Husqvarna-Viking, a Swedish company that creates sewing machines. Computerised embroidery machines such as this those made by this company have been in production since the early 1990's with support for a specialized memory card, floppy disk, and USB connections. The VIP format replaced the HUS format after a merger of the company with PFAFF in the late 1990s. VP3 and VP4 followed with further collaborations and updates.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.embroidery.com/machine-embroidery-formats\r\nhttps://embrilliance.com/Help/Essentials%20Mac%201106/index.html?turl=creatingadesigner1diskorstick.htm",
+  "lastUpdatedDate": "19 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2002",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2357,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2576736D250000",
+      "endianness": null,
+      "name": "Husqvarna / TruE Embroidery Stitch File",
+      "note": "BOF; Offset: 0; Magic Bytes: 2576736D250000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vp3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1752,
+  "formatName": "Ogg FLAC Compressed Multimedia File",
+  "version": null,
+  "formatDescription": "Ogg is a open container format maintained by the Xiph.Org Foundation. FLAC (Free Lossless Audio Codec) handles archival and high fidelity audio data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/ogg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/947",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1291,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F6767530002{23}464C4143{46}4F676753",
+      "endianness": null,
+      "name": "Ogg FLAC Compressed Multimedia File",
+      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {23} FLAC identifier {46} next Ogg Page."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ogg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    }
+  ]
+}

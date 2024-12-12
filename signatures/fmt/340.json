@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1085,
+  "formatName": "Lotus WordPro Document",
+  "version": "97/Millennium",
+  "formatDescription": "Lotus Word Pro is a word processor program produced by the Lotus Software Group as part of the Lotus SmartSuite office suite. The initial release was in 1988. Is was the successor to Ami Pro and used on Microsoft Windows-compatible computers and on IBM OS/2 Warp.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Jun 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/lwp",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/vnd.lotus-wordpro",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/340",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 466,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "576F726450726F0000000000000000004C5750370000000000000000000000000000FFFFFFFF000000002E",
+      "endianness": null,
+      "name": "Lotus WordPro 97/Millennium",
+      "note": "Header ASCII: WordPro, LWP7"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lwp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 504,
+      "relatedFormatName": "Lotus WordPro Document"
+    }
+  ]
+}

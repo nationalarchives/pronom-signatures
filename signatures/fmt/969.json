@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1774,
+  "formatName": "Rich Text Format",
+  "version": "0",
+  "formatDescription": "Rich Text Format (RTF) is a format developed by Microsoft to encode formatted text and graphics for use within applications or for data and formatting transfer between applications. It is closely associated with Microsoft Word, and new versions are developed with each release of Word. RTF files are encoded in plain text, typically ASCII, and consists of a series of control words, control symbols and groups. An RTF file comprises a Header section, containing various header tables, followed by a Document section, containing the document content and formatting.\r\n\r\nRTF0 may predate version 1.0 of the RTF specification which is known to date from at least 1992. Please contact the PRONOM team if you are aware of or have access to a formal specification for RTF0.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Sep 2016",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": "Rich Text Format",
+  "identifiers": [
+    {
+      "identifierText": "application/rtf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/969",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1333,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7B5C727466305C(616E7369|6D6163|7063|706361)",
+      "endianness": null,
+      "name": "RTF 0",
+      "note": "\tBOF: {\\rtf0 version control word & any character set control word  from /ansi /mac /pc /pca"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rtf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

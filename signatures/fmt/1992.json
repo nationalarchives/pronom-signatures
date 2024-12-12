@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2865,
+  "formatName": "Sibelius Score",
+  "version": "2023.5-2023.8",
+  "formatDescription": "The Sibelius Score is a music notation format a digital representation of sheet music. Sibelius software is a WYSIWYG scorewriter program, it allows for the creation and editing of music scores and the .sib file is it's native format. Sibelius is the name of a series of applications for music typesetting, was originally developed for the Acorn system (RISC 0S) in 1986, then released on Windows and Macintosh in 1998-99. In 2006 it was purchased by AVID. The software is commonly used by composers, arrangers, performers, music publishers, teachers and students, particularly for writing classical, jazz, band, vocal, film and television music.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://preservation.tylerthorsted.com/2024/04/12/sibelius/\r\nhttps://wiki.dpconline.org/images/d/d9/Sibelius_Assessment_v1.0.pdf\r\nhttp://fileformats.archiveteam.org/wiki/Sibelius\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000609.shtml",
+  "lastUpdatedDate": "18 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-sibelius-score",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fdd000609",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1992",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2348,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0F534942454C495553{1}0043",
+      "endianness": null,
+      "name": "Sibelius Score v.2023.5-2023.8",
+      "note": "BOF; Offset:0; 0x0F followed by 'SIBELIUS' then after 1 byte 0x0043"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sib",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1495,
+      "relatedFormatName": "Sibelius"
+    }
+  ]
+}

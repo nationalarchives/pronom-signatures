@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 1751,
+  "formatName": "Ogg Opus Codec Compressed Multimedia File",
+  "version": null,
+  "formatDescription": "Ogg is a open container format maintained by the Xiph.Org Foundation, while Opus is a lossy audio coding format developed by Xiph and intended to replace the Vorbis codec.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/ogg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "audio/opus",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/946",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1290,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F6767530002{22}4F70757348656164{11}4F676753",
+      "endianness": null,
+      "name": "Ogg OPUS Codec Compressed Multimedia File",
+      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} OpusHead identifier {11} next Ogg Page."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ogg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "opus",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "fileFormatID": 2741,
+  "formatName": "Resource Interchange File Format (RIFF)",
+  "version": null,
+  "formatDescription": "RIFF (Resource Interchange File Format) is a structured framework for multimedia files. Rather than being a precise file format, RIFF serves as a broader structure that encompasses specific file formats, including several subtypes. The fundamental component of a RIFF file is a chunk, identifiable by a unique four-character code. Applications such as viewers can bypass chunks with unfamiliar codes. A core RIFF chunk starts with a second distinctive four-character code identifying the specific RIFF variant or subtype. Applications rendering RIFF files can disregard chunks with unknown labels. Chunks can also be layered within each other. While the RIFF structure underpins several critical file formats, it has not been employed as the enclosing structure for any formats developed post the mid-1990s.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Aug 2023",
+  "formatSourceID": 231,
+  "provenanceCompoundName": "New York Public Library / New York Public Library",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio, Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000025",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1886",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2227,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646",
+      "endianness": null,
+      "name": "RIFF",
+      "note": "BOF:'RIFF'"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 60,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 64,
+      "relatedFormatName": "Corel R.A.V.E."
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 65,
+      "relatedFormatName": "Corel Presentation Exchange File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 66,
+      "relatedFormatName": "Corel Presentation Exchange File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 314,
+      "relatedFormatName": "CD Audio"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 444,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 445,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 552,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 553,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 556,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 557,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 655,
+      "relatedFormatName": "Audio/Video Interleaved Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1134,
+      "relatedFormatName": "Microsoft Animated Cursor Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1211,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1213,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1217,
+      "relatedFormatName": "Corel R.A.V.E."
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1218,
+      "relatedFormatName": "Corel R.A.V.E."
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1251,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1252,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1354,
+      "relatedFormatName": "WebP"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1355,
+      "relatedFormatName": "WebP"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1356,
+      "relatedFormatName": "WebP"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1420,
+      "relatedFormatName": "RIFF Palette Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1619,
+      "relatedFormatName": "CD-ROM/XA (eXtended Architecture)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1728,
+      "relatedFormatName": "Microsoft xWMA"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1760,
+      "relatedFormatName": "Downloadable Sounds Audio"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1761,
+      "relatedFormatName": "RIFF-based MIDI"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1762,
+      "relatedFormatName": "DirectMusic Segment File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1763,
+      "relatedFormatName": "DirectMusic Style File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1767,
+      "relatedFormatName": "QCP Audio File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1960,
+      "relatedFormatName": "4X Movie File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2783,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2823,
+      "relatedFormatName": "Melco OFM Project"
+    }
+  ]
+}

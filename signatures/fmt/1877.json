@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2731,
+  "formatName": "GST Art File",
+  "version": "1",
+  "formatDescription": "GST Art File is a vector based drawing format file format with an .art extension, it is a binary file format. GST Technology developed its first drawing software in the early 1990s alongside its DTP software. In 2001, the company merged to form Greenstreet Software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/GST_ART",
+  "lastUpdatedDate": "18 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "04/2024 (v.118)- Priority over fmt/134 MPEG 1/2 Audio Layer 3. Submitted by Brigham Young University.",
+  "formatSourceDate": "04 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1877",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2219,
+      "positionType": "Absolute from BOF",
+      "offset": 16,
+      "maxOffset": 0,
+      "byteSequence": "4753543A41525400",
+      "endianness": null,
+      "name": "GST Art File v.1",
+      "note": "BOF; Offset: 16; 'GST:ART'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "art",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2732,
+      "relatedFormatName": "GST Art File"
+    }
+  ]
+}

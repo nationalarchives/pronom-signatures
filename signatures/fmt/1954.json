@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2819,
+  "formatName": "Zoom Project Settings",
+  "version": "H6",
+  "formatDescription": "File made by the Zoom H6, a portable audio recorder which is in widespread use. The hprj file is outputted by the device, sitting alongside the audio files. The file holds metadata information including project title, recording date etc. The H5 records in 2GB chunks, and when that is exceeded splits the recording into smaller chunks. The metadata tells the H6 which files go together and their order.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_H6_0.pdf \r\nhttps://www.reddit.com/r/videography/comments/alagpf/what_are_the_hprj_files_for_that_my_zoom_h6_is/ \r\nhttps://zoomcorp.com/en/gb/handheld-recorders/handheld-recorders/h6-audio-recorder/",
+  "lastUpdatedDate": "25 Jan 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Jan 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1954",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2305,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A4F4F4D2048362070726A65637466696C65",
+      "endianness": null,
+      "name": "Zoom Project Settings H6",
+      "note": "Absolute from beginning of file, magic bytes: ZOOM H6 prjectfile"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hprj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2817,
+      "relatedFormatName": "Zoom Project Settings"
+    }
+  ]
+}

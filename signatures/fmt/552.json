@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1340,
+  "formatName": "Adobe InDesign Document",
+  "version": "CS6",
+  "formatDescription": "Adobe InDesign is a desktop publishing application developed and produced by Adobe Inc., first released in 1999. It is the successor to PageMaker, software previously created by Aldus Corporation in 1985, which was subsequently acquired by Adobe. It can be used to produce a number of works such as posters, flyers, brochures, magazines, newspapers, presentations and books. InDesign supports XML, stylesheets and other coding markup, providing functionality for exporting tagged text content for use in other digital and online formats.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/InDesign_INDD",
+  "lastUpdatedDate": "24 Feb 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/552",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 873,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54(01|02){4}(08000000|00000008)",
+      "endianness": null,
+      "name": "Adobe InDesign Document CS6",
+      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: DOCUMENT; 1-byte Endianness: 1=little endian (intel), 2= big endian (Motorola); 4 wildcard bytes; 4 byte version (consider endianess) 8=CS6"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ind",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "indd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "indt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 865,
+      "relatedFormatName": "Adobe InDesign Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2459,
+      "relatedFormatName": "Adobe InDesign Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2458,
+      "relatedFormatName": "Adobe InDesign Document"
+    }
+  ]
+}

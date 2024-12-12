@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  malware_security_scan:
+    name: Malware Scanner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v4
+      - name: Malware Scanner
+        uses: dell/common-github-actions/malware-scanner@main
+        with:
+          directories: .
+          options: -ri
+  run_skeleton_suite:
+    name: Run Skeleton Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: digital-preservation/droid
+          path: 'droid'
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: 17
+          distribution: temurin
+      - run: .github/scripts/branch_test.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: signature-file.xml
+          path: signature-file.xml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: container-signature-file.xml
+          path: container-signature-file.xml
+            
+          
+

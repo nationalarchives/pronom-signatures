@@ -1,0 +1,126 @@
+{
+  "fileFormatID": 644,
+  "formatName": "Extensible Hypertext Markup Language",
+  "version": "1.1",
+  "formatDescription": "The Extensible Hypertext Markup Language (XHTML) is a reformulation of the Hypertext Markup Language (HTML) as an application of the Extensible Markup Language (XML). This allows for the automated processing of XHTML documents using a standard XML parser. XHTML 1.1 is now recommended by the W3C over HTML for the creation of web pages. The structure and grammar of an XHTML document is defined using a Document Type Definition (DTD). An XHTML document consists of nested elements, each of which may have attributes and content. It begins with an XHTML Document Type declaration, defining the XHTML version and Document Type Definition (DTD) to which it conforms. XHTML documents are typically encoded in UTF-8 or UTF-16.",
+  "releaseDate": "31 May 2001",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "XHTML (1.1)",
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/xhtml+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/103",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 40,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "3C21444F43545950452068746D6C205055424C494320222D2F2F5733432F2F445444205848544D4C20312E31",
+      "endianness": null,
+      "name": "XHTML 1.1",
+      "note": "With DOCTYPE declaration for 1.1"
+    },
+    {
+      "signatureID": 40,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "3C68746D6C20786D6C6E733D22687474703A2F2F7777772E77332E6F72672F313939392F7868746D6C22*3C7469746C653E*3C2F7469746C653E",
+      "endianness": null,
+      "name": "XHTML 1.1",
+      "note": "With DOCTYPE declaration for 1.1"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "htm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "html",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 310,
+      "relatedFormatName": "Internet Archive"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 777,
+      "relatedFormatName": "Java Archive Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1029,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1158,
+      "relatedFormatName": "Internet Archive"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1269,
+      "relatedFormatName": "Apple iBook format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1270,
+      "relatedFormatName": "ePub format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1670,
+      "relatedFormatName": "Apple Safari Webarchive"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2099,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2173,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    }
+  ]
+}

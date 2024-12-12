@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2799,
+  "formatName": "Lotus Screencam Data File",
+  "version": "3.0-3.1",
+  "formatDescription": "Lotus Screencam Data Files are files created by the software Lotus SmartSuite which was used to record video and audio of your computer screen.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Screencam \r\nhttp://fileformats.archiveteam.org/wiki/Lotus_ScreenCam_movie",
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": "04/2024 (v.118)- Changed version from 3.0,3.1 to 3.0-3.1. Submitted by Preservica.",
+  "formatSourceDate": "31 Oct 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-screencam",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1938",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2279,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8053434D4F5676332E(30|31){6}3002",
+      "endianness": null,
+      "name": "Lotus Screencam Data File",
+      "note": "Absolute from beginning of file, magic bytes: \u20acSCMOVv3.(0|1){6}0."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "scm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

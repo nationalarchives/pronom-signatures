@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2572,
+  "formatName": "dBASE Windows Form File",
+  "version": null,
+  "formatDescription": "dBASE is a database management systems for personal computers. The dBASE system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. The wfm file stores the dBASE form, used for entering and modifying data in the database.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.dbase.com/help/9_4/Creating_an_app/IDH_APP_WFM_FILE.htm",
+  "lastUpdatedDate": "07 Jul 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1728",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2064,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2A2A20454E4420484541444552202D2D20646F206E6F742072656D6F76652074686973206C696E652A0D0A2A2047656E657261746564206F6E20{2}2F{2}2F{2-4}0D0A2A",
+      "endianness": null,
+      "name": "dBASE Windows Form File",
+      "note": "BOF Absolute from beginning of file, magic bytes:\r\n** END HEADER -- do not remove this line* * Generated on {2}/{2}/{2-4} *"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wfm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 239,
+  "formatName": "Adobe PhotoDeluxe",
+  "version": null,
+  "formatDescription": "Adobe PhotoDeluxe is the native format of files produced by PhotoDeluxe, a raster graphics editor line published by Adobe from 1996 to 2002. It is based on the Adobe Photoshop file format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118)- Description created. Submitted by Archives nationales (French National Archives) as part of PRONOM Research Week 2023.",
+  "formatSourceDate": "10 Oct 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/167",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

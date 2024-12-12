@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2290,
+  "formatName": "STOS Memory Bank",
+  "version": null,
+  "formatDescription": "STOS Memory Bank files are associated with the STOS: The Game Creator, a toolkit for creating games on an Atari ST computer in the STOS BASIC programming language. Files store various data such as graphics and music.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1467",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1832,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C696F6E706F75626E6B",
+      "endianness": null,
+      "name": "STOS Memory Bank",
+      "note": "BOF: 'Lionpoubnk' (No offset)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mbk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

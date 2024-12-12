@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1918,
+  "formatName": "Python Compiled File",
+  "version": "2.4",
+  "formatDescription": "\tPython automatically compiles a python script before running it, the first time the script runs it will create a .pyc in the same directory as the .py file which will then be used if the script is run again to save time by not having to re-compile the code.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Nov 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1110",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1493,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6DF20D0A",
+      "endianness": null,
+      "name": "PYC 2.4",
+      "note": "6DF20D0A - m\u00f2.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pyc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

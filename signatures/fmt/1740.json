@@ -1,0 +1,108 @@
+{
+  "fileFormatID": 2586,
+  "formatName": "Apple Partition Map Disk Image",
+  "version": null,
+  "formatDescription": "Apple Partition Map Disk Image is specific to describing the contents and structure of Apple Partition Map (APM) partition scheme, it can be thought of as a container format for multiple filesystem image files. It was developed by Apple in around 1988 with the introduction of Apple Partition Map scheme on Macintosh II, a scheme that defines how the data is organized on a singular disk. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Apple_Partition_Map\r\n\r\nhttps://mac-optimization.bestreviews.net/the-different-partition-format-types-on-mac/\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml\r\n\r\nhttps://en.wikipedia.org/wiki/Apple_Disk_Image\r\n\r\nhttps://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats",
+  "lastUpdatedDate": "17 Aug 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1740",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2078,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "{0-16}45520200{508}504D",
+      "endianness": null,
+      "name": "Apple Partition Map Disk Image, sig n.1",
+      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520200, an exact 508 wildcard bytes followed by 0x504D"
+    },
+    {
+      "signatureID": 2079,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "{0-16}45520800{2044}504D",
+      "endianness": null,
+      "name": "Apple Partition Map Disk Image, sig n.2",
+      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520800, an exact 2044 wildcard bytes followed by 0x504D"
+    },
+    {
+      "signatureID": 2088,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "{0-16}00000000{508}504D",
+      "endianness": null,
+      "name": "Apple Partition Map Disk Image, sig n.3",
+      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by a set of null bytes, then an exact 508 wildcard bytes followed by 0x504D"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "toast",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "iso",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cdr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bin",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1878,
+      "relatedFormatName": "Apple Disk Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2587,
+      "relatedFormatName": "Apple Partition Map ISO 9660 Hybrid"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2605,
+      "relatedFormatName": "Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1255,
+      "relatedFormatName": "ISO 9660 Disk Image File"
+    }
+  ]
+}

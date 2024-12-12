@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2575,
+  "formatName": "Data File",
+  "version": "Generic",
+  "formatDescription": ".dat files are used by many different applications as a general data store. Some may have a precise structure, but this entry is intended as a catch-all for extension-only identification for those .dat formats that do not yet have a PRONOM identification signature. For ESRI ArcInfo DAT File (Internal), see fmt/1600.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jul 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1730",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "dat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

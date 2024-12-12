@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1866,
+  "formatName": "Phase One Raw Image",
+  "version": null,
+  "formatDescription": "Phase One is a camera manufacturer and Capture One is the accompanying software. This format contains the raw image data captured by the camera's image sensor.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Jul 2017",
+  "formatSourceID": 227,
+  "provenanceCompoundName": "Historic Environment Scotland / Historic Environment Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Capture One Raw Image",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1060",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1429,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D4D4D52617754",
+      "endianness": null,
+      "name": "Phase One Raw big endian",
+      "note": "BOF: MMMMRawT"
+    },
+    {
+      "signatureID": 1431,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4949494954776152",
+      "endianness": null,
+      "name": "Phase One Raw little endian",
+      "note": "BOF: IIIITwaR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cap",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "capture",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

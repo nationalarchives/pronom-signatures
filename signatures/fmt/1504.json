@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2327,
+  "formatName": "Agisoft Tiled Model",
+  "version": null,
+  "formatDescription": "Metashape is photogrammetry software used to create 3D models, point clouds and orthomosaic images developed by Agisoft. The TLS file is an export of a tiled model.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1504",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1876,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "544C0102",
+      "endianness": null,
+      "name": "Agisoft Tiled Model",
+      "note": "BOF: 'TL' 0x0102"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tls",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

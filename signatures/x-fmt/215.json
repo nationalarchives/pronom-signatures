@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 304,
+  "formatName": "GEM Metafile Format",
+  "version": "1.00",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/215",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 853,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFF0018006400(02|00)",
+      "endianness": null,
+      "name": "GEM metafile 1.00 big endian",
+      "note": "Magic number FFFF; length = 0x18; version 100 decimal =hex 64; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)"
+    },
+    {
+      "signatureID": 854,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFF18006400(02|00)00",
+      "endianness": null,
+      "name": "GEM metafile 1.00 little endian",
+      "note": "Magic number FFFF; length = 0x18; version 100 decimal =hex 64; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gem",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1329,
+      "relatedFormatName": "GEM Metafile Format"
+    }
+  ]
+}

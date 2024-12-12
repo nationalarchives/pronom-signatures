@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2840,
+  "formatName": "Finale Performance Assessment",
+  "version": null,
+  "formatDescription": "Finale Performance Assessment was discontinued in 2007 and part of the Finale family of file formats. Finale Performance Assessment software allowed you amongst other capabilities to manipulate tempo, record songs and duets and grade performance. Finale was originally created for Coda Music Software, later sold to Net4Music which then became MakeMusic.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://preservation.tylerthorsted.com/tag/font/\r\nhttps://web.archive.org/web/19990203113959/http://www.codamusic.com:80/down/finale/eeppd.txt\r\nhttps://en.wikipedia.org/wiki/Finale_(scorewriter)\r\nhttp://fileformats.archiveteam.org/wiki/Finale",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1973",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2325,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46494E414C4520504552464F524D414E4345204153534553534D454E54",
+      "endianness": null,
+      "name": "Finale Performance Assessment",
+      "note": "BOF; Offset: 0; Magic Bytes: 'FINALE PERFORMANCE ASSESSMENT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fpa",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

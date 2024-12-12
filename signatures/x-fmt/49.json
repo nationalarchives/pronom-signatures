@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 80,
+  "formatName": "AutoCAD Design Web Format",
+  "version": "6.0",
+  "formatDescription": "AutoCAD Design Web Format (DWF) version 6 is the publishing format of Autodesk software, especially design data, such as 2D vector data, 3D vector data, animations, and metadata.  It uses the ZIP file format as the backing store mechanism.  The content can be roughly divided into:\r\n\u2022        DWF metadata files \u2013 XML files that contain information pertaining to metadata and structure (author, title, creation time, section dependencies, section ordering, resource file descriptions, roles, MIME types, etc.) and pertaining to the section (page information, design metadata, etc.).  The structural metadata is used to create logical objects (collections of files to represent a part or page, etc.).\r\n\u2022        Resource files \u2013 media or other content files that are referenced from the package/section metadata and are usually presentations of design data in various formats (ZGL, W2D, JPG, PNG, AVI, XML, TXT, DOC, etc.)\r\nA DWF package must meet the following requirements:\r\n\u2022        The first 12 bytes of the physical package file must contain the DWF version header. \r\n\u2022        A manifest.xml file at the root of the zip archive that complies to the manifest.xsd schema\r\n\u2022        File contents logically organized into sections, one for each component of the composite design.\r\n\u2022        At least one resource file.\r\n\u2022        The manifest must contain an <Interfaces> element containing at least one <Interface> sub element that indicates a document interface supported by the DWF package.  An example would be the \u2018ePlot\u2019 document interface, which implies that the DWF contains at least one valid ePlot page.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/dwf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/x-dwf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "drawing/x-dwf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "image/vnd.dwf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "image/x-dwf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "model/vnd.dwf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/49",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 386,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "28445746205630??2E????29",
+      "endianness": null,
+      "name": "AutoCAD Design Web Format",
+      "note": "(DWF Version)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dwf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

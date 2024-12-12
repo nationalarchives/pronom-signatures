@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2020,
+  "formatName": "Wavefront OBJ File",
+  "version": null,
+  "formatDescription": "OBJ is an ASCII format for representing 3D geometry. The OBJ format supports both polygonal objects and free-form objects. Polygonal geometry uses points, lines, and faces to define objects while free-form geometry uses curves and surfaces.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 170,
+  "provenanceCompoundName": "Archaeology Data Service / Archaeology Data Service",
+  "formatProvenance": "08/2023- Modified BOF signature to increase two of the byte ranges. Submitted by Preservica.",
+  "formatSourceDate": "17 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1210",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1588,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "7620{0-8}[30:39]2E[30:39]{0-32}20{0-8}[30:39]2E[30:39]{0-32}20{0-8}[30:39]2E[30:39]{0-64}0A*6620{0-1}[31:39]{0-20}20{0-1}[31:39]{0-20}20{0-1}[31:39]{0-40}0A",
+      "endianness": null,
+      "name": "Wavefront OBJ Polygonal Geometry",
+      "note": "BOF:0-1024 (can be unlimited preamble, but we want to anchor near the beginning of the file for most cases). \r\nMust have vertices:\r\nv <space> 3 x space separated floating point values that can have a negative value or not representing x, y, z. w is optional, line ending.\r\nLater, the vertices must have a face:\r\nf <space> 3+ integer values, can be negative, separated by space. Faces count from 1. PRONOM uses this minimally viable set, however each face can have values for \u2018vertex textures\u2019 and \u2018vertex normals\u2019 - if present, these values are separated by /. Each row ends in new line character"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "obj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

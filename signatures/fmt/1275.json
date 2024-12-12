@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2093,
+  "formatName": "3M Printscape",
+  "version": "2",
+  "formatDescription": "3M Printscape is desktop design and printing software published by MicroVision Development. PSC is the native file format for version 2 of the software. Version 1 produced an STD file format that appears identical to, and can be opened with the SureThing labelling software, fmt/1276.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1275",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1650,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4949{0-320}334D205072696E747363617065",
+      "endianness": null,
+      "name": "3M Printscape 2 (Intel)",
+      "note": "BOF: 'II'{0-320}'3M Printscape'"
+    },
+    {
+      "signatureID": 1651,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D{0-320}334D205072696E747363617065",
+      "endianness": null,
+      "name": "3M Printscape 2 (Motorola)",
+      "note": "BOF: 'MM'{0-320}'3M Printscape'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

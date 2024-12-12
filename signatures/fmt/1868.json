@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2722,
+  "formatName": "Leapfrog Geo 3D Scene Format",
+  "version": null,
+  "formatDescription": "Leapfrog Geo is for a suite of 3D geological modelling software, which is used particularly by the mining industry. Users can generate 3D models by inputting large datasets.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.seequent.com/products-solutions/leapfrog-geo/",
+  "lastUpdatedDate": "24 May 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "24 May 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1868",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2212,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "254C65617066726F672D",
+      "endianness": null,
+      "name": "Leapfrog Geo 3D Scene Format",
+      "note": "Absolute from beginning of file, magic bytes: %Leapfrog-"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lfsc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

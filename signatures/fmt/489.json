@@ -1,0 +1,112 @@
+{
+  "fileFormatID": 1276,
+  "formatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p",
+  "version": null,
+  "formatDescription": "PDF/X was developed by the Committee for Graphics Arts Technologies Standards (CGATS) and Adobe. This 'exchange standard' format is based on Adobe's PDF specification and includes additional notes specifically to facilitate graphics exchange. PDF/X is a subset of the PDF specification, and is an application standard as well as a file format standard. There are several versions of the standard, which address specific issues.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Dec 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Dec 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/489",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 763,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "255044462D312E[30:37]",
+      "endianness": null,
+      "name": "PDF/X-4p",
+      "note": "BOF: %PDF-1.[0-7] - specification is based on PDF1.6, however the specification doesn't specifically preclude other versions. We have seen and produced samples with PDF value not 1.6, so we are including all possible values.\r\nVAR: <pdfxid:GTS_PDFXVersion>PDF/X-4p</pdfxid:GTS_PDFXVersion>"
+    },
+    {
+      "signatureID": 763,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "3C7064667869643A4754535F5044465856657273696F6E3E5044462F582D34703C2F7064667869643A4754535F5044465856657273696F6E3E",
+      "endianness": null,
+      "name": "PDF/X-4p",
+      "note": "BOF: %PDF-1.[0-7] - specification is based on PDF1.6, however the specification doesn't specifically preclude other versions. We have seen and produced samples with PDF value not 1.6, so we are including all possible values.\r\nVAR: <pdfxid:GTS_PDFXVersion>PDF/X-4p</pdfxid:GTS_PDFXVersion>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 613,
+      "relatedFormatName": "Acrobat PDF 1.0 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 614,
+      "relatedFormatName": "Acrobat PDF 1.1 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 615,
+      "relatedFormatName": "Acrobat PDF 1.2 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 617,
+      "relatedFormatName": "Acrobat PDF 1.4 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 869,
+      "relatedFormatName": "TrueType Font"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    }
+  ]
+}

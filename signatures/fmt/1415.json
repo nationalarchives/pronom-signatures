@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2233,
+  "formatName": "GST Publisher File",
+  "version": "1",
+  "formatDescription": "Software company Greenstreet developed a desktop publishing product called Publisher in the early 1990s and licensed the technology to a number of other software vendors, who marketed it under a range of names. The website (http://www.bmsoftware.com/greenstreetpublisher3.htm) lists the following, which may not be exhaustive: Pressworks 2, Pressworks 2.5, Press International, GSP-Pressworks 2.03, Pressworks 2.51, Instant Home Publisher, greenstreet-Publisher 2, Fuji-Publisher, IMSI TurboPublisher 1.0, TurboPublisher2.5, Media Graphics-Publishers Paradise Page Express, Micro Vision-Vision Publisher 4, NEBS-PageMagic 1 & 2, PersonalSoft-Publications, Pushbutton-Publish, Softkey-Publisher DOS v 1 & 2, Sybex-Page, Timeworks-Publisher, Publish-It, Publish-It Lite, VCI-Pro Publisher, Wizardworks-CompuWorks, Publisher 1 & 2. This entry covers the early version of the underlying format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1415",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1791,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44545049",
+      "endianness": null,
+      "name": "GST Publisher 1",
+      "note": "BOF: 'DTPI'\r\nEOF 0-16: 'EODF'"
+    },
+    {
+      "signatureID": 1791,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 16,
+      "byteSequence": "454F4446",
+      "endianness": null,
+      "name": "GST Publisher 1",
+      "note": "BOF: 'DTPI'\r\nEOF 0-16: 'EODF'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dtp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

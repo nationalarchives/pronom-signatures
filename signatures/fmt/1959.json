@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2824,
+  "formatName": "Melco OFM Project",
+  "version": "pre v.11",
+  "formatDescription": "Melco DesignShop Project files are used for embroidery machines, versions pre-11 are packaged in an OLE2 document container format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specifications: http://fileformats.archiveteam.org/wiki/OFM",
+  "lastUpdatedDate": "23 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later.",
+  "formatSourceDate": "23 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1959",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ofm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "112000",
+      "description": "Melco Project File",
+      "files": [
+        {
+          "path": "EdsIV Object",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "16",
+                  "subSeqMaxOffset": "48",
+                  "sequence": "43 50 72 6A 44 65 66 61 75 6C 74 73"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

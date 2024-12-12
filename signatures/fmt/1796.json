@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2647,
+  "formatName": "Wireless Markup Language (WML) Document",
+  "version": "1.1",
+  "formatDescription": "Wireless Markup Language (wml) is an XML-based markup language created by the WAP (Wireless Application Protocol) Forum in the late 1990s. It was intended for mobile devices which were limited by bandwidth, memory and CPU capabilities, such as mobile phones, providing text and image presentation, forms, data input and hyperlinks, much like html. WAP died out in the early 2000s. It had been developed and supported by the WAP forum, which no longer exists, and has been subsumed by the Open Mobile Alliance.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: http://www.wapforum.org/what/technical.htmandhttp://www.wapforum.org/what/technical/wml-30-apr-98.pdf",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 295,
+  "provenanceCompoundName": "Stadtarchiv Hof / Stadtarchiv Hof",
+  "formatProvenance": "08/2023 (v.113)- Offset and signature modified for the EOF byte sequence to remove floating curly brackets from the signature for consistency.",
+  "formatSourceDate": "22 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1796",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/vnd.wap.wml",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2136,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{0-75}3C21444F435459504520776D6C205055424C494320222D2F2F574150464F52554D2F2F44544420574D4C{20-200}3C776D6C3E",
+      "endianness": null,
+      "name": "Wireless Markup Language (WML) Document",
+      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"{0-75}<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML{20-200}<wml>\r\nEOF, offset 0-6, magic bytes: </card>{0-6}</wml>{0-2}"
+    },
+    {
+      "signatureID": 2136,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 5,
+      "byteSequence": "3C2F636172643E{0-6}3C2F776D6C3E",
+      "endianness": null,
+      "name": "Wireless Markup Language (WML) Document",
+      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"{0-75}<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML{20-200}<wml>\r\nEOF, offset 0-6, magic bytes: </card>{0-6}</wml>{0-2}"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "fileFormatID": 2812,
+  "formatName": "Common Data Format dotCDF",
+  "version": "2.6-2.7",
+  "formatDescription": "Common Data Format is a library and toolkit that was developed by the National Space Science Data Center (NSSDC) at NASA, used for the storage and processing of multi-dimensional datasets. The \u2018dotCDF\u2019 file as described in the specification refers specifically to the filetype with extension .cdf. The dotCDF file may be a standalone file containing everything it needs, or it may have companion \u2018variable\u2019 files with the extension .vX, where X represents an incrementing numeric value, e.g. .v0, .v1 etc.\r\nThis entry covers versions 2.6-2.7. Version 2.6 introduced optional compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000226",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1949",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q1116060",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2294,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "CDF26002(0000FFFF|CCCC0001){4}00000001",
+      "endianness": null,
+      "name": "CDF 2.6-2.7",
+      "note": "BOF; Offset:0; Magic number 0xCDF26002, then either 0x0000FFFF if uncompressed, or 0xCCCC0001 if compressed, then a 4 byte variable value representing the size of the \u2018CDF Descriptor Record\u2019, followed by the 4 byte \u2018RecordType\u2019, which for the CDF Descriptor Record is 0x00000001. There are additional elements in the CDF Descriptor Record that may be used to strengthen the signature is required, and potentially to further divide into separate sub-versions if required.\r\nSpecifications can be found on the Internet Archive: https://web.archive.org/web/20150922063622/http://nssdcftp.gsfc.nasa.gov/standards/cdf/doc/ or https://cdaweb.gsfc.nasa.gov/pub/software/cdf/dist/obsolete/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2813,
+      "relatedFormatName": "Common Data Format dotCDF"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2810,
+      "relatedFormatName": "Common Data Format dotCDF"
+    }
+  ]
+}

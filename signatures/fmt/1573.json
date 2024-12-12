@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2398,
+  "formatName": "Visual Basic Project File",
+  "version": "1-6",
+  "formatDescription": "These are project files created by Visual Basic, a software development tool for Windows, which stored project information in a plain text format. The vbp files refer to other resources in the project, including forms (.FRM files) souce code files (.BAS files) and class module files (.CLS extension). Visual Basic software was replaced with Visual Basic.NET, which doesn\u2019t generate .vbp files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Dec 2021",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1573",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1914,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "547970653D4578650D0A",
+      "endianness": null,
+      "name": "Visual Basic Project File",
+      "note": "Magic bytes BOF (Offset 0): Type=Exe..\r\nMagic bytes EOF (Offset 0): (MaxNumberOfThreads={1}.."
+    },
+    {
+      "signatureID": 1914,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D61784E756D6265724F66546872656164733D{1}0D0A",
+      "endianness": null,
+      "name": "Visual Basic Project File",
+      "note": "Magic bytes BOF (Offset 0): Type=Exe..\r\nMagic bytes EOF (Offset 0): (MaxNumberOfThreads={1}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vbp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

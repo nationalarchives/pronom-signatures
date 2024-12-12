@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1900,
+  "formatName": "Alias Pix Image File",
+  "version": null,
+  "formatDescription": "Alias is a Computer Aided Design software family owned by Autodesk. The Pix Image file is a raster image format produced produced by Alias. Files of this type may lack a file extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1092",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1471,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "0000{2}0018[!00]",
+      "endianness": null,
+      "name": "Alias Pix Image",
+      "note": "BOF, offset 4: 0x0000 (representing offset to x coordinates from end of 10 byte header), {2}, 0x0018 representing 24 bits per pixel, [!00] representing number of contiguous bytes (greater than 0) that contain the following 3 byte RGB value - https://www.autodesk.com/techpubs/aliasstudio/2010/index.html?url=WS73099cc142f4875535a241551166ac8792f-7d76.htm,topicNumber=d0e246178"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pix",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ico",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 802,
+      "relatedFormatName": "Java Class File"
+    }
+  ]
+}

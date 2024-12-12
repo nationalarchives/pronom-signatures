@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 975,
+  "formatName": "Keyhole Markup Language (XML)",
+  "version": null,
+  "formatDescription": "KML is an Open Geospatial Consortium (OGC) sponsored xml schema file format used to display geographic data in an earth browser, such as Google Earth, Google Maps, and Google Maps for mobile. A KML file is processed in much the same way that HTML (and XML) files are processed by web browsers. Like HTML, KML has a tag-based structure with names and attributes used for specific display purposes. Thus, Google Earth and Maps act as browsers for KML files.\r\nFull specifications available at: http://www.opengeospatial.org/standards/kml",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Format description information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress, involving archives staff from North Carolina, Kentucky, Montana, and Utah state archives.",
+  "formatSourceDate": "07 Oct 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS, Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.google-earth.kml+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/244",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 574,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)*3C6B6D6C20786D6C6E733D",
+      "endianness": null,
+      "name": "Keyhole Markup Language",
+      "note": "Header: XML declaration and version, followed by kml namespace decalaration. Footer: </kml>"
+    },
+    {
+      "signatureID": 574,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "3C2F6B6D6C3E",
+      "endianness": null,
+      "name": "Keyhole Markup Language",
+      "note": "Header: XML declaration and version, followed by kml namespace decalaration. Footer: </kml>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "kml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 1523,
+      "relatedFormatName": "Keyhole Markup Language (Container)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 1599,
+  "formatName": "WriteNow",
+  "version": null,
+  "formatDescription": "WriteNow was a Word Processing application for the Apple Macintosh. Its files usually lack a format extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Nov 2015",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/799",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1165,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "57726974654E6F77",
+      "endianness": null,
+      "name": "WriteNow",
+      "note": "WriteNow header"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

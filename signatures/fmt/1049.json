@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1854,
+  "formatName": "QuickDraw 3D Metafile (ASCII)",
+  "version": null,
+  "formatDescription": "3DMF is the interchange format for the QuickDraw 3D software package originally created in 1995 for the Apple Macintosh. It is a three-dimensional image format which may be a representation of an individual object or a complete three-dimensional scene, which can be viewed from different angles with supporting 3D programs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2017",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": null,
+  "formatSourceDate": "18 May 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1049",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1412,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "33444D65746166696C652028",
+      "endianness": null,
+      "name": "3DMF ASCII",
+      "note": "BOF: '3DMetafile ('\r\nhttps://hwiegman.home.xs4all.nl/fileformats/3dmf/3DMF.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "3dmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2409,
+  "formatName": "ADRIFT Text Adventure File",
+  "version": null,
+  "formatDescription": "ADRIFT Text Adventure File is an Interactive Fiction games file, produced by Campbell Wild's ADRIFT (Adventure Developer & Runner - Interactive Fiction Toolkit). \r\n\r\nADRIFT was created for Miscrosoft Windows and runs under Windows 95, 98, and NT. It does not require extensive programming knowledge, as it provides a series of dialog boxes which can be filled-out with descriptions and properties of each location, object and character. It is not based on the traditional model of compiled source and interpreted binary files but instead, a game exists only as a single binary file which is created by the Generator (a series of specialised editors) and read by the Runner. Both components use a Windows-style graphical interface, and are largely mouse-driven.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.firthworks.com/roger/cloak/adrift/index.html\r\n\r\nhttp://fileformats.archiveteam.org/wiki/ADRIFT\r\n\r\nhttps://www.adrift.co/\r\n\r\nhttp://www.plover.net/~textfire/raiffaq/FAQ.htm#:ADRIFT\r\n\r\nhttps://www.ifwiki.org/index.php/ADRIFT",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1584",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1923,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C423FC96A87C2CF",
+      "endianness": null,
+      "name": "ADRIFT Text Adventure File",
+      "note": "BOF; Offset: 0; Magic Bytes: '<B?\u00c9j\u2021\u00c2\u00cf'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "taf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

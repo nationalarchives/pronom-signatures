@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2483,
+  "formatName": "Microsoft Help Contents File",
+  "version": null,
+  "formatDescription": "Microsoft Help Contents Files store topics for a corresponding help document, which has file extension .hlp. They are found within applications which use Microsoft Help.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Mar 2022",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1656",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1990,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3A42617365{1-259}2E(484C50|686C70)",
+      "endianness": null,
+      "name": "Microsoft Help Contents File",
+      "note": "BOF Absolute from beginning of file, magic bytes: :Base{1-259}.(hlp/HLP)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cnt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

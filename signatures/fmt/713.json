@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1512,
+  "formatName": "RF64 Multichannel Broadcast Wave format",
+  "version": null,
+  "formatDescription": "RF64 is a Broadcast Wave compatible multichannel file format enabling file sizes to exceed 4 GB. The file format is based on the Microsoft RIFF/WAVE format and Wave Format Extensible for multichannel parameters. Additions are made to the basic specification to allow for more than 4 GB file sizes when needed (the new maximum filesize is now approximately 16 exabytes).\r\n\r\nAn RF64 file containing the bext chunk becomes a Multichannel Broadcast Wave format. Further research is required to better understand this format. Users with samples are encouraged to contact the PRONOM team.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2015",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "MBWF",
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "fmt/713",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1039,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52463634{4}5741564564733634*62657874",
+      "endianness": null,
+      "name": "RF64 MBWF",
+      "note": "BOF: RF64{4}WAVEds64 with bext chunk following at indeterminate point. Further research is required to refine this signature"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rf64",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1511,
+      "relatedFormatName": "RF64"
+    }
+  ]
+}

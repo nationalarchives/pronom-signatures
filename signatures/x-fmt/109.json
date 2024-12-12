@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 158,
+  "formatName": "Scalable Vector Graphics Compressed",
+  "version": null,
+  "formatDescription": "A Scalable Vector Graphics file, which has been compressed with gzip compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://fileinfo.com/extension/svgz\r\nhttps://filext.com/file-extension/SVGZ",
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/svg+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/109",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "svgz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

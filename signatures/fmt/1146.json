@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1956,
+  "formatName": "Maxwell Render Image Format",
+  "version": null,
+  "formatDescription": "Maxwell Render is a 3D render engine developed by Next Limit Technologies. The Maxwell Image Format is a high dynamic range format containing both image data and rendering calculations.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jul 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1146",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1528,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": null,
+      "byteSequence": "4D58492E204D617877656C6C20496D61676520666F726D61742E",
+      "endianness": null,
+      "name": "Maxwell Render Image Format",
+      "note": "BOF, offset 2: \"MXI. Maxwell Image format.\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mxi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

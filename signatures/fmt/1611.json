@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2438,
+  "formatName": "WRAptor Compressed File",
+  "version": "1; 2; 3",
+  "formatDescription": "WRAptor Compressed File is a format which was written by Bill Lucier, copyrighted in 1995, distributed by Loadstar and updated  by Doreen Horne. This format is an uncommon compression format, capable of handling PRG, SEQ, USR and GEOS files (Sequential and VLIR), but not REL files. It utilizes a variant of the LZ (Lempel-Ziv) compression algorithm, starting at 9 bits per code. The 4-byte signature of this format is \"FF 42 4C FF\", with bytes 42 and 4C representing the authors initials in ASCII - \"BL\". \r\n\r\nThere are three versions of this format, all beginning with same magic bytes. The versions differentiate in their file extension with the v1 and v2 using .wra and the final v3 using .wr3. This entry records all versions of this file format. The complete manual of how to handle the software and this format is included with the reference links.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://unusedino.de/ec64/technical/formats/wra-wr3.html\r\n\r\nhttp://www.zimmers.net/anonftp/pub/cbm/c64/archivers/Wraptor-3.0.readme",
+  "lastUpdatedDate": "26 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1611",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1946,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF424CFF",
+      "endianness": null,
+      "name": "WRAptor Compressed File",
+      "note": "BOF; Offset: 0; Magic Bytes: '\u00ffBL\u00ff'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wra",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wr3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

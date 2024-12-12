@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2596,
+  "formatName": "Canon CIF File",
+  "version": null,
+  "formatDescription": "A Canon CIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It contains information identifying the clip and the camera used, including type, serial number and version. Additionally, it stores some information which can be seen and edited in the Canon XF Utility, such as the Clip Status (OK/Check/None). It is found within each CANON XF/CLIPS 001/AAxxxx directory, where xxxx is an automatically generated number beginning with 0001. A full copy of the file exists within the INDEX.MIF file (fmt/1749) found within the CANONXF/CLIPS001 directory. Although little official documentation exists, CIF likely stands for Clip Information File.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/",
+  "lastUpdatedDate": "24 Aug 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1750",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2092,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4349010011141110",
+      "endianness": null,
+      "name": "Canon CIF File",
+      "note": "BOF:'CI' followed by 0x01 (Start of Header) followed by 0x00 (Null) followed by 0x11 (Device Control 1) followed by 0x14 (Device Control 4) followed by 0x11 (Device Control 1) followed by 0x10 (Data Link Escape)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

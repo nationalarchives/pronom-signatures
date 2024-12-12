@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 205,
+  "formatName": "Corel Photo-Paint Image",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/144",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1134,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4350543746494C45",
+      "endianness": null,
+      "name": "CPT 7",
+      "note": "BOF: CPT7FILE"
+    },
+    {
+      "signatureID": 1135,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4350543846494C45",
+      "endianness": null,
+      "name": "CPT 8",
+      "note": "BOF: CPT8FILE"
+    },
+    {
+      "signatureID": 1136,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4350543946494C45",
+      "endianness": null,
+      "name": "CPT 9",
+      "note": "BOF: CPT9FILE"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cpt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

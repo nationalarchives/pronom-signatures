@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2725,
+  "formatName": "Common Interface File",
+  "version": null,
+  "formatDescription": "The Common Interface File (CIF) format is used to transfer train schedules from Network Rail's Integrated Train Planning System to computer systems requiring train data in electronic format. The files contains a set of train schedules and amendments. These files are automatically generated and disseminated every day after a ITPS publication run is completed. CIF files are text files containing one train schedule/amendment per row, of a fixed length of 80 bytes. The first two characters of a row/schedule identify the record type, ie if it is a new record, amendment or deletion etc. This signature is quite broad, due to the fact that it is possible to receive an empty file with no amendments, consisting of a header (HD) and a trailer (ZZ) only. Lastly, it should be noted that The Rail Delivery Group uses an .mca file extension for their .cif files, however they are identical in every other respect.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://wiki.openraildata.com/index.php?title=CIF_File_Format \r\nSpecification: https://www.rspaccreditation.org/downloadPublic.php?DOCUMENT=RSPS5046+P-04-00+Timetable+Information+Data+Feed+Interface+Specification.pdf&ID=1144",
+  "lastUpdatedDate": "08 Jun 2023",
+  "formatSourceID": 314,
+  "provenanceCompoundName": "Transport for London / Transport for London",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Jun 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1871",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2215,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4844{75-80}0A{80-81}0A",
+      "endianness": null,
+      "name": "Common Interface File",
+      "note": "Absolute from beginning of file, magic bytes: HD{75-80}.{80-81}.\r\nEOF, offset 0-2: .ZZ,followed by 78 bytes of white space,{0-1}."
+    },
+    {
+      "signatureID": 2215,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "5A5A202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020{0-1}0A",
+      "endianness": null,
+      "name": "Common Interface File",
+      "note": "Absolute from beginning of file, magic bytes: HD{75-80}.{80-81}.\r\nEOF, offset 0-2: .ZZ,followed by 78 bytes of white space,{0-1}."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mca",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

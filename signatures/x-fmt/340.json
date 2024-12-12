@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 504,
+  "formatName": "Lotus WordPro Document",
+  "version": "96",
+  "formatDescription": "Lotus Word Pro is a word processor program produced by the Lotus Software Group as part of the Lotus SmartSuite office suite. The initial release was in 1988. Is was the successor to Ami Pro and used on Microsoft Windows-compatible computers and on IBM OS/2 Warp.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/lwp",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/vnd.lotus-wordpro",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/340",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 439,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF9(50|70)",
+      "endianness": null,
+      "name": "Lotus WordPro 96",
+      "note": "Header ASCII: WordPro followed by regularly recurring sequence"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lwp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1085,
+      "relatedFormatName": "Lotus WordPro Document"
+    }
+  ]
+}

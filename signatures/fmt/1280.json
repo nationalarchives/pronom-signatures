@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2098,
+  "formatName": "NCH Dictation Audio File",
+  "version": null,
+  "formatDescription": "DCT is a proprietary audio file format developed by NCH Software for their dictation software. As well as audio data, .dct files also contain dictation header information and can be encrypted.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1280",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1656,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "003200000000(01|52494646)",
+      "endianness": null,
+      "name": "NCH Dictation Audio File",
+      "note": "Format consists of header, then RIFF WAVE audio data, which can be PCM or MP3. The audio data may also be encrypted, in which case the RIFF chunk is not visible, but a flag is set. The file may also include a transcription file, again for which a flag is set."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dct",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 737,
+      "relatedFormatName": "WordPerfect for MS-DOS/Windows Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

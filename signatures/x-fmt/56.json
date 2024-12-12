@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 90,
+  "formatName": "Kodak FlashPix Image",
+  "version": null,
+  "formatDescription": "The FlashPix format is a raster based image format that builds on features of previous formats, including Kodak Image Pac, Live Picture IVUE, Hewlett-Packard JPEG, TIFF, and TIFF/EP. The FlashPix format is a cooperative endeavor that includes the Eastman Kodak Company, Microsoft Corporation, the Hewlett-Packard Company, and Live Picture, Inc.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.\r\n\r\nThe file format specification is available: http://graphcomp.com/info/specs/livepicture/fpx.pdf",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.kodak.flashpix.image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "image/vnd.fpx",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/56",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "fpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "17000",
+      "description": "Kodak FlashPix Image",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "12",
+                  "subSeqMaxOffset": "64",
+                  "sequence": "'FlashPix Object'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "17005",
+      "description": "Kodak FlashPix Image",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "12",
+                  "subSeqMaxOffset": "64",
+                  "sequence": "'56616700-C154-11CE-8553-00AA00A1F95B'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

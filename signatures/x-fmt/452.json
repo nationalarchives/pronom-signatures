@@ -1,0 +1,107 @@
+{
+  "fileFormatID": 867,
+  "formatName": "SketchUp Document",
+  "version": null,
+  "formatDescription": "PUID deprecated. Please see x-fmt/451: SketchUp Document",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2012",
+  "formatSourceID": 131,
+  "provenanceCompoundName": "Digital Library Research Group / MIT Libraries",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Apr 2009",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/452",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2077,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2078,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2079,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2080,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2081,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2082,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2083,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2084,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2085,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2086,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2087,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2088,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2089,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2090,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2091,
+      "relatedFormatName": "SketchUp Document"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2104,
+  "formatName": "Envoy Document File",
+  "version": "1",
+  "formatDescription": "Envoy is a portable document file format that was published as part of the WordPerfect office productivity suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1286",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1666,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "325E1010",
+      "endianness": null,
+      "name": "Envoy Document File 1",
+      "note": "BOF: 0x325E1010"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "evy",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

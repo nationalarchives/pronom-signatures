@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1589,
+  "formatName": "Material Exchange Format",
+  "version": "Operational Pattern 3c",
+  "formatDescription": "MXF is a media container format which supports a number of different streams of coded \"essence\", encoded with any of a variety of codecs, together with a metadata wrapper which describes the material contained within the MXF file. \r\n\r\nMXF allows for different degrees of complexity within the wrapper, which are standardised and defined as Operational Patterns, and this may be a consideration for an institution considering preserving the format, hence the separation of these Operational Patterns into separate PUIDs.\r\n\r\nOP3c: A choice of 2 or more alternate material packages that play out selected portions of tracks (edit list) from one or more file packages each of which may be referenced and synchronized at any given position along the timeline.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/mxf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/790",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 799,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "060E2B34020501010D0102010102{70}060E2B34040101010D0102010303",
+      "endianness": null,
+      "name": "MXF OP3c",
+      "note": "Header ..+4.......... then Operational Pattern Label ..+4.........."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mxf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

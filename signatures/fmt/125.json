@@ -1,0 +1,145 @@
+{
+  "fileFormatID": 134,
+  "formatName": "Microsoft Powerpoint Presentation",
+  "version": "95",
+  "formatDescription": "Powerpoint format is a presentation format developed by Microsoft. Powerpoint 95 format is the native format of Powerpoint 95. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. Powerpoint 95 is based on Microsoft\u2019s generic OLE2 Compound Document Format. A Powerpoint presentation is stored as a \u2018PowerPoint Document\u2019 stream within a Compound Document Format file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "30 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-powerpoint",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.powerpoint.ppt",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/125",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 171,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+      "endianness": null,
+      "name": "Powerpoint 95",
+      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement."
+    },
+    {
+      "signatureID": 171,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "50006F0077006500720050006F0069006E007400200044006F00630075006D0065006E007400",
+      "endianness": null,
+      "name": "Powerpoint 95",
+      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement."
+    },
+    {
+      "signatureID": 171,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "4D6963726F736F66742028522920506F776572506F696E74202852292057696E646F777320200007(00|01)0000F00300005F",
+      "endianness": null,
+      "name": "Powerpoint 95",
+      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 135,
+      "relatedFormatName": "Microsoft Powerpoint Presentation"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 135,
+      "relatedFormatName": "Microsoft Powerpoint Presentation"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 133,
+      "relatedFormatName": "Microsoft PowerPoint Presentation"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "3120",
+      "description": "Microsoft Powerpoint 95 OLE2",
+      "files": [
+        {
+          "path": "Header",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'Microsoft (R) PowerPoint (R) Windows ' 00 07 (00|01) 00 00 f0 03 00 00 5f"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "PersistentStorage Directory",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "64",
+                  "sequence": "'PowerPoint Document'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "PowerPoint Document"
+        }
+      ]
+    }
+  ]
+}

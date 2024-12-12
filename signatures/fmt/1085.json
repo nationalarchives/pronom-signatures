@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1893,
+  "formatName": "TRIM Context Reference File",
+  "version": null,
+  "formatDescription": "TRIM is an electronic document and records management system developed by Hewlett Packard. The TRIM Context Reference file contains metadata relating to a digital object and acts as a link to that object.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Aug 2017",
+  "formatSourceID": 205,
+  "provenanceCompoundName": "Public Record Office of Northern Ireland / Public Record Office of Northern Ireland",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Aug 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1085",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1465,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5B5452494D20436F6E74657874205265666572656E63655D",
+      "endianness": null,
+      "name": "TRIM Context Reference File",
+      "note": "BOF: [TRIM Context Reference]"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tr5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "txt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,75 @@
+{
+  "fileFormatID": 2740,
+  "formatName": "Encapsulated PostScript File Format",
+  "version": "2.1",
+  "formatDescription": "Encapsulated Postscript (EPS) is a page description format, developed by Adobe Systems Incorporated. Version 2.0, of which this is an iteration, was the second version of the format, and developed in 1989. An EPS file comprises a header section followed by a PostScript document. An EPS can optionally include a preview raster image, in which case a binary header is prepended to the header.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.encapsulated-postscript",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1884",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2225,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D332E3020455053462D322E31",
+      "endianness": null,
+      "name": "EPS 2.1",
+      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-3.0 EPSF-2.1"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "eps",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "epsf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "fileFormatID": 766,
+  "formatName": "Drawing Interchange File Format (ASCII)",
+  "version": "Generic",
+  "formatDescription": "ASCII DXF format is the ASCII encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. It is not mandatory for ASCII DXF files to include a version identifier - some DXF files may therefore be identifiable only as generic DXF.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Apr 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "ASCII DXF (Generic)",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": "DXF",
+  "identifiers": [
+    {
+      "identifierText": "fmt/63",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.dxf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 115,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "30(0D0A|0A|0D)53454354494F4E(0D0A|0A|0D){0-5}32(0D0A|0A|0D)*30(0D0A|0A|0D)454E44534543",
+      "endianness": null,
+      "name": "Drawing Interchange File Format (ASCII) (generic)",
+      "note": "Section group code, EOF marker"
+    },
+    {
+      "signatureID": 115,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 5,
+      "byteSequence": "30(0D0A|0A|0D)454F46",
+      "endianness": null,
+      "name": "Drawing Interchange File Format (ASCII) (generic)",
+      "note": "Section group code, EOF marker"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dxf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 710,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 711,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 712,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 713,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 714,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 715,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 716,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 717,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 718,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 719,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 720,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 721,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 722,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 723,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 724,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 725,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1220,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1221,
+      "relatedFormatName": "AutoCAD Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1222,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1319,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2207,
+      "relatedFormatName": "Drawing Interchange Format (ASCII)"
+    }
+  ]
+}

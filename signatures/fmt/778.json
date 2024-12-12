@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1577,
+  "formatName": "Microsoft Network Monitor Packet Capture",
+  "version": "2",
+  "formatDescription": "Microsoft Network Monitor is a packet analyser used to examine and interpret network traffic.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "https://msdn.microsoft.com/en-us/library/windows/desktop/ee817717(v=vs.85).aspx",
+  "formatSourceDate": "21 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/778",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1144,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "474D4255{1}02",
+      "endianness": null,
+      "name": "Netmon Capture 2",
+      "note": "GMBU - minor version number - major version number"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cap",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

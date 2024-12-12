@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1412,
+  "formatName": "Web Open Font Format",
+  "version": "1.0",
+  "formatDescription": "Web Open Font Format (WOFF) is a font format designed primarily for use on the Web, and can also be used as a container format or \"wrapper\" for font data in already-existing formats.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/616",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "font/woff",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 952,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "774F4646",
+      "endianness": null,
+      "name": "Web Open Font Format 1",
+      "note": "BOF: wOFF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "woff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 869,
+      "relatedFormatName": "TrueType Font"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1859,
+  "formatName": "AVCHD Clip Information File",
+  "version": null,
+  "formatDescription": "AVCHD (Advanced Video Coding High Definition) is a file-based format for the digital recording and playback of high-definition video. The Clip Information File may be created by some AVCHD video recorders and contains metadata describing the AVCHD stream.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Jul 2017",
+  "formatSourceID": 225,
+  "provenanceCompoundName": "National Library of Scotland / National Library of Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1054",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1420,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "48444D5630313030",
+      "endianness": null,
+      "name": "AVCHD Clip Information File",
+      "note": "BOF: HDMV0100"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cpi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "clpi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

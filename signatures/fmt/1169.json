@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1979,
+  "formatName": "Maya IFF Image File",
+  "version": null,
+  "formatDescription": "Maya is a 3D graphics application published by Autodesk. Maya IFF files are raster images used for images and textures within Maya.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1169",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1550,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "464F5234{4}43494D47",
+      "endianness": null,
+      "name": "Maya IFF",
+      "note": "BOF: FOR4{4}CIMG"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iff",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ico",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

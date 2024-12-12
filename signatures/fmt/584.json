@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 1372,
+  "formatName": "Windows Media Metafile",
+  "version": null,
+  "formatDescription": "A media metafile is a file that contains information about other files. A metafile can be used to list a group of media content files that are to be played in order. The .wax metafile references Windows Media files with .asf, .wma, or .wax file name extensions. The .wvx metafile references Windows Media files with .wma, .wmv, .wvx, or .wax file name extensions. The asx metafile references Windows Media files with .wma, .wax, .wmv, .wvx, .asf, or .asx file name extensions.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://msdn.microsoft.com/en-us/library/dd564665(v=vs.85).aspx",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/584",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 926,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1,
+      "byteSequence": "3C(617378|415358)20(76657273696F6E|56455253494F4E){0-1}3D{0-3}33{0-64}3E",
+      "endianness": null,
+      "name": "Windows Media Metafile",
+      "note": "<(asx|ASX) (version|VERSION){0-1}={0-3}3{0-64}>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wmx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wax",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wvx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "asx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

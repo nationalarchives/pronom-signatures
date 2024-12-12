@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2374,
+  "formatName": "Bentley Microstation Hidden Line File",
+  "version": null,
+  "formatDescription": "These are hidden line files, one of a range of files created when using Microstation CAD software for 2D and 3D design, which is produced by Bentley Systems, Incorporated.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://communities.bentley.com/",
+  "lastUpdatedDate": "15 Nov 2021",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1549",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1894,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0809FE",
+      "endianness": null,
+      "name": "Bentley Microstation Hidden Line File",
+      "note": "BOF absolute zero: 08 09 FE magic bytes \t\t\t..\u00fe\r\nEOF absolute zero: FF FF  magic bytes: \t\t\t\t\u00ff\u00ff"
+    },
+    {
+      "signatureID": 1894,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFF",
+      "endianness": null,
+      "name": "Bentley Microstation Hidden Line File",
+      "note": "BOF absolute zero: 08 09 FE magic bytes \t\t\t..\u00fe\r\nEOF absolute zero: FF FF  magic bytes: \t\t\t\t\u00ff\u00ff"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hln",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2176,
+      "relatedFormatName": "MicroStation Base File"
+    }
+  ]
+}

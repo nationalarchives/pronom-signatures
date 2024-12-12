@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1342,
+  "formatName": "Microsoft Excel Chart",
+  "version": "3.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-excel",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/554",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 875,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "09020600{2}2000",
+      "endianness": null,
+      "name": "BIFF 3 Chart",
+      "note": "BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=chart=2000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 679,
+      "relatedFormatName": "Microsoft Excel 3.0 Worksheet (xls)"
+    }
+  ]
+}

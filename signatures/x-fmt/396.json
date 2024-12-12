@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 749,
+  "formatName": "Exchangeable Image File Format (Audio)",
+  "version": "2.2",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Exif Audio (2.2)",
+  "formatTypes": "Audio",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "audio/x-wav",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/396",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 145,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "52494646{4}57415645*666D7420{4}(01|07|11)00*4C495354{4}6578696665766572{4}30323230*64617461",
+      "endianness": null,
+      "name": "EXIF Audio 2.2",
+      "note": "RIFF header, WAVE ID, Format chunk, LIST exif chunk (ever=2.2) and Data chunk"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 674,
+      "relatedFormatName": "Exchangeable Image File Format (Audio)"
+    }
+  ]
+}

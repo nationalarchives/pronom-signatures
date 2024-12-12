@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2628,
+  "formatName": "Dynamic Publisher Picture File",
+  "version": null,
+  "formatDescription": "Dynamic Publisher is a desktop publishing application for the MSX2 computer system. It was published by Radarsoft in 1987. This entry relates to the picture or screen files associated with the format which have a .pct extension and are raster image files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Dynamic_Publisher",
+  "lastUpdatedDate": "12 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1778",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2118,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44594E414D4943205055424C49534845522053435245454E",
+      "endianness": null,
+      "name": "Dynamic Publisher Picture File",
+      "note": "BOF:'DYNAMIC PUBLISHER SCREEN'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pct",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

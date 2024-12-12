@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1261,
+  "formatName": "Windows Help File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/474",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 748,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3F5F0300{4}FFFFFFFF",
+      "endianness": null,
+      "name": "Windows Help File",
+      "note": "BOF: ?_..{4}\u00ff\u00ff\u00ff\u00ff"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hlp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

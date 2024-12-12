@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1596,
+  "formatName": "Apple ProRes",
+  "version": null,
+  "formatDescription": "ProRes is a lossy video compression format developed by Apple Inc.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Nov 2015",
+  "formatSourceID": 194,
+  "provenanceCompoundName": "National Library of Wales / National Library of Wales",
+  "formatProvenance": "https://www.apple.com/final-cut-pro/docs/Apple_ProRes_White_Paper.pdf",
+  "formatSourceDate": "26 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/797",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1156,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": 0,
+      "byteSequence": "66726565{12}69637066",
+      "endianness": null,
+      "name": "Apple ProRes",
+      "note": "BOF: Offset 4, free{12}icpf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mov",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 658,
+      "relatedFormatName": "Quicktime"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2156,
+  "formatName": "RootsMagic Database",
+  "version": "4-7",
+  "formatDescription": ".RMGC is the native format of the RootsMagic Genealogy software application. Versions 4-7 of the format are based on SQLite 3.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1338",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1729,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53514C69746520666F726D6174203300{0-256}46616D696C795461626C65",
+      "endianness": null,
+      "name": "RootsMagic Database 4-7",
+      "note": "BOF: 'SQLite format 3' 0x00 {0-256} 'FamilyTable'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rmgc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1528,
+      "relatedFormatName": "SQLite Database File Format"
+    }
+  ]
+}

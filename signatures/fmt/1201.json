@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2011,
+  "formatName": "PowerCADD",
+  "version": null,
+  "formatDescription": "PowerCADD was developed by Engineered Software to create two-dimensional technical drawings on the PPC Mac OS 7 (Macintosh System 7).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1201",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1579,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3F3F3F3F02570257",
+      "endianness": null,
+      "name": "PowerCADD",
+      "note": "BOF:????.W.W"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

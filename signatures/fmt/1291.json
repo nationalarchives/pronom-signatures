@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2109,
+  "formatName": "RFFlow Chart",
+  "version": "5",
+  "formatDescription": "RFFlow is flowchart and diagramming software developed by RFF Electronics.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1291",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1671,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52464C4F37",
+      "endianness": null,
+      "name": "RFFlow Chart 5",
+      "note": "BOF: RFLO7"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

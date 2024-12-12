@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1330,
+  "formatName": "GEM Metafile Format",
+  "version": "3.10",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/543",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 857,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFF18003601(02|00)00",
+      "endianness": null,
+      "name": "GEM metafile 3.10 little endian",
+      "note": "Magic number FFFF; length = 0x18; version 310 decimal =hex 3601; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gem",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1329,
+      "relatedFormatName": "GEM Metafile Format"
+    }
+  ]
+}

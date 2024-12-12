@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1901,
+  "formatName": "Alias Scene Description Language",
+  "version": null,
+  "formatDescription": "Alias is a Computer Aided Design software family owned by Autodesk. The Scene Description Language file defines a 3D scene, including its models, shaders, lights, and animation. Files of this type may lack a file extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Sep 2017",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1093",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1472,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "444546494E4954494F4E{1-512}76657273696F6E*4D4F44454C",
+      "endianness": null,
+      "name": "Alias Scene Description Language",
+      "note": "BOF: DEFINITION{1-512}version*MODEL - This signature assumes the version is defined as a minimum but this assumption may need to be revised as further format examples are encountered. It may be desirable to distinguish between different versions. https://www.autodesk.com/techpubs/studiotools/13/PDFs/SDL"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sdl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

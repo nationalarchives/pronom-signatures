@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 308,
+  "formatName": "Adobe ACD",
+  "version": null,
+  "formatDescription": "Adobe Capture Document, proprietary binary format, associated with Adobe Acrobat Capture software. Intermediary format during scanning and OCR process. It must be accompanied by one or more ACI bitmap images files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118)- Description created. Submitted by Brigham Young University as part of PRONOM Research Week 2023.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/217",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "acd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

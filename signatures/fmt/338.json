@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1083,
+  "formatName": "Interchange File Format Interleaved Bitmap",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Apr 2011",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Submitted by Georgia Tech Research Institute",
+  "formatSourceDate": "21 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/338",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 457,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "464F524D{4}494C424D424D4844",
+      "endianness": "Big-endian",
+      "name": "Interchange File Format Interleaved Bitmap",
+      "note": "Header: FORM chunk id, 4-byte chunk size, ILBM subchunk id; BMHD Bitmap Header property"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iff",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "lbm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 221,
+      "relatedFormatName": "Interchange File"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 221,
+      "relatedFormatName": "Interchange File"
+    }
+  ]
+}

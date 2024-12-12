@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1805,
+  "formatName": "TZX Format",
+  "version": null,
+  "formatDescription": "TZX is a casette tape image format originally created by Tomaz Kac and used by emulators of ZX Spectrum computer systems.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1000",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1363,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A5854617065211A01",
+      "endianness": null,
+      "name": "TZX Tape",
+      "note": "BOF: 'ZXTape!' 0x1A, Major version 01\r\nhttp://www.worldofspectrum.org/TZXformat.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tzx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

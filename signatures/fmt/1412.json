@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2230,
+  "formatName": "Flow Charting Graphic Flowcharting Image",
+  "version": null,
+  "formatDescription": "Flow Charting is software for diagramming and flow-charting developed by Patton & Patton software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1412",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1786,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0CAFCBED",
+      "endianness": null,
+      "name": "Flow Charting GFI",
+      "note": "BOF: 0x0CAFCBED"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gfi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

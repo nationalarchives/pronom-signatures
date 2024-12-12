@@ -1,0 +1,111 @@
+{
+  "fileFormatID": 1258,
+  "formatName": "Hypertext Markup Language",
+  "version": "5",
+  "formatDescription": "The HyperText Markup Language (HTML) is a markup language designed for the rendering of information via a web browser. It was originally defined as a highly simplified subset of SGML, but is now an international standard, and is maintained by the World Wide Web Consortium (W3C). A HTML document consists of nested elements, each of which may have attributes and content. It begins with an HTML Document Type declaration. HTML 5 does not explicitly define the HTML version or any Document Type Definition (DTD) within the DOCTYPE tag.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This signature may be subject to further revision as, at the time of writing, development on the HTML5 standard is still ongoing.",
+  "formatSourceDate": "25 Oct 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/471",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/html",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 735,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "3C21(444F4354595045|646F6374797065){0-4}(48544D4C|68746D6C)3E",
+      "endianness": null,
+      "name": "HTML5 Variant 1",
+      "note": "HTML 5 does not explicitly define the HTML version or any Document Type Definition (DTD) within the DOCTYPE tag. An HTML5 DOCTYPE tag may contain an obsolete permitted DOCTYPE string, however this is discouraged. As such the present signature does not cover identification of an HTML5 document that includes this obsolete permitted DOCTYPE string. This signature may be subject to further revision as, at the time of writing, development on the HTML5 standard is still ongoing.\r\n\r\nVariant 1: <!(DOCTYPE|doctype){0-4}(HTML|html)>"
+    },
+    {
+      "signatureID": 736,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "3C21(444F4354595045|646F6374797065){0-4}(48544D4C|68746D6C){0-4}(53595354454D|73797374656D){0-4}(27|22)61626F75743A6C65676163792D636F6D706174(27|22)3E",
+      "endianness": null,
+      "name": "HTML5 Variant 2",
+      "note": "BOF: <!(DOCTYPE|doctype){0-4}(HTML|html){0-4}{SYSTEM|system){0-4}('|\")about:legacy-compat('|\")>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "htm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "html",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 820,
+      "relatedFormatName": "MHTML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1029,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1269,
+      "relatedFormatName": "Apple iBook format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1270,
+      "relatedFormatName": "ePub format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1287,
+      "relatedFormatName": "Internet Explorer for Mac cache file"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1670,
+      "relatedFormatName": "Apple Safari Webarchive"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2099,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2173,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    }
+  ]
+}

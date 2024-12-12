@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 306,
+  "formatName": "Microsoft Powerpoint Packaged Presentation",
+  "version": null,
+  "formatDescription": "Microsoft Powerpoint had a feature which would compile the document along with all media used into a single file, using the Cabinet archive format, but with a ppz extension, rather than the typical cab extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/216",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2177,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D534346{20}0301*2E(505054|707074)",
+      "endianness": null,
+      "name": "Microsoft Powerpoint Packaged Presentation",
+      "note": "BOF Absolute from beginning of file, magic bytes:MSCF{20}..*.(PPT|ppt)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 801,
+      "relatedFormatName": "Windows Cabinet File"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 1028,
+  "formatName": "Microsoft Front Page Server Extension Configuration",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Nov 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Ongoing DROID signature research.",
+  "formatSourceDate": "01 Nov 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/288",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 304,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "7674695F656E636F64696E673A53527C757466382D6E6C0D0A",
+      "endianness": null,
+      "name": "Microsoft Front Page Server Extension Configuration",
+      "note": "Character sequence taken from beginning of file, terminated by CR/LF."
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

@@ -1,0 +1,98 @@
+{
+  "fileFormatID": 221,
+  "formatName": "Interchange File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/157",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 456,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "(464F524D|4C495354|43415420)00",
+      "endianness": null,
+      "name": "Interchange File",
+      "note": "All interchange file format files must start with either 'FORM', 'LIST', or 'CAT ' values. This is a generic signature that will identify Interchange Files which do not have a more complete and specific signature assigned to them within PRONOM."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 195,
+      "relatedFormatName": "Audio Interchange File Format (compressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1083,
+      "relatedFormatName": "Interchange File Format Interleaved Bitmap"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1084,
+      "relatedFormatName": "Interchange File Format 8-bit Sampled Voice"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1192,
+      "relatedFormatName": "Audio Interchange File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1194,
+      "relatedFormatName": "Cinema 4D"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2015,
+      "relatedFormatName": "LightWave 3D Object"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2016,
+      "relatedFormatName": "Impulse 3D Data Description Object"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2831,
+      "relatedFormatName": "Final Writer Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1083,
+      "relatedFormatName": "Interchange File Format Interleaved Bitmap"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1084,
+      "relatedFormatName": "Interchange File Format 8-bit Sampled Voice"
+    }
+  ]
+}

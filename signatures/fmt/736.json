@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1535,
+  "formatName": "ClarisWorks",
+  "version": "1 (generic)",
+  "formatDescription": "ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5. ClarisWorks included a drawing program, a word processor, a spreadsheet program, a database program, and a painting program. With further research it may be possible to distinguish between files produced by each program. Please contact PRONOM if you are able to provide samples of ClarisWorks files, version 1.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database, Image (Raster), Image (Vector), Spreadsheet, Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/736",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1063,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01{3}424F424F",
+      "endianness": null,
+      "name": "CWK 1 Generic",
+      "note": "(Version){3}BOBO"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cwk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1536,
+      "relatedFormatName": "ClarisWorks"
+    }
+  ]
+}

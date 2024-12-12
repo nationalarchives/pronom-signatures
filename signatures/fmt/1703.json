@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2539,
+  "formatName": "Persuasion Mac Document",
+  "version": "2.1",
+  "formatDescription": "Persuasion Mac Document format is part of Adulus Persuasion format family. The format is created using the Aldus Persuasion (now discontinued) presentation program software developed by Peter Polash in 1988 for the Macintosh platform by Aldus Corporation. Following a merger of Adobe Systems and Adulus Corporation in 1994, the software was re-branded to Adobe Persuasion and a Microsoft Windows version was released. There were two versions released for Macintosh only, then starting with version 2.x, a version for Windows was released with each new release up to version 4. Adobe discontinued production of the software in September 1997. This format entry describes the variation of the format released with version 2.1 of Adulus Persuasion for Macintosh.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Adobe_Persuasion\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Persuasion\r\n\r\nhttps://adobe.fandom.com/wiki/Adobe_Persuasion",
+  "lastUpdatedDate": "14 Jun 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1703",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2036,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0014{5}0003",
+      "endianness": null,
+      "name": "Persuasion Mac Document v2.1",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0014 then a sequence of five wildcard bytes followed by 0x0003"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pr2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2540,
+      "relatedFormatName": "Persuasion Mac Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2538,
+      "relatedFormatName": "Persuasion Mac Document"
+    }
+  ]
+}

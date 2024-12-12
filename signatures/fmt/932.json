@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1737,
+  "formatName": "Mathcad Document",
+  "version": "XML",
+  "formatDescription": "Mathcad is a proprietary application intended for the verification, validation, documentation and reuse of engineering calculations.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "08 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/932",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1276,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*786D6C6E733D22687474703A2F2F736368656D61732E6D617468736F66742E636F6D",
+      "endianness": null,
+      "name": "Mathcad Document XML",
+      "note": "XML subset, seeking XML declaration followed by namespace declaration of http://schemas.mathsoft.com"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xmcd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

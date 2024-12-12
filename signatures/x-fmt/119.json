@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 171,
+  "formatName": "Windows Metafile Image",
+  "version": null,
+  "formatDescription": "Windows Metafile is an image file format originally designed for Microsoft Windows in 1990. Windows Metafiles may contain both vector graphics and bitmap components.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/wmf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/119",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 609,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "D7CDC69A0000{16}01000900",
+      "endianness": null,
+      "name": "Windows Metafile Image with Placeable File Header",
+      "note": "Many applications that create metafiles prepend a 22-byte 'Placeable File Header' to the metafile: https://msdn.microsoft.com/en-us/library/windows/desktop/ms534075(v=vs.85).aspx\r\n\r\nMagic number 0x9AC6CDD7,  2-byte handle, always 0, skip 16 bytes, File type (1 or 2), header size in words, always 9."
+    },
+    {
+      "signatureID": 1228,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0100090000(01|03)",
+      "endianness": null,
+      "name": "Windows Metafile Image without Placeable File Header",
+      "note": "File type (1 or 2), header size in words, always 9. Version either 01 or 03"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

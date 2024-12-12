@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 319,
+  "formatName": "Geography Markup Language",
+  "version": null,
+  "formatDescription": "The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet.\r\nFull specifications can be found at http://www.opengeospatial.org/standards/gml",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Format description information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress, involving archives staff from North Carolina, Kentucky, Montana, and Utah state archives. Additional information supplied by Ordnance Survey. Mime type corrected to application/gml+xml 26/09/2012",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "GML",
+  "formatTypes": "GIS, Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/gml+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/227",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 537,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A676D6C3D(22|27)687474703A2F2F7777772E6F70656E6769732E6E65742F676D6C",
+      "endianness": null,
+      "name": "Geography Markup Language",
+      "note": "ASCII header: <?xml version=\"1.0\" , followed by gml namespace declaration xmlns:gml='http://www.opengis.net/gml"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 429,
+      "relatedFormatName": "XML Schema Definition"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1852,
+      "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1852,
+      "relatedFormatName": "Geography Markup Language"
+    }
+  ]
+}

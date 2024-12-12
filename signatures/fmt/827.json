@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 1628,
+  "formatName": "Serif DrawPlus Drawing",
+  "version": "3",
+  "formatDescription": "Serif DrawPlus is a vector image creation application. This format is based on the OLE2 Compound Document Format and can be identified in DROID 6 and later via a container signature. At this time the signature identification is baed upon the version number of the generating software as shown in the 'SummaryInformation' file within the OLE2 compound container. This may be improved with a better understanding of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Nov 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/827",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "dpp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2352,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1653,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "22500",
+      "description": "Serif DrawPlus Drawing 3",
+      "files": [
+        {
+          "path": "SummaryInformation",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'Serif DrawPlus 3'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

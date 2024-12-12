@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2203,
+  "formatName": "Bruker PDZ",
+  "version": null,
+  "formatDescription": "PDZ is an export format of Bruker portable X-Ray Flourescence (XRF) spectrometer devices.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1385",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1763,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01011700",
+      "endianness": null,
+      "name": "Bruker PDZ",
+      "note": "BOF: 0x01011700"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdz",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "xpdz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

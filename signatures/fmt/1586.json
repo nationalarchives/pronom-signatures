@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2411,
+  "formatName": "TheDraw Save File",
+  "version": null,
+  "formatDescription": "TheDraw Save File (also known as TheDraw format, TheDraw Data File, or TheDraw Setup Save) is a layered character graphics format native to TheDraw, a character graphics editor for MS-DOS. \r\n\r\nTheDraw is a text editor for MS-DOS to create ANSI and animations as well as ASCII art. The editor creates or modifies files in ANSI format and text documents, which use the graphical characters of the IBM ASCII code pages, as they are no longer supported by Microsoft Windows. The first version of the editor was developed in 1986 by Ian E. Davis of TheSoft Programming Services. The last public version of the editor was version 4.63, which was released in October 1993.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/TheDraw_Save_File\r\n\r\nhttps://en.wikipedia.org/wiki/TheDraw",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1586",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1925,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "155468654472617720536176652046696C65",
+      "endianness": null,
+      "name": "TheDraw Save File",
+      "note": "BOF; Offset: 0; Magic Bytes: '.TheDraw Save File'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "td",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

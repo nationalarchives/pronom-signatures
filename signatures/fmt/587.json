@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1375,
+  "formatName": "LifeTechnologies ABIF",
+  "version": null,
+  "formatDescription": "The ABIF file format is a binary file format for storing data. Elements of data stored in the file are associated with tags, which are analogous to the keys in a (key, value) mapping.",
+  "releaseDate": "28 Aug 2013",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2013",
+  "formatSourceID": 192,
+  "provenanceCompoundName": "Tessella / Tessella",
+  "formatProvenance": "http://www.lifetechnologies.com/uk/en/home/about-us.html",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/587",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 929,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "414249460065",
+      "endianness": null,
+      "name": "LifeTechnologies ABIF",
+      "note": "BOF: ABIF.e"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "abif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

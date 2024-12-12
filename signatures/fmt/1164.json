@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1974,
+  "formatName": "Praat Picture File",
+  "version": null,
+  "formatDescription": "Praat is a computer software package for the scientific analysis of speech in phonetics, developed by Paul Boersma and David Weenink of the University of Amsterdam. \r\n\r\nThe Praat Picture File is a diagram produced from speech analyses within Praat. The picture file contains the whole drawing board and can be used for interchange between different systems running the Praat software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 237,
+  "provenanceCompoundName": "University of British Columbia / University of British Columbia",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1164",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1546,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "50726161745069637475726546696C65",
+      "endianness": null,
+      "name": "Praat Picture File",
+      "note": "BOF: \"PraatPictureFile\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "prapic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

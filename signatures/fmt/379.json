@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1126,
+  "formatName": "Microsoft Visual FoxPro Class Library",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "09 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "09 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/379",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 562,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "30??[01:0C][01:1F]{28}504C4154464F524D00000043{20}554E49515545494400000043{52}434C4153530000000000004D",
+      "endianness": null,
+      "name": "Microsoft Visual FoxPro Class Library",
+      "note": "A rudimentary signature based on a header sequence: Version number, Date of last update MMDD; followed by character fields 'PLATFORM', character field 'UNIQUE ID', and later character field 'CLASS'. All sample files tested displayed this structure, although it is possible that the structure of the file can be edited."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vcx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1121,
+      "relatedFormatName": "Microsoft Visual FoxPro Database Table File"
+    }
+  ]
+}

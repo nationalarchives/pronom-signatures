@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 909,
+  "formatName": "PrimeOCR",
+  "version": "4.3",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "06 Oct 2009",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/188",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 252,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3433302C??2C{3}2C",
+      "endianness": "Little-endian",
+      "name": "PrimeOCR 4.3",
+      "note": "Initial bytes of PrimeOCR output format represent Version,Format,Confidence and are represented in binary as ASCII at the beginning of the *.pro format. The value 430,0,450, represent version 4.3 of the format, custom word flag representing format and a confidence of 850 (PrimeOCR confidence * 100). The hex representation of this is 34 33 30 2C 30 2C 34 35 30 2C (we include the final signature represented in the format to create the unique signature). If version 4.3 is represented as 34 33 30 (ascii), version 4.2 for example is represented as 34 32 30, 3.8 as 33 38 39."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pro",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

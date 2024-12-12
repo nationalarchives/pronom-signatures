@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1902,
+  "formatName": "The Neuroimaging Informatics Technology Initiative File Format",
+  "version": "2",
+  "formatDescription": "A Neuroimaging format commonly used in medical industry for the analysis of MRI data. Version 2 is an extended version of NIfTI allowing 64 bit storage and addressing.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Aug 2020",
+  "formatSourceID": 230,
+  "provenanceCompoundName": "Bodleian Library, University of Oxford / Bodleian Library, University of Oxford",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "NIfTI-2",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1094",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1474,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "6E6932000D0A1A0A",
+      "endianness": null,
+      "name": "The Neuroimaging Informatics Technology Initiative File Format V2 variant1",
+      "note": "Offset 4: 'ni2 ' 0x0D0A1A0A\r\nhttps://www.nitrc.org/forum/forum.php?thread_id=2148&forum_id=1941"
+    },
+    {
+      "signatureID": 1475,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "6E2B32000D0A1A0A",
+      "endianness": null,
+      "name": "The Neuroimaging Informatics Technology Initiative File Format V2 variant2",
+      "note": "Offset 4: 'n+2 ' 0x0D0A1A0A\r\nhttps://www.nitrc.org/forum/forum.php?thread_id=2148&forum_id=1941"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nii",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1598,
+      "relatedFormatName": "The Neuroimaging Informatics Technology Initiative File Format"
+    }
+  ]
+}

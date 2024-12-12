@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 71,
+  "formatName": "AutoCAD dbConnect Template Set",
+  "version": null,
+  "formatDescription": "AutoCAD is 2D and 3D computer-aided design software used by professionals such as architects, engineers and city planners to prepare technical drawings. Developed by Autodesk, it was first released in 1982, and is now very widely used. These files were produced by the R2000 version of the software, which was issued in 2000, and is now obsolete. These dbt files contain database templates, a preformatted file that can be used to quickly create a particular type of file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "07/2024 (v.119): Added internal Signature. Submitted by the National Archives and Records Administration.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/40",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2301,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0A0000004442434E43205231357C0C000000544D50",
+      "endianness": null,
+      "name": "AutoCAD dbConnect Template Set",
+      "note": "Absolute from beginning of file, magic bytes: ....DBCNC R15|....TMPLSET"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dbt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

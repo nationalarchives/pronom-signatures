@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1767,
+  "formatName": "QCP Audio File Format",
+  "version": null,
+  "formatDescription": "QCP is a storage format for exchanging Qualcomm Code Excited Linear Prediction (QCELP 13k) encoded audio data, as well as Enhanced Variable Rate Codec (EVRC) and Selectable Mode Vocoders (SMV) data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.",
+  "formatSourceDate": "14 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/qcelp",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/962",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1319,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}514C434D",
+      "endianness": null,
+      "name": "QCP Audio",
+      "note": "BOF: RIFF{4}QLCM\r\nFormat description: https://tools.ietf.org/html/rfc3625"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "qcp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 452,
+  "formatName": "X-Windows Bitmap Image",
+  "version": "X10",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/x-xbitmap",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/299",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 617,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "23646566696E6520{1-30}5F776964746820{1-16}23646566696E6520{1-30}5F68656967687420*73746174696320756E7369676E65642073686F727420{1-30}5F626974735B5D203D207B",
+      "endianness": null,
+      "name": "X-Windows Bitmap Image X10",
+      "note": "Starts with a C declaration: \"#define <name>_width <integer>#define <name>_height <integer> static unsigned short <name>_bits[] = {\"  where <name> is filename without extension."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xbm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

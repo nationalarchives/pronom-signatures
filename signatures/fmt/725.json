@@ -1,0 +1,75 @@
+{
+  "fileFormatID": 1524,
+  "formatName": "Microsoft Project",
+  "version": "2010",
+  "formatDescription": "Microsoft Project is a project management software program developed by Microsoft. The .mpp format produced by Microsoft Project 2010 is based upon Microsoft's OLE2 Compound Document Format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-project",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/725",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "4070",
+      "description": "Microsoft Project 2010 OLE2",
+      "files": [
+        {
+          "path": "Props14"
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "4080",
+      "description": "Microsoft Project 2010 OLE2",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "40",
+                  "subSeqMaxOffset": "1064",
+                  "sequence": "0F 00 00 00 'MSProject.MPP14' 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2704,
+  "formatName": "DAV Video Format",
+  "version": null,
+  "formatDescription": ".dav is a native file format produced by digital video camera recorders created by Dahua Technologies, used primarily for Closed Circuit Television (CCTV).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://docs.fileformat.com/video/dav/",
+  "lastUpdatedDate": "25 Apr 2023",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Apr 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1851",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2196,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44484156",
+      "endianness": null,
+      "name": "DAV Video Format",
+      "note": "BOF, offset 0: \u201cDHAV\u201d\r\nEOF, offset 0, maximum offset 65536: \u201cdhav\u201d"
+    },
+    {
+      "signatureID": 2196,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "64686176",
+      "endianness": null,
+      "name": "DAV Video Format",
+      "note": "BOF, offset 0: \u201cDHAV\u201d\r\nEOF, offset 0, maximum offset 65536: \u201cdhav\u201d"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dav",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

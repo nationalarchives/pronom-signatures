@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1644,
+  "formatName": "AccessData Custom Content Image (Encrypted)",
+  "version": null,
+  "formatDescription": "The AccessData Custom Content Image (AD1) file format is a file-level disk image format created by AccessData's proprietary forensic software, such as FTK Imager. \r\n\r\nAD1 images may be encrypted or unencrypted. Encrypted images have only a small unencrypted chunk at the beginning of the file, beginning with the magic bytes \"ADCRYPT\" at byte 0.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Dec 2015",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/843",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1202,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41444352595054",
+      "endianness": null,
+      "name": "AD1 (encrypted)",
+      "note": "BOF: ADCRYPT"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ad1",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ad2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ad3",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ad4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ad5",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

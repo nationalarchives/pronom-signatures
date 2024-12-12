@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1621,
+  "formatName": "G64 GCR-encoded Disk Image Format",
+  "version": null,
+  "formatDescription": "G64 is a Commodore 64 emulation format. It is a raw group code recording (GCR) binary representation of a Commodore 1541 diskette.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/821",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1178,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4743522D3135343100",
+      "endianness": null,
+      "name": "G64 GCR-encoded Disk Image Format",
+      "note": "BOF: GCR-1541."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "g41",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "g64",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "g71",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

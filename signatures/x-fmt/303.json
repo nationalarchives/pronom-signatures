@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 457,
+  "formatName": "Aldus Freehand Drawing",
+  "version": "3",
+  "formatDescription": "FreeHand, created by Altsys Corporation in 1988 and licensed to Aldus Corporation, is a discontinued vector graphic editor for Windows and Mac. Uses include professional illustration, desktop publishing and web content. FreeHand versions 1 though to 4 were released by Aldus, later versions were developed by Macromedia. In 2005 Adobe Systems acquired Macromedia but FreeHand development has been discontinued.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/303",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 322,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "46483331",
+      "endianness": "Little-endian",
+      "name": "Aldus Freehand Drawing Version 3",
+      "note": null
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fh3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

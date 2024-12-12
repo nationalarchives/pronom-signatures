@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2397,
+  "formatName": "OrCAD Project File",
+  "version": null,
+  "formatDescription": "OrCAD, a proprietary software tool suite used primarily for electronic design automation (EDA). The software is used mainly by electronic design engineers and electronic technicians to create electronic schematics, perform mixed-signal simulation and electronic prints for manufacturing printed circuit boards. OrCAD was taken over by Cadence Design Systems in 1999 and was integrated with Cadence Allegro since 2005.\r\n\r\nA OrCAD Project File (.OPJ) is a container for the OrCAD design file (.DSN). In addition, a project file also includes simulation profile and layout information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://file.org/extension/opj\r\n\r\nhttps://www.orcad.com/documentation/creating-new-project",
+  "lastUpdatedDate": "08 Dec 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1572",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1913,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "284578707265737350726F6A65637420",
+      "endianness": null,
+      "name": "OrCAD Project File",
+      "note": "BOF:'(ExpressProject' followed by 0x20 (Space)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "opj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

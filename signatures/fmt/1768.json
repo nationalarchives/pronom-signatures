@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2618,
+  "formatName": "C Source Code File",
+  "version": null,
+  "formatDescription": "File written in C programming language that can be opened and viewed in any text editor. As a source code file, it can be converted into machine language by a compiler, creating an executable program. Since 1989, the language has been standardised by the International Organisation for Standardization (ISO) and ANSI. Programmes written in C can be used in a wide variety of operating systems and computer programmes, if they are standards compliant, with minimal changes to their source code.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Sep 2022",
+  "formatSourceID": 295,
+  "provenanceCompoundName": "Stadtarchiv Hof / Stadtarchiv Hof",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Sep 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1768",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "c",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

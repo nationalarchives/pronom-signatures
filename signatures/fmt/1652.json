@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 2479,
+  "formatName": "Typescript",
+  "version": null,
+  "formatDescription": "Typescript is a superset of Javascript, which adds additional syntax/ types. It has compilers that convert it to Javascript, enabling it to run wherever Javascript runs. Created by Microsoft, it was released as Open Source.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Official website: https://www.typescriptlang.org/\r\nSpecification: https://github.com/microsoft/TypeScript/blob/main/doc/TypeScript%20Language%20Specification%20-%20ARCHIVED.pdf?raw=true",
+  "lastUpdatedDate": "15 Mar 2022",
+  "formatSourceID": 280,
+  "provenanceCompoundName": "Diplomatic Archives / French Ministry for Europe and Foreign Affairs",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1652",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ts",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tsx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

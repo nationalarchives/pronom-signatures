@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2328,
+  "formatName": "Agisoft Point Cloud",
+  "version": null,
+  "formatDescription": "Metashape is photogrammetry software used to create 3D models, point clouds and orthomosaic images developed by Agisoft. The OC3 file contains point cloud data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1505",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1877,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F430102",
+      "endianness": null,
+      "name": "Agisoft Point Cloud",
+      "note": "BOF: 'OC' 0x0102"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "oc3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

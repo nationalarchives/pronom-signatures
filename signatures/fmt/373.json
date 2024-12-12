@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1120,
+  "formatName": "FoxPro Database",
+  "version": "2.x",
+  "formatDescription": "This is a generic record for several versions of the Fox Pro database format, which at the moment we are unable to identify down to version level. This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Further information about the FoxPro Database format, can be obtained at http://www.digitalpreservation.gov/formats/fdd/fdd000325.shtml",
+  "formatSourceDate": "03 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/373",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 551,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "F5??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
+      "endianness": null,
+      "name": "Fox Pro Database 2.x",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y)."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dbf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1123,
+      "relatedFormatName": "FoxPro Report"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1128,
+      "relatedFormatName": "FoxPro Project"
+    }
+  ]
+}

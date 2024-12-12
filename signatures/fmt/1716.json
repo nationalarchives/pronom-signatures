@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2552,
+  "formatName": "Cintel Raw Image/DaVinci Resolve Image",
+  "version": null,
+  "formatDescription": "CRI is the native format of the Cintel Scanner, a film scanning and editing solution. It can be natively edited in DaVinci Resolve Studio software. FFmpeg also lists the ability to decode CRI.DVCC files are produced by DaVinci Resolve editing software and appear to share a common structure with CRI.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jun 2022",
+  "formatSourceID": 286,
+  "provenanceCompoundName": "CSC / IT Center for Science, Finland",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1716",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2060,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "010000000400000044564343",
+      "endianness": null,
+      "name": "Cintel Raw Image/DaVinci Resolve Image",
+      "note": "BOF: 0x01000000, 0x04000000, \u201cDVCC\u201d"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cri",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dvcc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

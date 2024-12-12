@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2097,
+  "formatName": "Cindex Document",
+  "version": "4",
+  "formatDescription": "Cindex is software developed by Indexing Research for creating indexes to books, newspapers and other periodical publications. The .UTPL variant is a template file, however it is structurally identical to .UCDX.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1279",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1655,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0100000000000000947000003601",
+      "endianness": null,
+      "name": "Cindex Document 4",
+      "note": "Hexadecimal only signature based on observation - 0100000000000000947000003601. Please contact the PRONOM team if you can help to strengthen this signature."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ucdx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "utpl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2096,
+      "relatedFormatName": "Cindex Document"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "fileFormatID": 386,
+  "formatName": "GZIP Format",
+  "version": null,
+  "formatDescription": "An archive format primarily for Unix/Linux operating systems and which utilizes the GNU zip (gzip) compression method.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://fileinfo.com/extension/gz\r\nhttps://filext.com/file-extension/GZ",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/gzip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "org.gnu.gnu-zip-archive",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/266",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 201,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "1F8B08",
+      "endianness": null,
+      "name": "GZIP format",
+      "note": "Member header ID1 and ID2 fields"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gz",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "z",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 2008,
+      "relatedFormatName": "RData"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 2009,
+      "relatedFormatName": "RData"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 2029,
+      "relatedFormatName": "Gnumeric"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 2286,
+      "relatedFormatName": "Ableton Live Set"
+    }
+  ]
+}

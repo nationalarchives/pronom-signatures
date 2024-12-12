@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2636,
+  "formatName": "Funpaint Image File",
+  "version": null,
+  "formatDescription": "Funpaint image file is a raster image format associated with the Funpaint / Funpaint II, an interlaced FLI graphics editor for the Commodore 64. The resolution of the images is 296x200 pixels.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Funpaint",
+  "lastUpdatedDate": "25 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1786",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2126,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "F03F46554E5041494E5420284D542920",
+      "endianness": null,
+      "name": "Funpaint Image File",
+      "note": "BOF:'\u00f0?FUNPAINT' followed by 0x20 (Space) followed by '(MT)' followed by 0x20 (Space)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fun",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fp2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

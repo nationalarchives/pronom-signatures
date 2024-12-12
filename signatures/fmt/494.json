@@ -1,0 +1,56 @@
+{
+  "fileFormatID": 1281,
+  "formatName": "Microsoft Office Encrypted Document",
+  "version": "2007 Onwards",
+  "formatDescription": "A Microsoft Office - Word, Excel, or PowerPoint document, that has been encrypted.\r\n\r\nThe encrypted document conforms to the MS-OFFCRYPTO specification, as found here:\r\nhttp://msdn.microsoft.com/en-us/library/cc313071(v=office.12).aspx\r\n\r\nThe document is an OLE2 compound that contains a number of files:\r\n\r\nEncryptionInfo - This file contains information used by the Office-compatible application to decrypt the encrypted package. There are multiple variants of this file, as described in 2.3.4.5, and 2.3.4.6 of the format specification.\r\n\r\nEncryptedPackage - This file contains the whole of the encrypted document. \r\n\r\nDataSpaces folder (and sub-files) - This structure associates protected content with data space definitions. The data space definition, in turn, describes the series of transforms that must be applied to that protected content to restore it to its original form.\r\n\r\nSince the method of identifying and distinguishing specific types of OOXML documents relies on seeking and analysing specific elements within the document, and in the case of encryption this information is obfuscated, it does not currently seem possible to determine with any specificity whether an encrypted file is either an Excel, Word, or PowerPoint document, apart from the file extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation, Spreadsheet, Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/494",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlsx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pptx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "docx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "16000",
+      "description": "Microsoft Office 2007 and later encrypted document",
+      "files": [
+        {
+          "path": "EncryptedPackage"
+        }
+      ]
+    }
+  ]
+}

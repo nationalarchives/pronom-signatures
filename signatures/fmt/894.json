@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1698,
+  "formatName": "Gaussian Input Data File",
+  "version": null,
+  "formatDescription": "Gaussian Input Data files are created by the Gaussian computer program for computational chemistry.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/894",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1241,
+      "positionType": "Absolute from BOF",
+      "offset": 1,
+      "maxOffset": 128,
+      "byteSequence": "(414D31|504D33|53544F2D3347|332D323147|332D323167|362D333147|362D333167|6175672D63632D7076747A){0-128}0A(2D31|30|31)(20|2C)[31:39]{1-128}[30:39]2E[30:39]{0-24}[30:39]2E[30:39]{0-24}[30:39]2E[30:39]",
+      "endianness": null,
+      "name": "Gaussian Input Data File",
+      "note": "#*(AM1|PM3|STO-3G|3-21G|3-21g|6-31G|6-31g|augcc-pvtz){0-128}.{0-128}.(-1|2|0)( |,)[0:9]{0-128}[0:9].[0:9]{0-24}[0:9].[0:9]{0-24}[0:9].[0:9]\r\nThis signature has been developed with reference to the basic structure of Gaussian input files as described: http://www.gaussian.com/g_tech/g_ur/m_input.htm and http://chemistry.umeche.maine.edu/Modeling/GGGauss.html. \r\nThe 'Route Section' describes the 'Basis Set' used, as listed here: http://www.gaussian.com/g_tech/g_ur/m_basis_sets.htm. The current signature includes the basis sets AM1,PM3,STO-3G,3-21G,3-21g,6-31G,6-31g and augcc-pvtz. It is likely that additional basis sets have been used in this format, if this has been perceived then please feed this back to PRONOM so the signature can be improved."
+    },
+    {
+      "signatureID": 1241,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 128,
+      "byteSequence": "23",
+      "endianness": null,
+      "name": "Gaussian Input Data File",
+      "note": "#*(AM1|PM3|STO-3G|3-21G|3-21g|6-31G|6-31g|augcc-pvtz){0-128}.{0-128}.(-1|2|0)( |,)[0:9]{0-128}[0:9].[0:9]{0-24}[0:9].[0:9]{0-24}[0:9].[0:9]\r\nThis signature has been developed with reference to the basic structure of Gaussian input files as described: http://www.gaussian.com/g_tech/g_ur/m_input.htm and http://chemistry.umeche.maine.edu/Modeling/GGGauss.html. \r\nThe 'Route Section' describes the 'Basis Set' used, as listed here: http://www.gaussian.com/g_tech/g_ur/m_basis_sets.htm. The current signature includes the basis sets AM1,PM3,STO-3G,3-21G,3-21g,6-31G,6-31g and augcc-pvtz. It is likely that additional basis sets have been used in this format, if this has been perceived then please feed this back to PRONOM so the signature can be improved."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gjf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

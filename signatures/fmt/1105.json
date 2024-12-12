@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1913,
+  "formatName": "Hierarchical File System",
+  "version": null,
+  "formatDescription": "Hierarchical File System (HFS) is a file system developed by Apple primarily for Mac OS. Within HFS a storage volume is divided into logical blocks of 512 bytes. The Hierarchical File System groups these logical blocks into allocation blocks, which can contain one or more logical blocks, depending on the total size of the volume.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Nov 2017",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": "This entry and identification for Hierarchical File System was a collaborative effort involving the Open Preservation Foundation, Artefactual Systems, New York Public Libraries, The University of California, Los Angeles and The National Archives.",
+  "formatSourceDate": "07 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1105",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1487,
+      "positionType": "Absolute from BOF",
+      "offset": 1024,
+      "maxOffset": null,
+      "byteSequence": "4244{12}0003{6}[!&01]00",
+      "endianness": null,
+      "name": "HFS",
+      "note": "Offset 1024, magic 0x4244 {12}, first block of volume bitmap always 0x0003{6}, size (in bytes) of allocation blocks (4 byte multiple of 512 so byte 4 always 00, byte 3 has 'even' value)[!&01]00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

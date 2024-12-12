@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1447,
+  "formatName": "Media View Pro",
+  "version": null,
+  "formatDescription": "Proprietary cataloguing program to manage photo and video assets.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jul 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jul 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/648",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 976,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "30333069",
+      "endianness": null,
+      "name": "Media View Pro",
+      "note": "BOF: 030i (offset 4)\r\nEOF: Svar {8-34} 030i (offset 8)"
+    },
+    {
+      "signatureID": 976,
+      "positionType": "Absolute from EOF",
+      "offset": 8,
+      "maxOffset": null,
+      "byteSequence": "53566172{8-34}30333069",
+      "endianness": null,
+      "name": "Media View Pro",
+      "note": "BOF: 030i (offset 4)\r\nEOF: Svar {8-34} 030i (offset 8)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpcatalog",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1446,
+      "relatedFormatName": "Microsoft Expression Media"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1810,
+  "formatName": "Nearly Raw Raster Data",
+  "version": "4",
+  "formatDescription": "Nrrd is a library and file format designed to support scientific visualization and image processing involving N-dimensional raster data. Version 4 added a number of new fields.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1005",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1360,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4E52524430303034",
+      "endianness": null,
+      "name": "NRRD 4",
+      "note": "BOF: NRRD0004\r\nhttp://teem.sourceforge.net/nrrd/format.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nrrd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1811,
+      "relatedFormatName": "Nearly Raw Raster Data"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1809,
+      "relatedFormatName": "Nearly Raw Raster Data"
+    }
+  ]
+}

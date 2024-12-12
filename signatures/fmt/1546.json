@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2371,
+  "formatName": "Daisy-Dot Font File",
+  "version": "I and II",
+  "formatDescription": "Daisy-Dot is a text processing program written by Roy Goldman for the Atari line of computers enabling dot-matrix printers to utilise near letter quality (NLQ) printing technology. Three versions of Daisy-Dot were released between 1987 and 1990. A number of Daisy-Dot font files are pre-packaged with the text processor while others can be user-generated using the Daisy-Dot font editor. Daisy-Dot I and II fonts can be identified by the ASCII signature 'DAISY-DOT NLQ FONT'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Daisy-Dot_font\r\n\r\nhttps://atariage.com/forums/topic/291455-daisy-dot-source-code/\r\n\r\nhttp://infolab.stanford.edu/~royg/work/index.html\r\n\r\nhttps://inverseatascii.files.wordpress.com/2018/08/s4e11-prt-dd1-manual-sanserif-2x-2cs.pdf\r\n\r\nhttps://ia803009.us.archive.org/7/items/daisydotii/Daisy%20Dot%20II%20manual.pdf\r\n\r\nhttp://85.11.68.68/stuff/collections/PoolDisk%20Too/CD2/UMICH/TEXT/PRINTING/DDOT2/",
+  "lastUpdatedDate": "08 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1546",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1891,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44414953592D444F54204E4C5120464F4E54",
+      "endianness": null,
+      "name": "Daisy-Dot Font (Version I and II)",
+      "note": "BOF:'DAISY-DOT NLQ FONT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nlq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

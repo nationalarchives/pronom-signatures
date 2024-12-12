@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1097,
+  "formatName": "Paradox Database Table",
+  "version": "5.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Apr 2011",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Submitted by Georgia Tech Research Institute",
+  "formatSourceDate": "21 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/352",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 519,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": null,
+      "byteSequence": "0008(00|02)[01:20]{51}(0A|0B){34}00000000",
+      "endianness": null,
+      "name": "Paradox Database Table 5.0",
+      "note": "Header: offset 2 contains 2 byte length of header block (always 2048 (0800h); 0ffset 4 a 1 byte code of 00 or 02 for indexed or non-indexed database table, respectively; offset 5, 1 byte indicating maximum block size ( 1 = 1024, \u2026 32=32768 in steps of 1 k); offset 39h or 57 decimal code indicating table version; offset  5Ch or 92 decimal 00000000h indicating file is not encrypted."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "db",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1096,
+      "relatedFormatName": "Paradox Database Table"
+    }
+  ]
+}

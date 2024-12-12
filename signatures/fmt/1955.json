@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 2820,
+  "formatName": "Graphisoft Archicad Project",
+  "version": "6-9",
+  "formatDescription": "Archicad is a proprietary architectural and Building Information Modelling (BIM) software application produced by Graphisoft. Files with the .pln extension are the standard working format, whereas files with the .pla extension are the Archicad archive file type, that bundles together all components, linked images and textures into a single package. This signature does not currently distinguish between specific Archicad format types. This signature might identify Graphisoft Archicad Project files from versions other than 6-9; we hope to broaden this entry with further research.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1955",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2306,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6D6D*4172636869434144",
+      "endianness": null,
+      "name": "Graphisoft Archicad Project versions 6-9 (Intel Mac, little-endian)",
+      "note": "Absolute from beginning of file, magic bytes: mm*ArchiCAD"
+    },
+    {
+      "signatureID": 2307,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D*4172636869434144",
+      "endianness": null,
+      "name": "Graphisoft Archicad Project versions 6-9 (big-endian)",
+      "note": "Absolute from beginning of file, magic bytes: MM*ArchiCAD"
+    },
+    {
+      "signatureID": 2308,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5757*4172636869434144",
+      "endianness": null,
+      "name": "Graphisoft Archicad Project versions 6-9 (Intel Windows, little-endian)",
+      "note": "Absolute from beginning of file, magic bytes: WW*ArchiCAD"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pla",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pln",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,171 @@
+{
+  "fileFormatID": 654,
+  "formatName": "Waveform Audio",
+  "version": null,
+  "formatDescription": "Waveform Audio (WAVE) is a chunk-based audio format developed by Microsoft, based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, a WAVE file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It  comprises a RIFF header with a WAVE data type identifier, followed by a series of chunks. Every file must include a Format chunk, which describes the format of the audio data, and a Data chunk, containing the audio data itself. Other optional chunks are also allowed. The format supports a wide variety of compressed and uncompressed audio encodings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113)- Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "WAVE",
+  "formatTypes": "Audio",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "audio/x-wav",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.waveform-audio",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/6",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 50,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}57415645",
+      "endianness": null,
+      "name": "WAVE",
+      "note": "RIFF header, WAVE ID"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 656,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 674,
+      "relatedFormatName": "Exchangeable Image File Format (Audio)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 735,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 749,
+      "relatedFormatName": "Exchangeable Image File Format (Audio)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 750,
+      "relatedFormatName": "Exchangeable Image File Format (Audio)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 784,
+      "relatedFormatName": "Waveform Audio (PCMWAVEFORMAT)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 786,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEXTENSIBLE)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1314,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1502,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1503,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1504,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1505,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1506,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1507,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1508,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1509,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1510,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 784,
+      "relatedFormatName": "Waveform Audio (PCMWAVEFORMAT)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 786,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEXTENSIBLE)"
+    }
+  ]
+}

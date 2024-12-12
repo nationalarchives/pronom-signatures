@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2045,
+  "formatName": "DIGIDOC-XML",
+  "version": "1.2",
+  "formatDescription": "DigiDoc is a digital signature format specific to Estonia. The format is based on the ETSI TS 101 903 Standard \u2018XML Advanced Electronic Signatures (XAdES)\u2019. DigiDoc corresponds to the XAdES profile \u2018XAdES-X-L\u2019. A DigiDoc container includes source files (the files that were signed) as well as signatures that are related to the signed file(s). Also every signature contains the certificate, validity confirmation and the validity confirmation service certificate. https://www.id.ee/?id=35780",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Feb 2019",
+  "formatSourceID": 239,
+  "provenanceCompoundName": "The National Archives of Estonia / The National Archives of Estonia",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Feb 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1232",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1611,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)20656E636F64696E673D(22|27)5554462D38(22|27)3F3E{0-2}3C5369676E6564446F6320666F726D61743D(22|27)44494749444F432D584D4C(22|27)2076657273696F6E3D(22|27)312E32(22|27)3E",
+      "endianness": null,
+      "name": "DigiDoc 1.2",
+      "note": "XML Header + SignedDoc element attributes - https://www.id.ee/public/DigiDoci_vorming_1.2.pdf (in Estonian). XML Schema https://www.id.ee/public/DigiDoc_1.2.xsd"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ddoc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

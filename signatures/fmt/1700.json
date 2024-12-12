@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2536,
+  "formatName": "OGC GeoPackage",
+  "version": "1.0-1.31",
+  "formatDescription": "A Geopackage is designed for transferring geospatial information in a platform-independent, portable, open and standards based way. It is a standard describing a set of conventions for storing vector features, extensions and tile matrix sets of imagery and raster maps at various scales within a SQLite database. It was defined and published by the Open Geospatial Consortium (OGC) in 2014.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://www.ogc.org/standards/geopackage",
+  "lastUpdatedDate": "20 Jul 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "13 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/geopackage+sqlite3",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1700",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2033,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53514C69746520666F726D61742033{53}4750*67706B675F7370617469616C5F7265665F737973",
+      "endianness": null,
+      "name": "OGC GeoPackage",
+      "note": "BOF Absolute from beginning of file, magic bytes: SQLite format 3{53}GP*gpkg_spatial_ref_sys"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gpkg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1528,
+      "relatedFormatName": "SQLite Database File Format"
+    }
+  ]
+}

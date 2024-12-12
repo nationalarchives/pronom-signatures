@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1950,
+  "formatName": "VectorWorks",
+  "version": "10",
+  "formatDescription": "Vectorworks is a proprietary Computer Aided Design and Building Information Modelling software program for both Mac and Windows operating systems. This software was previously called MiniCAD from 1985 - 1998 and  Vectorworks from 1999.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jul 2018",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.vectorworks",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1140",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1522,
+      "positionType": "Absolute from BOF",
+      "offset": 14,
+      "maxOffset": null,
+      "byteSequence": "566563746F72576F726B73203130",
+      "endianness": null,
+      "name": "VectorWorks 10",
+      "note": "BOF, offset 14 'VectorWorks 10'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vwx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

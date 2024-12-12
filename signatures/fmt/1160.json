@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1970,
+  "formatName": "Folio Shadow File",
+  "version": "3",
+  "formatDescription": "The Folio Shadow file is a feature of the Folio Views software application, allowing multiple uses to work on 'shadow' copies of a master Folio Infobase. Users will see the content of the master Infobase, and their peronal annotated shadow content. Updates to the master content would be reflected in the shadow copy, but changes to the shadow file will not alter the master Infobase in any way.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1160",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1542,
+      "positionType": "Absolute from BOF",
+      "offset": 212,
+      "maxOffset": null,
+      "byteSequence": "EFCDAB8901000300",
+      "endianness": null,
+      "name": "Folio SDW v3",
+      "note": "BOF offset 212:\r\nEFCDAB8901000300"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sdw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

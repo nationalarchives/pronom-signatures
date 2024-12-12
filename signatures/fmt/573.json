@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1361,
+  "formatName": "WebM",
+  "version": null,
+  "formatDescription": "WebM is a media file format, developed by Google based on the Extensible Binary Meta Language.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://www.webmproject.org/docs/container/",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": "EBML",
+  "identifiers": [
+    {
+      "identifierText": "fmt/573",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/webm",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 911,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "1A45DFA3{0-32}4282847765626D4287",
+      "endianness": null,
+      "name": "WebM",
+      "note": "1A45DFA3(EBML Header){0-32}4282847765626D4287(doctype = webm)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "webm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

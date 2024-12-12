@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1702,
+  "formatName": "Zoomify Image Format",
+  "version": null,
+  "formatDescription": "Zoomify offers the ability to pinto high resolution images. It works by converting a high resolution image into a collection of JPEG tiles that are stored within a .zif file. This file can in turn be displayed within a web browser with the aid of a javascript library.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.116)- internal signature expanded. Submitted by Preservica; 07/2024 (v.119)- priority over fmt/1917 BigTIFF added. Submitted by Preservica.",
+  "formatSourceDate": "17 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/898",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1245,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492B00080000001000000000000000",
+      "endianness": null,
+      "name": "Zoomify ZIF",
+      "note": "BOF: II+.....\r\nhttps://github.com/lovasoa/ZIF/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2775,
+      "relatedFormatName": "BigTIFF"
+    }
+  ]
+}

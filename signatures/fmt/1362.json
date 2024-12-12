@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2180,
+  "formatName": "Microsoft MapPoint Document",
+  "version": null,
+  "formatDescription": "Microsoft MapPoint files is a GIS format created by the MapPoint software program. The software was designed to allow users to view, edit and integrate maps. It was discontinued in 2014.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Jul 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Jul 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1362",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ptm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "46000",
+      "description": "Microsoft MapPoint Document",
+      "files": [
+        {
+          "path": "Highlights"
+        },
+        {
+          "path": "Journey",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "58 02 00 00 4D 41 53 4D"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1108,
+  "formatName": "pulse EKKO header file",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Aug 2011",
+  "formatSourceID": 170,
+  "provenanceCompoundName": "Archaeology Data Service / Archaeology Data Service",
+  "formatProvenance": "Submitted by Archaeology Data Service",
+  "formatSourceDate": "18 Aug 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/361",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 530,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 100,
+      "byteSequence": "4E554D424552204F46205452414345532020203D20[30:39]{3-*}4E554D424552204F46205054532F54524320203D20[30:39]",
+      "endianness": null,
+      "name": "pulse EKKO header file",
+      "note": "An ASCII header file, which contains information about radar data, such as number of samples and traces, time window, etc., and can be variable in length. Signature looks for ASCII strings 'NUMBER OF TRACES   =' and 'NUMBER OF PTS/TRC  =' near start of file, and \"SURVEY MODE        = \" near end of file."
+    },
+    {
+      "signatureID": 530,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 150,
+      "byteSequence": "535552564559204D4F444520202020202020203D20",
+      "endianness": null,
+      "name": "pulse EKKO header file",
+      "note": "An ASCII header file, which contains information about radar data, such as number of samples and traces, time window, etc., and can be variable in length. Signature looks for ASCII strings 'NUMBER OF TRACES   =' and 'NUMBER OF PTS/TRC  =' near start of file, and \"SURVEY MODE        = \" near end of file."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

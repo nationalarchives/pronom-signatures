@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2772,
+  "formatName": "Graphisoft BIMx Hyper-Model",
+  "version": null,
+  "formatDescription": "BIMx is a proprietary Building Information Modelling (BIM) format produced by Graphisoft architectural software applications such as Archicad. BIMx is referred to as a \u2018hyper-model\u2019 that can contain 3D models, along with views, layouts, camera paths and project documentation. It is intended as an interactive, presentational format rather than a creative or editorial one. Graphisoft provide a standalone viewer desktop and mobile application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Aug 2023",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1914",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2264,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "42494D78",
+      "endianness": null,
+      "name": "Graphisoft BIMx",
+      "note": "BOF; Offset: 0; Sequence: \u2018BIMx\u2019, EOF; Offset:0; Sequence: \u2018KPXB\u2019"
+    },
+    {
+      "signatureID": 2264,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4B505842",
+      "endianness": null,
+      "name": "Graphisoft BIMx",
+      "note": "BOF; Offset: 0; Sequence: \u2018BIMx\u2019, EOF; Offset:0; Sequence: \u2018KPXB\u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bimx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

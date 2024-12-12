@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 2218,
+  "formatName": "Ichitaro Document",
+  "version": "8",
+  "formatDescription": "Ichitaro is a word processor produced by JustSystems, a Japanese software company.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "26 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-js-taro",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1400",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "jtd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jtt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "$td",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "51000",
+      "description": "Ichitaro Document 8",
+      "files": [
+        {
+          "path": "JSRV_SummaryInformation"
+        },
+        {
+          "path": "Header",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "53 73 6D 67 56 2E 30 31"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1247,
+  "formatName": "Verity Collection Partition Definition Descriptor Style Set",
+  "version": null,
+  "formatDescription": "A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files. The Verity Collection Partition Definition Descriptor Style Set contains parameters for configuring and managing the collection\u2019s partitions.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/460",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 714,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "232066617368696F6E2E706464202D207772697474656E206279206D6B707274696E64202D20536174204465632030372030303A31323A303220313939310D0A",
+      "endianness": null,
+      "name": "Verity Collection Partition Definition Descriptor Style Set",
+      "note": "BOF: # fashion.pdd - written by mkprtind - Sat Dec 07 00:12:02 1991..\r\nEOF: }..}.."
+    },
+    {
+      "signatureID": 714,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "7D0D0A7D0D0A",
+      "endianness": null,
+      "name": "Verity Collection Partition Definition Descriptor Style Set",
+      "note": "BOF: # fashion.pdd - written by mkprtind - Sat Dec 07 00:12:02 1991..\r\nEOF: }..}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

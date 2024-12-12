@@ -1,0 +1,50 @@
+{
+  "fileFormatID": 1754,
+  "formatName": "WordPerfect",
+  "version": "4.0/4.1/4.2",
+  "formatDescription": "WordPerfect is a Word Processing application currently owned by Corel Corporation. The original version of WordPerfect 4.0 was released in 1984. 4.1 followed in 1985 and 4.2 \rin 1986, with versions released on various platforms up to 1988 when version 5.0 was originally released for DOS.\r\n\r\nOnly the technical specification for version 4.2 is currently known to have been made public, originally via the PC Developer's Toolkit diskette, and this can be found \rpreserved here: http://www.columbia.edu/~em36/wpdos/wp42ff.txt.\r\n\r\nThe file format for the WP4.2 version contains only the document body with special function codes, and the format lacks a header or mandatory elements that can be used by \rPRONOM for automatic identification. Each function code represents a text function, such as bold or underline, so with reference to the specification it should be possible to \rparse the file to understand the intended layout. It may be the case that the file format for 4.0 and 4.1 is functionally identical or very similar to version 4.2.\r\n\r\nA free C++ library called libwpd is available: http://libwpd.sourceforge.net/ and it includes the ability to parse WP4.2 files. This library is known to have been implemented \rin LibreOffice, Koffice, and AbiWord among others, so these applications can be used to open and render WordPerfect 4.2 files, and potentially WP4.0 and WP4.1.\r\n\r\nDue to the age of the format, WP4.x files may lack a format extension, however .wp4 and .wpd are known to be associated with the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.wordperfect",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/949",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "wp4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wpd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 736,
+      "relatedFormatName": "WordPerfect for MS-DOS Document"
+    }
+  ]
+}

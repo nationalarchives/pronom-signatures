@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 215,
+  "formatName": "Microsoft Windows Enhanced Metafile",
+  "version": "1.0",
+  "formatDescription": "The Enhanced Metafile format is a 32-bit format that can contain both vector information and bitmap information. This format contains extended features over the Windows Metafile Format, including built-in scaling information, and improvements in color palettes and device independence.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jul 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Image (Vector)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/emf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/153",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 476,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0100000058000000{32}20454D4600000100{16}00000000",
+      "endianness": null,
+      "name": "Microsoft Windows Enhanced Metafile 1.0 (Variation 1)",
+      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) decimal 88; Bounds (16 bytes); Frame (16 bytes); at offset 40 signature (\u201cEMF  \u201c); Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) zero"
+    },
+    {
+      "signatureID": 477,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "01000000{36}20454D4600000100{16}58000000",
+      "endianness": null,
+      "name": "Microsoft Windows Enhanced Metafile 1.0 (Variation 2)",
+      "note": "Record Type EMR_HEADER (01000000h); Record Size (4 bytes) greater than 88; Bounds (16 bytes); Frame (16 bytes); at offset 40 signature (\u201cEMF  \u201c); Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) greater than zero; offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer) 88"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "emf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1089,
+      "relatedFormatName": "Microsoft Windows Enhanced Metafile"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1090,
+      "relatedFormatName": "Microsoft Windows Enhanced Metafile"
+    }
+  ]
+}

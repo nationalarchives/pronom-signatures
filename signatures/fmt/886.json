@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1690,
+  "formatName": "HTML Components",
+  "version": null,
+  "formatDescription": "HTML Components (HTCs) are a legacy technology used to implement components in script as Dynamic HTML (DHTML) \"behaviors\" in the Microsoft Internet Explorer web browser.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/886",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "htc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

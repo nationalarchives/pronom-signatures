@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 241,
+  "formatName": "PHP Script Page",
+  "version": null,
+  "formatDescription": "A PHP script page (PHP script) written in PHP (PHP Hypertext Prepocessor) languge is a source code file that can be run by a PHP interpreter. PHP is a server-side scripting language that is often used to process inputs taken from the web and deliver dynamic content back to the HTTP client. PHP can be used as a generic scripting language, and so may be found in a standalone context, i.e. run on the command-line by calling the `php` command with the php script name as a command-line argument. A PHP script file may be an single script that is standalone or in support of a website, or form part of a number of scripts that form a module or library depending on the design pattern adopted by the developers of the script.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description added as part of PRONOM Research Week. Submitted by Ross Spencer.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "text/html",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/169",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "php",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

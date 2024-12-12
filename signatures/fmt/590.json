@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1382,
+  "formatName": "JPEG Extended Range",
+  "version": null,
+  "formatDescription": "JPEG XR (abbr. For JPEG extended range) is a still-image compression standard and file format for continuous tone photographic images, based on technology originally developed and patented by Microsoft under the name HD Photo (formerly Windows Media Photo). It supports both lossy and lossless compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/590",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jxr",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 931,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4949BC01",
+      "endianness": null,
+      "name": "JPEG XR",
+      "note": "BOF: II\u00bc."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wdp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jxr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

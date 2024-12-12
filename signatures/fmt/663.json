@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1462,
+  "formatName": "Industry Foundation Classes XML",
+  "version": null,
+  "formatDescription": "The Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data. ifcxml is an XML-based format that is suitable for interoperability with XML tools and exchanging partial building models.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://www.buildingsmart-tech.org/downloads/accompanying-documents/guidelines/ifcXML%20Implementation%20Guide%20v2-0.pdf",
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/663",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 995,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-32}69736F5F31303330335F3238",
+      "endianness": null,
+      "name": "Industry Foundation Classes XML",
+      "note": "XML declaration tag shortly followed by declaration of iso_10303_28 namespace"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ifcXML",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

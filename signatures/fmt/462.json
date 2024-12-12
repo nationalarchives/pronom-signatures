@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 1249,
+  "formatName": "MS-DOS Compression Format (SZDD Variant)",
+  "version": null,
+  "formatDescription": "The MS-DOS compression format uses the SZDD algorithm to compress a single file into another single file, replacing the last character in the filename with an underscore. It is implemented via the MS-DOS commands COMPRESS.EXE and EXPAND.EXE.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "A DOS compressed file will be named file.**_, so a DOS compressed .exe will be named 'file'.ex_, a DOS compressed .jpg will be named 'file'.jp_. \r\n\r\nhttps://www.cabextract.org.uk/libmspack/doc/szdd_kwaj_format.html",
+  "lastUpdatedDate": "28 Oct 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/462",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 718,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "535A444488F0273341",
+      "endianness": null,
+      "name": "MS DOS Compression (SZDD)",
+      "note": "BOF: SZDD\u02c6\u00f0'3A"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1739,
+  "formatName": "Simple Vector Format",
+  "version": "2",
+  "formatDescription": "SVF is a vector image format originally developed in 1994. The format supports hyperlinks and layer information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "08 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/934",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd-svf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1278,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "535646207632",
+      "endianness": null,
+      "name": "Simple Vector Format 2",
+      "note": "BOF: SVF v2\r\nSpecification: http://www.svf.org/spec.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "svf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1738,
+      "relatedFormatName": "Simple Vector Format"
+    }
+  ]
+}

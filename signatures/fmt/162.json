@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 889,
+  "formatName": "Microsoft Multiplan",
+  "version": "4.0",
+  "formatDescription": "Microsoft Multiplan was early spreadsheet software, which was replaced by Microsoft Excel. Version 4 used the same BIFF file format as Excel 2.0.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/MultiPlan",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Brigham Young University.",
+  "formatSourceDate": "28 Sep 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/162",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mod",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

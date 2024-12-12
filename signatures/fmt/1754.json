@@ -1,0 +1,102 @@
+{
+  "fileFormatID": 2602,
+  "formatName": "OpenDocument Presentation",
+  "version": "1.3",
+  "formatDescription": "OpenDocument (ODF) format is a generic format for office documents, such as text, spreadsheets, presentations, drawings, and databases. It was developed by OASIS, based on the original OpenOffice document format. The format is an open standard, and is supported by a variety of office software packages. ODF is an XML format, which may comprise a single XML document, or a collection of subdocuments within a package. The package format is the commonly used form, and comprises a standard ZIP package containing the XML content and any associated binary data, together with a manifest which lists the package content. An ODF presentation document contains a graphical presentation. The content is contained in a 'content' xml subdocument. Additional subdocuments contain style information, document metadata, and application-specific settings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Aug 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later.",
+  "formatSourceDate": "25 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.oasis.opendocument.presentation",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1754",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "odp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1035,
+      "relatedFormatName": "OpenDocument Presentation"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "8030",
+      "description": "Open Document Presentation 1.3",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.presentation'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'office:version=' (22|27) '1.3' (22|27)"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

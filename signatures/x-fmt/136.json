@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 195,
+  "formatName": "Audio Interchange File Format (compressed)",
+  "version": null,
+  "formatDescription": "The Audio Interchange File Format, Compressed (AIFF-C) provides a standard for storing uncompressed or compressed sampled sounds.  The format can store monaural or multichannel sampled sounds in a range of sample rates and sample widths.  The format is extensible to handle new compression types and application-specific data.",
+  "releaseDate": "26 Aug 1991",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Further information about this file format can be obtained at \r\nhttp://www-mmsp.ece.mcgill.ca/documents/audioformats/aiff/docs/aiff-c.9.26.91.pdf",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/x-aiff",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/136",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 321,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "464F524D{4}41494643",
+      "endianness": "Big-endian",
+      "name": "Audio Interchange File Format (Compressed)",
+      "note": "Starts like most IFF files (FORM) followed by four bytes that tell how many more bytes follow in the file followed by AIFC."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aifc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 221,
+      "relatedFormatName": "Interchange File"
+    }
+  ]
+}

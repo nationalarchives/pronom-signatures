@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2175,
+  "formatName": "Virtual Format (Vector)",
+  "version": null,
+  "formatDescription": "VRT is developed by the GDAL/OGR group and is an XML file that is used to transform source GIS datasets by the GDAL/OGR programs. It can operate on either raster or vector data sources, though the two different datasets cannot be mixed in the same VRT file. Virtual Format is a driver that transforms features read from other drivers based on criteria specified in an XML control file. It is primarily used to derive spatial layers from flat tables with spatial information in attribute columns. It can also be used to associate coordinate system information with a datasource, merge layers from different datasources into a single data source, or even just to provide an anchor file for access to non-file oriented datasources.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://gdal.org/drivers/vector/vrt.html\r\nhttps://timcera.bitbucket.io/posts/vrts_are_amazing.html",
+  "lastUpdatedDate": "29 Jan 2020",
+  "formatSourceID": 194,
+  "provenanceCompoundName": "National Library of Wales / National Library of Wales",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "OGR Virtual Format",
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1357",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1740,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 300,
+      "byteSequence": "3C4F475256525444617461536F75726365",
+      "endianness": null,
+      "name": "Virtual Format (Vector)",
+      "note": "BOF: '<OGRVRTDataSource>\u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vrt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

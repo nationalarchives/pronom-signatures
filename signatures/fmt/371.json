@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1118,
+  "formatName": "Enhanced Compression Wavelet",
+  "version": null,
+  "formatDescription": "ECW (Enhanced Compression Wavelet) is a proprietary wavelet compression image format optimized for geospatial imagery, which can quickly compress and decompress huge images, especially aerial and satellite imagery. It was developed by Earth Resource Mapping, and is now owned by ERDAS, which is owned by Leica Geosystems. The requirement of using the ECWP format for any application is that it requires the user to download and install enabling software in the form of a plug-in or in the case of the Java applet, a Java runtime environment (JRE).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Format information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration involving North Carolina, Kentucky, Utah, and Montana state archives, and sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress.",
+  "formatSourceDate": "03 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/371",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 542,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "65020102{1}0400(00|01|02|06){2}00(00|02|03|04|06){2}00030001",
+      "endianness": null,
+      "name": "Enhanced Compression Wavelet",
+      "note": "Regularly recurring header sequence"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ecw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

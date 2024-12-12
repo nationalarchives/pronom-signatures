@@ -1,0 +1,85 @@
+{
+  "fileFormatID": 693,
+  "formatName": "Windows Media Video",
+  "version": null,
+  "formatDescription": "Windows Media Video Format is a subtype of the Advanced Systems Format, developed by Microsoft for storing video data streams. It comprises a Header Object, which describes the properties of the data streams, a Data Object, which contains the actual data streams stored in Data Packets and, optionally, one or more Index Objects. Video data is stored using the Windows Media Video codec, and the format supports streaming across networks.",
+  "releaseDate": "01 Dec 2004",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "WMV",
+  "formatTypes": "Video",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.microsoft.windows-media-wmv",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/133",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/x-ms-wmv",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 82,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+      "endianness": null,
+      "name": "Windows Media Video",
+      "note": "Header Object + Stream Properties Object (stream type = Video Stream) with WMV Compression ID"
+    },
+    {
+      "signatureID": 82,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}C0EF19BC4D5BCF11A8FD00805F5C442B{65}574D56(31|32|33)",
+      "endianness": null,
+      "name": "Windows Media Video",
+      "note": "Header Object + Stream Properties Object (stream type = Video Stream) with WMV Compression ID"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "asf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wmv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 691,
+      "relatedFormatName": "Advanced Systems Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 692,
+      "relatedFormatName": "Windows Media Audio"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 691,
+      "relatedFormatName": "Advanced Systems Format"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2052,
+  "formatName": "Smacker Video",
+  "version": null,
+  "formatDescription": "Smacker video is a video file format developed by RAD Game Tools, and primarily used for full-motion video in video games.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1234",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/vnd.radgamettools.smacker",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1613,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534D4B32{96}00000000",
+      "endianness": null,
+      "name": "Smacker Video",
+      "note": "BOF: 'SMK2'{96} unused (null) x 4 bytes"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "smk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

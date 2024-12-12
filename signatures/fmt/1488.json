@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2311,
+  "formatName": "Phantom CINE Video File",
+  "version": null,
+  "formatDescription": "The Cine file format was designed for storing and retrieving the recordings made by Phantom high speed video cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1488",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1861,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4349{2}(00|02){1}(00|01)",
+      "endianness": null,
+      "name": "Phantom CINE Video File",
+      "note": "BOF: 'CI' - {2}(00|02){1}(00|01)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cine",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cin",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

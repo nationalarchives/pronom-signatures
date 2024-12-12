@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2010,
+  "formatName": "PowerDraw",
+  "version": "6",
+  "formatDescription": "PowerDraw was developed by Engineered Software to create two-dimensional technical drawings on the 680x0 Mac.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1200",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1578,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5064253402",
+      "endianness": null,
+      "name": "PowerDraw",
+      "note": "BOF: Pd%4."
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

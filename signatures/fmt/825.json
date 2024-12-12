@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1626,
+  "formatName": "Apple iWork Numbers",
+  "version": "Generic",
+  "formatDescription": "Numbers is a spreadsheet application created by Apple as part of the iWork Productivity Suite. This entry is currently an extension-only entry to provide a default identification in the absence of a signature-based identification.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Sep 2020",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/825",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "numbers",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1579,
+  "formatName": "pcap Next Generation Packet Capture",
+  "version": null,
+  "formatDescription": "The pcap Next Generation Capture file format is intended to overcome limitations in the pcap Packet Capture format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.tcpdump.pcap",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/780",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1147,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0A0D0D0A{4}1A2B3C4D",
+      "endianness": null,
+      "name": "pcap-ng Big Endian",
+      "note": "Section Header Block - Block Type, Length, Magic"
+    },
+    {
+      "signatureID": 1148,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0A0D0D0A{4}4D3C2B1A",
+      "endianness": null,
+      "name": "pcap-ng Little Endian",
+      "note": "Section Header Block - Block Type, Length, Magic"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pcapng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

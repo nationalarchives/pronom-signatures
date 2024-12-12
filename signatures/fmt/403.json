@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1151,
+  "formatName": "SuperCalc Spreadsheet",
+  "version": "1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Feb 2012",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Feb 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/403",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 599,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "537570657243616C63207665722E{2}312E",
+      "endianness": null,
+      "name": "SuperCalc Spreadsheet 1",
+      "note": "SuperCalc ver.  1."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cal",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

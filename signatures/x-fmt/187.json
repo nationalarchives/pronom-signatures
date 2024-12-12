@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 260,
+  "formatName": "Painter RIFF Image File",
+  "version": null,
+  "formatDescription": ".RIF is the native image format for the Painter software application. It includes features such as layering and  transparency. It was originally developed by Fractal Design, but is now owned and used by Corel Corporation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/187",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1657,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00020000{36}3FE66666",
+      "endianness": null,
+      "name": "Painter RIFF Image File (pre-2000)",
+      "note": "The Painter RIFF format is Identified by the first 4 bytes, then bytes 8-12 which defines compression, then a static 4 bytes used in all versions at byte 40 \"3F E6 66 66\". The early versions identify the first 4 bytes \"00 02 00 00\""
+    },
+    {
+      "signatureID": 1658,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00022000{36}3FE66666",
+      "endianness": null,
+      "name": "Painter RIFF Image File (2000+)",
+      "note": "The Painter RIFF format is identified by the first 4 bytes, then bytes 8-12 which defines compression, then a static 4 bytes used in all versions at byte 40 \"3F E6 66 66\". The later Corel versions (2000+) identify with the first 4 bytes \"00 02 20 00\"."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

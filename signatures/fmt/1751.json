@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2597,
+  "formatName": "Canon SIF File",
+  "version": null,
+  "formatDescription": "A Canon SIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It is created whenever a video file is shot and exceeds the 2GB file size limit imposed by the FAT32 filesystem. In this case, an SIF file is created for each corresponding MXF file. It is found within the CANON XF/CLIPS 001/AAxxxx directory, where xxxx is an automatically generated number beginning with 0001. Although little official documentation exists, SIF likely stands for Shot/Segment/Span Information File. The precise contents of the file format have not yet been established, but its existence is necessary in order to import spanned clips into Canon media apps.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/",
+  "lastUpdatedDate": "24 Aug 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1751",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2093,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01000200",
+      "endianness": null,
+      "name": "Canon SIF File",
+      "note": "BOF: 0x01 (Start of Header) followed by 0x00 (Null) followed by 0x02 (Start of Text) followed by 0x00 (Null)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 937,
+  "formatName": "Kodak Photo CD Image",
+  "version": null,
+  "formatDescription": "An image file format developed by Kodak for scanning film and delivering on CD. Combines multiple resolutions into a single file. Images are in the Photo YCC color encoding, and stored using in units called IMAGE PAC files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://justsolve.archiveteam.org/wiki/Photo_CD",
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118)- Description created and link added. Submitted by Brigham Young University as part of PRONOM Research Week 2023.",
+  "formatSourceDate": "28 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/211",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 770,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF{2016}504344",
+      "endianness": null,
+      "name": "Kodak Photo CD",
+      "note": "BOF: \u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff{2016}PCD"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pcd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

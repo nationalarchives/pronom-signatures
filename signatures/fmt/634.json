@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1433,
+  "formatName": "Microsoft Compiled HTML Help",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-htmlhelp",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/634",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 961,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49545346",
+      "endianness": null,
+      "name": "Microsoft Compiled Help file",
+      "note": "BOF: ITSF (Info-Tech Storage Format)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "chm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "chw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

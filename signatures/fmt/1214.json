@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2024,
+  "formatName": "Cakewalk WRK Project",
+  "version": null,
+  "formatDescription": "Cakewalk is an audio production software application. The project file includes MIDI data and configuration settings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1214",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1591,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "43414B4557414C4B1A",
+      "endianness": null,
+      "name": "Cakewalk WRK Project",
+      "note": "BOF: 'CAKEWALK' 0x1A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wrk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1077,
+  "formatName": "ESRI Arc/View Project",
+  "version": "3.x",
+  "formatDescription": "ArcView is Geographic Information System software produced by ESRI. There may be distinct formats produced by ArcView that share this format structure. Please contact the PRONOM team if you are able to assist with distinguishing between them.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "04 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "30 Mar 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/332",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 431,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2F332E[30:33]0D0A284F44422E31",
+      "endianness": null,
+      "name": "ESRI Arc/View Project Version 3.x",
+      "note": "Header containing version number followed by ODB format information"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "apr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "def",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

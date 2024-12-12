@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1309,
+  "formatName": "Open Project File",
+  "version": null,
+  "formatDescription": "The .pod format was originally used by the OpenProj project management suite. Development on OpenProj has discontinued and has been superceded by ProjectLibre.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/522",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 815,
+      "positionType": "Absolute from BOF",
+      "offset": 16,
+      "maxOffset": null,
+      "byteSequence": "636F6D2E70726F6A6974792E7365727665722E646174612E50726F6A65637444617461",
+      "endianness": null,
+      "name": "POD project file",
+      "note": "offset 16, BOF: com.projity.server.data.ProjectData"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pod",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

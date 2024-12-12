@@ -1,0 +1,96 @@
+{
+  "fileFormatID": 667,
+  "formatName": "JPEG File Interchange Format",
+  "version": "1.00",
+  "formatDescription": "The JPEG File Interchange Format (JFIF) is a file format for storing JPEG-compressed raster images. It was developed by the Independent JPEG Group and C-Cube Microsystems, in the absence of any such format being defined in the JPEG standard, and rapidly became a de facto standard; this is what is commonly referred to as the JPEG file format. A JFIF file comprises a JPEG data stream together with a JFIF marker. It begins with a Stofof Image (SOI) marker, immediately followed by a JFIF Application (APP0). This is followed by the JPEG image data, which is terminated by an End of Image (EOI) marker. JFIF supports up to 24-bit colour and uses lossy compression (based on the Discrete Cosine Transform algorithm). Other types of compression are available through JPEG extensions, including progressive image buildup, arithmetic encoding, variable quantization, selective refinement, image tiling, and lossless compression, but these may not be supported by all JFIF readers and writers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": "https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format\r\n\r\nhttps://web.archive.org/web/20220624201809/https://www.adobe.com/creativecloud/file-types/image/raster/jpeg-file.html\r\n\r\nhttps://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG",
+  "lastUpdatedDate": "20 Oct 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "JFIF (1.00)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/42",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jpeg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.jpeg",
+      "identifierType": "Apple Uniform Type Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 66,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFD8FFE0{2}4A464946000100(00|01|02)",
+      "endianness": null,
+      "name": "JFIF 1.00",
+      "note": "SOI and APP0 markers at BOF, EOI marker at EOF"
+    },
+    {
+      "signatureID": 66,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "JFIF 1.00",
+      "note": "SOI and APP0 markers at BOF, EOI marker at EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jpeg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpe",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jfif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jfi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 670,
+      "relatedFormatName": "Raw JPEG Stream"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 668,
+      "relatedFormatName": "JPEG File Interchange Format"
+    }
+  ]
+}

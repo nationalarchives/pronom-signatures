@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2730,
+  "formatName": "HMM Packfile",
+  "version": null,
+  "formatDescription": "The HMM Packfile is a game data format that packages files for distribution with digital games.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/HMM_Packfile",
+  "lastUpdatedDate": "04 Jul 2023",
+  "formatSourceID": 320,
+  "provenanceCompoundName": "Ross Spencer / Ravensburger AG",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1876",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2218,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "484D4D535953205061636B46696C650A1A000000000000000000000000000000",
+      "endianness": null,
+      "name": "HMM Packfile",
+      "note": "BOF: 'HMMSYS PackFile' followed by 15 null bytes"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pak",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

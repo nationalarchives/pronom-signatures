@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 1459,
+  "formatName": "Adobe Type 1 Mac Font File",
+  "version": null,
+  "formatDescription": "Adobe PostScript font used on the Macintosh platform (Mac OS 9.x and earlier); contains the outline data of the font, similar to a .pfb file in Windows; used in combination with a FOND resource file and bitmap data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jul 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jul 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/660",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 992,
+      "positionType": "Absolute from BOF",
+      "offset": 82,
+      "maxOffset": null,
+      "byteSequence": "4C57464E{176}252150532D41646F6265466F6E742D312E30",
+      "endianness": null,
+      "name": "Adobe Type 1 Mac Font File",
+      "note": "Offset 82: LWFN {176} %!PS-AdobeFont-1.0"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

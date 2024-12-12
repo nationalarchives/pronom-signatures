@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2482,
+  "formatName": "cdrLabel Label File",
+  "version": null,
+  "formatDescription": "Created by a free software cdrLabel, whose purpose was to make labels for CD jewel cases. It was able to make tables of contents using the CD contents. The last version of cdrLabel was 7.1, released in 2004. The output was the clb file, which contained the table of contents.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Official website: www.cdrlabel.com. Vendor: https://www.ziplabel.com/",
+  "lastUpdatedDate": "24 Mar 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1655",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "clb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

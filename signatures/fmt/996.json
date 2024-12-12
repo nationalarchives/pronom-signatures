@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1801,
+  "formatName": "Adobe Photoshop Large Document Format",
+  "version": null,
+  "formatDescription": "\tAdobe Photoshop is a raster graphics editor developed and published by Adobe Systems. The Large Document Format supports documents of up to 300,000 pixels in any dimension as opposed to the PSD limit of 30,000 pixels.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/996",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.adobe.photoshop",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1356,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "384250530002000000000000",
+      "endianness": null,
+      "name": "Adobe Photoshop PSB",
+      "note": "BOF: '8BPS', version 2 (0x0002), 6 reserved null bytes\r\nhttps://www.adobe.com/devnet-apps/photoshop/fileformatashtml/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 139,
+      "relatedFormatName": "Adobe Photoshop"
+    }
+  ]
+}

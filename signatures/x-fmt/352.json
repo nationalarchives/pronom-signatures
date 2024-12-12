@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 516,
+  "formatName": "PageMaker PC Document",
+  "version": "4.0",
+  "formatDescription": "PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994. The file extensions begin with either pm or pt, for the PageMaker file or for PageMaker template, followed by the version number.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 May 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.pagemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/352",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2018,
+      "positionType": "Absolute from BOF",
+      "offset": 6,
+      "maxOffset": 6,
+      "byteSequence": "FF99{100}4D500004",
+      "endianness": null,
+      "name": "PageMaker PC Document Version 4",
+      "note": "BOF; Offset: 6; Magic Bytes: FF99 followed by 4D500004 100 bytes after."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pm4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pt4",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 2522,
+      "relatedFormatName": "PageMaker Mac Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 246,
+      "relatedFormatName": "PageMaker PC Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 515,
+      "relatedFormatName": "PageMaker Document"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "fileFormatID": 1700,
+  "formatName": "MusicXML",
+  "version": null,
+  "formatDescription": "MusicXML is an XML based format, it was designed for sharing sheet music files between applications, and for archiving sheet music files for use in the future.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Versions prior to DROID 6.3 may not identify this format correctly",
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.recordare.musicxml+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/896",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1243,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}687474703A2F2F7777772E6D75736963786D6C2E6F72672F647464732F",
+      "endianness": null,
+      "name": "Music XML",
+      "note": "<?xml version=\"1.0\"{8-256}http://www.musicxml.org/dtds/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "musicxml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

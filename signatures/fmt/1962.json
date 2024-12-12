@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2827,
+  "formatName": "SolidWorks Material Database File",
+  "version": null,
+  "formatDescription": "SolidWorks is a CAD program that engineers and product designers use to prototype manufactured products, such as vehicle parts, tools, and other instruments. After creating a 3D representation of a part or product in SolidWorks, users can export a 2D drawing of that part or product. The drawing usually contains multiple 2D views of the part, as well as measurements, noted tolerances, and other annotations.\r\nThe sldmat file stores material database used by SolidWorks.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.file-extensions.org/sldmat-file-extension",
+  "lastUpdatedDate": "15 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1962",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2361,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){3-24}3C6D73746E733A6D6174657269616C7320786D6C6E733A6D73746E733D(22|27)687474703A2F2F7777772E736F6C6964776F726B732E636F6D2F736C646D6174657269616C73",
+      "endianness": null,
+      "name": "SolidWorks Material Database File",
+      "note": "Absolute from BOF, offset 0-3 magic bytes: <?xml version=(\"|')1.0(\"|'){3-24}<mstns:materials xmlns:mstns=(\"|')http://www.solidworks.com/sldmaterials"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sldmat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

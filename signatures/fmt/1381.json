@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2199,
+  "formatName": "VariCAD Drawing",
+  "version": "7+",
+  "formatDescription": "DWB is the native format of VariCAD, 3D CAD software used in the field of mechanical engineering.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1381",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1759,
+      "positionType": "Absolute from BOF",
+      "offset": 1,
+      "maxOffset": null,
+      "byteSequence": "870100",
+      "endianness": null,
+      "name": "VariCAD 7+",
+      "note": "BOF, offset 1 0x870100. First byte likely represents software version number with 0x32 being version 7, 0x33 being version 8 and so on. Please contact the PRONOM team if you can improve this signature."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dwb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

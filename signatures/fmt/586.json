@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1374,
+  "formatName": "LifeTechnologies SDS",
+  "version": null,
+  "formatDescription": "SDS (Sequence Detection System) is a file format produced by science company Life Technologies. This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Dec 2021",
+  "formatSourceID": 192,
+  "provenanceCompoundName": "Tessella / Tessella",
+  "formatProvenance": "http://www.lifetechnologies.com/uk/en/home/about-us.html",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/586",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 928,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5344533200020002",
+      "endianness": null,
+      "name": "LifeTechnologies SDS",
+      "note": "BOF: SDS2\u2026."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sds",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2381,
+      "relatedFormatName": "Starlink Data Format"
+    }
+  ]
+}

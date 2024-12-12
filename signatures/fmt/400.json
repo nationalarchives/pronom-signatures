@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1148,
+  "formatName": "Macromedia FreeHand MX",
+  "version": "11",
+  "formatDescription": "FreeHand, created by Altsys Corporation in 1988 and licensed to Aldus Corporation, is a discontinued vector graphic editor for Windows and Mac. Uses include professional illustration, desktop publishing and web content. FreeHand versions 1 though to 4 were released by Aldus, later versions were developed by Macromedia. In 2005 Adobe Systems acquired Macromedia but FreeHand development has been discontinued.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "17 Oct 2021",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/400",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 628,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "1C0100000200041C0114000200141C0116000200091C011E000A4672656548616E6431311C01280008{6}30301C014600083230",
+      "endianness": null,
+      "name": "FreeHand 11",
+      "note": "ASCII text 'FreeHAnd 11' in BOF sequence, 'FlateDecode' in EOF sequence"
+    },
+    {
+      "signatureID": 628,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 10,
+      "byteSequence": "6400F300F00086466C6174654465636F646500FFFFFFFF1C090A000400",
+      "endianness": null,
+      "name": "FreeHand 11",
+      "note": "ASCII text 'FreeHAnd 11' in BOF sequence, 'FlateDecode' in EOF sequence"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fh11",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

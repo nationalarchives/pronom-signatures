@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1790,
+  "formatName": "Valve Texture Format",
+  "version": null,
+  "formatDescription": "The Valve Texture Format is used by the Valve Corporation's Source engine to represent textures in models and environments.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/985",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.valve.source.texture",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1347,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00465456",
+      "endianness": null,
+      "name": "Valve Texture Format little endian",
+      "note": ".FTV"
+    },
+    {
+      "signatureID": 1348,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "56544600",
+      "endianness": null,
+      "name": "Valve Texture Format big endian",
+      "note": "VTF."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vtf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

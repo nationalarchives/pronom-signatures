@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 2185,
+  "formatName": "GeoJSON",
+  "version": null,
+  "formatDescription": "GeoJSON is an open standard format designed for representing geographical features, and is based on the JSON format. It is described within IETF RFC7946: https://tools.ietf.org/html/rfc7946. The format cannot currently be identified by a PRONOM signature.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Sep 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/geo+json",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1367",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "geojson",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

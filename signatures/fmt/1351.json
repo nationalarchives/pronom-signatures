@@ -1,0 +1,95 @@
+{
+  "fileFormatID": 2169,
+  "formatName": "Autodesk Revit Family File",
+  "version": "2019",
+  "formatDescription": "Autodesk Revit is 3D modeling software. RTE (template) files and RVT (project) files are actual Revit projects. RFA (family) files and RFT (family template) files are family files that can either be loaded into a project or saved externally.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1351",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "rfa",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rft",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2164,
+      "relatedFormatName": "Autodesk Revit File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2168,
+      "relatedFormatName": "Autodesk Revit Project File"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "43050",
+      "description": "AutoDesk Revit Family File 2019",
+      "files": [
+        {
+          "path": "Formats"
+        },
+        {
+          "path": "BasicFileInfo",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "41 00 75 00 74 00 68 00 6F 00 72 00 3A 00 20 00 41 00 75 00 74 00 6F 00 64 00 65 00 73 00 6B 00 20 00 52 00 65 00 76 00 69 00 74 00 0D"
+                }
+              ],
+              "reference": "EOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "PartAtom",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "22 61 70 70 6C 69 63 61 74 69 6F 6E 2F 72 66 61 22"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

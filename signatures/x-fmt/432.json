@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 826,
+  "formatName": "3DM",
+  "version": "4",
+  "formatDescription": "The 3DM (openNURBS) format is a 3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes openNURBS models.",
+  "releaseDate": "01 Sep 2006",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "22 Oct 2008",
+  "formatSourceID": 131,
+  "provenanceCompoundName": "Digital Library Research Group / MIT Libraries",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Oct 2008",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "openNURBS (4), Rhino 3D Model (4)",
+  "formatTypes": "Model",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/432",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 214,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "33442047656F6D657472792046696C6520466F726D617420202020202020203401000000",
+      "endianness": "Little-endian",
+      "name": "3DM 4",
+      "note": "Header with version no."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "3dm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1667,
+      "relatedFormatName": "3DM"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 831,
+      "relatedFormatName": "3DM"
+    }
+  ]
+}

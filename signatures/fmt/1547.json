@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2372,
+  "formatName": "Daisy-Dot Font File",
+  "version": "III",
+  "formatDescription": "Daisy-Dot is a text processing program written by Roy Goldman for the Atari line of computers enabling dot-matrix printers to utilise near letter quality (NLQ) printing technology. Three versions of Daisy-Dot were released between 1987 and 1990. A number of Daisy-Dot font files are pre-packaged with the text processor while others can be user-generated using the Daisy-Dot font editor. Daisy-Dot I and II fonts can be identified by the ASCII signature '3' followed by 0x9B.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Daisy-Dot_font\r\n\r\nhttps://atariage.com/forums/topic/291455-daisy-dot-source-code/\r\n\r\nhttp://infolab.stanford.edu/~royg/work/index.html\r\n\r\nhttp://85.11.68.68/stuff/collections/PoolDisk%20Too/CD2/UMICH/TEXT/PRINTING/DDOT2/\r\n\r\nhttps://ia601000.us.archive.org/20/items/DaisyDotIIIUsersGuide/Daisy_Dot_III_Users_Guide.pdf\r\n\r\nhttp://docplayer.net/210522943-Daisy-dot-iii-copyright-1990-by-roy-goldman.html",
+  "lastUpdatedDate": "08 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1547",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1892,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "339B",
+      "endianness": null,
+      "name": "Daisy-Dot Font (Version III)",
+      "note": "BOF:'3' followed by 0x9B"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nlq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

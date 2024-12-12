@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2379,
+  "formatName": "DNA Sequence Chromatogram File",
+  "version": "3.00",
+  "formatDescription": "DNA Sequence Chromatogram File format refers to Chromatogram files, which have .scf as their file extension. They are associated with the DNA Baser Sequence Aligner software and are used to store data from DNA sequencing instruments.\r\n\r\nThe files contain the data for a single reading and includes: its trace sample points, its called sequence, the positions of the bases relative to the trace sample points, and numerical estimates of the accuracy of each base.\r\nThe SCF format was designed to be easily compressed (using programs like WinRar or WinZip). This allows companies to store large amounts of chromatogram files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://staden.sourceforge.net/manual/formats_unix_2.html\r\nhttp://staden.sourceforge.net/manual/formats_unix_2.html\r\n\r\nhttp://www.dnabaser.com/help/samples/what%20is%20a%20chromatogram.html\r\n\r\nhttp://fileformats.archiveteam.org/wiki/SCF",
+  "lastUpdatedDate": "18 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1554",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1898,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2E736366",
+      "endianness": null,
+      "name": "DNA Sequence Chromatogram File",
+      "note": "BOF; offset: 0-3; Magic Bytes: '.scf'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "scf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

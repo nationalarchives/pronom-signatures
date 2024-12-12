@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1124,
+  "formatName": "Microsoft Visual FoxPro Report",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "07 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/377",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 560,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "30??[01:0C][01:1F]{1}000000880AE5{21}504C4154464F524D00000043{20}554E49515545494400000043{52}4F424A54595045000000004E",
+      "endianness": null,
+      "name": "Microsoft Visual FoxPro Report",
+      "note": "Header sequence: Version number, Date of last update MMDD, character field 'PLATFORM' followed by character field 'UNIQUE ID', and later character field 'OBJTYPE'\r\nSignature developed utilising collection of frx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal structure of file available at: \r\nhttp://www.mattslay.com/pages/FoxPro-Report-FRX-Structure.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "frx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1121,
+      "relatedFormatName": "Microsoft Visual FoxPro Database Table File"
+    }
+  ]
+}

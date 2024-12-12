@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 894,
+  "formatName": "Microsoft Works Spreadsheet",
+  "version": "1-5",
+  "formatDescription": "Microsoft Works is a discontinued office software suite developed by Microsoft and available from 1987-2009. It was often available bundled with Windows computers. This format was a forerunner to other spreadsheet editors with grid of cells arranged in rows and numbers. Versions 1-5 were binary files before the .xlr compound files were developed from version 6 onwards.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://en.wikipedia.org/wiki/Microsoft_Works\r\n\r\nhttp://justsolve.archiveteam.org/wiki/Microsoft_Works_Spreadsheet",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Description updated. Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "28 Sep 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/166",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 729,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "(00|FF)0002000404055402",
+      "endianness": null,
+      "name": "Microsoft Works Spreadsheet 1-5",
+      "note": "BOF: (.|\u00ff)......T.\r\nEOF: ...."
+    },
+    {
+      "signatureID": 729,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01000000",
+      "endianness": null,
+      "name": "Microsoft Works Spreadsheet 1-5",
+      "note": "BOF: (.|\u00ff)......T.\r\nEOF: ...."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wks",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 169,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    }
+  ]
+}

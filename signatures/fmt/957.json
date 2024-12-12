@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1762,
+  "formatName": "DirectMusic Segment File Format",
+  "version": null,
+  "formatDescription": "The DirectMusic Segment is a file format created by Microsoft. The files can be played with DirectMusic API using a Microsoft Software Synthesizer or any installed MIDI output device. DirectMusic provides DLS support, and SGT files often accompany sound banks. SGT files contain playing order and track information. Segment files always come with DirectMusic Style files, which contain all required melody pattern information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.",
+  "formatSourceDate": "14 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/957",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1314,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}444D5347",
+      "endianness": null,
+      "name": "DirectMusic Segment File Format",
+      "note": "BOF: RIFF{4}DMSG\r\nFormat description: https://msdn.microsoft.com/en-us/library/ms900322.aspx"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sgt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

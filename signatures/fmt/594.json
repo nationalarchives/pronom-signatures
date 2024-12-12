@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1386,
+  "formatName": "Microsoft PhotoDraw",
+  "version": "1.0",
+  "formatDescription": "Microsoft PhotoDraw 2000 is a vector graphics and raster imaging software package developed by Microsoft.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This file format is identified by container signature.",
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/594",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.mix",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mix",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "17010",
+      "description": "Microsoft PhotoDraw",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "32",
+                  "subSeqMaxOffset": "32",
+                  "sequence": "'Microsoft PhotoDraw version 1 Picture'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

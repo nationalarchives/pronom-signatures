@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2442,
+  "formatName": "CATIA Drawing",
+  "version": "5",
+  "formatDescription": "CATIA is a 3D modelling software created by Dassault Syst\u00e8mes, widely used across many industries for computer aided design, manufacture and engineering. The .catdrawing files are created with this software to store two dimensional drawings, including different views of the item being designed. Catdrawing files are always linked to .catpart files - without a .catpart file, the .catdrawing file won\u2019t open.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Official website: https://www.3ds.com/products-services/catia/",
+  "lastUpdatedDate": "03 Feb 2022",
+  "formatSourceID": 241,
+  "provenanceCompoundName": "J. Paul Getty Trust / J. Paul Getty Trust",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1615",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1950,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "56355F4346563200*434154447277436F6E74",
+      "endianness": null,
+      "name": "CATIA Drawing",
+      "note": "BOF offset 0, magic bytes: V5_CFV2 * CATDrwCont"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "catdrawing",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

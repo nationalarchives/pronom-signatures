@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1780,
+  "formatName": "Jamcracker Tracker Module",
+  "version": null,
+  "formatDescription": "The Jamcracker Tracker Module format is an audio sequencing format developed by Martin Gemmel.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "30 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/975",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1338,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "42654570",
+      "endianness": null,
+      "name": "Jamcracker Module",
+      "note": "BOF: BeEp\r\nUnofficial specification: https://github.com/cmatsuoka/libxmp/blob/master/docs/formats/JamCracker.txt"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jam",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

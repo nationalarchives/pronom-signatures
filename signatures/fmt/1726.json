@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2570,
+  "formatName": "Geosoft Map Description File",
+  "version": null,
+  "formatDescription": "File format developed by Geosoft to integrate all graphics elements such as polygons, lines and text and layers (images, data, basemaps, plots and grids) constructed in Oasis montaj software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Jul 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1726",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2062,
+      "positionType": "Absolute from BOF",
+      "offset": 56,
+      "maxOffset": 56,
+      "byteSequence": "2F2078732C79732C6D622C6D722C6D742C6D6C",
+      "endianness": null,
+      "name": "Geosoft Map Description File",
+      "note": "BOF, offset 56, magic bytes: / xs,ys,mb,mr,mt,ml"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2874,
+  "formatName": "Husqvarna Embroidery Stitch File",
+  "version": null,
+  "formatDescription": "A HUS embroidery file is a design file that was used throughout the 1990's created by Husqvarna-Viking, a Swedish company that creates sewing machines. Computerised embroidery machines such as this those made by this company have been in production since the early 1990's with support for a specialized memory card, floppy disk, and USB connections. The HUS format was replaced after a merger of the company with PFAFF in the late 1990s.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.embroidery.com/machine-embroidery-formats\r\nhttp://fileformats.archiveteam.org/wiki/HUS",
+  "lastUpdatedDate": "19 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2000",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2355,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "(5B|5D)(AF|FF|FC)C800",
+      "endianness": null,
+      "name": "Husqvarna Embroidery Stitch File",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x(5B|5D)(AF|FF|FC)C800"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hus",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2876,
+      "relatedFormatName": "Husqvarna / Pfaff Embroidery Stitch File"
+    }
+  ]
+}

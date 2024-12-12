@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2073,
+  "formatName": "Windows Address Book",
+  "version": null,
+  "formatDescription": "Windows Address Book was a component of Microsoft Windows, allowing users to keep a list of contacts to share across multiple programs. It is most commonly associated with Outlook Express.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1255",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1629,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "9CCBCB8D1375D211915800C04F7956A4{0-400}813284C18505D011B29000AA003CF676",
+      "endianness": null,
+      "name": "Windows Address Book",
+      "note": "BOF: 0x9CCBCB8D1375D211915800C04F7956A4{0-400}813284C18505D011B29000AA003CF676"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wab",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

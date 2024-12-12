@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1693,
+  "formatName": "Feather",
+  "version": null,
+  "formatDescription": "Feather is a lightweight binary file format for storing data frames, with an aim to assist data sharing across data analysis languages.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/889",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1238,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46454131",
+      "endianness": null,
+      "name": "Feather",
+      "note": "BOF: FEA1\r\nEOF: FEA1\r\nhttps://github.com/wesm/feather/blob/master/doc/FORMAT.md"
+    },
+    {
+      "signatureID": 1238,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46454131",
+      "endianness": null,
+      "name": "Feather",
+      "note": "BOF: FEA1\r\nEOF: FEA1\r\nhttps://github.com/wesm/feather/blob/master/doc/FORMAT.md"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "feather",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

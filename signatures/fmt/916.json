@@ -1,0 +1,64 @@
+{
+  "fileFormatID": 1721,
+  "formatName": "ESRI ArcMap Document",
+  "version": null,
+  "formatDescription": "In the ArcGIS platform by ESRI, a map document is a file that contains one or more maps, the page layout, and the associated layers, tables, charts, and reports. Map document files have an .mxd extension. Template files have an .mxt extension and do not appear to be materially different from .mxd files. Please contact the PRONOM team if you are able to differentiate between docments and templates.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "\tThis format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "06 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/916",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mxd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mxt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "27000",
+      "description": "ESRI ArcMap Document",
+      "files": [
+        {
+          "path": "DataGraphs"
+        },
+        {
+          "path": "Maps"
+        },
+        {
+          "path": "PageLayout"
+        },
+        {
+          "path": "StyleGallery"
+        },
+        {
+          "path": "TableProperties"
+        }
+      ]
+    }
+  ]
+}

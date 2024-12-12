@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 2247,
+  "formatName": "MacPaint Image",
+  "version": "2",
+  "formatDescription": "MacPaint is the native format for the MacPaint application. Files of this type may lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.apple.macpaint-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1429",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1798,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4EAD0072FFFFFFFF",
+      "endianness": null,
+      "name": "MacPaint 2",
+      "note": "BOF: 0x4EAD0072FFFFFFFF"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1890,
+  "formatName": "ASP WebService Directive File",
+  "version": null,
+  "formatDescription": "Active Server Pages (ASP) is a Microsoft server-side script engine for dynamically generated web pages. The WebService Directive file defines XML Web service specific attributes used by the ASP.NET parser and compiler.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Jul 2017",
+  "formatSourceID": 225,
+  "provenanceCompoundName": "National Library of Scotland / National Library of Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1082",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1463,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C2540205765625365727669636520(436C617373|436F6465426568696E64|4465627567|4C616E6775616765)3D",
+      "endianness": null,
+      "name": "ASP WebService Directive",
+      "note": "BOF: <%@ WebService (Class|CodeBehind|Debug|Language)=\r\nhttps://msdn.microsoft.com/en-us/library/yt16sxzt(v=vs.85).aspx"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "asmx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

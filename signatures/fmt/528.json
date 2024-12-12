@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1315,
+  "formatName": "Multiple-image Network Graphics",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/528",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/x-mng",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 833,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8A4D4E470D0A1A0A0000001C4D484452",
+      "endianness": null,
+      "name": "MNG",
+      "note": "BOF: \u0160MNG........MHDR\r\nEOF: MEND! \u00f7\u00d5"
+    },
+    {
+      "signatureID": 833,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D454E442120F7D5",
+      "endianness": null,
+      "name": "MNG",
+      "note": "BOF: \u0160MNG........MHDR\r\nEOF: MEND! \u00f7\u00d5"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

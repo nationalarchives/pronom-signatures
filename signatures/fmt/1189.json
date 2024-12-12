@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1999,
+  "formatName": "Ogre Mesh XML",
+  "version": null,
+  "formatDescription": "Ogre Mesh XML is an XML-based format for representing 3D models for use within the Ogre 3D rendering engine.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "10 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1189",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1569,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C6D6573683E{0-64}3C7375626D65736865733E{0-8}3C7375626D657368",
+      "endianness": null,
+      "name": "Ogre Mesh XML",
+      "note": "BOF: <mesh>{0-64}<submeshes>{0-8}<submesh\r\nEOF offset 0-3: </mesh> - \r\nhttp://wiki.ogre3d.org/tiki-index.php?page=Ogre+meshxml+DTD"
+    },
+    {
+      "signatureID": 1569,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C2F6D6573683E",
+      "endianness": null,
+      "name": "Ogre Mesh XML",
+      "note": "BOF: <mesh>{0-64}<submeshes>{0-8}<submesh\r\nEOF offset 0-3: </mesh> - \r\nhttp://wiki.ogre3d.org/tiki-index.php?page=Ogre+meshxml+DTD"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

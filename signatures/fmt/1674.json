@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2510,
+  "formatName": "ZyXEL Voice Format Audio",
+  "version": null,
+  "formatDescription": "ZyXEL Voice Audio files were originally developed by Zyxel Communications for the Zyxel Z-Fax modem software application. These files are capable of digitizing speech to transfer data through software such as Z-Fax or VoiceConnect, using compression betweeen 19.2k CPS(ADPCM) and 9.6k CPS (CELP).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.fileformat.info/mirror/corion/index.htm#ZyXEL\r\n\r\nhttps://www.solvusoft.com/en/file-extensions/file-extension-zvd/\r\n\r\nhttps://www.wikidata.org/wiki/Q105854133",
+  "lastUpdatedDate": "22 Apr 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1674",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2008,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A7958454C02",
+      "endianness": null,
+      "name": "ZyXEL Voice Format Audio",
+      "note": "BOF; Offset: 0; Magic Bytes: 'ZyXEL' followed by 0x02"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zvd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "zyx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ad2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

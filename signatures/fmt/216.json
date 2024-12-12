@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 942,
+  "formatName": "Microsoft Visio XML Drawing",
+  "version": "2003-2010",
+  "formatDescription": "Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family. This XML version of the Visio Drawing format was aimed at interoperability and editing outside of Visio.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Oct 2009",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.visio",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/216",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1286,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-64}3C566973696F446F63756D656E74",
+      "endianness": null,
+      "name": "Microsoft Visio XML Drawing",
+      "note": "XML declaration followed by <VisioDocument> tag"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vdx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

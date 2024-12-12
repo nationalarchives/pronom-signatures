@@ -1,0 +1,366 @@
+{
+  "fileFormatID": 687,
+  "formatName": "MPEG 1/2 Audio Layer 3",
+  "version": null,
+  "formatDescription": "MP3 is a digital audio format, formally known as MPEG-1 Audio Layer III or MPEG-2 Audio Layer III. A third variant, known as MPEG 2.5, which supports lower bit rates implemented by the LAME MP3 encoder among others, but is not a recognised standard.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "MP3",
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/mpeg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/134",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "public.mp3",
+      "identifierType": "Apple Uniform Type Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 266,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{47-1795}",
+      "endianness": "Little-endian",
+      "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 266,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": "Little-endian",
+      "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 267,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{47-1795}",
+      "endianness": "Little-endian",
+      "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 267,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": "Little-endian",
+      "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 268,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{47-1795}",
+      "endianness": "Little-endian",
+      "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag (protected)",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 268,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": "Little-endian",
+      "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag (protected)",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 269,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{47-1795}",
+      "endianness": "Little-endian",
+      "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag (protected)",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 269,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": "Little-endian",
+      "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag (protected)",
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
+    },
+    {
+      "signatureID": 279,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1795,
+      "byteSequence": "FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]",
+      "endianness": "Little-endian",
+      "name": "MPEG-1 Audio Layer 3 without ID3v2 Tag",
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF."
+    },
+    {
+      "signatureID": 280,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1795,
+      "byteSequence": "FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]",
+      "endianness": "Little-endian",
+      "name": "MPEG-2 Audio Layer 3 without ID3v2 Tag",
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF."
+    },
+    {
+      "signatureID": 281,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1795,
+      "byteSequence": "FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]",
+      "endianness": "Little-endian",
+      "name": "MPEG-1 Audio Layer 3 without ID3v2 Tag (protected)",
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF with each header having CRC bit set off to indicate file is protected."
+    },
+    {
+      "signatureID": 282,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1795,
+      "byteSequence": "FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]",
+      "endianness": "Little-endian",
+      "name": "MPEG-2 Audio Layer 3 without ID3v2 Tag (protected)",
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF with each header having CRC bit set off to indicate file is protected."
+    },
+    {
+      "signatureID": 1733,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1795,
+      "byteSequence": "FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]",
+      "endianness": null,
+      "name": "MP3 2.5",
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF. MPEG 2.5 is an extended variant of MP3 that provides wider support of lower bit-rates than standard MP3. It is implemented by LAME encoder among others, however is not an officially recognised standard."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mp3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 613,
+      "relatedFormatName": "Acrobat PDF 1.0 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 614,
+      "relatedFormatName": "Acrobat PDF 1.1 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 615,
+      "relatedFormatName": "Acrobat PDF 1.2 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 617,
+      "relatedFormatName": "Acrobat PDF 1.4 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 625,
+      "relatedFormatName": "PCX"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 646,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 647,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 648,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 649,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 650,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 651,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 652,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 653,
+      "relatedFormatName": "Macromedia FLV"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 872,
+      "relatedFormatName": "AutoCAD Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1192,
+      "relatedFormatName": "Audio Interchange File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1357,
+      "relatedFormatName": "Matroska"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1986,
+      "relatedFormatName": "Nullsoft Streaming Video"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2098,
+      "relatedFormatName": "NCH Dictation Audio File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2290,
+      "relatedFormatName": "STOS Memory Bank"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2291,
+      "relatedFormatName": "multiArtist File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2292,
+      "relatedFormatName": "MAKIchan Graphics File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2384,
+      "relatedFormatName": "Beam Software SIFF File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2400,
+      "relatedFormatName": "Spectrum 512 Compressed | Spectrum 512 Smooshed"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2401,
+      "relatedFormatName": "Spectrum 512 Uncompressed | Spectrum 512 Uncompressed Enhanced"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2486,
+      "relatedFormatName": "XL-Paint"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2539,
+      "relatedFormatName": "Persuasion Mac Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2557,
+      "relatedFormatName": "Pablo Paint Raster Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2597,
+      "relatedFormatName": "Canon SIF File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2663,
+      "relatedFormatName": "Audio Data Transport Stream"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2686,
+      "relatedFormatName": "GoDot 4Bit Graphics Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2719,
+      "relatedFormatName": "SWiSH Movie File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2731,
+      "relatedFormatName": "GST Art File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2762,
+      "relatedFormatName": "VBM (VDC BitMap) File"
+    }
+  ]
+}

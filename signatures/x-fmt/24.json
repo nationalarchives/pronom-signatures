@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 53,
+  "formatName": "AutoCAD Block Attribute Template",
+  "version": null,
+  "formatDescription": "AutoCAD Block Attribute Template file is used when extracting attribute information from a drawing which creates a text file for use with database software. Signatures based on v. 2005, 2006, 2008 versions. Any information which can help us expand these signatures would be valuable.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Added two internal signatures and updated description. Submitted by National Archives and Records Administration.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/24",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2282,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0001000000FFFFFFFF01000000000000000C02000000{1}41634478",
+      "endianness": null,
+      "name": "AutoCAD Block Attribute Template",
+      "note": "Absolute from beginning of file, magic bytes: \u2026..\u00ff\u00ff\u00ff\u00ff\u2026\u2026\u2026\u2026.AcDx"
+    },
+    {
+      "signatureID": 2283,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01000000{1}00FFFF01000E004345617474426C6F636B496E666F",
+      "endianness": null,
+      "name": "AutoCAD Block Attribute Template, BlockInfo",
+      "note": "Absolute from beginning of file, magic bytes: \u2026\u2026\u00ff\u00ff\u2026.CEattBlockInfo"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "blk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

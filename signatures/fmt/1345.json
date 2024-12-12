@@ -1,0 +1,73 @@
+{
+  "fileFormatID": 2163,
+  "formatName": "Legacy Family Tree Database",
+  "version": "3-9",
+  "formatDescription": "Legacy Family Tree is genealogy software for Windows, developed by Millenia software. The underlying database is baed upon Microsoft Access.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1345",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1736,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000100005374616E64617264204A65742044420001000000",
+      "endianness": null,
+      "name": "Legacy Family Tree Database 3-9",
+      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'"
+    },
+    {
+      "signatureID": 1736,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "410063006300650073007300560065007200730069006F006E{0-2048}300038002E00[30:39]00[30:39]",
+      "endianness": null,
+      "name": "Legacy Family Tree Database 3-9",
+      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'"
+    },
+    {
+      "signatureID": 1736,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "4C656761637931",
+      "endianness": null,
+      "name": "Legacy Family Tree Database 3-9",
+      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fdb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 352,
+      "relatedFormatName": "Microsoft Access Database File"
+    }
+  ]
+}

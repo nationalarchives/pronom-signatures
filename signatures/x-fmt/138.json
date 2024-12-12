@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 198,
+  "formatName": "Active Server Page",
+  "version": null,
+  "formatDescription": "Active Server Pages are dynamic Web pages created using Microsoft Active Server Pages. An ASP page is an HTML page containing script commands that are processed by the Web server (server-side script code) before the page is sent to the client\u2019s browser.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524929(v=vs.90)",
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118)- Description created. Submitted by Archives nationales (French National Archives) as part of PRONOM Research Week 2023.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/138",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "asp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2761,
+  "formatName": "Universal Scene Description ASCII File",
+  "version": null,
+  "formatDescription": "Universal Scene Description is a framework developed by Pixar. It is described as a system for encoding scalable, hierarchically organised, static and time-sampled data, for the primary purpose of interchanging and augmenting the data between cooperating digital content creation applications. USDA files are plain ASCII and are also known as crate files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Universal_Scene_Description",
+  "lastUpdatedDate": "08 Feb 2024",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "04/2024 (v.118): corrected Wikidata entry. Submitted by Yale University Library.",
+  "formatSourceDate": "18 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1905",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q105856757",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2251,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "237573646120312E",
+      "endianness": null,
+      "name": "Universal Scene Description ASCII File",
+      "note": "BOF:'#usda' followed by 0x20 (Space) followed by '1.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "usda",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

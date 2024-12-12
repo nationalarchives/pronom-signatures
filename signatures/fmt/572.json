@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1360,
+  "formatName": "Domino XML Database Export",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 190,
+  "provenanceCompoundName": "Nokia / Nokia",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/572",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 910,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-64}3C21444F4354595045206461746162617365{1-64}3C646174616261736520786D6C6E733D22687474703A2F2F7777772E6C6F7475732E636F6D2F64786C22",
+      "endianness": null,
+      "name": "Domino XML Database Export",
+      "note": "<?xml version=\"1.0\"...\r\n<!DOCTYPE database...\r\n<database xmlns=\"http://www.lotus.com/dxl\""
+    },
+    {
+      "signatureID": 978,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)20{1-64}3C646F63756D656E7420786D6C6E733D(22|27)687474703A2F2F7777772E6C6F7475732E636F6D2F64786C(22|27)",
+      "endianness": null,
+      "name": "Domino XML Document Export 2",
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){1-64}<document xmlns=(\"|')http://www.lotus.com/dxl(\"|')"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dxl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

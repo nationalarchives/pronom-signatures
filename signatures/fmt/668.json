@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 1467,
+  "formatName": "Olympus RAW",
+  "version": null,
+  "formatDescription": "Olympus raw format (.orf) is a raw image format used by models of Olympus digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2014",
+  "formatSourceID": 209,
+  "provenanceCompoundName": "Sebastian Lasse / Redaktor CMS",
+  "formatProvenance": "http://en.wikipedia.org/wiki/ORF_format",
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/668",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 999,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D4F5200000008",
+      "endianness": null,
+      "name": "Olympus RAW big endian",
+      "note": "BOF: MMOR...."
+    },
+    {
+      "signatureID": 1001,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4949524F08000000",
+      "endianness": null,
+      "name": "Olympus RAW little endian 1",
+      "note": "BOF: IIRO...."
+    },
+    {
+      "signatureID": 1002,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4949525308000000",
+      "endianness": null,
+      "name": "Olympus RAW little endian 2",
+      "note": "BOF: IIRS\u2026."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "orf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

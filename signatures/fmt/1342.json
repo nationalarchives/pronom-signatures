@@ -1,0 +1,109 @@
+{
+  "fileFormatID": 2160,
+  "formatName": "BDOC",
+  "version": "2.x",
+  "formatDescription": "BDOC is a digital signature format specific to Estonia. National BDOC 2.1 standard EVS 821:2014 http://www.evs.ee/products/evs-821-2014. The format comprises two technically different subformats. In order for end users to be able to easy differentiate between these subformats, each subformat has obtained its own file extension - .bdoc and .asice. .bdoc or BDOC-TM or ASiC-E LT-TM is the BDOC signature format with a time-mark. The RFC 2560 standard based time-marks ensure long-term proofability of the authenticity of the signature. This format has been used as a default digital signature format in Estonia since 2015. .asice or BDOC-TS or ASiC-E LT is the BDOC signature format with a time-stamp. In contrast to the LT-TM format, long-term proofability of the authenticity of the signature is ensured by the RFC 3161 standard based time-stamps. The ASiC-E LT signature is highly compliant with the international standards. One can also differentiate between the subformats by inspecting the signature0.xml file: BDOC has element \"SignaturePolicyIdentifier\" whereas ASICE includes element \"SignatureTimeStamp\".",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.id.ee/public/BDOC2.0.bdoc https://www.id.ee/public/BDOC2.1.bdoc https://www.id.ee/public/bdoc21-TS.asice",
+  "lastUpdatedDate": "27 Jun 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.etsi.asic-e+zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1342",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "bdoc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "asice",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2389,
+      "relatedFormatName": "Associated Signature Container Extended (ASiC-E)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2389,
+      "relatedFormatName": "Associated Signature Container Extended (ASiC-E)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "39510",
+      "description": "BDOC 2.x",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.etsi.asic-e+zip'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "META-INF/signatures1.xml"
+        }
+      ]
+    },
+    {
+      "containerType": "ZIP",
+      "id": "39515",
+      "description": "BDOC 2.x",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.etsi.asic-e+zip'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "META-INF/signatures0.xml"
+        }
+      ]
+    }
+  ]
+}

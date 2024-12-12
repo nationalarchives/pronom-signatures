@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2760,
+  "formatName": "Pasti Floppy Disk Image",
+  "version": null,
+  "formatDescription": "Pasti (or STX) is a floppy disk image format for preserving copy-protected Atari ST disks. The software can also archive regular Atari ST disks, but those are more commonly found in ST disk image or MSA format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/STX",
+  "lastUpdatedDate": "18 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1904",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2250,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "525359",
+      "endianness": null,
+      "name": "Pasti Floppy Disk Image",
+      "note": "BOF:'RSY'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "stx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

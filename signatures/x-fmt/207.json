@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 287,
+  "formatName": "X-Windows Bitmap Image",
+  "version": "X11",
+  "formatDescription": "X-Windows Bitmap is a binary image format, for storing cursor and icon bitmaps used in the X graphical user interface",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/x-xbitmap",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/207",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 616,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "23646566696E6520{1-30}5F776964746820{1-16}23646566696E6520{1-30}5F68656967687420{1-300}73746174696320(63686172|756E7369676E65642063686172)20*5F626974735B5D203D207B",
+      "endianness": null,
+      "name": "X-Windows Bitmap Image X11",
+      "note": "Starts with a C declaration: \"#define <name>_width <integer>#define <name>_height <integer> static [unsigned] char <name>_bits[] = {\"  where <name> is filename without extension."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xbm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 2069,
+  "formatName": "Electronically Certified Document (EDOC)",
+  "version": null,
+  "formatDescription": "EDOC is an electronically certified document. A format used to protect and verify identity for sensitive files. It contains a document, maybe with additional attached files and one or more digital signatures. The file can also store metadata about the document such as creator, creation time, last modification and the format version.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.iana.org/assignments/media-types/application/vnd.etsi.asic-e+zip\r\r\nhttps://www.eparaksts.lv/en/",
+  "lastUpdatedDate": "13 Dec 2021",
+  "formatSourceID": 245,
+  "provenanceCompoundName": "The National Archives of Latvia / The National Archives of Latvia",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.etsi.asic-e+zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1251",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "edoc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2389,
+      "relatedFormatName": "Associated Signature Container Extended (ASiC-E)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2389,
+      "relatedFormatName": "Associated Signature Container Extended (ASiC-E)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "39000",
+      "description": "Electronically Certified Document (EDOC)",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.etsi.asic-e+zip'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "META-INF/edoc-signatures-S1.xml"
+        },
+        {
+          "path": "META-INF/manifest.xml"
+        }
+      ]
+    }
+  ]
+}

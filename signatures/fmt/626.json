@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1425,
+  "formatName": "LHA File Format",
+  "version": null,
+  "formatDescription": "LHA is a freeware compression utility and associated file format. It was created in 1988 by Haruyasu Yoshizaki, and originally named LHarc.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/626",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 959,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": null,
+      "byteSequence": "2D6C68(30|31|34|35|36|37|64)2D",
+      "endianness": null,
+      "name": "LHA File Format",
+      "note": "BOF 2 byte offset: === -lh(0|1|4|5|6|7|d)-"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lha",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "lzh",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

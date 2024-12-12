@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1531,
+  "formatName": "Bink Video Format",
+  "version": "2",
+  "formatDescription": "Bink is a proprietary video file format developed by RAD Game Tools.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/732",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/vnd.radgamettools.bink",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1059,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4B4232(61|64|66|67|68|69)",
+      "endianness": null,
+      "name": "Bink Video 2",
+      "note": "BOF 3 byte magic, 1 byte codec revision: KB2(a|d|f|g|h|i)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bik2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bk2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1530,
+      "relatedFormatName": "Bink Video Format"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1967,
+  "formatName": "Folio Infobase File",
+  "version": "2",
+  "formatDescription": "The Folio Infobase format consists of a information database, primarily used by the Folio Views software application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.116)- Priority over fmt/101 Extensible Markup Language 1.0. Internally researched.",
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1157",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1539,
+      "positionType": "Absolute from BOF",
+      "offset": 1292,
+      "maxOffset": 2623,
+      "byteSequence": "466F6C696F",
+      "endianness": null,
+      "name": "Folio NFO v2",
+      "note": "BOF: \"Folio\" and \"v200\" found between bytes 1292-2623"
+    },
+    {
+      "signatureID": 1539,
+      "positionType": "Absolute from BOF",
+      "offset": 1292,
+      "maxOffset": 2623,
+      "byteSequence": "76323030",
+      "endianness": null,
+      "name": "Folio NFO v2",
+      "note": "BOF: \"Folio\" and \"v200\" found between bytes 1292-2623"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nfo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

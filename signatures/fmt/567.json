@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1355,
+  "formatName": "WebP",
+  "version": "Lossless",
+  "formatDescription": "WebP is a raster image format developed by Google that uses the Resource Interchange File Format as a container. WebP\u2019s lossless compression uses advanced techniques such as dedicated entropy codes for different color channels, exploiting 2D locality of backward reference distances and a color cache of recently used colors. This complements basic techniques such as dictionary coding, Huffman coding and color indexing transform.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica. 11/2023 (v.115)- Added MIME identifier 'webp/image'. Submitted by Archives New Zealand. 04/2024 (v.118)- Corrected MIME identifier to 'image/webp'. Submitted by Archives New Zealand.",
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/567",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/webp",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 903,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}574542505650384C",
+      "endianness": null,
+      "name": "WebP Lossless",
+      "note": "RIFF{4}WEBPVP8L"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "webp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

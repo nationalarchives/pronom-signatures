@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1544,
+  "formatName": "ClarisWorks/AppleWorks Spreadsheet",
+  "version": "5",
+  "formatDescription": "ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/745",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1072,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "05{3}424F424F{260}02",
+      "endianness": null,
+      "name": "CWK 5 Spreadsheet",
+      "note": "(Version){3}BOBO{260}(format type 0x02 = spreadsheet)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cwk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1549,
+      "relatedFormatName": "AppleWorks Spreadsheet"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1539,
+      "relatedFormatName": "ClarisWorks Spreadsheet"
+    }
+  ]
+}

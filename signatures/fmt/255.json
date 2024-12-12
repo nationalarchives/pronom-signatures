@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 993,
+  "formatName": "DjVu File Format",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jan 2011",
+  "formatSourceID": 149,
+  "provenanceCompoundName": "National Library of Singapore / National Library Board Singapore",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Jan 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/255",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.djvu",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "image/x-djvu",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 411,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "41542654464F524D{4}(444A564D4449524D|444A5655494E464F)",
+      "endianness": null,
+      "name": "DjVu File Format",
+      "note": "Header ASCII: AT&T  followed by container Chunk FORM, then either DJVMDIRM or DJVUINFO as secondary identifiers to DjVu document type. This is a generic signature which will identify all DjVu files up to DjVu specifications v3. No distinction is made between single or multi page documents, or any internal image encoding."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "djvu",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "djv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1863,
+  "formatName": "SNAP Processed Data File",
+  "version": null,
+  "formatDescription": "Snap Survey provides a selection of software which allows users to design surveys.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "11 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1058",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1426,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534E41502050726F63657373656420646174612066696C65",
+      "endianness": null,
+      "name": "SNAP Processed data file",
+      "note": "SNAP Processed data file"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "snpdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

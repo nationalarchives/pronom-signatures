@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2503,
+  "formatName": "Roxio Easy Media Creator - Classic Creator File",
+  "version": "8-10",
+  "formatDescription": "Roxio Easy Media Creator Layout version 8 with extension RCL is a part of Roxio disc project formats. RCL files version 8 are formed using Creator Classic feature on Roxio Easy Media Creator software (previously named as Easy CD Creator and Roxio Easy CD Creator), originally published by Adaptec in 1996, this version follows the rebranding of the software to Roxio and was published around 2006. This format is a proprietary binary file and is similar to its predecessor version 7 with same extension RCL. It follows the header value 0xFFFE2300 followed later by the plain text \"[RoxioINF80] [ProjectSettings] RCLVer=80\" however, in contrast to its predecessor RLC version 7, which referres to 'layout' files on Roxio Easy Media Creator, RLC version 8 files are formed using the Creator Classic feature on Easy Media Creator. All following versions up to version 10 and Roxio Creator 2009-2010 of layout format on Roxio Easy Media Creator software, saved their 'layout' files in subsequent version with extension ROXIO, and their files created on Creator Classic feature as this format -  RLC version 8. Roxio Easy Media Creator software allowed the user to create data or audio CD layout by adding files or music in order to burn a disc. The layout only referenced the file location and not the files themselves. It allowed for files to be saved for later use with references to files that will be included on the disc as well as other settings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/RCL",
+  "lastUpdatedDate": "19 Apr 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1667",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2001,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFE2300{0-900}5B0052006F00780069006F0049004E004600380030005D000D000A000D000A005B00500072006F006A00650063007400530065007400740069006E00670073005D000D000A00520043004C005600650072003D00380030",
+      "endianness": null,
+      "name": "Roxio Easy Media Creator - Classic Creator File v8-10",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x FFFE2300, followed by a wildcard bytes between 0-900, then '[RoxioINF80] [ProjectSettings] RCLVer=80'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rcl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2505,
+      "relatedFormatName": "Roxio Data Project File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2506,
+      "relatedFormatName": "Roxio Audio Project File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2502,
+      "relatedFormatName": "Roxio Easy Media Creator Layout"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2422,
+  "formatName": "Canon Raw",
+  "version": "3.0",
+  "formatDescription": "The .CR3 file format (Canon RAW version 3) is a digital photography RAW format created by Canon.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Feb 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1595",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1934,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 5,
+      "byteSequence": "6674797063727820*6D6F6F76{32}43",
+      "endianness": null,
+      "name": "Canon Raw 3.0",
+      "note": "BOF, offset 0: ftypcrx*moov{32}CanonCR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cr3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2421,
+      "relatedFormatName": "ESRI ArcInfo DAT File (External)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 924,
+      "relatedFormatName": "MPEG-4 Media File"
+    }
+  ]
+}

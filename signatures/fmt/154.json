@@ -1,0 +1,176 @@
+{
+  "fileFormatID": 797,
+  "formatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/154",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/tiff",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 673,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{6-4080}169201000400000000000001",
+      "endianness": "Little-endian",
+      "name": "TIFF/EP (little-endian, BOF)",
+      "note": "TIFF header plus TIFF/EPStandardId tag near BOF"
+    },
+    {
+      "signatureID": 674,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00",
+      "endianness": "Little-endian",
+      "name": "TIFF/EP (little-endian, BOF+EOF)",
+      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
+    },
+    {
+      "signatureID": 674,
+      "positionType": "Absolute from EOF",
+      "offset": 4,
+      "maxOffset": 4084,
+      "byteSequence": "169201000400000000000001",
+      "endianness": "Little-endian",
+      "name": "TIFF/EP (little-endian, BOF+EOF)",
+      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
+    },
+    {
+      "signatureID": 675,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A{6-4080}921600010000000401000000",
+      "endianness": "Big-endian",
+      "name": "TIFF/EP (big-endian, BOF)",
+      "note": "TIFF header plus TIFF/EPStandardId tag near BOF"
+    },
+    {
+      "signatureID": 676,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A",
+      "endianness": "Big-endian",
+      "name": "TIFF/EP (big-endian, BOF+EOF)",
+      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
+    },
+    {
+      "signatureID": 676,
+      "positionType": "Absolute from EOF",
+      "offset": 4,
+      "maxOffset": 4084,
+      "byteSequence": "921600010000000401000000",
+      "endianness": "Big-endian",
+      "name": "TIFF/EP (big-endian, BOF+EOF)",
+      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tiff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 927,
+      "relatedFormatName": "Nikon Digital SLR Camera Raw Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1223,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1224,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1225,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1440,
+      "relatedFormatName": "Epson Raw Image Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1529,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2693,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2694,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2804,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 673,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 612,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

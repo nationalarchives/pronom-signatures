@@ -1,0 +1,85 @@
+{
+  "fileFormatID": 626,
+  "formatName": "Rich Text Format",
+  "version": "1.0-1.4",
+  "formatDescription": "Rich Text Format (RTF) is a format developed by Microsoft to encode formatted text and graphics for use within applications or for data and formatting transfer between applications. It is closely associated with Microsoft Word, and new versions are developed with each release of Word. RTF files are encoded in plain text, typically ASCII, and consists of a series of control words, control symbols and groups. An RTF file comprises a Header section, containing various header tables, followed by a Document section, containing the document content and formatting.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "RTF (1.0)",
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": "Rich Text Format",
+  "identifiers": [
+    {
+      "identifierText": "application/rtf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/45",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "public.rtf",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "text/rtf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 30,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "7B5C7274(66|6631)5C(616E7369|6D6163|7063|706361)",
+      "endianness": null,
+      "name": "RTF 1.0 - 1.4 (generic)",
+      "note": "\\rtf control word"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rtf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 631,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 633,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 753,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1101,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 627,
+      "relatedFormatName": "Rich Text Format"
+    }
+  ]
+}

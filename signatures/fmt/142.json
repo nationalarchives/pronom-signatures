@@ -1,0 +1,111 @@
+{
+  "fileFormatID": 785,
+  "formatName": "Waveform Audio (WAVEFORMATEX)",
+  "version": null,
+  "formatDescription": "Waveform Audio (WAVEFORMATEX) is an extended version of the Waveform Audio file format, and was developed by Microsoft. It has superseded the Waveform Audio (PCMWAVEFORMAT).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "31 Oct 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "audio/x-wav",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/142",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 607,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}57415645666D7420[!10]{21-*}64617461",
+      "endianness": "Big-endian",
+      "name": "Waveform Audio (WAVEFORMATEX)",
+      "note": "RIFF header, WAVE ID, Format chunk, chunk length GTE 18, wformat Tag not equal to decimal 65534 = 0xFFFE and Data chunk. Since DROID cannot currently handle inverted (i.e. not equal to) sequences, the wformat chunk is not expressed in this signature. For fmt/143 the wformat tag = 65534 = 0xFFFE, so this is handled by setting an appropriate identification priority."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wave",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 786,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEXTENSIBLE)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1502,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1503,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1505,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1506,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1507,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 786,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEXTENSIBLE)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 784,
+      "relatedFormatName": "Waveform Audio (PCMWAVEFORMAT)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    }
+  ]
+}

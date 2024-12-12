@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1846,
+  "formatName": "HDF",
+  "version": "1-4",
+  "formatDescription": "HDF is a data model, library, and file format for storing and managing data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "NCSA Hierarchical Data Format",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1041",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1400,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0E031301",
+      "endianness": null,
+      "name": "HDF 1-4",
+      "note": "BOF: (magic) 0x0E031301\r\nhttps://support.hdfgroup.org/release4/doc/Dspec_html/DS.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hdf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "h4",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1019,
+  "formatName": "FLAC (Free Lossless Audio Codec)",
+  "version": "1.2.1",
+  "formatDescription": "FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3, but lossless, meaning that audio is compressed in FLAC without any loss in quality. \r\nThe basic structure of a FLAC stream is: \u2022The four byte string \"fLaC\"\r\n\u2022The STREAMINFO metadata block\r\n\u2022Zero or more other metadata blocks\r\n\u2022One or more audio frames\r\n The first four bytes are to identify the FLAC stream. The metadata that follows contains all the information about the stream except for the audio data itself. After the metadata comes the encoded audio data.",
+  "releaseDate": "17 Sep 2007",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Further information about this file format can be obtained at:\r\nhttp://flac.sourceforge.net/documentation_format_overview.html",
+  "formatSourceDate": "29 Jul 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/flac",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/279",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 295,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "664C6143(80|00)000022",
+      "endianness": null,
+      "name": "FLAC (Free Lossless Audio Codec)",
+      "note": "BOF: 'fLaC' with optional byte (80|00) followed by '..\"'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flac",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

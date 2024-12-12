@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1765,
+  "formatName": "DOS Sound and Music Interface Advanced Module Format",
+  "version": null,
+  "formatDescription": "The AMF format is an audio sequencing format containing both an audio sample bank, and sequencing data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/960",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1317,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "414D46[0A:0E]",
+      "endianness": null,
+      "name": "Advanced Module Format",
+      "note": "BOF: BOF AMF[0A:0E]\r\nFormat description: http://ftp.modland.com/pub/documents/format_documentation/Advanced%20Module%20Format%20(.amf).txt"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "amf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

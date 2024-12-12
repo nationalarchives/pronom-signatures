@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1370,
+  "formatName": "X3D",
+  "version": "3.3",
+  "formatDescription": "X3D is an integrated 3D graphics and multimedia framework in the ISO process for Information technology \u2014 Computer graphics, image processing and environmental representation. The standards pass through a number of member only and then public review processes, until they reach full ISO approval as international standards.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2013",
+  "formatSourceID": 193,
+  "provenanceCompoundName": "Central Digital Archive / Central Digital Archive",
+  "formatProvenance": "http://www.web3d.org/realtime-3d/specification/version/V3.3",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/582",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 924,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F435459504520583344205055424C4943202249534F2F2F57656233442F2F4454442058334420332E332F2F454E22",
+      "endianness": null,
+      "name": "X3D v3.3",
+      "note": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>.<!DOCTYPE X3D PUBLIC \"ISO//Web3D//DTD X3D 3.3//EN\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "x3d",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1369,
+      "relatedFormatName": "X3D"
+    }
+  ]
+}

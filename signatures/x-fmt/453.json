@@ -1,0 +1,202 @@
+{
+  "fileFormatID": 869,
+  "formatName": "TrueType Font",
+  "version": null,
+  "formatDescription": "Created by Apple, TrueType Font files are a sequence of concatenated tables (a table is a sequence of words; each table must be long aligned and padded with zeroes if necessary). The first of the tables is the font directory, a special table that facilitates access to the other tables in the font. The directory is followed by a sequence of tables containing the font data. These tables can appear in any order. Certain tables are required for all fonts. Others are optional depending upon the functionality expected of a particular font. The tables have names known as tags. Tags have the type uint32. Currently defined tag names consist of four characters. Tag names with less than four characters have trailing spaces. When tag names are shown in text they are enclosed in straight quotes. Tables that are required must appear in any valid TrueType font file. Also notable is that Apple makes a distinction between a \"TrueType font\" (which refers to a particular font outline definition technology) and an \"sfnt-housed font,\" which refers to any font which uses the same packaging format as a TrueType font: that is, it uses the same directory structure and the same table format and meaning for any tables present.",
+  "releaseDate": "18 Dec 2003",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Further information about this file format can be obtained at \r\nhttp://developer.apple.com/fonts/ttrefman/rm06/Chap6.html",
+  "formatSourceDate": "06 Apr 2009",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "font/ttf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/453",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 242,
+      "positionType": "Absolute from BOF",
+      "offset": 12,
+      "maxOffset": 128,
+      "byteSequence": "4F532F32{0-256}636D6170{0-256}676C7966{0-256}68656164{0-256}68686561{0-256}686D7478{0-256}6C6F6361{0-256}6D617870{0-256}6E616D65{0-256}706F7374",
+      "endianness": "Little-endian",
+      "name": "TrueType Font",
+      "note": "OS/2, cmap (character to glyph mapping), glyf (glyph data), head(font header), hhea (horizontal header), hmtx (horizontal metrics), loca (index to location), maxp (maximum profile),name (naming table), post (PostScript information)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ttf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 613,
+      "relatedFormatName": "Acrobat PDF 1.0 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 614,
+      "relatedFormatName": "Acrobat PDF 1.1 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 615,
+      "relatedFormatName": "Acrobat PDF 1.2 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 617,
+      "relatedFormatName": "Acrobat PDF 1.4 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 770,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 787,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1:1999"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 788,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1:2001"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 789,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2003"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 790,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 2:2003"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 791,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 3:2003"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 818,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2001"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 819,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 3:2002"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1100,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1263,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1264,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1265,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1266,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1267,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1268,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1275,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1276,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1277,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5g"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1278,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5pg"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1279,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5n"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1280,
+      "relatedFormatName": "Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1412,
+      "relatedFormatName": "Web Open Font Format"
+    }
+  ]
+}

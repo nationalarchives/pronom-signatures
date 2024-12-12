@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 973,
+  "formatName": "GPS Exchange Format",
+  "version": "1.0",
+  "formatDescription": "GPX is an XML schema used by various software applications and websites to show and describe GPS data such as routes, tracks, projecting GPS data onto maps and annotating maps. Version 1.0 was released in 2002.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jan 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/243",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1692,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D{8-512}687474703A2F2F7777772E746F706F6772616669782E636F6D2F4750582F312F3022",
+      "endianness": null,
+      "name": "GPX 1.0",
+      "note": "BOF:'<?xml version='{8-512}'http://www.topografix.com/GPX/1/0\"'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

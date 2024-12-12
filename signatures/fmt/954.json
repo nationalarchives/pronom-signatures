@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1759,
+  "formatName": "Adaptive Multi-Rate Wideband Audio",
+  "version": null,
+  "formatDescription": "Adaptive Multi-Rate Wideband (AMR-WB) is a wideband speech audio coding standard based on Adaptive Multi-Rate encoding. AMR-WB provides a speech bandwidth of 50\u20137000 Hz compared to narrowband speech coders which in general offer around 300\u20133400 Hz. AMR-WB was developed by Nokia and VoiceAge.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/amr-wb",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/954",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1311,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2321414D522D57420A",
+      "endianness": null,
+      "name": "AMR-WB",
+      "note": "BOF: #!AMR-WB 0x0A\r\nFormat description: https://tools.ietf.org/html/rfc4867"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "awb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

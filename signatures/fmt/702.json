@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1501,
+  "formatName": "Universal 3D File Format",
+  "version": null,
+  "formatDescription": "Universal 3D (U3D) is a compressed file format standard for 3D computer graphics data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://en.wikipedia.org/wiki/Universal_3D",
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/702",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1031,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "55334400",
+      "endianness": null,
+      "name": "Universal 3D File Format",
+      "note": "BOF: U3D."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "u3d",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

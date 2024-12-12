@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2590,
+  "formatName": "Psion Series 3 Bitmap",
+  "version": null,
+  "formatDescription": "Psion Series 3 Bitmap (also known as Psion PIC or EPOC PIC) is a raster image file format associated with Psion's EPOC operating system, and used mainly on Psion PDA devices. A Psion PIC file contains one or more bi-level bitmaps. Sometimes, two bitmaps need to be combined to make a 4-tone grayscale image.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/Psion_PIC",
+  "lastUpdatedDate": "19 Aug 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1744",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2085,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "504943DC3030",
+      "endianness": null,
+      "name": "Psion Series 3 Bitmap",
+      "note": "BOF:'PIC\u00dc00'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

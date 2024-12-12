@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2513,
+  "formatName": "Microsoft Office File List",
+  "version": null,
+  "formatDescription": "These are xml files generated when a format requiring multiple files is saved by Microsoft Office Programmes (for example, an html page with images). The files are saved alongside the document in a folder called filename_files , and are named filelist.xml. The purpose of the files is to provide a list of all the files which were saved as part of the document, for example the html pages, and the images.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Apr 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1677",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2011,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C786D6C20786D6C6E733A6F3D2275726E3A736368656D61732D6D6963726F736F66742D636F6D3A6F66666963653A6F6666696365223E0D0A203C6F3A4D61696E46696C6520485265663D222E2E",
+      "endianness": null,
+      "name": "Microsoft Office File List",
+      "note": "BOF Absolute from beginning of file, magic bytes <xml xmlns:o=\"urn:schemas-microsoft-com:office:office\"> <o:MainFile Href=\".. \r\nEOF Absolute from beginning of file, magic bytes: </xml>"
+    },
+    {
+      "signatureID": 2011,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C2F786D6C3E",
+      "endianness": null,
+      "name": "Microsoft Office File List",
+      "note": "BOF Absolute from beginning of file, magic bytes <xml xmlns:o=\"urn:schemas-microsoft-com:office:office\"> <o:MainFile Href=\".. \r\nEOF Absolute from beginning of file, magic bytes: </xml>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

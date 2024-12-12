@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 2523,
+  "formatName": "PageMaker Mac Document",
+  "version": "5.0",
+  "formatDescription": "PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.115)- max-offset modified for both BOF signatures to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "17 May 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.pagemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1687",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2019,
+      "positionType": "Absolute from BOF",
+      "offset": 6,
+      "maxOffset": 0,
+      "byteSequence": "99FF{100}504D0500",
+      "endianness": null,
+      "name": "PageMaker Mac Document Version 5",
+      "note": "BOF; Offset: 6; Magic Bytes: 99FF followed by 504D0500 100 bytes after."
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 246,
+      "relatedFormatName": "PageMaker PC Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2555,
+      "relatedFormatName": "PageMaker Mac Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2522,
+      "relatedFormatName": "PageMaker Mac Document"
+    }
+  ]
+}

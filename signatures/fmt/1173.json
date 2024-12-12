@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1983,
+  "formatName": "FrameMD5",
+  "version": null,
+  "formatDescription": "FrameMD5 is incorporated by ffmpeg and is used to generate frame by frame checksums of each decoded audio and video frame within a media file. For each frame it provides a timestamp, size in bytes, and an MD5 checksum, which can be used to verify the integrity of the decoded data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2018",
+  "formatSourceID": 235,
+  "provenanceCompoundName": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1173",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1554,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "23666F726D61743A206672616D6520636865636B73756D73{13-16}23686173683A204D4435",
+      "endianness": null,
+      "name": "FrameMD5",
+      "note": "BOF: '#format: frame checksums' {13-16}} '#hash: MD5', based on https://ffmpeg.org/doxygen/3.0/md5enc_8c_source.html (See framemd5_write_header), assuming newline can be CRLF."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "framemd5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "md5",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

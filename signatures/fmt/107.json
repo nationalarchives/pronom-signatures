@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 649,
+  "formatName": "Macromedia Flash",
+  "version": "4",
+  "formatDescription": "The Adobe Flash format, SWF, previously known as Shockwave Flash or Macromedia Shockwave Flash, and alternatively known as the Small Web Format, is a file format primarily designed for creating interactive multimedia applications. The format iterates rapidly, often in line with new releases of Adobe Flash or Adobe Air. Prior to version 6 all SWF files were uncompressed, however version 6 introduced the option of using zlib compression. Version 13 introduced the option of using LZMA compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf-file-format-spec.pdf\r\nhttp://www.adobe.com/devnet/articles/flashplayer-air-feature-list.html",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "SWF (4)",
+  "formatTypes": null,
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-shockwave-flash",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/107",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 45,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "46575304",
+      "endianness": null,
+      "name": "SWF 4",
+      "note": "Header (FWS then version number) and end tag (..)"
+    },
+    {
+      "signatureID": 45,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000",
+      "endianness": null,
+      "name": "SWF 4",
+      "note": "Header (FWS then version number) and end tag (..)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "swf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 650,
+      "relatedFormatName": "Macromedia Flash"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 648,
+      "relatedFormatName": "Macromedia Flash"
+    }
+  ]
+}

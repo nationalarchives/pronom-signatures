@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2153,
+  "formatName": "Sony PictureGear Studio Binder",
+  "version": null,
+  "formatDescription": "PictureGear Studio is a creativity package published by Sony. .BXU is the native format of Binder, for organising and printing collections such as diaries and recipes. .BXT is a Binder template.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1335",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1726,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "380000005447424E",
+      "endianness": null,
+      "name": "Sony PictureGear Studio Binder",
+      "note": "BOF: '8' 0x000000 'TGBN'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bxu",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bxt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

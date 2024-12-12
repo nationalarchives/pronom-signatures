@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1094,
+  "formatName": "Paint Shop Pro Image",
+  "version": "10",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Apr 2011",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Submitted by Georgia Tech Research Institute",
+  "formatSourceDate": "21 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/349",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 515,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5061696E742053686F702050726F20496D6167652046696C650A1A00000000000A00",
+      "endianness": null,
+      "name": "Paint Shop Pro Image 10",
+      "note": "Header: 32 byte PSP file signature followed by 2 byte little-endian major version"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pspimage",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1093,
+      "relatedFormatName": "Paint Shop Pro Image"
+    }
+  ]
+}

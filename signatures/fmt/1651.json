@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2478,
+  "formatName": "Garmin Flexible and Interoperable Data Transfer File",
+  "version": null,
+  "formatDescription": "A file format developed by Garmin, for the storing and sharing of data from sports and health devices. Data is collected during a sporting activity, stored on the Garmin device, and can then be uploaded to the Garmin Connect web service, and other web applications. The format ensures that any .fit compliant device can interpret data from another .fit compliant device.  The format allows users to track and compare data about their physical activities over time.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://developer.garmin.com/fit/protocol/",
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "15 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1651",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1987,
+      "positionType": "Absolute from BOF",
+      "offset": 9,
+      "maxOffset": 0,
+      "byteSequence": "464954",
+      "endianness": null,
+      "name": "Garmin Flexible and Interoperable Data Transfer file",
+      "note": "BOF Absolute from beginning of file, magic bytes: FIT"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fit",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

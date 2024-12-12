@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1896,
+  "formatName": "Visual Basic (VB) File",
+  "version": null,
+  "formatDescription": "A .vb file is typically a source file written in the Visual Basic programming Language. It contains Visual Basic code but doesn't have a header or mandatory elements that can be used by PRONOM for identification purposes.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Aug 2017",
+  "formatSourceID": 225,
+  "provenanceCompoundName": "National Library of Scotland / National Library of Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Aug 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1088",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "vb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

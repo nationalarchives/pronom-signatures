@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1460,
+  "formatName": "Sigma RAW Image",
+  "version": null,
+  "formatDescription": "The X3F file type is a RAW image format primarily associated with Sigma digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://www.photofo.com/x3f-raw-format/",
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/661",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 993,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "464F5662",
+      "endianness": null,
+      "name": "Sigma RAW Image",
+      "note": "BOF: FOVb"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "x3f",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

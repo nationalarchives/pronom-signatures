@@ -1,0 +1,690 @@
+{
+  "fileFormatID": 638,
+  "formatName": "Extensible Markup Language",
+  "version": "1.0",
+  "formatDescription": "The Extensible Markup Language (XML) is a general purpose markup language for creating other, special purpose, markup languages, and is a simplified subset of SGML. The structure and grammar of an XML document can be defined using a markup declaration, such as a Document Type Definition (DTD) or XML schema. A XML document consists of nested elements, each of which may have attributes and content. It typically begins with an XML declaration, defining the XML version and character set used. This may be followed by a Document Type declaration, containing or pointing to a markup declaration for the class of document. An XML document is said to be well-formed if it conforms to the XML specification; it is said to be valid if it additionally complies with a defined markup declaration. The formatting and transformation of XML documents can be controlled using the Extensible Stylesheet Language (XSL).",
+  "releaseDate": "01 Jan 1998",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "XML (1.0)",
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/101",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "public.xml",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "text/xml",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 34,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
+      "endianness": null,
+      "name": "XML 1.0",
+      "note": "XML declaration and version. Signature updated November 2011 to allow an optional 3 byte undisclosed beginning of file offset to allow for UTF-8 byte order mark (BOM) that may precede the XML declaration ([<?xml version=\"])"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 310,
+      "relatedFormatName": "Internet Archive"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 319,
+      "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 429,
+      "relatedFormatName": "XML Schema Definition"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 634,
+      "relatedFormatName": "Scalable Vector Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 635,
+      "relatedFormatName": "Scalable Vector Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 644,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 768,
+      "relatedFormatName": "DROID Signature File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 769,
+      "relatedFormatName": "DROID File Collection File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 931,
+      "relatedFormatName": "Synchronized Multimedia Integration Language (Generic)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 942,
+      "relatedFormatName": "Microsoft Visio XML Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 973,
+      "relatedFormatName": "GPS Exchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 975,
+      "relatedFormatName": "Keyhole Markup Language (XML)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1021,
+      "relatedFormatName": "LaTeX (Subdocument)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1029,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1078,
+      "relatedFormatName": "Chemical Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1158,
+      "relatedFormatName": "Internet Archive"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1191,
+      "relatedFormatName": "Scalable Vector Graphics Tiny"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1262,
+      "relatedFormatName": "Microsoft Management Console Snap-in Control file"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1283,
+      "relatedFormatName": "TransXchange File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1359,
+      "relatedFormatName": "Domino XML Document Export"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1360,
+      "relatedFormatName": "Domino XML Database Export"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1367,
+      "relatedFormatName": "X3D"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1368,
+      "relatedFormatName": "X3D"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1369,
+      "relatedFormatName": "X3D"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1370,
+      "relatedFormatName": "X3D"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1371,
+      "relatedFormatName": "Vector Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1452,
+      "relatedFormatName": "INTERLIS Transfer File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1453,
+      "relatedFormatName": "INTERLIS Model File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1462,
+      "relatedFormatName": "Industry Foundation Classes XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1469,
+      "relatedFormatName": "PKCS #7 Cryptographic Message File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1496,
+      "relatedFormatName": "Additive Manufacturing File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1694,
+      "relatedFormatName": "AbiWord Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1695,
+      "relatedFormatName": "AbiWord Document Template"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1700,
+      "relatedFormatName": "MusicXML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1737,
+      "relatedFormatName": "Mathcad Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1770,
+      "relatedFormatName": "Music Encoding Initiative"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1784,
+      "relatedFormatName": "XML Property List"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1785,
+      "relatedFormatName": "AAE Sidecar Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1786,
+      "relatedFormatName": "EazyDraw File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1787,
+      "relatedFormatName": "iMovieProj File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1788,
+      "relatedFormatName": "NIB File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1816,
+      "relatedFormatName": "INTERLIS Transfer File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1844,
+      "relatedFormatName": "Redcode Metadata (RMD) File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1852,
+      "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1899,
+      "relatedFormatName": "Scribus Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1944,
+      "relatedFormatName": "GPS Exchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1967,
+      "relatedFormatName": "Folio Infobase File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2019,
+      "relatedFormatName": "COLLADA Digital Asset Exchange (DAE)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2029,
+      "relatedFormatName": "Gnumeric"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2042,
+      "relatedFormatName": "SK-XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2044,
+      "relatedFormatName": "DIGIDOC-XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2045,
+      "relatedFormatName": "DIGIDOC-XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2046,
+      "relatedFormatName": "DIGIDOC-XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2059,
+      "relatedFormatName": "FO File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2192,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2193,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2194,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2195,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2196,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2197,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2198,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2206,
+      "relatedFormatName": "Muvee Reveal Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2286,
+      "relatedFormatName": "Ableton Live Set"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2297,
+      "relatedFormatName": "TEI P4 XML - Single Text File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2298,
+      "relatedFormatName": "TEI P4 XML - Corpus File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2299,
+      "relatedFormatName": "TEI P5 - Single Text File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2300,
+      "relatedFormatName": "TEI P5 XML - Corpus File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2322,
+      "relatedFormatName": "Adobe Audition Session File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2324,
+      "relatedFormatName": "XML Forms Data Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2326,
+      "relatedFormatName": "Agisoft Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2368,
+      "relatedFormatName": "ELAN Annotation File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2369,
+      "relatedFormatName": "ELAN Preference File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2392,
+      "relatedFormatName": "ISDOC Information System Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2395,
+      "relatedFormatName": "ISDOC Information System Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2440,
+      "relatedFormatName": "XML Shareable Playlist Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2468,
+      "relatedFormatName": "Adobe InDesign Interchange Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2505,
+      "relatedFormatName": "Roxio Data Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2506,
+      "relatedFormatName": "Roxio Audio Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2568,
+      "relatedFormatName": "LegalDocML Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2569,
+      "relatedFormatName": "Capture One Settings File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2573,
+      "relatedFormatName": "Esri Shapefile Geospatial Metadata File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2615,
+      "relatedFormatName": "Media Hash List"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2621,
+      "relatedFormatName": "ESRI Persistent Auxiliary Metadata File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2647,
+      "relatedFormatName": "Wireless Markup Language (WML) Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2650,
+      "relatedFormatName": "FLExText Interlinear XML Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2653,
+      "relatedFormatName": "Transcriber AG TAG Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2654,
+      "relatedFormatName": "Transcriber TRS Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2664,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2675,
+      "relatedFormatName": "Audacity Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2676,
+      "relatedFormatName": "Audacity Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2697,
+      "relatedFormatName": "Final Draft Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2706,
+      "relatedFormatName": "Camtasia Studio Project"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2711,
+      "relatedFormatName": "Capture One Session File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2736,
+      "relatedFormatName": "OPML File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2738,
+      "relatedFormatName": "OPML File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2756,
+      "relatedFormatName": "Mass Spectrometry Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2808,
+      "relatedFormatName": "Draw.io Diagram (XML) File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2827,
+      "relatedFormatName": "SolidWorks Material Database File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2871,
+      "relatedFormatName": "IMF Package Asset Map"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2872,
+      "relatedFormatName": "IMF Package Packing List"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2873,
+      "relatedFormatName": "IMF Package Composition Playlist"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 639,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 640,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 931,
+      "relatedFormatName": "Synchronized Multimedia Integration Language (Generic)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1283,
+      "relatedFormatName": "TransXchange File Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1694,
+      "relatedFormatName": "AbiWord Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1695,
+      "relatedFormatName": "AbiWord Document Template"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1700,
+      "relatedFormatName": "MusicXML"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1737,
+      "relatedFormatName": "Mathcad Document"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1770,
+      "relatedFormatName": "Music Encoding Initiative"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1852,
+      "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1944,
+      "relatedFormatName": "GPS Exchange Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2029,
+      "relatedFormatName": "Gnumeric"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2192,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2193,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2194,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2195,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2196,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2197,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2198,
+      "relatedFormatName": "xdomea"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2626,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2697,
+      "relatedFormatName": "Final Draft Document"
+    }
+  ]
+}

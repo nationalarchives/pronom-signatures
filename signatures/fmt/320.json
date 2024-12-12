@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1065,
+  "formatName": "ESRI Shapefile Projection (Well-Known Text) Format",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Sep 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Jan 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/320",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 414,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 152,
+      "byteSequence": "47454F474353*444154554D*53504845524F4944*5052494D454D*554E4954",
+      "endianness": "Little-endian",
+      "name": "ESRI Shapefile Projection (Well-Known Text) Format",
+      "note": "Signature based on ordered keyword entities, GEOGCS * DATUM * SPHEROID * PRIMEM * UNIT"
+    },
+    {
+      "signatureID": 414,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "5D5D",
+      "endianness": "Little-endian",
+      "name": "ESRI Shapefile Projection (Well-Known Text) Format",
+      "note": "Signature based on ordered keyword entities, GEOGCS * DATUM * SPHEROID * PRIMEM * UNIT"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "prj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2001,
+  "formatName": "Adobe InDesign Book",
+  "version": null,
+  "formatDescription": "An InDesign Book file is a collection of InDesign documents that can share styles, swatches, master pages, and other items. One document can belong to multiple book files. PRONOM currently doesn't distinguish between different format versions of INDB. Please let the PRONOM team know if this is desirable.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/InDesign_Book",
+  "lastUpdatedDate": "24 Feb 2022",
+  "formatSourceID": 239,
+  "provenanceCompoundName": "The National Archives of Estonia / The National Archives of Estonia",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1191",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1571,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D424F4F4B424F4F4B",
+      "endianness": null,
+      "name": "Adobe InDesign Book",
+      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: BOOKBOOK;"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "indb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

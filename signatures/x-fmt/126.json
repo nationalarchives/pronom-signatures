@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 181,
+  "formatName": "Microsoft Excel Chart",
+  "version": "4.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/126",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 876,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "09040600{2}2000",
+      "endianness": null,
+      "name": "BIFF 4 Chart",
+      "note": "BIFF4: BOF hex 0904. record length hex 0600, BIFF version=(not used), filetype=chart=2000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 680,
+      "relatedFormatName": "Microsoft Excel 4.0 Worksheet (xls)"
+    }
+  ]
+}

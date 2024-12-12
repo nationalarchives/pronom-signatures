@@ -1,0 +1,74 @@
+{
+  "fileFormatID": 799,
+  "formatName": "Tagged Image File Format for Internet Fax (TIFF-FX)",
+  "version": null,
+  "formatDescription": "The Tagged Image File for Fax Extended (TIFF-FX) format is an extension of the TIFF format.  New TIFF tags are defined to allow the mapping of Fax-specific attributes commonly associated with black and white fax and colour fax files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/156",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/tiff",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "tif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tiff",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tfx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 673,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 612,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

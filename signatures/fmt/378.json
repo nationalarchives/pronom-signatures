@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1125,
+  "formatName": "Chemical Draw Exchange Format",
+  "version": null,
+  "formatDescription": "The Chemical Draw Exchange Format is the native format of ChemDraw software, a molecule editor developed by  CambridgeSoft for use on Macintosh and Windows platforms. The format is used to store accurate chemical drawings and molecular data in a tagged binary format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "08 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "chemical/x-cdx",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/378",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 561,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "566A4344303130300403020100000000000000000000",
+      "endianness": null,
+      "name": "Chemical Draw Exchange format",
+      "note": "Header: ASCII value \"VjCD0100\", followed by 4 reserved bytes (04 03 02 01) and 10 reserved bytes set to zero."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

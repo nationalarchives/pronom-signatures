@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1848,
+  "formatName": "Microsoft PRX File",
+  "version": null,
+  "formatDescription": "PRX files are media encoding configuration preset files used by Microsoft products including Microsoft Expression Encoder and Windows Media Encoder.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1043",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1402,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFE3C005000520058003E",
+      "endianness": null,
+      "name": "Microsoft PRX",
+      "note": "BOF: \u00ff\u00fe<.P.R.X.>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "prx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

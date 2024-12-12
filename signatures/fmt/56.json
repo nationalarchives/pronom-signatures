@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 679,
+  "formatName": "Microsoft Excel 3.0 Worksheet (xls)",
+  "version": "3",
+  "formatDescription": "The Binary Interchange File Format (BIFF) is a spreadsheet file format developed by Microsoft. BIFF 3 is the native file format of Microsoft Excel 3.0 for Windows. The format is proprietary and Microsoft does not make details of its structure public. The information contained here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format, and should not therefore be regarded as definitive. BIFF is a stream based format, and a BIFF 3 file comprises a single worksheet stream, containing a Beginning of File (BOF) record, followed by a series of Worksheet records, and terminated by an End of File (EOF) record.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Microsoft Excel Worksheet (3.0)",
+  "formatTypes": "Spreadsheet",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-excel",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.excel.xls",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/56",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 73,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "09020600{2}1000",
+      "endianness": null,
+      "name": "BIFF 3 Worksheet",
+      "note": "BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=worksheet=1000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xls",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 680,
+      "relatedFormatName": "Microsoft Excel 4.0 Worksheet (xls)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 681,
+      "relatedFormatName": "Microsoft Excel 4.0 Workbook (xls)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 678,
+      "relatedFormatName": "Microsoft Excel 2.x Worksheet (xls)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1342,
+      "relatedFormatName": "Microsoft Excel Chart"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1344,
+      "relatedFormatName": "Microsoft Excel Macro"
+    }
+  ]
+}

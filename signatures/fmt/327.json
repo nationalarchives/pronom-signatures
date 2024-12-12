@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1072,
+  "formatName": "EndNote Filter File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "31 Jan 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Jan 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/327",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 424,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "454E444E454C3273000000{5}000000260003{2}0000FFFFFFFF",
+      "endianness": null,
+      "name": "EndNote Filter File",
+      "note": "ASCII: ENDNEL2s"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "enf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

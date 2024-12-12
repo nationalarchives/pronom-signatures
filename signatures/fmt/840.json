@@ -1,0 +1,87 @@
+{
+  "fileFormatID": 1641,
+  "formatName": "ADX Audio Format",
+  "version": null,
+  "formatDescription": "ADX is a proprietary audio storage and compression format developed by CRI Middleware. PRONOM currently holds one PUID for all known version numbers, with separate identification signatures for each.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Dec 2015",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/840",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1195,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8000{16}0300{0-65535}286329435249",
+      "endianness": null,
+      "name": "ADX V3",
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+    },
+    {
+      "signatureID": 1196,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8000{16}0400{0-65535}286329435249",
+      "endianness": null,
+      "name": "ADX V4",
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+    },
+    {
+      "signatureID": 1197,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8000{16}0500{0-65535}286329435249",
+      "endianness": null,
+      "name": "ADX V5",
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+    },
+    {
+      "signatureID": 1198,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8000{16}0408{0-65535}286329435249",
+      "endianness": null,
+      "name": "ADX V8 encrypted",
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+    },
+    {
+      "signatureID": 1199,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "8000{16}0409{0-65535}286329435249",
+      "endianness": null,
+      "name": "ADX V9 encrypted",
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "adx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 2158,
+  "formatName": "BDOC",
+  "version": "1",
+  "formatDescription": "BDOC is a digital signature format developed in 2014 to replace the old DDOC (DigiDoc) digital signature format in Estonia. Compared to DDOC, an important modification is that a .bdoc file is in fact a ZIP container with the signed files, the signatures and the protocol control information and can be opened by any program that recognises the ZIP format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.id.ee/?lang=en&id=34336. Standard: EVS 821:2009 BDOC - Format for Digital Signatures https://www.evs.ee/products/evs-821-2009",
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 239,
+  "provenanceCompoundName": "The National Archives of Estonia / The National Archives of Estonia",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.bdoc-1.0",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1340",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "bdoc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "39500",
+      "description": "BDOC 1",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.bdoc-1.0'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

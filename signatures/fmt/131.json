@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 691,
+  "formatName": "Advanced Systems Format",
+  "version": null,
+  "formatDescription": "The Advanced Systems Format is an extensible file format developed by Microsoft for storing multimedia data streams. It comprises a Header Object, which describes the properties of the data streams, a Data Object, which contains the actual data streams stored in Data Packets and, optionally, one or more Index Objects. ASF files can contain audio, video and still image data streams, and the format supports streaming across networks. ASF supports a variety of audio, video and still image compression types, although it is most widely used for storing Windows Media Audio and Video encoded data.",
+  "releaseDate": "01 Nov 2004",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "ASF",
+  "formatTypes": "Audio, Image (Raster), Video",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-asf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.advanced-systems-format",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/131",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 80,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+      "endianness": null,
+      "name": "Advanced Systems Format",
+      "note": "Header Object"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "asf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 692,
+      "relatedFormatName": "Windows Media Audio"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 693,
+      "relatedFormatName": "Windows Media Video"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1228,
+      "relatedFormatName": "Windows Media Video (WVC1)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 692,
+      "relatedFormatName": "Windows Media Audio"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 693,
+      "relatedFormatName": "Windows Media Video"
+    }
+  ]
+}

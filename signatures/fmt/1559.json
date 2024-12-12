@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2384,
+  "formatName": "Beam Software SIFF File",
+  "version": null,
+  "formatDescription": "A Beam Software SIFF file is an audio file used by a Beam Software video game. Beam Software is an Australian video game developer that was founded in 1978 and acquired by Krome Studios in 2006, at which point Beam was renamed Krome Studios Melbourne. In the 1990s, Beam produced a handful of games that use their proprietary SIFF file format.  The file contains music, sound effects, or dialogue played within a game. The files cannot be played by most popular media players but can be converted to a standard audio format.\r\n\r\nThe SIFF file format can be used to create files that contain both audio and video or just audio. When a SIFF format file contains both audio and video, it is saved with the .vb extension rather then .son extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/SIFF\r\n\r\nhttps://fileinfo.com/extension/son\r\n\r\nhttps://wiki.multimedia.cx/index.php/SIFF",
+  "lastUpdatedDate": "23 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1559",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1903,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53494646",
+      "endianness": null,
+      "name": "Beam Software SIFF File",
+      "note": "BOF; Offset: 0; Magic Bytes: SIFF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "son",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

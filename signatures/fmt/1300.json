@@ -1,0 +1,137 @@
+{
+  "fileFormatID": 2118,
+  "formatName": "Broderbund The Print Shop/PrintMaster/American Greetings Project",
+  "version": "10-23",
+  "formatDescription": "The Print Shop is a desktop publishing application published by Broderbund. The software has a range of format extensions dependent on the type of project being created and the format is produced by a range of Broderbund branded products. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop. The format is based on the OLE2 compound file format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1300",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ban",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bro",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "biz",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cal",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "car",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cer",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "env",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fax",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sig",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cft",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hcr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "lbl",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "let",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nws",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "not",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pcr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "php",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tsh",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "web",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sti",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "38000",
+      "description": "Broderbund The Print Shop/PrintMaster/American Greetings Project",
+      "files": [
+        {
+          "path": "PMW Document",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'PrintMaster Gold Document'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

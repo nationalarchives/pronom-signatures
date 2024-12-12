@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 739,
+  "formatName": "Drawing Interchange File Format (Binary)",
+  "version": "R10",
+  "formatDescription": "Binary DXF format is the binary encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. It should not be confused with the DXB format - this is an entirely separate AutoDesk format for binary encoding vector graphics. Binary DXF Release 10 is the version of the format associated with Release 10 of the AutoCAD family of software products, and was the first version to be released with a binary file format.",
+  "releaseDate": "01 Oct 1988",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Binary DXF (R10)",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "DXF",
+  "identifiers": [
+    {
+      "identifierText": "fmt/80",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.dxf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 133,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4175746F4341442042696E617279204458460D0A1A00*0053454354494F4E0002{0-1}48454144455200*09{0-1}24414341445645520001{0-1}41433130303600*00454E4453454300",
+      "endianness": null,
+      "name": "Binary DXF R10",
+      "note": "File header, header section with $ACADVER group code (AC1006), EOF marker"
+    },
+    {
+      "signatureID": 133,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "00454F4600",
+      "endianness": null,
+      "name": "Binary DXF R10",
+      "note": "File header, header section with $ACADVER group code (AC1006), EOF marker"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dxf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 720,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2212,
+      "relatedFormatName": "Drawing Interchange Format (Binary)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 740,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    }
+  ]
+}

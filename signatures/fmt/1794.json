@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 2644,
+  "formatName": "JPEG 2000 Codestream",
+  "version": null,
+  "formatDescription": "JPEG 2000 codestream (also known as J2K, J2C, or JPEG 2000 Part 1, Core Coding System) is the wavelet based compressed image format defined in Part 1 of the JPEG 2000 standard. Both lossy and lossless compression as supported.\r\n\r\nA JPEG 2000 codestream uses a variant of the JPEG format, with a nearly identical system of markers and segments.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": "04/2024 (v.118)- Format added to JPEG 2000 format family. Submitted by Preservica.",
+  "formatSourceDate": "11 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": "JPEG 2000",
+  "identifiers": [
+    {
+      "identifierText": "fmt/1794",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jp2",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2134,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FF4FFF51",
+      "endianness": null,
+      "name": "JPEG 2000 Codestream",
+      "note": "Based on the specification, start of codestream marker (0xFF4F) followed by image and tile size marker (0xFF51) at BOF, end of codestream marker (0xFFD9) at EOF."
+    },
+    {
+      "signatureID": 2134,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "JPEG 2000 Codestream",
+      "note": "Based on the specification, start of codestream marker (0xFF4F) followed by image and tile size marker (0xFF51) at BOF, end of codestream marker (0xFFD9) at EOF."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "j2k",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "j2c",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

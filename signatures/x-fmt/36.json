@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 67,
+  "formatName": "CorelDraw Compressed Drawing",
+  "version": "2",
+  "formatDescription": "The CorelDraw Compressed Drawing 2 format is know to be used by Corel ArtShow 6-7 and files can be opened with CorelDraw. Please let the PRONOM team know of other instances in which the underlying format can be found.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Corel CMX Compressed",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/36",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1789,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "434452434F4D5032",
+      "endianness": null,
+      "name": "CorelDraw Compressed 2",
+      "note": "BOF: 'CDRCOMP2'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

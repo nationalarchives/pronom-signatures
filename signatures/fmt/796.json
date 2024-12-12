@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1595,
+  "formatName": "Adobe After Effects",
+  "version": null,
+  "formatDescription": "Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Systems and used in the post-production process of filmmaking and television production. Among other things, After Effects can be used for keying, tracking, rotoscoping, compositing and animation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://en.wikipedia.org/wiki/Adobe_After_Effects",
+  "formatSourceDate": "26 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/796",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1155,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494658{4}45676721",
+      "endianness": null,
+      "name": "Adobe After Effects",
+      "note": "Header RIFX, Egg! Format chunk"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aep",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

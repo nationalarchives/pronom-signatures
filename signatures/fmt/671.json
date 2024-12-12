@@ -1,0 +1,152 @@
+{
+  "fileFormatID": 1470,
+  "formatName": "Serif PagePlus Publication",
+  "version": "Generic",
+  "formatDescription": "Serif PagePlus is a desktop publishing application. This is a generic 'catchall' to provide extension-based identification of Serif PagePlus Publication files where a signature for a particular format version has not yet been developed. If you encounter such a file, please contact pronom@nationalarchives.gsi.gov.uk",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Nov 2021",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/671",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1471,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1472,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1473,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1475,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1476,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1477,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1478,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1479,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1480,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2353,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2354,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2355,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2356,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2357,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2358,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2359,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2360,
+      "relatedFormatName": "Serif PagePlus Publication"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2361,
+      "relatedFormatName": "Serif PagePlus Publication"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "22220",
+      "description": "Serif PagePlus Publication Generic",
+      "files": [
+        {
+          "path": "FileInfo",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "CE 19 CE 19"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

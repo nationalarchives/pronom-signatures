@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 279,
+  "formatName": "Corel Wavelet Compressed Bitmap",
+  "version": null,
+  "formatDescription": "The Corel Wavelet Compressed Bitmap is a raster graphic image file that is compressed with wavelet image compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/202",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1659,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "434F52574156",
+      "endianness": null,
+      "name": "Corel Wavelet (WVL)",
+      "note": "BOF: 'CORWAV'"
+    },
+    {
+      "signatureID": 1660,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "574904[01:06]{3}[40:46]",
+      "endianness": null,
+      "name": "Corel Wavelet (WI)",
+      "note": "BOF uses \"WI \". Byte 4 appears to be a value between 01:06 and byte 8 appears to be a value between 40:46."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wvl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

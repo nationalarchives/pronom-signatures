@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 1103,
+  "formatName": "3GPP Audio/Video File",
+  "version": null,
+  "formatDescription": "An audiovisual container typically associated with 3G mobile phones and is developed by the Third Generation Partnership Project. May contain video/audio or audio only.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/3GP\r\nhttps://fileinfo.com/extension/3gpp https://en.wikipedia.org/wiki/3GP_and_3G2\r\nhttp://3gpp.org/\r\nhttp://www.3gpp.org/ftp/Specs/html-info/26244.htm",
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118)- Description created and notes added. Submitted by The Church of Jesus Christ of Latter-Day Saints as part of PRONOM Research Week 2023.",
+  "formatSourceDate": "21 Jun 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio, Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/3gpp",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/357",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/3gpp",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 526,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "667479703367(65|67|68|70|72|73|74)[34:39]0000[00:03]00",
+      "endianness": null,
+      "name": "3GPP Audio/Video File",
+      "note": "Header: The 4 letters 'ftyp' identifies the atom/box type as an ftyp box, the next 4 indicate the ftyp code for the \"major brand\". The brand sequence indicates the 'best use' of the file, and has several different profiles: basic, streaming-server, progressive-download, extended-presentation, media stream recording, file delivery, adaptive streaming."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "3gp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "3gpp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 1102,
+      "relatedFormatName": "Adaptive Multi-Rate Audio"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 924,
+      "relatedFormatName": "MPEG-4 Media File"
+    }
+  ]
+}

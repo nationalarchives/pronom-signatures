@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2014,
+  "formatName": "Strata StudioPro Vis Format",
+  "version": null,
+  "formatDescription": "Strata StudioPro was a 3D modeling application developed by Strata3D for the Macintosh operating system. The vis format contains models and textures of a 3D scene. Formats of this type may lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1204",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1582,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "56697333{7-64}(54415454524942555445|5447524F5550|544D4F44454C|54504F4C59474F4E)",
+      "endianness": null,
+      "name": "StrataPro Vis",
+      "note": "BOF: 'Vis3' {7-64} (TATTRIBUTE|TGROUP|TMODEL|TPOLYGON)"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1727,
+  "formatName": "Xar Image Format",
+  "version": null,
+  "formatDescription": "The Xar file format, previously known as the Flare file format, is an open, vector graphic format, and is the native graphics format for applications such as Xara X and its predecessor, CorelXARA.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Flare Image Format",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/922",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1272,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "58415241A3A30D0A",
+      "endianness": null,
+      "name": "Xar Image",
+      "note": "BOF:XARA\u00a3\u00a3 [Carriage Return][Line Feed]\r\nSpecification: http://site.xara.com/support/docs/webformat/spec/XARFormatDocument.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

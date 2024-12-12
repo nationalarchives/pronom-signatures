@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2361,
+  "formatName": "Serif PagePlus Publication",
+  "version": "1-3",
+  "formatDescription": "Serif PagePlus is a desktop publishing application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1537",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1883,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "CE19CE19",
+      "endianness": null,
+      "name": "Serif PagePlus Publication 1-3",
+      "note": "BOF: 0xCE19CE19"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ppt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1470,
+      "relatedFormatName": "Serif PagePlus Publication"
+    }
+  ]
+}

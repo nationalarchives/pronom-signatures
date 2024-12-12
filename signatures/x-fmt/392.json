@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 686,
+  "formatName": "JP2 (JPEG 2000 part 1)",
+  "version": null,
+  "formatDescription": "The JPEG 2000 file format (JP2 file format) provides a foundation for storing application specific data (metadata) in association with a JPEG 2000 codestream, such as information which is required to display the image.  The JP2 file format encapsulates the JPEG 2000 codestream along with other core pieces of information about that codestream.  The building-block of the JP2 file format is called a box; all information contained within the format is contained in boxes.  There are several different box types; some boxes contain other boxes.  The binary structure of a file is a contiguous sequence of boxes.  The start of the first box is the first byte of the file, and the last byte of the last box is the last byte of the file.",
+  "releaseDate": "15 Sep 2004",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": "JPEG 2000",
+  "identifiers": [
+    {
+      "identifierText": "image/jp2",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.jpeg-2000",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/392",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 251,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000000C6A5020200D0A870A{4}667479706A7032",
+      "endianness": "Big-endian",
+      "name": "JPEG2000",
+      "note": "From the ISO JPEG2000 specification"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jp2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

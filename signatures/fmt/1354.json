@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2172,
+  "formatName": "QuickBooks Backup File",
+  "version": null,
+  "formatDescription": "QBB file format used by QuickBooks for their backup files. It is used to manage inventory, payroll, sales and other needs of a business. QuickBooks includes many features such as marketing tools, product and suppliers, merchant services and training solutions. QBB files are the backups files QuickBooks QBW files containing all financial records, logos, images, letters, and templates.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Jan 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1354",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1737,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "458600000600",
+      "endianness": null,
+      "name": "QuickBooks Backup File",
+      "note": "BOF:E\u2020...."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "qbb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

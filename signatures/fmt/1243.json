@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2061,
+  "formatName": "ZFO (Message) File",
+  "version": null,
+  "formatDescription": "This variant of ZFO file is container for delivered data mailbox messages provided by \u010cesk\u00e1 po\u0161ta, s.p. ZFO file is a ZIP archive file (PKCS #7 Cryptographic Message File) composing of the layout structure using XML elements (envelope) and data instance encoded as Base64 (message content). \r\nThe message may contain one or more attachments in the file format specified in Annex 3 to Decree No. 194/2009 Col.  The whole structure is always embedded into a digital signature represented by XML elements of the XML Signature standard.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://isds.czechpoint.cz/v20/message",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.software602.filler.form-xml-zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1243",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1620,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 20500,
+      "byteSequence": "687474703A2F2F697364732E637A656368706F696E742E637A2F7632302F6D657373616765",
+      "endianness": null,
+      "name": "ZFO (Message) File",
+      "note": "Magic bytes http://isds.czechpoint.cz/v20/message"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zfo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1469,
+      "relatedFormatName": "PKCS #7 Cryptographic Message File"
+    }
+  ]
+}

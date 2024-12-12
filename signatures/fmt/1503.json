@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2326,
+  "formatName": "Agisoft Project File",
+  "version": null,
+  "formatDescription": "Metashape is photogrammetry software used to create 3D models, point clouds and orthomosaic images developed by Agisoft. The PSX file is an XML file containing project information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1503",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1875,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220{0-4096}706174683D227B70726F6A6563746E616D657D2E66696C65732F70726F6A6563742E7A6970222F3E0A",
+      "endianness": null,
+      "name": "Agisoft Project File",
+      "note": "BOF: XML Header then 'path=\"{projectname}.files/project.zip\"/>.' later in the file"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

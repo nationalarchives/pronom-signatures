@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2745,
+  "formatName": "Open Access III Document",
+  "version": "III",
+  "formatDescription": "Open Access III was a DOS based integrated office suite, which included a word processing, database, graphics and spreadsheet software. Version III was released in 1990.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2023",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1889",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2230,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "034C54326A000000",
+      "endianness": null,
+      "name": "Open Access III Document",
+      "note": "Absolute from beginning of file, magic bytes: .LT2j\u2026"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ext",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2578,
+  "formatName": "PaintShop Plus Compressed Format",
+  "version": null,
+  "formatDescription": "PaintShop Plus Compressed Format is a raster graphics format for the Atari ST line of computers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PaintShop_(Atari_ST)",
+  "lastUpdatedDate": "19 Jul 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1733",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2071,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "746D38395053",
+      "endianness": null,
+      "name": "PaintShop Plus Compressed Format",
+      "note": "BOF:'tm89PS'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "da4",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

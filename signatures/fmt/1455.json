@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2278,
+  "formatName": "Primavera P6 Project Management XER File",
+  "version": null,
+  "formatDescription": "An ASCII based file used to store project information with accompanying tables and fields. Primavera P6 is a project management software which replaced the older P3 software in 2007. It has been supported by Oracle since 2008. This is the XER format however projects can also be saved in XML.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://ippm.dk/ikke-kategoriseret/crash-course-to-the-primavera-xer-format\r\nhttp://fileformats.archiveteam.org/wiki/Primavera_P6",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1455",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1820,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "45524D484452",
+      "endianness": null,
+      "name": "Primavera P6 Project Management",
+      "note": "BOF: 'ERMHDR' EOF:0D0A"
+    },
+    {
+      "signatureID": 1820,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0D0A",
+      "endianness": null,
+      "name": "Primavera P6 Project Management",
+      "note": "BOF: 'ERMHDR' EOF:0D0A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xer",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1307,
+  "formatName": "OpenType Font File",
+  "version": null,
+  "formatDescription": "OpenType is a font format developed by Microsoft, in colaboration with Adobe.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/520",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "font/otf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 813,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F54544F{8-40}43464620",
+      "endianness": null,
+      "name": "OpenType Font File",
+      "note": "Seeking both OTTO snft version number, and presence of CFF data tag\r\nBOF: OTTO{8-40}CFF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "otf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

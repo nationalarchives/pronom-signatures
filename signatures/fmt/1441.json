@@ -1,0 +1,79 @@
+{
+  "fileFormatID": 2259,
+  "formatName": "Apple iWork Document",
+  "version": "14",
+  "formatDescription": "Apple iWork is a productivity suite for the Apple Macintosh. With iWork 14 Keynote, Pages and Numbers documents share an underlying structure. Please contact the PRONOM team if you can assist with distinguishing between each format type.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "30 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation, Spreadsheet, Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1441",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "iwa",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "key",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pages",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "numbers",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "template",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "21040",
+      "description": "Apple iWorks Document 14",
+      "files": [
+        {
+          "path": "Metadata/Properties.plist"
+        },
+        {
+          "path": "Index/Document.iwa",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "200",
+                  "sequence": "12 03 01 00 05 18"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

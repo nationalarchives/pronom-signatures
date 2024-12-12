@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1714,
+  "formatName": "CRAM File Format",
+  "version": "1.x",
+  "formatDescription": "CRAM is a framework technology and file format for compression of raw sequence data in the field of bioinformatics.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/909",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1259,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4352414D01",
+      "endianness": null,
+      "name": "CRAM v1",
+      "note": "Magic: CRAM, major version: 0x01\r\nSpecification: http://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/ena/documents/cram_format_1.0.1.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cram",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1715,
+      "relatedFormatName": "CRAM File Format"
+    }
+  ]
+}

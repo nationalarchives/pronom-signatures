@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1965,
+  "formatName": "Lightwright Show File",
+  "version": "5",
+  "formatDescription": "Lightwright is software created by John McKernon for the management of theatrical lighting data and paperwork.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 231,
+  "provenanceCompoundName": "New York Public Library / New York Public Library",
+  "formatProvenance": "08/2023 (v.113)- Added 0 value to offset in EOF signature as null offset is causing max-offset to be ignored. Submitted by Preservica.",
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1155",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1537,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4A4D434B",
+      "endianness": null,
+      "name": "Lightwright 5",
+      "note": "BOF: JMCK\r\nEOF, max offset 2048: CLEAR TEXT BLOCK..LWFORMAT V5"
+    },
+    {
+      "signatureID": 1537,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "434C454152205445585420424C4F434B0D0A4C57464F524D4154205635",
+      "endianness": null,
+      "name": "Lightwright 5",
+      "note": "BOF: JMCK\r\nEOF, max offset 2048: CLEAR TEXT BLOCK..LWFORMAT V5"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lw5",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

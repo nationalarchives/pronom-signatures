@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 1431,
+  "formatName": "Microsoft PowerPoint Macro-Enabled Template",
+  "version": "2007",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 193,
+  "provenanceCompoundName": "Central Digital Archive / Central Digital Archive",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-powerpoint.template.macroEnabled.12",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/632",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "potm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 941,
+      "relatedFormatName": "Microsoft Powerpoint for Windows"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "3090",
+      "description": "Microsoft PowerPoint Macro-enabled template",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "4096",
+                  "sequence": "'ContentType=\"application/vnd.ms-powerpoint.template.macroEnabled.main+xml\"'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

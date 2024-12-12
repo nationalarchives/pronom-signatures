@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1313,
+  "formatName": "Adobe Font List",
+  "version": null,
+  "formatDescription": "Files which store information about the fonts installed by various Adobe applications. They are often named AdobeFntXX.lst. The files can be deleted (as they do not store the actual font data), and are created again when the Adobe product next scans the font locations.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Jun 2022",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/526",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 823,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252141646F62652D466F6E744C697374",
+      "endianness": null,
+      "name": "Adobe Font List",
+      "note": "BOF: %!Adobe-FontList"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lst",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

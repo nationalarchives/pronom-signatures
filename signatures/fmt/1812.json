@@ -1,0 +1,83 @@
+{
+  "fileFormatID": 2663,
+  "formatName": "Audio Data Transport Stream",
+  "version": null,
+  "formatDescription": "Audio Data Transport Stream (ADTS) is a format for audio data encoded with the Advanced Audio Coding (AAC) encoding scheme and was originally introduced with the MPEG-2 specification. It is common for this format to be contained with another format such as MPEG-4, and it can also be encoded with the Advanced Audio Coding (AAC) encoding scheme, originally introduced with the MPEG-2 specification. AAC can be encountered as a stand-alone extension, AAC-encoded data stored in ADTS files can often be used for streaming audio. An ADTS file consists of series of frames each containing header data followed by the compressed audio data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://wiki.multimedia.cx/index.php/ADTS\r\n\r\nhttp://dotwhat.net/file/extension/adts/10975\r\n\r\nhttps://www.file-extensions.org/adts-file-extension\r\n\r\nhttps://en.wikipedia.org/wiki/Advanced_Audio_Coding\r\n\r\nhttps://www.iana.org/assignments/media-types/audio/aac",
+  "lastUpdatedDate": "31 Jan 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Jan 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/aac",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "audio/vnd.dlna.adts",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fdd000036",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1812",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q27863188",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2152,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF(F0|F1|F8|F9)(40|41|44|45|48|49|4C|4D|50|51|54|55|58|59|5C|5D|60|61|64|65|68|69|6C|6D|70|71|80|81|84|85|88|89|8C|8D|90|91|94|95|98|99|9C|9D|A0|A1|A4|A5|A8|A9|AC|AD|B0|B1)(00|01|20|40|41|60|80|81|60|A0|C0|C1|E0)",
+      "endianness": null,
+      "name": "Audio Data Transport Stream sig.1",
+      "note": "An FF pattern from BOF with variation of byte stream"
+    },
+    {
+      "signatureID": 2153,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "494433{0-2045}FF(F0|F1|F8|F9)(40|41|44|45|48|49|4C|4D|50|51|54|55|58|59|5C|5D|60|61|64|65|68|69|6C|6D|70|71|80|81|84|85|88|89|8C|8D|90|91|94|95|98|99|9C|9D|A0|A1|A4|A5|A8|A9|AC|AD|B0|B1)(00|01|20|40|41|60|80|81|60|A0|C0|C1|E0)",
+      "endianness": null,
+      "name": "Audio Data Transport Stream sig.2",
+      "note": "ID3 tag variation with variable byte stream"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aac",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "adts",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

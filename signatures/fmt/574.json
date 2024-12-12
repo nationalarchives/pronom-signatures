@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1362,
+  "formatName": "Digital Imaging and Communications in Medicine File Format",
+  "version": null,
+  "formatDescription": "Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and transmitting information in medical imaging. It includes a file format definition and a network communications protocol. The communication protocol is an application protocol that uses TCP/IP to communicate between systems. DICOM files can be exchanged between two entities that are capable of receiving image and patient data in DICOM format. The National Electrical Manufacturers Association (NEMA) holds the copyright to this standard. It was developed by the DICOM Standards Committee, whose members are also partly members of NEMA.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://dicom.nema.org/medical/dicom/current/output/pdf/part10.pdf\r\n\r\nhttps://dicom.nema.org/medical/dicom/current/output/pdf/part12.pdf\r\n\r\nhttps://www.dicomstandard.org/",
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 192,
+  "provenanceCompoundName": "Tessella / Tessella",
+  "formatProvenance": "09/2022- Amended signature to disregard first 127 bytes according to specification. Added links to specification and references, altered description. Submitted by University Medical Center Utrecht.11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched. 04/2024 (v.118)- Added alias of DICOM. Submitted by Preservica.",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "DICOM",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/dicom",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/574",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 915,
+      "positionType": "Absolute from BOF",
+      "offset": 128,
+      "maxOffset": 0,
+      "byteSequence": "4449434D",
+      "endianness": null,
+      "name": "DICOM",
+      "note": "BOF; Offset: 128; Magic bytes: 'DICM'. \r\n\r\nPlease see the specification attached with this entry, which states that any format with string 'DCM' at the 128th byte is considered to be a DICOM file format."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dcm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

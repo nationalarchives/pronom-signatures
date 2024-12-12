@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2391,
+  "formatName": "ColdFusion Markup Language",
+  "version": null,
+  "formatDescription": "ColdFusion Markup Language (CFML) is a scripting language used for writing web pages and dynamic PC applications. It was created in 1995 by corporation Allaire, but was acquired by Adobe in 2005. ColdFusion Markup Language tags have a similar format to html tags, (for example, they are enclosed in angle brackets.) These are text based files, which can be opened by any text editor, such as Notepad.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Documentation (maintained by the community): https://helpx.adobe.com/coldfusion/developing-applications/the-cfml-programming-language.html",
+  "lastUpdatedDate": "02 Dec 2021",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1566",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1908,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 200,
+      "byteSequence": "3C6366",
+      "endianness": null,
+      "name": "ColdFusion Markup Language",
+      "note": "BOF: magic bytes: <cf (offset 0-100)\r\nEOF: magic bytes: cf{5-100}> (offset 0-5)"
+    },
+    {
+      "signatureID": 1908,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 5,
+      "byteSequence": "6366{5-100}3E",
+      "endianness": null,
+      "name": "ColdFusion Markup Language",
+      "note": "BOF: magic bytes: <cf (offset 0-100)\r\nEOF: magic bytes: cf{5-100}> (offset 0-5)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cfm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

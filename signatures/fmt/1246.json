@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 2064,
+  "formatName": "SOSI",
+  "version": null,
+  "formatDescription": "SOSI is an abbreviation of Samordnet Opplegg for Stedfestet Informasjon, translating to Systematic Organisation of Spatial Information in English.  SOSI is a file format used for exchanging digital geodata published initially in 1987 by the Norwegian Mapping Authority. The standard includes definitions for geometry, topology, data quality, coordinate systems, attributes and metadata. It is a widely used in file format for Norwegian map data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.kartverket.no/geodataarbeid/Standarder/SOSI/",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 243,
+  "provenanceCompoundName": "Norwegian Unix Users Group / Norwegian Unix Users Group",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1246",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/vnd.sosi",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1619,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 10,
+      "byteSequence": "484F4445{0-300}534F5349",
+      "endianness": null,
+      "name": "SOSI",
+      "note": "BOF: Magic bytes: {0-10} \u2018HODE\u2019{0-300}\u2019SOSI\u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sos",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2065,
+      "relatedFormatName": "SOSI"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2066,
+      "relatedFormatName": "SOSI"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2067,
+      "relatedFormatName": "SOSI"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2068,
+      "relatedFormatName": "SOSI"
+    }
+  ]
+}

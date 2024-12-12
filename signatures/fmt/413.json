@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 1191,
+  "formatName": "Scalable Vector Graphics Tiny",
+  "version": "1.2",
+  "formatDescription": "SVG is a language for describing two-dimensional graphics in XML. SVG allows for three types of graphic objects: vector graphic shapes (e.g., paths consisting of straight lines and curves), multimedia (such as raster images, video, and audio), and text. Graphical objects can be grouped, styled, transformed and composited into previously rendered objects.  Scalable Vector Graphics Tiny (SVGT), Version 1.2, is a language for describing two-dimensional vector graphics in XML, combined with raster graphics and multimedia. Its goal is to provide the ability to create a whole range of graphical content, from static images to animations to interactive Web applications. SVG 1.2 Tiny is a profile of SVG intended for implementation on mobile devices, such as cellular phones and PDAs; it also works on laptop and desktop computers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Specifications link: http://www.w3.org/TR/2008/REC-SVGTiny12-20081222/",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/413",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 732,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*3C737667{0-512}76657273696F6E3D22312E3222*7376673E",
+      "endianness": null,
+      "name": "SVG 1.2 Tiny",
+      "note": "BOF - <?xml version=\"1.0\"*<svg{0-512}version=\"1.2\"*svg>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "svg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 634,
+      "relatedFormatName": "Scalable Vector Graphics"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 634,
+      "relatedFormatName": "Scalable Vector Graphics"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 635,
+      "relatedFormatName": "Scalable Vector Graphics"
+    }
+  ]
+}

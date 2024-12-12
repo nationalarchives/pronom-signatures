@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2839,
+  "formatName": "Enigma Binary File (Finale)",
+  "version": "2",
+  "formatDescription": "A Finale (notation) document file used through Finale 2012. Enigma Binary File created for music notation software Finale. Finale was originally created for Coda Music Software, later sold to Net4Music which then became MakeMusic. Originally made for MacOS in 1988 it was later made available in Microsoft Windows. The Enigma stands for 'Environment for Notation Intuitive Graphic Music Algorithms'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://preservation.tylerthorsted.com/tag/font/\r\nhttps://web.archive.org/web/19990203113959/http://www.codamusic.com:80/down/finale/eeppd.txt\r\nhttps://en.wikipedia.org/wiki/Finale_(scorewriter)\r\nhttp://fileformats.archiveteam.org/wiki/Finale",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1972",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2327,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46696E616C6528544D292032",
+      "endianness": null,
+      "name": "Enigma Binary File (Finale) v.2",
+      "note": "BOF; Offset: 0; Magic Bytes: 'Finale(TM) 2'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mus",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1145,
+      "relatedFormatName": "Enigma Binary File (Finale)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2837,
+      "relatedFormatName": "Enigma Binary File (Finale)"
+    }
+  ]
+}

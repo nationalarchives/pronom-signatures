@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2399,
+  "formatName": "Visual Basic Project Workspace File",
+  "version": "1-6",
+  "formatDescription": "These are files created by Visual Basic, a software development tool for Windows. The files hold coordinate positions for each window in the visual programming environment, and are used to reload elements into their previous positions after a close/reopen. Visual Basic software has been replaced with Visual Basic.NET., which doesn\u2019t generate .vbw files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Dec 2021",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1574",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1915,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 36,
+      "byteSequence": "66726D",
+      "endianness": null,
+      "name": "Visual Basic Project Workspace File",
+      "note": "Magic bytes BOF, offset 0 - 36: frm\r\nMagic bytes EOF, offset 0: .."
+    },
+    {
+      "signatureID": 1915,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0D0A",
+      "endianness": null,
+      "name": "Visual Basic Project Workspace File",
+      "note": "Magic bytes BOF, offset 0 - 36: frm\r\nMagic bytes EOF, offset 0: .."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vbw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2366,
+      "relatedFormatName": "Visual Basic Form File"
+    }
+  ]
+}

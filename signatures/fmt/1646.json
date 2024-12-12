@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2473,
+  "formatName": "Roxio Label Creator Project File",
+  "version": "8-11",
+  "formatDescription": "Roxio Label Creator Project File is format used for storing project files produced by Roxio's Label Creator software, a software used for creating designs intended for jewel cases and disc labels. There are several known versions of this format with earlier versions being stored as OLE2 container format. This record describes the later versions of this format which has a binary signature.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://archive.org/details/roxio_label_creator/04_roxio_cd_label_creator.jpeg\r\n\r\nhttp://fileformats.archiveteam.org/wiki/JWL",
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for EOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "25 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1646",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1984,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52004F005800490020",
+      "endianness": null,
+      "name": "Roxio Label Creator Project File v8-11",
+      "note": "BOF; Offset: 0; Magic Bytes: 'R.O.X.I.' \r\n\r\nEOF; Offset: 109 - 120; Magic bytes; '\u00ff\u00fe\u00ff.A.r.i.a.l'"
+    },
+    {
+      "signatureID": 1984,
+      "positionType": "Absolute from EOF",
+      "offset": 109,
+      "maxOffset": 11,
+      "byteSequence": "02FFFEFF0541007200690061006C",
+      "endianness": null,
+      "name": "Roxio Label Creator Project File v8-11",
+      "note": "BOF; Offset: 0; Magic Bytes: 'R.O.X.I.' \r\n\r\nEOF; Offset: 109 - 120; Magic bytes; '\u00ff\u00fe\u00ff.A.r.i.a.l'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jwl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2472,
+      "relatedFormatName": "Roxio Label Creator Project File"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2181,
+  "formatName": "DeluxePaint Animation File",
+  "version": null,
+  "formatDescription": "DeluxePaint Animation software was a 1990s graphics editor for MS-DOS and released by Electronic Arts. Uses for the pixel graphic animations created included video games. The ANM file format defines key frame based animations of a vector 3D model (with model data in a separate file).  The file consists of ASCII text defining locations of \u2018bones\u2019 in the model at key frames.  Complex hierarchies of 3D structures can be formed to  decrease file complexity for common animations.  Events can be used to chain shorter animations into longer animations.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://gillius.org/cg3/anmfile.htm#:~:text=The%20ANM%20File%20format%20is,in%20a%20linear%20time%20space.\r\nhttp://www.textfiles.com/programming/FORMATS/animfile.txt",
+  "lastUpdatedDate": "10 Aug 2020",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Aug 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1363",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1746,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C5046200001",
+      "endianness": null,
+      "name": "DeluxePaint Animation File",
+      "note": "BOF: Magic bytes \u2019LPF \u2019 0x0001"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "anm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

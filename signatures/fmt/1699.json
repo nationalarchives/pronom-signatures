@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2535,
+  "formatName": "602 Graph/Chart File",
+  "version": "1.51",
+  "formatDescription": "Binary format for graph/chart created by spreadsheet programme Calc602,which was released in the 1990s by Czechoslovakian company 602 Svazarm (since the 1990s known as IT company Software602).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Oct 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "13 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1699",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2032,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "536F6674776172653630320D0A43616C6336303220762E312E35312047726166",
+      "endianness": null,
+      "name": "602 Graph/Chart File v.1.51",
+      "note": "BOF Absolute from beginning of file, magic bytes: Software602 Calc602 v.1.51 Graf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gc6",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2624,
+      "relatedFormatName": "602 Graph/Chart File"
+    }
+  ]
+}

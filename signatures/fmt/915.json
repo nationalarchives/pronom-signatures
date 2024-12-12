@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1720,
+  "formatName": "Mapsforge Binary Map File Format",
+  "version": null,
+  "formatDescription": "The mapsforge project aims to provide free and open software for the rendering of maps based on OpenStreetMap data. The Binary Map File Format is designed for map rendering on devices with limited resources, such as mobile phones.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/915",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1266,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6D617073666F7267652062696E617279204F534D",
+      "endianness": null,
+      "name": "Mapsforge Binary Map",
+      "note": "BOF: mapsforge binary OSM. Version is 4 byte integer from position 0x18. It may be desirable to distinguish between different versions as the format matures.\r\nSpecification: https://github.com/mapsforge/mapsforge/blob/master/docs/Specification-Binary-Map-File.md"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "map",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

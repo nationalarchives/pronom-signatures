@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2414,
+  "formatName": "Taquart Interlace Picture",
+  "version": null,
+  "formatDescription": "Taquart Interlace Picture is a graphics format developed for ATARI 400, 800, 130 XE and XL, all part of Atari 8-bit family.\r\n\r\nThe Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. in 1979 as the Atari 400 and Atari 800 and manufactured until 1992. All of the machines in the family are technically similar and differ primarily in packaging. They are based on the MOS Technology 6502 CPU running at 1.79 MHz, and were the first home computers designed with custom coprocessor chips.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.wikidata.org/wiki/Q105859115\r\n\r\nhttps://www.file-extensions.org/tip-file-extension-taquart-interlace-picture-format\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Taquart_Interlace_Picture\r\n\r\nhttps://en.wikipedia.org/wiki/Atari_8-bit_family",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1589",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1928,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "54495001",
+      "endianness": null,
+      "name": "Taquart Interlace Picture",
+      "note": "BOF; Offset: 0; Magic Bytes: 'TIP.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tip",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

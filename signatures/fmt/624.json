@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1420,
+  "formatName": "RIFF Palette Format",
+  "version": null,
+  "formatDescription": "A colour palette format which is shared in a resource interchange file format (RIFF).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.tactilemedia.com/info/MCI_Control_Info.html\r\nhttp://www.daubnet.com/en/file-format-riff",
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.",
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/624",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 955,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}50414C2064617461",
+      "endianness": null,
+      "name": "RIFF Palette Format",
+      "note": "BOF: RIFF{4}PAL data"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pal",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

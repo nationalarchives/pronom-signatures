@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2420,
+  "formatName": "ASEG-GDF2- Data Definition File",
+  "version": null,
+  "formatDescription": "ASEG-GDF2 (Australian Society of Exploration Geophysicists General Data Format Revision 2) is a data standard for the exchange and archive of geophysical data. Its primary purpose is to provide a consistent and self-documenting method for exchanging and archiving geophysical data between organisations with different hardware and software systems. For data to comply with the standard, it must be stored as a set of related ASCII files, which must include the following four filetypes as a minimum: File1.DAT, survey.DES, survey.DFN and survey.MET. The .dfn files enable the writing of code to enable to recovery of the geophysical data fields and their associated formats.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.aseg.org.au/sites/default/files/pdf/ASEG-GDF2-REV4.pdf",
+  "lastUpdatedDate": "06 Jan 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1593",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1932,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4445464E",
+      "endianness": "Big-endian",
+      "name": "ASEG-GDF2- Data definition file",
+      "note": "BOF Absolute from beginning of file, magic bytes: DEFN\r\nEOF Absolute from beginning of file, magic bytes: Export .."
+    },
+    {
+      "signatureID": 1932,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4578706F72740D0A",
+      "endianness": null,
+      "name": "ASEG-GDF2- Data definition file",
+      "note": "BOF Absolute from beginning of file, magic bytes: DEFN\r\nEOF Absolute from beginning of file, magic bytes: Export .."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dfn",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

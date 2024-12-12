@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2558,
+  "formatName": "BIM Metadata File",
+  "version": null,
+  "formatDescription": "BIM is a RealTime metadata file that is stored alongside the image files on cameras such as the Sony FS7. It can contain information such as focus distance, shutter speed, aperture in relation to time.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://us.community.sony.com/s/question/0D50B00004YTYxDSAX/copy-entire-card-or-just-clips?language=en_US",
+  "lastUpdatedDate": "16 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1722",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2050,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "001F013475726E3A736368656D61732D70726F66657373696F6E616C446973633A7265616C54696D654D6574613A63616D6572614D6574611C2E2F5265616C54696D654D65746143616D6572614D6574612E78736400",
+      "endianness": null,
+      "name": "BIM Metadata File",
+      "note": "BOF:0x00 (Null) followed by 0x1F (Unit Seperator) followed by 0x01 (Start of Header) followed by '4urn:schemas-professionalDisc:realTimeMeta:cameraMeta' followed by 0x1C (File Seperator) followed by './RealTimeMetaCameraMeta.xsd' followed by 0x00 (Null)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bim",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

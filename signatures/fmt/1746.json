@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2592,
+  "formatName": "Rocky Interlace Picture",
+  "version": null,
+  "formatDescription": "Rocky Interlace Picture is a graphics format from the Atari line of computers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Aug 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1746",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2087,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "524950312E",
+      "endianness": null,
+      "name": "Rocky Interlace Picture",
+      "note": "BOF:'RIP1.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rip",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

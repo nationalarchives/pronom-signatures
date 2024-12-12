@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1145,
+  "formatName": "Enigma Binary File (Finale)",
+  "version": "3+",
+  "formatDescription": "A Finale (notation) document file used through Finale 2012. Enigma Binary File created for music notation software Finale. Finale was originally created for Coda Music Software, later sold to Net4Music which then became MakeMusic. Originally made for MacOS in 1988 it was later made available for Microsoft Windows. The Enigma stands for 'Environment for Notation Intuitive Graphic Music Algorithms'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://preservation.tylerthorsted.com/tag/font/\r\nhttps://web.archive.org/web/19990203113959/http://www.codamusic.com:80/down/finale/eeppd.txt\r\nhttps://en.wikipedia.org/wiki/Finale_(scorewriter)\r\nhttp://fileformats.archiveteam.org/wiki/Finale",
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": "04/2024 (v.118)- Removed the string 'Finale \u00ae' from signature as this can be replaced with the string 'PrintMusic \u00ae', updated description, note field and added version number. Submitted by Brigham Young University.",
+  "formatSourceDate": "16 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/397",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 631,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "454E49474D412042494E4152592046494C45",
+      "endianness": null,
+      "name": "Enigma Binary File (Finale) 3+",
+      "note": "BOF; Offset: 0; Magic Bytes: 'Enigma Binary File'; Version info can be found within the file but this is a generic signature to cover all versions from 3 onwards."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mus",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2839,
+      "relatedFormatName": "Enigma Binary File (Finale)"
+    }
+  ]
+}

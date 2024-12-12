@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2412,
+  "formatName": "COKE Format (Atari Falcon)",
+  "version": null,
+  "formatDescription": "COKE Format is a simple uncompressed raster image format associated with Atari Falcon computers.\r\n\r\nThe Atari Falcon030 (usually shortened to Atari Falcon), released in 1992, was the final personal computer product from Atari Corporation. A high-end model of the Atari ST line, the machine is based on a Motorola 68030 CPU and a Motorola 56000 digital signal processor, a feature which distinguishes it from most other microcomputers of the era. It included a VIDEL programmable graphics system which greatly improved graphics capabilities.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/COKE_(Atari_Falcon)\r\n\r\nhttps://temlib.org/AtariForumWiki/index.php/COKE_file_format",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1587",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1926,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "434F4B4520666F726D61742E",
+      "endianness": null,
+      "name": "COKE format (Atari Falcon)",
+      "note": "BOF; Offset: 0; Magic Bytes: 'COKE Format.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tg1",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

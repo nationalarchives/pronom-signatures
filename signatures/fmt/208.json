@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 934,
+  "formatName": "Binary File",
+  "version": null,
+  "formatDescription": "This entry records generic Binary File format. A binary file is a computer file that is not a text file, the term itself is often used to describe a \"non-text file\". Due to multiple varieties of this format, this file format entry does not include a file format signature. Although binary file is not a text-based file format, some files stored as binary can contain parts that can be interpreted as text; for example, some computer document files containing formatted text, such as older Microsoft Word document files, contain the text of the document but also contain formatting information in binary form.\r\n\r\nThe .bin extension is also used for the 'Binary Text (BIN)' graphics format, a method of creating images using ANSI character encoding. This format has no distinctive name, file extension, or a signature, and is different than a text-based file, which can be edited in a text editor. More information about BIN (Binary Text) format can be found using the reference links provided. The newer version to BIN format which has a clear file format signiture is XBIN [fmt/1612].",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": "https://en.wikipedia.org/wiki/Binary_file\r\n\r\nhttp://fileformats.archiveteam.org/wiki/BIN_(Binary_Text)\r\n\r\nhttp://www.acid.org/images/0896/XBIN.TXT\r\n\r\nhttps://fileinfo.com/extension/bin",
+  "lastUpdatedDate": "27 Jan 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/208",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "bin",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2439,
+      "relatedFormatName": "XBIN (eXtended BIN)"
+    }
+  ]
+}

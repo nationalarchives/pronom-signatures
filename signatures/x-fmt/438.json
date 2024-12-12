@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 849,
+  "formatName": "CATIA Material Description",
+  "version": "5",
+  "formatDescription": "CATIA is a 3D modelling software created by Dassault Syst\u00e8mes, widely used across many industries for computer aided design, manufacture and engineering.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2022",
+  "formatSourceID": 131,
+  "provenanceCompoundName": "Digital Library Research Group / MIT Libraries",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Apr 2009",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "",
+      "identifierType": "Other"
+    },
+    {
+      "identifierText": "x-fmt/438",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 345,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "56355F434656320000*2E4341544D6174657269616C",
+      "endianness": null,
+      "name": "CATIA Material Description V5",
+      "note": "CATIA Version 5 identifier plus file extension of the file name (.CATMaterial)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "catmaterial",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

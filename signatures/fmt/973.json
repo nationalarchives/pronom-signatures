@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1778,
+  "formatName": "DTS Coherent Acoustics (DCA) Audio",
+  "version": null,
+  "formatDescription": "DTS Coherent Acoustics is a consumer-level audio codec employed as part of the DVD, Laserdisc and Blu-ray specifications.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/vnd.dts",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/973",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1336,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7FFE8001",
+      "endianness": null,
+      "name": "DTS Audio",
+      "note": "BOF frame header - 0x7FFE8001\r\nSpecification: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=35781"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dts",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,94 @@
+{
+  "fileFormatID": 1346,
+  "formatName": "Adobe Illustrator",
+  "version": "9.0",
+  "formatDescription": "The documents (files) created by Adobe Illustrator are PostScript language\r\ndocuments. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page.\r\nBeginning with version 9, the Adobe Illustrated ai file format included both a pdf copy of the illustration and a postscript copy.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/Adobe_Illustrator_Artwork\r\n\r\nhttps://en.wikipedia.org/wiki/Adobe_Illustrator_Artwork\r\n\r\nhttps://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html",
+  "lastUpdatedDate": "24 May 2023",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Update submitted in v113 signture file by Brigham Young University as part of research - https://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf/",
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.illustrator-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/558",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q47498538",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 892,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "255044462D312E(33|34)*41495072697661746544617461*252150532D41646F62652D332E30*254149355F46696C65466F726D617420(34|35)",
+      "endianness": null,
+      "name": "Adobe Illustrator 9.0",
+      "note": "PDF header '%PDF-1.' either byte '4' or '3' then 'AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat' and either bytes '4' or '5'"
+    },
+    {
+      "signatureID": 892,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 32000,
+      "byteSequence": "252150532D41646F62652D332E30{128-1024}254149355F46696C65466F726D61742035",
+      "endianness": null,
+      "name": "Adobe Illustrator 9.0",
+      "note": "PDF header '%PDF-1.' either byte '4' or '3' then 'AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat' and either bytes '4' or '5'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ai",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 617,
+      "relatedFormatName": "Acrobat PDF 1.4 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1347,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1345,
+      "relatedFormatName": "Adobe Illustrator"
+    }
+  ]
+}

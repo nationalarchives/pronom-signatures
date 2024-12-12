@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1419,
+  "formatName": "SmartDraw",
+  "version": null,
+  "formatDescription": "SmartDraw is a visual processor used to create flowcharts, organisation charts, mind maps, project charts, and other visuals.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/623",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 954,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534D4152544452570180",
+      "endianness": null,
+      "name": "SmartDraw",
+      "note": "BOF: SMARTDRW.\u20ac"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sdr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

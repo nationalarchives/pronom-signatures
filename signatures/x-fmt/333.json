@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 496,
+  "formatName": "Lotus Approach View File",
+  "version": "97",
+  "formatDescription": "Lotus Approach is a relational database management system included in IBM's Lotus SmartSuite for Microsoft Windows.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "06 Nov 2014",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-approach",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/333",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "apr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2502,
+  "formatName": "Roxio Easy Media Creator Layout",
+  "version": "7",
+  "formatDescription": "Roxio Easy Media Creator Layout version 7 with extension RCL is a part of Roxio disc project formats. RCL files are formed using Roxio Easy Media Creator software (previously named as Easy CD Creator and Roxio Easy CD Creator), originally published by Adaptec in 1996, this version follows the rebranding of the software to Roxio and was published around 2003. The format is different in hex structure to its predecessor version 6 (fmt/1665), with its hex sequence referencing the format version. Roxio Easy Media Creator software allowed the user to create data or audio CD layout by adding files or music in order to burn a disc. The layout only referenced the file location and not the files themselves. It allowed for files to be saved for later use with references to files that will be included on the disc as well as other settings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/RCL\r\n\r\nhttps://archive.org/details/roxio-emc7-content/1-CDFront.jpg",
+  "lastUpdatedDate": "19 Apr 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1666",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2000,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFE2300{0-900}5B0052006F00780069006F0049004E004600320030005D000D000A005B00500072006F006A00650063007400530065007400740069006E00670073005D000D000A00520043004C005600650072003D00370030",
+      "endianness": null,
+      "name": "Roxio Easy Media Creator Layout v7",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x FFFE2300, followed by a wildcard bytes between 0-900, then '[RoxioINF20] [ProjectSettings] RCLVer=70'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rcl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2503,
+      "relatedFormatName": "Roxio Easy Media Creator - Classic Creator File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2504,
+      "relatedFormatName": "Roxio Easy Media Creator Layout"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2505,
+      "relatedFormatName": "Roxio Data Project File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2501,
+      "relatedFormatName": "Easy CD Creator Layout | Roxio Easy CD Creator Layout"
+    }
+  ]
+}

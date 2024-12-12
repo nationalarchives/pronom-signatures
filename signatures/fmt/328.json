@@ -1,0 +1,106 @@
+{
+  "fileFormatID": 1073,
+  "formatName": "EndNote Import File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "31 Jan 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Jan 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-endnote-refer",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/328",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 425,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 154,
+      "byteSequence": "254120[41:5A]{5-50}(0A|0A0D)25(41|42|43|44|54)20([30:39]|[41:5A])",
+      "endianness": null,
+      "name": "EndNote Import File No.1",
+      "note": "The format is made up of various pieces of bibliographical data. Each piece of information is preceded by an indicator sequence which defines the type of information recorded, e.g. %A precedes author information, %D precedes date information, %T precedes title etc. This signature has been based on the relative positions of %A  with %T and %D sequences, which appeared in all End Note Import files tested."
+    },
+    {
+      "signatureID": 426,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 154,
+      "byteSequence": "2541[41:5A]{5-50}(0A|0A0D)25(41|42|43|44|54)([30:39]|[41:5A])",
+      "endianness": null,
+      "name": "EndNote Import File No.2",
+      "note": "The format is made up of various pieces of bibliographical data. Each piece of information is preceded by an indicator sequence which defines the type of information recorded, e.g. %A precedes author information, %D precedes date information, %T precedes title etc. This signature has been based on the relative positions of %A and %D and %T sequences, which appeared in all End Note Import files tested."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "enw",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "enr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 86,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 138,
+      "relatedFormatName": "Postscript"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 771,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 772,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1288,
+      "relatedFormatName": "PostScript"
+    }
+  ]
+}

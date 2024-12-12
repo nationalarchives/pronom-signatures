@@ -1,0 +1,126 @@
+{
+  "fileFormatID": 2352,
+  "formatName": "Serif DrawPlus Drawing",
+  "version": "Generic",
+  "formatDescription": "Serif DrawPlus is a vector image creation application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "25 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1528",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "dpp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dpa",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1628,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1653,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1654,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2343,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2344,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2345,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2346,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2347,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2348,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2349,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2350,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2351,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "22620",
+      "description": "Serif DrawPlus Drawing Generic",
+      "files": [
+        {
+          "path": "DocInfo",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "24",
+                  "sequence": "'CompressionFile'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

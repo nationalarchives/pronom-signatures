@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 1205,
+  "formatName": "Adobe Illustrator",
+  "version": "7.0",
+  "formatDescription": "The documents (files) created by Adobe Illustrator are PostScript language\r\ndocuments. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Specifications link: http://mercator.elte.hu/~saman/hu/okt/AI7FileFormat.pdf\r\nVersion 7.0 includes: tabbed dockable palettes, transform palette, align palette, Photoshop pixel filters, rasterize, punk, bloat, free distort, layout grid, vertical text tool",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.illustrator-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/423",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 890,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D332E30{128-1024}254149355F46696C65466F726D61742033",
+      "endianness": null,
+      "name": "Adobe Illustrator 7.0",
+      "note": "The first line of the file declares that the file contains a Postscript program and identifies the version of the Document Structuring Conventions to which the document conforms as 3.0. The comment \u201c%AI5_FileFormat 3\u201d indicates that this is a version 7.0 Adobe Illustrator file."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ai",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 86,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 771,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    }
+  ]
+}

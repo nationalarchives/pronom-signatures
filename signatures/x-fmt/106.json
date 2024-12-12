@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 154,
+  "formatName": "Microsoft Symbolic Link (SYLK) File",
+  "version": null,
+  "formatDescription": "The SYLK (SYmbolic LinK) file format is a ASCII format used to exchange information between versions of Multiplan and spreadsheets such as Excel.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/SYLK\r\nhttp://netghost.narod.ru/gff/graphics/summary/micsylk.htm",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- description updated, internal signature max offset values changed from null to 0 and EOF signature modified to accommodate for different operating systems. Submitted by Brigham Young University as part of PRONOM Research Week.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/106",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 603,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49443B50",
+      "endianness": null,
+      "name": "Microsoft Symbolic Link (SYLK) File",
+      "note": "First Record type descriptor is ID;P<name>;  Last record is E"
+    },
+    {
+      "signatureID": 603,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "(0D|0D0A|0A)45(0D|0D0A|0A)",
+      "endianness": null,
+      "name": "Microsoft Symbolic Link (SYLK) File",
+      "note": "First Record type descriptor is ID;P<name>;  Last record is E"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "slk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2717,
+  "formatName": "Adobe Illustrator CC 2020 Artwork",
+  "version": "24-24.1",
+  "formatDescription": "The documents (files) created by Adobe Illustrator are PostScript language documents. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page. Beginning with version 9, the Adobe Illustrated ai file format included both a pdf copy of the illustration and a postscript copy. Beginning with Adobe Illustrator 13.0. the PDF that Illustrator embeds in the file so that other apps can read the file is PDF 1.5. The PDF 1.5 header is included in the file structure.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/Adobe_Illustrator_Artwork\r\n\r\nhttps://en.wikipedia.org/wiki/Adobe_Illustrator_Artwork\r\n\r\nhttps://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html\r\n\r\nhttps://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf/",
+  "lastUpdatedDate": "24 May 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "24 May 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1863",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2207,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D6174203134",
+      "endianness": null,
+      "name": "Adobe Illustrator CC 2020 Artwork 24-24.1",
+      "note": "PDF header '%PDF-1.5<illustrator:Type>Document</illustrator:Type>%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat 14'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ai",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ait",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2718,
+      "relatedFormatName": "Adobe Illustrator CC 2020 Artwork"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2716,
+      "relatedFormatName": "Adobe Illustrator CC Artwork"
+    }
+  ]
+}

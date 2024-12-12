@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1441,
+  "formatName": "Fujifilm RAW Image Format",
+  "version": null,
+  "formatDescription": "This format is the RAW image format used in FujiFilm cameras. RAW format images contain all the data that is taken directly from the camera's image sensor before the software in the camera applies things like white balance, sharpening etc. Storing photographs in a camera's RAW format allows you to alter those settings after the photograph has been taken.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "31 Mar 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": "http://libopenraw.freedesktop.org/wiki/Fuji_RAF/",
+  "formatSourceDate": "31 Mar 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/642",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 971,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46554A4946494C4D4343442D52415720",
+      "endianness": null,
+      "name": "Fujifilm RAW Image Format",
+      "note": "BOF: FUJIFILMCCD-RAW"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "raf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

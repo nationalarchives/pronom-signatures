@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2752,
+  "formatName": "Nokia Picture Message",
+  "version": null,
+  "formatDescription": "Nokia Picture Message (or Nokia Phone Picture Message, NPM) is a bi-level raster image format used by some Nokia phones. NPM images are 72\u00d728 pixels, though the format supports other sizes up to 255\u00d7255.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/Nokia_Picture_Message",
+  "lastUpdatedDate": "07 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1896",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2240,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4E504D",
+      "endianness": null,
+      "name": "Nokia Picture Message",
+      "note": "BOF:'NPM'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "npm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

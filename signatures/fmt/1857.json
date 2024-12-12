@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2711,
+  "formatName": "Capture One Session File",
+  "version": null,
+  "formatDescription": "COS files are XML CaptureOne Session files which contain metadata for each image within a CaptureOne session. Capture One is a software for RAW photo editing geared for photography.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.captureone.com/blog/eip-file-format-enhanced-image-package\r\n\r\nhttps://support.captureone.com/hc/en-us/articles/360002478617-Enhanced-Image-Package-EIP-overview\r\n\r\nhttps://support.captureone.com/hc/en-us/articles/360002544898-Metadata-in-XMP-sidecar-files\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Enhanced_Image_Package",
+  "lastUpdatedDate": "25 Apr 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Apr 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1857",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2202,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
+      "endianness": null,
+      "name": "Capture One Session File",
+      "note": "BOF XML header.  Then BOF tags specific to Capture One software '<IMG>' gap between {0-256} then '<E K=' either 0x22 or 0x27 followed by 'Author'."
+    },
+    {
+      "signatureID": 2202,
+      "positionType": "Absolute from BOF",
+      "offset": 22,
+      "maxOffset": 0,
+      "byteSequence": "3C494D473E{0-256}3C45204B3D(22|27)417574686F72(22|27)",
+      "endianness": null,
+      "name": "Capture One Session File",
+      "note": "BOF XML header.  Then BOF tags specific to Capture One software '<IMG>' gap between {0-256} then '<E K=' either 0x22 or 0x27 followed by 'Author'."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cos",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2569,
+      "relatedFormatName": "Capture One Settings File"
+    }
+  ]
+}

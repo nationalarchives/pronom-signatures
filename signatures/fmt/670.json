@@ -1,0 +1,84 @@
+{
+  "fileFormatID": 1469,
+  "formatName": "PKCS #7 Cryptographic Message File",
+  "version": null,
+  "formatDescription": "PKCS #7 Cryptographic Message File is a form of electronic signature used to secure messages that can only be read by the intended recipient. PKCS #7 describes a general syntax for data that may have cryptography applied to it, such as digital signatures and digital envelopes. PKCS #7 is one of the family of standards called Public-Key Cryptography Standards (PKCS) devised and published by RSA Security Inc, starting in the early 1990s; storing signed and/or encrypted data, usually attached to an email message that includes an S/MIME (Secure/Multipurpose Internet Mail Extensions) digital signature. The extension .p7s usually refers to PKCS #7 Signature Files; .p7m usually refers to PKCS #7 MIME Files; and .p7b usually refers to PKCS #7 Certificate Files. The research of this format is still ongoing, please contact the PRONOM team if you how any more information regarding this format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/PKCS_7\r\n\r\nhttps://en.wikipedia.org/wiki/PKCS\r\n\r\nhttps://en.wikipedia.org/wiki/S/MIME\r\n\r\nhttps://www.cryptomathic.com/news-events/blog/introduction-to-digital-signatures-and-pkcs-7\r\n\r\nhttps://comodosslstore.com/resources/what-is-an-smime-p7s-file-attachment-and-how-do-i-open-it/",
+  "lastUpdatedDate": "16 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.116)- Priority over fmt/101 added. Internally researched.",
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pkcs7-mime",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/pkcs7-signature",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/670",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1003,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "30{1-5}06092A864886F7",
+      "endianness": null,
+      "name": "PKCS #7 Cryptographic Message File",
+      "note": "The signature is seeking the first byte of 0x30, then the presence of the OID (Object Identifier) 1 2 840 113549 1 7 in ASN.1 (Abstract Syntax Notation) using BER (Basic encoding rules) encoding."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "p7m",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p7b",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p7s",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2061,
+      "relatedFormatName": "ZFO (Message) File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2062,
+      "relatedFormatName": "ZFO (Sent Message) File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2063,
+      "relatedFormatName": "ZFO (Proof of Delivery) File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

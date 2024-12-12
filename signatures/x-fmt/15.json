@@ -1,0 +1,35 @@
+{
+  "fileFormatID": 42,
+  "formatName": "MS-DOS Text File",
+  "version": null,
+  "formatDescription": "MS-DOS Editor, commonly just called edit, is a character-based text editor that comes with MS-DOS (since version 5) and 32-bit versions of Microsoft Windows. It superseded edlin, the standard editor in earlier versions.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "text/plain",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/15",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": []
+}

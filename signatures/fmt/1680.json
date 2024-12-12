@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2516,
+  "formatName": "INTREPID Standard Information File",
+  "version": "3.7 onwards",
+  "formatDescription": "INTREPID Standard Information Files are a format developed by Australian company Intrepid Geophysics, used by their INTREPID software for processing and visualising geophysical data. isi files are vector files which can capture a variety of data. Every INTREPID dataset has an isi file which contains, amongst other information, the parameter values for the dataset.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://docs.intrepid-geophysics.com/intrepid/topics/databases-files-and-data-structures.html#5_5_INTREPID",
+  "lastUpdatedDate": "09 May 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "09 May 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1680",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2013,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D6574614461746120426567696E0D0A094E616D65093D",
+      "endianness": null,
+      "name": "INTREPID Standard Information File",
+      "note": "BOF Absolute from beginning of file, magic bytes: MetaData Begin...Name.=\r\nEOF Absolute from beginning of file, magic bytes: End..MetaData End.."
+    },
+    {
+      "signatureID": 2013,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "456E640D0A4D6574614461746120456E640D0A",
+      "endianness": null,
+      "name": "INTREPID Standard Information File",
+      "note": "BOF Absolute from beginning of file, magic bytes: MetaData Begin...Name.=\r\nEOF Absolute from beginning of file, magic bytes: End..MetaData End.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "isi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

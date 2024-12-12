@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 2018,
+  "formatName": "Virtools File Format",
+  "version": null,
+  "formatDescription": "This is a group of formats created by the Virtools software application. Originally released in 1993, Virtools offered a development environment to create interactive 3D applications.\r\n\r\nVirtools includes four format types, Composition files, Object files, Player files and Scripts files.\r\n\r\nVirtools Composition files have an extension of .cmo, these contain an arrangement of one or more elements or associated behaviours which are assembled within Virtools. \r\nVirtools Object files have an extension of .nmo and contain one or more elements or scripts.\r\nVirtools Player files have an extension of .vmo and contain a composition that has been exported from Virtools and are read only files.\r\nVirtools Script files have an extension of .nms and contain a script or a behaviour graph.\r\n\r\nCurrently PRONOM is unable to distinguish between these four different formats, if you are able to provide any information around this format please contact pronom@nationalarchives.gov.uk.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "16 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1208",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1586,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4E656D6F20466900",
+      "endianness": null,
+      "name": "Virtools File Format",
+      "note": "BOF: 'Nemo Fi.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cmo",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nmo",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vmo",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nms",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

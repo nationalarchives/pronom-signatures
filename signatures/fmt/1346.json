@@ -1,0 +1,89 @@
+{
+  "fileFormatID": 2164,
+  "formatName": "Autodesk Revit File",
+  "version": "4",
+  "formatDescription": "Autodesk Revit is 3D modeling software. RTE (template) files and RVT (project) files are actual Revit projects. RFA (family) files and RFT (family template) files are family files that can either be loaded into a project or saved externally.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1346",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "rvt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rfa",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rte",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rft",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2165,
+      "relatedFormatName": "Autodesk Revit Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2166,
+      "relatedFormatName": "Autodesk Revit Family File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2167,
+      "relatedFormatName": "Autodesk Revit Family File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2168,
+      "relatedFormatName": "Autodesk Revit Project File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2169,
+      "relatedFormatName": "Autodesk Revit Family File"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "43000",
+      "description": "AutoDesk Revit File 4",
+      "files": [
+        {
+          "path": "Formats"
+        },
+        {
+          "path": "Contents"
+        }
+      ]
+    }
+  ]
+}

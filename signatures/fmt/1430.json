@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2248,
+  "formatName": "Minitab Worksheet",
+  "version": "8-11",
+  "formatDescription": "Minitab is a statistical analysis package originally developed at the Pennsylvania State University. A worksheet file contains an exported worksheet, while a project file contains all project-related data including all worksheets, settings, graphs and history.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1430",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1799,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "574F524B53484545542053544F524544204259204D494E49544142",
+      "endianness": null,
+      "name": "Minitab Worksheet 8-11",
+      "note": "BOF: 'WORKSHEET STORED BY MINITAB'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mtw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

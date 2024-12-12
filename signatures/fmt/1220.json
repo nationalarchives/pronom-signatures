@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 2030,
+  "formatName": "WordPerfect for Macintosh Document",
+  "version": "2.x",
+  "formatDescription": "WordPerfect is a word processor application currently owned by Corel. Applications implementing the libwpd library should be able to render older WordPerfect documents. WordPerfect documents created within a Macintosh environment are likely to lack a format extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Feb 2019",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Feb 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.wordperfect",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1220",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1598,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF575043{4}012C02",
+      "endianness": null,
+      "name": "WordPerfect for Mac 2.x",
+      "note": "Word Perfect magic: 0xFF'WPC', {4} Product code 0x01=Word Perfect, File Type 0x2C=MAC WP, File Format Major Version 0x02=2 - http://www.columbia.edu/~em36/wpdos/WPMac4FileFormat.pdf"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

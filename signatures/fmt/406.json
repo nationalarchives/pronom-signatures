@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1154,
+  "formatName": "Portable Grey Map - Binary",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/406",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 588,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5035(20|0D|0A){0-2}23{0-70}0A(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)",
+      "endianness": null,
+      "name": "Portable Grey Map - Binary with comment",
+      "note": "\u201cP5\u201d followed by comment, followed by width, height, colour."
+    },
+    {
+      "signatureID": 625,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5035(20|0D|0A)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)(30|31|32|33|34|35|36|37|38|39|20|0A|0D)",
+      "endianness": null,
+      "name": "Portable Grey Map - Binary without comment",
+      "note": "\r\n\u201cP5\u201d  followed by width, height."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pgmb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pgm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

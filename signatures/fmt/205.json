@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 931,
+  "formatName": "Synchronized Multimedia Integration Language (Generic)",
+  "version": null,
+  "formatDescription": "Synchronized Multimedia Integration Language is a World Wide Web Consortium recommended Extensible Markup Language (XML) markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, media embedding and others. SMIL allows presenting media items such as text, images, video, audio, links to other SMIL presentations, and files from multiple web servers. SMIL markup is written in XML, and has similarities to HTML. This is the generic entry for this file format which most commonly is denoted with the .smil extension. It is likely that the truncated .smi extension refers specifically to the metadata files accompanying the corresponding images taken by Sony digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language\r\n\r\nhttps://www.w3.org/TR/SMIL3/\r\n\r\nhttp://www.telestream.net/pdfs/app-notes/app_Camera_Ingest.pdf",
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/205",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2051,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){20-86}3C736D696C",
+      "endianness": null,
+      "name": "Synchronized Multimedia Integration Language",
+      "note": "BOF, offset 0-3, magic bytes:'<?xml version=(\"|')1.0(\"|'){20-86}<smil\r\nEOF, offset 0-3, magic bytes: </smil>"
+    },
+    {
+      "signatureID": 2051,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C2F736D696C3E",
+      "endianness": null,
+      "name": "Synchronized Multimedia Integration Language",
+      "note": "BOF, offset 0-3, magic bytes:'<?xml version=(\"|')1.0(\"|'){20-86}<smil\r\nEOF, offset 0-3, magic bytes: </smil>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "smil",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "smi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2626,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

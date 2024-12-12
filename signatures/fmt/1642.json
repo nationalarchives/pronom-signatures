@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2469,
+  "formatName": "Adobe InDesign Library",
+  "version": "2",
+  "formatDescription": "Adobe InDesign is a desktop publishing application developed and produced by Adobe Inc., first released in 1999. It is the successor to PageMaker, software previously created by Aldus Corporation in 1985, which was subsequently acquired by Adobe. It can be used to produce a number of works such as posters, flyers, brochures, magazines, newspapers, presentations and books. InDesign supports XML, stylesheets and other coding markup, providing functionality for exporting tagged text content for use in other digital and online formats. An InDesign Library is used to collect assets and other elements within Adobe InDesign that can then be shared across multiple projects.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/InDesign_Library",
+  "lastUpdatedDate": "24 Feb 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1642",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1982,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D4C49425241525932",
+      "endianness": null,
+      "name": "Adobe InDesign Library 2",
+      "note": "BOF:0x0606 (2 x Acknowledge) followed by '\u00ed\u00f5\u00d8' followed by 0x1D (Group Separator) followed by 'F\u00e5\u00bd1\u00ef\u00e7\u00fet\u00b7' followed by 0x1D (Group Separator) followed by 'LIBRARY2'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "indl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2002,
+      "relatedFormatName": "Adobe InDesign Library"
+    }
+  ]
+}

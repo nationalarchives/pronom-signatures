@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 922,
+  "formatName": "InstallShield Compiled Rules File",
+  "version": null,
+  "formatDescription": "InstallShield is a proprietary software tool originally developed by The Stirling Group, a company founded in 1987 by Viresh Bhatia and Rick Harold. By 1990, the company was selling a number of products, amongst them InstallShield which was designed to create installation programs. By 1997, Stirling Technologies estimated that InstallShield was being used in 85-90% of all software products written for Windows.\r\n\r\nThe majority of INX files included with an installation are named \"setup.inx\". This propriety file contains instructions and parameters for the installation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://en.wikipedia.org/wiki/InstallShield\r\n\r\nhttp://fileformats.archiveteam.org/wiki/InstallShield_INX",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/197",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1830,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "614C755A0000436F707972696768742028632920313939302D3139393920537469726C696E6720546563686E6F6C6F676965732C204C74642E",
+      "endianness": null,
+      "name": "InstallShield Compiled Rules File",
+      "note": "BOF: 'aLuZ  Copyright (c) 1990'"
+    },
+    {
+      "signatureID": 1845,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "614C755A0000436F707972696768742028632920313939302D3230303220496E7374616C6C536869656C6420536F66747761726520436F72702E",
+      "endianness": null,
+      "name": "InstallShield Compiled Rules File (1990-2002)",
+      "note": "BOF: 'aLuZ  Copyright (c) 1990-2002 InstallShield Software Corp.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "inx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

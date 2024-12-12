@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1699,
+  "formatName": "JEOL NMR Spectroscopy",
+  "version": null,
+  "formatDescription": "Nuclear magnetic resonance spectroscopy (NMR spectroscopy) data files produced by with JEOL's NMR Spectrometers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/895",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1242,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4A454F4C2E4E4D52",
+      "endianness": null,
+      "name": "JDF NMR Spectroscopy big endian",
+      "note": "Big Endian: BOF: 4A454F4C2E4E4D52  (JEOL.NMR)"
+    },
+    {
+      "signatureID": 1244,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "524D4E2E4C4F454A",
+      "endianness": null,
+      "name": "JDF little endian",
+      "note": "Little Endian: 524D4E2E4C4F454A  (RMN.LOEJ)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

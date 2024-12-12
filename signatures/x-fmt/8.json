@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 18,
+  "formatName": "dBASE Database",
+  "version": "II",
+  "formatDescription": "dBase is a database management systems for microcomputers.The dBase system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. dBase's underlying file format, the .dbf file, is widely used in applications needing a simple format to store structured data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Oct 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/8",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 381,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "02{2}[01:1C][01:1F]????[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
+      "endianness": "Little-endian",
+      "name": "dBase Table Version II (date last updated (month (1-12), day (1-31), year)",
+      "note": "Version number (02), date last updated ((month (1-12), day (1-31), year), Maximum length of each record =1000, first character of field name is upper or lowercase ASCII letter (41-5A) or (61-7A), Field Type (C, N or L)"
+    },
+    {
+      "signatureID": 382,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "02{2}000000??[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
+      "endianness": "Little-endian",
+      "name": "dBase Table Version II (date last updated MMDDYY all zero)",
+      "note": "Version number (02), date last updated MMDDYY all zero, Maximum length of each record =1000, first character of field name is upper or lowercase ASCII letter (41-5A) or (61-7A), Field Type (C, N or L)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dbf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

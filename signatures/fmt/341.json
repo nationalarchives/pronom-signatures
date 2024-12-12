@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 1086,
+  "formatName": "Macintosh PICT Image",
+  "version": "2.0",
+  "formatDescription": "A graphics format native to Macintosh computers encapsulating the functionality of QuickDraw 2 which supports monochrome and 8 bit color bitmaps.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/PICT",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "04/2024 (v.118)- Description created and links added as part of PRONOM Research Week 2023. Submitted by Brigham Young University.",
+  "formatSourceDate": "21 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.apple.pict",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/341",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/x-pict",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 468,
+      "positionType": "Absolute from BOF",
+      "offset": 522,
+      "maxOffset": null,
+      "byteSequence": "001102FF0C00",
+      "endianness": null,
+      "name": "Macintosh PICT Image 2.0 (colour images)",
+      "note": "512 byte header, 2-byte picture size, 8 bytes picture frame (rectangle), version operator (0011h); version number (02FFh); Version operator (0C00h). The PICT format can be written by a number of applications; as a result the 512 byte header either includes information about the particular software which created the file, or is all zeros. The version operator and version number information is constant across objects of this format."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pct",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pict",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 122,
+      "relatedFormatName": "Macintosh PICT Image"
+    }
+  ]
+}

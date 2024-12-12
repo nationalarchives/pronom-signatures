@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1691,
+  "formatName": "SafeGuard Encrypted Virtual Disk",
+  "version": null,
+  "formatDescription": "SafeGuard PrivateDisk is disk encryption software produced by Sophos. The .hdr file appears to contain header information, while the .vol file is the encrypted virtual disk.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/887",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1236,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "507269766174654469736B205669727475616C204469736B",
+      "endianness": null,
+      "name": "PDisk (Private Virtual Disk)",
+      "note": "507269766174654469736B205669727475616C204469736B {PrivateDisk Virtual Disk}"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vol",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hdr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

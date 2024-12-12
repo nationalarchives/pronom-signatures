@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 970,
+  "formatName": "Microsoft Office Binder File for Windows",
+  "version": "97-2000",
+  "formatDescription": "Microsoft Binder was an application included with Microsoft Office 95, 97, and 2000 that allowed users to include different types of OLE 2.0 objects (e.g., documents, spreadsheets, and presentations) in one file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "07 Jan 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "07 Jan 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/240",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "obd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "5500",
+      "description": "Microsoft Office Binder File for Windows 97-2000",
+      "files": [
+        {
+          "path": "Binder"
+        }
+      ]
+    }
+  ]
+}

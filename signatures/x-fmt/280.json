@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 429,
+  "formatName": "XML Schema Definition",
+  "version": null,
+  "formatDescription": "XML Schemas Definition files define the structure, and content of XML documents. They are used to express a set of rules to which an XML document must conform in order to be considered 'valid' in accordance to the particular schema referenced.\r\nFull specifications can be found at http://www.w3.org/TR/xmlschema-0/",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "01 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/280",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 538,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
+      "endianness": null,
+      "name": "XML Schema Definition",
+      "note": "ASCII header: <?xml version=\"1.0\". ASCII footer: </xsd:schema> or </xs:schema> or </schema>. Signature will only identify against xsd files which do not have any comments inserted either before the xml declaration, or at the very end of the file."
+    },
+    {
+      "signatureID": 538,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "3C(2F7873643A|2F78733A|2F)736368656D613E",
+      "endianness": null,
+      "name": "XML Schema Definition",
+      "note": "ASCII header: <?xml version=\"1.0\". ASCII footer: </xsd:schema> or </xs:schema> or </schema>. Signature will only identify against xsd files which do not have any comments inserted either before the xml declaration, or at the very end of the file."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xsd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 319,
+      "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1852,
+      "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2192,
+      "relatedFormatName": "xdomea"
+    }
+  ]
+}

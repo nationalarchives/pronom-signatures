@@ -1,0 +1,90 @@
+{
+  "fileFormatID": 2732,
+  "formatName": "GST Art File",
+  "version": "2",
+  "formatDescription": "GST Art File is a vector based drawing format file format with an .art extension. This version of the file is an OLE file, from when the company developed their software to have OLE2 support. GST Technology developed its first drawing software in the early 1990s alongside its DTP software. In 2001, the company merged to form Greenstreet Software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/GST_ART",
+  "lastUpdatedDate": "04 Jul 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures. 04/2024 (v.118)- Update to container signature to allow for 'CONTENTS' and 'Contents' file paths and max-offset changed to 0 to allow for more precise identification. Submitted by Brigham Young University.",
+  "formatSourceDate": "04 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1878",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "art",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2731,
+      "relatedFormatName": "GST Art File"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "52100",
+      "description": "GST Art 1",
+      "files": [
+        {
+          "path": "CONTENTS",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "16",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "47 53 54 3A 41 52 54 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "52150",
+      "description": "GST Art 2",
+      "files": [
+        {
+          "path": "Contents",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "16",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "47 53 54 3A 41 52 54 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

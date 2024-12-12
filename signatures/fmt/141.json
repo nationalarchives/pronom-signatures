@@ -1,0 +1,101 @@
+{
+  "fileFormatID": 784,
+  "formatName": "Waveform Audio (PCMWAVEFORMAT)",
+  "version": null,
+  "formatDescription": "Waveform Audio (PCMWAVEFORMAT) is the standard Waveform Audio file format, developed by Microsoft. It has now been superseded by Waveform Audio (WAVEFORMATEX), an extended version.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "audio/x-wav",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/141",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 606,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "52494646{4}57415645666D7420100000000100{14-*}64617461",
+      "endianness": "Big-endian",
+      "name": "Waveform Audio (PCMWAVEFORMAT)",
+      "note": "RIFF header, WAVE ID, Format chunk, chunk length=16=0x10000000, wformat Tag =1=0x0100 and Data chunk"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wave",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 656,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 735,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1314,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1502,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1503,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1504,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2377,
+  "formatName": "Surprise! Adlib Tracker v2.0",
+  "version": "2.0",
+  "formatDescription": "Surprise! Adlib Tracker v2.0\u00a0is a version of Surprise! Adlib tracker for the\u00a0MS-DOS\u00a0operating system. AdLib tracker is a 9-channel FM tracker for the OPL2-compatible chips found on most sound cards. It is a tool for creating audio with FM-synthesis and uses non-standard Volume Slide procedure in replay routine.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.adlibtracker.net/programfaq.php",
+  "lastUpdatedDate": "17 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1552",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1896,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53416454",
+      "endianness": null,
+      "name": "Surprise! Adlib Tracker v2.0",
+      "note": "BOF: 'Magic Bytes'; SAdT"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sa2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

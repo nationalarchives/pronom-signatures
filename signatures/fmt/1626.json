@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2453,
+  "formatName": "MicroStation Symbology Resource File",
+  "version": null,
+  "formatDescription": "MicroStation Symbology Resource Files contain fonts and line styles, and are preinstalled with Bentley Microstation CAD software. When a Microstation Design is used with LISCAD software, the .rsc files match Microstation fonts and line styles with equivalent LISCAD ones.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.bentley.com/en/products/brands/microstation",
+  "lastUpdatedDate": "18 Feb 2022",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1626",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1966,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D6963726F53746174696F6E205265736F757263652046696C65202D",
+      "endianness": null,
+      "name": "MicroStation Symbology Resource File",
+      "note": "BOF Absolute from beginning of file, offset 0, magic bytes: MicroStation Resource File \u2013"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rsc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2214,
+  "formatName": "FinePrint",
+  "version": null,
+  "formatDescription": "FinePrint is software for previewing and editing print jobs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1396",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1772,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46494E(43|45)(01|02)",
+      "endianness": null,
+      "name": "FinePrint",
+      "note": "BOF: FIN(C|E) 0x(01|02)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

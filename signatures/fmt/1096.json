@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1904,
+  "formatName": "FreeArc Archive Format",
+  "version": null,
+  "formatDescription": "FreeArc is an open source file archiver developed by Bulat Ziganshin. The native .arc file format is not related to web archiving formats and is instead closer to a compressed zip type of archive file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Sep 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1096",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1477,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41724301",
+      "endianness": null,
+      "name": "FreeArc Archive Format",
+      "note": "BOF: 'ArC' 0x01"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "arc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

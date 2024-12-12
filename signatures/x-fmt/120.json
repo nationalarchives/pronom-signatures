@@ -1,0 +1,31 @@
+{
+  "fileFormatID": 175,
+  "formatName": "Microsoft Works for Windows",
+  "version": "4.0",
+  "formatDescription": "This format has been deprecated in favour of another entry. Please see fmt/233 for Microsoft Works Word Processor 3-4 for Windows.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "29 Nov 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/120",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": []
+}

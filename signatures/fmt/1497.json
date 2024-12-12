@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2320,
+  "formatName": "XV Thumbnail",
+  "version": null,
+  "formatDescription": "XV Thumbnail, also known as XV Visual Schnauzer format, is an image file format used by the XV image viewer for its thumbnail cache. Such files may retain the original extension or may have .p7 appended.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1497",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1870,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "503720333332{1}23585656455253494F4E",
+      "endianness": null,
+      "name": "XV Thumbnail",
+      "note": "BOF: 'P7 332' {1} '#XVVERSION'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "p7",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

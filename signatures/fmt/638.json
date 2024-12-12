@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1438,
+  "formatName": "SPSS Data File",
+  "version": null,
+  "formatDescription": "SPSS (Statistical Package for the Social Sciences) is a software package used for statistical analysis in the social sciences. The first version of SPSS was developed by SPSS Inc. in 1968. In 2009 SPSS Inc. was acquired by IBM.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Feb 2014",
+  "formatSourceID": 202,
+  "provenanceCompoundName": "KULeuven - LIBIS / KULeuven - LIBIS",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/638",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 967,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "24464C3240282329",
+      "endianness": null,
+      "name": "SPSS Data File",
+      "note": "BOF: $FL2@(#)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sav",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2723,
+      "relatedFormatName": "SPSS PC File Format"
+    }
+  ]
+}

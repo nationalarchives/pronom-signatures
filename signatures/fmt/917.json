@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1722,
+  "formatName": "AmiraMesh",
+  "version": "ASCII 1.0",
+  "formatDescription": "AmiraMesh is the native general purpose format of Amira, a software platform for 3D and 4D data visualisation. While no public specification for the file format is available, a number of parsers of the format are available and the signatures within PRONOM represent the variants both witnessed and described by these parsers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/917",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1267,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2320416D6972614D65736820415343494920312E30",
+      "endianness": null,
+      "name": "AmiraMesh ASCII 1.0",
+      "note": "BOF: # AmiraMesh ASCII 1.0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "am",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "amiramesh",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

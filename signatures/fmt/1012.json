@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1817,
+  "formatName": "INTERLIS Model File",
+  "version": "2.2",
+  "formatDescription": "INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 2 Model files contain the geodata and can be converted to XML Schema (XSD) files (by using a software called INTERLIS compiler). Such models are described using a Modula-like language, which can be thought of as a superset of UML.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1012",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1385,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4096,
+      "byteSequence": "494E5445524C495320322E323B{1-1024}4D4F44454C",
+      "endianness": null,
+      "name": "INTERLIS model file 2.2",
+      "note": "INTERLIS 2.2;{1-1024}MODEL"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ili",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

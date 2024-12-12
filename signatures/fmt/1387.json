@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 2205,
+  "formatName": "Muvee autoProducer Project File",
+  "version": "6",
+  "formatDescription": "MVEX is the native file format of the video editing software Muvee autoProducer, version 6.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "24 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1387",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mvex",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "49010",
+      "description": "Muvee AutoProducer Project File",
+      "files": [
+        {
+          "path": "Muveonv60"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "fileFormatID": 1099,
+  "formatName": "Tagged Image File Format",
+  "version": null,
+  "formatDescription": "The Tagged Image File Format (TIFF) is a raster image format originally developed by the Aldus Corporation, primarily for use in scanning and desktop publishing. When Adobe Systems Incorporated purchased Aldus in 1994, they acquired the rights to the TIFF format and have maintained it since then. TIFF files comprise three sections: an Image File Header (IFH), an Image File Directory (IFD), and the image data. TIFF files can contain multiple images (multi-page TIFF), and each image has a separate IFD. The IFH always appears at the beginning of the file, and is immediately followed by a pointer to the first IFD. The IFD contains metadata which describes the associated image, stored as a series of tags. The IFD also contains a pointer to the actual image data. TIFF supports colour depths from 1 bit to 24 bit (e.g. monochrome to true colour), and a wide range of compression types (RLE, LZW, CCITT Group 3 and Group 4, and JPEG), as well as uncompressed data.",
+  "releaseDate": "01 Aug 1986",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "PUID created for the TIFF format in response to the difficulties we have been having with multiple identification of the format and a consensus on a new interpretation of the standard from within The National Archives and outside with external stakeholders.\r\n\r\nDocumentation:\r\n\r\nhttps://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf \r\n\r\nhttp://www.alternatiff.com/resources/TIFFPM6.pdf \r\n\r\nhttp://www.alternatiff.com/resources/TIFFphotoshop.pd",
+  "lastUpdatedDate": "09 Dec 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2011",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "TIFF",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel) and Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/353",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/tiff",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.tiff",
+      "identifierType": "Apple Uniform Type Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 9,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "49492A00",
+      "endianness": null,
+      "name": "TIFF generic (little-endian)",
+      "note": "Header: II* 0x00"
+    },
+    {
+      "signatureID": 10,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D4D002A",
+      "endianness": null,
+      "name": "TIFF generic (big-endian)",
+      "note": "Header: MM 0x00 *"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tiff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 673,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 795,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 797,
+      "relatedFormatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 798,
+      "relatedFormatName": "Geographic Tagged Image File Format (GeoTIFF)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 799,
+      "relatedFormatName": "Tagged Image File Format for Internet Fax (TIFF-FX)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 916,
+      "relatedFormatName": "Sony ARW RAW Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 917,
+      "relatedFormatName": "Kodak Digital Camera Raw Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 927,
+      "relatedFormatName": "Nikon Digital SLR Camera Raw Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1223,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1224,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1225,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1384,
+      "relatedFormatName": "Canon RAW"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1440,
+      "relatedFormatName": "Epson Raw Image Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1529,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1867,
+      "relatedFormatName": "Phase One IIQ Raw Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1868,
+      "relatedFormatName": "Hasselblad 3FR Raw Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1870,
+      "relatedFormatName": "Leaf Mosaic Raw Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1936,
+      "relatedFormatName": "Sony SR2 RAW Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1937,
+      "relatedFormatName": "Sony ARW RAW Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2130,
+      "relatedFormatName": "CorelCHART Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2131,
+      "relatedFormatName": "CorelCHART Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2302,
+      "relatedFormatName": "XIFF (Xerox Image File Format)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2303,
+      "relatedFormatName": "XIFF (Xerox Image File Format)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2631,
+      "relatedFormatName": "Pentax PEF Image File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2693,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2694,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2804,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 798,
+      "relatedFormatName": "Geographic Tagged Image File Format (GeoTIFF)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1223,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1224,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1225,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1529,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2693,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2694,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    }
+  ]
+}

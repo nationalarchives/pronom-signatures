@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2003,
+  "formatName": "ZModeler Z3D",
+  "version": "1",
+  "formatDescription": "Z3D is the native format of the ZModeler 3D modelling application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "13 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1193",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1572,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A33444D",
+      "endianness": null,
+      "name": "ZModeler Z3D v1",
+      "note": "BOF: 'Z3DM'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "z3d",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2004,
+      "relatedFormatName": "ZModeler Z3D"
+    }
+  ]
+}

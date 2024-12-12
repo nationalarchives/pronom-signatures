@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1113,
+  "formatName": "National Imagery Transmission Format",
+  "version": "2.1",
+  "formatDescription": "The National Imagery Transmission Format Standard (NITFS) is the standard for formatting\r\ndigital imagery and imagery-related products and exchanging them among members of the US Intelligence\r\nCommunity (IC) and other departments and agencies of the United States Government. The NITF provides a common basis for storage and digital interchange of images and associated data. The NITF can be used as a standard message format for dissemination of images and associated data (text, symbols, labels) via digital communications.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Aug 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Ongoing DROID signature research.",
+  "formatSourceDate": "19 Aug 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.nitf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/366",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 536,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4E49544630322E3130[30:39][31:39]{14}(31|32)[30:39][30:39][30:39](30|31)[30:39][30:33][30:39][30:32][30:39][30:35][30:39][30:35][30:39]{80}(43|52|53|54|55)",
+      "endianness": null,
+      "name": "National Imagery Transmission Format 2.1",
+      "note": "File Profile and name version declaration, followed by numerical complexity level (01-99), then 14 bytes comprised of 4 bytes standard type information and 10 bytes for originating station id, followed by 14 byte file date and time sequence CCYYMMDDhhmmss, followed by 72 byte length file title alphanumeric sequence with 8 additional space bytes,to 1 byte file security classification declaration (T|S|C|R|U)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ntf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1111,
+      "relatedFormatName": "National Imagery Transmission Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1112,
+      "relatedFormatName": "National Imagery Transmission Format"
+    }
+  ]
+}

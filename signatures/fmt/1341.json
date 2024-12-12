@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 2159,
+  "formatName": "Associated Signature Container Simple (ASiC-S)",
+  "version": null,
+  "formatDescription": "The ASiC-S container is a ZIP archive file containing set of data objects and associated signatures. It is designed to associate an advanced electronic signature with any type of data. It operates with signature and time-stamp token formats XAdES, CAdES, timestamp RFC 3161.\r\n\r\nThe container has an internal structure including a root folder for all the container content possibly including folders reflecting the content structure and a META-INF folder, in the root folder, for metadata about the content, including associated signatures.\r\n\r\nThe integrity of the data is guaranteed by the electronic signature when present or should be provided externally if only a time-stamp token is applied to the data. Privacy can be guaranteed through the use of ZIP encryption features or externally. External integrity and privacy protection can be obtained e.g. through the use of SSL/TLS or S/MIME.\r\n\r\nASiC-S container associates one or more signatures with a single data object.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.etsi.org/deliver/etsi_en/319100_319199/31916201/01.01.01_60/en_31916201v010101p.pdf\r\n\r\nhttps://www.etsi.org/deliver/etsi_ts/102900_102999/102918/01.03.01_60/ts_102918v010301p.pdf",
+  "lastUpdatedDate": "24 Nov 2021",
+  "formatSourceID": 239,
+  "provenanceCompoundName": "The National Archives of Estonia / The National Archives of Estonia",
+  "formatProvenance": "\tThis format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.etsi.asic-s+zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1341",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "asics",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "scs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "39600",
+      "description": "Associated Signature Container Simple (ASiC-S)",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.etsi.asic-s+zip'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

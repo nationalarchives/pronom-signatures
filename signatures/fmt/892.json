@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 1696,
+  "formatName": "Compound WordPerfect for Windows Document",
+  "version": "6 onwards",
+  "formatDescription": "This is a compound version of Wordperfect for Windows. Also known as Corel WordPerfect. Major and minor version fields are the main variants between 6.x and 12 formats (The last two bytes in this signature). The major version is the same for 6.x through to 12 documents - 2. The minor version byte for a non-compound file created in WPWin 8.0 is 1. The minor version for a compound file created in WPWin 8.0. Is 2.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.wordperfect",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/892",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "wpd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wp6",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "w60",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "24200",
+      "description": "Compound WordPerfect for Windows Document 6 onwards",
+      "files": [
+        {
+          "path": "PerfectOffice_MAIN",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "FF 'WPC'"
+                }
+              ],
+              "reference": "BOFoffset"
+            },
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "8",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "01 0A 02 02"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

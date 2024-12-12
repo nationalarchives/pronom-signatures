@@ -1,0 +1,56 @@
+{
+  "fileFormatID": 1686,
+  "formatName": "Wordstar 2000",
+  "version": "1",
+  "formatDescription": "Wordstar 2000 is a version of the Wordstar word proccessor application that was popular in the early to mid 1980s and was created by MicroPro. Wordstar 2000 files are likely to lack a file extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://justsolve.archiveteam.org/wiki/WordStar\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000552",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": "Signature supplied by Jay Gattuso of the National Library of New Zealand. 08/2023 (v.113)- Max offset sequence expanded by 2 bytes. Submitted by the National Library of New Zealand.",
+  "formatSourceDate": "18 May 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000552",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/882",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q105856544",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1234,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 130,
+      "byteSequence": "7F20575332303030FF312E3030",
+      "endianness": null,
+      "name": "Wordstar 2000 v1 File",
+      "note": "WS2000\u00ff1.00"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 379,
+      "relatedFormatName": "WordStar for MS-DOS Document"
+    }
+  ]
+}

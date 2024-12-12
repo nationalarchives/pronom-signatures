@@ -1,0 +1,132 @@
+{
+  "fileFormatID": 2804,
+  "formatName": "Digital Negative Format (DNG)",
+  "version": "1.7",
+  "formatDescription": "The Digital Negative (DNG) specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors. DNG is an extension of the TIFF format, and is compatible with the TIFF-EP standard. This version was published in May 2023.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "04/2024 (v.118)- Signature modified to identify 1.7.0 and 1.7.1 versions. Submitted by Brigham Young University.",
+  "formatSourceDate": "07 Nov 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1943",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/dng",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2286,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{0-4080}12C60100040000000107",
+      "endianness": null,
+      "name": "DNG 1.7 (Little Endian, BOF)",
+      "note": "TIFF header plus DNGVersion tag near BOF"
+    },
+    {
+      "signatureID": 2287,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A{0-4080}C6120001000000040107",
+      "endianness": null,
+      "name": "DNG 1.7 (Big Endian, BOF)",
+      "note": "TIFF header plus DNGVersion tag near BOF"
+    },
+    {
+      "signatureID": 2288,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00",
+      "endianness": null,
+      "name": "DNG 1.7 (Little Endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    },
+    {
+      "signatureID": 2288,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 128000,
+      "byteSequence": "12C60100040000000107",
+      "endianness": null,
+      "name": "DNG 1.7 (Little Endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    },
+    {
+      "signatureID": 2289,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A",
+      "endianness": null,
+      "name": "DNG 1.7 (Big Endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    },
+    {
+      "signatureID": 2289,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 128000,
+      "byteSequence": "C6120001000000040107",
+      "endianness": null,
+      "name": "DNG 1.7 (Big Endian, BOF+EOF)",
+      "note": "TIFF header plus DNGVersion tag near EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 673,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 797,
+      "relatedFormatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2694,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    }
+  ]
+}

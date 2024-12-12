@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1642,
+  "formatName": "Interleaved ADX Audio Format (AIX)",
+  "version": null,
+  "formatDescription": "ADX is a proprietary audio storage and compression format developed by CRI Middleware. An AIX interleaves multiple ADX files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Dec 2015",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/841",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1200,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41495846000017F80100001400000800",
+      "endianness": null,
+      "name": "Interleaved ADX (AIX)",
+      "note": "16 byte header: AIXF, 0x000017F80100001400000800"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aix",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

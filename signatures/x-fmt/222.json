@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 314,
+  "formatName": "CD Audio",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-cdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/222",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 569,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "524946462400000043444441666D742018",
+      "endianness": null,
+      "name": "CD Audio",
+      "note": "Files are 44 bytes in length, with header sequence ASCII: RIFF$...CDDAfmt ."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cda",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

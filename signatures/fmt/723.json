@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1522,
+  "formatName": "Farandole Composer Module",
+  "version": null,
+  "formatDescription": "Farandole Composer is an audio sequencer. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/723",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1049,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "464152FE",
+      "endianness": null,
+      "name": "Farandole Composer",
+      "note": "FAR\u00fe"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "far",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

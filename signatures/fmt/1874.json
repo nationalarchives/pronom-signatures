@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2728,
+  "formatName": "Esko ArtPro File",
+  "version": null,
+  "formatDescription": "AP files are layout documents created by Esko ArtPro software, which is a prepress print editor. They contain the ArtPro project, including the layout, layers, text, colours, and barcodes of a design. AP files are used in packaging design, enabling the user to create the exact layout of your design using images, and view a 3D preview of their project. AP files are native to ArtPro, but are based on the PDF standard.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Jul 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1874",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2216,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41727457",
+      "endianness": null,
+      "name": "Esko ArtPro File",
+      "note": "Absolute from beginning of file, magic bytes: \u201cArtW\u201d"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ap",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

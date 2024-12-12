@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2610,
+  "formatName": "CloneCD Control File",
+  "version": null,
+  "formatDescription": "CloneCD Control File is used by the CloneCD software to mark the properties of a CD/DVD image and contains metadata and structural information about the disk image. It is found alongside the .img disk image file. They often have a .sub subchannel file alongside them.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Aug 2022",
+  "formatSourceID": 293,
+  "provenanceCompoundName": "The Royal Danish Library / The Royal Danish Library",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1760",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2101,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5B436C6F6E6543445D",
+      "endianness": null,
+      "name": "CloneCD Control File",
+      "note": "BOF; Offset:0; Magic Bytes: '[CloneCD]'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ccd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

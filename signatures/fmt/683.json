@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1482,
+  "formatName": "Advanced Function Presentation",
+  "version": null,
+  "formatDescription": "Advanced Function Presentation (AFP) is a presentation architecture and family of associated printer software and hardware that provides for document and information presentation independent of specific applications and devices.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2014",
+  "formatSourceID": 210,
+  "provenanceCompoundName": "Ricoh / Ricoh",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/683",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1004,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "5A{2}D3A8",
+      "endianness": null,
+      "name": "AFP",
+      "note": "0x53, 2 bytes indicating size then 0xD3A8 indicating a 'Begin XX' structured field, as described in the MO:DCA specification"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "afp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2753,
+  "formatName": "Ptex File Format",
+  "version": null,
+  "formatDescription": "Ptex is texture mapping software by Walt Disney Animation Studios. It has a native Ptex file format, which stores textures and related rendering data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Ptex",
+  "lastUpdatedDate": "07 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1897",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2241,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "50746578",
+      "endianness": null,
+      "name": "Ptex File Format",
+      "note": "BOF:'Ptex'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ptx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

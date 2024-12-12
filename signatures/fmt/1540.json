@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2364,
+  "formatName": "NeoDisk Icon File",
+  "version": "3",
+  "formatDescription": "NeoDisk icon file format is associated with the NeoDesk graphical environment, developed by Gribnif Software, for the Atari ST family of computers. Three versions of NeoDesk icon files exist. This is the third version which is identified by the signature that begins with ASCII '.NIC'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/NeoDesk_icon\r\n\r\nhttp://www4.pair.com/gribnif/downloads/neodesk/",
+  "lastUpdatedDate": "03 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1540",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1886,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2E4E494303003B4E656F4465736B2049636F6E2046696C6520666F726D61742C20436F7079726967687420BD203139393020477269626E696620536F667477617265",
+      "endianness": null,
+      "name": "NeoDesk Icon File",
+      "note": "BOF:'.NIC' followed by 0x03 (end of text) followed by 0x00 (null) followed by ';NeoDesk Icon File format, Copyright \u00bd 1990 Gribnif Software'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nic",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

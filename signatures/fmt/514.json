@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1301,
+  "formatName": "PowerProject",
+  "version": "10",
+  "formatDescription": "Asta PowerProject is a proprietary project management suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 189,
+  "provenanceCompoundName": "Asta Development / Asta Development",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/514",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 807,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000303030303030313030303820{13}2F2F646F646C2076657273696F6E20616E642066696C652069640D0A",
+      "endianness": null,
+      "name": "PowerProject v10",
+      "note": "..00000010008 {13}//dodl version and file id.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1298,
+      "relatedFormatName": "PowerProject"
+    }
+  ]
+}

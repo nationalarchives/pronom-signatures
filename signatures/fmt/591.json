@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1383,
+  "formatName": "Radiance RGBE Image Format",
+  "version": null,
+  "formatDescription": "Radiance defined an image format for storing HDR images, now described as RGBE image format. RGBE stores pixels as one byte each for RGB (red, green, and blue) values with a one byte shared exponent. Thus it stores four bytes per pixel.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/591",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.radiance",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 932,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "233F52414449414E43450A",
+      "endianness": null,
+      "name": "Radiance",
+      "note": "#?RADIANCE."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hdr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pic",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rgbe",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "xyze",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

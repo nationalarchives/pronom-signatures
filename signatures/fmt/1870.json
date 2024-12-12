@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2724,
+  "formatName": "Yamaha PSR Disk Manager File",
+  "version": null,
+  "formatDescription": "Files developed by Yamaha, created on floppy disks used with Yamaha PSR keyboards. The files contain the information the keyboard uses to access the other files on the disk. Mng files do not contain any voice or style data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "05 Jun 2023",
+  "formatSourceID": 311,
+  "provenanceCompoundName": "Bibliotheque Cantonale Universitaire de Fribourg / Bibliotheque Cantonale Universitaire de Fribourg",
+  "formatProvenance": null,
+  "formatSourceDate": "05 Jun 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1870",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2214,
+      "positionType": "Absolute from BOF",
+      "offset": 8,
+      "maxOffset": 0,
+      "byteSequence": "4D4E47",
+      "endianness": null,
+      "name": "Yamaha PSR Disk Manager File",
+      "note": "BOF, offset 8, magic bytes: MNG\r\nEOF, offset 0, magic bytes: 0x0D0A"
+    },
+    {
+      "signatureID": 2214,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0D0A",
+      "endianness": null,
+      "name": "Yamaha PSR Disk Manager File",
+      "note": "BOF, offset 8, magic bytes: MNG\r\nEOF, offset 0, magic bytes: 0x0D0A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

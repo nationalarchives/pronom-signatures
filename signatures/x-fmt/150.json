@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 211,
+  "formatName": "Visual FoxPro Database Container File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "09 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/150",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 566,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0004000000000000000000000A00[!00]{1009}03000200FFFFFFFFFFFFFFFF{1}01FFFF{2}0F0F{491}[41:5A]000A{502}2B00[0B:0F]0000002B00{512}[!00]00[!00]00FFFFFFFFFFFFFFFF",
+      "endianness": null,
+      "name": "Microsoft Visual FoxPro database container (index files)",
+      "note": "Rudimentary signature developed utilising collection of dcx files obtained from Visual Fox Pro 7 Databases and webharvested samples."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dcx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1122,
+      "relatedFormatName": "FoxPro Compound Index File"
+    }
+  ]
+}

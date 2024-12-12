@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1832,
+  "formatName": "Statistical Analysis System Catalog (Windows)",
+  "version": "9.3",
+  "formatDescription": "SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. SAS catalogs store many different kinds of information in smaller units called catalog entries. Each entry has an entry type that identifies its purpose to SAS. A single SAS catalog can contain several types of catalog entries.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1027",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1368,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000000000000000000000000C2EA8163B31411CFBD92080009C7318C181F1011{7}32{116}434154414C4F47{53-61}392E3033",
+      "endianness": null,
+      "name": "SAS Catalog (Windows) 9.3",
+      "note": "BOF: 32 byte binary magic {7} 0x32 = Windows {116} 'CATALOG' {53-61} '9.03'. \r\nSignature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sas7bcat",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sc7",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1828,
+      "relatedFormatName": "Statistical Analysis System Catalog (Windows)"
+    }
+  ]
+}

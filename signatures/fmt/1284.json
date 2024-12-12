@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2102,
+  "formatName": "PFS:First Choice Database",
+  "version": null,
+  "formatDescription": "PFS:First Choice was an office productivity suite developed for DOS.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1284",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1664,
+      "positionType": "Absolute from BOF",
+      "offset": 9,
+      "maxOffset": 9,
+      "byteSequence": "47455242494C4442",
+      "endianness": null,
+      "name": "PFS:First Choice Database",
+      "note": "offset 9: 'GERBILDB'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fol",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

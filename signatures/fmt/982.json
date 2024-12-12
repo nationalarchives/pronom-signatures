@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 1787,
+  "formatName": "iMovieProj File Format",
+  "version": null,
+  "formatDescription": "Associated with Apple video editing software application 'iMovie'. This format is based on an XML property list.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Versions prior to DROID 6.3 may not identify this format correctly",
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/982",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1343,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E",
+      "endianness": null,
+      "name": "iMovieProj File Format",
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\"> EOF: iMovie"
+    },
+    {
+      "signatureID": 1343,
+      "positionType": "Absolute from EOF",
+      "offset": 8,
+      "maxOffset": 256,
+      "byteSequence": "694D6F766965",
+      "endianness": null,
+      "name": "iMovieProj File Format",
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\"> EOF: iMovie"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iMovieProj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1784,
+      "relatedFormatName": "XML Property List"
+    }
+  ]
+}

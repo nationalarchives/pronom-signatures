@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1845,
+  "formatName": "DirectDraw Surface",
+  "version": null,
+  "formatDescription": "The DirectDraw Surface file format was introduced with DirectX 7 to store uncompressed and compressed textures. The file format supports mipmaps, cube maps, and volume maps.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1040",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1399,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "444453207C000000",
+      "endianness": null,
+      "name": "DirectDraw Surface",
+      "note": "BOF: magic: 'DDS ', length of header (0x7C000000) = 124 bytes\r\nhttps://msdn.microsoft.com/en-us/library/windows/desktop/bb943991(v=vs.85).aspx#File_Layout1"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dds",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2309,
+  "formatName": "Novell Address Book",
+  "version": null,
+  "formatDescription": "The Novell GroupWise Address Book format is used by Novell GroupWise software to manage address books for the email, newsgroup, and calendar features of the software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1486",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1858,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3A3A3A5441474D41503A3A3A30464645303030333A2A2A2A",
+      "endianness": null,
+      "name": "Novell Address Book",
+      "note": "BOF, offset max 3: ':::TAGMAP:::0FFE0003:***'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nab",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1133,
+  "formatName": "Microsoft Windows Cursor",
+  "version": null,
+  "formatDescription": "Microsoft Windows Cursor file is a binary system file. CUR pointer images come in different standard sizes such as 16x16 and 32x32. They are a stationary image format similar to an ICO (icon) file. CUR files are found alongside the installation of Microsoft Windows and were first introduced in Microsofts Windows 1.0 operating system in 1981.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113)- Offsets removed from variable byte sequence and description updated. Submitted by Preservica.",
+  "formatSourceDate": "23 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/385",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/x-win-bitmap",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 570,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00000200[01:09]00{3}00{1}00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000",
+      "endianness": null,
+      "name": "Microsoft Windows Cursor",
+      "note": "Header: (00000200) followed by number of images used in file. For purposes of this signature, range limited to 1-9. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000). Microsoft Windows cursor file has been extended from the Icon file format (.ico)"
+    },
+    {
+      "signatureID": 570,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "000028000000{2}0000{2}00000100[01:20]0000000000",
+      "endianness": null,
+      "name": "Microsoft Windows Cursor",
+      "note": "Header: (00000200) followed by number of images used in file. For purposes of this signature, range limited to 1-9. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000). Microsoft Windows cursor file has been extended from the Icon file format (.ico)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cur",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

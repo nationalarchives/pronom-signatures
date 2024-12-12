@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1735,
+  "formatName": "Magick Image File Format",
+  "version": null,
+  "formatDescription": "The Magick Image File Format (MIFF) is ImageMagick's own format for storing bitmap images. It stores all metadata known to ImageMagick.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "08 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/930",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1274,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 256,
+      "byteSequence": "69643D496D6167654D616769636B{0-256}3A0A",
+      "endianness": null,
+      "name": "Magick Image File Format",
+      "note": "BOF max offset 256: id=ImageMagick[new line]{0-256}:[new line]\r\nSpecification: http://www.imagemagick.org/script/miff.php"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

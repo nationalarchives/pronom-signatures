@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2174,
+  "formatName": "Virtual Format (Raster)",
+  "version": null,
+  "formatDescription": "VRT is developed by the GDAL/OGR group and is an XML file that is used to transform source GIS datasets by the GDAL/OGR programs. It can operate on either raster or vector data sources, though the two different datasets cannot be mixed in the same VRT file. VRT driver is a raster format driver that allows a virtual GDAL dtaset to be composed from other GDAL datasets with repositioning and algorithms potentially applied as well as various kinds of metadata altered or added. VRT descriptions of datasets can be saved in an XML format normally given the extension .vrt.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://gdal.org/drivers/raster/vrt.html\r\nhttps://timcera.bitbucket.io/posts/vrts_are_amazing.html",
+  "lastUpdatedDate": "29 Jan 2020",
+  "formatSourceID": 194,
+  "provenanceCompoundName": "National Library of Wales / National Library of Wales",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "GDAL Virtual Format",
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1356",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1739,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 300,
+      "byteSequence": "3C5652544461746173657420726173746572",
+      "endianness": null,
+      "name": "Virtual Format (Raster)",
+      "note": "BOF: \u2018<VRTDataset raster\u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vrt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

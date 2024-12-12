@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 1424,
+  "formatName": "Apple Disk Copy Image",
+  "version": "4.2",
+  "formatDescription": "Disk Copy 4.2 (DC42) is the common name used to refer to disk images of floppy disks created by the 4.2 version of Disk Copy provided by the Mac Operating System.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 204,
+  "provenanceCompoundName": "Yale University Library / Yale University Library",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/625",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 958,
+      "positionType": "Absolute from BOF",
+      "offset": 64,
+      "maxOffset": null,
+      "byteSequence": "(00064000|000C8000|000B4000|00168000)(00002580|00004B00|00000000){8}(00|01|02|03)(02|12|22|24|96)0100",
+      "endianness": null,
+      "name": "Apple Disk Copy Image",
+      "note": "The byte at position 0x40-43 represent four potential values for data block sizes and 0x44-47 represent 3 potential tag sizes in bytes (there is a possiblity there are additional values for these sequences which may require future adjustment to the signature) 0x50 defines the disk encoding. Byte 0x51 defines the 'format byte'. Bytes 0x52-53 are the private word/magic number used for identification. Further information is found here: http://68kmla.org/wiki/index.php/DiskCopy_4.2_format_specification"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "smi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "image",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

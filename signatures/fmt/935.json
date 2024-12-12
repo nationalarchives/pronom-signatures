@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1740,
+  "formatName": "Animated Portable Network Graphics",
+  "version": null,
+  "formatDescription": "APNG is an extension of the PNG format, adding support for animated images. It is intended to be a replacement for simple animated images that have traditionally used the GIF format, while adding support for 24-bit images and 8-bit transparency. APNG is intended as a simpler alternative to MNG.\r\n\r\nAPNG is backwards-compatible with PNG; any PNG decoder should be able to ignore the APNG-specific chunks and display a single image.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "APNG",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/935",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.mozilla.apng",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1279,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "89504E470D0A1A0A0000000D49484452*6163544C",
+      "endianness": null,
+      "name": "APNG",
+      "note": "Signature + IHDR and acTL chunks at BOF, IEND chunk at EOF\r\nSpecification: https://wiki.mozilla.org/APNG_Specification"
+    },
+    {
+      "signatureID": 1279,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000000049454E44AE426082",
+      "endianness": null,
+      "name": "APNG",
+      "note": "Signature + IHDR and acTL chunks at BOF, IEND chunk at EOF\r\nSpecification: https://wiki.mozilla.org/APNG_Specification"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "png",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "apng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 664,
+      "relatedFormatName": "Portable Network Graphics"
+    }
+  ]
+}

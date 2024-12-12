@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1580,
+  "formatName": "Snoop Packet Capture",
+  "version": null,
+  "formatDescription": "Snoop is a packet capture file format originally developed by Sun.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/781",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1149,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "736E6F6F7000000000000002",
+      "endianness": null,
+      "name": "Snoop",
+      "note": "Magic: snoop... Version: 2 - https://tools.ietf.org/rfc/rfc1761.txt"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "snoop",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1105,
+  "formatName": "Microsoft Front Page Binary Tree Index",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Jun 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Ongoing DROID signature research.",
+  "formatSourceDate": "29 Jun 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/359",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 528,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "1C010000{272}0C0000002C000000{4}FFFFFFFF0002",
+      "endianness": null,
+      "name": "Microsoft FrontPage Binary Tree Index",
+      "note": "Character sequence taken from beginning of file. File format is sufficiently distinct from more general Microsoft FrontPage Server Configuration Files for separate identification."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "btr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1408,
+  "formatName": "Mork",
+  "version": null,
+  "formatDescription": "Mork is a database file format that acts as part of the back-end to several email clients and web browsers produced originally by Netscape, and later the Mozilla Foundation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/612",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 948,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2F2F203C212D2D203C6D64623A6D6F726B3A7A20",
+      "endianness": null,
+      "name": "Mork",
+      "note": "BOF: // <!-- <mdb:mork:z"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mab",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "msf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

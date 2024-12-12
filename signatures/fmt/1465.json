@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2288,
+  "formatName": "OrCAD Layout File",
+  "version": null,
+  "formatDescription": "MAX is a file extension for a printed circuit board (PCB) layout file format used by Cadence Design Systems OrCad, a Computer Aided Design program designed for electronics and PCB design.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1465",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1831,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01002C004F7243414420494E432E2C204C61796F757420446174616261736520",
+      "endianness": null,
+      "name": "OrCAD Layout File",
+      "note": "BOF: 01 00 2C followed by 'OrCAD INC., Layout Database' followed by 20"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "max",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

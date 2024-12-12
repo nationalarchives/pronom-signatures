@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 872,
+  "formatName": "AutoCAD Drawing",
+  "version": "2007-2008",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 131,
+  "provenanceCompoundName": "Digital Library Research Group / MIT Libraries",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Apr 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/vnd.dwg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/455",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 244,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4143313032310000",
+      "endianness": "Little-endian",
+      "name": "AutoCAD Drawing Format 2007-2008",
+      "note": null
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dwg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 709,
+      "relatedFormatName": "AutoCAD Drawing"
+    }
+  ]
+}

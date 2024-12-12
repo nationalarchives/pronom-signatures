@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1493,
+  "formatName": "Dalvik Executable Format",
+  "version": null,
+  "formatDescription": "Dalvik is the process virtual machine in Google's Android operating system, which executes applications written for Android. Programs are commonly written in Java and compiled to bytecode for the Java virtual machine, which is then translated to Dalvik bytecode and stored in .dex (Dalvik EXecutable) and .odex (Optimized Dalvik EXecutable) files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/694",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1023,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6465780A{3}00",
+      "endianness": null,
+      "name": "Dalvik Executable Format",
+      "note": "BOF: dex.<version number>."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dex",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

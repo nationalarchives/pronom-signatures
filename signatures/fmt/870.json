@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1674,
+  "formatName": "Perl Script",
+  "version": null,
+  "formatDescription": "This is a script written in Perl that is composed and run using a Perl interpreter; it contains lines of Perl program code with variables, operations, functions, and comments.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/870",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

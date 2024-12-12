@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1357,
+  "formatName": "Matroska",
+  "version": "1-4",
+  "formatDescription": "The Matroska Multimedia Container is an open standard free container format, based on the Extensible Binary Meta Language (EBML). Matroska file extensions are .MKV for video (with subtitles and audio), .MK3D for stereoscopic video, .MKA for audio-only files, and .MKS for subtitles only. The Internet Engineering Task Force (IETF) Working Group: Codec Encoding for LossLess Archiving and Realtime transmission (cellar) is tasked with the standardisation of Matroska.\r\n\r\nThe EBML specifications are work-in-progress, and can be found here: https://github.com/Matroska-Org/ebml-specification/blob/master/specification.markdown",
+  "releaseDate": "06 Dec 2002",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Format specification: https://matroska.org/technical/specs/index.html",
+  "lastUpdatedDate": "03 Feb 2022",
+  "formatSourceID": 191,
+  "provenanceCompoundName": "Axiell / Axiell",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": "EBML",
+  "identifiers": [
+    {
+      "identifierText": "fmt/569",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 907,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "1A45DFA3{0-32}4282886D6174726F736B614287",
+      "endianness": "Big-endian",
+      "name": "Matroska Video",
+      "note": "0x1A45DFA3(EBML-Level 0 element), {0-32}, 0x428288(DocType element), string=matroska, 0x4287(DocTypeVersion element). The specification allows for ASCII text before the EBML header and considers the level 0 EBML header element to be the beginning of the EBML document. For now this signature is offset to 1024 bytes to allow for some ASCII text to precede the header, but to assume the EBML header of a Matroska multimedia format will begin near the beginning of the file and to mitigate against wasteful processing of large files that are not Matroska multimedia."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mkv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mk3d",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mka",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mks",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

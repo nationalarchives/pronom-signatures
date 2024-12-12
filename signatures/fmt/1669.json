@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2505,
+  "formatName": "Roxio Data Project File",
+  "version": "11",
+  "formatDescription": "Roxio Data Project File with extension ROX is a part of Roxio disc project formats. ROXIO files are formed Roxio Creator software (previously named as Roxio Easy Media Creator, Easy CD Creator and Roxio Easy CD Creator), originally published by Adaptec in 1996, this version replaces the ROXIO format (fmt/1668) was published around 2011. This format is a binary file just as its predecessors however, unlike other versions, the format is XML type of file with its structure distinguishing between Data and Audio files. Previously the ROXIO file contained all saved project, that stores information about audio, video or data disk compilation intended to be burned to disc. Roxio Creator software allows the user to create data or audio CD layout, it allows for files to be saved for later use with references to files that will be included on the disc as well as other settings, but this format did not include the files themselves, only the information regarding these files. All versions up to version 10 and Roxio Creator 2009-2010 of layout format on Roxio Easy Media Creator software, saved their 'layout' files in ROXIO format, but this format only saves data type files, see separate entry for audio (fmt/1670).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/ROX",
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "19 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1669",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2003,
+      "positionType": "Absolute from BOF",
+      "offset": 160,
+      "maxOffset": 100,
+      "byteSequence": "39434130454545452D354243352D343165392D383234322D424545323136343346464630",
+      "endianness": null,
+      "name": "Roxio Data Project File v11",
+      "note": "BOF; Offset: 160-260; Magic Bytes: '9CA0EEEE-5BC5-41e9-8242-BEE21643FFF0'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rox",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2502,
+      "relatedFormatName": "Roxio Easy Media Creator Layout"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2503,
+      "relatedFormatName": "Roxio Easy Media Creator - Classic Creator File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2504,
+      "relatedFormatName": "Roxio Easy Media Creator Layout"
+    }
+  ]
+}

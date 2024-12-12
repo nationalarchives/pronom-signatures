@@ -1,0 +1,73 @@
+{
+  "fileFormatID": 1207,
+  "formatName": "Video Object File (MPEG-2 subset)",
+  "version": null,
+  "formatDescription": "A Video Object File (or VOB) is a strict subset of the MPEG-2 Program Stream, primarily used within DVD video. A VOB will contain an extended private stream containing both 'Packet Control Information', and 'Data Search Information'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/425",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 636,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000001BA{8-11}000001(BB|BD|BE|E0)",
+      "endianness": null,
+      "name": "Video Object File",
+      "note": "Same as BOF sequence for MPEG 1 & 2 but variation on last byte. VAR is seeking presence of Private Stream with \u2018Packet Control Information\u2019, then \u2018Data Search Information\u2019 respectively"
+    },
+    {
+      "signatureID": 636,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "000001BF03D400{979}000001BF03FA01",
+      "endianness": null,
+      "name": "Video Object File",
+      "note": "Same as BOF sequence for MPEG 1 & 2 but variation on last byte. VAR is seeking presence of Private Stream with \u2018Packet Control Information\u2019, then \u2018Data Search Information\u2019 respectively"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vob",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 659,
+      "relatedFormatName": "MPEG-1 Program Stream"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 660,
+      "relatedFormatName": "MPEG-2 Program Stream"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 660,
+      "relatedFormatName": "MPEG-2 Program Stream"
+    }
+  ]
+}

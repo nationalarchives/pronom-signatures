@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2232,
+  "formatName": "PFS:Write Document",
+  "version": null,
+  "formatDescription": "PFS:Write was a word processor suite for IBM Compatible PCs and the Apple II. Files may lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1414",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1790,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4200(06|0C)00{6}0A004600",
+      "endianness": null,
+      "name": "PFS:Write",
+      "note": "BOF: 0x4200 (06|0C) 00 {6} 0A004600\r\nEOF: 0x0E"
+    },
+    {
+      "signatureID": 1790,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0E",
+      "endianness": null,
+      "name": "PFS:Write",
+      "note": "BOF: 0x4200 (06|0C) 00 {6} 0A004600\r\nEOF: 0x0E"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pfs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1947,
+  "formatName": "MiniCAD",
+  "version": "7",
+  "formatDescription": "MiniCAD was a proprietary Computer Aided Design and Building Information Modelling software program for both Mac and Windows operating systems. This software was renamed as VectorWorks from 1998 onwards.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jul 2018",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.vectorworks",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1137",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1519,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000082200000000",
+      "endianness": null,
+      "name": "MiniCAD 7",
+      "note": "BOF, 0x0000082200000000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mcd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

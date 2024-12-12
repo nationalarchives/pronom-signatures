@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2825,
+  "formatName": "Disklavier E-Seq Music",
+  "version": null,
+  "formatDescription": "An E-Seq Music file is a proprietary format developed by Yamaha, for the Disklavier reproducing piano in 1987. The music was recorded and played back via 3.5 2DD floppy disks. The E-Seq format was superseded by the industry-standard file format MIDI Files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://github.com/digital-preservation/PRONOM_Research/tree/main/Submissions/Disklavier%20E-SEQ",
+  "lastUpdatedDate": "23 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1960",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2362,
+      "positionType": "Absolute from BOF",
+      "offset": 7,
+      "maxOffset": 0,
+      "byteSequence": "434F4D2D45534551",
+      "endianness": null,
+      "name": "Disklavier E-Seq Music",
+      "note": "BOF, Offset: 7, Magic Bytes: 'COM-ESEQ'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fil",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "esq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

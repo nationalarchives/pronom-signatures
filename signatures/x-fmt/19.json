@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 48,
+  "formatName": "3D Studio",
+  "version": null,
+  "formatDescription": "3DS is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Jul 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/19",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 319,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D4D{4}02000A000000(03|04){3}3D3D",
+      "endianness": "Little-endian",
+      "name": "3D Studio (V1)",
+      "note": "Primary chunk ID, chunk length, version subchunk ID, chunk length, version, 3D-editor chunk ID."
+    },
+    {
+      "signatureID": 1447,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D{4}3D3D",
+      "endianness": null,
+      "name": "3D Studio (V2)",
+      "note": "Primary chunk ID, chunk length, 3D-editor chunk ID"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "3ds",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

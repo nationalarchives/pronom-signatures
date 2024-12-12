@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1409,
+  "formatName": "RAR Archive",
+  "version": "5.0",
+  "formatDescription": "RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.rar",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/613",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 949,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "526172211A070100",
+      "endianness": null,
+      "name": "RAR Archive",
+      "note": "BOF: Rar!...."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

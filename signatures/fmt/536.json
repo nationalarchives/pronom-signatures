@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1323,
+  "formatName": "Adobe FrameMaker Document",
+  "version": "5.5",
+  "formatDescription": "Adobe FrameMaker format is a desktop publishing and word processing format originally developed by Frame Technology Corp. Frame Technology Corp was bought by Adobe Systems in 1995, who continued to develop and support FrameMaker.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.framemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/536",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 841,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C4D616B657246696C6520352E35513E",
+      "endianness": null,
+      "name": "Framemaker Document Version 5.5",
+      "note": "<MakerFile[version]>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1324,
+      "relatedFormatName": "Adobe FrameMaker Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 912,
+      "relatedFormatName": "Adobe FrameMaker Document"
+    }
+  ]
+}

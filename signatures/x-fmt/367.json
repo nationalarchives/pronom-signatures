@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 533,
+  "formatName": "Truevision TGA Bitmap",
+  "version": "1.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "TGA, Targa Bitmap",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.truevision.tga-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/367",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 604,
+      "positionType": "Absolute from BOF",
+      "offset": 1,
+      "maxOffset": null,
+      "byteSequence": "01(01|09){4}(0F|10|18|20){8}(08|0F|10|18|20)",
+      "endianness": null,
+      "name": "Truevision TGA Bitmap 1 (BOF 1)",
+      "note": "offset 1: 0x01 colormap included; offset 2: Imagetype 0x01, 0x09 (color-mapped); offset 3, 4 bytes Color map specification (ignore); offset 7 Color map entry size (byte) decimal 15, 16, 24, 32; offset 8 (2 bytes) X origin of image (ignore); offset 10 (2 bytes) Y origin of image (ignore);  offset 12 (2 bytes) width of image (not zero), offset 14 (bytes) height of image (not zero), Image pixel size - 1 byte (0x08, 0x15, 0x16, )x24, 0x32)"
+    },
+    {
+      "signatureID": 627,
+      "positionType": "Absolute from BOF",
+      "offset": 1,
+      "maxOffset": null,
+      "byteSequence": "00(02|03|0A|0B)0000000000{8}(08|0F|10|18|20)",
+      "endianness": null,
+      "name": "Truevision TGA Bitmap 1 (BOF 2)",
+      "note": "offset 1: 0x00 no color map included; offset 2: Imagetype 0x02. 0x0A (RGB), 0x03 0x0B (Monochrome); offset 3, 5 bytes Color map specification 0x0000000000; offset 8 (2 bytes) X origin of image (ignore); offset 10 (2 bytes) Y origin of image (ignore);  offset 12 (2 bytes) width of image, offset 14 (bytes) height of image. Image pixel size - 1 byte (0x08, 0x15, 0x16, )x24, 0x32)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tga",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "icb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vda",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vst",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "afi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1150,
+      "relatedFormatName": "Truevision TGA Bitmap"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1672,
+      "relatedFormatName": "MySQL Table Definition Format"
+    }
+  ]
+}

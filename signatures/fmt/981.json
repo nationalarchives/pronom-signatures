@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1786,
+  "formatName": "EazyDraw File Format",
+  "version": null,
+  "formatDescription": "The ezdraw file format is mainly associated with 'EazyDraw' by Dekorra Optics LLC enterprise. EazyDraw is a vector based drawing application. It is used for desk top publishing (DTP) with Apple's Macintosh OS X (Mac OS-X) operating system. The format is an XML Property List dictionary based format. There is also a binary version of this format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Versions prior to DROID 6.3 may not identify this format correctly",
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/981",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1342,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E{8-1024}45617A794472617756657273696F6E",
+      "endianness": null,
+      "name": "EazyDraw File Format",
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\">{8-1024}EazyDrawVersion"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ezdraw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1784,
+      "relatedFormatName": "XML Property List"
+    }
+  ]
+}

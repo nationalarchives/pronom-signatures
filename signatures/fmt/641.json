@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1440,
+  "formatName": "Epson Raw Image Format",
+  "version": null,
+  "formatDescription": "This format is the RAW image format used in Epsom cameras. RAW format images contain all the data that is taken directly from the camera's image sensor before the software in the camera applies things like white balance, sharpening etc. Storing photographs in a camera's RAW format allows you to alter those settings after the photograph has been taken.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "31 Mar 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Mar 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/641",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 970,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A{304}4550534F4E204453432050696374757265005345494B4F204550534F4E20434F52502E00522D4431",
+      "endianness": null,
+      "name": "Epson RAW Image Format",
+      "note": "The first byte sequence is the same BOF as TIFF/EP files. The remaining sequence is specific to the Epson R-D1 camera."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "erf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 797,
+      "relatedFormatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

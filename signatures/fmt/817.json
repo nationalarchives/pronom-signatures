@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 1617,
+  "formatName": "JSON Data Interchange Format",
+  "version": null,
+  "formatDescription": "JavaScript Object Notation (JSON) is an open standard format that uses human-readable text to transmit data objects consisting of attribute\u2013value pairs. It is used for asynchronous browser/server communication (AJAJ). While it is originally derived from JavaScript scripting language, JSON is language independent while using conventions that match with the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and others.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/json",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/817",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "json",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2129,
+      "relatedFormatName": "Tweet JSON"
+    }
+  ]
+}

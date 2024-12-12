@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2074,
+  "formatName": "MapInfo Workspace File",
+  "version": null,
+  "formatDescription": "MapInfo Workspace files, produced by MapInfo GIS software, are text files containing the MapInfo commands required to re-create a MapInfo session.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1256",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1630,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "21576F726B7370616365{0-6}2156657273696F6E{0-6}2143686172736574",
+      "endianness": null,
+      "name": "MapInfo Workspace File",
+      "note": "BOF: !Workspace{0-6}!Version{0-6}!Charset"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wor",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

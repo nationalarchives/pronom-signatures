@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2571,
+  "formatName": "Pro Tools Session File",
+  "version": "10+",
+  "formatDescription": "File created every time a user sets up a session in Pro Tools, music creation software made by Avid, which allows the user to create, record and mix music. Every time a session is started, a ptx file is created, containing all plug ins, audio and midi tracks and mixer settings. They do not contain actual audio, but have audio files linked to them.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "08 Jan 2024",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": "04/2024 (v.118)- Version number changed from 10 onwards to 10+ and signature name updated to include version number 10+. Submitted by Preservica.",
+  "formatSourceDate": "07 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1727",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2063,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0330303130313131313030313031303131{3}5A010004",
+      "endianness": null,
+      "name": "Pro Tools Session File 10+",
+      "note": "BOF Absolute from beginning of file, magic bytes:.0010111100101011{3}Z\u2026"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ptx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

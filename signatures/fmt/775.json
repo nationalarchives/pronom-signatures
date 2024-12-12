@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 1574,
+  "formatName": "Adobe Flash",
+  "version": "29",
+  "formatDescription": "The Adobe Flash format, SWF, previously known as Shockwave Flash or Macromedia Shockwave Flash, and alternatively known as the Small Web Format, is a file format primarily designed for creating interactive multimedia applications. The format iterates rapidly, often in line with new releases of Adobe Flash or Adobe Air. Prior to version 6 all SWF files were uncompressed, however version 6 introduced the option of using zlib compression. Version 13 introduced the option of using LZMA compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf-file-format-spec.pdf\r\nhttp://www.adobe.com/devnet/articles/flashplayer-air-feature-list.html",
+  "formatSourceDate": "21 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-shockwave-flash",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/775",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1137,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A57531D",
+      "endianness": null,
+      "name": "SWF 29 - LZMA compressed",
+      "note": "Header (ZWS then version number)"
+    },
+    {
+      "signatureID": 1139,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4357531D",
+      "endianness": null,
+      "name": "SWF 29 - zlib compressed",
+      "note": "Header (CWS then version number)"
+    },
+    {
+      "signatureID": 1141,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4657531D",
+      "endianness": null,
+      "name": "SWF 29",
+      "note": "Header (FWS then version number) and end tag (..)"
+    },
+    {
+      "signatureID": 1141,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000",
+      "endianness": null,
+      "name": "SWF 29",
+      "note": "Header (FWS then version number) and end tag (..)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "swf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1575,
+      "relatedFormatName": "Adobe Flash"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1573,
+      "relatedFormatName": "Adobe Flash"
+    }
+  ]
+}

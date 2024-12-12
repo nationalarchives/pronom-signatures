@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1757,
+  "formatName": "True Audio",
+  "version": "1",
+  "formatDescription": "True Audio is a lossless audio compression format for multichannel 8, 16 and 24 bits audio data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/tta",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/952",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1309,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "54544131",
+      "endianness": null,
+      "name": "True Audio 1",
+      "note": "BOF: TTA1\r\nSpecification: http://tausoft.org/wiki/True_Audio_Codec_Format"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tta",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1758,
+      "relatedFormatName": "True Audio"
+    }
+  ]
+}

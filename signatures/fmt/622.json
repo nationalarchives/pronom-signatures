@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1418,
+  "formatName": "GeoGebra",
+  "version": "5",
+  "formatDescription": "GeoGebra is a mathematics software package.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 202,
+  "provenanceCompoundName": "KULeuven - LIBIS / KULeuven - LIBIS",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.geogebra.file",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/622",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ggb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1417,
+      "relatedFormatName": "GeoGebra"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "19040",
+      "description": "GeoGebra 5",
+      "files": [
+        {
+          "path": "geogebra.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "40",
+                  "subSeqMaxOffset": "64",
+                  "sequence": "'geogebra format=\"5'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

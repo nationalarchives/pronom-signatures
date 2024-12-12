@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1957,
+  "formatName": "SIDOUN WinAVA Format",
+  "version": null,
+  "formatDescription": "WinAVA is architectual and engineering CAD software developed by Austrian company, Sidoun.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jul 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1148",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1530,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "57696E4156412020",
+      "endianness": null,
+      "name": "SIDOUN WinAVA Format",
+      "note": "BOF: \"WinAVA  \""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "swa",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

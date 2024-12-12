@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 476,
+  "formatName": "ESRI Arc/View Project",
+  "version": "2.x",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/317",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 438,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2F322E[30:33](0D0A|0A)2850726F6A6563742E31(0D0A|0A)094E616D653A0922",
+      "endianness": null,
+      "name": "ESRI Arc/View Project Version 2.x",
+      "note": "Header containing version number followed by ODB format information"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "apr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 156,
+  "formatName": "STL (Standard Tessellation Language) ASCII",
+  "version": null,
+  "formatDescription": "STL is a 3D modelling file format created by 3D Systems. An STL file is a triangular representation of a 3-dimensional surface geometry. The surface is tessellated or broken down logically into a series of small triangles (facets). Each facet is described by a perpendicular direction and three points representing the vertices (corners) of the triangle. These data are used by a slicing algorithm to determine the cross sections of the 3-dimensional shape to be built by the fabricator.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Stereolithography File (ASCII)",
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/108",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 596,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "(73|2073)6F6C696420*6661636574206E6F726D616C20{0-200}6F75746572206C6F6F70{0-20}76657274657820",
+      "endianness": null,
+      "name": "STL",
+      "note": "<optional blank>solid + \u2026 + \u201cfacet normal\u201d + \u2026 + \u201couter loop\u201d + \u2026 + vertex"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "stl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,89 @@
+{
+  "fileFormatID": 1216,
+  "formatName": "CorelDraw Drawing",
+  "version": "X5",
+  "formatDescription": "CorelDraw (styled CorelDRAW) is a vector graphics editor developed and marketed by Corel Corporation of Ottawa, Canada. It is also the name of Corel's Graphics Suite, which bundles CorelDraw with bitmap-image editor Corel Photo-Paint as well as other graphics-related programs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 181,
+  "provenanceCompoundName": "Museum of London / Museum of London",
+  "formatProvenance": "This format can be identified in DROID 6 and later via a container signature.\r\n11/2023 (v.115)- Container signature added. Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Submitted by Brigham Young University and internally researched.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/430",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 644,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "504B{48}524946(46|58){4}43445246",
+      "endianness": null,
+      "name": "CorelDraw X5",
+      "note": "PK{48}RIFF (little-endian) or RIFX (big-endian){4}CDRF (F=15 although referred to as version X5)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "101010",
+      "description": "CorelDraw X5",
+      "files": [
+        {
+          "path": "content/riffData.cdr",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "45",
+                  "sequence": "52 49 46 46"
+                }
+              ],
+              "reference": "BOFoffset"
+            },
+            {
+              "subSequences": [
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "8",
+                  "subSeqMaxOffset": "53",
+                  "sequence": "43 44 52 46"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

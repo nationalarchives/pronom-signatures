@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 320,
+  "formatName": "Applixware Bitmap",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/228",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 326,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2A(424547494E|5354415254)205241535445522056455253494F4E3D",
+      "endianness": null,
+      "name": "Applix Bitmap",
+      "note": "Header begins with asterisk (*) followed by BEGIN or START RASTER followed by VERSION=. Trailer is *END RASTER followed by a newline."
+    },
+    {
+      "signatureID": 326,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2A454E44205241535445520A",
+      "endianness": null,
+      "name": "Applix Bitmap",
+      "note": "Header begins with asterisk (*) followed by BEGIN or START RASTER followed by VERSION=. Trailer is *END RASTER followed by a newline."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "im",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,73 @@
+{
+  "fileFormatID": 2392,
+  "formatName": "ISDOC Information System Document",
+  "version": "5.x",
+  "formatDescription": "ISDOC is a type of Extensible Markup Language (XML) file format specific for transfer of financial documents. It allows paperless exchanging of invoices and other documents, processing and portability among companies, public administration authorities and individuals. It was defined by \u201cA Working group for Electronic Standards of data exchanging\u201d in ICT Union (formerly SPIS). The \u201cDeclaration on common approach in the area of electronic invoicing in the Czech Republic\u201d was signed on 16th October 2008. It represents a Czech customization of UBL standard https://www.iso.org/standard/66370.html. ISDOC file enables enveloped signatures including advanced IETF/W3C XML digital signatures conforming to the ETSI XAdES specification. This signiture records a general ISDOC file format, however there are several versions of this format which can be found here: http://www.isdoc.cz/index.php?id=1316.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.isdoc.org/\r\n\r\nhttp://www.isdoc.cz/fileadmin/isdoc/6.0/readme-en.html",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification.  Removed '(Generic)' from file format name to reflect version number. Internally researched",
+  "formatSourceDate": "06 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1567",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1909,
+      "positionType": "Absolute from BOF",
+      "offset": 16,
+      "maxOffset": 284,
+      "byteSequence": "6973646F632E637A",
+      "endianness": null,
+      "name": "ISDOC Information System Document 5.x",
+      "note": "BOF; Offset: 16-300; Magic bytes: 'isdoc.cz'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "isdoc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2393,
+      "relatedFormatName": "ISDOCX Information System Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2395,
+      "relatedFormatName": "ISDOC Information System Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2395,
+      "relatedFormatName": "ISDOC Information System Document"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 2393,
+      "relatedFormatName": "ISDOCX Information System Document"
+    }
+  ]
+}

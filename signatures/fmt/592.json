@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1384,
+  "formatName": "Canon RAW",
+  "version": "2.0",
+  "formatDescription": "The .CR2 file format (Canon RAW version 2) is a digital photography RAW format created by Canon.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/592",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 933,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A001000000043520200",
+      "endianness": null,
+      "name": "Canon RAW 2",
+      "note": "II*.....CR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cr2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

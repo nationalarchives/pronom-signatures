@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2228,
+  "formatName": "Flow Charting",
+  "version": "6",
+  "formatDescription": "Flow Charting is software for diagramming and flow-charting developed by Patton & Patton software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1410",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1784,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46433631",
+      "endianness": null,
+      "name": "Flow Charting 6",
+      "note": "BOF: 'FC61'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fcx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

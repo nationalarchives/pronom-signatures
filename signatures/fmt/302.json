@@ -1,0 +1,121 @@
+{
+  "fileFormatID": 1047,
+  "formatName": "Computer Graphics Metafile ASCII",
+  "version": "4",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2010",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Dec 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Image (Vector), Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/302",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/cgm",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 364,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}34",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.1",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 364,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.1",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 365,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}34",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.2",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 365,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.2",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 366,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}34",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.3",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 366,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.3",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 367,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}34",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.4",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 367,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 4 No.4",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}4 or mfversion{1}4, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cgm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

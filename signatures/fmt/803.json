@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1603,
+  "formatName": "Encase Image File/Expert Witness Compression File",
+  "version": null,
+  "formatDescription": "Expert Witness was the original name for EnCase, as such this format can be referred to as either Expert Witness Compression Format or Encase Image File Format. \r\nThe format is used to store media images for forensic purposes. They are a type of disk image containing the contents and structure of an entire data storage device, disk volume or even a computer's physical memory. This format creates segments which have different file extensions, the first will have the extension '.e01'. this increases first numerically upto '.e99' the next extension will be '.eaa' increasing to an estimated limit of '.zzz'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/encase",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/803",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1168,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "455646090D0AFF00",
+      "endianness": null,
+      "name": "EO1",
+      "note": "Header - EVF...\u00ff."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "e01",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1255,
+      "relatedFormatName": "ISO 9660 Disk Image File"
+    }
+  ]
+}

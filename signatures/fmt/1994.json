@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2868,
+  "formatName": "Sibelius Scorch",
+  "version": null,
+  "formatDescription": "A scorch or .sco file is native to the Sibelius Scorch platform. If is a music notation format a digital representation of sheet music. With the Sibelius Scorch software users could view, play back, tranpose, edit and print from a browser. In 2017 Sibelius Scorch was replaced with Sibelius Cloud Publishing. Sibelius Cloud Publishing provides publihers with an API but uses much of the same technology as Scorch to address compatibility issues. Sibelius Scorch is part of a range of software from Sibelius that allows for the creation and editing of music scores, and for music typesetting. Founded in 1993 Sibelius Music was purchased by AVID in 2006. The software is commonly used by composers, arrangers, performers, music publishers, teachers and students, particularly for writing classical, jazz, band, vocal, film and television music.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://preservation.tylerthorsted.com/2024/04/12/sibelius/\r\nhttps://wiki.dpconline.org/images/d/d9/Sibelius_Assessment_v1.0.pdf\r\nhttp://fileformats.archiveteam.org/wiki/Sibelius\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000609.shtml",
+  "lastUpdatedDate": "18 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1994",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2328,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0F434353434F524348",
+      "endianness": null,
+      "name": "Sibelius Scorch",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0F followed by 'CCSCORCH'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sco",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

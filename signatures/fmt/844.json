@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1645,
+  "formatName": "Advanced Forensic Format",
+  "version": null,
+  "formatDescription": "The Advanced Forensics Format (AFF) is an extensible open format for the storage of disk images and related forensic metadata. It was originally developed by Simson Garfinkel and Basis Technology.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Jan 2016",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/844",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1203,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "41464631300D0A00",
+      "endianness": null,
+      "name": "Advanced Forensic Format",
+      "note": "8 byte header: AFF10\u2026"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

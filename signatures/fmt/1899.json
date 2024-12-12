@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2755,
+  "formatName": "RIS Citation",
+  "version": null,
+  "formatDescription": "The RIS file format is a standardised tag format created by Research Information Systems, Incorporated to facilitate the exchange of data between citation programs. This file format is widely supported by numerous reference managers, digital libraries and online library catalogs. The RIS format is also used by citation management applications for the import and export of citations. There exist two major versions of the RIS format, and the format has a file size limit of 1MB.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/RefMan",
+  "lastUpdatedDate": "08 Aug 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-research-info-systems",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1899",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2235,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 128,
+      "byteSequence": "545920",
+      "endianness": null,
+      "name": "RIS Citation",
+      "note": "BOF; Offset: 0-128; Signature: 'TY '; EOF; Offset: 0-32; Signature: 'ER  -'"
+    },
+    {
+      "signatureID": 2235,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 32,
+      "byteSequence": "455220202D",
+      "endianness": null,
+      "name": "RIS Citation",
+      "note": "BOF; Offset: 0-128; Signature: 'TY '; EOF; Offset: 0-32; Signature: 'ER  -'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ris",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

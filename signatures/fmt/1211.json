@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2021,
+  "formatName": "Wavefront Material Template Library",
+  "version": null,
+  "formatDescription": "MTL is a companion file for the Wavefront OBJ file. The MTL file describes surface shading properties for use by one or more OBJ.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Aug 2018",
+  "formatSourceID": 170,
+  "provenanceCompoundName": "Archaeology Data Service / Archaeology Data Service",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1211",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1589,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "6E65776D746C{0-80}(4B61|4B64|4B73)20",
+      "endianness": null,
+      "name": "Wavefront Material Template Library",
+      "note": "BOF, offset 0-1024, 'newmtl' <name> {0-80} (Ka|Kd|Ks) <space>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mtl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

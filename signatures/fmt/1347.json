@@ -1,0 +1,88 @@
+{
+  "fileFormatID": 2165,
+  "formatName": "Autodesk Revit Project File",
+  "version": "2008",
+  "formatDescription": "Autodesk Revit is 3D modeling software. RTE (template) files and RVT (project) files are actual Revit projects. RFA (family) files and RFT (family template) files are family files that can either be loaded into a project or saved externally.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1347",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "rvt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rte",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rft",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2166,
+      "relatedFormatName": "Autodesk Revit Family File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2167,
+      "relatedFormatName": "Autodesk Revit Family File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2164,
+      "relatedFormatName": "Autodesk Revit File"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "43010",
+      "description": "AutoDesk Revit Project File 2010",
+      "files": [
+        {
+          "path": "Formats"
+        },
+        {
+          "path": "BasicFileInfo",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "52 00 65 00 76 00 69 00 74 00 20 00 42 00 75 00 69 00 6C 00 64 00 3A 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 2204,
+  "formatName": "Muvee autoProducer Project File",
+  "version": "1-5",
+  "formatDescription": "MVE is the native file format of the video editing software Muvee autoProducer, versions 1 through 5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "24 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1386",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mve",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "49000",
+      "description": "Muvee AutoProducer Project File",
+      "files": [
+        {
+          "path": "Muveon"
+        }
+      ]
+    }
+  ]
+}

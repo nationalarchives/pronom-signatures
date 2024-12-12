@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 2310,
+  "formatName": "Timeline Maker Document",
+  "version": null,
+  "formatDescription": "Timeline Maker is software for creating timelines and charts for visualising project ghatt charts, genealogical data, and historical data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1487",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1859,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4237443042443932344135383432343841373735414341373132464334303834",
+      "endianness": null,
+      "name": "Timeline Maker Document variant 1",
+      "note": "BOF: ASCII string 'B7D0BD924A584248A775ACA712FC4084'"
+    },
+    {
+      "signatureID": 1860,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3036333530353031383530463439323639383732393243383743353341443746",
+      "endianness": null,
+      "name": "Timeline Maker Document variant 2",
+      "note": "BOF: ASCII string 06350501850F4926987292C87C53AD7F'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tlm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tlm3",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tlm4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tlmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

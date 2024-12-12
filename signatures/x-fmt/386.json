@@ -1,0 +1,84 @@
+{
+  "fileFormatID": 660,
+  "formatName": "MPEG-2 Program Stream",
+  "version": null,
+  "formatDescription": "MPEG-2 is a lossy compression standard (an improvement and expansion of the MPEG-1 standard) designed for the generic coding of video and audio and intended to cover a wide scope of application, including: video production, broadcast and editing. Streams are at potentially higher bitrates than MPEG-1 but more efficient compression making it suited to High Definition video. MPEG-2 Video supports both 'progressive' and 'interlaced' frame video. An MPG-2 \u2018Program\u2019 stream (PS) file (*.mpg, *.mpeg) generally contain both video and audio streams, generally for synchronised playback, and may carry a variety of other data (e.g. video captions).\r\n\r\nSome camcorders store their MPEG-2 Program Stream video data as files with the .mod extension, usually alongside other files containing metadata and management information for the video.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "public.mpeg",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "video/mpeg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/386",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 655,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000001BA{8-12}000001BB{8-65536}000001B3{8-136}000001B5",
+      "endianness": null,
+      "name": "MPEG-2 Program Stream",
+      "note": "Pack Header Start Code + System Header Start Code"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpeg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mpg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mod",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 1439,
+      "relatedFormatName": "MPEG-2 Elementary Stream"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1207,
+      "relatedFormatName": "Video Object File (MPEG-2 subset)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 659,
+      "relatedFormatName": "MPEG-1 Program Stream"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1207,
+      "relatedFormatName": "Video Object File (MPEG-2 subset)"
+    }
+  ]
+}

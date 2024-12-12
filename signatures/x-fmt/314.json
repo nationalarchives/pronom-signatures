@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 473,
+  "formatName": "Digital Terrain Elevation Data",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/314",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 387,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "55484C31{7}(57|45){7}(4E|53){60}445349",
+      "endianness": null,
+      "name": "Digital Terrain Elevation Data",
+      "note": "User Header Label (UHL1), Western or Eastern Hemisphere, Northern or Southern Hemisphere, Data Set Identification(DSI). There is also security classification code (S, C, U, R) that appears in the file. Files with extensions .dt0, .avg, .min and .max are typically unclassified, while those with extensions dt1 and dt2 are typically classified."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dted",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dt0",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dt1",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dt2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "avg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "min",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "max",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

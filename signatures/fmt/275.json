@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1015,
+  "formatName": "Microsoft Access Database File",
+  "version": "2007",
+  "formatDescription": "Microsoft Access ACCDB Database File is proprietary file format developed and used by Microsoft as a native format for its Microsoft Access desktop database management system. The format was introduced with Microsoft Access 2007 version of database system, replacing the MDB file format. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine. For a full list of versions please follow the links provided in the Notes section.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access\r\n\r\nhttps://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000463.shtml",
+  "lastUpdatedDate": "02 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "DROID 5.0 research.",
+  "formatSourceDate": "17 Mar 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000463",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/275",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q63391719",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 276,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "000100005374616E64617264204143452044420002000000",
+      "endianness": "Little-endian",
+      "name": "MS Access 2007",
+      "note": "ACE Database header plus variably positioned AccessVersion element having value 09. Two byte sequences. First byte sequence character sequence, Standard ACE DB. Second byte sequence character sequence, A c c e s s V e r s I o n{0-2048} 0 9 . [0:9] [0:9]"
+    },
+    {
+      "signatureID": 276,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "410063006300650073007300560065007200730069006F006E{0-2048}300039002E00[30:39]00[30:39]",
+      "endianness": "Little-endian",
+      "name": "MS Access 2007",
+      "note": "ACE Database header plus variably positioned AccessVersion element having value 09. Two byte sequences. First byte sequence character sequence, Standard ACE DB. Second byte sequence character sequence, A c c e s s V e r s I o n{0-2048} 0 9 . [0:9] [0:9]"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "accdb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 353,
+      "relatedFormatName": "Microsoft Access Database File"
+    }
+  ]
+}

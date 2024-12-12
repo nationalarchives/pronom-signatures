@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2834,
+  "formatName": "Atrac Codec File",
+  "version": "v.1",
+  "formatDescription": "ATRAC (Adaptive Transform Acoustic Coding) is a family of proprietary audio compression algorithms developed by Sony. It was first commercially used in the MiniDisc in 1992. ATRAC enabled the storage of audio information on quite small devices (for the time), with limited loss is perceptible quality.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Mar 2024",
+  "formatSourceID": 311,
+  "provenanceCompoundName": "Bibliotheque Cantonale Universitaire de Fribourg / Bibliotheque Cantonale Universitaire de Fribourg",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Mar 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1968",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2317,
+      "positionType": "Absolute from BOF",
+      "offset": 2896,
+      "maxOffset": 0,
+      "byteSequence": "AC",
+      "endianness": null,
+      "name": "Atrac Codec File v.1",
+      "note": "BOF, offset 2896, magic bytes: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u00ac"
+    },
+    {
+      "signatureID": 2317,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "AC",
+      "endianness": null,
+      "name": "Atrac Codec File v.1",
+      "note": "BOF, offset 2896, magic bytes: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u00ac"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aea",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

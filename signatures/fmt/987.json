@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1792,
+  "formatName": "Microsoft OneNote Package File",
+  "version": null,
+  "formatDescription": "Microsoft OneNote is a computer program for information gathering and multi-user collaboration. OneNote package files are compressed container formats which allow users to share OneNote files across computers. The OneNote File Format is a persistence format for storing digital notes as hierarchical sets of sections and pages. Pages can contain text, images, tables, note tags and other types of user-defined content.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/987",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1354,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D534346{20}0301{1-2048}6F6E65746F63",
+      "endianness": null,
+      "name": "OneNote package file",
+      "note": "MSCF{20}..{1-2048}onetoc"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "onepkg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 801,
+      "relatedFormatName": "Windows Cabinet File"
+    }
+  ]
+}

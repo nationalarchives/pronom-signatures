@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1141,
+  "formatName": "Borland Reflex flat datafile",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/393",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 579,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "000233512E2126402324212626",
+      "endianness": null,
+      "name": "Borland Reflex flat datafile",
+      "note": "Signature based on regularly recurring header sequence observed in collection of .rxd files"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rxd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

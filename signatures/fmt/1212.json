@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2022,
+  "formatName": "HP System Software Manager CVA File",
+  "version": null,
+  "formatDescription": "HP System Software Manager is a software deployment utility for distributing software packages and updates. The CVA file describes the deliverable package and any required parameters for deployment.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1212",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1590,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "5B4356412046696C6520496E666F726D6174696F6E5D",
+      "endianness": null,
+      "name": "HP SSM CVA",
+      "note": "BOF: 0-3 '[CVA File Information]"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cva",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

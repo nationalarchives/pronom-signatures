@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2762,
+  "formatName": "VBM (VDC BitMap) File",
+  "version": null,
+  "formatDescription": "VBM (VDC BitMap) is a bi-level raster image format associated with the ACE operating system for Commodore 64 and 128 computers. It was developed by Craig Bruce.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/VBM_(VDC_BitMap)",
+  "lastUpdatedDate": "18 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1906",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2252,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "424DCB",
+      "endianness": null,
+      "name": "VBM (VDC BitMap) File",
+      "note": "BOF:'BM\u00cb'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vbm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

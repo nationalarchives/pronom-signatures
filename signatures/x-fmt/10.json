@@ -1,0 +1,111 @@
+{
+  "fileFormatID": 20,
+  "formatName": "dBASE Database",
+  "version": "IV",
+  "formatDescription": "dBase is a database management systems for microcomputers.The dBase system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. dBase's underlying file format, the .dbf file, is widely used in applications needing a simple format to store structured data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Further information about the dBASE file format can be obtained at http://www.digitalpreservation.gov/formats/fdd/fdd000325.shtml",
+  "formatSourceDate": "10 Oct 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/dbase",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/10",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 544,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "04??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV without memo",
+      "note": "Header sequence: Version number (04), Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N)."
+    },
+    {
+      "signatureID": 545,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "43??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV SQL table files, no memo",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N)."
+    },
+    {
+      "signatureID": 546,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "63??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV SQL system files, no memo",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N)."
+    },
+    {
+      "signatureID": 547,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "CB??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV SQL table files, with memo",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+    },
+    {
+      "signatureID": 548,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "7B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV, with memo (7B byte)",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+    },
+    {
+      "signatureID": 549,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "8B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV, with memo (8B byte)",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+    },
+    {
+      "signatureID": 550,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "8E??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+      "endianness": null,
+      "name": "dBASE Database IV, with SQL",
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dbf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

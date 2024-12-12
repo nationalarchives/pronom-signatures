@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2746,
+  "formatName": "Memory Stick Voice File (MSV)",
+  "version": "ADPCM Codec",
+  "formatDescription": "The Memory Stick Voice (MSV) format is an audio file format that was used on the Sony Memory Stick IC recorder, specifically the ICD-MS1 model. Two versions of the MSV format exist: MSV (ADPCM) and MSV (LPEC). The first version, this one, MSV (ADPCM), uses an unspecified type of ADPCM compression, while MSV (LPEC) uses Sony's proprietary Long-term Predicted Excitation Coding (LPEC) codec.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1890",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2231,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D535F564F494345{4}01000000534F4E5920434F52504F524154494F4E{28}00(05|09)0001",
+      "endianness": null,
+      "name": "MSV ADPCM",
+      "note": "Description:'MS_VOICE' followed by 00x01000000'SONY CORPORATION' and then after 28 bytes the following sequence 00x00(05|09)0001"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "msv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1259,
+      "relatedFormatName": "Sony Digital Voice File/Sony Memory Stick Voice File"
+    }
+  ]
+}

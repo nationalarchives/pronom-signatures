@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2289,
+  "formatName": "InstallShield Executable",
+  "version": null,
+  "formatDescription": "This file type which includes  '_INST32I.EX_ ' file in the title is included many Windows software distributions that use the InstallShield installation software.\r\n\r\nInstallShield is a proprietary software tool originally developed by The Stirling Group.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1466",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1833,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2AAB79D8{0-10}436F707972696768742028632920313939302D3139393520537469726C696E6720546563686E6F6C6F676965732C20496E632E20416C6C205269676874732052657365727665",
+      "endianness": null,
+      "name": "InstallShield Executable",
+      "note": "Magic bytes \u2018*\u00aby\u00d8\u2019, then later in the file ASCII string \u2018Copyright (c) 1990-1995 Stirling Technologies, Inc. All Rights Reserve\u2019"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ex_",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

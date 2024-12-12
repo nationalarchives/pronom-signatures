@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1147,
+  "formatName": "Stuffit X Archive File",
+  "version": null,
+  "formatDescription": "The Stuffit X Archive format was developed in 2002 by Aladdin Systems, offering further compression methods and encryption options over the original Stuffit Archive format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Feb 2014",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/399",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 629,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5374756666497421",
+      "endianness": null,
+      "name": "StuffIt X",
+      "note": "'StuffIt!' starts BOF sequence, plus 3 bytes EOF"
+    },
+    {
+      "signatureID": 629,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "020255",
+      "endianness": null,
+      "name": "StuffIt X",
+      "note": "'StuffIt!' starts BOF sequence, plus 3 bytes EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sitx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

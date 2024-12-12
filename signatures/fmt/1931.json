@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 2792,
+  "formatName": "CorelDraw Drawing",
+  "version": "2020",
+  "formatDescription": "CorelDraw (styled CorelDRAW) is a vector graphics editor developed and marketed by Corel Corporation of Ottawa, Canada. It is also the name of Corel's Graphics Suite, which bundles CorelDraw with bitmap-image editor Corel Photo-Paint as well as other graphics-related programs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Oct 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "12 Oct 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1931",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2793,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2791,
+      "relatedFormatName": "CorelDraw Drawing"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "101080",
+      "description": "CorelDRAW Drawing 2020",
+      "files": [
+        {
+          "path": "mimetype"
+        },
+        {
+          "path": "content/root.dat",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "52 49 46 46"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "4",
+                  "sequence": "43 44 52 4E"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

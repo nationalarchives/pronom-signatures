@@ -1,0 +1,105 @@
+{
+  "fileFormatID": 2117,
+  "formatName": "Broderbund Print Shop Deluxe",
+  "version": "5-6",
+  "formatDescription": "The Print Shop is a desktop publishing application published by Broderbund. The Print Shop Deluxe is one of the early brand names for the product and has a range of format extensions dependent on the type of project being created. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1299",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1675,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "79A600004949494938",
+      "endianness": null,
+      "name": "The Print Shop Deluxe 5-6",
+      "note": "BOF: 0x79A600004949494938"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pds",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pcb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pcc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pce",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdl",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pso",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pho",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pcp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ppi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pda",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 240,
+      "relatedFormatName": "Broderbund Print Shop Deluxe"
+    }
+  ]
+}

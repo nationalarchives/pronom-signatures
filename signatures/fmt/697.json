@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1496,
+  "formatName": "Additive Manufacturing File Format",
+  "version": null,
+  "formatDescription": "Additive Manufacturing File Format (AMF) is an open standard for describing objects for additive manufacturing processes such as 3D printing.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://amf.wikispaces.com/\r\n\r\nhttps://web.archive.org/web/20120218025346/http://en.wikipedia.org/wiki/Additive_Manufacturing_File_Format#Meta-data",
+  "lastUpdatedDate": "09 Feb 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://amf.wikispaces.com/",
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/697",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1026,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-256}3C616D66",
+      "endianness": null,
+      "name": "Additive Manufacturing File Format",
+      "note": "<?xml version=('|\")1.0('|\") {1-256} <amf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "amf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

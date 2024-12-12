@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 1850,
+  "formatName": "Q&A Word Processor Document",
+  "version": null,
+  "formatDescription": "Q&A was a database and word processing software program for IBM PC-compatible computers published by Symantec and partners from 1985 to 1998. Due to their age, Q&A files may lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1045",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1404,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5442575000",
+      "endianness": null,
+      "name": "Q&A Write Word Processor (WP)",
+      "note": "BOF: TBWP or TBTX, followed by null. TB stands for TouchBase, Symantec's original internal name for the product. WP = Word Processor including header/footer. TX = Text only.\r\nFormat is described here:\r\nhttps://books.google.co.uk/books?id=YfkUKcyI7KIC&pg=PT439"
+    },
+    {
+      "signatureID": 1405,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5442545800",
+      "endianness": null,
+      "name": "Q&A Write Word Processor (TX)",
+      "note": "BOF: TBWP or TBTX, followed by null. TB stands for TouchBase, Symantec's original internal name for the product. WP = Word Processor including header/footer. TX = Text only.\r\nFormat is described here:\r\nhttps://books.google.co.uk/books?id=YfkUKcyI7KIC&pg=PT439"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

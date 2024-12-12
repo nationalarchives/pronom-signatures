@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 514,
+  "formatName": "OmniPage Pro Document",
+  "version": "5-9",
+  "formatDescription": "OnmiPage is Optical Character Recognition (OCR) software for harvesting text from scanned documents and images. .met was the file format in use by versions 5-9 of the OmniPage software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/350",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1750,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "43434D4554",
+      "endianness": null,
+      "name": "OmniPage MET",
+      "note": "BOF: 'CCMET'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "met",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

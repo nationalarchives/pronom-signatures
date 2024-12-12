@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1518,
+  "formatName": "MultiTracker Module",
+  "version": null,
+  "formatDescription": "A MultiTracker Module is an audio sequencing format produced by the MultiTracker Module Editor, created by Daniel Goldstein.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/719",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1045,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D544D10",
+      "endianness": null,
+      "name": "MultiTracker Module",
+      "note": "BOF: MTM. - the 4th byte is the version number where the first nybble is the major format version, the second nybble is the minor format version. At this time we have only encountered version 1.0 MultiTracker Module formats."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mtm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

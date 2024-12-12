@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2222,
+  "formatName": "Student Writing Center Newsletter",
+  "version": null,
+  "formatDescription": "Student Writing Center is an educational word processor developed by The Learning Company.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1404",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1778,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "1A544C43{1}464600(0300|0003)",
+      "endianness": null,
+      "name": "Student Writing Center Newsletter",
+      "note": "BOF: 0x1A 'TLC' {1} 'FF' 0x00, then 0x0300 or 0x0003 for Newsletter\r\nEOF, max offset 36: 0x1A 'FF' 0x1A"
+    },
+    {
+      "signatureID": 1778,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 36,
+      "byteSequence": "1A46461A",
+      "endianness": null,
+      "name": "Student Writing Center Newsletter",
+      "note": "BOF: 0x1A 'TLC' {1} 'FF' 0x00, then 0x0300 or 0x0003 for Newsletter\r\nEOF, max offset 36: 0x1A 'FF' 0x1A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nl",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nlt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

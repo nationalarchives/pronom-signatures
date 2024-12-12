@@ -1,0 +1,89 @@
+{
+  "fileFormatID": 1528,
+  "formatName": "SQLite Database File Format",
+  "version": "3",
+  "formatDescription": "SQLite is a relational database management system. SQLite does not define a formal file extension, but .sqlite, .db, and .db3 are commonly used.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 213,
+  "provenanceCompoundName": "State Records New South Wales / State Records New South Wales",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-sqlite3",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/729",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1053,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53514C69746520666F726D6174203300",
+      "endianness": null,
+      "name": "SQLite Database",
+      "note": "BOF: SQLite format 3."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sqlite",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "db",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "db3",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sqlite3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2156,
+      "relatedFormatName": "RootsMagic Database"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2520,
+      "relatedFormatName": "EndNote Library"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2536,
+      "relatedFormatName": "OGC GeoPackage"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2677,
+      "relatedFormatName": "Audacity Project File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1945,
+      "relatedFormatName": "SQLite Database File Format"
+    }
+  ]
+}

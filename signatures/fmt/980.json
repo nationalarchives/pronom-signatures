@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1785,
+  "formatName": "AAE Sidecar Format",
+  "version": null,
+  "formatDescription": "The AAE sidecar format is a form of property list format. It has been reported as present in iOS 8 and OS X Yosemite for transferring non-destructive adjustments in photo editing between systems and apps. It is an XML based format. The .aae file accompanies the actual image which is in a .jpg file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Versions prior to DROID 6.3 may not identify this format correctly",
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/980",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1341,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E{8-1024}6170706C652E50686F746F4C6962726172795365727669636573",
+      "endianness": null,
+      "name": "AAE Sidecar Format",
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\">{8-1024}apple.PhotoLibraryServices"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aae",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1784,
+      "relatedFormatName": "XML Property List"
+    }
+  ]
+}

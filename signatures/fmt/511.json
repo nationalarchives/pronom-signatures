@@ -1,0 +1,83 @@
+{
+  "fileFormatID": 1298,
+  "formatName": "PowerProject",
+  "version": "7",
+  "formatDescription": "Asta PowerProject is a proprietary project management suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 189,
+  "provenanceCompoundName": "Asta Development / Asta Development",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/511",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 804,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000303030303030303730303620{13}2F2F646F646C2076657273696F6E20616E642066696C652069640D0A",
+      "endianness": null,
+      "name": "PowerProject v7",
+      "note": "..00000007006 {13}//dodl version and file id.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1299,
+      "relatedFormatName": "PowerProject"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1300,
+      "relatedFormatName": "PowerProject"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1301,
+      "relatedFormatName": "PowerProject"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1302,
+      "relatedFormatName": "PowerProject"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1303,
+      "relatedFormatName": "PowerProject"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1304,
+      "relatedFormatName": "PowerProject"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1297,
+      "relatedFormatName": "PowerProject Teamplan"
+    }
+  ]
+}

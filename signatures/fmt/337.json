@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1082,
+  "formatName": "MJ2 (Motion JPEG 2000)",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 May 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": "JPEG 2000",
+  "identifiers": [
+    {
+      "identifierText": "fmt/337",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/mj2",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 719,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000000C6A5020200D0A870A{4}667479706D6A7032",
+      "endianness": null,
+      "name": "Motion JPEG 2000",
+      "note": "BOF: ....jP  ..\u2021.{4}ftypmjp2"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mj2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mjp2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1021,
+  "formatName": "LaTeX (Subdocument)",
+  "version": null,
+  "formatDescription": "LaTeX is a document preparation system for typesetting. It is widely used in academia for technical or scientific documents but can be used for other forms of publishing. LaTeX projects can contain multiple subdocuments which are linked to a Master Document.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Nov 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Following up external submission. Signature submitted by representative of KeepIt project at Southampton University.",
+  "formatSourceDate": "01 Nov 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/281",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 297,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4096,
+      "byteSequence": "5C(7573657061636B6167657B|636861707465727B|73656374696F6E7B|73756273656374696F6E7B|626567696E7B)",
+      "endianness": null,
+      "name": "LaTeX (Subdocument)",
+      "note": "Looking for relevant tags in LaTeX subdocument. \\usepackage{ \\chapter{ \\section{ \\subsection{ \\begin{"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1020,
+      "relatedFormatName": "LaTeX (Master document)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

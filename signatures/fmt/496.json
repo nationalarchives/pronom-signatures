@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1283,
+  "formatName": "TransXchange File Format",
+  "version": null,
+  "formatDescription": "TransXChange is a UK national data standard for the exchange of bus route and timetable information. The standard is sponsored by the UK Department for Transport and is mandated by the Vehicle Operating Services Agency (VOSA) for the electronic registration of UK bus services with Traffic Area Offices (TAO) and Local Authorities. It is a subset of XML.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/496",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 769,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30{0-64}3C5472616E73584368616E6765207873693A736368656D614C6F636174696F6E3D22687474703A2F2F7777772E7472616E73786368616E67652E6F72672E756B2F",
+      "endianness": null,
+      "name": "TransXchange",
+      "note": "BOF: <?xml version=\"1.0\"{0-64}<TransXChange xsi:schemaLocation=\"http://www.transxchange.org.uk/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "txc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

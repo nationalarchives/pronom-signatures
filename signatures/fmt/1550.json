@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 2375,
+  "formatName": "MATLAB Mat File",
+  "version": "Level 4",
+  "formatDescription": "A Mat-file stores data in binary form. You can read and write Mat-files using MATLAB. Level 4 MAT files are compatible with MATLAB versions up to Version 4.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Nov 2021",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1550",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1606,
+      "relatedFormatName": "MATLAB Mat File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1629,
+      "relatedFormatName": "MATLAB Mat File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1606,
+      "relatedFormatName": "MATLAB Mat File"
+    }
+  ]
+}

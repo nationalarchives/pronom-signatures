@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 1980,
+  "formatName": "Alias Studio Wire File",
+  "version": "8.5",
+  "formatDescription": "Alias Studio is a Computer Aided Industrial Design software suite originally created by Alias Systems and now published by Autodesk. Files of this type may lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1170",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1551,
+      "positionType": "Absolute from BOF",
+      "offset": 12,
+      "maxOffset": null,
+      "byteSequence": "416C6961732053747564696F{13}382E35",
+      "endianness": null,
+      "name": "Alias Studio Wire 8.5",
+      "note": "Offset 12: 'Alias Studio'{13}8.5"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1985,
+      "relatedFormatName": "Alias Studio Wire File"
+    }
+  ]
+}

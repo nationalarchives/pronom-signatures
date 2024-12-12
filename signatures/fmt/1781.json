@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2631,
+  "formatName": "Pentax PEF Image File",
+  "version": null,
+  "formatDescription": "Pentax PEF Image File (or Pentax RAW) is a RAW image format based on TIFF [fmt/353] file format, provided by Pentax and associated with Pentax Digital SLR cameras. Its use has been deprecated since the release of DNG format. Similarly to RAW camera formats, PEF format contains information of image capture such as colour, lighting or camera sensor. The structure of these informations related to each image differs in each PEF format depending on which camera model was used to capture the image. The format first appeared with Pentax's digital *its Series and continued until Pentax Q series.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Pentax_PEF\r\n\r\nhttps://www.online-convert.com/file-format/pef\r\n\r\nhttps://www.pentaxforums.com/forums/131-visitors-center/355882-pef-raw.html\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000241.shtml",
+  "lastUpdatedDate": "17 Oct 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Pentax RAW",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1781",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/dng",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2121,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A*50454E544158{0-2048}414F43004D4D",
+      "endianness": "Big-endian",
+      "name": "Pentax PEF Image File",
+      "note": "BOF; Offset: 0; Magic Bytes: A TIFF based format starting with  TIFF Motorola endian header \"MM.*\" then variable number of wildcard bytes followed by 'PENTAX' tag, then wildcard bytes between none to 2048 followed by MakerNote values of \"AOC MM\"."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pef",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

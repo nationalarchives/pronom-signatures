@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 2023,
+  "formatName": "Zoner Callisto Metafile",
+  "version": "2",
+  "formatDescription": "Callisto is a vector graphics editor created by Czech company Zoner Software. This version of the .zmf format is based on Microsoft's OLE2 Compound Document File Format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later.",
+  "formatSourceDate": "20 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1213",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "zmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "35000",
+      "description": "Zoner Callisto Metafile 2",
+      "files": [
+        {
+          "path": "Callisto_doc.zmf"
+        }
+      ]
+    }
+  ]
+}

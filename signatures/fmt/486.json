@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1273,
+  "formatName": "Macromedia (Adobe) Director Compressed Resource file",
+  "version": null,
+  "formatDescription": "These files are interactive plugin objects produced by Macromedia Director, and are typically found embedded in web pages, rendered by the Shockwave plugin.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Dec 2012",
+  "formatSourceID": 185,
+  "provenanceCompoundName": "Rhizome / Rhizome",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Dec 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/486",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 758,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "52494658{4}4647444D",
+      "endianness": null,
+      "name": "Macromedia Director DCR Windows",
+      "note": "BOF: RIFX{4}FGDM"
+    },
+    {
+      "signatureID": 759,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "58464952{4}4D444746",
+      "endianness": null,
+      "name": "Macromedia Director DCR Macintosh",
+      "note": "BOF: XFIR{4}MDGF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dcr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

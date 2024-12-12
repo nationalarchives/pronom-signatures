@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2667,
+  "formatName": "Adobe Swatch Exchange",
+  "version": null,
+  "formatDescription": "Adobe Design software such as Photoshop, Illustrator and InDesign use color swatches to assign specific color values to a design. These can be created using many different color spaces and can even use color libraries, such as Pantone. Adobe Swatch Exchange is a format used for storing, importing and exporting color samplers and pickers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.cyotek.com/blog/reading-adobe-swatch-exchange-ase-files-using-csharp",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.115)- File format type removed. Submitted by The National Archives and Records Administration.",
+  "formatSourceDate": "02 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1816",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2156,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "415345460001",
+      "endianness": null,
+      "name": "Adobe Swatch Exchange",
+      "note": "Absolute from beginning of file, magic bytes: ASEF.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ase",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

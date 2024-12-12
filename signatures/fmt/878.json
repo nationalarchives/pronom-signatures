@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1682,
+  "formatName": "Corel Presentation",
+  "version": "3",
+  "formatDescription": "Presentations is a presentation program that was formerly available as part of Novell's PerfectOffice productivity suite, and is now part of the Corel's WordPerfect Office suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 May 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/878",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1232,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF575043{4}0F0F01",
+      "endianness": null,
+      "name": "Corel Presentations 3",
+      "note": "\u00ffWPC{4}\u2026"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

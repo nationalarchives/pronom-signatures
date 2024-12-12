@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2634,
+  "formatName": "Animatic Film Format",
+  "version": null,
+  "formatDescription": "Animatic Film is an Atari animation format associated with the Animatic Animation System software by Kinetic Microsystems.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Animatic_Film\r\n\r\nhttps://temlib.org/AtariForumWiki/index.php/Animatic_Film_file_format",
+  "lastUpdatedDate": "15 Nov 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1784",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2124,
+      "positionType": "Absolute from BOF",
+      "offset": 48,
+      "maxOffset": 0,
+      "byteSequence": "27182818",
+      "endianness": null,
+      "name": "Animatic Film Format",
+      "note": "BOF:Offset of 48 followed by ' followed by 0x18 (Cancel) followed by ( followed by 0x18 (Cancel)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

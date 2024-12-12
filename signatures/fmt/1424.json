@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2242,
+  "formatName": "WordPerfect Encrypted Document",
+  "version": "4.2",
+  "formatDescription": "WordPerfect is a Word Processing application currently owned by Corel Corporation. Documents could be encrypted in WordPerfect 4.2 using the 'locking' feature.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.wordperfect",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1424",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1792,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FEFF6161",
+      "endianness": null,
+      "name": "WordPerfect 4.2 Encrypted Document",
+      "note": "BOF: 0xFEFF6161"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

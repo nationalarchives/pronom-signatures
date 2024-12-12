@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 223,
+  "formatName": "GEM Image",
+  "version": null,
+  "formatDescription": "The GEM raster format (also known as GEM VDI Bit Image; GEM Bit Image; GEM Image; GEM Bitmap; or IMG) is an image format native to the Graphical Environment Manager (GEM) operating system and developed at Digital Research. The format was used by GEM Paint and Ventura Publisher, and by a variety of Atari ST software.\r\n\r\nGEM raster images may be color, gray scale, or black and white and are always read and written in the big-endian format. The format of bi-level images is well standardized, but the specification is ambiguous as to the format of color images. As a result, other color formats of GEM raster image were later developed, some of which have their own names, such as XIMG (Extended GEM Bit Image), TIMG (TrueColor IMG), STTT, or Hyperpaint.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/GEM_Raster \r\n\r\nhttps://www.wikidata.org/wiki/Q28206162 \r\n\r\nhttps://www.seasip.info/Gem/ff_img.html \r\n\r\nhttps://www.fileformat.info/format/gemraster/spec/20e311cc16f844fda91beb539d62c46c/view.htm \r\n\r\nhttps://archive.org/stream/mac_Graphics_File_Formats_Second_Edition_1996/Graphics_File_Formats_Second_Edition_1996_djvu.txt",
+  "lastUpdatedDate": "29 Mar 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/159",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 397,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0001000800(01|04)0002",
+      "endianness": "Big-endian",
+      "name": "GEM Paint Image",
+      "note": "2 byte Version (always 1), number of words in header (8), 2 byte number of planes (1 or 4), pattern size (2)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2484,
+      "relatedFormatName": "XIMG (Extended GEM Bit Image)"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1135,
+  "formatName": "VCalendar format",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "Specifications available at : http://www.imc.org/pdi/pdiproddev.html",
+  "lastUpdatedDate": "23 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/387",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/x-vCalendar",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 572,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "424547494E3A5643414C454E444152*56455253494F4E{0-2}3A312E30",
+      "endianness": null,
+      "name": "VCalendar format",
+      "note": "Header ASCII: BEGIN:VCALENDAR, followed at undefined point by VERSION:1.0 (version 1.0 signifies Vcalendar format, version 2.0 signifies Internet Calendaring and Scheduling format). Footer sequence ASCII: END:VCALENDAR"
+    },
+    {
+      "signatureID": 572,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "454E443A5643414C454E444152",
+      "endianness": null,
+      "name": "VCalendar format",
+      "note": "Header ASCII: BEGIN:VCALENDAR, followed at undefined point by VERSION:1.0 (version 1.0 signifies Vcalendar format, version 2.0 signifies Internet Calendaring and Scheduling format). Footer sequence ASCII: END:VCALENDAR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vcs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

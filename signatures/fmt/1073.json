@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1880,
+  "formatName": "Google Document Link File",
+  "version": null,
+  "formatDescription": "Google document link files are text based files written in the format of JSON (JavaScript Object Notation). They \r\r\nprovide a URL link to the Google document held in Google Drive.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "19 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1073",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1451,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7B2275726C223A202268747470733A2F2F646F63732E676F6F676C652E636F6D2F6F70656E{1-64}646F635F6964{1-128}656D61696C{1-128}7265736F757263655F6964",
+      "endianness": null,
+      "name": "Google Document Link File",
+      "note": "{\"url\": \"https://docs.google.com/open{52}doc_id{1-128}email{1-128}resource_id"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gslides",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gdoc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gsheet",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gdraw",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gmap",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gsite",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gform",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

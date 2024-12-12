@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1976,
+  "formatName": "Niton Data Transfer",
+  "version": null,
+  "formatDescription": "Niton Data Transfer is a data format used in the field of X-Ray Flourescence (XRF) analysis. It is the native format produced by Niton XRF devices.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "31 Jul 2018",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "31 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1166",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1547,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "BAFED54601001122",
+      "endianness": null,
+      "name": "Niton Data Transfer",
+      "note": "BOF: 0xBAFED54601001122"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ndt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

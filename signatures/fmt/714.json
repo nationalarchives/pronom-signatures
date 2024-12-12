@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1513,
+  "formatName": "Extensible Music Format",
+  "version": null,
+  "formatDescription": "Extensible Music Format (XMF) is a tree-based digital container format used to bundle music-oriented content, such as a MIDI file and optionally the sounds it uses, liner notes or other content grouped by language-codes.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/714",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1040,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "584D465F",
+      "endianness": null,
+      "name": "XMF",
+      "note": "BOF: XMF_ \r\nAt this time the XMF signature does not distinguish between different XMF subtypes, with the exception of Mobile XMF."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xmf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mxmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1766,
+      "relatedFormatName": "Mobile eXtensible Music Format"
+    }
+  ]
+}

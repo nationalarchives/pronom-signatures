@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 1578,
+  "formatName": "pcap Packet Capture",
+  "version": null,
+  "formatDescription": "The pcap file format was invented for use by tcpdump, a packet analyser used to examine and interpret network traffic.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.tcpdump.pcap",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/779",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1145,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "A1B2C3D4",
+      "endianness": null,
+      "name": "pcap Big Endian",
+      "note": "0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. \r\n0xd4c3b2a1 indicates that the reader has a different byte order from the writer."
+    },
+    {
+      "signatureID": 1146,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "D4C3B2A1",
+      "endianness": null,
+      "name": "pcap Little Endian",
+      "note": "0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. \r\n0xd4c3b2a1 indicates that the reader has a different byte order from the writer."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pcap",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cap",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

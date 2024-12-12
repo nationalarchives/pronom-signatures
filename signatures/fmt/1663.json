@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2499,
+  "formatName": "YAODL (Yet Another Object Description Language) File",
+  "version": null,
+  "formatDescription": "SGI YAODL (Yet Another Object Description Language) is a description language used for storing 3D object data to disk files. YAODL is an obsolete format created specifically for the Silicon Graphics Powerflip demo program, but it is not widely supported by SGI. The format is an example of a basic vector-object description language and is stored in plain text (ASCII) format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/SGI_YAODL\r\n\r\nhttp://paulbourke.net/dataformats/yaodl/",
+  "lastUpdatedDate": "29 Mar 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1663",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1997,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2359414F444C0D0A",
+      "endianness": null,
+      "name": "YAODL (Yet Another Object Description Language) File",
+      "note": "BOF; Offset: 0; Magic Bytes: '#YAODL, then 0x0D0A'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ydl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

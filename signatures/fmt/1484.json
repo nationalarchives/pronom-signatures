@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2307,
+  "formatName": "JPEG XL Codestream",
+  "version": null,
+  "formatDescription": "JPEG XL is a raster image format standardised by ISO/IEC FDIS 18181-1, that supports lossy and lossless compression. This PUID is for a raw JPEG XL codestream",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1484",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jxl",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1856,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF0A",
+      "endianness": null,
+      "name": "JPEG XL Codestream",
+      "note": "BOF: 0xFF0A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jxl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

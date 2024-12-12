@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2774,
+  "formatName": "Autodesk Alias Wire Format",
+  "version": "7",
+  "formatDescription": "The proprietary file format used by Autodesk Alias products, a family of computer-aided industrial design (CAID) software predominantly used in automotive and industrial design. Files of this type lack an extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.autodesk.com/products/alias-products/overview?term=1-YEAR&tab=subscription&plc=ALSCPT",
+  "lastUpdatedDate": "21 Sep 2023",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Sep 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1916",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2266,
+      "positionType": "Absolute from BOF",
+      "offset": 12,
+      "maxOffset": 0,
+      "byteSequence": "416C69617320506F776572416E696D61746F72000000000030372E",
+      "endianness": null,
+      "name": "Autodesk Alias Wire Format v.7",
+      "note": "BOF, offset 12, magic bytes: Alias PowerAnimator\u2026..07."
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

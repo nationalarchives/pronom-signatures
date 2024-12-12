@@ -1,0 +1,44 @@
+{
+  "fileFormatID": 2580,
+  "formatName": "C/C++ Header File",
+  "version": null,
+  "formatDescription": "C/C++ Header File can come with extension .hpp, .hxx or .h and are text header files written in the C or C++ programming language. File extension .h are preffered to be used in C programming language but are also compatable with C++. The .hpp extension is preffered to be used in C++ header file (the \"pp\" in extension presumably stands for \"plus, plus\"). These files are mainly categorized as developer files using the correct file extension, they can be inserted to a .cpp source code file, provided the \u201c#include directive\u201d is used. Due to type of this file format a magic bytes sequence could not be established and this format is only recognised by its exension, please contact the PRONOM team if you can provide any more information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://cplusplus.com/articles/Gw6AC542/\r\n\r\nhttps://docs.microsoft.com/en-us/cpp/cpp/header-files-cpp?view=msvc-170\r\n\r\nhttps://www.reviversoft.com/en/file-extensions/hpp\r\n\r\nhttps://www.cplusplus.com/",
+  "lastUpdatedDate": "02 Aug 2022",
+  "formatSourceID": 292,
+  "provenanceCompoundName": "UMC Utrecht / University Medical Center Utrecht",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1735",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "h",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hpp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hxx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

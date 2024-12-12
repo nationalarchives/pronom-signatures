@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2431,
+  "formatName": "EggPaint (Atari Falcon)",
+  "version": null,
+  "formatDescription": "EggPaint is a simple uncompressed raster image format with 16 bits/pixel (RGB 5-6-5 format) and an 8-byte header, used on Atari Falcon computers.\r\n\r\nThe Atari Falcon030 (usually shortened to Atari Falcon), released in 1992, was the final personal computer product from Atari Corporation. A high-end model of the Atari ST line, the machine is based on a Motorola 68030 CPU and a Motorola 56000 digital signal processor, a feature which distinguishes it from most other microcomputers of the era. It included a VIDEL programmable graphics system which greatly improved graphics capabilities.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Atari_Falcon\r\n\r\nhttp://fileformats.archiveteam.org/wiki/EggPaint\r\n\r\nhttps://temlib.org/AtariForumWiki/index.php/EggPaint_file_format",
+  "lastUpdatedDate": "24 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1604",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1939,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "54525550",
+      "endianness": null,
+      "name": "EggPaint (Atari Falcon)",
+      "note": "BOF; Offset: 0; Magic Bytes: 'TRUP'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "trp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

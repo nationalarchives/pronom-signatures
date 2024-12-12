@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1308,
+  "formatName": "Adobe Multiple Master Metrics font file",
+  "version": null,
+  "formatDescription": "Multiple Master Metrics (MMM) files are the multiple master equivalent of the single master font PFM files. A multiple master base font is composed of a PFM file, a PFB file, and an MMM file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/521",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 814,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0A010100436F7079726967687420{158}FF007500000000000000110076000000E803E803",
+      "endianness": null,
+      "name": "Adobe Multiple Master Metrics Font file",
+      "note": "BOF: ....Copyright {158}\u00ff.u.........v...\u00e8.\u00e8."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mmm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

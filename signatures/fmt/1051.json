@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1856,
+  "formatName": "Windows Journal Format",
+  "version": null,
+  "formatDescription": "JNT is the native format of Windows Journal, a notetaking application created by Microsoft for Windows operating systems starting with Windows XP. Due to security concerns Microsoft advise against using the format and have supplied a patch for removal of the application (https://support.microsoft.com/en-gb/help/3161102/update-for-windows-journal-component-removal). Microsoft also provide an update that re-installs a version of Windows Journal that highlights the security concerns (https://support.microsoft.com/en-us/help/3162655/windows-journal-application-for-windows). A JTP is a Windows Journal Template file, however this appears to be structurally identical to a JNT file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2017",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 May 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1051",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1415,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4E422A00{4}5001001002000000",
+      "endianness": null,
+      "name": "Windows Journal",
+      "note": "BOF: 'NB*' 0x00 {4} 0x500100100200000 based on observation from a wide pool of samples"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jnt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jtp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

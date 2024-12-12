@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1241,
+  "formatName": "Verity Collection Index About File",
+  "version": null,
+  "formatDescription": "A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files. Verity Collection Index About files give general collection information and assist in optimising searches.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/454",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 708,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "24636F6E74726F6C3A2031{0-1}0A636F6C6C656374696F6E5F61626F75743A",
+      "endianness": null,
+      "name": "Verity Collection Index About File",
+      "note": "BOF: $control: 1.collection_about:\r\nor BOF: $control: 1..collection_about:"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "abt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

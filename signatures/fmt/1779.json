@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2629,
+  "formatName": "Dynamic Publisher Font File",
+  "version": null,
+  "formatDescription": "Dynamic Publisher is a desktop publishing application for the MSX2 computer system. It was published by Radarsoft in 1987. This entry relates to the font files associated with the software, which can be customised by the user.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Dynamic_Publisher",
+  "lastUpdatedDate": "12 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1779",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2119,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44594E414D4943205055424C495348455220464F4E54",
+      "endianness": null,
+      "name": "Dynamic Publisher Font File",
+      "note": "BOF:'DYNAMIC PUBLISHER FONT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fnt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

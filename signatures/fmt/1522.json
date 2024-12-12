@@ -1,0 +1,75 @@
+{
+  "fileFormatID": 2346,
+  "formatName": "Serif DrawPlus Drawing",
+  "version": "X2",
+  "formatDescription": "Serif DrawPlus is a vector image creation application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "25 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1522",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "dpp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dpa",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2352,
+      "relatedFormatName": "Serif DrawPlus Drawing"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "22560",
+      "description": "Serif DrawPlus Drawing X2",
+      "files": [
+        {
+          "path": "SummaryInformation",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'DrawPlus 9'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

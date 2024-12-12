@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1996,
+  "formatName": "Dr. Halo Image Palette",
+  "version": null,
+  "formatDescription": "The Dr. Halo Image Palette stores colour palette information for the Dr. Halo Image Data format. Having a separate colour palette file aloows the ability to change the stored colours of an image without re-encoding the image data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "09 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1186",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1567,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4148{4}0A00",
+      "endianness": null,
+      "name": "Dr. Halo Image Palette",
+      "note": "BOF: 'AH'{4} 0x0A00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pal",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

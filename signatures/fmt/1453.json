@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2275,
+  "formatName": "Lotus 1-2-3 Worksheet",
+  "version": "9.8 Millennium",
+  "formatDescription": "Lotus 1-2-3 Workbook is a spreadsheet program produced by the Lotus Software Group (later acquired by IBM). The original release was in 1983 and it has been discontinued since 2013.\r\n\r\nThe original 1-2-3 files have .wks extensions. Version 2.0 originally used a .wk1 extension but this was changed quickly to .wk2 and after this the number in the extension corrolates with the version number. Some later versions have the extension .123",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 248,
+  "provenanceCompoundName": "Aarhus City Archives / Aarhus Stadsarkiv",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-1-2-3",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/x-123",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1453",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1817,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00001A0005100400",
+      "endianness": null,
+      "name": "Lotus 1-2-3 Worksheet Version 9.8 Millennium",
+      "note": "\tSection Record Type = 0, record length dec 26 = 1A; file format version number = hex 05100400"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "123",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

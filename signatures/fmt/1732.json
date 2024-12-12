@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2577,
+  "formatName": "Prism Paint Bitmap",
+  "version": null,
+  "formatDescription": "Prism Paint Bitmap is a raster graphics format associated with the Prism Paint program for Atari computers. It usually uses PackBits compression.\r\n\r\nIt is likely to be the same as the TruePaint TPI format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Prism_Paint",
+  "lastUpdatedDate": "19 Jul 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1732",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2070,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "504E5400",
+      "endianness": null,
+      "name": "Prism Paint Bitmap",
+      "note": "BOF:'PNT' followed by 0x00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pnt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tpi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

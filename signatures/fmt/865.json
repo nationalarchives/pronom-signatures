@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1669,
+  "formatName": "STL (Standard Tessellation Language) Binary",
+  "version": null,
+  "formatDescription": "STL is a 3D modelling file format created by 3D Systems. An STL file is a triangular representation of a 3-dimensional surface geometry. The surface is tessellated or broken down logically into a series of small triangles (facets). Each facet is described by a perpendicular direction and three points representing the vertices (corners) of the triangle. These data are used by a slicing algorithm to determine the cross sections of the 3-dimensional shape to be built by the fabricator.\r\n\r\nThe structure of STL Binary, though well defined, makes it impossible to create an identification signature under the current PRONOM signature model. \r\n\r\nThe format consists of an 80 byte ASCII header with no formalized structure, followed by a four byte integer value representing the number of facets within the file, followed by 48 bytes of floating point values representing the 'normal' and 'vertex' coordinates within 3 dimensional space for each triangle, followed by a two byte, typically (but not exclusively) unused 'attribute byte count'.\r\n\r\nA technical specification may be found here: http://www.fabbers.com/tech/STL_Format",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "09 Jan 2016",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "09 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Stereolithography file (Binary)",
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/865",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "stl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

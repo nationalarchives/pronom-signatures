@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2296,
+  "formatName": "Archimedes Tracker Module",
+  "version": null,
+  "formatDescription": "Archimedes Tracker Module is a music file format native to the Tracker software created by Fabrice Mercier for the Acorn Archimedes running RISC OS.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Audio_and_Music#Music_trackers\r\n\r\nhttps://stardot.org.uk/forums/viewtopic.php?t=13485\r\n\r\nhttps://forums.jaspp.org.uk/forum/viewtopic.php?f=15&t=79\r\n\r\nhttps://blog.sphere.chronosempire.org.uk/2014/02/02/crystal-maze-theme",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1473",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1844,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D555358",
+      "endianness": null,
+      "name": "Archimedes Tracker Module",
+      "note": "BOF:'MUSX'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "musx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

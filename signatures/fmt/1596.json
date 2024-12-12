@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2423,
+  "formatName": "ESRI ArcInfo Grid .nit File",
+  "version": null,
+  "formatDescription": "Files which comprise part of an ArcInfo Grid, a raster data model storing information in a matrix of cells, with values representing a coordinate, and sometimes linked to an attribute table. ArcInfo Grid models are generated using ArcGIS software, produced by Esri (https://www.esri.com/en-us/arcgis/about-arcgis/overview.) Nit files follow a consistent naming pattern: arcXXXX.nit, where XXXX is an incrementally increasing number starting from 0000, e.g, arc000.nit, arc0001.nit, arc0002.nit. Nit files are always stored in an /info/ directory at the root. They are associated with .dat and .adf files, and their function is to store file structure and field definition information of the grid.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://avce00.maptools.org/docs/v7_bin_cover.html#ARC.DAT\r\n \r\nhttp://webhelp.esri.com/arcgisdesktop/9.2/index.cfm?TopicName=How_coverages_are_stored \r\n\r\nhttps://support.esri.com/en/technical-article/000008526\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000281.shtml",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": "11/2023 (v.115)- Format type changed to GIS and max-offset modified for BOF signature to allow for more exact signature identification. Internally researched",
+  "formatSourceDate": "18 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1596",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1935,
+      "positionType": "Absolute from BOF",
+      "offset": 16,
+      "maxOffset": 0,
+      "byteSequence": "00(02|04|08)FFFF00010004",
+      "endianness": null,
+      "name": "ESRI ArcInfo Grid .nit File",
+      "note": "BOF, offset 16: magic bytes .. \u00ff\u00ff\u2026."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nit",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2012,
+  "formatName": "Guymager Acquisition Info File",
+  "version": null,
+  "formatDescription": "The Guymager Acquisition Info File is produced by the Guymager digital forensics imaging tool, and contains logging information about the imaging process.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1202",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1580,
+      "positionType": "Absolute from BOF",
+      "offset": 1,
+      "maxOffset": 2,
+      "byteSequence": "4755594D41474552204143515549534954494F4E20494E464F2046494C45",
+      "endianness": null,
+      "name": "Guymager Acquisition Info File",
+      "note": "BOF, offset 1-2: GUYMAGER ACQUISITION INFO FILE"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "info",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,95 @@
+{
+  "fileFormatID": 2291,
+  "formatName": "multiArtist File",
+  "version": null,
+  "formatDescription": "multiArtist is a PC (Windows) program for creating MultiGigaScreen graphics for the ZX Spectrum. It is likely that the four known file extensions (.mg1, .mg2, .mg4 and .mg8) relate to the attribute blocks (8x1, 8x2, 8x4, 8x8) in a given file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/MultiArtist\r\n\r\nhttp://multiartist.untergrund.net/index.php\r\n\r\nhttps://en.wikipedia.org/wiki/ZX_Spectrum_graphic_modes",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1468",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1834,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D47480101",
+      "endianness": null,
+      "name": "multiArtist File (.mg1)",
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x01"
+    },
+    {
+      "signatureID": 1835,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D47480102",
+      "endianness": null,
+      "name": "multiArtist File (.mg2)",
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x02"
+    },
+    {
+      "signatureID": 1836,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D47480104",
+      "endianness": null,
+      "name": "multiArtist File (.mg4)",
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x04"
+    },
+    {
+      "signatureID": 1837,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D47480108",
+      "endianness": null,
+      "name": "multiArtist File (.mg8)",
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x08"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mg1",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mg2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mg4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mg8",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

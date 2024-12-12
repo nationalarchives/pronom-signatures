@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1912,
+  "formatName": "Seattle FilmWorks SFW Image Format",
+  "version": null,
+  "formatDescription": "Seattle FilmWorks was a mail order film processing company. Digitised photographs made by the company used a family of proprietary raster image formats known as SFW and PWP (PhotoWorks PhotoMail). The SFW format has a compressed version based on JPEG, and an uncompressed version based on BMP.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1104",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1486,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534657393441",
+      "endianness": null,
+      "name": "Seattle FilmWorks Image 94A variant",
+      "note": "BOF: SFW94A"
+    },
+    {
+      "signatureID": 1614,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "534657393841",
+      "endianness": null,
+      "name": "Seattle FilmWorks Image 98A variant",
+      "note": "BOF: SFW98A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sfw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

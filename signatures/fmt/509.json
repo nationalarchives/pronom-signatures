@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1296,
+  "formatName": "Adobe PostScript Font Metrics file",
+  "version": null,
+  "formatDescription": "Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": "Descriptive text extracted from here: http://www.adobe.com/type/browser/info/formats.html",
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/509",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 802,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0001{64}81000A002C012C01{43}1E00",
+      "endianness": null,
+      "name": "Adobe PFM",
+      "note": "BOF: (..{64}....,.,.{43}..) - 117 byte header: 2byte 'dfVersion', then after Length and Copyright string, 8 bytes (dfType, dfPoint, dfVertRes, dfHorizRes), then first two bytes after the header represent first PFM extension, 'dfSizeFields'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pfm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

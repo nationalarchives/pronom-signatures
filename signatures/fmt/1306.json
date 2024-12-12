@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2124,
+  "formatName": "LocoScript Document",
+  "version": "3",
+  "formatDescription": "The LocoScript 3 Document format is a proprietary word processing format produced by LocoScript 3, a word processor for Amstrad PCWs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.seasip.info/Unix/Joyce/ls1frm.html",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 184,
+  "provenanceCompoundName": "British Library / British Library",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1306",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1681,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4A4F5901(03|04)",
+      "endianness": null,
+      "name": "LocoScript Document Version 3",
+      "note": "BOF: Magic Bytes 'JOY..' with the last (03|04) byte specific to file version."
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

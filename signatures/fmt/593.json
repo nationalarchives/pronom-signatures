@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1385,
+  "formatName": "Canon RAW",
+  "version": "1.0",
+  "formatDescription": "The .CRW file format (Canon RAW version 1) is a digital photography RAW format created by Canon.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/593",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 934,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49491A0000004845415043434452",
+      "endianness": null,
+      "name": "Canon RAW 1",
+      "note": "II....HEAPCCDR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "crw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

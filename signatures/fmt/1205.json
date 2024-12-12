@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2015,
+  "formatName": "LightWave 3D Object",
+  "version": null,
+  "formatDescription": "LightWave is a 3D graphics software application. LightWave 3D objects are stored as IFF files with a FORM type identifier of LWOB.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1205",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1583,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "464F524D{4}4C574F42",
+      "endianness": null,
+      "name": "Lightwave 3D Object",
+      "note": "BOF: FORM{4}LWOB - http://www.martinreddy.net/gfx/3d/LWOB.txt"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 221,
+      "relatedFormatName": "Interchange File"
+    }
+  ]
+}

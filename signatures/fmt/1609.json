@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2436,
+  "formatName": "exFAT (Extensible File Allocation Table) Disc Image",
+  "version": null,
+  "formatDescription": "The Extensible File Allocation Table is a file system introduced by Microsoft in 2006, mainly for use in flash memory, such as USB flash drive and SD memory cards. It was a proprietary format until 2019, when Microsoft published its specification (https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification). It may be possible and desirable to distinguish between different types of exFAT image. Please contact the PRONOM team if you can assist with this.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification",
+  "lastUpdatedDate": "25 Jan 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1609",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1944,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "EB7690455846415420202000",
+      "endianness": null,
+      "name": "exFAT (extensible File Allocation Table) disc image",
+      "note": "BOF, offset 0, magic bytes: \u00ebv.EXFAT000."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1895,
+      "relatedFormatName": "FAT Disk Image"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2217,
+  "formatName": "DiskDoubler",
+  "version": null,
+  "formatDescription": "DiskDoubler is a data compression utility for the Apple Macintosh. Individual files are compressed by the software, but their file system details do not change, meaning files subject to DiskDoubler compression retain their original names, including file extensions. As such DROID and other PRONOM-based file format identification tools may report file format mismatch for DiskDoubler-compressed files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1399",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1773,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "ABCD0054",
+      "endianness": null,
+      "name": "DiskDoubler",
+      "note": "BOF: 0xABCD0054"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

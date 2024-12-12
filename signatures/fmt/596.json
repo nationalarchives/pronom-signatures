@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 1388,
+  "formatName": "Apple Lossless Audio Codec",
+  "version": null,
+  "formatDescription": "Apple Lossless, also known as Apple Lossless Audio Codec (ALAC), or Apple Lossless Encoder (ALE), is an audio codec developed by Apple Inc. for lossless data compression of digital music. Apple Lossless data is stored within an MP4 container with the filename extension .m4a.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://www.applelossless.com/\r\nhttp://alac.macosforge.org/trac/browser/trunk/ALACMagicCookieDescription.txt\r\nhttp://alac.macosforge.org/trac/browser/trunk/codec/ALACAudioTypes.h?rev=2#",
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/596",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 936,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "667479704D344120",
+      "endianness": null,
+      "name": "Apple Lossless Audio Codec",
+      "note": "BOF: (offset 4): ftypM4A \r\nVAR: alac{0-72}alac"
+    },
+    {
+      "signatureID": 936,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "616C6163{0-72}616C6163",
+      "endianness": null,
+      "name": "Apple Lossless Audio Codec",
+      "note": "BOF: (offset 4): ftypM4A \r\nVAR: alac{0-72}alac"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "m4a",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mp4",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 924,
+      "relatedFormatName": "MPEG-4 Media File"
+    }
+  ]
+}

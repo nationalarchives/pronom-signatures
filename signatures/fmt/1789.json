@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2639,
+  "formatName": "GX2 Graphics File",
+  "version": null,
+  "formatDescription": "GX2 is a raster graphics format associated with the Show Partner presentation software for MS-DOS.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/GX2",
+  "lastUpdatedDate": "25 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1789",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2129,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "475832",
+      "endianness": null,
+      "name": "GX2 Graphics File",
+      "note": "BOF:'GX2'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gx2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ega",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,83 @@
+{
+  "fileFormatID": 2025,
+  "formatName": "Reduced Resolution Dataset",
+  "version": null,
+  "formatDescription": "The ERDAS HFA format defines a heirachichal data structure used by many formats primarily associated with with the ERDAS Imagine software package for processing geospatial imagery. Other formats use this structure also, notably ArcGIS 'Reduced resolution datasets' and their auxilliary files. It may be possible to distinguish between distinct subsets of HFA with further research. Please contact the PRONOM team if you can assist with this.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Mar 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1215",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1592,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "454846415F4845414445525F54414700",
+      "endianness": null,
+      "name": "Reduced Resolution Dataset",
+      "note": "BOF: 'EHFA_HEADER_TAG', 0x00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ovr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rrd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "aux",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "aoi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cff",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fft",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gcc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sig",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

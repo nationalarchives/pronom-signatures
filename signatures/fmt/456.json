@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1243,
+  "formatName": "Verity Collection Index Style Policy",
+  "version": null,
+  "formatDescription": "A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files. The Verity Collection Index Style Policy specifies the indexing mode to be used for a collection.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/456",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 710,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "23207374796C652E706C6309312E3131202D20332F322F39340D0A232040282329436F707972696768742028432920313938372D31393934205665726974792C20496E632E0D0A230D0A23",
+      "endianness": null,
+      "name": "Verity Collection Index Style Policy",
+      "note": "BOF: # style.plc.1.11 - 3/2/94..# @(#)Copyright (C) 1987-1994 Verity, Inc...#..#\r\nEOF: }..}.."
+    },
+    {
+      "signatureID": 710,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "7D0D0A7D0D0A",
+      "endianness": null,
+      "name": "Verity Collection Index Style Policy",
+      "note": "BOF: # style.plc.1.11 - 3/2/94..# @(#)Copyright (C) 1987-1994 Verity, Inc...#..#\r\nEOF: }..}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "plc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

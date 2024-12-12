@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1239,
+  "formatName": "Acrobat Catalog Cat File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/452",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 706,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "410D0A",
+      "endianness": null,
+      "name": "Acrobat Catalog Cat File",
+      "note": "This file is always 3 bytes long: A.. - 410D0A"
+    },
+    {
+      "signatureID": 706,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "410D0A",
+      "endianness": null,
+      "name": "Acrobat Catalog Cat File",
+      "note": "This file is always 3 bytes long: A.. - 410D0A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

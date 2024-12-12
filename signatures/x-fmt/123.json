@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 178,
+  "formatName": "Microsoft Excel Macro",
+  "version": "4.0",
+  "formatDescription": "XLM is an old format for Microsoft Excel spreadsheets with macros. It has been superseded by XLSM, a new XML-based format. The new macro format is based on Visual Basic for Applications (VBA), but the old format was different. The old format was used through Excel 4.0, but discontinued in 5.0, and is not supported in later versions.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "23 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118)- Signature added, internally researched.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-excel",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/123",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 879,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "09040600{2}4000",
+      "endianness": null,
+      "name": "BIFF 4 Macro",
+      "note": "BIFF4: BOF hex 0904. record length hex 0600, BIFF version=(not used), filetype=macro=4000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xla",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "xlm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

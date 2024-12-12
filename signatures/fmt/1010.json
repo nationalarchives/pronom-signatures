@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1815,
+  "formatName": "FBX (Filmbox) Text",
+  "version": null,
+  "formatDescription": "FBX is a 3D file format developed by Kaydara and owned by Autodesk since 2006. It is used to provide interoperability between 3D digital content creation applications. FBX has a text based (ASCII, this signature) and a binary version.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1010",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1382,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3B2046425820",
+      "endianness": null,
+      "name": "FBX Text",
+      "note": "BOF: '; FBX '"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fbx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

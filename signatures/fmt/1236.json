@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2054,
+  "formatName": "EclipseCrossword Word List File",
+  "version": null,
+  "formatDescription": "EclipseCrossword Word List format is a standard plain text file format for holding word lists created by the EclipseCrossword software, which generates crossword puzzles. It does not support UTF-8 or Unicode encodings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.eclipsecrossword.com/help-ewl-format.html",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1236",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1616,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3B2045636C6970736543726F7373776F726420776F7264206C6973740D0A3B",
+      "endianness": null,
+      "name": "EclipseCrossword Word List File",
+      "note": "BOF: Magic bytes \u2018; EclipseCrossword word list..;'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ewl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

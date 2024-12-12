@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2369,
+  "formatName": "ELAN Preference File",
+  "version": null,
+  "formatDescription": "ELAN is a professional software tool to manually and semi-automatically annotate and transcribe audio or video recordings. It was developed by the Max Planck Institute for Psycholinguistics in Nijmegen. The .pfsx file contains preferences such as video size, video speed and zoom.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "PFSX-Schema for Version 1.1 (2010): http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 257,
+  "provenanceCompoundName": null,
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched",
+  "formatSourceDate": "04 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1544",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1890,
+      "positionType": "Absolute from BOF",
+      "offset": 27,
+      "maxOffset": 30,
+      "byteSequence": "3C707265666572656E636573*7873693A6E6F4E616D657370616365536368656D614C6F636174696F6E3D22687474703A2F2F7777772E6D70692E6E6C2F746F6F6C732F656C616E2F50726566735F76",
+      "endianness": null,
+      "name": "ELAN Preference File",
+      "note": "BOF magic bytes: <preferences * xsi:noNamespaceSchemaLocation=\"http://www.mpi.nl/tools/elan/Prefs_v EOF magic bytes: </preferences>."
+    },
+    {
+      "signatureID": 1890,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C2F707265666572656E6365733E0A",
+      "endianness": null,
+      "name": "ELAN Preference File",
+      "note": "BOF magic bytes: <preferences * xsi:noNamespaceSchemaLocation=\"http://www.mpi.nl/tools/elan/Prefs_v EOF magic bytes: </preferences>."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pfsx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

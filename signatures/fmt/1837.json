@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2689,
+  "formatName": "WordPerfect Presentations",
+  "version": "2",
+  "formatDescription": "Presentations is a presentation program that was formerly available as part of Novell's PerfectOffice productivity suite, and is now part of the Corel's WordPerfect Office suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Corel_Presentations",
+  "lastUpdatedDate": "28 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1837",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2175,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF575043{4}0F0A0200",
+      "endianness": null,
+      "name": "WordPerfect Presentations v.2",
+      "note": "BOF Absolute from beginning of file, magic bytes: \u00ffWPC{4}\u2026."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

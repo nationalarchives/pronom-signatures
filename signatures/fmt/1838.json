@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2690,
+  "formatName": "Leica Project File",
+  "version": null,
+  "formatDescription": "Lgs files contain all project information for Leica Geosystems HDS software. They enable storage and transfer between all Leica Geosystems\u2019 HDS software products. Lgs files store information including: Name, Thumbnail, Coordinate system, Publish date, SiteMap image(s), Hyperlinks between SiteMaps, Timestamp, RGB colours and HDR colours. Files can be password protected.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Leica_LGS\r\n\r\nhttps://leica-geosystems.com/-/media/files/leicageosystems/products/release%20notes/leica-truview-3-6_rn.ashx",
+  "lastUpdatedDate": "28 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1838",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2176,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "77696C643A3A67656F73797374656D73",
+      "endianness": null,
+      "name": "Leica Project File",
+      "note": "BOF Absolute from beginning of file, magic bytes: \"wild::geosystems\"\r\nEOF, offset 0-64, magic bytes: \"Leica Project File\""
+    },
+    {
+      "signatureID": 2176,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 64,
+      "byteSequence": "4C656963612050726F6A6563742046696C65",
+      "endianness": null,
+      "name": "Leica Project File",
+      "note": "BOF Absolute from beginning of file, magic bytes: \"wild::geosystems\"\r\nEOF, offset 0-64, magic bytes: \"Leica Project File\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lgs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1604,
+  "formatName": "Logical File Evidence Format",
+  "version": null,
+  "formatDescription": "Logical FIle Evidence Format was introduced in EnCase version 5. They are form of Encase Image files, this format is used to store media images for forensic purposes. They are a type of disk image containing the contents and structure of an entire data storage device, disk volume or even a computer's physical memory. The logical version of this format is used to create an image of the original files as they existed on the media but also documents other ifnormation. This includes the assigned file name and extension, datetime of creation, modified date, and date last accessed, the logical and physical size, an MD5 hash value, permissions and original path. This format creates segments which have different file extensions, the first will have the extension '.l01'. this increases first numerically upto '.l99' the next extension will be '.laa' increasing to an estimated limit of '.zzz'.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/804",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1169,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C5646090D0AFF00",
+      "endianness": null,
+      "name": "L01",
+      "note": "Header - LVF...\u00ff."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "l01",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

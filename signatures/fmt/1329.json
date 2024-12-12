@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2147,
+  "formatName": "Avery Label Pro Document",
+  "version": "3",
+  "formatDescription": ".LPD is the native format of Label Pro, a label design and printing software application marketed by Avery Dennison Corporation.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1329",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1723,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "CCAA0302",
+      "endianness": null,
+      "name": "Label Pro Document 3",
+      "note": "BOF: CCAA0302"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lpd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

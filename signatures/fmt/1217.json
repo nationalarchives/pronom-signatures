@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2027,
+  "formatName": "Leonardo Image Format",
+  "version": null,
+  "formatDescription": "The Leonardo Image format is the native format of the Leonardo drawing application developed by Henning Tegen and Xade Software AB.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1217",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1594,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C656F207A6F6E6520666F726D617420",
+      "endianness": null,
+      "name": "Leonardo Image Format",
+      "note": "BOF: 'Leo zone format '"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "leo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

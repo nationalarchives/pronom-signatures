@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2305,
+  "formatName": "Access Report Snapshot",
+  "version": null,
+  "formatDescription": "In Microsoft Access up to 2010, a report could be exported into a SNP format. This could be read by a standalone reader.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1482",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1854,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D534346{56}5F4163635270745F2E736E70",
+      "endianness": null,
+      "name": "Access Report Snapshot",
+      "note": "BOF: 'MSCF'{56}'_AccRpt_.snp'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "snp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 801,
+      "relatedFormatName": "Windows Cabinet File"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2386,
+  "formatName": "SpritePad Image Format",
+  "version": null,
+  "formatDescription": "SpritePad is a free cross-development tool for designing sprite images and animations for the Commodore 64 computer. It allows the user to freehand painting or import and convert any existing bitmap image into a C64 compatible sprite or tile set using various tile sizes from 1 x 1 up to 8x8 sprites (64 different sizes). SpritePad has began development in 2003.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://subchristsoftware.itch.io/spritepad-pro\r\n\r\nhttps://www.lemon64.com/forum/viewtopic.php?t=77770\r\n\r\nhttps://dustlayer.com/c64-coding-tutorials/2013/5/24/episode-3-2-creating-the-shapes-hello-spritepad",
+  "lastUpdatedDate": "23 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1561",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1905,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "535044",
+      "endianness": null,
+      "name": "SpritePad Image Format",
+      "note": "BOF; Offset: 0; Magic Bytes: SPD"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

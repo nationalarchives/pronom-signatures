@@ -1,0 +1,96 @@
+{
+  "fileFormatID": 1229,
+  "formatName": "Microsoft Visio (generic)",
+  "version": null,
+  "formatDescription": "Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures. This puid has been added so that DROID can identify versions of Visio not currently covered by the container signature file.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.visio",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/442",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "vsd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 165,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 376,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1230,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2332,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2333,
+      "relatedFormatName": "Microsoft Visio Drawing"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "13000",
+      "description": "Microsoft Visio Document (generic)",
+      "files": [
+        {
+          "path": "VisioDocument",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'Visio (TM) Drawing'0D0A"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

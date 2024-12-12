@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 671,
+  "formatName": "Still Picture Interchange File Format",
+  "version": "1.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "SPIFF (1.0)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/112",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jpeg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 70,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFD8FFE800205350494646000100(00|01|02|03|04){11}(00|01|02|03|04|05){9}FFE8",
+      "endianness": null,
+      "name": "SPIFF 1.0",
+      "note": "SOI and APP8 markers"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 670,
+      "relatedFormatName": "Raw JPEG Stream"
+    }
+  ]
+}

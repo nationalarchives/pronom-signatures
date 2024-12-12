@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1078,
+  "formatName": "Chemical Markup Language",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "31 Mar 2011",
+  "formatSourceID": 168,
+  "provenanceCompoundName": "University of Southampton / University of Southampton",
+  "formatProvenance": "Submitted by Southampton Chemistry Department.",
+  "formatSourceDate": "31 Mar 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/333",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 444,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "786D6C6E733D22687474703A2F2F7777772E786D6C2D636D6C2E6F72672F736368656D6122",
+      "endianness": null,
+      "name": "Chemical Markup Language",
+      "note": "Looking for the CML namespace declaration: xmlns=\"http://www.xml-cml.org/schema\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 2127,
+  "formatName": "LocoScript Professional",
+  "version": null,
+  "formatDescription": "The LocoScript Professional Document format is a proprietary word processing format produced by LocoScript Professional, a word processor released in 1992 for MS-DOS 3.0 and above.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 184,
+  "provenanceCompoundName": "British Library / British Library",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1309",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1684,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "444F4301(02|03)",
+      "endianness": null,
+      "name": "LocoScript Professional",
+      "note": "BOF: Magic Bytes 'DOC..'"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

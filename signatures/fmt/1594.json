@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2421,
+  "formatName": "ESRI ArcInfo DAT File (External)",
+  "version": null,
+  "formatDescription": "Files which comprise part of an ArcInfo Coverage, which is a data model whose purpose is to store georelational data such as spatial location and descriptive data. Each ArcInfo Coverage resides in an ArcInfo workspace, a directory which contains two or more folders. These packages are generated using ArcGIS software, produced by Esri (https://www.esri.com/en-us/arcgis/about-arcgis/overview.) An ArcInfo coverage dataset typically has two types of .dat file: internal, which store the actual data table, and external, which contains a relative path to the data table. External .dat files follow a unique naming pattern: arcXXXX.dat, where XXXX is incrementally increasing number starting from 0000, e.g. arc0000.dat, arc0001.dat. The .dat files always come in pair with a NIT file and are both stored in an INFO directory at the root.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000284.shtml",
+  "lastUpdatedDate": "06 Jan 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1594",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1933,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2E2E2F",
+      "endianness": null,
+      "name": "ESRI ArcInfo .dat File (external)",
+      "note": "BOF, offset 0, magic bytes: ../\r\nEOF, offset 0-100, magic bytes,:   .adf"
+    },
+    {
+      "signatureID": 1933,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 60,
+      "byteSequence": "2E616466",
+      "endianness": null,
+      "name": "ESRI ArcInfo .dat File (external)",
+      "note": "BOF, offset 0, magic bytes: ../\r\nEOF, offset 0-100, magic bytes,:   .adf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 2427,
+      "relatedFormatName": "ESRI ArcInfo DAT File (Internal)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2422,
+      "relatedFormatName": "Canon Raw"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "fileFormatID": 122,
+  "formatName": "Macintosh PICT Image",
+  "version": "1.0",
+  "formatDescription": "A graphics format native to Macintosh computers encapsulating the functionality of QuickDraw 1 which supports monochrome bitmaps up to 32k in size.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://justsolve.archiveteam.org/wiki/PICT",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "04/2024 (v.118)- Description created and links added as part of PRONOM Research Week 2023. Submitted by Brigham Young University.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Image (Vector)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.apple.pict",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "image/x-pict",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/80",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 859,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "44525747(4D44|4432){516}1101",
+      "endianness": null,
+      "name": "Macintosh PICT Image 1.0 v1",
+      "note": "512 byte header beginning with DRWG(MD|D2); At decimal location 522 (hex 20A) 1 byte opcode for \u201cpicversion\u201d hex 11; next byte version number hex 01"
+    },
+    {
+      "signatureID": 860,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000000000000{516}1101",
+      "endianness": null,
+      "name": "Macintosh PICT Image 1.0 v2",
+      "note": "512 byte header consisting of all nulls;At decimal location 522 (hex 20A) 1 byte opcode for \u201cpicversion\u201d hex 11; next byte version number hex 01"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pct",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pict",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1086,
+      "relatedFormatName": "Macintosh PICT Image"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1521,
+  "formatName": "Oktalyzer Audio file",
+  "version": null,
+  "formatDescription": "Oktalyzer is an audio sequencer developed by Armin Sander for the Amiga in 1989. Note, this is an Amiga filetype, where the 'extension' is a prefix rather than suffix, hence most Oktalyzer files will follow the okt.filename convention.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/722",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1048,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F4B5441534F4E47",
+      "endianness": null,
+      "name": "Oktalyzer",
+      "note": "BOF: OKTASONG"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "okt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

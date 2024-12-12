@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 40,
+  "formatName": "Tab-separated Values",
+  "version": null,
+  "formatDescription": "A tab-separated values file is a simple text format for storing data in a tabular structure (e.g. database or spreadsheet data). Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character \u2013 it is a form of the more general delimiter-separated values format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://en.wikipedia.org/wiki/Tab-separated_values\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000533.shtml",
+  "lastUpdatedDate": "25 Apr 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000533",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "Q3513566",
+      "identifierType": "Wikidata QID Identifier"
+    },
+    {
+      "identifierText": "text/tab-separated-values",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/13",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "tsv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tab",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

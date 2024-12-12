@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1931,
+  "formatName": "DIFFRACplus Raw Data File Format",
+  "version": "2",
+  "formatDescription": "This format contains the raw data produced by Bruker X-ray Powder Diffraction (XRD) Instrumentation. Please contact the PRONOM team if you are able to provide a more detailed description.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Nov 2017",
+  "formatSourceID": 215,
+  "provenanceCompoundName": "University of Edinburgh / University of Edinburgh",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Bruker XRD (2)",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1121",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1503,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "524157312E303100{8}[30:31][30:39]2F[30:33][30:39]2F[30:39][30:39]",
+      "endianness": null,
+      "name": "DIFFRACplus Raw Data File Format 2",
+      "note": "BOF: \"RAW1.01\", 0x00 {8} MM/DD/YY. Signnature based on the format description in the Bruker Advanced X-Ray Solutions General Area Detector Diffraction System (GADDS) Reference Manual. Also see https://github.com/scattering/scattio/blob/master/python/scattio/bruker.py"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "raw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

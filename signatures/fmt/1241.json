@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2059,
+  "formatName": "FO File",
+  "version": null,
+  "formatDescription": "FO file is a XML data file containing an electronic form intended for usage in the 602XML applications. The form is a composure of the layout structure using XSL-FO, data instance and data model using generic XML elements defined in the 602XML framework. The whole electronic form structure is always embedded into a digital signature represented by XML elements of the XML Signature standard.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Oct 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Dec 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "\tapplication/vnd.software602.filler.form+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1241",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1618,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4000,
+      "byteSequence": "666F3A726F6F74",
+      "endianness": null,
+      "name": "FO File",
+      "note": "Within the first 4000 hex byte pairs 'fo:root'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

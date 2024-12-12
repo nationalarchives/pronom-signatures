@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1773,
+  "formatName": "AppleSingle",
+  "version": "2",
+  "formatDescription": "Apple Computers created the AppleSingle format (as well as the AppleDouble format) to represent and preserve the attributes of files across files systems that do not support the same attributes of the file\u2019s home systems. AppleSingle is primarily a storage format and contains both a file\u2019s contents and attributes. It consists of a header and one or more optional data entries followed by the byte stream of the file it is storing. It maintains the original Macintosh filename and file type (e.g. Mydoc.pdf). The AppleSingle format can store a number of different kinds of formats.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Jul 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/applefile",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/968",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1332,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0005160000020000",
+      "endianness": null,
+      "name": "AppleSingle v2",
+      "note": "BOF: 4 byte AppleSingle Magic Number 0x00051600, then 4 byte version number 0x00020000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "as",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1772,
+      "relatedFormatName": "AppleSingle"
+    }
+  ]
+}

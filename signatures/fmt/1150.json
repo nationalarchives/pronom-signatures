@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1960,
+  "formatName": "4X Movie File",
+  "version": null,
+  "formatDescription": "The 4X Movie format is a proprietary video format developed by 4X Technologies, primarily used for full motion video within computer and console video games.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.",
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1150",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1531,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}34584D564C495354{4}48454144",
+      "endianness": null,
+      "name": "4X Movie File",
+      "note": "BOF: RIFF{4}4XMVLIST{4}HEAD"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "4xm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "4xa",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

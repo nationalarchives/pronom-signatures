@@ -1,0 +1,131 @@
+{
+  "fileFormatID": 773,
+  "formatName": "PostScript",
+  "version": "3.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": "25 Sep 1992",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2006",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2006",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.postscript",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/408",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 193,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "252150532D41646F62652D332E30",
+      "endianness": null,
+      "name": "PostScript DSC 3.0",
+      "note": "PostScript DSC header version comment + EOF comment"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ps",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 49,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 86,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1199,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1200,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1201,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1202,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1204,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1205,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1345,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2740,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1073,
+      "relatedFormatName": "EndNote Import File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1288,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 772,
+      "relatedFormatName": "PostScript"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 621,
+  "formatName": "PCX",
+  "version": "0",
+  "formatDescription": "PCX (Personal Computer eXchange) is a type of lossless bitmap image format first released in 1985 and last updated in 1991. This record describes the first version of the format released in 1985. PCX was a popular format among users of MS-DOS operating system and other IBM PC compatibles. It is native image file format for DOS-based program PC Paintbrush from ZSoft Corporation. PC Paintbrush was licensed to Microsoft and evolved into the Paint/Paintbrush application included with Windows operating system. The versions of Windows 3.0 through Windows 95, support the PCX format. The format has since been succeeded by other lossless image formats, such as GIF, BMP, JPEG, and PNG.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": "https://web.archive.org/web/20150424232312/http://web.archive.org/web/20100206055706/http://www.qzx.com/pc-gpe/pcx.txt\r\n\r\nhttp://formats.kaitai.io/pcx/index.html\r\n\r\nhttp://fileformats.archiveteam.org/wiki/PCX",
+  "lastUpdatedDate": "29 Apr 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "ZSoft PC Paintbrush Bitmap (0)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/86",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.zbrush.pcx",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 65,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0A0001",
+      "endianness": null,
+      "name": "PCX 0",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0A0001"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pcx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pcc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 622,
+      "relatedFormatName": "PCX"
+    }
+  ]
+}

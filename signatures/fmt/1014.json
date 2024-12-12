@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1819,
+  "formatName": "INTERLIS Model File",
+  "version": "1",
+  "formatDescription": "INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 1 Model files contain the geodata.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1014",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1387,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 16,
+      "byteSequence": "5452414E53464552{1-1024}4D4F44454C",
+      "endianness": null,
+      "name": "INTERLIS model file 1",
+      "note": "BOF variable 0-16 TRANSFER{1-1024}MODEL{1-1024} \r\nEOF variable 0-1024 FORMAT{1-124}CODE{1-124)END"
+    },
+    {
+      "signatureID": 1387,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "464F524D4154{1-124}434F4445{1-124}454E44",
+      "endianness": null,
+      "name": "INTERLIS model file 1",
+      "note": "BOF variable 0-16 TRANSFER{1-1024}MODEL{1-1024} \r\nEOF variable 0-1024 FORMAT{1-124}CODE{1-124)END"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ili",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

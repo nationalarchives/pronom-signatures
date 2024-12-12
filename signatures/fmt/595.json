@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1387,
+  "formatName": "Microsoft Excel Non-XML Binary Workbook",
+  "version": "2007 onwards",
+  "formatDescription": "From Microsoft Office 2007 onwards, the core output format of MS Excel has been based on the Office Open XML (OOXML) file format. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. Further detail on OOXML can be found within fmt/189 - Microsoft Office Open XML.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This file format is identified by container signature.",
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-excel.sheet.binary.macroEnabled.12",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/595",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlsb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 940,
+      "relatedFormatName": "Microsoft Excel for Windows"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "2070",
+      "description": "Microsoft Excel Non-XML Binary Workbook(big endian)",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "4096",
+                  "sequence": "'ContentType=\"application/vnd.ms-excel.sheet.binary.macroEnabled.main\"'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

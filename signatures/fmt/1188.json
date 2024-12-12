@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1998,
+  "formatName": "Ogre Mesh 1.x",
+  "version": null,
+  "formatDescription": "Ogre Mesh is a binary format for representing 3D models for use within the Ogre 3D rendering engine. PRONOM currently does not distinguish between minor versions of the format. Please contact the PRONOM team if this is desirable.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "10 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1188",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1568,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00105B4D65736853657269616C697A65725F7631",
+      "endianness": null,
+      "name": "Ogre Mesh 1.x",
+      "note": "0x0010 '[MeshSerializer_v1'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mesh",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

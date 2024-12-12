@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 1259,
+  "formatName": "Sony Digital Voice File/Sony Memory Stick Voice File",
+  "version": null,
+  "formatDescription": "A compressed audio format developed by Sony for use in digital dictation recorders.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://fileinfo.com/extension/dvf\r\nhttp://fileformats.archiveteam.org/wiki/Digital_Voice_File\r\nhttps://fileinfo.com/extension/msv\r\nhttp://fileformats.archiveteam.org/wiki/Memory_Stick_Voice",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 183,
+  "provenanceCompoundName": "Hagley Museum and Library / Hagley Museum and Library",
+  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints.",
+  "formatSourceDate": "25 Oct 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/472",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 737,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D535F564F4943450000005001020000534F4E5920434F52504F524154494F4E",
+      "endianness": null,
+      "name": "Sony Digital Voice File/Sony Memory Stick Voice File",
+      "note": "MS_VOICE...P....SONY CORPORATION"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "msv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dvf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2746,
+      "relatedFormatName": "Memory Stick Voice File (MSV)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2747,
+      "relatedFormatName": "Digital Voice File (DVF)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2748,
+      "relatedFormatName": "Memory Stick Voice File (MSV)/Digital Voice File (DVF)"
+    }
+  ]
+}

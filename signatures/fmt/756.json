@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1555,
+  "formatName": "Zope Export File",
+  "version": null,
+  "formatDescription": "Zope is an open source web application server. The export mechanism allows Zope objects to be exported from one instance to another.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "07 Aug 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/756",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1081,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A455850",
+      "endianness": null,
+      "name": "Zope Export",
+      "note": "BOF: ZEXP, EOF: \u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff"
+    },
+    {
+      "signatureID": 1081,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+      "endianness": null,
+      "name": "Zope Export",
+      "note": "BOF: ZEXP, EOF: \u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zexp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,31 @@
+{
+  "fileFormatID": 259,
+  "formatName": "Silicon Graphics RGB File",
+  "version": null,
+  "formatDescription": "PUID deprecated. Please see x-fmt/140 for information on Silicon Graphics Image.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Research by Georgia Tech Research Institute revealed this format is the same as the Silicon Graphics Image format (x-fmt/140).",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/186",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": []
+}

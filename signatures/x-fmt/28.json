@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 59,
+  "formatName": "CALS Compressed Bitmap",
+  "version": null,
+  "formatDescription": "CAL is an image file format used by CALS. CAL files are compressed bitmap formatted files used for storing monochrome images. CAL files were developed in the 1980s to standardize graphics data interchange for electronic publishing for the federal government.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/28",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 343,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "737263646F6369643A",
+      "endianness": null,
+      "name": "CALS Compressed Bitmap",
+      "note": "First record identifier in the CALS Header Block:  srcdocid:"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cal",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

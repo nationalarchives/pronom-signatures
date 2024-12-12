@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2688,
+  "formatName": "Brio Query File",
+  "version": null,
+  "formatDescription": "Brio Query File is a file format used by Brio Insight, an Internet Explorer plug-in for displaying reports generated from Brio business intelligence software. It contains a query that generates a client-side report from a server when executed. Brio Software underwent several acquisitions and eventually merged into Oracle's Hyperion performance management software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://fileinfo.com/extension/bqy\r\n\r\nhttps://en.wikipedia.org/wiki/Brio_Technology",
+  "lastUpdatedDate": "23 Feb 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1836",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2174,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "23425249462042494E",
+      "endianness": null,
+      "name": "Brio Query File",
+      "note": "BOF:'#BRIF' followed by 0x20 (Space) followed by 'BIN'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bqy",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

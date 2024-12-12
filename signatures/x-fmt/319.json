@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 478,
+  "formatName": "FileMaker Pro Database",
+  "version": "5",
+  "formatDescription": "FileMaker Pro is a cross-platform relational database application from FileMaker Inc.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Oct 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/319",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 790,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0001000000020001000500020002C0{527}50726F2035",
+      "endianness": null,
+      "name": "FP5",
+      "note": "BOF: ..............\u00c0{527}Pro 5"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fp5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fmp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

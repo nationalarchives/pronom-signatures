@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 2593,
+  "formatName": "Microsoft PowerPoint Presentation",
+  "version": "2.x",
+  "formatDescription": "Microsoft PowerPoint Presentation is a proprietary binary file format developed by Microsoft Corporation used to store presentation files created in the Microsoft PowerPoint presentation system. This record describes version 2 of .ppt file format released in May 1990 for Windows, and included in the first version of Microsoft Office for Windows. Versions up to version 4 [x-fmt/88] of Microsoft PowerPoint use .ppt as extension however, they are not compatible with each other. Microsoft made backwards compatibility an optional add-on after Office 2003 and appears to have removed it altogether in Office 2010. Please follow the links attached to this entry for more information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000511.shtml\r\n\r\nhttp://justsolve.archiveteam.org/wiki/PPT\r\n\r\nhttps://web.archive.org/web/20220329174106/https://en.wikipedia.org/wiki/Microsoft_PowerPoint",
+  "lastUpdatedDate": "24 Aug 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-PowerPoint",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.powerpoint.ppt",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1747",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2089,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "EDDEAD0B02000000",
+      "endianness": null,
+      "name": "Microsoft PowerPoint Presentation v2",
+      "note": "BOF; Offset: 0; Magic Bytes: 0xEDDEAD0B02000000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2594,
+      "relatedFormatName": "Microsoft PowerPoint Presentation"
+    }
+  ]
+}

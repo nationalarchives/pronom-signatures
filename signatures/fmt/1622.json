@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2449,
+  "formatName": "Asylum Music Format",
+  "version": null,
+  "formatDescription": "Asylum Music Format files (.amf) are music files used in 1990s MS-DOS games Crusader: No Remorse and Crusader: No Regret. Developed by Otto Chrons, they store song data and audio samples.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "17 Feb 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1622",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1963,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4153594C554D204D7573696320466F726D6174",
+      "endianness": null,
+      "name": "Asylum Music Format",
+      "note": "BOF, offset 0, magic bytes: ASYLUM Music Format"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "amf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

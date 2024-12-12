@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 2241,
+  "formatName": "HP TRIM Outlook Saved Message File",
+  "version": null,
+  "formatDescription": "The HP TRIM Outlook Saved Message File is a saved message file from Outlook, associated with the EDRMS software, formerly known as HP TRIM document and records management, now re-named to Micro Focus Content Manager. There are several versions of this software with versions prior to 7.12 saving this file with an extension .mbx and versions 7.12 and later using extension .vmbx.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Micro_Focus_Content_Manager; \r\n\r\nhttps://community.microfocus.com/img/sws-rm/f/itrc-1015/50907/trim-viewer",
+  "lastUpdatedDate": "01 Mar 2022",
+  "formatSourceID": 262,
+  "provenanceCompoundName": null,
+  "formatProvenance": null,
+  "formatSourceDate": "28 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1423",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "vmbx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mbx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

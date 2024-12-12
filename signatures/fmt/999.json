@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1804,
+  "formatName": "Krita Document Format",
+  "version": null,
+  "formatDescription": "Krita is a free raster graphics editor. Krita's native document format is Krita Document (.kra), which is loosely based on the Open Document standard. The format is used for handling layered raster based graphics.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "22 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-krita",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/999",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "kra",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "32010",
+      "description": "Krita Document Format",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "0",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/x-krita'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

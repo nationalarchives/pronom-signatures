@@ -1,0 +1,32 @@
+name: Release PRONOM
+on:
+  push:
+    branches:
+      - main
+permissions:
+  id-token: write
+  contents: write
+jobs:
+  run_if:
+    runs-on: ubuntu-latest
+    name: Main release test
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configure AWS credentials for Lambda
+        uses: aws-actions/configure-aws-credentials@v4.0.2
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.ACCOUNT_ID }}:role/SandboxGithubActionsDeployPronom
+          aws-region: eu-west-2
+          role-session-name: DeployPRONOM
+      - run: |
+          .github/scripts/create_signature_files.sh --release
+          NEW_SIGNATURE_FILENAME=$(aws s3 ls s3://tna-pronom-signatures-spike/signatures/ | sort -t'V' -k2,2n | awk -F'V|\\.xml' '{print "DROID_SignatureFile_V" ($2+1) ".xml"}' | tail -1)
+          aws s3 cp signature-file.xml s3://tna-pronom-signatures-spike/signatures/$NEW_SIGNATURE_FILENAME
+          aws s3 cp container-signature-file.xml s3://tna-pronom-signatures-spike/container-signatures/container-signature-$(date +%Y%m%d).xml
+      - name: Build website
+        uses: octokit/request-action@v2.x
+        with:
+          ref: main
+          route: POST /repos/nationalarchives/pronom-website/actions/workflows/release.yml/dispatches
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}

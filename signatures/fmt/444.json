@@ -1,0 +1,113 @@
+{
+  "fileFormatID": 1231,
+  "formatName": "OpenDocument Database Format",
+  "version": "1.1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Jul 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "16 Jul 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/444",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "odb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 783,
+      "relatedFormatName": "OpenDocument Database Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1206,
+      "relatedFormatName": "OpenDocument Database Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2599,
+      "relatedFormatName": "OpenDocument Database Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 777,
+      "relatedFormatName": "Java Archive Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "9010",
+      "description": "Open Document Database 1.1",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.base'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

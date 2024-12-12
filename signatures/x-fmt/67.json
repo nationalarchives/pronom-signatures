@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 108,
+  "formatName": "OS/2 Presentation Manager Metafile (MET)",
+  "version": null,
+  "formatDescription": "The Presentation Manager Metafile format is a raster and vector image format originating from IBM\u2019s OS/2 operating system.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://www.afpcinc.org/modca-l-the-os2-presentation-manager-metafile-met-format/",
+  "lastUpdatedDate": "29 Jul 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/67",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2073,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": 2,
+      "byteSequence": "D3A8A8",
+      "endianness": null,
+      "name": "OS/2 Presentation Manager Metafile (MET)",
+      "note": "BOF, offset 2: Header begins with a variable 2-byte header size value, followed by 0xD3A8A8 \u2018Begin Document\u2019 field."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "met",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

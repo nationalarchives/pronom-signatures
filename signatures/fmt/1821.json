@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2672,
+  "formatName": "MacCaption Project",
+  "version": null,
+  "formatDescription": "MacCaption is retired closed caption software for use in video captions. It was originally developed by CPC Computer Prompting and Captioning Co. and called CCaptionPro. It was renamed in 2003 to MacCaption. Project files have the extension .cca. Standalone caption files have the extension .mcc, and can contain both CEA-608 and CEA-708 data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1821",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2161,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D616343617074696F6E5F434341",
+      "endianness": null,
+      "name": "MacCaption Project File",
+      "note": "BOF Absolute from beginning of file, magic bytes: MacCaption_CCA"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cca",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

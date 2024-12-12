@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 1497,
+  "formatName": "Standard for the Exchange of Product model data",
+  "version": null,
+  "formatDescription": "ISO 10303 is an ISO standard for the computer-interpretable representation and exchange of product manufacturing information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2015",
+  "formatSourceID": 212,
+  "provenanceCompoundName": "Michelle Lindlar / German National Library of Science and Technology",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "STEP",
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/698",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1028,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49534F2D31303330332D32313B",
+      "endianness": null,
+      "name": "Standard for the Exchange of Product model data",
+      "note": "BOF: ISO-10303-21;"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "step",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "stp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "p21",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1458,
+      "relatedFormatName": "Industry Foundation Classes"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1498,
+      "relatedFormatName": "Industry Foundation Classes"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1499,
+      "relatedFormatName": "Industry Foundation Classes"
+    }
+  ]
+}

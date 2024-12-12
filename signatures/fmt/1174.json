@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 1984,
+  "formatName": "Hewlett Packard Graphics Language",
+  "version": "2",
+  "formatDescription": "Hewlett Packard Graphics Language is a printer control language created by Hewlett-Packard (HP). HP-GL/2 is described here: http://www.hpmuseum.net/document.php?catfile=213.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.hp-HPGL",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1174",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1555,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "1B2530424250494E",
+      "endianness": null,
+      "name": "HP-GL/2",
+      "note": "BOF <ESC> character (0x1B) '%0BBPIN'\r\nEOF: 'PG;"
+    },
+    {
+      "signatureID": 1555,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "50473B",
+      "endianness": null,
+      "name": "HP-GL/2",
+      "note": "BOF <ESC> character (0x1B) '%0BBPIN'\r\nEOF: 'PG;"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "000",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 446,
+      "relatedFormatName": "Hewlett Packard Graphics Language"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 1934,
+  "formatName": "Origin Project Format",
+  "version": "Unicode",
+  "formatDescription": "Origin is an advanced plotting, graphing and data-analysis application by OriginLab. An .opju file is a full Origin project file in the OPJ format. An .oggu file contains only a graph. An ogwu file contains only a workbook. An ogmu file contains only a matrixbook Please contact the PRONOM team if you can provide a more detailed description of this format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Nov 2017",
+  "formatSourceID": 215,
+  "provenanceCompoundName": "University of Edinburgh / University of Edinburgh",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1124",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1506,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "435059554120[31:39]2E{7-13}0A",
+      "endianness": null,
+      "name": "Origin Project Format Unicode",
+      "note": "BOF Header, \"CPYUA \", Major version, \".\" {Minor version, Build number}, 0x0A\"."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "opju",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "oggu",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ogmu",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ogwu",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

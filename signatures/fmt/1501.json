@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2324,
+  "formatName": "XML Forms Data Format",
+  "version": null,
+  "formatDescription": "XFDF is an XML version of an Adobe Acrobat Forms Data Format file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.adobe.xfdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1501",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1874,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-64}3C7866646620786D6C6E733D22687474703A2F2F6E732E61646F62652E636F6D2F786664662F22",
+      "endianness": null,
+      "name": "XML Forms Data Format",
+      "note": "BOF: XML Header folowed by XFDF namespaces declaration '<xfdf xmlns=\"http://ns.adobe.com/xfdf/\"'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xfdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

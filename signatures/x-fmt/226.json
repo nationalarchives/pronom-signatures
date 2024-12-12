@@ -1,0 +1,141 @@
+{
+  "fileFormatID": 318,
+  "formatName": "ESRI Arc/Info Export File",
+  "version": null,
+  "formatDescription": "ESRI ArcInfo Export File Format (also known as ArcInfo Interchange File Format) is a vector file format which is produced by ESRI and pre-dates the shapefile. It is as an export file used to enable coverage, grid or TIN and an associated INFO table to be transferred between different machines, which are not connected by any type of file sharing network. A volume has the extension .E00 through .E99. \r\nA non-authoritative version of the specification can be found at: http://avce00.maptools.org/docs/v7_e00_cover.html",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Format description information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress, involving archives staff from North Carolina, Kentucky, Montana, and Utah state archives.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/226",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 389,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4558502020[30:31]",
+      "endianness": null,
+      "name": "ESRI Arc/Info Export File",
+      "note": "Header line beginning with EXP, followed by a constant of 0 or 1. Footer sequence ASCII: ..EOI..EOS.."
+    },
+    {
+      "signatureID": 389,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "454F49{0-2}454F53{0-2}0A",
+      "endianness": null,
+      "name": "ESRI Arc/Info Export File",
+      "note": "Header line beginning with EXP, followed by a constant of 0 or 1. Footer sequence ASCII: ..EOI..EOS.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "e00",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "x00",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e01",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e02",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e03",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e04",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e05",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e06",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e07",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e08",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e09",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e10",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e11",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e12",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e13",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e14",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e15",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e16",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e17",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e18",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e19",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "e20",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

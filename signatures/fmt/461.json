@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 1248,
+  "formatName": "Verity Collection Index Descriptor File",
+  "version": null,
+  "formatDescription": "A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/461",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 715,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "74576263{60}242424{57}24246600",
+      "endianness": null,
+      "name": "Verity Collection Index Descriptor File",
+      "note": "BOF: tWbc then $$$ then $$f."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wld",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ddd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "did",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

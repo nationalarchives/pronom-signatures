@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 2620,
+  "formatName": "GenBank Flat File",
+  "version": null,
+  "formatDescription": "The GenBank format was developed by the U.S. National Center for Biotechnology Information (NCBI). The format is a standardised way of recording DNA and protein sequencing information accompanied with other data, such as Journal references, keywords, definitions and other information, so that it can be easily read by humans and machines. The NCBI Genbank database https://www.ncbi.nlm.nih.gov/genbank/ is a repository of publicly available DNA sequences in the Genbank format, and takes in submissions of Genbank files from all over the world.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://www.ncbi.nlm.nih.gov/genbank/samplerecord/",
+  "lastUpdatedDate": "21 Sep 2022",
+  "formatSourceID": 230,
+  "provenanceCompoundName": "Bodleian Library, University of Oxford / Bodleian Library, University of Oxford",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Sep 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1770",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2108,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C4F435553",
+      "endianness": null,
+      "name": "GenBank Flat File",
+      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //."
+    },
+    {
+      "signatureID": 2108,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "4F524947494E",
+      "endianness": null,
+      "name": "GenBank Flat File",
+      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //."
+    },
+    {
+      "signatureID": 2108,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1,
+      "byteSequence": "2F2F(0A|0D)",
+      "endianness": null,
+      "name": "GenBank Flat File",
+      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gbk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

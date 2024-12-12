@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 738,
+  "formatName": "WordPerfect Graphics Metafile",
+  "version": "1.0",
+  "formatDescription": "The WordPerfect Graphic file format (WPG) is primarily a vector graphic format, but it can store both bitmap and vector data. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "WPG (1.0)",
+  "formatTypes": null,
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/395",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 132,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FF575043{4}01160100",
+      "endianness": null,
+      "name": "WordPerfect Graphics 1.0",
+      "note": "4 byte magic (-1, 'WPC'), {4 byte offset to document start}, Product type (01 = wordperfect), File type (0x16 = graphic), Major/minor version=0100"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wpg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1847,
+      "relatedFormatName": "WordPerfect Graphics Metafile"
+    }
+  ]
+}

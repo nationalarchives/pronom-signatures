@@ -1,0 +1,134 @@
+{
+  "fileFormatID": 688,
+  "formatName": "Microsoft Word Document",
+  "version": "6.0/95",
+  "formatDescription": "With the release of Word 6.0, Microsoft introduced a new native binary word processing format, based on its generic OLE2 Compound Document Format. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. A Word document is stored as a \u2018WordDocument\u2019 stream within a Compound Document Format file. The format remained unchanged with the release of Word 95.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Apr 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.word.doc",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/39",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 128,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 6.0/95",
+      "note": "Compound document header + WordDocument user stream + version number"
+    },
+    {
+      "signatureID": 128,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "57006F007200640044006F00630075006D0065006E007400{42}02(00|01)",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 6.0/95",
+      "note": "Compound document header + WordDocument user stream + version number"
+    },
+    {
+      "signatureID": 128,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "4D6963726F736F667420576F726420(362E30|666F722057696E646F7773203935|362E302D446F6B756D656E74)",
+      "endianness": null,
+      "name": "Microsoft Word for Windows 6.0/95",
+      "note": "Compound document header + WordDocument user stream + version number"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1401,
+      "relatedFormatName": "Microsoft Word (Generic)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 690,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1553,
+      "relatedFormatName": "Microsoft Word Document (Password Protected)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 734,
+      "relatedFormatName": "Microsoft Word for Windows Document"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "1000",
+      "description": "Microsoft Word 6.0/95 OLE2",
+      "files": [
+        {
+          "path": "WordDocument"
+        },
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "40",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "10 00 00 00 'Word.Document.' ['6'-'7'] 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

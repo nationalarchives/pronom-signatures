@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 887,
+  "formatName": "Microsoft PowerPoint for Macintosh",
+  "version": "2001",
+  "formatDescription": "Microsoft PowerPoint Presentation is a proprietary binary file format developed by Microsoft Corporation used to store presentation files created in the Microsoft PowerPoint presentation system.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Description updated and MIME Type added. Internally researched.",
+  "formatSourceDate": "28 Sep 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-powerpoint",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/181",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

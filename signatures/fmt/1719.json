@@ -1,0 +1,96 @@
+{
+  "fileFormatID": 2555,
+  "formatName": "PageMaker Mac Document",
+  "version": "6.0",
+  "formatDescription": "PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994. File extensions begin with either pm or pt, for the PageMaker file or for PageMaker template, followed by the version number.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jun 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.pagemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1719",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pm6",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pt6",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 247,
+      "relatedFormatName": "PageMaker PC Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1680,
+      "relatedFormatName": "Pagemaker Document (Generic)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2554,
+      "relatedFormatName": "PageMaker Mac Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2523,
+      "relatedFormatName": "PageMaker Mac Document"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "25101",
+      "description": "PageMaker Mac Document Version 6",
+      "files": [
+        {
+          "path": "PageMaker",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "6",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "99 FF"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "50 4D 06 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

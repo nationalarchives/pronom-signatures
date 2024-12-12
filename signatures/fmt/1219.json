@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 2029,
+  "formatName": "Gnumeric",
+  "version": null,
+  "formatDescription": "Gnumeric is an open source spreadsheet application. The native format is an XML-based format, that is typically compressed within a GZIP container. It may be desirable to distinguish between different versions of Gnumeric spreadsheet documents. Please contact the PRONOM team if this is the case.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2019",
+  "formatSourceID": 238,
+  "provenanceCompoundName": "SLUB Dresden / S\u00e4chsische Landesbibliothek \u2013 Staats- und Universit\u00e4tsbibliothek Dresden",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-gnumeric",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1219",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1596,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676E6D3A576F726B626F6F6B20786D6C6E733A676E6D3D22687474703A2F2F7777772E676E756D657269632E6F7267",
+      "endianness": null,
+      "name": "Gnumeric variant 1",
+      "note": "<?xmlversion=\"1.0\"{2-32}<gnm:Workbook xmlns:gnm=\"http://www.gnumeric.org"
+    },
+    {
+      "signatureID": 1597,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676D723A576F726B626F6F6B20786D6C6E733A676D723D22687474703A2F2F7777772E676E6F6D652E6F72672F676E756D657269632F",
+      "endianness": null,
+      "name": "Gnumeric variant 2",
+      "note": "<?xmlversion=\"1.0\"{2-32}<gmr:Workbook xmlns:gmr=\"http://www.gnome.org/gnumeric/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gnumeric",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 386,
+      "relatedFormatName": "GZIP Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

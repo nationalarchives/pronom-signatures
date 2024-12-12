@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2674,
+  "formatName": "Audacity Project File",
+  "version": "Early",
+  "formatDescription": "Audacity is free and open source audio editing, recording and post-processing software. The first version (0.8) was released in 2000 by Dominic Mazzoni and Roger Dannenberg at Carnegie Mellon University, Pennsylvania. It remains available today. An Audacity project consists of an aup project file, which is the name of the project followed by .aup . Next to the .aup file is a folder containing many .au files, each one being a segment of audio data. The aup file describes how audacity links the au files together to form the tracks in the project.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://manual.audacityteam.org/man/audacity_2.html#aup",
+  "lastUpdatedDate": "07 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1823",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2163,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "417564616369747950726F6A656374(0D|0D0A)56657273696F6E(0D|0D0A){4}(0D|0D0A)70726F6A4E616D65",
+      "endianness": null,
+      "name": "Audacity Project File (Early)",
+      "note": "BOF Absolute from beginning of file, magic bytes: AudacityProject(.|..)Version(.|..){4}(.|..)projName\r\nThe singature allows for Mac & Windows spacing differences."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aup",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

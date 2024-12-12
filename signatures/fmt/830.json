@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1631,
+  "formatName": "Qsplat Model",
+  "version": null,
+  "formatDescription": "QSplat is a program for displaying large geometric models in real time, developed by Stanford University as part of their Digital Michaelangelo Project.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/830",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1187,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5153706C61743131",
+      "endianness": null,
+      "name": "Qsplat",
+      "note": "Magic: Qsplat, version: 11"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "qs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

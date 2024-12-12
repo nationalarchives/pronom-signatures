@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 2713,
+  "formatName": "Adobe Air",
+  "version": "2.5",
+  "formatDescription": "Adobe Air, formerly codenamed Apollo, is a cross-platform runtime system developed by Adobe Systems for building desktop applications and mobile applications, programmed using Adobe Flash, ActionScript and optionally Apache Flex.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Apr 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "26 Apr 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.adobe.air-application-installer-package+zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1859",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "air",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "28030",
+      "description": "Adobe Air 2.5",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'application/vnd.adobe.air-application-installer-package+zip'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "META-INF/AIR/application.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "50",
+                  "subSeqMaxOffset": "80",
+                  "sequence": "786D6C6E733D22687474703A2F2F6E732E61646F62652E636F6D2F6169722F6170706C69636174696F6E2F322E3522"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

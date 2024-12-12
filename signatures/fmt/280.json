@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 1020,
+  "formatName": "LaTeX (Master document)",
+  "version": null,
+  "formatDescription": "LaTeX is a document preparation system for typesetting. It is widely used in academia for technical or scientific documents but can be used for other forms of publishing. LaTeX projects can contain multiple subdocuments which are linked to a Master Document.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Nov 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Following up external submission. Signature submitted by representative of KeepIt project at Southampton University.",
+  "formatSourceDate": "01 Nov 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/280",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 296,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4096,
+      "byteSequence": "5C646F63756D656E74636C617373",
+      "endianness": null,
+      "name": "LaTeX (Master document)",
+      "note": "Looking for \\documentclass tag in LaTeX document. Could potentially improve this by including a variant looing for a master document with an include tag, \\include{file.tex}"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1021,
+      "relatedFormatName": "LaTeX (Subdocument)"
+    }
+  ]
+}

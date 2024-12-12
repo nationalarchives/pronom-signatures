@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1087,
+  "formatName": "Microsoft Project Export File",
+  "version": "4.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Apr 2011",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Submitted by Georgia Tech Research Institute",
+  "formatSourceDate": "21 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-project",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/342",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 473,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)34(2C|2E)30",
+      "endianness": null,
+      "name": "Microsoft Project Export File 4.0",
+      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (4.0 ), if list separator is ;, version may be 4,0."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 1877,
+  "formatName": "Preferred Executable Format",
+  "version": null,
+  "formatDescription": "The Preferred Executable Format is a file format that specifies the format of executable files and other object code for the Apple Macintosh. Files of this type may lack a format extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "17 Jul 2017",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "PEF",
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.apple.pef-binary",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1070",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1448,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4A6F792170656666",
+      "endianness": null,
+      "name": "Preferred Executable Format",
+      "note": "BOF: Joy!peff\r\nhttps://web.archive.org/web/20020219190852/http://developer.apple.com:80/techpubs/mac/runtimehtml/RTArch-91.html#HEADING=91-0"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

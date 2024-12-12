@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2684,
+  "formatName": "ArcSoft PhotoStudio File",
+  "version": null,
+  "formatDescription": "ArcSoft PhotoStudio files (.psf) are bitmap images native to the ArcSoft suite of Photo editing tools, which include PhotoStudio and PhotoImpression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PSF_(PhotoStudio)",
+  "lastUpdatedDate": "22 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1832",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2170,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4653504103000000",
+      "endianness": null,
+      "name": "ArcSoft PhotoStudio File",
+      "note": "BOF Absolute from beginning of file, magic bytes: FSPA\u2026."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

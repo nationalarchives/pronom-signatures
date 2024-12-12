@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1381,
+  "formatName": "Windows Media Playlist",
+  "version": null,
+  "formatDescription": "Windows Media Player Playlist is a file format that stores multimedia playlists. It is a proprietary file format used in Microsoft Windows Media Player versions 9-12.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://msdn.microsoft.com/en-us/library/dd564509%28v=vs.85%29.aspx\r\nhttp://support.microsoft.com/kb/316992",
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-wpl",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/589",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 930,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F77706C2076657273696F6E3D22312E30223F3E",
+      "endianness": null,
+      "name": "Windows Media Playlist",
+      "note": "BOF: <?wpl version=\"1.0\"?>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wpl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

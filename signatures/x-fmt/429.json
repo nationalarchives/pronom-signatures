@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 820,
+  "formatName": "MHTML",
+  "version": null,
+  "formatDescription": "AKA MIME Encapsulation of Aggregate Documents, such as HTML. This entry was previously named 'Microsoft Web Archive', however MHTML is not specific to Microsoft. MHTML is described by the IETF standard RFC2557.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Jul 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "multipart/related",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/429",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1774,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "4D(494D45|696D65)2D(56|76)657273696F6E3A20312E30{1-2}436F6E74656E742D547970653A206D756C7469706172742F72656C61746564",
+      "endianness": null,
+      "name": "MHT",
+      "note": "BOF offset up to 2048 (may need to be larger): MIME-(V|v)ersion: 1.0 or Mime-(V|v)ersion: 1.0 {1-2} Content-Type: multipart/related"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mht",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mhtml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1018,
+      "relatedFormatName": "Internet Message Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1258,
+      "relatedFormatName": "Hypertext Markup Language"
+    }
+  ]
+}

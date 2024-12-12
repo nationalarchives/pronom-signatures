@@ -1,0 +1,80 @@
+{
+  "fileFormatID": 2318,
+  "formatName": "QuarkXPress Project",
+  "version": "2021",
+  "formatDescription": "QuarkXPress is desktop publishing software for creating and editing page layouts that can be run on Mac and Windows operating systems. It was first released in 1987. It can be used to creating a variety of layouts, from single-page flyers to multi-media projects required for magazines, newspapers and catalogues. Versions 1-3 were available on Macintosh only, from version 3.1 a common signature is used.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for both BOF signature to allow for more exact signature identification. Internally researched",
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.Quark.QuarkXPress",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1495",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1867,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": 0,
+      "byteSequence": "4D4D585052{2}51",
+      "endianness": null,
+      "name": "QuarkXPress 2021 (Motorola)",
+      "note": "BOF (Offset 2):'MMXPR'{2}'Q'."
+    },
+    {
+      "signatureID": 1868,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": 0,
+      "byteSequence": "4949585052{1}51",
+      "endianness": null,
+      "name": "QuarkXPress 2021 (Intel)",
+      "note": "BOF (Offset 2):'IIXPR'{1}'Q'."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "qxp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qwd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qpt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 255,
+      "relatedFormatName": "QuarkXPress Data File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2881,
+      "relatedFormatName": "QuarkXPress Project"
+    }
+  ]
+}

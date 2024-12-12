@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2200,
+  "formatName": "Embedded OpenType (EOT) File Format",
+  "version": "0x00010000",
+  "formatDescription": "The Embedded OpenType File Format (EOT) was developed by Microsoft to enable TrueType and OpenType fonts to be linked to web pages for download to render the web page with the font the author desired - https://www.w3.org/Submission/2008/SUBM-EOT-20080305/",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2020",
+  "formatSourceID": 235,
+  "provenanceCompoundName": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-fontobject",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1382",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1760,
+      "positionType": "Absolute from BOF",
+      "offset": 8,
+      "maxOffset": null,
+      "byteSequence": "01000000{22}4C50{36}0000",
+      "endianness": null,
+      "name": "Embedded OpenType (EOT) 0x00010000",
+      "note": "BOF, offset 8: 0x01000000 {22} 'LP' {36} 0x0000. There may need to be a second pattern adjusting for endianness. Please let the PRONOM team know if you encounter this use-case."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "eot",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

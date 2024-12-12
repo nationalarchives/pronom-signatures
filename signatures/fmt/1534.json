@@ -1,0 +1,89 @@
+{
+  "fileFormatID": 2358,
+  "formatName": "Serif PagePlus Publication",
+  "version": "X8",
+  "formatDescription": "Serif PagePlus is a desktop publishing application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "25 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1534",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ppb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ppx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1470,
+      "relatedFormatName": "Serif PagePlus Publication"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "22180",
+      "description": "Serif PagePlus Publication X8",
+      "files": [
+        {
+          "path": "Root.xml"
+        },
+        {
+          "path": "summary.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "64",
+                  "sequence": "'SerifXML version=\"1.0\"'"
+                }
+              ],
+              "reference": "BOFoffset"
+            },
+            {
+              "subSequences": [
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'Serif PagePlus 18'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

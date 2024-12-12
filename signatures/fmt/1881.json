@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 2735,
+  "formatName": "vCard",
+  "version": "4",
+  "formatDescription": "vCard is a file format standard for electronic business cards, although much less frequently used at the time of writing. vCards are often attached to e-mail messages, but can be exchanged in other ways, such as on the internet or instant messaging.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "05 Jul 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "05 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1881",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/vcard",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2222,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "424547494E3A56434152440D0A56455253494F4E3A342E30",
+      "endianness": null,
+      "name": "vCard v.4",
+      "note": "Absolute from beginning of file, magic bytes: BEGIN:VCARD..VERSION:4.0\r\nEOF, offset 0-4: END:VCARD"
+    },
+    {
+      "signatureID": 2222,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "454E443A5643415244",
+      "endianness": null,
+      "name": "vCard v.4",
+      "note": "Absolute from beginning of file, magic bytes: BEGIN:VCARD..VERSION:4.0\r\nEOF, offset 0-4: END:VCARD"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vcf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vcard",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1143,
+      "relatedFormatName": "vCard"
+    }
+  ]
+}

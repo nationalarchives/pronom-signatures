@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2279,
+  "formatName": "Autocad DMP File",
+  "version": null,
+  "formatDescription": "This signature profiles dump files produced by the Autocad program. These are files which contain data \u2018dumped\u2019 from the program's memory space, usually created when the program has an error or crashes.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1456",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1821,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5B4D61696E5D0D0A44756D70456E74726965733D",
+      "endianness": null,
+      "name": "Autocad DMP File",
+      "note": "BOF magic bytes: [Main]..DumpEntries="
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

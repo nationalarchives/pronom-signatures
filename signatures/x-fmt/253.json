@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 371,
+  "formatName": "Microsoft Publisher",
+  "version": "95",
+  "formatDescription": "Microsoft Publisher is a desktop publishing application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-mspublisher",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/253",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pub",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "5010",
+      "description": "Microsoft Publisher 95",
+      "files": [
+        {
+          "path": "Contents",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "E8 AC 22 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            },
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "12",
+                  "subSeqMaxOffset": "24",
+                  "sequence": "7D 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

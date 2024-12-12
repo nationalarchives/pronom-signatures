@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 379,
+  "formatName": "WordStar for MS-DOS Document",
+  "version": "7.0",
+  "formatDescription": "The WordStar format is the default proprietary plain text format for the word processing application of the same name. It was created in 1978 by MicroPro, originally for the CP/M operating system but later was used on other operating systems such as PC/MS-DOS. It was the first word processor to render the doument on screen as it would appear when printed. WordStar files often have the extension ws or ws follwed by their version number but it is also common for them to have no extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://justsolve.archiveteam.org/wiki/WordStar\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000552",
+  "lastUpdatedDate": "29 Jul 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000552",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "Q105856544",
+      "identifierType": "Wikidata QID Identifier"
+    },
+    {
+      "identifierText": "x-fmt/261",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 613,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "1D7D000070{120}7D001D",
+      "endianness": null,
+      "name": "WordStar for DOS Document 7.0",
+      "note": "Header symmetrical sequence 0f 128 bytes: first thee bytes, 0x1D 0x7D00, sequence type header = 0x00, version =0x70,  last three bytes 0x7D00 0X1D"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ws",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ws7",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1686,
+      "relatedFormatName": "Wordstar 2000"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 343,
+      "relatedFormatName": "WordStar for MS-DOS Document"
+    }
+  ]
+}

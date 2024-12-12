@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 493,
+  "formatName": "JustWrite Text Document",
+  "version": null,
+  "formatDescription": "JustWrite is a word processer which was developed by the Symantec Corporation in the 1990's.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/330",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1353,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4646464649494949",
+      "endianness": null,
+      "name": "JustWrite",
+      "note": "FFFFIIII"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jw",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jwt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

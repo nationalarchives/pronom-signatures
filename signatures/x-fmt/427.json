@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 814,
+  "formatName": "Acrobat Language definition file",
+  "version": null,
+  "formatDescription": "Acrobat language plug-in which adds support for additional languages in Adobe Acrobat.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Feb 2007",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/427",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "lng",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1796,
+  "formatName": "SHA256 File",
+  "version": null,
+  "formatDescription": "SHA256 is part of the family of SHA-2 (Secure Hash Algorithm 2) hash functions which are designed by the United States National Security Agency. SHA256 prodcues a 256-but (32-byte) hash value. It can be used as a checksum to verify data integrity. The SHA256 file is a text document which contains single or multiple SHA1 values.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/991",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "sha256",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

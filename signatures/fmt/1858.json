@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2712,
+  "formatName": "Microsoft Excel Workspace File",
+  "version": "5/95",
+  "formatDescription": "An XLW file is a workspace file created by Microsoft Excel. It contains the screen locations of one or more workbooks. XLW files are used to restore the layout when working simultaneously on multiple workbooks, and as such do not contain any actual spreadsheet data; their only function is to store the physical layout of workbook files. They were created when the user selected View -> Save Workspace in earlier versions of Excel. Versions of Excel 2013 onwards do not generate Workspace files, but can open XLW files from Excel 2010 and before. It should be noted that Excel v.4 did create some workbook files with the .xlw extension, which contained worksheet data i.e. rows and columns of cells.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Apr 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Apr 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-excel",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1858",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2203,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0908080000050001{3}0742000200E40438000400{1}0005003D001200",
+      "endianness": null,
+      "name": "Microsoft Excel Workspace File",
+      "note": "Absolute from beginning of file, magic bytes:\t \u2026\u2026..{3}.B\u2026\u00e4.8\u2026{1}\u2026=\u2026"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 186,
+      "relatedFormatName": "Microsoft Excel Workspace File"
+    }
+  ]
+}

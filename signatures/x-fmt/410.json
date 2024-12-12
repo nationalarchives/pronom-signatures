@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 775,
+  "formatName": "Windows New Executable",
+  "version": null,
+  "formatDescription": "The New Executable (abbreviated NE or NewEXE) is a 16-bit .exe file format, a successor to the DOS MZ executable format. It is used by 16-bit Microsoft Windows, and by some versions of OS/2 and MS-DOS.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Feb 2006",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Feb 2006",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "EXE",
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.microsoft.windows-executable",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/410",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 197,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D5A*4E45",
+      "endianness": null,
+      "name": "Windows New Executable",
+      "note": "Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "exe",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 776,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1704,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1705,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 774,
+      "relatedFormatName": "MS-DOS Executable"
+    }
+  ]
+}

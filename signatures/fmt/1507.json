@@ -1,0 +1,91 @@
+{
+  "fileFormatID": 2330,
+  "formatName": "Exchangeable Image File Format (Compressed)",
+  "version": "2.3.x",
+  "formatDescription": "Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1507",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/jpeg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1879,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFD8FFE1{2}4578696600004D4D002A*9000000700000004303233[30:39]",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.3 (big-endian)",
+      "note": "BOF: SOI and APP1, EXIF IFD (EXIF ver=2.3), EOI marker"
+    },
+    {
+      "signatureID": 1879,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 131072,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.3 (big-endian)",
+      "note": "BOF: SOI and APP1, EXIF IFD (EXIF ver=2.3), EOI marker"
+    },
+    {
+      "signatureID": 1880,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFD8FFE1{2}45786966000049492A00*0090070004000000303233[30:39]",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.3 (little-endian)",
+      "note": "BOF: SOI and APP1, EXIF IFD (EXIF ver=2.3), EOI marker"
+    },
+    {
+      "signatureID": 1880,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 131072,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.3 (little-endian)",
+      "note": "BOF: SOI and APP1, EXIF IFD (EXIF ver=2.3), EOI marker"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jpg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpeg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 670,
+      "relatedFormatName": "Raw JPEG Stream"
+    }
+  ]
+}

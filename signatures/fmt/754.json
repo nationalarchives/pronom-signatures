@@ -1,0 +1,119 @@
+{
+  "fileFormatID": 1553,
+  "formatName": "Microsoft Word Document (Password Protected)",
+  "version": "97-2003",
+  "formatDescription": "With the release of Word 97, Microsoft revised the native binary word processing format, which is based on its generic OLE2 Compound Document Format. A Word document is stored as a \u2018WordDocument\u2019 stream within a Compound Document Format file. The format remained unchanged with the releases of Word 2000, 2002 and 2003. An alternative extension of .wbk refers to a backup file of a Word document, however there is no material or structural difference between a .wbk file and the .doc file it is a backup of.\r\n\r\nWithin the 'WordDocument' stream, the byte at position 0x0B deals with encryption/obfuscation, as per the MS FibBase description page - https://msdn.microsoft.com/en-us/library/dd944620(v=office.12).aspx. The first bit (Least Significant Bit (LSB) ordering) specifies whether the file is encrypted, meaning that if the byte at 0x0B is an 'odd' byte (e.g. 01, 03, 05, 07, 09, 0B, 0D, 0F, 11, 13 etc.) then this indicates obfuscation/encryption is present.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Aug 2015",
+  "formatSourceID": 214,
+  "provenanceCompoundName": "Archives New Zealand / Archives New Zealand",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "07 Aug 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/754",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "wbk",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1554,
+      "relatedFormatName": "Microsoft Word Document Template (Password Protected)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 690,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1401,
+      "relatedFormatName": "Microsoft Word (Generic)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 688,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "1110",
+      "description": "Microsoft Word 97 OLE2 Password Protected",
+      "files": [
+        {
+          "path": "WordDocument"
+        },
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "40",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "10 00 00 00 'Word.Document.8' 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "WordDocument",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "11",
+                  "subSeqMaxOffset": "11",
+                  "sequence": "[&01]"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

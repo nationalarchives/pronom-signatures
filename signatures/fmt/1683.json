@@ -1,0 +1,85 @@
+{
+  "fileFormatID": 2519,
+  "formatName": "EndNote Compressed Library",
+  "version": "X - X9",
+  "formatDescription": "EndNote Library file format is generated and used via EndNote reference management software application. EndNote is a software indented for the management of bibliographies and references when producing academic text or reports. Endnote software was first launched in 1989 by Niles & Associates, then in 2000 was acquired by Institute for Scientific Information\u2019s Research Soft Division, and since 2016 owned by Clarivate. The EndNote Library file format stores the references and citations in so called 'libraries' used with the software. Users of EndNote application can create their own EndNote Library files, as well as upload EndNote Library files onto their software. The latter versions of this software starting from version 8, include .data folder to accompany the EndNote Library format, the .data folder is automatically created by EndNote, intended to store attachments. Following this update, the data folder is recommended to be present in the EndNote Library file structure in order to use the EndNote Library format with the EndNote software. This entry describes compressed versions X and all sequential to version X9, which changed from binary type of file format to ZIP container. In these later versions an ability to compress EndNote Library files using the EndNote application was added, in purpose to easily share EndNote library files with other EndNote users. Subsequent versions altered their file format structure to SQL Lite database and are included in separate PRONOM entry. Please see the full  version history using the Web Archive Wikipedia entry link included in the Notes section.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://web.archive.org/web/20220501102310/https://en.wikipedia.org/wiki/EndNote\r\n\r\nhttps://web.archive.org/web/20130319092646/http://endnote.com/support/helpdocs/ENX-GettingStartedGuide.pdf\r\n\r\nhttp://fileformats.archiveteam.org/wiki/EndNote_Library",
+  "lastUpdatedDate": "13 May 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "13 May 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1683",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "enlx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2521,
+      "relatedFormatName": "EndNote Compressed Library"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1070,
+      "relatedFormatName": "EndNote Library"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2518,
+      "relatedFormatName": "EndNote Library"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "70010",
+      "description": "EndNote Compressed Library vX-X9",
+      "files": [
+        {
+          "path": "rdb/refs.MYD"
+        },
+        {
+          "path": "rdb/refs.frm",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "FE 01 09 09"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

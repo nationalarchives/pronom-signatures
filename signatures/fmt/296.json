@@ -1,0 +1,127 @@
+{
+  "fileFormatID": 1039,
+  "formatName": "OpenDocument Graphics",
+  "version": "1.1",
+  "formatDescription": "OpenDocument (ODF) format is a generic format for office documents, such as text, spreadsheets, presentations, drawings, and databases. It was developed by OASIS, based on the original OpenOffice document format. The format is an open standard, and is supported by a variety of office software packages. ODF is an XML format, which may comprise a single XML document, or a collection of subdocuments within a package. The package format is the commonly used form, and comprises a standard ZIP package containing the XML content and any associated binary data, together with a manifest which lists the package content. An ODF drawing document contains drawing data. The content is contained in a 'content' xml subdocument. Additional subdocuments contain style information, document metadata, and application-specific settings.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "04 Nov 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Ongoing DROID signature research",
+  "formatSourceDate": "03 Nov 2010",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.oasis.opendocument.graphics",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/296",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 315,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E6772617068696373*6F66666963653A76657273696F6E3D22312E3122",
+      "endianness": null,
+      "name": "ODF 1.1 graphics (with version number)",
+      "note": "ZIP header + MIME-type declaration + version number. ODF versions without version number detail are assumed to be version 1.1"
+    },
+    {
+      "signatureID": 316,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E6772617068696373",
+      "endianness": null,
+      "name": "ODF 1.1 graphics (without version number)",
+      "note": "ZIP header + MIME-type declaration. ODF versions without version number detail are assumed to be version 1.1"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "odg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "otg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 782,
+      "relatedFormatName": "OpenDocument Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1040,
+      "relatedFormatName": "OpenDocument Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2600,
+      "relatedFormatName": "OpenDocument Graphics"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "9510",
+      "description": "Open Document Graphics 1.1",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.graphics'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

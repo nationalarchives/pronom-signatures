@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2322,
+  "formatName": "Adobe Audition Session File",
+  "version": "XML",
+  "formatDescription": "Adobe Audition is a Digital Audio Workstation. The underlying format used to save session data was changed from an earlier binary format to an XML-based one, that this entry covers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio, Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1499",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1872,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){24-128}21444F435459504520736573783E0A3C736573782076657273696F6E3D",
+      "endianness": null,
+      "name": "Adobe Audition Session XML",
+      "note": "BOF 0-3: XML header then {24-128} '!DOCTYPE sesx>.<sesx version='"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sesx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

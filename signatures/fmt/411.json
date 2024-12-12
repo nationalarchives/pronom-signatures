@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1159,
+  "formatName": "RAR Archive",
+  "version": "2.9",
+  "formatDescription": "RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "17 Mar 2012",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.rar",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/411",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 591,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "526172211A0700{2}73{34}1D",
+      "endianness": null,
+      "name": "RAR Archive 2.9",
+      "note": "Marker block 0x526172211A0700 + Archive header type 0x73 + at offset 44 RAR version needed to extract file 1D indicates vers 2.9"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

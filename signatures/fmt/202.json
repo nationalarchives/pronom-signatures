@@ -1,0 +1,167 @@
+{
+  "fileFormatID": 927,
+  "formatName": "Nikon Digital SLR Camera Raw Image File",
+  "version": null,
+  "formatDescription": "Nikon Digital SLR RAW Image files are produced by the Nikon DSLR family of digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/202",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1046,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A*927C{0-35536}4E696B6F6E00(0200|0210|0211)00004D4D002A00000008{0-999999}00FE00040000000100000000{36}0103000300000001(0001|8799)0000",
+      "endianness": null,
+      "name": "Nikon RAW Motorola v1",
+      "note": "#--Makernote and image data standard--#\r\nTIFF Magic, Makernote Tag, Makernote ID, Byte Order, Subfile Type, Compression"
+    },
+    {
+      "signatureID": 1047,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00*7C92{0-35536}4E696B6F6E00(0200|0210|0211)000049492A0008000000{0-999999}00FE00040001000000000000{36}000301030001000000(0100|9987)00",
+      "endianness": null,
+      "name": "Nikon RAW Intel v1",
+      "note": "#--Makernote and image data standard--#\r\nTIFF Magic, Makernote Tag, Makernote ID, Byte Order, Subfile Type, Compression"
+    },
+    {
+      "signatureID": 1293,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A*927C{0-35536}00FE00040000000100000000{36}0103000300000001(0001|8799)0000{0-999999}4E696B6F6E00(0200|0210|0211)00004D4D002A00000008",
+      "endianness": null,
+      "name": "Nikon RAW Motorola v2",
+      "note": "#--Makernote and image data reversed--#\r\nTIFF Magic, Makernote Tag, Subfile Type, Compression, Makernote ID, Byte Order"
+    },
+    {
+      "signatureID": 1294,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00*7C92{0-35536}00FE00040001000000000000{36}000301030001000000(0100|9987)00{0-999999}4E696B6F6E00(0200|0210|0211)000049492A0008000000",
+      "endianness": null,
+      "name": "Nikon RAW Intel v2",
+      "note": "#--Makernote and image data reversed--#\r\nTIFF Magic, Makernote Tag, Subfile Type, Compression, Makernote ID, Byte Order"
+    },
+    {
+      "signatureID": 1295,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A*00FE00040000000100000000{36}0103000300000001(0001|8799)0000{0-999999}927C{0-2046}4E696B6F6E00(0200|0210|0211)00004D4D002A00000008",
+      "endianness": null,
+      "name": "Nikon RAW Motorola v3",
+      "note": "#--Makernote in the Middle--#\r\nTIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order"
+    },
+    {
+      "signatureID": 1296,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00*00FE00040001000000000000{36}000301030001000000(0100|9987)00{0-999999}7C92{0-2046}4E696B6F6E00(0200|0210|0211)000049492A0008000000",
+      "endianness": null,
+      "name": "Nikon RAW Intel v3",
+      "note": "#--Makernote in the Middle--#\r\nTIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order"
+    },
+    {
+      "signatureID": 1297,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A*4E494B4F4E20434F52504F524154494F4E004E494B4F4E2044312000{1-16384}927C{0-512}524157",
+      "endianness": null,
+      "name": "Nikon D1 RAW Motorola",
+      "note": "TIFF Magic, Makernote ID, Makernote Tag"
+    },
+    {
+      "signatureID": 1298,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00*4E494B4F4E20434F52504F524154494F4E004E494B4F4E2044312000{1-16384}7C92{0-512}524157",
+      "endianness": null,
+      "name": "Nikon D1 RAW Intel",
+      "note": "TIFF Magic, Makernote ID, Makernote Tag"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nef",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nrw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 795,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1223,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1224,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1225,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1529,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2693,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2694,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 797,
+      "relatedFormatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

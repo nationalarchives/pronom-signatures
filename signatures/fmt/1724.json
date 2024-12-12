@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2568,
+  "formatName": "LegalDocML Document",
+  "version": null,
+  "formatDescription": "LegalDocML is an open standard maintained by the LegalDocML Technical Committee under the OASIS Standards body. It is an XML-based standard for describing the structure of legal documents.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part1-vocabulary/akn-core-v1.0-os-part1-vocabulary.html",
+  "lastUpdatedDate": "15 Jul 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1724",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2068,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-1024}3C616B6F6D614E746F736F20{0-1024}786D6C6E733D22687474703A2F2F646F63732E6F617369732D6F70656E2E6F72672F6C6567616C646F636D6C2F6E732F616B6E2F332E30",
+      "endianness": null,
+      "name": "LegalDocML Document",
+      "note": "BOF: XML declaration: '<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-1024 bytes followed by namespace declaration: '<akomaNtoso' then 0-1024 bytes later, 'xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

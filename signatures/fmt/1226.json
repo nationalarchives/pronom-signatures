@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2036,
+  "formatName": "Sparky",
+  "version": "2",
+  "formatDescription": "Sparky is used in Nuclear Magnetic Resonance (NMR) Spectroscopy, particularly spectral analysis. Sparky is a graphical NMR assignment and integration program for proteins, nucleic acids, and other polymers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Feb 2019",
+  "formatSourceID": 240,
+  "provenanceCompoundName": "University of Illinois / University of Illinois",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Feb 2019",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1226",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1604,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "55435346204E4D5200{4}02",
+      "endianness": null,
+      "name": "Sparky 2",
+      "note": "BOF: Magic bytes \u2018UCSF NMR\u2019 followed by null, In addition, the byte offset 13 (0x0D) should be the number 2 (unsigned char, for version 2)."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ucsf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

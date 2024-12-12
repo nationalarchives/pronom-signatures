@@ -1,0 +1,137 @@
+{
+  "fileFormatID": 866,
+  "formatName": "SketchUp Document",
+  "version": null,
+  "formatDescription": "SketchUp is a 3D content creation tool. PRONOM currently does not distinguish between different versions of SketchUp documents but the ability to distinguish between different file format versions may be desirable and possible with a better understanding of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "10 Jul 2017",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": "An .skp file is a SketchUp document. An .skb is a SketchUp document backup.",
+  "formatSourceDate": "06 Apr 2009",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/451",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 241,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0E536B657463685570204D6F64656C08",
+      "endianness": "Little-endian",
+      "name": "SketchUp Document (older version)",
+      "note": "BOF: 0x0E, 'SketchUp Model', 0x08"
+    },
+    {
+      "signatureID": 243,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFEFF0E53006B0065007400630068005500700020004D006F00640065006C00",
+      "endianness": "Little-endian",
+      "name": "SketchUp Document",
+      "note": null
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "skb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "skp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2077,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2078,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2079,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2080,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2081,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2082,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2083,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2084,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2085,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2086,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2087,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2088,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2089,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2090,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2091,
+      "relatedFormatName": "SketchUp Document"
+    }
+  ]
+}

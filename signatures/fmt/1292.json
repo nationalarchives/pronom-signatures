@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2110,
+  "formatName": "EIOffice Document",
+  "version": null,
+  "formatDescription": "EIOffice is an office productivity suite developed by Evermore Software. The suite was renamed to Yozo Office as of 2010. Word Processed documents, Spreadsheets, and Presentation formats share the same extension. It may be possible to distinguish between the different format types with further research.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Yozo Office Document",
+  "formatTypes": "Presentation, Spreadsheet, Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1292",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1672,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00000FFFFFFFFFFF010045005600450052004D004F0052004500200053004F00460054005700410052004500200049004E0043002E00",
+      "endianness": null,
+      "name": "EIOffice Document",
+      "note": "Identification sequence consists of 0x00000FFFFFFFFFFF0100, then double-byte encoded text 'EVERMORE SOFTWARE INC.'. Please contact the PRONOM team if you are able to enhance this signature."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "eio",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

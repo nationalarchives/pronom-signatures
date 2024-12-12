@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2437,
+  "formatName": "Viacom New Media Graphics",
+  "version": null,
+  "formatDescription": "Viacom New Media Graphics is a graphics format developed by Viacom New Media, used to store images for early computer games. It is presumably graphics formats used in Beavis and Butthead in Virtual Stupidity video game. \r\n\r\nViacom New Media was a publisher of video games and other electronic entertainment software. It was formed in 1994 as a subdivision of Viacom Interactive Media.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://moddingwiki.shikadi.net/wiki/Viacom_New_Media_Graphics_File_Format\r\n\r\nhttps://moddingwiki.shikadi.net/wiki/Beavis_and_Butthead_In_Virtual_Stupidity\r\n\r\nhttps://www.wikidata.org/wiki/Q105860081",
+  "lastUpdatedDate": "26 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1610",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1945,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "564E4D1A",
+      "endianness": null,
+      "name": "Viacom New Media Graphics",
+      "note": "BOF; Offset: 0; Magic Bytes: 'VNM\u2026.\u20ac'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vnm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "000",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

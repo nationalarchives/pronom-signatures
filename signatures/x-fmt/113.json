@@ -1,0 +1,90 @@
+{
+  "fileFormatID": 165,
+  "formatName": "Microsoft Visio Drawing",
+  "version": "5.0",
+  "formatDescription": "Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.visio",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/113",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "vsd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vst",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vss",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1229,
+      "relatedFormatName": "Microsoft Visio (generic)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "13110",
+      "description": "Microsoft Visio Document 5",
+      "files": [
+        {
+          "path": "VisioDocument",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "minFragLength": "0",
+                  "position": "1",
+                  "subSeqMaxOffset": "0",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'Visio (TM) Drawing'0D0A",
+                  "rightFragment": {
+                    "maxOffset": "6",
+                    "minOffset": "6",
+                    "position": "1"
+                  }
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

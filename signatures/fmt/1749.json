@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2595,
+  "formatName": "Canon MIF File",
+  "version": null,
+  "formatDescription": "A Canon MIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It contains information about each clip recorded on the media card, is found within the CANON XF/CLIPS 001 directory and is a strict requirement in order to mount a particular card in Canon media apps to make the content readable. Although little official documentation exists, MIF likely stands for Media Information File.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/",
+  "lastUpdatedDate": "24 Aug 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1749",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2091,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D49010102",
+      "endianness": null,
+      "name": "Canon MIF File",
+      "note": "BOF:'MI' followed by 0x01 (Start of Header) followed by 0x01 (Start of Header) followed by 0x02 (Start of Text)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

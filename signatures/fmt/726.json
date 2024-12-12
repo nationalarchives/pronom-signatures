@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1525,
+  "formatName": "Virtual Disk Image",
+  "version": null,
+  "formatDescription": "VDI (Virtual Disk Image) is the native format used for storage by VirtualBox virtual machines.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/726",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1050,
+      "positionType": "Absolute from BOF",
+      "offset": 64,
+      "maxOffset": null,
+      "byteSequence": "7F10DABE",
+      "endianness": null,
+      "name": "Virtual Disk Image",
+      "note": "64 byte offset: 7F 10 DA BE magic number (..\u00da\u00be)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vdi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

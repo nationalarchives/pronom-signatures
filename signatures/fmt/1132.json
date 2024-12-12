@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1942,
+  "formatName": "Netscape Bookmark File Format",
+  "version": null,
+  "formatDescription": "The Netscape Bookmark File Format was originally created to store bookmarks for the Netscape web browser. It was subsequently used by Internet Explorer. Microsoft have provided a thorough description of the format: https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753582(v=vs.85)",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 May 2018",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "29 May 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1132",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1514,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C21444F4354595045204E455453434150452D426F6F6B6D61726B2D66696C652D313E",
+      "endianness": null,
+      "name": "Netscape Bookmark File Format",
+      "note": "BOF: <!DOCTYPE NETSCAPE-Bookmark-file-1>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "htm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "html",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

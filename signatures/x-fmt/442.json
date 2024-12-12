@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 856,
+  "formatName": "form*Z Project File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "06 Apr 2009",
+  "formatSourceID": 131,
+  "provenanceCompoundName": "Digital Library Research Group / MIT Libraries",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Apr 2009",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/octet-stream",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/442",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "fmz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

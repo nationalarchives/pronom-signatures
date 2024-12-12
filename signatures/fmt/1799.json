@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2650,
+  "formatName": "FLExText Interlinear XML Format",
+  "version": null,
+  "formatDescription": "The FLExText Interlinear XML format is used in the field of linguistics study. FlExText is produced by SIL International\u2019s FieldWorks software, and can be imported to other programs such as ELAN and SayMore.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": "04/2024 (v.118)- Offset from BOF changed from 0 to 0-3 to provide flexibility for the XML 1.0 declaration. Submitted by Preservica based on samples provided by The Endanagered Languages Archive.",
+  "formatSourceDate": "23 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1799",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2138,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E{0-3}3C646F63756D656E74{1-256}3C696E7465726C696E6561722D74657874{1-1024}3C70617261677261706873",
+      "endianness": null,
+      "name": "FLExText Interlinear XML Format",
+      "note": "BOF offset 0-3, XML 1.0 declaration, then mandatory elements, \u2018document\u2019, \u2018interlinear-text\u2019, \u2018paragraphs\u2019\u2013 see https://github.com/sillsdev/FieldWorks/blob/develop/DistFiles/Language%20Explorer/Export%20Templates/Interlinear/FlexInterlinear.xsd. There are additional non-mandatory elements and attributes that can appear, which may mean that relative offsets between elements may need to be tweaked further."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flextext",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

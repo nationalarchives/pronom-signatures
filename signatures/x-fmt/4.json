@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 14,
+  "formatName": "Write for Windows Document",
+  "version": "3.1",
+  "formatDescription": "Microsoft Write is a basic word processor included with Windows 1.0 and later, until Windows NT 3.5. Throughout its lifespan it was minimally updated, and is comparable to early versions of MacWrite. Early versions of Write only work with Write (.wri) files, but after Windows 3.0, Write became capable of reading and composing early Word (.doc) documents. With Windows 3.1, Write became OLE capable. In Windows 95, Write was replaced with WordPad.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/4",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 615,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "32BE000000AB0000000000000000{82}[!0000]",
+      "endianness": null,
+      "name": "Write for Windows Document 3.1",
+      "note": "File Information Block: wident=0xBE32; DocumentType=0x0000 ;wTool=0xAB00; pnMac at offset 96 is the number of 128 byte blocks in entire file in Windows Write and always 0 in similar MS Word for DOS."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wri",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

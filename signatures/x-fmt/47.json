@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 78,
+  "formatName": "Micrografx Draw",
+  "version": "1-2",
+  "formatDescription": "Micrografx Draw & Designer are vector graphics software tools.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/47",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1696,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01FF020403(00|01|02)0002",
+      "endianness": null,
+      "name": "Micrografx Draw Versions 1-2",
+      "note": "BOF: 0x01FF020403 then either byte 00, 01 or 02 followed by 0x0002"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "drw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 447,
+      "relatedFormatName": "Micrografx Draw"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 448,
+      "relatedFormatName": "Micrografx Draw"
+    }
+  ]
+}

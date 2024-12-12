@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 2742,
+  "formatName": "Common Instrument File (CIF)",
+  "version": "1",
+  "formatDescription": "The Common Instrument File (CIF) format is a file format designed to distribute sound data, similar to the CLF format. It follows the same principles as the CLF format, but its focus is on the directivities of natural sources like musical instruments, talkers, singers, and noise sources instead of loudspeakers. The CIF format was officially released on October 27, 2020.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1887",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2228,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "42BD0A0001{15}76312E306100{10}00000000000000000000000000000000",
+      "endianness": null,
+      "name": "CIF1",
+      "note": "BOF: 00x42BD0A0001 then after 15 bytes 00x76312E306100 followed by 16 null bytes"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ci1",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 2805,
+      "relatedFormatName": "Common Loudspeaker Format (CLF)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2744,
+      "relatedFormatName": "Common Instrument File (CIF)"
+    }
+  ]
+}

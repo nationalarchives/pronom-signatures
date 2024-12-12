@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 68,
+  "formatName": "AutoCAD Colour-Dependant Plot Style Table",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/37",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 329,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "50494146494C4556455253494F4E5F322E302C435442564552312C636F6D70726573730D0A706D7A6C6962636F646563",
+      "endianness": null,
+      "name": "AutoCAD Color-Dependent Plot Style Table",
+      "note": "Header: PIAFILEVERSION_2.0,CTBVER1, compress<cr><lf> pmzlibcodec."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ctb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

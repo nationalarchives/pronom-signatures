@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2823,
+  "formatName": "Melco OFM Project",
+  "version": "11",
+  "formatDescription": "Melco DesignShop Project files are used for embroidery machines.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/OFM",
+  "lastUpdatedDate": "23 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1958",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2365,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}4F464D38",
+      "endianness": null,
+      "name": "Melco OFM Project v.11",
+      "note": "BOF; Offset:0; Magic Bytes: 'RIFF' followed 4 bytes later by 'OFM8'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ofm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
+    }
+  ]
+}

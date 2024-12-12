@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2547,
+  "formatName": "Software602 Printer Configuration File",
+  "version": "1.0",
+  "formatDescription": "Binary format for configuration, containing paths to printers and/ or dictionaries, used by Software602 programmes.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jun 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1711",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2044,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0B433630322D762E312E3030",
+      "endianness": null,
+      "name": "Software602 Printer Configuration File",
+      "note": "BOF Absolute from beginning of file, magic bytes: C602-v.1.0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cfg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

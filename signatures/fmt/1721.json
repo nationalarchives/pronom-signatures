@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2557,
+  "formatName": "Pablo Paint Raster Image",
+  "version": null,
+  "formatDescription": "Pablo Paint is a raster image format originating from the Atari line of computers. It has two known extensions. The first is .ppp and is reserved for lower resolution images. The second is .pa3 and is associated with higher resolution images. Both are identified by the same internal signature.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PabloPaint\r\n\r\nhttps://temlib.org/AtariForumWiki/index.php/Pablo_Paint_file_format",
+  "lastUpdatedDate": "15 Jun 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1721",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2048,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5041424C4F205041434B454420504943545552453A2047726F7570652043444E44200D0A",
+      "endianness": null,
+      "name": "Pablo Paint Raster Image",
+      "note": "BOF:'PABLO PACKED PICTURE: Groupe CDND ' followed by 0x0D (Carriage Return) followed by 0x0A (Line Feed)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ppp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pa3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

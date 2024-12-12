@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2569,
+  "formatName": "Capture One Settings File",
+  "version": null,
+  "formatDescription": "File created by created by Capture One software which performs photo editing, raw image file processing of many different raw file types, and image cataloguing. Capture One does not make changes to the original RAW file, instead storing them as adjustments within these component files: Cos files contain the adjustments made to images.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://support.captureone.com/hc/en-us/categories/360000279017-User-Guide",
+  "lastUpdatedDate": "07 Jul 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1725",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2061,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)3F3E0A3C494D473E0A",
+      "endianness": null,
+      "name": "Capture One Settings File",
+      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"?>.<IMG>.\r\nEOF Absolute from end of file, magic bytes: </IMG>"
+    },
+    {
+      "signatureID": 2061,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C2F494D473E0A",
+      "endianness": null,
+      "name": "Capture One Settings File",
+      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"?>.<IMG>.\r\nEOF Absolute from end of file, magic bytes: </IMG>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cos",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2711,
+      "relatedFormatName": "Capture One Session File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

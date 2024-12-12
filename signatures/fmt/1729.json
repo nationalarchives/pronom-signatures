@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2573,
+  "formatName": "Esri Shapefile Geospatial Metadata File",
+  "version": null,
+  "formatDescription": "Esri Shapefile (actually a collection of files), was introduced with ArcView GIS software in the early 1990s, but is now used within a wide variety of software. It enables geographical datasets to be used between Esri and other GIS software. Esri Shapefiles consist of a collection of files within a directory. They always have files with extension shp, shx and dbf. The actual shapefile is the .shp file, but the other files are required supporting files. The shp.xml file is not mandatory, and stores geospatial metadata in xml format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Shapefile \r\nSpecification: https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf",
+  "lastUpdatedDate": "07 Jul 2022",
+  "formatSourceID": 287,
+  "provenanceCompoundName": "Yan Han / University of Arizona Library",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1729",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2067,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 250,
+      "byteSequence": "3C6D6574616461746120786D6C3A6C616E673D22{2}223E{0-2}3C457372693E",
+      "endianness": null,
+      "name": "Esri Shapefile Geospatial Metadata File",
+      "note": "BOF, offset 0-250, magic bytes: <metadata xml:lang=\"en\"><Esri>\r\nEOF offset 0-5: </metadata>"
+    },
+    {
+      "signatureID": 2067,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 5,
+      "byteSequence": "3C2F6D657461646174613E",
+      "endianness": null,
+      "name": "Esri Shapefile Geospatial Metadata File",
+      "note": "BOF, offset 0-250, magic bytes: <metadata xml:lang=\"en\"><Esri>\r\nEOF offset 0-5: </metadata>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

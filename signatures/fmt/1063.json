@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1870,
+  "formatName": "Leaf Mosaic Raw Image",
+  "version": null,
+  "formatDescription": "MOS is the raw image format created by some models of Mamiya Leaf camera equipment. The format is based upon the Tagged Image File Format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "13 Jul 2017",
+  "formatSourceID": 227,
+  "provenanceCompoundName": "Historic Environment Scotland / Historic Environment Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "13 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1063",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1437,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D002A{4-36864}504B545300000001",
+      "endianness": null,
+      "name": "Leaf Mosaic Raw",
+      "note": "BOF: Tiff big endian header 'MM' 0x002A {4-36864} 'PKTS' 0x00000001"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mos",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

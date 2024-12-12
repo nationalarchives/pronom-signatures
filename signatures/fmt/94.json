@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 662,
+  "formatName": "Virtual Reality Modeling Language",
+  "version": "2.0",
+  "formatDescription": "The Virtual Reality Modeling Language (VRML) is a file format for describing 3D interactive worlds and objects. It may be used in conjunction with the World Wide Web. It may be used to create three-dimensional representations of complex scenes such as illustrations, product definition and virtual reality presentations.  VRML is capable of representing static and animated objects and it can have hyperlinks to other media such as sound, movies, and image. Interpreters (browsers) for VRML are widely available for many different platforms as well as authoring tools for the creation VRML files. VRML supports an extensibility model that allows new objects to be defined and a registration process to allow application communities to develop interoperable extensions to the base standard. There is a mapping between VRML elements and commonly used 3D application programmer interface (API) features.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jun 2012",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "Specifications link: http://graphcomp.com/info/specs/sgi/vrml/spec/\r\nVersion 2.0 is the same file format as version 97",
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "VRML (97), Virtual Reality Modeling Language (2.0), VRML (2.0)",
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/94",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "model/vrml",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 54,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2356524D4C2056322E302075746638",
+      "endianness": null,
+      "name": "VRML 97",
+      "note": "Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wrl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1367,
+      "relatedFormatName": "X3D"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 661,
+      "relatedFormatName": "Virtual Reality Modeling Language"
+    }
+  ]
+}

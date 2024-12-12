@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1538,
+  "formatName": "ClarisWorks Word Processor",
+  "version": "4",
+  "formatDescription": "ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/739",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1066,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "04{3}424F424F{248}01",
+      "endianness": null,
+      "name": "CWK 4 Word Processor",
+      "note": "(Version){3}BOBO{248}(format type 0x01 = word processor document)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cwk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1543,
+      "relatedFormatName": "ClarisWorks/AppleWorks Word Processor"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1536,
+      "relatedFormatName": "ClarisWorks"
+    }
+  ]
+}

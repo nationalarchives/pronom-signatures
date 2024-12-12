@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 1520,
+  "formatName": "VLW Font File",
+  "version": null,
+  "formatDescription": "VLW is a font file created by the Processing Development Environment. At this stage no identification signature exists, but this may be possible with further research.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 181,
+  "provenanceCompoundName": "Museum of London / Museum of London",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/721",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "vlw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

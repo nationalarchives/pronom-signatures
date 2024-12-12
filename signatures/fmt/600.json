@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1392,
+  "formatName": "eXtensible ARchive format",
+  "version": null,
+  "formatDescription": "XAR (eXtensible Archive format) is an open source file archiver introduced in Mac OS X 10.5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Nov 2013",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": "http://code.google.com/p/xar/wiki/xarformat\r\nhttp://code.google.com/p/xar/wiki/whyxar",
+  "formatSourceDate": "12 Nov 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/600",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 937,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "78617221001C",
+      "endianness": null,
+      "name": "eXtensible ARchive format",
+      "note": "BOF: xar!..    Magic num (4 bytes), header length (2 bytes, value 001C). Next two bytes are version number - currently 0001 so possibility to extend signature, particularly if subsequent versions developed."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

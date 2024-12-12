@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1988,
+  "formatName": "Synthetic Music Mobile Application Format",
+  "version": null,
+  "formatDescription": "SMAF is an audio format developed by Yamaha intended for mobile devices.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.yamaha.smaf-audio",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1178",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1560,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4D4D44{4}434E5449",
+      "endianness": null,
+      "name": "SMAF",
+      "note": "BOF: MMMD{4}CNTI (File chunk ID, then Content Info chunk ID) - http://read.pudn.com/downloads34/sourcecode/comm/mms/107584/SMAF3.06e.pdf"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

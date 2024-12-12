@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2814,
+  "formatName": "Pro Tools Session File",
+  "version": "5-9",
+  "formatDescription": "Pro Tools is a digital audio workstation software application developed by AVID Technology. A Pro Tools session file contains the configuration of a Pro Tools session including settings, plugin details, references to audio and midi tracks etc. Pro Tools Session files do not contain audio data directly.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1951",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2296,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0330303130313131313030313031303131{1}01",
+      "endianness": null,
+      "name": "Pro Tools Session File 5-9",
+      "note": "BOF; Offset: 0; Bytes: 0x03, ASCII \u201c0010111100101011\u201d {1} 0x01 \u2013 this is based on information from the \u2018ptformat\u2019 Pro Tools file format parser - https://github.com/zamaudio/ptformat/blob/master/ptformat.cc#L402"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ptf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pts",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

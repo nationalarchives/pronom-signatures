@@ -1,0 +1,31 @@
+{
+  "fileFormatID": 957,
+  "formatName": "Microsoft Works Spreadsheet for Windows",
+  "version": "2.0a",
+  "formatDescription": "PUID deprecated. Please see fmt/166: Microsoft Works Spreadsheet 1-5",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Nov 2009",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Nov 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/227",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": []
+}

@@ -1,0 +1,96 @@
+{
+  "fileFormatID": 751,
+  "formatName": "Exchangeable Image File Format (Compressed)",
+  "version": "2.0",
+  "formatDescription": "Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Exif Compressed Image (2.0)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel) and Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/jpeg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/398",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 146,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFD8FFE1{2}4578696600004D4D002A*900000070000000430323030",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.0 (big-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.0), EOI marker"
+    },
+    {
+      "signatureID": 146,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65536,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.0 (big-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.0), EOI marker"
+    },
+    {
+      "signatureID": 149,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFD8FFE1{2}45786966000049492A00*009007000400000030323030",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.0 (little-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.0), EOI marker"
+    },
+    {
+      "signatureID": 149,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 16000,
+      "byteSequence": "FFD9",
+      "endianness": null,
+      "name": "EXIF Compressed Image 2.0 (little-endian)",
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.0), EOI marker"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jpg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "jpeg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 670,
+      "relatedFormatName": "Raw JPEG Stream"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 675,
+      "relatedFormatName": "Exchangeable Image File Format (Compressed)"
+    }
+  ]
+}

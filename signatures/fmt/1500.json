@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2323,
+  "formatName": "Adobe Acrobat Forms Data Format",
+  "version": "1.x",
+  "formatDescription": "FDF is a format for storing and transferring data entered into a form in a PDF file. It is primarily a text format based on PDF.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.fdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1500",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1873,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "254644462D31",
+      "endianness": null,
+      "name": "Adobe Acrobat Forms Data Format 1.x",
+      "note": "BOF: '%FDF-1'. It may be desirable to distinguish between minor versions"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

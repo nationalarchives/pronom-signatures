@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2736,
+  "formatName": "OPML File",
+  "version": "1.*",
+  "formatDescription": "OPML (Outline Processor Markup Language) files are an XML format developed to enable exchange of lists of internet web feeds (e.g. RSS feeds) between between different web feed aggregators, regardless of their operating system. OPML files have <opml version=\"x\"> near the start, then contents mainly divided into <head> and <body> sections. It was developed in the early 2000s, and is still commonly used for backing up or sharing RSS feeds.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification:  https://web.archive.org/web/20160304125338/http://dev.opml.org/spec1.htm",
+  "lastUpdatedDate": "06 Jul 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1882",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2223,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "3C2F626F64793E{0-4}3C2F6F706D6C3E",
+      "endianness": null,
+      "name": "OPML File v.1.*",
+      "note": "Absolute from BOF, magic bytes: <?xml version=\"1.0\" encoding=\"UTF-8\"?><opml version=\"1.{1}\"><head><title>{0-300}</title></head><body>\r\nEOF, offset 0-4:</body>(0-4)</opml>"
+    },
+    {
+      "signatureID": 2223,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E3C6F706D6C2076657273696F6E3D22312E{1}223E3C686561643E3C7469746C653E{0-300}3C2F7469746C653E3C2F686561643E3C626F64793E",
+      "endianness": null,
+      "name": "OPML File v.1.*",
+      "note": "Absolute from BOF, magic bytes: <?xml version=\"1.0\" encoding=\"UTF-8\"?><opml version=\"1.{1}\"><head><title>{0-300}</title></head><body>\r\nEOF, offset 0-4:</body>(0-4)</opml>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "opml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

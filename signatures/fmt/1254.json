@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2072,
+  "formatName": "Cardfile",
+  "version": null,
+  "formatDescription": "Cardfile (also Card File or CardFile) is a personal information manager, based on index cards. It was initially released with Windows 1.0.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://web.archive.org/web/20130605083355/http://support.microsoft.com/kb/99340#\r\nhttps://en.wikipedia.org/wiki/Cardfile\r\nhttps://wikivisually.com/wiki/Cardfile",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1254",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1628,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "4D4743",
+      "endianness": null,
+      "name": "Cardfile (MGC)",
+      "note": "BOF: Magic bytes \u2018MGC\u2019, \u2018RRG\u2019 or 'DKO' at beginning of file. The initial versions of Cardfile have the magic bytes 'MCG'. When Cardfile updated to add OLE support the file signature changed to 'RRG'. Finally the file signature changed to 'DKO' when released as a 32-bit accessory and the character width changed in order to support unicode."
+    },
+    {
+      "signatureID": 1647,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "525247",
+      "endianness": null,
+      "name": "Cardfile (RRG)",
+      "note": "Cardfile updated to add OLE support and the magic bytes changed to 'RRG' at the beginning of the file."
+    },
+    {
+      "signatureID": 1648,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "444B4F",
+      "endianness": null,
+      "name": "Cardfile (DKO)",
+      "note": "The magic bytes changed to 'DKO' at the beginning of the file when released as a 32-bit accessory."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "crd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

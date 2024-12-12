@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1602,
+  "formatName": "TAP (Commodore 64)",
+  "version": null,
+  "formatDescription": "A Tap file attempts to duplicate data stored on a Commodore 64 cassette tape. It encodes the series of pulses used to store data on the tape.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/802",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1167,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4336342D544150452D524157",
+      "endianness": null,
+      "name": "TAPC64",
+      "note": "Header - C64-TAPE-RAW"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tap",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

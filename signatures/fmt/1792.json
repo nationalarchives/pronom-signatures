@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2642,
+  "formatName": "ICDRAW Single Icon File",
+  "version": null,
+  "formatDescription": "ICDRAW icon is an icon format associated with the ICDRAW icon editor for the Atari Falcon computer. There are two versions of this file type. This entry relates to the first, a \"single icon file\" with the .ibi extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/ICDRAW_icon",
+  "lastUpdatedDate": "25 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1792",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2132,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49434249",
+      "endianness": null,
+      "name": "ICDRAW Single Icon File",
+      "note": "BOF:'ICBI'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ibi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

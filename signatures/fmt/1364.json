@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2182,
+  "formatName": "V-Ray Material",
+  "version": "XML",
+  "formatDescription": "V-Ray Material files define material properties for use within 3D rendering applications. This entry identifies the XML version of the format in use in versions later than 1.49. Please contact the PRONOM team if you can assist with identification of the earlier binary versions of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Vismat",
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1364",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1747,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C7669736D61743E{0-128}72656E64657265723D2276726179223E",
+      "endianness": null,
+      "name": "V-Ray Material XML",
+      "note": "BOF: '<vismat>' {0-128} 'renderer=\"vray\">'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vismat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2500,
+  "formatName": "RED Thumbnail File",
+  "version": null,
+  "formatDescription": "RED Digital Cinema is an American company manufacturing professional digital cinematography cameras and accessories, established in 2005. RED Thumbnail files are created by some models of RED digital cameras while shooting in an R3D + Apple ProRes, R3D + DNxHD/HR and in Avid DNxHD/HR only modes. These files bear the same root filename as the R3D file clip they are associated with and contain a randomly selected frame image to represent the clip in software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://docs.red.com/955-0181/DSMC2_DRAGON-X_Operation_Guide_v7_1.pdf\r\n\r\nhttps://docs.red.com/955-0184_v7.3/RED_RANGER_MONSTRO_Operation_Guide_v7_3.pdf",
+  "lastUpdatedDate": "27 May 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 May 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1664",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1998,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5245445448554D424E41494C0318{3}72646901{6}18{3}0C58110203E8{2}61A8",
+      "endianness": null,
+      "name": "RED Thumbnail File",
+      "note": "BOF:'REDTHUMBNAIL' followed by a gap of 3 hex pairs followed by 'rdi' followed by 0x01 (Start of Header) followed by a gap of 6 hex pairs followed by 0x18 (Cancel) followed by a gap of 3 hex pairs followed by 0x0C (Form Feed) followed by 'X' followed by 0x11 (Device Control 1) followed by 0x02 (Start of Text) followed by 0x03 (End of Text) followd by '\u00e8' followed by a gap of 2 hex pairs followed by 'a'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rtn",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

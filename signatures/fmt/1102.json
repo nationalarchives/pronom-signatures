@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1910,
+  "formatName": "Uuencoded File",
+  "version": null,
+  "formatDescription": "Uuencoding, (Unix-to-Unix encoding) is a binary to text encoding mechanism created by Mary Ann Horton for encoding binary data for transmission in email systems.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1102",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1484,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "626567696E20[30:37][30:37][30:37]20{1-256}0A",
+      "endianness": null,
+      "name": "Uuencoded File",
+      "note": "BOF: 'begin '<unix permissions mode> ' ' <file name> newline character. \r\nEOF, max offset 2: newline character 'end'"
+    },
+    {
+      "signatureID": 1484,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2,
+      "byteSequence": "0A656E64",
+      "endianness": null,
+      "name": "Uuencoded File",
+      "note": "BOF: 'begin '<unix permissions mode> ' ' <file name> newline character. \r\nEOF, max offset 2: newline character 'end'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "uue",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

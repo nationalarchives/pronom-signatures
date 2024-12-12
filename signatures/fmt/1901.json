@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2757,
+  "formatName": "SGI Movie File",
+  "version": null,
+  "formatDescription": "SGI Movie is a proprietary video file format associated with Silicon Graphics products, including IRIX. Other names for it include SGI video and mv. The format was supported by programs such as movieplayer, capture and others.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/SGI_movie",
+  "lastUpdatedDate": "18 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1901",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2247,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4F564900000003",
+      "endianness": null,
+      "name": "SGI Movie File",
+      "note": "BOF:'MOVI' followed by 3 x 0x00 (Null) followed by 0x03 (End of Text)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "movie",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1526,
+  "formatName": "Cartesian Perceptual Compression image format",
+  "version": null,
+  "formatDescription": "Cartesian Perceptual Compression is a proprietary image file format designed for high compression of black-and-white raster document imaging for archival scans.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/727",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1051,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "435043B2",
+      "endianness": null,
+      "name": "Cartesian Perceptual Compression",
+      "note": "BOF: CPC\u00b2"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cpi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cpc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

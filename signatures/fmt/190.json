@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 912,
+  "formatName": "Adobe FrameMaker Document",
+  "version": "5.0",
+  "formatDescription": "Adobe FrameMaker format is a desktop publishing and word processing format originally developed by Frame Technology Corp. Frame Technology Corp was bought by Adobe Systems in 1995, who continued to develop and support FrameMaker. This version of FrameMaker was used by professional designers and technical writers for writing documents that require\u2019 substantial, standardised and structured content. FrameMaker 5.0 uses XML and SGML concepts. \r\nDocumentation for FrameMaker 5.0 was integrated into the user manual that was bundled with the software. FrameMaker 5.0 introduced online help, long filename support in Windows 95, OLE support, save to HTML and import text by reference. This information has been derived from third party sources and should be considered speculative.",
+  "releaseDate": "01 Jan 1995",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation, Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.framemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/190",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 840,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C4D616B657246696C6520352E30593E",
+      "endianness": null,
+      "name": "Framemaker Document Version 5.0",
+      "note": "<MakerFile[version]>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1323,
+      "relatedFormatName": "Adobe FrameMaker Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1322,
+      "relatedFormatName": "Adobe FrameMaker Document"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1968,
+  "formatName": "Folio Infobase File",
+  "version": "3",
+  "formatDescription": "The Folio Infobase format consists of a information database, primarily used by the Folio Views software application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Jul 2018",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1158",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1540,
+      "positionType": "Absolute from BOF",
+      "offset": 212,
+      "maxOffset": null,
+      "byteSequence": "EFCDAB8900000300",
+      "endianness": null,
+      "name": "Folio NFO v3",
+      "note": "BOF, offset 212: hex EFCDAB89, version 00000300"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nfo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

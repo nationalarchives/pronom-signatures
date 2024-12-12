@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1533,
+  "formatName": "SuperScape Virtual Reality Format",
+  "version": null,
+  "formatDescription": "SuperScape was a company that created virtual 3D modelling software. .svr was the native, proprietary format for the software, and it can be viewed with the SuperScape Viscape viewer browser plugin.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/734",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1061,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5356520800000001EC",
+      "endianness": null,
+      "name": "SuperScape VR",
+      "note": "BOF: SVR.....\u00ec"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "svr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

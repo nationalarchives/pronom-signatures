@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2686,
+  "formatName": "GoDot 4Bit Graphics Format",
+  "version": null,
+  "formatDescription": "GoDot 4bit is the native image file format for the Commodore 64 image processing program GoDot.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/GoDot\r\n\r\nhttps://web.archive.org/web/20191223154008/http://www.godot64.de/english/4bit.htm",
+  "lastUpdatedDate": "23 Feb 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1834",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2172,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "474F4430",
+      "endianness": null,
+      "name": "GoDot 4Bit Graphics Format",
+      "note": "BOF:'GOD0'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "4bt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 687,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1592,
+  "formatName": "RPM Package Manager file",
+  "version": "1",
+  "formatDescription": "RPM Package Manager file (RPM) was previously known as a Red Hat Package Manager File. It is a file used by RPM Package Manager which is a package management system. RPM files currently appear in two defined types, the first is binary package files containing the compiled version of certain software. The second is source package files containing the source code used to produce a package. These have an appropriate tag in the file header that distinguishes them from Binary RPMs, causing them to be extracted to /usr/src on installation. Source package files customarily carry the file extension \u201c.src.rpm\".",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/793",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1152,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "EDABEEDB01",
+      "endianness": null,
+      "name": "RPMv1",
+      "note": "header - \u00ed\u00ab\u00ee\u00db."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rpm",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "src.rpm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

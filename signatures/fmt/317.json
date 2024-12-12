@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1062,
+  "formatName": "Macromedia Director",
+  "version": "Macintosh",
+  "formatDescription": "Adobe Director (formerly Macromedia Director) was a multimedia application authoring platform created by Macromedia and managed by Adobe Systems until its discontinuation. Director was the primary editor on the Adobe Shockwave platform.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Adobe Director",
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-director",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/317",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 410,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "58464952{4}3339564D70616D691800000001000000",
+      "endianness": null,
+      "name": "Macromedia Director Macintosh",
+      "note": "Header ASCII: XFIR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dir",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dxr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

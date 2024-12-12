@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1616,
+  "formatName": "NUT Open Container Format",
+  "version": null,
+  "formatDescription": "NUT is a container format for the storage of audio, video, subtitles and other related user defined streams. It provides an exact timestamp for synchronization and seeking.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/816",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1175,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6E75742F6D756C74696D6564696120636F6E7461696E6572",
+      "endianness": null,
+      "name": "NUT",
+      "note": "BOF string: nut/multimedia container"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nut",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

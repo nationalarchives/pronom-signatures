@@ -1,0 +1,48 @@
+{
+  "fileFormatID": 2112,
+  "formatName": "602Tab Spreadsheet",
+  "version": null,
+  "formatDescription": "602Tab was the spreadsheet application included in the 602Pro office productivity suite published by Czech company Software602. The format is based on the OLE2 compound file format. 602Tab had previously been known as MagicTab.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "MagicTab Spreadsheet",
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1294",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "wls",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "36010",
+      "description": "602Tab Spreadsheet",
+      "files": [
+        {
+          "path": "MagicTab"
+        }
+      ]
+    }
+  ]
+}

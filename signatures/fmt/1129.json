@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 1939,
+  "formatName": "PDF 2.0 - Portable Document Format",
+  "version": "2.0",
+  "formatDescription": "Portable Document Format is a platform-independent format for representing formatted documents, originally developed by Adobe Systems Incorporated. PDF 2.0 is standardised by ISO 32000-2. A PDF file comprises a Header section, a Body section containing the objects which make up the document, a Cross Reference Table, and a Trailer section. PDF files can contain a wide variety of content, including text, images, video and audio.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Nov 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1129",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1511,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4096,
+      "byteSequence": "255044462D322E30",
+      "endianness": null,
+      "name": "PDF 2.0",
+      "note": "PDF 2.0 allows an arbitrary amount of information to appear before the PDF 2.0 data starts. For now we are setting a max offset of 4096 bytes from the BOF before we expect to see the %PDF-2.0 tag as this should encompass most use-cases and also maintain processing efficiency for any identification tools using PRONOM data. If you find this offset is inadequate please contact the PRONOM team. Also seeking EOF sequence  %%EOF within final 1024 bytes. \r\n\r\nThis signature cannot currently identify files that were incrementally saved to PDF 2.0 from a previous PDF version (for example PDF 1.7), and this scenario will currently return an identification for the orignal format. Please contact the PRONOM team if you can assist with developing a signature that can account for such a use-case."
+    },
+    {
+      "signatureID": 1511,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "2525454F46",
+      "endianness": null,
+      "name": "PDF 2.0",
+      "note": "PDF 2.0 allows an arbitrary amount of information to appear before the PDF 2.0 data starts. For now we are setting a max offset of 4096 bytes from the BOF before we expect to see the %PDF-2.0 tag as this should encompass most use-cases and also maintain processing efficiency for any identification tools using PRONOM data. If you find this offset is inadequate please contact the PRONOM team. Also seeking EOF sequence  %%EOF within final 1024 bytes. \r\n\r\nThis signature cannot currently identify files that were incrementally saved to PDF 2.0 from a previous PDF version (for example PDF 1.7), and this scenario will currently return an identification for the orignal format. Please contact the PRONOM team if you can assist with developing a signature that can account for such a use-case."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2766,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2767,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2770,
+      "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    }
+  ]
+}

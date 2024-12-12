@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1598,
+  "formatName": "The Neuroimaging Informatics Technology Initiative File Format",
+  "version": "1",
+  "formatDescription": "A Neuroimaging format commonly used in medical industry for the analysis of MRI data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Aug 2020",
+  "formatSourceID": 215,
+  "provenanceCompoundName": "University of Edinburgh / University of Edinburgh",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "NIfTI-1 Data Format",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/798",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1164,
+      "positionType": "Absolute from BOF",
+      "offset": 344,
+      "maxOffset": 0,
+      "byteSequence": "6E693100",
+      "endianness": null,
+      "name": "The Neuroimaging Informatics Technology Initiative File Format V1 variant1",
+      "note": "Offset 344: ni1."
+    },
+    {
+      "signatureID": 1174,
+      "positionType": "Absolute from BOF",
+      "offset": 344,
+      "maxOffset": 0,
+      "byteSequence": "6E2B3100",
+      "endianness": null,
+      "name": "The Neuroimaging Informatics Technology Initiative File Format V1 variant2",
+      "note": "Offset 344: n+1."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nii",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1902,
+      "relatedFormatName": "The Neuroimaging Informatics Technology Initiative File Format"
+    }
+  ]
+}

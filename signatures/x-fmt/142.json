@@ -1,0 +1,121 @@
+{
+  "fileFormatID": 203,
+  "formatName": "Computer Graphics Metafile ASCII",
+  "version": "1",
+  "formatDescription": "Computer Graphics Metafile (CGM) is a standardized platform-independent format used for the interchange of raster and vector data. CGM was developed under the auspices of the International Standards Organization (ISO) and the American Standards National Institute (ANSI). It is also used in conjunction with a variety of input and output devices. Although CGM incorporates extensions designed to support raster data storage, files in CGM format are used primarily to store vector information. CGM files typically contain either bitmap or vector data, but rarely both. It uses Clear Text Encoding.\r\nFile format specifications available at http://standards.iso.org/ittf/PubliclyAvailableStandards/c044114_ISO_IEC_8632-1_1999_Cor_1_2006%28E%29.pdf",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "29 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.",
+  "formatSourceDate": "02 Dec 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster), Image (Vector), Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/cgm",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/142",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 350,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.1",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 350,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.1",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 351,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.2",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 351,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.2",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 353,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.3",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 353,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.3",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 354,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.4",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    },
+    {
+      "signatureID": 354,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 2048,
+      "byteSequence": "65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
+      "endianness": null,
+      "name": "Computer Graphics Metafile (Clear Text) Version 1 No.4",
+      "note": "Element name begmf (Begin Metafile) with any letter in the element name in upper or lower case, followed by any number of bytes, followed by version (MFVERSION{1}1 or mfversion{1}1, or any upper/lower case combination). Trailer endmf{0-1}; (with any letter in the element name in upper or lower case) that can be followed by a comment"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cgm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

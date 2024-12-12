@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2302,
+  "formatName": "XIFF (Xerox Image File Format)",
+  "version": "2",
+  "formatDescription": "XIFF is an extension of the TIFF Format but with added feature of multi-layered image using mixed raster content. Developed by Xerox for use with the Scansoft Pagis Software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1479",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.xiff",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1851,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{4}5845524F58204449464602",
+      "endianness": null,
+      "name": "XIFF Xerox DIFF Image 2",
+      "note": "BOF: TIFF header then 4 bytes later \"XEROX DIFF\" 0x02"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

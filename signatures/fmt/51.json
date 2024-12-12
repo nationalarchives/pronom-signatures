@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 632,
+  "formatName": "Rich Text Format",
+  "version": "1.6",
+  "formatDescription": "Deprecated in favour of fmt/50",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Oct 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Partial",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/51",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 633,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 753,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1101,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 633,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 631,
+      "relatedFormatName": "Rich Text Format"
+    }
+  ]
+}

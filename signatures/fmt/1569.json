@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2394,
+  "formatName": "Bitstream Speedo Fonts",
+  "version": null,
+  "formatDescription": "The Speedo fonts are a type of scalable font, created by Bitstream, Inc. The font was widely used in the disk operating system (DOS) era of computers, but has since became obsolete and is not used by any current software. Speedo was used on Atari ST, Falcon, in the XyWrite word processor, and in very early versions of WordPerfect and Microsoft Windows. It was then replaced by more popular font types like Type 1 fonts. Before Speedo was considered obsolete it was supported by the X Window System through the speedo module, and most Linux distributions had a Speedo font package, but support was removed from X in the X11R7.0 release in 2005. Speedo fonts include large international character set (over six hundred characters) and they are able to adapt their \"pixels\", \"points\", \"horiz\", \"vert\", and \"avgwidth\" XLFD values to match whatever value is requested by the X server.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Bitstream_Speedo_Fonts\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Speedo\r\n\r\nhttp://www.columbia.edu/~em36/wpdos/speedo.html\r\n\r\nhttp://www.netsweng.com/~anderson/talks/xclass/fonts.html\r\n\r\nhttps://web.archive.org/web/20091108153822/http://www.bitstream.com/fonts/support/speedo_fonts.html",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "06 Dec 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1569",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1912,
+      "positionType": "Absolute from BOF",
+      "offset": 100,
+      "maxOffset": 200,
+      "byteSequence": "436F7079726967687420313938392D313939312062792042697473747265616D20496E632E20416C6C207269676874732072657365727665642E",
+      "endianness": null,
+      "name": "Bitstream Speedo Fonts",
+      "note": "BOF; Offset: 100-300; Magic bytes: 'Copyright 1989-1991 by Bitstream Inc. All rights reserved'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 72,
+  "formatName": "Data Interchange Format",
+  "version": null,
+  "formatDescription": "Data Interchange Format (.dif) is a text file format used to import/export single spreadsheets between spreadsheet programs (OpenOffice.org Calc, Excel, Gnumeric, StarCalc, Lotus 1-2-3, FileMaker, dBase, Framework, Multiplan, etc.). It is also known as Navy DIF. One limitation is that DIF format cannot handle multiple spreadsheets in a single workbook.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/41",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 380,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5441424C450D0A302C310D0A22{1-100}220D0A564543544F52530D0A",
+      "endianness": "Little-endian",
+      "name": "Data Interchange Format",
+      "note": "Header begins with TABLE on first line, the pair 0,1 on the second line, a title string in quotes on the third line and VECTORS on the fourth line."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

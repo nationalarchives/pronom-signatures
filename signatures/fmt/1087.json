@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1895,
+  "formatName": "FAT Disk Image",
+  "version": null,
+  "formatDescription": "The File Allocation Table is a file system architecture used across a range of computer systems. This entry aims to capture instances where the file system has been exported as a portable disk image. It may be possible and desirable to distinguish between different types of FAT image. Please contact the PRONOM team if you can assist with this.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Aug 2017",
+  "formatSourceID": 225,
+  "provenanceCompoundName": "National Library of Scotland / National Library of Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Aug 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1087",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1468,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "EB{1}90{10}(01|02|04|08|10|20|40|80)",
+      "endianness": null,
+      "name": "FAT Disk Image",
+      "note": "BOF: Jump instruction bytes 1 and 3 - 0XEB{1}0x90, byte 14 = Sectors per cluster, any from 1, 2, 4, 8, 16, 32, 64, or 128"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "img",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ima",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dsk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2436,
+      "relatedFormatName": "exFAT (Extensible File Allocation Table) Disc Image"
+    }
+  ]
+}

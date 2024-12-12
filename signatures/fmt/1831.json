@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2683,
+  "formatName": "3D Studio (DOS) Project File",
+  "version": null,
+  "formatDescription": "Prj is the 3D Studio (DOS) project-file format. The original 3D Studio product was created for the DOS platform by the Yost Group, and published by Autodesk.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PRJ",
+  "lastUpdatedDate": "22 Feb 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Feb 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1831",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2169,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3DC2{3}00",
+      "endianness": null,
+      "name": "3D Studio (DOS) Project File",
+      "note": "BOF Absolute from beginning of file, magic bytes:=\u00c2{2}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "prj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

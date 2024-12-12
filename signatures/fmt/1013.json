@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1818,
+  "formatName": "INTERLIS Transfer File",
+  "version": "1",
+  "formatDescription": "INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 1 Transfer files  contain data, e.g. geodata, which is structured according to certain rules. These rules are described in another file (or multiple files) called a model file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1013",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1386,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53434E54",
+      "endianness": null,
+      "name": "INTERLIS transfer file 1",
+      "note": "BOF = SCNT and EOF = ENDE"
+    },
+    {
+      "signatureID": 1386,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 124,
+      "byteSequence": "454E4445",
+      "endianness": null,
+      "name": "INTERLIS transfer file 1",
+      "note": "BOF = SCNT and EOF = ENDE"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "itf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

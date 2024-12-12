@@ -1,0 +1,44 @@
+{
+  "fileFormatID": 1959,
+  "formatName": "Markdown",
+  "version": null,
+  "formatDescription": "Markdown was created by John Gruber and Aaron Swartz circa 2004. The purpose of Markdown is to let users write clean text-based documents that do not suffer from the legibility issues of other 'markup' formats. \r\n\r\nMarkdown uses combinations of characters, for example, hashes (pound-sign), asterisks, and combination of square- and rounded- brackets to prefix or suffix parts of text. The symbols provide instructions to an interpreter. A single hash '#' for example, that prefixes a line of text is an instruction to make that line a top-level header in a formatted document. Two hashes '##' is an instruction to render, or output, a secondary header. And so on.\r\n\r\nUltimately the result of writing markdown is a document that can be parsed into a well-formed version of other presentation languages such as HTML or XHTML.\r\n\r\nThere is no single specification for Markdown, nor is there a single canonical output. That is, Markdown syntax could be converted into many other file types. \r\n\r\nFurther descriptions of the background of Markdown and a list of Markdown 'flavors' can be found on the Archiveteam Just Solve It File Formats Wiki: http://fileformats.archiveteam.org/wiki/Markdown\r\n\r\nWikipedia also provides a thorough description of Markdown and its syntax: https://en.wikipedia.org/wiki/Markdown#Standardization",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "RFC 7763 (https://www.rfc-editor.org/rfc/rfc7763.html)\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Markdown\r\n\r\nhttps://daringfireball.net/projects/markdown/",
+  "lastUpdatedDate": "20 Apr 2023",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": "Update to this entry was sent by Stadtarchiv Hof and included in v112 of signature file.",
+  "formatSourceDate": "23 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1149",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/markdown",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "md",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "markdown",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

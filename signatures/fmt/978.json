@@ -1,0 +1,117 @@
+{
+  "fileFormatID": 1783,
+  "formatName": "3DS Max",
+  "version": null,
+  "formatDescription": "A MAX file is a three-dimensional scene file. They are created by 3DS Max, a 3D modeling, animation, and rendering application. It may contain multiple models that include wireframes, textures, lighting effects, shading, animation, and other 3D design elements.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "03 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "03 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/978",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "max",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "chr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2292,
+      "relatedFormatName": "MAKIchan Graphics File"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "30020",
+      "description": "3DS Max",
+      "files": [
+        {
+          "path": "DocumentSummaryInformation",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "33 64 73 20 4D 61 78 20 56 65 72 73 69 6F 6E "
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "30030",
+      "description": "3DS Max (nullbytes)",
+      "files": [
+        {
+          "path": "DocumentSummaryInformation",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "33 00 64 00 73 00 20 00 4D 00 61 00 78 00 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E "
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "30040",
+      "description": "3DS Max 2",
+      "files": [
+        {
+          "path": "DocumentSummaryInformation",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "33 64 73 20 6D 61 78 20 56 65 72 73 69 6F 6E "
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

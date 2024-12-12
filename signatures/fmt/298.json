@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1042,
+  "formatName": "Autodesk Animator Pro FLIC",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2010",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Dec 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/298",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 356,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "12AF{6}08{120}F1",
+      "endianness": null,
+      "name": "Autodesk Animator Pro FLIC",
+      "note": null
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 774,
+  "formatName": "MS-DOS Executable",
+  "version": null,
+  "formatDescription": "An MS-DOS executable is synonymous with a program or application that can potentially be run on MS-DOS. An executable is a file-format object that is \"compiled\" from source code files written in languages such as C or C++. An MS-DOS executable is native to MS-DOS and early Windows versions, and like other executables or programs, provided a means of distributing applications that performed certain task(s). Executables are compiled to a certain register width, e.g. 8-bit, or 16-bit; which impacts the size of variables in memory, and may impact compatibilty on older or newer versions of an operating system respectively. Executables might require external libraries or configuration to function, and so the technical environment needed to run an executable should be documented and understood in order to preserve functionality over time and to protect future potential users of these files.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by Ross Spencer.",
+  "formatSourceDate": "17 Feb 2006",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "EXE",
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/409",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 196,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D5A",
+      "endianness": null,
+      "name": "MS-DOS Executable",
+      "note": "Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "exe",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 775,
+      "relatedFormatName": "Windows New Executable"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 776,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1704,
+      "relatedFormatName": "Windows Portable Executable"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1705,
+      "relatedFormatName": "Windows Portable Executable"
+    }
+  ]
+}

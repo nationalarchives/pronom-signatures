@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2773,
+  "formatName": "ActiveMime Object",
+  "version": null,
+  "formatDescription": "ActiveMime is a Microsoft file format which can be used to encode Office Macros. It is undocumented but the file structure contains two parts. A header containing magic bytes and data about the file such as size and metadata. Followed by a zlib compressed data block.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://github.com/idiom/activemime-format",
+  "lastUpdatedDate": "25 Aug 2023",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1915",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2265,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4163746976654D696D65{2}010F",
+      "endianness": null,
+      "name": "ActiveMime Object",
+      "note": "BOF; Offset: 0; Signature: 'ActiveMime'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mso",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

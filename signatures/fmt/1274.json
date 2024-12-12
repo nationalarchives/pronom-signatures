@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2092,
+  "formatName": "Sonic Scenarist Closed Caption Format",
+  "version": null,
+  "formatDescription": "The Scenarist Closed Caption format is a standard for closed-captioning in broadcast television.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "A description of the format can be found here: http://www.theneitherworld.com/mcpoodle/SCC_TOOLS/DOCS/SCC_FORMAT.HTML",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1274",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1649,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5363656E61726973745F534343",
+      "endianness": null,
+      "name": "Sonic Scenarist Closed Caption Format",
+      "note": "BOF: 'Scenarist_SCC'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "scc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

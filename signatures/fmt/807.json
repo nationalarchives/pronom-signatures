@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1607,
+  "formatName": "HDF5",
+  "version": "0",
+  "formatDescription": "HDF5 is a data model, library, and file format for storing and managing data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/807",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1172,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "894844460D0A1A0A00",
+      "endianness": null,
+      "name": "HDF5 version 0",
+      "note": "HDF5 Header + Version 00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "h5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hdf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "hdf5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1875,
+      "relatedFormatName": "Silo"
+    }
+  ]
+}

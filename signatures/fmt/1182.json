@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1992,
+  "formatName": "Blitz3D File Format",
+  "version": null,
+  "formatDescription": "The Blitz3D file format specifies a format for storing texture, brush and entity descriptions for use with the Blitz3D programming language.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1182",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1564,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "42423344{8}(54455853|42525553|4E4F4445)",
+      "endianness": null,
+      "name": "Blitz3D",
+      "note": "BOF: BB3D{8}(TEXS|BRUS|NODE) - http://mojolabs.nz/sdkspecs/b3dfile_specs.txt"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "b3d",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

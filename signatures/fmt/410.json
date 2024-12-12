@@ -1,0 +1,93 @@
+{
+  "fileFormatID": 1158,
+  "formatName": "Internet Archive",
+  "version": "1.1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/410",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 580,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "66696C65646573633A2F2F{1-132}20{1-3}2E{1-3}2E{1-3}2E{1-3}20{14}20746578742F706C61696E20{1-16}0A31203120*0A55524C2049502D6164647265737320417263686976652D6461746520436F6E74656E742D7479706520417263686976652D6C656E677468",
+      "endianness": null,
+      "name": "Internet Archive 1.1",
+      "note": "Version block at beginning of file starts with string \u201cfiledesc://\u201d followed by a path and filename<sp>. Followed by <ip address>, <date> and \u201ctext/plain\u201d<sp> followed by <length><nl> 1<sp>1<sp> followed by \u201cURL IP-address Archive-date Content-type Archive-length\u201d"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "arc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 639,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 640,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 644,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 310,
+      "relatedFormatName": "Internet Archive"
+    }
+  ]
+}

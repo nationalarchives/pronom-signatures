@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 2299,
+  "formatName": "TEI P5 - Single Text File",
+  "version": "P5",
+  "formatDescription": "The Text Encoding Initiative Guidelines (TEI) provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. TEI P5 is serialised as XML. \r\n\r\nConceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display. \r\n\r\nThe \u2018ODD\u2019 file extension is used when TEI is being used as a literate programming language for XML schemas, modern TEI guidelines are written in this form of the language, HTML, RNG, RNC and DTD files are then generated from the TEI.\r\n\r\nNote that TEI permits customisations and some may mean that the file no longer matches the signatures. This is especially the case where TEI is fragmented, embedded within other XML or when other XML namespaces are used.\r\n\r\nCustomisation is primarily done via TEI-supplied tools, formerly PizzaChef https://tei-c.org/Vault/P4/pizza.html and now Roma https://roma2.tei-c.org/\r\n\r\nP5 differs from the preceding P4 version, amongst other things, using the then-new xml:lang  and xml:id tags.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://tei-c.org/Guidelines/P5/\r\n\r\nhttps://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip5\r\n\r\nhttps://en.wikipedia.org/wiki/Text_Encoding_Initiative",
+  "lastUpdatedDate": "19 Oct 2021",
+  "formatSourceID": 236,
+  "provenanceCompoundName": "Victoria University of Wellington / Victoria University of Wellington",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/tei+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1476",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1848,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}544549{0-512}687474703A2F2F7777772E7465692D632E6F72672F6E732F312E30",
+      "endianness": null,
+      "name": "TEI P5 XML - Single Text",
+      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-512 bytes followed by 'TEI' followed by a gap between 0-512 bytes followed by 'http://www.tei-c.org/ns/1.0'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tei",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "odd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2300,
+      "relatedFormatName": "TEI P5 XML - Corpus File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

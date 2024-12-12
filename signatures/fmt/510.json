@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1297,
+  "formatName": "PowerProject Teamplan",
+  "version": null,
+  "formatDescription": "Early format for Asta PowerProject project management software. Superceded by later .pp format. .pdb files are viewable in the free 'Project Viewer' software available here: http://www.astadev.com/free-project-viewer/",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 May 2013",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 May 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/510",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 803,
+      "positionType": "Absolute from BOF",
+      "offset": 43,
+      "maxOffset": null,
+      "byteSequence": "44617461626173652056657273696F6E{15}61EA",
+      "endianness": null,
+      "name": "PowerProject Teamplan",
+      "note": "40 byte Project Title (+1 byte spacing)\r\n32 byte Version String (+1 byte spacing)\r\n2 byte magic number (0x61EA)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1298,
+      "relatedFormatName": "PowerProject"
+    }
+  ]
+}

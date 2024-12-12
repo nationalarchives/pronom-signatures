@@ -1,0 +1,131 @@
+{
+  "fileFormatID": 770,
+  "formatName": "Acrobat PDF/A - Portable Document Format",
+  "version": "1a",
+  "formatDescription": "The Portable Document Format/ Archive is a format designed for long term preservation by Adobe Systems. PDF/A is a simplified version of PDF 1.4, with all of the features from PDF 1.4 that would impede long term preservation removed. Removed features include Javascript, Audio/Visual content, LZW compression and encryption. A major principle of PDF/A is that it is self contained and not reliant on externalities thus all font and colour information is encoded into the file. PDF/A files are larger than other types of PDF files due to the need for embedded information.\r\nPDF/A supports two levels of compliance PDF/A1-a (Accessible) and PDF/A1-b (Basic). PDF/A1-a is fully ISO 19005-1:2005 (PDF/A-1) compliant whereas PDF/A1-b is less stringent and not compliant. PDF/A1-a requires tagged PDF and Unicode whereas PDF/A1-b does not.",
+  "releaseDate": "01 Oct 2005",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Dec 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "PDF/A (1)",
+  "formatTypes": "Page Description",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.pdf",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/95",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 264,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 144,
+      "byteSequence": "255044462D312E[30:37]",
+      "endianness": "Little-endian",
+      "name": "Acrobat PDF/A-1a",
+      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>1<pdfaid:part> and <pdfaid:conformance>A<pdfaid:conformance>, which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+    },
+    {
+      "signatureID": 264,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
+      "endianness": "Little-endian",
+      "name": "Acrobat PDF/A-1a",
+      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>1<pdfaid:part> and <pdfaid:conformance>A<pdfaid:conformance>, which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+    },
+    {
+      "signatureID": 1954,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 144,
+      "byteSequence": "255044462D312E[30:37]",
+      "endianness": null,
+      "name": "PDF/A-1A 2",
+      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>A<pdfaid:conformance>and <pdfaid:part>1<pdfaid:part>, and which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+    },
+    {
+      "signatureID": 1954,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)",
+      "endianness": null,
+      "name": "PDF/A-1A 2",
+      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>A<pdfaid:conformance>and <pdfaid:part>1<pdfaid:part>, and which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 613,
+      "relatedFormatName": "Acrobat PDF 1.0 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 614,
+      "relatedFormatName": "Acrobat PDF 1.1 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 615,
+      "relatedFormatName": "Acrobat PDF 1.2 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 617,
+      "relatedFormatName": "Acrobat PDF 1.4 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 869,
+      "relatedFormatName": "TrueType Font"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2796,
+  "formatName": "S-57 Electronic Navigational Chart",
+  "version": "3.1",
+  "formatDescription": "S-57 is a file format for the exchange of hydrographic data developed by the International Hydrographic Organization. S-57 is based on the ISO/IEC 8211 \"Specification for a data descriptive file for information interchange.\" S-57 Edition 3.1 was published in 2000 and supersedes the 1996 edition 3.0. Electronic Navigational Charts are vector data sets of all the objects (points, lines, and areas) represented on a chart in a digital database.\r\n \r\nThe file extensions for S-57 are sequentially numbered from .000 upwards, with .000 representing the base data file and further files representing updated data to the base file. For brevity only extensions .000 to .005 are currently associated with this PRONOM entry, however this can be extended as needed.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "A specification for S-57 Edition 3.1 can be found here: https://iho.int/uploads/user/pubs/standards/s-57/31Main.pdf",
+  "lastUpdatedDate": "19 Oct 2023",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Oct 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1935",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2276,
+      "positionType": "Absolute from BOF",
+      "offset": 5,
+      "maxOffset": 0,
+      "byteSequence": "334C4531203039{0-2048}49534F2F4945432038323131205265636F7264204964656E746966696572{0-128}4461746120736574206964656E74696669636174696F6E206669656C64{0-512}5354454421{0-4096}1E{5}20442020202020{16-256}30332E31",
+      "endianness": null,
+      "name": "S-57 Electronic Navigational Chart 3.1",
+      "note": "BOF consists of a 'Leader' within which an 'ISO/IEC 8211 Record Identifier', 'Data Set Identification field' (DSID), and 'Data Set Structure information field' (DSSI) are found. This is followed by a 'DR Leader' containing values defined in the DSID, including the S-57 format 'Edition' value.\r\nFor the purposes of an identification signature, we're seeking from offset 5 \"3LE1 09\" {0-2048} \"ISO/IEC 8211 Record Identifier\" {0-128} \"Data set identification field\" {0-512} \"STED!\" {0-4096} 0x1E {5} \" D     \" {16-256} \"03.1\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "000",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "001",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "002",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "003",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "004",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "006",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

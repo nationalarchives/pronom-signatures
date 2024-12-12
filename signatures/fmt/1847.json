@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 2699,
+  "formatName": "Esri ArcMap Label file",
+  "version": null,
+  "formatDescription": "Files generated in ArcMap software during the creation of map templates, to specify label formatting in Python, VBScript or Jscript codings. These are plain text files, and as such can be opened with Notepad.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://desktop.arcgis.com/en/arcmap/10.3/map/working-with-text/about-building-label-expressions.htm\r\nhttps://health.mo.gov/data/gis/pdf/Tip-LabelTipsandTricks.pdf",
+  "lastUpdatedDate": "28 Mar 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Mar 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1847",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "lxp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

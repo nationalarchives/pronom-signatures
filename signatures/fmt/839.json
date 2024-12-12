@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1640,
+  "formatName": "Outlook Express Folder Database",
+  "version": null,
+  "formatDescription": "Outlook Express was an email program that was included with versions of Microsoft Windows prior to Windows Vista. Outlook Express saved messages in .dbx files, with each file containing the contents of an Outlook Express folder.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Dec 2015",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Email",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/839",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1194,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "CFAD12FEC6FD746F66E3D1119A4E00C04FA309D405000000050000",
+      "endianness": null,
+      "name": "Outlook Express Folder Database",
+      "note": "4 byte magic, 4 byte file type, 20 byte unknown but always present. File format is detailed here: http://oedbx.aroh.de/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dbx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

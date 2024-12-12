@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 1373,
+  "formatName": "MPEG-2 Transport Stream",
+  "version": null,
+  "formatDescription": "MPEG-2 is a lossy compression standard (an improvement and expansion of the MPEG-1 standard) designed for the generic coding of video and audio and intended to cover a wide scope of application, including: video production, broadcast and editing. Streams are at potentially higher bitrates than MPEG-1 but more efficient compression making it suited to High Definition video. MPEG-2 Video supports both 'progressive' and 'interlaced' frame video. An MPEG-2 'Transport' stream file (TS) file (*.ts, *.m2ts) is designed for low-latency, real-time transmission and is used in broadcasting. It can contain multiple programmes, not necessarily intended for synchronised playback. TS incorporates features that can allow flexible access to and playback of stream content.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Jul 2014",
+  "formatSourceID": 194,
+  "provenanceCompoundName": "National Library of Wales / National Library of Wales",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/585",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 927,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "47{187}47{187}47{187}47{187}47{187}47{187}47{187}47",
+      "endianness": null,
+      "name": "MPEG-2 Transport Stream",
+      "note": "Packets of 188 bytes each, each packet beginning with 0x47. This signature may be strengthened with a better understanding of the make-up of these packets."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "m2t",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ts",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "m2ts",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

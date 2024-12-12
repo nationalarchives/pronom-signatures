@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2754,
+  "formatName": "Perfect ZX Tape (PZX) Image Format",
+  "version": null,
+  "formatDescription": "PZX is a tape file format designed primarily for archiving content of Sinclair ZX Spectrum tapes. It was designed by Patrik Rak to address the perceived shortcomings of a revised version of the TZX format, as a viable, easy to use and implement alternative, while retaining the key features of TZX.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PZX\r\n\r\nhttp://zxds.raxoft.cz/pzx.html",
+  "lastUpdatedDate": "07 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1898",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2242,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "505A5854",
+      "endianness": null,
+      "name": "Perfect ZX Tape (PZX) Image Format",
+      "note": "BOF:'PZXT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pzx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

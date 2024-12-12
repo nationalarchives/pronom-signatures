@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2017,
+  "formatName": "Sony SFK File",
+  "version": null,
+  "formatDescription": "Sony Creative Software applications create SFK files for all audio events imported into the application. These files contain data which helps\u00a0visualise the waveform on the screen and assist large files to be opened quickly",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "16 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1207",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1585,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5346504B",
+      "endianness": null,
+      "name": "Sony SFK file",
+      "note": "BOF: 'SFPK'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sfk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

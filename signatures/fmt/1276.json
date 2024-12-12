@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2094,
+  "formatName": "SureThing Project File",
+  "version": null,
+  "formatDescription": "STD is the native file format of the SureThing label design and printing software. STD was also produced by version 1 of the 3M Printscape design and printing software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1276",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1652,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D5600FF",
+      "endianness": null,
+      "name": "SureThing Project File",
+      "note": "BOF: 'MV' then 0x00FF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "std",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,122 @@
+{
+  "fileFormatID": 1270,
+  "formatName": "ePub format",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "18 Dec 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/epub+zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/483",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 905,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F657075622B7A6970",
+      "endianness": null,
+      "name": "ePub",
+      "note": "PK..{26}mimetypeapplication/epub+zip"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "epub",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 639,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 640,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 644,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1258,
+      "relatedFormatName": "Hypertext Markup Language"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "14010",
+      "description": "ePub format",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "0",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'application/epub+zip'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

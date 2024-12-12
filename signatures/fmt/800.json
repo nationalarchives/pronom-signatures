@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 1600,
+  "formatName": "CSV Schema",
+  "version": null,
+  "formatDescription": "Developed by The National Archives, CSV Schema is a human readable text based format that can also be interpreted by applications to validate CSV data. The CSV Schema language is expressed in UTF-8 text.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Nov 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/800",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/csv-schema",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "csvs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

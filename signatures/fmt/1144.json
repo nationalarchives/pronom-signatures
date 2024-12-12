@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1954,
+  "formatName": "CompuServe WinCIM Message Format",
+  "version": null,
+  "formatDescription": "WinCIM was client software produced by CompuServe to enable access to CompuServe's forums and other internet services.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jul 2018",
+  "formatSourceID": 233,
+  "provenanceCompoundName": "Harry Ransom Centre / Harry Ransom Centre",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Email",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1144",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1526,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5649533030301A",
+      "endianness": null,
+      "name": "CompuServe WinCIM",
+      "note": "BOF: 'VIS000' 0x1A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "plx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "msg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

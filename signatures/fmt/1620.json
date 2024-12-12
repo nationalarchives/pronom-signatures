@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2447,
+  "formatName": "Aero Studio Song",
+  "version": null,
+  "formatDescription": ".aero files are song files produced by Aero Studio, software produced by ioNeo. The software enabled the user to edit songs with tracker style pattern editing, and use any number of inputs and outputs.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Feb 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1620",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1961,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4145524F00000001",
+      "endianness": null,
+      "name": "Aero Studio Song",
+      "note": "BOF Absolute from beginning of file, magic bytes: AERO 00 00 00 01\r\nEOF Absolute from beginning of file, magic bytes: @"
+    },
+    {
+      "signatureID": 1961,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "40",
+      "endianness": null,
+      "name": "Aero Studio Song",
+      "note": "BOF Absolute from beginning of file, magic bytes: AERO 00 00 00 01\r\nEOF Absolute from beginning of file, magic bytes: @"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aero",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

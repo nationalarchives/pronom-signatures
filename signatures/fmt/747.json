@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1546,
+  "formatName": "ClarisWorks/AppleWorks Painting",
+  "version": "5",
+  "formatDescription": "ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/747",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1074,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "05{3}424F424F{260}04",
+      "endianness": null,
+      "name": "CWK 5 Painting",
+      "note": "(Version){3}BOBO{260}(format type 0x04 = painting)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cwk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1551,
+      "relatedFormatName": "AppleWorks Painting"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1541,
+      "relatedFormatName": "ClarisWorks Painting"
+    }
+  ]
+}

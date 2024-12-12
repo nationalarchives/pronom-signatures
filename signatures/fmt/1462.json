@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 2285,
+  "formatName": "Comic Book Archive",
+  "version": null,
+  "formatDescription": "Comic Book Archive (or comic book reader) files are zipped/compressed folders containing a number image files (although folders may be used to group images), for the purpose of the sequential viewing of these images, usually for comic books. They use a naming system which allows them to be displayed in order when used with a comic book reader, such as CD display. Comic book archive files are not a distinct file format; only the file extension differentiates them from the compressed file type they use. Comic book archive files use the following compression: .cb7 (7z), .cba (ACE), .cbr (RAR), .cbt (TAR), .cbz ( ZIP).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1462",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "cb7",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cba",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cbr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cbt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cbz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

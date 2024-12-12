@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1676,
+  "formatName": "Free Lossless Image Format (FLIF)",
+  "version": null,
+  "formatDescription": "FLIF is a lossless image format, developed by Jon Sneyers. FLIF is based on MANIAC compression. MANIAC (Meta-Adaptive Near-zero Integer Arithmetic Coding) is a variant of CABAC (context-adaptive binary arithmetic coding), where the contexts are nodes of decision trees which are dynamically learned at encode time.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/872",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/flif",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1231,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "464C4946(31|33|34|41|43|44|51|53|54|61|63|64)",
+      "endianness": null,
+      "name": "FLIF",
+      "note": "BOF: 4 byte Magic string: 'FLIF', 1 byte Type string:\r\n1 = static, grayscale, non-interlaced; 3 = static, RGB, non-interlaced; 4 = static, RGBA, non-interlaced; A = static, grayscale; C = static, RGB, interlaced; D = static, RGBA, interlaced; Q = animated, grayscale, non-interlaced; S = animated, RGB, non-interlaced; T = animated, RGBA, non-interlaced; a = animated, grayscale; c = animated, RGB, interlaced; d = animated, RGBA, interlaced."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

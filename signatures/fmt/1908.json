@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2764,
+  "formatName": "Jupiter Tesselation (JT) File",
+  "version": null,
+  "formatDescription": "JT (Jupiter Tessellation) is an openly-published ISO-standardised (ISO 14306:2012, ISO/DIS 14306 V2, ISO 14306:2017) 3D CAD data exchange format used for product visualisation, collaboration, digital mockups, and other purposes. It was developed by Siemens.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/JT_(visualization_format)\r\n\r\nhttp://fileformats.archiveteam.org/wiki/JT",
+  "lastUpdatedDate": "18 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1908",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q1589482",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2254,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "56657273696F6E{5-6}4A54",
+      "endianness": null,
+      "name": "Jupiter Tesselation (JT) File",
+      "note": "BOF:'Version' followed by an offset of 5 to 6 followed by 'JT'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "jt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

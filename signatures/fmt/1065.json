@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 1872,
+  "formatName": "Portable Database",
+  "version": "2",
+  "formatDescription": "PDBLib is a small library of file management routines for storing and retrieving binary data in a portable format, created by the Lawrence Livermore National Laboratory. https://wci.llnl.gov/codes/pact/pdb.html",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jul 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1065",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1441,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "213C3C5044423A49493E3E21",
+      "endianness": null,
+      "name": "Portable Database 2",
+      "note": "BOF: !<<PDB:II>>!"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1874,
+      "relatedFormatName": "Silo"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1873,
+      "relatedFormatName": "Portable Database"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1871,
+      "relatedFormatName": "Portable Database"
+    }
+  ]
+}

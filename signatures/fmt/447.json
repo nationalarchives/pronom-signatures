@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1234,
+  "formatName": "Adobe Portable Document Catalog Index File",
+  "version": "3.0",
+  "formatDescription": "Adobe Portable Document Catalog Index File (PDX) is the format of a file created when an index is built for a collection of PDF documents defined as a catalog in Adobe Acrobat Pro versions 2.0 and later, allowing users to search through the contents of the catalogue.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://helpx.adobe.com/acrobat/using/creating-pdf-indexes.html",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "PDX is Adobe Acrobat Catalog Index file, available in Adobe Acrobat versions 2 and later. \r\nWhen created, a PDF Catalog Index will also create a number of dependent sub-files of specific filetypes. \r\nThe extensions for these filetypes within earlier versions of .pdx are .wld, .abt, .did, .ddd, .pdd, .plc, .cat, .trn. \r\nIn later versions only .idx files are created.; The Catalog Index creates a fully text-searchable relationship between the indexed pdf files.; 04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Archives nationales (French National Archives).",
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/447",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 699,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "255044582D332E300D25E2E3CFD30D0A312030206F626A3C3C2F5044583C3C",
+      "endianness": null,
+      "name": "Adobe PDX 3.0",
+      "note": "BOF first 31 bytes: %PDX-3.0.%\u00e2\u00e3\u00cf\u00d3..1 0 obj<</PDX<<\r\nEOF last 11 bytes >>..%%EOF.."
+    },
+    {
+      "signatureID": 699,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3E3E0D0A2525454F460D0A",
+      "endianness": null,
+      "name": "Adobe PDX 3.0",
+      "note": "BOF first 31 bytes: %PDX-3.0.%\u00e2\u00e3\u00cf\u00d3..1 0 obj<</PDX<<\r\nEOF last 11 bytes >>..%%EOF.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

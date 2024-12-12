@@ -1,0 +1,126 @@
+{
+  "fileFormatID": 665,
+  "formatName": "Portable Network Graphics",
+  "version": "1.1",
+  "formatDescription": "Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "PNG (1.1)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/12",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/png",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.png",
+      "identifierType": "Apple Uniform Type Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 183,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "89504E470D0A1A0A0000000D49484452*69434350",
+      "endianness": null,
+      "name": "PNG 1.1iCCP",
+      "note": "Signature + IHDR and iCCP chunks at BOF, IEND chunk at EOF"
+    },
+    {
+      "signatureID": 183,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000000049454E44AE426082",
+      "endianness": null,
+      "name": "PNG 1.1iCCP",
+      "note": "Signature + IHDR and iCCP chunks at BOF, IEND chunk at EOF"
+    },
+    {
+      "signatureID": 184,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "89504E470D0A1A0A0000000D49484452*73504C54",
+      "endianness": null,
+      "name": "PNG 1.1sPLT",
+      "note": "Signature + IHDR and sPLT chunks at BOF, IEND chunk at EOF"
+    },
+    {
+      "signatureID": 184,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000000049454E44AE426082",
+      "endianness": null,
+      "name": "PNG 1.1sPLT",
+      "note": "Signature + IHDR and sPLT chunks at BOF, IEND chunk at EOF"
+    },
+    {
+      "signatureID": 185,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "89504E470D0A1A0A0000000D49484452*73524742",
+      "endianness": null,
+      "name": "PNG 1.1sRGB",
+      "note": "Signature + IHDR and sRGB chunks at BOF, IEND chunk at EOF"
+    },
+    {
+      "signatureID": 185,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000000049454E44AE426082",
+      "endianness": null,
+      "name": "PNG 1.1sRGB",
+      "note": "Signature + IHDR and sRGB chunks at BOF, IEND chunk at EOF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "png",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 666,
+      "relatedFormatName": "Portable Network Graphics"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 664,
+      "relatedFormatName": "Portable Network Graphics"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 666,
+      "relatedFormatName": "Portable Network Graphics"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 664,
+      "relatedFormatName": "Portable Network Graphics"
+    }
+  ]
+}

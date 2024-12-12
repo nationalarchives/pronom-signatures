@@ -1,0 +1,72 @@
+{
+  "fileFormatID": 801,
+  "formatName": "Windows Cabinet File",
+  "version": null,
+  "formatDescription": "An archive format native to Microsoft Windows that contains compressed data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Feb 2007",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-cab-compressed",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/414",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 449,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D534346{20}0301",
+      "endianness": null,
+      "name": "Windows Cabinet File",
+      "note": "CAB Signature (MSCF); Reserved Checksum 4 bytes set to zero; total size of cabinet file 4 bytes, 4 bytes reserved, absolute address of the first CFFILE (4 bytes); files checksum (4 bytes): minor version 1-byte (3), major version 1-byte  (1)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cab",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 306,
+      "relatedFormatName": "Microsoft Powerpoint Packaged Presentation"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1792,
+      "relatedFormatName": "Microsoft OneNote Package File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2305,
+      "relatedFormatName": "Access Report Snapshot"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2691,
+      "relatedFormatName": "Microsoft Publisher Packaged Document"
+    }
+  ]
+}

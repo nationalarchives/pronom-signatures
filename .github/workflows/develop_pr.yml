@@ -1,0 +1,21 @@
+name: Create develop PR
+
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  check-and-create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Create pull request if none exists
+        run: |
+          gh pr create \
+            --base main \
+            --head develop \
+            --title "Merge develop into main" \
+            --body "This PR merges the latest changes from develop into main." && gh workflow run develop.yml || true
+        env:
+          GH_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}

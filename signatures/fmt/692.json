@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 1491,
+  "formatName": "Mach-O",
+  "version": "32bit",
+  "formatDescription": "Mach-O is a standard used to store programs and libraries on disk in the Apple Mac app binary interface. Mach-O files generally lack a format extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/692",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1019,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FEEDFACE",
+      "endianness": null,
+      "name": "Mach-O 32bit 1",
+      "note": "BOF: \u00fe\u00ed\u00fa\u00ce (0xFEEDFACE)"
+    },
+    {
+      "signatureID": 1020,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "CEFAEDFE",
+      "endianness": null,
+      "name": "Mach-O 32bit 2",
+      "note": "BOF: \u00ce\u00fa\u00ed\u00fe (0xCEFAEDFE)"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

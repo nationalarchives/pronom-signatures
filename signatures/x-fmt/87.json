@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 132,
+  "formatName": "Microsoft Powerpoint Presentation Show",
+  "version": "97-2003",
+  "formatDescription": "Powerpoint format is a presentation format developed by Microsoft. Powerpoint 97-2002 format is the native format of Powerpoint 97 onwards. The format is proprietary and Microsoft does not make details of its structure public. Currently PRONOM cannot differentiate Microsoft Powerpoint Presentation 97-2003 and Microsoft Powerpoint Show by signatures. This means Microsoft Powerpoint Show files with extensions of pps will likely identify as the Microsoft Powerpoint Presentation 97-2003 PUID. Further research may be able address this.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-powerpoint",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/87",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "pps",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2258,
+  "formatName": "Apple iWork Numbers",
+  "version": "09",
+  "formatDescription": "Numbers is a spreadsheet application created by Apple as part of the iWork Productivity Suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "30 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1440",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "21020",
+      "description": "Apple iWorks Numbers 09",
+      "files": [
+        {
+          "path": "index.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "200",
+                  "sequence": "'xmlns:ls=\"http://developer.apple.com/namespaces/ls\" ls:version=\"92008102400\"'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

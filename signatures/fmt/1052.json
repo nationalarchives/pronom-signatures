@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1857,
+  "formatName": "BKNAS Seismic Data Format",
+  "version": "1.0",
+  "formatDescription": "BKNAS is an ASCII data format created to allow easy transfer of seismic data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 May 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 May 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Blacknest ASCII format",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1052",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1416,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "424B4E41532020312E30",
+      "endianness": null,
+      "name": "BKNAS",
+      "note": "BOF: 'BKNAS  ' version = '1.0'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bknas",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

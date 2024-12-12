@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2751,
+  "formatName": "RagTime Document File",
+  "version": "4-6",
+  "formatDescription": "RagTime is a business publishing software developed by RagTime.de Development GmbH. It brings together various features such as word processsing, spreadsheets, simple drawings, image editing, and chart creation into a single document. RagTime documents feature a frame-oriented design, where every piece of content is placed within its own frame on the page. In RagTime, all data types are stored in a single document, which can include multiple layouts such as spreadsheets, images, and text. Files are saved with .rtd extension for documents and .rtt for templates. While v1-v3 were developed in Pascal, since v4 the development has been coded in C++.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Ragtime\r\n\r\nhttps://en.wikipedia.org/wiki/RagTime\r\n\r\n\r\nhttps://www.garykessler.net/library/file_sigs.html",
+  "lastUpdatedDate": "07 Aug 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1895",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2239,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "43232B44A4434DA5486472",
+      "endianness": null,
+      "name": "RagTime Document File v4-6",
+      "note": "BOF:'C#+D\u00a4CM\u00a5Hdr'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rtd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rtt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

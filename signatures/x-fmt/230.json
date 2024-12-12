@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 322,
+  "formatName": "MIDI Audio",
+  "version": null,
+  "formatDescription": "A format that utilizes the cxcal Instrument Digital Interface (MIDI) protocol to record, store, and read sound event instructions such as pitch, tempo, velocity, and sustain. As the file does not contain actual recorded audio, the file size is greatly reduced.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://en.wikipedia.org/wiki/MIDI#MIDI_file_format\r\nhttps://fileinfo.com/extension/midi",
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/midi",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/230",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 398,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D5468640000000600[00:02]{4}4D54726B",
+      "endianness": null,
+      "name": "MIDI Audio",
+      "note": "<Chunk type>MThd <header length> 32-bit representation of the number 6, followed by <format> 2 bytes (must be 00, 01 or 02); <number of tracks> 2 bytes; and <division>2 bytes; followed by MTrk <track header>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mid",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "midi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

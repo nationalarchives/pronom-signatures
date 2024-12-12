@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 1771,
+  "formatName": "AppleDouble Resource Fork",
+  "version": "1",
+  "formatDescription": "The resource fork is a construct of the Mac OS operating system used to store structured data in a file, alongside unstructured data stored within the data fork. The format specification is available here: http://support.apple.com/kb/TA32537?viewlocale=en_US\r\n\r\nThe format lacks an extension, and is instead represented by a file name consisting of ._<filename resource fork belongs to>",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/966",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "multipart/appledouble",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1330,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 196,
+      "byteSequence": "0005160700010000",
+      "endianness": null,
+      "name": "Apple Double Resource Fork (v1)",
+      "note": "BOF: 4 byte AppleDouble Magic Number 0x00051607, then 4 byte version number 0x00010000"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

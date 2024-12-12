@@ -1,0 +1,226 @@
+{
+  "fileFormatID": 673,
+  "formatName": "Exchangeable Image File Format (Uncompressed)",
+  "version": "2.1",
+  "formatDescription": "Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Exif Uncompressed Image (2.1)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel) and Big-endian (Motorola)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/tiff",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/388",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 153,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D4D002A",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near EOF)",
+      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
+    },
+    {
+      "signatureID": 153,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65535,
+      "byteSequence": "900000070000000430323130",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near EOF)",
+      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
+    },
+    {
+      "signatureID": 156,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "49492A00",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near EOF)",
+      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
+    },
+    {
+      "signatureID": 156,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 65535,
+      "byteSequence": "009007000400000030323130",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near EOF)",
+      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
+    },
+    {
+      "signatureID": 284,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D4D002A",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near BOF)",
+      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
+    },
+    {
+      "signatureID": 284,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "{10-65535}900000070000000430323130",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near BOF)",
+      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
+    },
+    {
+      "signatureID": 287,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "49492A00",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near BOF)",
+      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
+    },
+    {
+      "signatureID": 287,
+      "positionType": "Absolute from BOF",
+      "offset": 10,
+      "maxOffset": 65535,
+      "byteSequence": "009007000400000030323130",
+      "endianness": null,
+      "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near BOF)",
+      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "tiff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 795,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 797,
+      "relatedFormatName": "Tagged Image File Format for Electronic Photography (TIFF/EP)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 798,
+      "relatedFormatName": "Geographic Tagged Image File Format (GeoTIFF)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 799,
+      "relatedFormatName": "Tagged Image File Format for Internet Fax (TIFF-FX)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1223,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1224,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1225,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1529,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1867,
+      "relatedFormatName": "Phase One IIQ Raw Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1868,
+      "relatedFormatName": "Hasselblad 3FR Raw Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2693,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2694,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2804,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 609,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 610,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 611,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 612,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 672,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 752,
+      "relatedFormatName": "Exchangeable Image File Format (Uncompressed)"
+    }
+  ]
+}

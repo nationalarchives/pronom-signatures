@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1244,
+  "formatName": "Verity Collection Document Dataset Descriptor Style Set",
+  "version": null,
+  "formatDescription": "A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files. The Verity Collection Document Dataset Descriptor Style Set file contains definitions for all internal fields included in the default schema for the collection\u2019s document table.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/457",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 711,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "23207374796C652E64646409312E37202D20312F31382F39340D0A232040282329",
+      "endianness": null,
+      "name": "Verity Collection Document Dataset Descriptor Style Set",
+      "note": "BOF: # style.ddd.1.7 - 1/18/94..# @(#)\r\nEOF: }......}.."
+    },
+    {
+      "signatureID": 711,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "7D0D0A0D0A0D0A7D0D0A",
+      "endianness": null,
+      "name": "Verity Collection Document Dataset Descriptor Style Set",
+      "note": "BOF: # style.ddd.1.7 - 1/18/94..# @(#)\r\nEOF: }......}.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ddd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

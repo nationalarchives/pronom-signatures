@@ -1,0 +1,85 @@
+{
+  "fileFormatID": 506,
+  "formatName": "Microsoft FoxPro Memo",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "04 Nov 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/342",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 555,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "00{3}000000[!00]{504}000000[00:02]{4}[!00]",
+      "endianness": null,
+      "name": "Microsoft FoxPro Memo Generic 1",
+      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files."
+    },
+    {
+      "signatureID": 556,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "00{3}000000[!00]{520}000000[00:02]{4}[!00]",
+      "endianness": "Little-endian",
+      "name": "Microsoft FoxPro Memo Generic 2",
+      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files."
+    },
+    {
+      "signatureID": 557,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "00{3}000000[!00]{504}000000[00:02]000000010000000001000000[!00]",
+      "endianness": null,
+      "name": "Microsoft FoxPro Memo Generic 3",
+      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fpt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "frt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vct",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pjt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1131,
+      "relatedFormatName": "Microsoft Visual FoxPro database container (memo files)"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1685,
+  "formatName": "Microsoft Document Imaging File Format",
+  "version": null,
+  "formatDescription": "This is a proprietary file format created by Microsoft Document Imaging, a program which enables the editing and annotation of documents scanned by Microsoft Office Document Scanning. It was introduced in Office XP and was included in Office 2003 and 2007. This format is a variant of TIFF.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 May 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/881",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.ms-modi",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1233,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "45502A00",
+      "endianness": null,
+      "name": "Microsoft Document Imaging File Format",
+      "note": "EP*."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mdi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

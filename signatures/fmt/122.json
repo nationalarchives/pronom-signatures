@@ -1,0 +1,150 @@
+{
+  "fileFormatID": 86,
+  "formatName": "Encapsulated PostScript File Format",
+  "version": "1.2",
+  "formatDescription": "Encapsulated Postscript (EPS) is a page description format, developed by Adobe Systems Incorporated. Version 1.2, the first version of the format, was developed in 1987. An EPS file comprises a header section followed by a PostScript document. An EPS can optionally include a preview raster image, in which case a binary header is prepended to the header.",
+  "releaseDate": "12 Mar 1987",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Description of magic bytes for signature added. Researched internally.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "EPS (1.2)",
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.encapsulated-postscript",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/122",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 173,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "252150532D41646F62652D322E3020455053462D312E32(0D|0A|0D0A|0A0D)",
+      "endianness": null,
+      "name": "EPS 1.2",
+      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)"
+    },
+    {
+      "signatureID": 174,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "C5D0D3C6",
+      "endianness": null,
+      "name": "EPS 1.2 Preview",
+      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)"
+    },
+    {
+      "signatureID": 174,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "252150532D41646F62652D322E3020455053462D312E32(0D|0A|0D0A|0A0D)",
+      "endianness": null,
+      "name": "EPS 1.2 Preview",
+      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "eps",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "epsf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 49,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1199,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1200,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1201,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1202,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1204,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1205,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1345,
+      "relatedFormatName": "Adobe Illustrator"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 138,
+      "relatedFormatName": "Postscript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 771,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 772,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1073,
+      "relatedFormatName": "EndNote Import File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    }
+  ]
+}

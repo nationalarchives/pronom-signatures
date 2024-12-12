@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 918,
+  "formatName": "Digital Moving Picture Exchange Bitmap",
+  "version": "1.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/193",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 848,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53445058{4}56312E30",
+      "endianness": null,
+      "name": "DPX v1 Big endian",
+      "note": "Magic number in first four bytes: SDPX indicates big-endian byte order; 4 byte offset to image; Version 1.0"
+    },
+    {
+      "signatureID": 849,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "58504453{4}56312E30",
+      "endianness": null,
+      "name": "DPX v1 Little endian",
+      "note": "Magic number in first four bytes: XPDS indicates little-endian byte order; 4 byte offset to image; Version 1.0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dpx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1328,
+      "relatedFormatName": "Digital Moving Picture Exchange Bitmap"
+    }
+  ]
+}

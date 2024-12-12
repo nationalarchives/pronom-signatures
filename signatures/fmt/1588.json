@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2413,
+  "formatName": "TGIF File Format",
+  "version": null,
+  "formatDescription": "Tgif (pronounced t-g-i-f) is an Xlib-based interactive 2-D drawing tool (using vector graphics) under X11 on Linux and most UNIX platforms (including Mac OS X and cygwin on Windows). It was developed since 1990 and is free software released under the QPL license.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://bourbon.usc.edu/tgif/faq/format.html\r\n\r\nhttps://en.wikipedia.org/wiki/Tgif_(program)#:~:text=Tgif%20(pronounced%20t%2Dg%2Di%2Df)%20is%20an,released%20under%20the%20QPL%20license.",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1588",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1927,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2554474946",
+      "endianness": null,
+      "name": "TGIF file format",
+      "note": "BOF; Offset: 0; Magic Bytes: '%TGIF'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tgif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "obj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

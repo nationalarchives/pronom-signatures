@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 1221,
+  "formatName": "AutoCAD Drawing",
+  "version": "2010/2011/2012",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 181,
+  "provenanceCompoundName": "Museum of London / Museum of London",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/434",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.dwg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 654,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4143313032340000",
+      "endianness": null,
+      "name": "AutoCAD Drawing Format 2010/2011/2012",
+      "note": "ASCII: AC1024"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dwg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 766,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1318,
+      "relatedFormatName": "AutoCAD Drawing"
+    }
+  ]
+}

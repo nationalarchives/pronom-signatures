@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2765,
+  "formatName": "TibetDoc Word Document",
+  "version": null,
+  "formatDescription": "This format is created by the TibetDoc word-processing software for Windows. It was developed by the Padma Karpo Translation Committee, and was created specifically to support the Tibetan language and fonts within a word processor, but also supports multiple other languages and fonts, for example Sanskrit and English.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://pktc.org/tibetan-software/tibetdoc-wordprocessor/",
+  "lastUpdatedDate": "25 Aug 2023",
+  "formatSourceID": 321,
+  "provenanceCompoundName": "Buddhist Digital Resource Center / Buddhist Digital Resource Center",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1909",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2255,
+      "positionType": "Absolute from BOF",
+      "offset": 1,
+      "maxOffset": 0,
+      "byteSequence": "504B5443{3}5469626574446F63",
+      "endianness": null,
+      "name": "TibetDoc",
+      "note": "BOF; Offset: 1; Magic Bytes: 'PKTC' with a 3 byte gap and then 'TibetDoc'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dct",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

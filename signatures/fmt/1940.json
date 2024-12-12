@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2801,
+  "formatName": "EBU Subtitling Data Exchange Format",
+  "version": null,
+  "formatDescription": "EBU STL was a format devised by the European Broadcasting Union, which enabled the display of subtitles. It has been superseded by EBU Timed Text.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification:  https://tech.ebu.ch/docs/tech/tech3264.pdf",
+  "lastUpdatedDate": "02 Nov 2023",
+  "formatSourceID": 324,
+  "provenanceCompoundName": "Sylphide Consulting / Sylphide Consulting",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Nov 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1940",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2281,
+      "positionType": "Absolute from BOF",
+      "offset": 3,
+      "maxOffset": 0,
+      "byteSequence": "53544C(3234|3235|3330)2E30",
+      "endianness": null,
+      "name": "EBU Subtitling Data Exchange Format",
+      "note": "Absolute from beginning of file, offset 3: STL(24|25|30).01"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "stl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

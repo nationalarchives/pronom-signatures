@@ -1,0 +1,107 @@
+{
+  "fileFormatID": 1029,
+  "formatName": "WARC",
+  "version": null,
+  "formatDescription": "The WARC (Web ARChive) file format offers a convention for concatenating multiple resource records (data objects), each consisting of a set of simple text headers and an arbitrary data block into one long file. The WARC format is an extension of the ARC file format (ARC) that has traditionally been used to store \"web crawls\" as sequences of content blocks harvested from the World Wide Web (\u2026)\r\nBesides the primary content recorded in ARCs, the extended WARC format accommodates related secondary content, such as assigned metadata, abbreviated duplicate detection events, later-date transformations, and segmentation of large resources\u201d.\r\nWARC format has been written by the members of the IIPC (http://www.netpreserve.org/) grouped within the ISO/TC46/SC4/WG12.",
+  "releaseDate": "15 May 2009",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Sep 2020",
+  "formatSourceID": 162,
+  "provenanceCompoundName": null,
+  "formatProvenance": "Submitted by Biblioth\u00e8que nationale de France with supplementary description information attributed to ISO 28500-2009 standard. 11/2023 (v.116)- Priority over fmt/101 Extensible Markup Language 1.0. Internally researched.",
+  "formatSourceDate": "02 Nov 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "ISO 28500-2009, Web ARChive file format",
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/warc",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/289",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 305,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4096,
+      "byteSequence": "574152432F{0-517}(574152432D5265636F72642D4944|436F6E74656E742D4C656E677468|574152432D54797065|574152432D44617465)",
+      "endianness": null,
+      "name": "WARC",
+      "note": "Matching WARC header. Header: 'WARC/'. Then either 'WARC-Record-ID', 'Content-Length',  'WARC-Type', 'WARC-Date' all madatory fields that can appear in any order."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "warc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2099,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2173,
+      "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 639,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 640,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 641,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 642,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 643,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 644,
+      "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1258,
+      "relatedFormatName": "Hypertext Markup Language"
+    }
+  ]
+}

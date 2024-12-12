@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2119,
+  "formatName": "The Print Shop Project",
+  "version": "2-5",
+  "formatDescription": "The Print Shop is a desktop publishing application published by Broderbund. This format version post-dates the earlier The Print Shop Deluxe product range. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1301",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1676,
+      "positionType": "Absolute from BOF",
+      "offset": 12,
+      "maxOffset": 12,
+      "byteSequence": "5053443552444F43",
+      "endianness": null,
+      "name": "The Print Shop Project 2",
+      "note": "BOF: PSD5RDOC"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psproj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 727,
+  "formatName": "Windows Bitmap",
+  "version": "1.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "BMP (1.0)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.microsoft.bmp",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/114",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/bmp",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 116,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000{6}01(01|04|08)",
+      "endianness": null,
+      "name": "Windows Bitmap 1.0",
+      "note": "Device Dependent Bitmap File Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ddb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 728,
+      "relatedFormatName": "Windows Bitmap"
+    }
+  ]
+}

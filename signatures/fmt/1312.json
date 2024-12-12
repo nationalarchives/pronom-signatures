@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2130,
+  "formatName": "CorelCHART Document",
+  "version": "3-4",
+  "formatDescription": "CorelCHART Documents are vector graphics of charts and tables. The software was bundled with CorelDRAW from 1992 to 1994.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1312",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1690,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49492A00{4}3344462E303030322030346465633931",
+      "endianness": null,
+      "name": "CorelCHART Document Version 3-4",
+      "note": "TIFF header, then 4 variable bytes, then '3DF.0002 04dec91'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cch",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
+    }
+  ]
+}

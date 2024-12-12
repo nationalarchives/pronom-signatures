@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1064,
+  "formatName": "ESRI Spatial Index File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jan 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jan 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/319",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 413,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "0000270AFFFFFE700000000000000000000000000000000000{3}00[00:01]",
+      "endianness": null,
+      "name": "ESRI Spatial Index File",
+      "note": "Regularly recurring header sequence"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sbn",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "sbx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

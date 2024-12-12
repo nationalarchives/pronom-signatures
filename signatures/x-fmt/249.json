@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 365,
+  "formatName": "Microsoft Outlook Personal Folders (Unicode)",
+  "version": "2003-2007",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "22 Oct 2009",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Digital preservation research.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/249",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 261,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2142444E{4}534D1700",
+      "endianness": "Little-endian",
+      "name": "Personal Storage Table *.pst (Unicode)",
+      "note": "Byte analysis completed in http://downloads.sourceforge.net/libpff/Personal_Foler_File_Format.pdf (Personal Folder File (PFF) File Format Specification) and sequence confirmed by research completed in http://www.five-ten-sg.com/libpst/rn01re06.html. PST file header, 24 bytes in total."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pst",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

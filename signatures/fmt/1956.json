@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2821,
+  "formatName": "Sandboxels Save File",
+  "version": null,
+  "formatDescription": "Sbxls files are created when a player of the Sandboxels game saves their progress. Sandboxels is played in browser, and is a free-falling sand simulator, where the user can play with different substances such as sand, rock, snow and magma. In saving the game, an sbxls file is generated, which records the type of substances used, their placement and size, the environment's temperature, custom colours and custom settings.",
+  "releaseDate": "13 Oct 2023",
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://sandboxels.r74n.com/",
+  "lastUpdatedDate": "11 Apr 2024",
+  "formatSourceID": 334,
+  "provenanceCompoundName": "R74n / R74n",
+  "formatProvenance": "04/24 (v.118): Internal signature added. Submitted by R74N; 07/24 (v.119): Added release date, corrected extension. Submitted by R74N.",
+  "formatSourceDate": "11 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1956",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2309,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "7B226D657461223A7B227361766556657273696F6E223A227362(31|32)222C2267616D6556657273696F6E223A",
+      "endianness": null,
+      "name": "Sandboxels Save File",
+      "note": "Absolute from beginning of file, magic bytes: {\"meta\":{\"saveVersion\":\"sb(1|2}\",\"gameVersion\":\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sbxls",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

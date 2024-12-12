@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1517,
+  "formatName": "Scream Tracker Module",
+  "version": "3",
+  "formatDescription": "The S3M format is an advanced audio sequencing format developed by Sami Tammilehto, and is the successor to the STM format used by the original Scream Tracker Audio software. Both formats are based on the original MOD format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/718",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1044,
+      "positionType": "Absolute from BOF",
+      "offset": 28,
+      "maxOffset": null,
+      "byteSequence": "1A100000{12}5343524D",
+      "endianness": null,
+      "name": "Scream Tracker Module 3",
+      "note": "BOF, offset 28: ....{12}SCRM"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "s3m",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

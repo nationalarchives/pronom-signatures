@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2836,
+  "formatName": "MOXCEL",
+  "version": null,
+  "formatDescription": "MOXCEL is a spreadsheet file associated with the development platform 1C:Enterprise.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/MOXCEL\r\nhttps://en.wikipedia.org/wiki/1C:Enterprise",
+  "lastUpdatedDate": "08 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "08 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1970",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2320,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D4F5843454C",
+      "endianness": null,
+      "name": "Moxcel Spreadsheet",
+      "note": "BOF; Offset:0; Magic Bytes: 'MOXCEL'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mxl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

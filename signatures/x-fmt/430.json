@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 822,
+  "formatName": "Microsoft Outlook Email Message",
+  "version": "97-2003",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "19 Apr 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "08 Feb 2008",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Email",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/430",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 208,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+      "endianness": "Little-endian",
+      "name": "Outlook Message Format",
+      "note": "Compound document header + IPM.Note + recip_version stream header"
+    },
+    {
+      "signatureID": 208,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "49504D2E4E6F7465",
+      "endianness": "Little-endian",
+      "name": "Outlook Message Format",
+      "note": "Compound document header + IPM.Note + recip_version stream header"
+    },
+    {
+      "signatureID": 208,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "720065006300690070005F00760065007200730069006F006E00",
+      "endianness": "Little-endian",
+      "name": "Outlook Message Format",
+      "note": "Compound document header + IPM.Note + recip_version stream header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "msg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "oft",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "12000",
+      "description": "Microsoft Outlook Email Message",
+      "files": [
+        {
+          "path": "__properties_version1.0"
+        },
+        {
+          "path": "__nameid_version1.0"
+        }
+      ]
+    }
+  ]
+}

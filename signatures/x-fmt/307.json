@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 465,
+  "formatName": "Paradox Database Memo Field (Binary Large Object)",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/307",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 520,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "000100{8}00100010{1}1040000008",
+      "endianness": null,
+      "name": "Paradox Binary Large Object",
+      "note": "Header: 1 byte record type (00h); 2 byte size of block/4096=1 (0100h little endian);  8 bytes for number of times modified;  2 bytes base size of data blocks (little endian 1000h=4096 decimal);  2 bytes size of suballocated data blocks (little endian 1000h=4096 decimal); 1 byte (Unknown); 1 byte suballocation chunk size (10h);  2 bytes number of suballocations per block (little-endian 0040h); 2 bytes suballocation threshold (little endian 0800h)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dbq",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

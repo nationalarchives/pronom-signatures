@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 1091,
+  "formatName": "Microsoft Word for Macintosh Document",
+  "version": "1.0",
+  "formatDescription": "Microsoft Word for Macintosh Document is a Graphical User Interface word processor designed to be used Mac operating systems.",
+  "releaseDate": "01 Jan 1985",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "06 Nov 2014",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "Submitted by Georgia Tech Research Institute",
+  "formatSourceDate": "21 Apr 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.word.doc",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/346",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 484,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FE3200C1",
+      "endianness": null,
+      "name": "Microsoft Word for Macintosh Document 1.0",
+      "note": "Header: wIdent (2 bytes) (FE32h); nFib \u2013 version number of file format (2 bytes )(00C1h)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mcw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 8,
+      "relatedFormatName": "Microsoft Word for Macintosh Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 11,
+      "relatedFormatName": "Microsoft Word for Macintosh Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 105,
+      "relatedFormatName": "Microsoft Word for Macintosh Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 106,
+      "relatedFormatName": "Microsoft Word for Macintosh Document"
+    }
+  ]
+}

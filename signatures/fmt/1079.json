@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1887,
+  "formatName": "Microsoft Program Database",
+  "version": "7.00",
+  "formatDescription": "A Program Database File stores debugging information about a compiled executable, usually created at compile-time. It stores a list of all symbols in a module with their addresses and possibly the name of the file and the line on which the symbol was declared.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Jul 2017",
+  "formatSourceID": 225,
+  "provenanceCompoundName": "National Library of Scotland / National Library of Scotland",
+  "formatProvenance": "An implementation can be found here: https://github.com/Microsoft/microsoft-pdb/blob/master/PDB/msf/msf.cpp",
+  "formatSourceDate": "24 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1079",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1460,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D6963726F736F667420432F432B2B204D534620372E3030",
+      "endianness": null,
+      "name": "Microsoft PDB 7.00",
+      "note": "BOF: 'Microsoft C/C++ MSF 7.00'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

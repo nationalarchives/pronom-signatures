@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2161,
+  "formatName": "PTGui Project File",
+  "version": "10",
+  "formatDescription": "PTGui is a software application for 'stiching' together digital photographs to create panoramic images.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1343",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1734,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "232070744775692070726F6A6563742066696C65",
+      "endianness": null,
+      "name": "PTGui Project File 10",
+      "note": "BOF: # ptGui project file"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pts",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1803,
+  "formatName": "OpenRaster Image Format",
+  "version": null,
+  "formatDescription": "OpenRaster is an open exchange format for layered raster based graphics, loosely based on the Open Document standards. A specification is available: https://freedesktop.org/wiki/Specifications/OpenRaster/",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Mar 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "22 Mar 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/998",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/openraster",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ora",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "32000",
+      "description": "Open Raster Image Format",
+      "files": [
+        {
+          "path": "mimetype",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "0",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "'image/openraster'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

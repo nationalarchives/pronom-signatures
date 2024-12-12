@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2294,
+  "formatName": "Multi Palette Picture File",
+  "version": null,
+  "formatDescription": "Multi Palette Picture is a raster image file format for Atari ST computers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Multi_Palette_Picture\r\n\r\nhttp://zerkman.sector1.fr/index.php?post/2012/10/08/Atari-ST-Multipalette-Picture-file-format\r\n\r\nhttps://telparia.com/fileFormatSamples/image/mpp/",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1471",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1842,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D5050",
+      "endianness": null,
+      "name": "Multi Palette Picture File",
+      "note": "BOF:'MPP' followed by 0x0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

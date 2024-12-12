@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1987,
+  "formatName": "MicroStation Material Library",
+  "version": null,
+  "formatDescription": "MicroStation is CAD software developed by Bentley Systems. The material library file contains a list of material palettes available to a project.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1177",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1559,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D565F41532D2D30",
+      "endianness": null,
+      "name": "Microstation Material Library",
+      "note": "BOF: MV_AS--0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mat",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

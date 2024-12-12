@@ -1,0 +1,73 @@
+{
+  "fileFormatID": 1793,
+  "formatName": "ESRI ArcScene Document",
+  "version": null,
+  "formatDescription": "\tIn the ArcGIS platform by ESRI ArcScene formats allow 3D visualization of GIS data. ArcScenedocuments can overlay multiple layers of data in a 3D environment.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/988",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "sxd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "27020",
+      "description": "ESRI ArcScene Document",
+      "files": [
+        {
+          "path": "DataGraphsT"
+        },
+        {
+          "path": "Scene"
+        },
+        {
+          "path": "StyleGallery"
+        },
+        {
+          "path": "TableProperties"
+        },
+        {
+          "path": "View",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "8",
+                  "subSeqMaxOffset": "8",
+                  "sequence": "5300630065006E006500200076006900650077"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

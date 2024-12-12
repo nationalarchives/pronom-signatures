@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1955,
+  "formatName": "Maxwell Render Material File",
+  "version": null,
+  "formatDescription": "Maxwell Render is a 3D render engine developed by Next Limit Technologies. The Material file defines material properties for 3D objects for use within a Maxwell 3D Scene.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jul 2018",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Jul 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1145",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1527,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D584D{4-64}000000",
+      "endianness": null,
+      "name": "Maxwell Render Material File",
+      "note": "BOF: 'MXM' {5-64} 0x000000. It may be possible to enhance this signature and to distinguish between different versions. Please contact the PRONOM team if you can assist with this."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mxm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

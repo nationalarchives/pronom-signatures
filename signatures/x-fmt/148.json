@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 209,
+  "formatName": "IBM DisplayWrite DCA Text File",
+  "version": null,
+  "formatDescription": "DisplayWrite was a word processor software application that IBM developed for the IBM PC and PCjr.DisplayWrite's native file format is based on IBM's DCA (Document Content Architecture) RFT (Revisable Form Text) specification, but with additional structures.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "01/2024 (v.118): Added Internal signature and description.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/148",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2302,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0005E103000020E2050001510100",
+      "endianness": null,
+      "name": "IBM DisplayWrite DCA Text File",
+      "note": "Absolute from beginning of file, magic bytes: ..\u00e1... \u00e2...Q.."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dca",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

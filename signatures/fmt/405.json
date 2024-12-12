@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1153,
+  "formatName": "Portable Any Map",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Mar 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/405",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 589,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5037*5749445448{3-256}454E44484452",
+      "endianness": "Big-endian",
+      "name": "Portable Any Map",
+      "note": "\u201cP7\u201d followed by (WIDTH, HEIGHT, DEPTH, and MAXVAL may be in any order so we just search for one, WIDTH) + ENDHDR"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pam",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

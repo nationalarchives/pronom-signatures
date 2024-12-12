@@ -1,0 +1,71 @@
+{
+  "fileFormatID": 2729,
+  "formatName": "Maptech BSB Documentation File",
+  "version": null,
+  "formatDescription": "BSB (or BSB/KAP) is a file format used primarily for the storage and transmission of nautical charts. Although the format is commonly known as \"BSB\", the main file extension is actually .kap (or sometimes .cap), though .bsb files can also optionally be used. The main image data (as raster images) is found in .kap files, possibly with multiple images in separate files being part of a multi-page chart. The .bsb file, if present, has additional data pertaining to the chart as a whole. Additional metadata is contained in associated text files, generally stored with .bsb.txt and .kap.txt double extensions, or else names ending in \"_bsb.txt\" and \"_kap.txt\".",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://web.archive.org/web/20161021191749/http://www.iho.int:80/iho_pubs/standard/S-64/RNC_Test_Data_Sets/BSB_TDS/BSB_Test_Dataset_Instructions_for_RNC.pdf",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "11/2023 (v.115)- Modified the offset values from null to 0 as part of a project to match PRONOM data with the xsd standard.",
+  "formatSourceDate": "04 Jul 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured), Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1875",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2217,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 700,
+      "byteSequence": "4345442F",
+      "endianness": null,
+      "name": "Maptech BSB Documentation File",
+      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'"
+    },
+    {
+      "signatureID": 2217,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 700,
+      "byteSequence": "4E544D2F",
+      "endianness": null,
+      "name": "Maptech BSB Documentation File",
+      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'"
+    },
+    {
+      "signatureID": 2217,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 700,
+      "byteSequence": "5645522F",
+      "endianness": null,
+      "name": "Maptech BSB Documentation File",
+      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bsb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "kap",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

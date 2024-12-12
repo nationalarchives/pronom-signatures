@@ -1,0 +1,103 @@
+{
+  "fileFormatID": 1536,
+  "formatName": "ClarisWorks",
+  "version": "2-3 (generic)",
+  "formatDescription": "ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5. ClarisWorks included a drawing program, a word processor, a spreadsheet program, a database program, and a painting program.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database, Image (Raster), Image (Vector), Spreadsheet, Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/737",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1064,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "02{3}424F424F",
+      "endianness": null,
+      "name": "CWK 2-3 Generic",
+      "note": "(Version){3}BOBO"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cwk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1646,
+      "relatedFormatName": "ClarisWorks Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1647,
+      "relatedFormatName": "ClarisWorks Word Processor"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1648,
+      "relatedFormatName": "ClarisWorks Spreadsheet"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1649,
+      "relatedFormatName": "ClarisWorks Database"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1650,
+      "relatedFormatName": "ClarisWorks Painting"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1537,
+      "relatedFormatName": "ClarisWorks Drawing"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1538,
+      "relatedFormatName": "ClarisWorks Word Processor"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1539,
+      "relatedFormatName": "ClarisWorks Spreadsheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1540,
+      "relatedFormatName": "ClarisWorks Database"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1541,
+      "relatedFormatName": "ClarisWorks Painting"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1535,
+      "relatedFormatName": "ClarisWorks"
+    }
+  ]
+}

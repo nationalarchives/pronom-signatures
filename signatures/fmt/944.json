@@ -1,0 +1,114 @@
+{
+  "fileFormatID": 1749,
+  "formatName": "Ogg Multimedia Container",
+  "version": null,
+  "formatDescription": "Ogg is a free, open container format maintained by the Xiph.Org Foundation. The Ogg container format can multiplex a number of independent streams for audio, video, text, and metadata.\r\n\r\nIn the Ogg multimedia framework, Theora provides a lossy video layer. The audio layer is commonly provided by the music-oriented Vorbis format. Other audio coding format options include the Opus compression format, the lossless audio compression format FLAC, Speex for low bitrate voice data, and OggPCM for uncompressed PCM audio.\r\n\r\nThis generic entry applies where available PRONOM signatures for Ogg do not yet apply to the file in question. In this instance you may wish to contact pronom@nationalarchives.gov.uk to help improve PRONOM's signatures.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio, Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/ogg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/944",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1287,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4F6767530002",
+      "endianness": null,
+      "name": "Ogg Container",
+      "note": "Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ogg",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ogv",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "spx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "opus",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 929,
+      "relatedFormatName": "Ogg Vorbis Codec Compressed Multimedia File"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 1750,
+      "relatedFormatName": "Ogg Theora Video"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 1751,
+      "relatedFormatName": "Ogg Opus Codec Compressed Multimedia File"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 1752,
+      "relatedFormatName": "Ogg FLAC Compressed Multimedia File"
+    },
+    {
+      "relationshipType": "Can contain",
+      "relatedFormatID": 1753,
+      "relatedFormatName": "Ogg Speex Codec Multimedia File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 929,
+      "relatedFormatName": "Ogg Vorbis Codec Compressed Multimedia File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1750,
+      "relatedFormatName": "Ogg Theora Video"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1751,
+      "relatedFormatName": "Ogg Opus Codec Compressed Multimedia File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1752,
+      "relatedFormatName": "Ogg FLAC Compressed Multimedia File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1753,
+      "relatedFormatName": "Ogg Speex Codec Multimedia File"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2640,
+  "formatName": "Help Librarian File",
+  "version": null,
+  "formatDescription": "Help Librarian is a program by Custom Design Systems released in 1985 that produced 'help' files, predominantly with the .hlp extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Help_Librarian",
+  "lastUpdatedDate": "25 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1790",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2130,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "432D576F72746879202852292048656C70204C696272617269616E20446174612046696C652056657273696F6E",
+      "endianness": null,
+      "name": "Help Librarian File",
+      "note": "BOF:'C-Worthy (R) Help Librarian Data File Version'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hlp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dat",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dta",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1695,
+  "formatName": "AbiWord Document Template",
+  "version": null,
+  "formatDescription": "AbiWord is a free, open source Word Processor application. Its native file format is based upon XML.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/891",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1240,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F435459504520616269776F7264205055424C494320222D2F2F414249534F555243452F2F4454442041574D4C20312E30205374726963742F2F454E222022687474703A2F2F7777772E616269736F757263652E636F6D2F61776D6C2E647464223E0A3C616269776F72642074656D706C6174653D227472756522",
+      "endianness": null,
+      "name": "AbiWord Document Template",
+      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\"?>.<!DOCTYPE abiword PUBLIC \"-//ABISOURCE//DTD AWML 1.0 Strict//EN\" \"http://www.abisource.com/awml.dtd\">.<abiword template=\"true\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "awt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

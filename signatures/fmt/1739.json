@@ -1,0 +1,90 @@
+{
+  "fileFormatID": 2585,
+  "formatName": "UDF-ISO 9660 Bridge Disc",
+  "version": null,
+  "formatDescription": "UDF-ISO 9660 Bridge Disc is a format that stores contents and structure of an optical disc which can be transferred on the other media. It uses Universal Disk Format (UDF) file system developed for optical media by the Optical Storage Technology Association (OSTA), as well as ISO 9660 International Organization for Standardization (ISO). This format acts as a support for discs where ISO 9660 and UDF formats all reside on the same optical disc. It can be used in video applications, such as DVD-Video, DVD+VR, and DVD-VR. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Universal_Disk_Format\r\n\r\nhttp://fileformats.archiveteam.org/wiki/ISO_9660\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml\r\n\r\nhttps://en.wikipedia.org/wiki/Optical_disc_image\r\n\r\nhttps://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "08/2023- Max-offset modified for both BOF signatures to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "17 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1739",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2077,
+      "positionType": "Absolute from BOF",
+      "offset": 32768,
+      "maxOffset": 37700,
+      "byteSequence": "4344303031{1-16384}FF4344303031",
+      "endianness": null,
+      "name": "UDF-ISO 9660 Bridge Disc",
+      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031\r\n\r\n& \r\n\r\nBOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01"
+    },
+    {
+      "signatureID": 2077,
+      "positionType": "Absolute from BOF",
+      "offset": 32768,
+      "maxOffset": 37700,
+      "byteSequence": "00424541303101{2041}004E535230(32|33)01",
+      "endianness": null,
+      "name": "UDF-ISO 9660 Bridge Disc",
+      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031\r\n\r\n& \r\n\r\nBOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "toast",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "iso",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cdr",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dmg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2605,
+      "relatedFormatName": "Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1255,
+      "relatedFormatName": "ISO 9660 Disk Image File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2584,
+      "relatedFormatName": "UDF Disc Image"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 2584,
+      "relatedFormatName": "UDF Disc Image"
+    }
+  ]
+}

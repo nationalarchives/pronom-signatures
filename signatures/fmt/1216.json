@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2026,
+  "formatName": "Lotus Freelance Show",
+  "version": null,
+  "formatDescription": "Lotus Freelance is a presentation/slide show application. A slide show viewer called Mobile Screen Show Player is available from the Lotus FTP site: ftp://ftp.lotus.com/pub/lotusweb/product/freelance/",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-freelance",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1216",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1593,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00010F00465245454C414E434504000A",
+      "endianness": null,
+      "name": "Lotus Freelance Show",
+      "note": "0x00010F00 'FREELANCE, 0x000A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "prz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

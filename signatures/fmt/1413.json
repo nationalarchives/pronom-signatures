@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2231,
+  "formatName": "Corel Gallery Clipart",
+  "version": "BMF",
+  "formatDescription": "Corel Gallery was a vector clipart product released by Corel. The BMF format was native to the Windows version of the original software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1413",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1787,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "40436F72656C424D460A0D436F72656C20436F72706F726174696F6E0A0D",
+      "endianness": null,
+      "name": "Corel Gallery Clipart BMF",
+      "note": "BOF: '@CorelBMF' 0x0D0A, 'Corel Corporation' 0x0D0A"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

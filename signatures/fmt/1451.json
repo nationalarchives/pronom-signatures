@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 2272,
+  "formatName": "PDF Portfolio",
+  "version": "1.7",
+  "formatDescription": "PDF Portfolio files are PDFs using a feature added to the PDF specification in version 1.7 called \"Collections\". Collections offer a way to embed file attachments that are related in structure or content, as well as information that a reader application should use to determine how to present these files. A simple metadata schema can also be defined for the collection, allowing metadata to be provided for each item in the collection. Additionally, folder structure can be provided for the collection items, allowing reader applications to present the attachments with a tree-view. This makes the PDF Portfolio a convenient format to export mailboxes as mail folder structure can be preserved, along with standard email metadata such as \"To\", \"From\" and \"Subject\" fields. \n\nPDF Portfolio files can specify a \"default view\", which is a file in the collection that a reader application should display when opening the Portfolio.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": "04/2024 (v.118)-Signature modified to no longer search for '<</Cl<<' block. Submitted by the Archeological Data Service and Preservica.",
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1451",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1814,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "255044462D312E37*2F436F6C6C656374696F6E20",
+      "endianness": null,
+      "name": "PDF Portfolio 1.7",
+      "note": "BOF: %PDF-1.7 followed by '/Collection '. EOF (offset up to 1024 bytes): '%%EOFF(.|F.|F..|F..)'"
+    },
+    {
+      "signatureID": 1814,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 1024,
+      "byteSequence": "2525454F(46|460A|460D|460D0A|460D00)",
+      "endianness": null,
+      "name": "PDF Portfolio 1.7",
+      "note": "BOF: %PDF-1.7 followed by '/Collection '. EOF (offset up to 1024 bytes): '%%EOFF(.|F.|F..|F..)'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+    }
+  ]
+}

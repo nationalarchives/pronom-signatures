@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1713,
+  "formatName": "Variant Call Format",
+  "version": "4.x",
+  "formatDescription": "The Variant Call Format (VCF) specifies the format of a text file used in bioinformatics for storing gene sequence variations.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/908",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1258,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "232366696C65666F726D61743D5643467634",
+      "endianness": null,
+      "name": "Variant Call Format v4",
+      "note": "BOF: ##fileformat=VCFv4\r\nWe currently only distinguish by major version number, but it may be desireable to distinguish between minor version too. \r\n\r\nSpecifications: https://github.com/samtools/hts-specs"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vcf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1712,
+      "relatedFormatName": "Variant Call Format"
+    }
+  ]
+}

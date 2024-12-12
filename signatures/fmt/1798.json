@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2649,
+  "formatName": "CHAT Transcription Format",
+  "version": null,
+  "formatDescription": "The CHAT Transcription Format provides a format for producing computerised transcripts of face-to-face conversations. \u2018CHAT\u2019 is an acronym for Codes for the Human Analysis of Transcripts. CHAT is the standard transcription system for the TalkBank and CHILDES (Child Language Data Exchange System) Projects. https://talkbank.org/manuals/CHAT.pdf",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Nov 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1798",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "text/x-chat",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2137,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 256,
+      "byteSequence": "4055544638{0-256}40426567696E{0-64}404C616E6775616765733A{0-256}405061727469636970616E74733A",
+      "endianness": null,
+      "name": "CHAT Transcription Format",
+      "note": "BOF, Offset 0, Max Offset 256, using 4 mandatory elements, although there are some additional non-mandatory elements that may also appear near BOF: \u2018@UTF8\u2019 {0-256} \u2018@Begin\u2019 {0-64} \u2018@Languages:\u2019 {0-256} \u2018@Participants:\u2019 \u2013 see https://talkbank.org/manuals/CHAT.pdf. As such these relative offsets between elements may need to be adjusted as more examples of this format are encountered."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cha",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

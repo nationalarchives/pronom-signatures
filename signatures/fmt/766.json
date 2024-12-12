@@ -1,0 +1,92 @@
+{
+  "fileFormatID": 1565,
+  "formatName": "Adobe Flash",
+  "version": "20",
+  "formatDescription": "The Adobe Flash format, SWF, previously known as Shockwave Flash or Macromedia Shockwave Flash, and alternatively known as the Small Web Format, is a file format primarily designed for creating interactive multimedia applications. The format iterates rapidly, often in line with new releases of Adobe Flash or Adobe Air. Prior to version 6 all SWF files were uncompressed, however version 6 introduced the option of using zlib compression. Version 13 introduced the option of using LZMA compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf-file-format-spec.pdf\r\nhttp://www.adobe.com/devnet/articles/flashplayer-air-feature-list.html",
+  "formatSourceDate": "07 Aug 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-shockwave-flash",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/766",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1091,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "46575314",
+      "endianness": null,
+      "name": "SWF 20",
+      "note": "Header (FWS then version number) and end tag (..)"
+    },
+    {
+      "signatureID": 1091,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000",
+      "endianness": null,
+      "name": "SWF 20",
+      "note": "Header (FWS then version number) and end tag (..)"
+    },
+    {
+      "signatureID": 1109,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "43575314",
+      "endianness": null,
+      "name": "SWF 20 - zlib compressed",
+      "note": "Header (CWS then version number)"
+    },
+    {
+      "signatureID": 1125,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5A575314",
+      "endianness": null,
+      "name": "SWF 20 - LZMA compressed",
+      "note": "Header (ZWS then version number)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "swf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1566,
+      "relatedFormatName": "Adobe Flash"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1564,
+      "relatedFormatName": "Adobe Flash"
+    }
+  ]
+}

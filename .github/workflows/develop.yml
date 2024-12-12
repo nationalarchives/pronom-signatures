@@ -1,0 +1,26 @@
+name: Build test signatures
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+jobs:
+  generate_signature_file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+      - run: |
+          .github/scripts/create_signature_files.sh --release
+          .github/scripts/commit.sh "Generate signature files" ${{ github.event.pull_request.head.ref }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: signature-file.xml
+          path: signature-file.xml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: container-signature-file.xml
+          path: container-signature-file.xml

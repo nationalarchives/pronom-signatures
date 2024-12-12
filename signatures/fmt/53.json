@@ -1,0 +1,115 @@
+{
+  "fileFormatID": 753,
+  "formatName": "Rich Text Format",
+  "version": "1.8",
+  "formatDescription": "Rich Text Format (RTF) is a format developed by Microsoft to encode formatted text and graphics for use within applications or for data and formatting transfer between applications. It is closely associated with Microsoft Word, and new versions are developed with each release of Word. RTF files are encoded in plain text, typically ASCII, and consists of a series of control words, control symbols and groups. An RTF file comprises a Header section, containing various header tables, followed by a Document section, containing the document content and formatting. RTF version 1.8 is the version of the format associated with Microsoft Word 2003.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "Full",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "RTF (1.8), RTF (2003)",
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": "Rich Text Format",
+  "identifiers": [
+    {
+      "identifierText": "application/rtf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/53",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "public.rtf",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "text/rtf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 523,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "7B5C7274(66|6631){0-15}(616E7369|6D6163|7063|706361)5C616E7369637067{3-*}5C737473686664626368{1-4}5C73747368666C6F6368{1-4}5C737473686668696368{1-4}5C73747368666269*5C6C73647374696D6178",
+      "endianness": null,
+      "name": "RTF 1.8",
+      "note": "\\rtf control word, \\ansicpg control word, followed by <deffont> declaration the following control word \r\n\\lsdstimax"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rtf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1101,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 626,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 627,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 628,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 629,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 630,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 631,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 632,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 633,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1101,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 633,
+      "relatedFormatName": "Rich Text Format"
+    }
+  ]
+}

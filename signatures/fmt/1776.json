@@ -1,0 +1,74 @@
+{
+  "fileFormatID": 2626,
+  "formatName": "Extensible Markup Language",
+  "version": "1.1",
+  "formatDescription": "Extensible Markup Language (XML) version 1.1 was developed by World Wide Web Consortium (W3C) in 2004. It is a general purpose markup language for creating other special purpose markup languages, it derived from SGML (ISO 8879). XML 1.1 was designed to be used when features of XML 1.0 [fmt/101] do not permit certain functionalities. It is structured to use any version of Unicode, in basic terms, whereas XML 1.0 provided a rigid definition of names, wherein everything that was not permitted was forbidden, XML 1.1 names are designed so that everything that is not forbidden (for a specific reason) is permitted. It also adds checking of normalization, and follows the Unicode line ending rules more closely. Authors are encouraged to generate XML 1.0 documents if the added flexibility is not required. XML Parsers are expected to understand both XML 1.0 and XML 1.1. It typically begins with an XML declaration, defining the XML version and character set used. This may be followed by a Document Type declaration, containing or pointing to a markup declaration for the class of document. An XML document is said to be well-formed if it conforms to the XML specification; it is said to be valid if it additionally complies with a defined markup declaration. The formatting and transformation of XML documents can be controlled using the Extensible Stylesheet Language (XSL).",
+  "releaseDate": "04 Feb 2004",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://web.archive.org/web/20220918202300/https://www.w3.org/TR/2006/REC-xml11-20060816/\r\n\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000264.shtml\r\n\r\nhttps://web.archive.org/web/20210517154945/https://developer.apple.com/documentation/uniformtypeidentifiers/uttype/3551601-xml",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 295,
+  "provenanceCompoundName": "Stadtarchiv Hof / Stadtarchiv Hof",
+  "formatProvenance": "08/2023 (v.113)- Relationship with fmt/101 added and signature tightened to prevent clashes with fmt/92. Submitted by Preservica.",
+  "formatSourceDate": "04 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "XML (1.1)",
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fdd000264",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1776",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "public.xml",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "text/xml",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2117,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "3C3F786D6C(20|09|0A|0D){0-1}76657273696F6E{0-1}3D{0-1}(22|27)312E31(22|27)",
+      "endianness": null,
+      "name": "Extensible Markup Language v1.1",
+      "note": "BOF; Offset: 0; Magic Bytes: XML header declaration - '<?xml' followed by whitespace character specific to XML file, then either no wildcard characters or up to thirty whitespace characters, then followed by version number. XML 1.1 can incorporate various spaces in its syntax, this possibility has been incorporated to this signature."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 931,
+      "relatedFormatName": "Synchronized Multimedia Integration Language (Generic)"
+    }
+  ]
+}

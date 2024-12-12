@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2822,
+  "formatName": "Program Embroidery Stitch (PES) File",
+  "version": null,
+  "formatDescription": "A PES file, 'Program Embroidery Stitch' is a digital file format created for embroidery. It combines embroidery design and embroidery command and was created mainly for Brother Industries and Bernina International series of embroidery machines. It stores information on stitch patterns and colour sequences.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://edutechwiki.unige.ch/en/Embroidery_format_PES#File_Format\r\n\r\nhttps://torvalds-family.blogspot.com/2010/01/embroidery-gaah.html\r\nhttp://fileformats.archiveteam.org/wiki/PES",
+  "lastUpdatedDate": "23 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1957",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2364,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "23504553",
+      "endianness": null,
+      "name": "Program Embroidery Stitch (PES) File",
+      "note": "Absolute from beginning of file, magic bytes:\t #PES"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pes",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

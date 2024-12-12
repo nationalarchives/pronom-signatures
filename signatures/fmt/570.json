@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1358,
+  "formatName": "Extensible Metadata Platform Packet",
+  "version": null,
+  "formatDescription": "The Extensible Metadata Platform (XMP) is an ISO standard, originally created by Adobe Systems Inc., for the creation, processing and interchange of standardized and custom metadata for all kinds of resources.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 May 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "07/2024 (v.119)- Internal signature updated to allow for both double and single quotation marks. Submitted by the Digital Research Alliance of Canada - Federated Research Data Repository / Alliance de recherche num\u00e9rique du Canada - D\u00e9p\u00f4t f\u00e9d\u00e9r\u00e9 de donn\u00e9es de recherche.",
+  "formatSourceDate": "19 Jul 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/570",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 908,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F787061636B657420626567696E3D(22|27)EFBBBF(22|27)2069643D(22|27)57354D304D7043656869487A7265537A4E54637A6B633964(22|27)3F3E0A3C783A786D706D65746120786D6C6E733A783D(22|27)61646F62653A6E733A6D6574612F(22|27)",
+      "endianness": null,
+      "name": "Extensible Metadata Platform Packet",
+      "note": "<?xpacket begin=\"(0xEFBBBF)\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>.<x:xmpmeta xmlns:x=\"adobe:ns:meta/\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xmp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1791,
+      "relatedFormatName": "Extensible Metadata Platform Format"
+    }
+  ]
+}

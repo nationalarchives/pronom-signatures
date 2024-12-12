@@ -1,0 +1,73 @@
+{
+  "fileFormatID": 1784,
+  "formatName": "XML Property List",
+  "version": null,
+  "formatDescription": "In the OS X, iOS, NeXTSTEP, and GNUstep programming frameworks, property list files store serialized objects. It is the standard way to save and load data between the internal representation within the objects defined in an Objective-C program and disk files, in order to store program settings and other data. This is the XML version but there is also a binary version of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Versions prior to DROID 6.3 may not identify this format correctly",
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/979",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1340,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E",
+      "endianness": null,
+      "name": "XML Property List",
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\">"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "plist",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1785,
+      "relatedFormatName": "AAE Sidecar Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1786,
+      "relatedFormatName": "EazyDraw File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1787,
+      "relatedFormatName": "iMovieProj File Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1788,
+      "relatedFormatName": "NIB File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

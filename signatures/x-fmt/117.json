@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 169,
+  "formatName": "Lotus 1-2-3 Worksheet",
+  "version": "1.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-1-2-3",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/x-123",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/117",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 460,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "000002000404",
+      "endianness": null,
+      "name": "Lotus 123 Worksheet 1.0",
+      "note": "BOF Record Type = 0, record length =2 bytes; file format version number = dec 1028 = hex 0404"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wks",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 894,
+      "relatedFormatName": "Microsoft Works Spreadsheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 166,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 167,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 168,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    }
+  ]
+}

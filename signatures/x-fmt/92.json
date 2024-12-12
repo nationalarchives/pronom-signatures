@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 139,
+  "formatName": "Adobe Photoshop",
+  "version": null,
+  "formatDescription": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for Windows and OS X. Files natively produced by Adobe PhotoDeluxe (extension pdd) also appear to be based upon the Adobe Photoshop file format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Sep 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.adobe.photoshop-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "image/vnd.adobe.photoshop",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/92",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 277,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "38425053000100000000000000",
+      "endianness": "Little-endian",
+      "name": "Adobe Photoshop PSD",
+      "note": "BOF: '8BPS', version 1 (0x0001), 6 reserved null bytes\r\nhttps://www.adobe.com/devnet-apps/photoshop/fileformatashtml/"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "psd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pdd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1801,
+      "relatedFormatName": "Adobe Photoshop Large Document Format"
+    }
+  ]
+}

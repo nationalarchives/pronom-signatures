@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 56,
+  "formatName": "AutoCAD Batch Plot File",
+  "version": "1.0-R14",
+  "formatDescription": "AutoCAD is 2D and 3D computer-aided design software used by professionals such as architects, engineers and city planners to prepare technical drawings. Developed by Autodesk, it was first released in 1982, and is now very widely used. In AutoCAD, the term \u2018plot\u2019 is used instead of \u2018print\u2019. The file contains information including the type of file and number of copies to be printed, and the location where the file is saved.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "01/2024 (v.118) Added internal signature.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/26",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2298,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4175746F43414420457874656E64656420426174636820506C6F74204C697374",
+      "endianness": null,
+      "name": "AutoCAD Batch Plot File 1.0-R14",
+      "note": "Absolute from beginning of file, magic bytes: AutoCAD Extended Batch Plot List"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bp2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bpl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

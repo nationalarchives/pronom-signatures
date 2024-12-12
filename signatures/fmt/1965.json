@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2830,
+  "formatName": "Papyrus Document",
+  "version": null,
+  "formatDescription": "This is the native file format of Papyrus word processing software, previously marketed as Papyrus Office and currently marketed as Papyrus Author, designed for manuscript creation, editing and publishing. The standard format has the .pap extension, while .pav is a Papyrus Document Template. .pbf is a Papyrus Base Formula file, a component part of a Papyrus character or research database, functionality to track research notes or detail about characters within the manuscript.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1965",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2313,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "50415031",
+      "endianness": null,
+      "name": "Papyrus Document",
+      "note": "BOF \u201cPAP1\u201d. Since the format is not publicly documented this does not distinguish between versions or individual Papyrus format types although this may be possible."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pap",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pav",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pbf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

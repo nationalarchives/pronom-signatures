@@ -1,0 +1,101 @@
+{
+  "fileFormatID": 1199,
+  "formatName": "Adobe Illustrator",
+  "version": "88",
+  "formatDescription": "The documents (files) created by Adobe Illustrator are PostScript language\r\ndocuments. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "http://mercator.elte.hu/~saman/hu/okt/AI7FileFormat.pdf",
+  "formatSourceDate": "11 Jun 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.illustrator-image",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/417",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 882,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D322E30{1-16}252543726561746F72(3A|3A20)41646F626520496C6C7573747261746F72(28544D29203838|20383828544D29)",
+      "endianness": null,
+      "name": "Adobe Illustrator 88 v1",
+      "note": "The first line of the file declares with the Comment prefix %! that the file contains a PostScript program. It then specifies that the file conforms to version 2.0 of the Document Structuring Conventions. The second line contains a %%Creator comment that identifies the version of Adobe Illustrator that generated the PostScript document. The Trademark symbol was found both before and after version 88."
+    },
+    {
+      "signatureID": 883,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D322E3020455053462D312E32{10-2096}2525446F63756D656E7450726F63536574733A41646F62655F496C6C7573747261746F725F3838",
+      "endianness": null,
+      "name": "Adobe Illustrator 88 v2",
+      "note": "The first line of the file declares with the Comment prefix %! that the file contains a PostScript program. It then specifies that the file conforms to version 2.0 of the Document Structuring Conventions and further that the file conforms to version 1.2 of the conventions for Encapsulated PostScript Files.  In Header DocProcSets: Adobe_Illustrator_88 In Header is DocProcSets:  Adobe_Illustrator_88 or Adobe_Illustrator88"
+    },
+    {
+      "signatureID": 884,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D322E3020455053462D312E32{10-2096}2525446F63756D656E7450726F63536574733A2041646F62655F496C6C7573747261746F72(5F3838|3838)",
+      "endianness": null,
+      "name": "Adobe Illustrator 88 v3",
+      "note": "The first line of the file declares with the Comment prefix %! that the file contains a PostScript program. It then specifies that the file conforms to version 2.0 of the Document Structuring Conventions and further that the file conforms to version 1.2 of the conventions for Encapsulated PostScript Files.  In Header is DocProcSets: Adobe_Illustrator_88 or DocProcSets: Adobe_Illustrator88"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ai",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 86,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 771,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    }
+  ]
+}

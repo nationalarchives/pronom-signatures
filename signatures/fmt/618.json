@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1414,
+  "formatName": "GeoGebra",
+  "version": "1.0",
+  "formatDescription": "GeoGebra is a mathematics software package.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 202,
+  "provenanceCompoundName": "KULeuven - LIBIS / KULeuven - LIBIS",
+  "formatProvenance": "http://www.geogebra.org/cms/en/",
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.geogebra.file",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/618",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 953,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "ACED00057372001B67656F6765627261",
+      "endianness": null,
+      "name": "GeoGebra 1.0",
+      "note": "BOF: \u00ac\u00ed..sr..geogebra"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "geo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1415,
+      "relatedFormatName": "GeoGebra"
+    }
+  ]
+}

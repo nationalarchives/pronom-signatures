@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 1680,
+  "formatName": "Pagemaker Document (Generic)",
+  "version": null,
+  "formatDescription": "Pagemaker is a desktop publishing program. This is a generic signature which has been developed from versions 6.5 and version 7. It may be possible to distinguish between different versions of Pagemaker with a better understanding of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "18 May 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.pagemaker",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/876",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "p65",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pmd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "pmt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 247,
+      "relatedFormatName": "PageMaker PC Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 254,
+      "relatedFormatName": "PageMaker PC Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2554,
+      "relatedFormatName": "PageMaker Mac Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2555,
+      "relatedFormatName": "PageMaker Mac Document"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "25000",
+      "description": "PageMaker Document (Generic)",
+      "files": [
+        {
+          "path": "PageMaker"
+        }
+      ]
+    }
+  ]
+}

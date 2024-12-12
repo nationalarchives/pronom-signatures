@@ -1,0 +1,102 @@
+{
+  "fileFormatID": 2212,
+  "formatName": "Drawing Interchange Format (Binary)",
+  "version": "Generic",
+  "formatDescription": "\tBinary DXF format is the binary encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. Binary DXF was first developed in AutoCAD Release 10. It should not be confused with the DXB format - this is an entirely separate AutoDesk format for binary encoding vector graphics.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "25 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1394",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.dxf",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1770,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4175746F4341442042696E61727920445846",
+      "endianness": null,
+      "name": "Binary DXF Generic",
+      "note": "BOF: 'AutoCAD Binary DXF'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dxf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 739,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 740,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 741,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 742,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 743,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 744,
+      "relatedFormatName": "Drawing Interchange File Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2208,
+      "relatedFormatName": "Drawing Interchange Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2209,
+      "relatedFormatName": "Drawing Interchange Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2210,
+      "relatedFormatName": "Drawing Interchange Format (Binary)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2211,
+      "relatedFormatName": "Drawing Interchange Format (Binary)"
+    }
+  ]
+}

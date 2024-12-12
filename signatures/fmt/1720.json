@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2556,
+  "formatName": "Portable Compiled Format",
+  "version": null,
+  "formatDescription": "Portable Compiled Format (PCF) is a bitmap font format used by X Windows System in its core font system. PCF fonts are usually installed by default on most Uni-based operating systems and are used in terminals such as xterm. It gradually became more widely used than the Glyph Bitmap Distribution (BDF) format but has more recently been superseded by OpenType and TrueType fonts.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PCF\r\n\r\nhttps://en.wikipedia.org/wiki/Portable_Compiled_Format\r\n\r\nhttps://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format\r\n\r\nhttps://web.archive.org/web/20191229202901/https://fontforge.org/en-US/documentation/reference/pcf-format/",
+  "lastUpdatedDate": "15 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1720",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2049,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01666370",
+      "endianness": null,
+      "name": "Portable Compiled Format",
+      "note": "BOF: 0x01 (Start of Header) followed by 'fcp'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pcf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

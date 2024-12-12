@@ -1,0 +1,101 @@
+{
+  "fileFormatID": 76,
+  "formatName": "Microsoft Word Document Template",
+  "version": "97-2003",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/45",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "dot",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1554,
+      "relatedFormatName": "Microsoft Word Document Template (Password Protected)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 690,
+      "relatedFormatName": "Microsoft Word Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 767,
+      "relatedFormatName": "OLE2 Compound Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1401,
+      "relatedFormatName": "Microsoft Word (Generic)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "1100",
+      "description": "Microsoft Word 97 OLE2 Template",
+      "files": [
+        {
+          "path": "WordDocument"
+        },
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "40",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "10 00 00 00 'Word.Document.8' 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "WordDocument",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "10",
+                  "subSeqMaxOffset": "10",
+                  "sequence": "[&01]"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

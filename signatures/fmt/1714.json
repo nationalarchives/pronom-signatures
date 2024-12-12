@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2550,
+  "formatName": "CATIA Model File",
+  "version": "3",
+  "formatDescription": "CATIA is a 3D modelling software created by Dassault Syst\u00e8mes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Apr 2024",
+  "formatSourceID": 241,
+  "provenanceCompoundName": "J. Paul Getty Trust / J. Paul Getty Trust",
+  "formatProvenance": "04/2024 (v.118)- Signature updated to include a variable rather than a fixed byte sequence of 2026 bytes. Submitted by J. Paul Getty Trust.",
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1714",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2046,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 80,
+      "byteSequence": "4341544941202020*43415449412056455253494F4E2033{11}52454C4541534520",
+      "endianness": null,
+      "name": "CATIA Model V.3",
+      "note": "BOF; Offset: 80; Magic Bytes: 'CATIA' * 'CATIA VERSION 3'{11}'RELEASE'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "model",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

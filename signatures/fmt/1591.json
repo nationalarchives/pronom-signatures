@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2418,
+  "formatName": "ESRI ArcInfo Coverage Annotation File",
+  "version": null,
+  "formatDescription": "Files which form part of an ArcInfo Coverage, which is a data model whose purpose is to store georelational data such as spatial location and descriptive data. Each ArcInfo Coverage resides in an ArcInfo workspace, a directory which contains two or more folders. These packages are generated using ArcGIS software, produced by Esri (https://www.esri.com/en-us/arcgis/about-arcgis/overview.) Files with the .txt extension contain text strings describing a geographic feature, formatted in user defined tables.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000284.shtml",
+  "lastUpdatedDate": "06 Jan 2022",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1591",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1930,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000270AFFFFFFBD",
+      "endianness": null,
+      "name": "ESRI ArcInfo Coverage Annotation File",
+      "note": "Magic bytes, Absolute from beginning of file: ..'\u00ff\u00ff\u00ff.\u00bd"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "txt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

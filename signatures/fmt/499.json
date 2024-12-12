@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1286,
+  "formatName": "VivoActive",
+  "version": null,
+  "formatDescription": "VivoActive is an audio/video format created by Vivo Software, acquired by RealNetworks in 1997. It uses H.263 video and G.723 ADPCM audio. VivoActive uses inter-frame coding, but does not insert any key frames, except at the beginning of the clip, which effectively disables the possibility of seeking to specific locations in the stream. The VivoActive technology was integrated to the RealMedia, the .viv format was replaced by .rm (RealMedia).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 187,
+  "provenanceCompoundName": "l'Institut national de l' Audiovisuel / l'Institut national de l' Audiovisuel",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/499",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/vnd-vivo",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 774,
+      "positionType": "Absolute from BOF",
+      "offset": 3,
+      "maxOffset": null,
+      "byteSequence": "0D0A56657273696F6E3A5669766F2F312E3030",
+      "endianness": null,
+      "name": "Vivo Active V1",
+      "note": "BOF offset 3 ..Version:Vivo/1.00"
+    },
+    {
+      "signatureID": 775,
+      "positionType": "Absolute from BOF",
+      "offset": 3,
+      "maxOffset": null,
+      "byteSequence": "0D0A56657273696F6E3A5669766F2F322E3030",
+      "endianness": null,
+      "name": "Vivo Active V2",
+      "note": "BOF offset 3 ..Version:Vivo/2.00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "viv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

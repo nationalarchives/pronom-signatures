@@ -1,0 +1,70 @@
+{
+  "fileFormatID": 1630,
+  "formatName": "3MF 3D Manufacturing Format",
+  "version": null,
+  "formatDescription": "3MF is an XML-based data file format published by the 3MF Consortium for additive manufacturing (3D printing).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "\tThis format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.\r\n\r\nhttp://3mf.io/what-is-3mf/3mf-specification/",
+  "formatSourceDate": "21 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-3mfdocument",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/829",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "3mf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1456,
+      "relatedFormatName": "Open XML Paper Specification"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "18010",
+      "description": "3MF 3D Manufacturing Format",
+      "files": [
+        {
+          "path": "[Content_Types].xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'ContentType=\"application/vnd.ms-package.3dmanufacturing-3dmodel+xml\"'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

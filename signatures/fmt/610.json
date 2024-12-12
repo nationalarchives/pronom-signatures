@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1406,
+  "formatName": "ARJ File Format",
+  "version": null,
+  "formatDescription": "ARJ (Archived by Robert Jung) is a software tool designed by Robert K. Jung for creating compressed file archives.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 195,
+  "provenanceCompoundName": "Artefactual Systems Inc / Artefactual Systems Inc",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/610",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 946,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "60EA",
+      "endianness": null,
+      "name": "ARJ File Format",
+      "note": "BOF: `\u00ea"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "arj",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

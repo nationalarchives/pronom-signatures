@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1853,
+  "formatName": "OGR GFS File",
+  "version": null,
+  "formatDescription": "The GFS file is used by the OGR Geography Markup Language reader to predefine dataset level information in the absense of an XML Schema definition for the feature classes within the GML file. Its purpose and syntax is described here: http://www.gdal.org/drv_gml.html",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 May 2017",
+  "formatSourceID": 170,
+  "provenanceCompoundName": "Archaeology Data Service / Archaeology Data Service",
+  "formatProvenance": null,
+  "formatSourceDate": "18 May 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1048",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1408,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C474D4C46656174757265436C6173734C6973743E",
+      "endianness": null,
+      "name": "OGR GFS File",
+      "note": "BOF: <GMLFeatureClassList>\r\nEOF: </GMLFeatureClassList>"
+    },
+    {
+      "signatureID": 1408,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 16,
+      "byteSequence": "3C2F474D4C46656174757265436C6173734C6973743E",
+      "endianness": null,
+      "name": "OGR GFS File",
+      "note": "BOF: <GMLFeatureClassList>\r\nEOF: </GMLFeatureClassList>"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gfs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

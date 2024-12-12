@@ -1,0 +1,68 @@
+{
+  "fileFormatID": 2705,
+  "formatName": "Camtasia Recording File",
+  "version": null,
+  "formatDescription": "Camtasia Studio is a screen recording software. From version 3 to version 8, the software recorded to an OLE container in the AVI video format, with the container also including CAMXML metadata, cursor data, audio, webcam video, etc. Starting in version 9, the recordings were made to a TREC (mp42/isom) format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Camtasia_Recording_File",
+  "lastUpdatedDate": "25 Apr 2023",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "25 Apr 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1852",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q105849830",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "camrec",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "90000",
+      "description": "Camtasia Recording File",
+      "files": [
+        {
+          "path": "Screen_Stream.avi"
+        },
+        {
+          "path": "manifest.camxml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "512",
+                  "sequence": "'R'00 'e'00 'c'00 'o'00 'r'00 'd'00 'i'00 'n'00 'g'00 'I'00 's'00 'C'00 'a'00 'm'00 'r'00 'e'00 'c'00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

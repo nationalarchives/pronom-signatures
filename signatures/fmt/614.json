@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1410,
+  "formatName": "Windows Imaging Format",
+  "version": null,
+  "formatDescription": "The Windows Imaging Format (WIM) is a file-based disk image format developed by Microsoft.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 199,
+  "provenanceCompoundName": "Keep Solutions / Keep Solutions",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/614",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 950,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D5357494D",
+      "endianness": null,
+      "name": "Windows Imaging Format",
+      "note": "BOF: MSWIM"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wim",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "swm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

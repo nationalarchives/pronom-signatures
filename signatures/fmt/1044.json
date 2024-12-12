@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1849,
+  "formatName": "AutoShade Rendering Slide",
+  "version": null,
+  "formatDescription": "AutoShade was an early 3D rendering package for use with AutoCAD. AutoShade wrote the rendering to an .RND file as a 2D vector image.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "11 Apr 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1044",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1403,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4175746F53686164652052656E646572696E6720536C6964650D0A5772697474656E2062793A",
+      "endianness": null,
+      "name": "AutoShade RND",
+      "note": "BOF: 'AutoShade Rendering Slide' <Carriage return, line feed> 'Written by:'\r\nFormat described here:\r\nhttps://github.com/AnimatorPro/Animator-Pro/blob/master/text/pro/RND.DOC"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rnd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1940,
+  "formatName": "C3D File Format",
+  "version": null,
+  "formatDescription": "C3D, or Coordinate 3D, is a biomechanics data file format that is a component of the family of file formats developed for the AMASS photogrammetry software system. C3D format provides a means for storing 3D coordinate and analog data, together with all associated parameters, for a single measurement trial.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Nov 2017",
+  "formatSourceID": 215,
+  "provenanceCompoundName": "University of Edinburgh / University of Edinburgh",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1130",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1512,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0250{22}00000000000000000000{481}(54|55|56){2}(504F494E54|414E414C4F47)",
+      "endianness": null,
+      "name": "C3D",
+      "note": "BOF: 0x0250 (magic plus pointer to first block of parameter section), {22} a block of 270 null bytes - we're using the first ten here for signature brevity, byte at 0x203 is either 0x54, 0x55, 0x56 representing processor type. String beginning at 0x516 either POINT or ANALOG. Https://www.c3d.org/HTML/default.htm"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "c3d",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

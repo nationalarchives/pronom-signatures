@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2530,
+  "formatName": "Asymetrix Compel Presentation",
+  "version": "2.0",
+  "formatDescription": "Asymetrix Compel Presentation files are proprietary formats belonging to Compel software application, developed by Asymetrix Learning Systems Corporation. Compel is a presentation software, a tool to create slide-based multimedia presentations. There were two versions published of this software first published in 1993 and second published in 1995, the software was discontinued in 1998. This format entry describes version 2.0 of this software. The software also could export .art files which seems to have very similar structure.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Asymetrix_Compel\r\n\r\nhttps://web.archive.org/web/19970607001501/http://www.asymetrix.com/products/compel/\r\n\r\nhttps://archive.org/details/asymetrix-multimedia-creative-suite/Asymetrix%20Multimedia%20Creative%20Suite_disc.jpg\r\n\r\nhttps://books.google.co.uk/books?id=cTwEAAAAMBAJ&pg=PA17&dq=asymetrix+compel&hl=en&sa=X&ved=2ahUKEwjWnMuAzIz4AhVKhFwKHRtvB50Q6wF6BAgIEAE#v=onepage&q=asymetrix%20compel&f=false\r\n\r\nhttps://www.danielsays.com/ssg-win1x2x3x-compel20.html",
+  "lastUpdatedDate": "13 Mar 2023",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1694",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2027,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "034A424F4FF53C55",
+      "endianness": null,
+      "name": "Asymetrix Compel Presentation v2.0",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x034A424F4FF53C55"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cpl",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "art",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2529,
+      "relatedFormatName": "Asymetrix Compel Presentation"
+    }
+  ]
+}

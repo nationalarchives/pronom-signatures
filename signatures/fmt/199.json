@@ -1,0 +1,97 @@
+{
+  "fileFormatID": 924,
+  "formatName": "MPEG-4 Media File",
+  "version": null,
+  "formatDescription": "Container format that can contain any of a number of audio and video codecs. It may also contain subtitle data or file metadata. This family of container can be used with several different file extensions.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "08/2023 (v.113) - Priority added over fmt/1616 (BibTeX Database File). Internally researched; 04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints",
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio, Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/mp4",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/199",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "video/mp4",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 278,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": null,
+      "byteSequence": "66747970{0-64}(6D703432|6D703431|69736F6D|69736F32)*6D6F6F76",
+      "endianness": "Little-endian",
+      "name": "MP4 Media File",
+      "note": "Represents the following character sequence: {4}ftyp{0-64}(mp42|mp41|isom|iso2)*moov"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mp4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "m4v",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "m4a",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "f4v",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "f4a",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1103,
+      "relatedFormatName": "3GPP Audio/Video File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1388,
+      "relatedFormatName": "Apple Lossless Audio Codec"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2422,
+      "relatedFormatName": "Canon Raw"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 658,
+      "relatedFormatName": "Quicktime"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2443,
+      "relatedFormatName": "BibTeX Database File"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 1527,
+  "formatName": "RealLegal E-Transcript",
+  "version": null,
+  "formatDescription": "RealLegal E-Transcript creates electronic transcripts. E-Transcript files allow for custom formatting. There is a free E-Transcript Viewer to view an E-Transcript file. E-Transcript files are also compatible with Westlaw Case Notebook.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Mar 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Mar 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/728",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1052,
+      "positionType": "Absolute from BOF",
+      "offset": 10,
+      "maxOffset": null,
+      "byteSequence": "000002",
+      "endianness": null,
+      "name": "RealLegal E-Transcript",
+      "note": "BOF: (offset 10) 0x000002\r\nVAR: .This transcript created and delivered by..<COMPANY>...Ph:"
+    },
+    {
+      "signatureID": 1052,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "0054686973207472616E736372697074206372656174656420616E642064656C6976657265642062790D0A3C434F4D50414E593E2E0D0A50683A",
+      "endianness": null,
+      "name": "RealLegal E-Transcript",
+      "note": "BOF: (offset 10) 0x000002\r\nVAR: .This transcript created and delivered by..<COMPANY>...Ph:"
+    },
+    {
+      "signatureID": 1346,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 10,
+      "byteSequence": "000003",
+      "endianness": null,
+      "name": "RealLegal E-Transcript v2",
+      "note": "BOF: (offset 10) 0x000003\r\nVAR: .This transcript created and delivered by..<COMPANY>\u2026Ph:"
+    },
+    {
+      "signatureID": 1346,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "0054686973207472616E736372697074206372656174656420616E642064656C6976657265642062790D0A3C434F4D50414E593E2E0D0A50683A",
+      "endianness": null,
+      "name": "RealLegal E-Transcript v2",
+      "note": "BOF: (offset 10) 0x000003\r\nVAR: .This transcript created and delivered by..<COMPANY>\u2026Ph:"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ptx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

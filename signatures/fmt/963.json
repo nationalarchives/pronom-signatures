@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1768,
+  "formatName": "OMNIC Spectral Data File",
+  "version": null,
+  "formatDescription": "OMNIC Spectral Data files are spectroscopy data files produced by Thermo Scientific OMNIC software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "20 Sep 2016",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "20 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Thermo Scientific OMNIC Data File",
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/963",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1320,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "537065637472616C20446174612046696C65",
+      "endianness": null,
+      "name": "Spectral Data File",
+      "note": "BOF: Spectral Data File"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spa",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2511,
+  "formatName": "IntelliFont Font File",
+  "version": null,
+  "formatDescription": "IntelliFont Font file is a format belonging to IntelliFont utility developed by Tom Hawkins at Compugraphic in Wilmington during the late 1980s. The font utility is native to AmigaOS, it was originally developed by Compugraphic Corporation, which was later acquired by Agfa, later becoming Monotype. This font format appears to be LHZ archive which holds data specific to create IntelliFont requirements.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Intellifont\r\n\r\nhttp://fileformats.archiveteam.org/wiki/IntelliFont\r\n\r\nhttps://en.wikipedia.org/wiki/AmigaOS\r\n\r\nhttp://aminet.net/search?query=intellifont\r\n\r\nhttps://wiki.amigaos.net/wiki/AmigaOS_Manual:_Workbench_Fonts",
+  "lastUpdatedDate": "26 Apr 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Font",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1675",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2009,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00440001000000{2}000002",
+      "endianness": null,
+      "name": "IntelliFont Font File",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x00440001000000{2}000002"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "type",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "lib",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

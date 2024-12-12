@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1908,
+  "formatName": "yEnc Encoded File",
+  "version": null,
+  "formatDescription": "yEnc is a binary-to-text encoding mechanism initially developed by J\u00fcrgen Helbing for transferring binary files in messages, such as via Usenet or email.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Sep 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Sep 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1100",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1482,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3D79626567696E206C696E653D",
+      "endianness": null,
+      "name": "yEnc File",
+      "note": "BOF: =ybegin line=\r\nhttp://www.yenc.org/yEnc-draft-1.txt"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "yenc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

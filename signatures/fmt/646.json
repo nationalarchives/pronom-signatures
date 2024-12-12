@@ -1,0 +1,60 @@
+{
+  "fileFormatID": 1445,
+  "formatName": "Apple iWork Keynote",
+  "version": "09",
+  "formatDescription": "Keynote is the presentation format of the Apple iWork productivity suite.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Sep 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "14 Jul 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/646",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "key",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "21000",
+      "description": "Apple iWorks Keynote 09",
+      "files": [
+        {
+          "path": "index.apxl",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "200",
+                  "sequence": "'xmlns:key=\"http://developer.apple.com/namespaces/keynote2\" key:version=\"92008102400\"'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

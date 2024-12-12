@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2176,
+  "formatName": "MicroStation Base File",
+  "version": null,
+  "formatDescription": "These files, which always end with the file extension .bse, consist of the line drawing layer in Microstation from c.2000. MicroStation CAD software was developed and sold by Bentley Systems and which is used for 2D and 3D design, and is mainly used in the architectural and engineering industries.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.bentley.com/en/products/product-line/modeling-and-visualization-software/microstation",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": "11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched",
+  "formatSourceDate": "05 Mar 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1358",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1741,
+      "positionType": "Absolute from BOF",
+      "offset": 824,
+      "maxOffset": 2792,
+      "byteSequence": "4850545F44445F494744533A464F4E544C4942{32600-33200}44474E2D5469746C6573",
+      "endianness": null,
+      "name": "MicroStation Base File",
+      "note": "Absolute from BOF offset 824- 3616, magic bytes:\r\n'HPT_DD_IGDS:FONTLIB'.{32600-33200}DGN-Titles"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bse",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2374,
+      "relatedFormatName": "Bentley Microstation Hidden Line File"
+    }
+  ]
+}

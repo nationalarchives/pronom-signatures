@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 448,
+  "formatName": "Micrografx Draw",
+  "version": "4.0",
+  "formatDescription": "Micrografx Draw & Designer are vector graphics software tools.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "20 Jan 2020",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/295",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1698,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "01FF020403020002(00|02)022105{3}57696E646F777320447261772044726177696E67",
+      "endianness": null,
+      "name": "Micrografx Draw Version 4",
+      "note": "BOF: 0x01FF020403020002 then either bytes 01 or 02, then 0x022105, followed in 3 bytes with 'Windows Draw Drawing'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "drw",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "drt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 78,
+      "relatedFormatName": "Micrografx Draw"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 447,
+      "relatedFormatName": "Micrografx Draw"
+    }
+  ]
+}

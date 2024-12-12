@@ -1,0 +1,36 @@
+{
+  "fileFormatID": 547,
+  "formatName": "XYWrite for Windows Document",
+  "version": "4.0",
+  "formatDescription": "Microsoft Write is a basic word processor included with Windows 1.0 and later, until Windows NT 3.5. Throughout its lifespan it was minimally updated, and is comparable to early versions of MacWrite. Early versions of Write only work with Write (.wri) files, but after Windows 3.0, Write became capable of reading and composing early Word (.doc) documents. With Windows 3.1, Write became OLE capable. In Windows 95, Write was replaced with WordPad.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/371",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xyw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

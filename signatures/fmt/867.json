@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1671,
+  "formatName": "Microsoft Reader eBook",
+  "version": null,
+  "formatDescription": "This eBook format was developed by Microsoft for use with the now discontinued Microsoft Reader software. The format itself is derived from the Microsoft Compiled HTML Help format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/867",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1226,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "49544F4C49544C53",
+      "endianness": null,
+      "name": "LIT (MS Reader)",
+      "note": "BOF: ITOLITLS"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lit",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

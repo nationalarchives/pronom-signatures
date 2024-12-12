@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2654,
+  "formatName": "Transcriber TRS Format",
+  "version": null,
+  "formatDescription": "TRS is the native, XML-based format of Transcriber, a tool for assisting the manual annotation of speech signals. Transcriber (https://trans.sourceforge.net/) was superseded by Transcriber AG (https://transag.sourceforge.net/)",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Nov 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1803",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2142,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{1-128}3C21444F4354595045205472616E73",
+      "endianness": null,
+      "name": "Transcriber TRS Format",
+      "note": "BOF offset 0, XML 1.0 declaration, then !DOCTYPE declaration \u2018trans\u2019. A DTD for version 1.4 of the file format can be found here: https://github.com/giuliopaci/transcriber/blob/master/etc/trans-14.dtd. For now, PRONOM does not distinguish between different versions of TRS."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "trs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

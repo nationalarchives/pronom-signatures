@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1407,
+  "formatName": "LDAP Data Interchange Format",
+  "version": null,
+  "formatDescription": "The LDAP Data Interchange Format (LDIF) is a standard plain text data interchange format for representing LDAP (Lightweight Directory Access Protocol) directory content and update requests.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "14 Feb 2014",
+  "formatSourceID": 199,
+  "provenanceCompoundName": "Keep Solutions / Keep Solutions",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Feb 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/611",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 947,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "646E3A20",
+      "endianness": null,
+      "name": "LDAP Data Interchange Format",
+      "note": "BOF: dn:"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ldif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

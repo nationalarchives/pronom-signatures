@@ -1,0 +1,91 @@
+{
+  "fileFormatID": 49,
+  "formatName": "Adobe Illustrator",
+  "version": "1.0 / 1.1",
+  "formatDescription": "The documents (files) created by Adobe Illustrator are PostScript language\r\ndocuments. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Jul 2013",
+  "formatSourceID": 165,
+  "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+  "formatProvenance": "http://mercator.elte.hu/~saman/hu/okt/AI7FileFormat.pdf\r\nAdobe has classified Illustrator versions 1.0 and 1.1 as the same file format.",
+  "formatSourceDate": "23 Sep 2003",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.adobe.illustrator.ai-\u200bimage",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/20",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 880,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D322E3020455053462D312E320D252543726561746F723A41646F626520496C6C7573747261746F7228544D2920312E30",
+      "endianness": null,
+      "name": "Adobe Illustrator 1.x v1",
+      "note": "The first line of the file declares with the Comment prefix %! that the file contains a PostScript program. It then specifies that the file conforms to version 2.0 of the Document Structuring Conventions and further that the file conforms to version 1.2 of the conventions for Encapsulated PostScript Files. The second line contains a %%Creator comment that identifies version 1.0 as the version of Adobe Illustrator that generated the PostScript document."
+    },
+    {
+      "signatureID": 881,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D322E30{10-2096}2525446F63756D656E7450726F63536574733A(2041|41)646F62655F496C6C7573747261746F725F312E(30|31|32)",
+      "endianness": null,
+      "name": "Adobe Illustrator 1.x v2",
+      "note": "The first line of the file declares with the Comment prefix %! that the file contains a PostScript program. It then specifies that the file conforms to version 2.0 of the Document Structuring Conventions. It may or may not specify EPSF 1.2. The Creator may or may not be Adobe Illustrator, but the DocumentProcsets declared in the header will be Adobe Illustrator 1.0, 1.1 or 1.2"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ai",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 86,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 332,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 771,
+      "relatedFormatName": "PostScript"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    }
+  ]
+}

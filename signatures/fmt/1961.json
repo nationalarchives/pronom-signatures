@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2826,
+  "formatName": "Shorten (codec)",
+  "version": null,
+  "formatDescription": "Shorten is a file format used for compressing audio data.It is used to compress audio files losslessly. One of the first open source lossless compressors, it was created in 1993 by Tony Robinson.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://wiki.hydrogenaud.io/index.php?title=Shorten\r\nhttps://en.wikipedia.org/wiki/Shorten_(codec)\r\nhttps://web.archive.org/web/20180904214941/http://www.etree.org/shncom.html\r\n\r\nhttps://github.com/digital-preservation/PRONOM_Research/tree/main/Submissions/Shorten",
+  "lastUpdatedDate": "23 Apr 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000199",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1961",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q597450",
+      "identifierType": "Wikidata QID Identifier"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2363,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "616A6B67",
+      "endianness": null,
+      "name": "Shorten (codec)",
+      "note": "BOF, Offset:0, magic bytes: 'ajkg'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "shn",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

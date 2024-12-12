@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2403,
+  "formatName": "Spectrum 512 Extended",
+  "version": "2",
+  "formatDescription": "Spectrum 512 was a computer paint program by Boris Tsikanovsky that enabled the creation of images with more than 16 simultaneous colors. \r\nIt uses the Atari ST's rapid palette switching ability to expand the maximum number of colors to be displayed on-screen at once to 512 (up to 46 in each scan line). Spectrum 512 is a predecessor of Unispec.\r\n\r\nSpectrum 512 Extended (spx) files are extended Spectrum files with more than 200 lines in the picture, designed by Gizmo of Electronic Images. With a SPX creator like SPXCRT14.PRG multiple spectrum pictures can be attached to become one big .SPX file. There are two known versions of the format. This record details Version 2, files of this format (as compared to Version 1) can be packed as a whole, including the header, with either Ice 2.10 or Atomik 3.5. Both versions support larger pictures in Spectrum 512.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://doudoroff.com/atari/spectrum.html\r\n\r\nhttps://temlib.org/AtariForumWiki/index.php/Spectrum_512_Extended_file_format\r\n\r\nhttps://en.wikipedia.org/wiki/Atari_ST\r\n\r\nhttp://www.atarimania.com/utility-atari-st-spectrum-512_22312.html\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Spectrum_512_formats",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1578",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1918,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "53505802",
+      "endianness": null,
+      "name": "Spectrum 512 Extended v2",
+      "note": "BOF; Offset: 0; Magic Bytes: 'SPX.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2402,
+      "relatedFormatName": "Spectrum 512 Extended"
+    }
+  ]
+}

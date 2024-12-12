@@ -1,0 +1,83 @@
+{
+  "fileFormatID": 44,
+  "formatName": "Microsoft Excel Template",
+  "version": "97-2003",
+  "formatDescription": "A template document that forms a basis for Microsoft Excel workbooks.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "13 Sep 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "\tThis format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-excel",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/17",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 684,
+      "relatedFormatName": "Microsoft Excel 97 Workbook (xls)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "2110",
+      "description": "Microsoft Excel 97-2003 Template OLE2",
+      "files": [
+        {
+          "path": "Workbook",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "09 08"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "4",
+                  "sequence": "00 06 05 00"
+                },
+                {
+                  "position": "3",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "32",
+                  "sequence": "60 00 00 00 E1 00 02 00 B0 04"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

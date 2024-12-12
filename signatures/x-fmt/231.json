@@ -1,0 +1,77 @@
+{
+  "fileFormatID": 323,
+  "formatName": "ESRI MapInfo Export File",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/231",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 390,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 10,
+      "byteSequence": "56(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*43(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)",
+      "endianness": null,
+      "name": "ESRI MapInfo Export File No.1",
+      "note": "MIF file header indicating Version, Charset and number of Columns."
+    },
+    {
+      "signatureID": 391,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "56(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*63(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)",
+      "endianness": null,
+      "name": "ESRI MapInfo Export File No.2",
+      "note": "MIF file header indicating Version, Charset and number of Columns."
+    },
+    {
+      "signatureID": 392,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "76(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*43(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)",
+      "endianness": null,
+      "name": "ESRI MapInfo Export File No.3",
+      "note": "MIF file header indicating Version, Charset and number of Columns."
+    },
+    {
+      "signatureID": 393,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "76(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*63(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)",
+      "endianness": null,
+      "name": "ESRI MapInfo Export File No.4",
+      "note": "MIF file header indicating Version, Charset and number of Columns."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

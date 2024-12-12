@@ -1,0 +1,66 @@
+{
+  "fileFormatID": 1371,
+  "formatName": "Vector Markup Language",
+  "version": null,
+  "formatDescription": "Vector Markup Language (VML) is an XML-based file format for two-dimensional vector graphics.VML is used by most Microsoft Office applications, such as Microsoft Word and Microsoft Visio, within HTML files created using the 'Save As HTML' option.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2013",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "http://msdn.microsoft.com/en-us/library/ee384217(v=vs.85).aspx\r\nhttp://www.w3.org/TR/NOTE-VML#h2:specification                http://en.wikipedia.org/wiki/Vector_Markup_Language",
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector), Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/583",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 925,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 128,
+      "byteSequence": "786D6C6E733A763D2275726E3A736368656D61732D6D6963726F736F66742D636F6D3A766D6C22",
+      "endianness": null,
+      "name": "Vector Markup Language",
+      "note": "xmlns:v=\"urn:schemas-microsoft-com:vml\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vml",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "html",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "htm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    }
+  ]
+}

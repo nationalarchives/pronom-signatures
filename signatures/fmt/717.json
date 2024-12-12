@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1516,
+  "formatName": "Scream Tracker Module",
+  "version": "1-2",
+  "formatDescription": "The STM format is an audio sequencing format developed by Sami Tammilehto, based on the original MOD Audio Module format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Feb 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "12 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/717",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1043,
+      "positionType": "Absolute from BOF",
+      "offset": 20,
+      "maxOffset": null,
+      "byteSequence": "2153637265616D211A",
+      "endianness": null,
+      "name": "Scream Tracker Module 1-2",
+      "note": "BOF, offset 20: !Scream!."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "stm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

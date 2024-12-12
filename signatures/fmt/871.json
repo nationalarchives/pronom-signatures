@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1675,
+  "formatName": "Adobe Content Server Message File",
+  "version": null,
+  "formatDescription": "Adobe Content Server Message files are used to manage and download digital content, mostly ebooks, via Adobe Digital Editions. \rThe .acsm file is essentially a 'key' to allow the download of purchased content.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Jan 2016",
+  "formatSourceID": 184,
+  "provenanceCompoundName": "British Library / British Library",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.adobe.adept+xml",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/871",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1230,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C66756C66696C6C6D656E74546F6B656E2066756C66696C6C6D656E7454797065{5-64}786D6C6E733D22687474703A2F2F6E732E61646F62652E636F6D2F616465707422{3-64}3C6469737472696275746F72{3-128}3C6F70657261746F7255524C{3-64}3C7472616E73616374696F6E{3-64}3C65787069726174696F6E{3-512}3C6D65746164617461{16-2048}3C6C6963656E7365546F6B656E",
+      "endianness": null,
+      "name": "Adobe Content Server Message",
+      "note": "We're seeking a sequence of Mark Up tags:\r\n<fulfillmentToken fulfillmentType {5-64} xmlns=\"http://ns.adobe.com/adept\" {3-64} <distributor {3-128} <operatorURL {3-128} \r\r\n<transaction {3-64} <expiration {3-64} <resourceItemInfo {3-512} <metadata {16-2048} <licenseToken"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "acsm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

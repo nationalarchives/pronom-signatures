@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2797,
+  "formatName": "PCRaster",
+  "version": null,
+  "formatDescription": "This file format stores 2-dimensional geographic data, and is a native format of PCRaster, a software suite used in the field of environmental modelling.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "19 Oct 2023",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Oct 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1936",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2277,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5255552043524F53532053595354454D204D415020464F524D4154",
+      "endianness": null,
+      "name": "PCRaster",
+      "note": "BOF; Offset: 0; Magic Bytes: \u201cRUU CROSS SYSTEM MAP FORMAT\u201d"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "csf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "map",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

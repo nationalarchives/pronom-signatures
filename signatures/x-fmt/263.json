@@ -1,0 +1,216 @@
+{
+  "fileFormatID": 382,
+  "formatName": "ZIP Format",
+  "version": null,
+  "formatDescription": "A popular archive format supported by most modern operating systems. It can contain one or more files and can utilize any of a number of compression methods.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/ZIP\r\nhttps://fileinfo.com/extension/zip",
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): An additional internal signature, name updated for the original internal signature, description update, library of congress identifier, documentation links and vendor. Submitted by Institute of the History of Charles University and Archive of Charles University, Preservica,  Brigham Young University and The Church of Jesus Christ of Latter-Day Saints.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/zip",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.pkware.zip-archive",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/263",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 200,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "504B0304",
+      "endianness": null,
+      "name": "ZIP Format Signature 1",
+      "note": "Local file header at BOF (with maximum offset of 4 bytes) + central file header and end of central directory near EOF. NB. The signature byte sequence is currently massaged to steer around the known PRONOM bug in the area of right fragment matching when the longest fragment is not nearest EOF. The first fragment in the EOF byte sequence has been shortened by 1 byte to ensure that the subsequent fragment is the longest. This abbreviation does not reduce the overall signature strength too much and so will hopefully not result in any false pisitive identification. When the PRONOM bug has been fixed, the \"504B01\" at the start of the EOF byte sequence should be extended to \"504B0102\", and this note reduced."
+    },
+    {
+      "signatureID": 200,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "504B01{43-65531}504B0506{18-65531}",
+      "endianness": "Little-endian",
+      "name": "ZIP Format Signature 1",
+      "note": "Local file header at BOF (with maximum offset of 4 bytes) + central file header and end of central directory near EOF. NB. The signature byte sequence is currently massaged to steer around the known PRONOM bug in the area of right fragment matching when the longest fragment is not nearest EOF. The first fragment in the EOF byte sequence has been shortened by 1 byte to ensure that the subsequent fragment is the longest. This abbreviation does not reduce the overall signature strength too much and so will hopefully not result in any false pisitive identification. When the PRONOM bug has been fixed, the \"504B01\" at the start of the EOF byte sequence should be extended to \"504B0102\", and this note reduced."
+    },
+    {
+      "signatureID": 2311,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "504B05060000",
+      "endianness": null,
+      "name": "ZIP Format Signature 2",
+      "note": "BOF; Offset: 0; Magic Bytes: 'PK' followed by 0x05060000 denoting the end of the central directory"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zip",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 745,
+      "relatedFormatName": "OpenOffice Writer"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 746,
+      "relatedFormatName": "OpenOffice Calc"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 747,
+      "relatedFormatName": "OpenOffice Impress"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 748,
+      "relatedFormatName": "OpenOffice Draw"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 777,
+      "relatedFormatName": "Java Archive Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 783,
+      "relatedFormatName": "OpenDocument Database Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 876,
+      "relatedFormatName": "SIARD (Software-Independent Archiving of Relational Databases)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 910,
+      "relatedFormatName": "Microsoft Office Open XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1033,
+      "relatedFormatName": "OpenDocument Text"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1034,
+      "relatedFormatName": "OpenDocument Text"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1035,
+      "relatedFormatName": "OpenDocument Presentation"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1036,
+      "relatedFormatName": "OpenDocument Presentation"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1037,
+      "relatedFormatName": "OpenDocument Spreadsheet"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1038,
+      "relatedFormatName": "OpenDocument Spreadsheet"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1039,
+      "relatedFormatName": "OpenDocument Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1040,
+      "relatedFormatName": "OpenDocument Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1206,
+      "relatedFormatName": "OpenDocument Database Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1215,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1216,
+      "relatedFormatName": "CorelDraw Drawing"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1231,
+      "relatedFormatName": "OpenDocument Database Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1269,
+      "relatedFormatName": "Apple iBook format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1270,
+      "relatedFormatName": "ePub format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2393,
+      "relatedFormatName": "ISDOCX Information System Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2396,
+      "relatedFormatName": "ISDOCX Information System Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2518,
+      "relatedFormatName": "EndNote Library"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2519,
+      "relatedFormatName": "EndNote Compressed Library"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2521,
+      "relatedFormatName": "EndNote Compressed Library"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 2553,
+  "formatName": "Time Stamp Token",
+  "version": null,
+  "formatDescription": "Time Stamp Tokens contain a hash of data which is being time stamped, electronically signed by a Timestamping Authority. For example, tst files might be generated to prove a digital signature was created before a given time. The hash refers to data objects carried in ASiC containers.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.iana.org/assignments/media-types/application/vnd.etsi.timestamp-token\r\nSpecification: https://www.etsi.org/deliver/etsi_ts/102900_102999/102918/01.03.01_60/ts_102918v010301p.pdf",
+  "lastUpdatedDate": "14 Jun 2022",
+  "formatSourceID": 242,
+  "provenanceCompoundName": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Unstructured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.etsi.timestamp-token",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/1717",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "tst",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

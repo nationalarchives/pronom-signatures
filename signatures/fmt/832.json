@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1633,
+  "formatName": "Open Inventor File Format",
+  "version": "1.x",
+  "formatDescription": "Open Inventor is a 3D graphics toolkit designed by Silicon Graphics Incorporated.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Dec 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/832",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1189,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "23496E76656E746F722056312E{1}20(6173636969|62696E617279)",
+      "endianness": null,
+      "name": "Open Inventor 1.x",
+      "note": "#Inventor V1.{1} (ascii|binary)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "iv",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1634,
+      "relatedFormatName": "Open Inventor File Format"
+    }
+  ]
+}

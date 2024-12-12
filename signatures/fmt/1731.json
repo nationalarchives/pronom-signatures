@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2576,
+  "formatName": "PowerGraphics Image File",
+  "version": null,
+  "formatDescription": "PowerGraphics is a graphics program for the Atari line of computers. PowerGraphics Image is a raster image file created using this program.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/PowerGraphics",
+  "lastUpdatedDate": "14 Nov 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": "11/2023: Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.",
+  "formatSourceDate": "19 Jul 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1731",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2069,
+      "positionType": "Absolute from BOF",
+      "offset": 8,
+      "maxOffset": 0,
+      "byteSequence": "506F776572474658",
+      "endianness": null,
+      "name": "PowerGraphics Image File",
+      "note": "BOF:Offset of 8 followed by 'PowerGFX'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pgr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

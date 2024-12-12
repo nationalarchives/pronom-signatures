@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2151,
+  "formatName": "Sony PictureGear Studio PhotoAlbum",
+  "version": null,
+  "formatDescription": "PictureGear Studio is a creativity package published by Sony. .AMU is the native format of PhotoAlbum, for producing virtual collections of digital photographs. .AMD is a PhotoAlbum template.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1333",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1724,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "1000000001000001{0-288}424DB6BB",
+      "endianness": null,
+      "name": "Sony PictureGear Studio PhotoAlbum",
+      "note": "BOF: 0x1000000001000001{0-288}'BM\u00b6\u00bb'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "amu",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "amd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

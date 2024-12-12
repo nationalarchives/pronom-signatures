@@ -1,0 +1,98 @@
+{
+  "fileFormatID": 2239,
+  "formatName": "Corel Print House/Print Office Document",
+  "version": "5",
+  "formatDescription": "Corel Print House is a desktop publishing application. A software product called Corel Print Office shared the same underlying format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "27 Sep 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1421",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "cph",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cpd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cpo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "53040",
+      "description": "Corel PrintHouse/Office Document 5",
+      "files": [
+        {
+          "path": "Contents"
+        },
+        {
+          "path": "Header",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "01 05 00 00 08"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "53041",
+      "description": "Corel PrintHouse/Office Document 5",
+      "files": [
+        {
+          "path": "Contents"
+        },
+        {
+          "path": "Header",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "01 05 01 00 08"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1943,
+  "formatName": "Farbfeld Image Format",
+  "version": null,
+  "formatDescription": "Farbfeld is a simple and lossless raster image-format. Following a short header defining width and height the file consists of uncompressed, 16-bit RGBA values.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 May 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "https://tools.suckless.org/farbfeld/",
+  "formatSourceDate": "30 May 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1133",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1515,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6661726266656C64",
+      "endianness": null,
+      "name": "Farbfeld",
+      "note": "BOF: farbfeld"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ff",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

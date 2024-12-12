@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 229,
+  "formatName": "Adobe FrameMaker Interchange Format",
+  "version": null,
+  "formatDescription": "Adobe FrameMaker Interchange Format is an alternative representation of an Adobe FrameMaker document as a text file, using ASCII statements to convey its contents, graphics and formatting. It allows FrameMaker and other applications, or different versions of FrameMaker, to exchange information.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://help.adobe.com/en_US/framemaker/mifreference/mifref.pdf",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "04/2024 (v.118): Description and links added. Archives nationales (French National Archives).",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.mif",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/162",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 396,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "3C4D494646696C6520{4}3E2023",
+      "endianness": null,
+      "name": "Framemaker Interchange Format Document",
+      "note": "MIFFile statement followed by a comment"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 929,
+  "formatName": "Ogg Vorbis Codec Compressed Multimedia File",
+  "version": null,
+  "formatDescription": "Ogg is a open container format maintained by the Xiph.Org Foundation. Vorbis is a free and open-source software project headed by the Xiph.Org Foundation and produces an audio coding format and software reference encoder/decoder (codec) for lossy audio compression.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Aug 2015",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/ogg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/203",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 504,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4F6767530002{23}766F7262697300000000{19}4F676753",
+      "endianness": null,
+      "name": "Ogg Vorbis Codec Compressed Multimedia File",
+      "note": "Ogg Page header: Capture pattern (\u201coggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h); 23 bytes; page segment Identification header  (\u201cvorbis\u201d; version (00000000h)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ogg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1749,
+      "relatedFormatName": "Ogg Multimedia Container"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2512,
+  "formatName": "Covox ADPCM Audio Files",
+  "version": null,
+  "formatDescription": "Covox ADPCM Audio Files (also known as Covox 8-bit audio) is a title for a family of Adaptive Differential Pulse Code Modulation (ADPCM) formats, used for compressing 8-bit unsigned pulse code modulation. They were invented by Covox for use with Covox sound output devices. ADPCM is a lossy compression format containing audio data that are optimized for storing digitally recorded or sampled voice data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://wiki.multimedia.cx/index.php/Covox_ADPCM\r\n\r\nhttps://www.wikidata.org/wiki/Q105853888\r\n\r\nhttps://www.file-extensions.org/vmf-file-extension-covox-speech-thing-sample\r\n\r\nhttps://en.wikipedia.org/wiki/Covox_Speech_Thing\r\n\r\nhttps://www.online-convert.com/file-format/adpcm",
+  "lastUpdatedDate": "26 Apr 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Apr 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "Covox 8-bit audio",
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1676",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2010,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FF55FFAAFF55FFAA",
+      "endianness": null,
+      "name": "Covox ADPCM Audio Files | Covox 8-bit audio",
+      "note": "BOF; Offset: 0; Magic Bytes: 0xFF55FFAAFF55FFAA"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "v8",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cvx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "v2s",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "v3s",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "v4s",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vmf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

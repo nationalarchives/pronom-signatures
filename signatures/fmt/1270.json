@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 2088,
+  "formatName": "SketchUp Document",
+  "version": "16",
+  "formatDescription": "SketchUp is a 3D content creation tool.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "An .skp file is a SketchUp document. A SKB file is a backup document created by the Windows version of SketchUp only. SKB files appear as [filename].skb. The macOS version autosaves models with the \".skp\" extension as [filename]~.skp. The file structure is not different from that of a regular.skp file, but to open it, it may be necessary to change the extension to .skp.",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 224,
+  "provenanceCompoundName": "Datable / Datable",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1270",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1643,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "FFFEFF0E53006B0065007400630068005500700020004D006F00640065006C00FFFEFF{1}7B00310036",
+      "endianness": null,
+      "name": "SketchUp Version 16",
+      "note": "BOF: Magic bytes:'\u00ff\u00fe\u00ff.S.k.e.t.c.h.U.p. .M.o.d.e.l.\u00ff\u00fe\u00ff.{.1.6'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "skp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "skb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 866,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 867,
+      "relatedFormatName": "SketchUp Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2077,
+      "relatedFormatName": "SketchUp Document"
+    }
+  ]
+}

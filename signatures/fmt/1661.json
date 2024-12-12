@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 2488,
+  "formatName": "Yamaha Wave Audio",
+  "version": "Generic",
+  "formatDescription": "Yamaha Wave Audio signature describes formats relevant to Yamaha Wave files, these formats are proprietary and created by Yamaha. There are several versions of these file formats with a numerous examples of extensions. This entry describes generic Yamaha wave format, and PRONOM holds a separate entry on Yamaha TX Wave Audio. Please contact the PRONOM team if you have more information regarding Yamaha Wave formats.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Mar 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1661",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1996,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4C4D3839353300",
+      "endianness": null,
+      "name": "Yamaha Audio Generic",
+      "note": "BOF; Offset: 0; Magic Bytes: 'LM8953.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "s01",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "u01",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "f01",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "w01",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2498,
+      "relatedFormatName": "Yamaha TX Wave Audio"
+    }
+  ]
+}

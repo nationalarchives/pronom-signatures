@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 2480,
+  "formatName": "STAD PAC File",
+  "version": null,
+  "formatDescription": "STAD PAC is a raster graphics format developed by Peter Melzer and associated with the STAD (ST Aided Design) graphics application for Atari ST computers. File headers begin with either of two four character sequences (pM85 and pM86) dependent on whether the image data in the file is horizontally or vertically packed.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/STAD_PAC\r\n\r\nhttps://telparia.com/fileFormatSamples/image/stadPAC/",
+  "lastUpdatedDate": "16 Mar 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1653",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1988,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "704D38(35|36)",
+      "endianness": null,
+      "name": "STAD Pac File",
+      "note": "BOF:'pM' followed by either '35' or '36'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pac",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "seq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

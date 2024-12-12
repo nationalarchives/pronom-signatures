@@ -1,0 +1,93 @@
+{
+  "fileFormatID": 737,
+  "formatName": "WordPerfect for MS-DOS/Windows Document",
+  "version": "5.1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": "01 Nov 1989",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.wordperfect",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/394",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 131,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FF575043{5}0A0001{2}0000",
+      "endianness": null,
+      "name": "WordPerfect 5.1",
+      "note": "Document Header (Version=0.1)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wp5",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wpd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "w51",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 2702,
+      "relatedFormatName": "WordPerfect Macro File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2098,
+      "relatedFormatName": "NCH Dictation Audio File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 75,
+      "relatedFormatName": "WordPerfect for MS-DOS/Windows Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 281,
+      "relatedFormatName": "WordPerfect for Windows Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 736,
+      "relatedFormatName": "WordPerfect for MS-DOS Document"
+    }
+  ]
+}

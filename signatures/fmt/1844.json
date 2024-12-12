@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2696,
+  "formatName": "GNU Image Manipulation Program Palette File",
+  "version": null,
+  "formatDescription": "GNU Image Manipulation Program Palette File is a file format used by the GIMP graphics editor for storing colour palettes. It is a simple plain text format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/GIMP_Palette",
+  "lastUpdatedDate": "07 Mar 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Mar 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1844",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2188,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "47494D502050616C65747465",
+      "endianness": null,
+      "name": "GNU Image Manipulation Program Palette File",
+      "note": "BOF:'GIMP' followed by 0x20 (Space) followed by 'Palette'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gpl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

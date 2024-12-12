@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2527,
+  "formatName": "Microsoft Word for MS-DOS Printer Description File",
+  "version": "Generic",
+  "formatDescription": "Microsoft Word for MS-DOS Printer Description File is proprietary format of Microsoft Word application used on MS-DOS operating system. The Microsoft Word, word processing application for MS-DOS, was first released in 1983. Microsoft Word for MS-DOS application featured graphics video mode and mouse support in WYSIWYG (What You See Is What You Get) interface. The application could run in text mode or graphics mode with little visual difference between the two modes. There were several versions of Microsoft Word for MS-DOS from version 1 in 1983 to last version released in 1993. Each of these versions included support for printers by using the Printer Description File. These files were to be copied from Word Utilities disk to the Word Program disk which correspond to the printer being used. Additionally, Microsoft Word for MS-DOS included TTY Printer Description File, labelled as TTY.PRD, which supported teletype printing, and teletype printing with backspace files labelled as TTYBS.PRD. The header for each version is  similar to the .doc file format header but with one byte (3) difference. This is a generic entry for this format however, other versions respond to the same byte pattern in different versions as .doc formats for MS-DOS. Please see the full list of versions in PRONOM and using the links provided in the Notes section as well as, the manual for MS-DOS versions 1x which can be downloaded from WinWorld.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://web.archive.org/web/20220513091703/https://winworldpc.com/product/microsoft-word/1x-dos\r\n\r\nhttps://winworldpc.com/download/0b7555c5-bd3b-c3b2-11c3-a4c2a83d7054\r\n\r\nhttps://winworldpc.com/download/07c3ae55-133b-c3b2-11c3-a4c2a83d7054\r\n\r\nhttps://en.wikipedia.org/wiki/Doc_(computing)#Microsoft_Word_Binary_File_Format\r\n\r\nhttps://web.archive.org/web/20220517101947/https://en.wikipedia.org/wiki/History_of_Microsoft_Word\r\n\r\nhttps://www.docfly.com/blog/2020/a-brief-history-of-microsoft-word",
+  "lastUpdatedDate": "19 May 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "19 May 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.word.doc",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/1691",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2023,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "31BE030000AB0000000000000000",
+      "endianness": null,
+      "name": "Microsoft Word for MS-DOS Printer Description File (Generic)",
+      "note": "BOF; Offset: 0; Magic Bytes: 0x31BE030000AB0000000000000000"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "prd",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

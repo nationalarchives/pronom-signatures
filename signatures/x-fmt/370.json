@@ -1,0 +1,54 @@
+{
+  "fileFormatID": 542,
+  "formatName": "WordStar for MS-DOS Document",
+  "version": "3.0",
+  "formatDescription": "The WordStar format is the default proprietary plain text format for the word processing application of the same name. It was created in 1978 by MicroPro, originally for the CP/M operating system but later was used on other operating systems such as PC/MS-DOS. It was the first word processor to render the doument on screen as it would appear when printed. WordStar files often have the extension ws or ws follwed by their version number but it is also common for them to have no extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "http://justsolve.archiveteam.org/wiki/WordStar\r\nhttps://www.loc.gov/preservation/digital/formats/fdd/fdd000552",
+  "lastUpdatedDate": "29 Jul 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000552",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "Q105856544",
+      "identifierType": "Wikidata QID Identifier"
+    },
+    {
+      "identifierText": "x-fmt/370",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "ws3",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ws",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 378,
+      "relatedFormatName": "WordStar for MS-DOS Document"
+    }
+  ]
+}

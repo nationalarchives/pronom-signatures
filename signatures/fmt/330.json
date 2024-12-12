@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1075,
+  "formatName": "Peak Graphical Waveform File",
+  "version": null,
+  "formatDescription": "Peak files contain waveform information for audio files (e.g. wav or mp3). They allow some applications to generate a graphical representation of the waveform of the audio content of associated audio files, and can enable such audio files to be accessed more quickly by reducing the time it takes to draw the waveform of the audio content.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Oct 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "30 Mar 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/330",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 429,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "F106000000[01:02]0000{3}00{3}0000000000{4}FFFFFFFF00000000",
+      "endianness": null,
+      "name": "Peak File",
+      "note": "Signature based on recurring header byte sequence observed in sample test formats."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

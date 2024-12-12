@@ -1,0 +1,80 @@
+{
+  "fileFormatID": 728,
+  "formatName": "Windows Bitmap",
+  "version": "2.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.\r\nWindows bitmap 2.0 and OS/2 bitmap 1.0 are effectively the same format - the only difference is the data type of the width and height fields of the bitmap header \u2013 for Windows 2.0 bitmaps they are signed short integers, for OS/2 1.0 bitmaps they are unsigned shorts. For positive numbers the representation is the same. Consequently, the file formats cannot be distinguished with a file signature test. The PUID for OS/2 Bitmap 1.0 (x-fmt/25) has therefore been deprecated.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "11 Jul 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "BMP (2.0)",
+  "formatTypes": "Image (Raster)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "com.microsoft.bmp",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "fmt/115",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/bmp",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 117,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "424D{4}00000000{4}0C000000{4}0100(01|04|08|18)00",
+      "endianness": null,
+      "name": "Windows Bitmap 2.0",
+      "note": "BITMAPFILEHEADER: File Type identifier \u201cBM\u201d, file size (4 butes); two short integer reserved fields with values zero, long integer offset to bitmap image data + BITMAPINFOHEADER: length of bitmap header, long integer 12; number of color planes, short integer, always 1; number of bits per pixel, short integer, 1, 4, 8 or 24."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bmp",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "dib",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Equivalent to",
+      "relatedFormatID": 55,
+      "relatedFormatName": "OS/2 Bitmap"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 729,
+      "relatedFormatName": "Windows Bitmap"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 730,
+      "relatedFormatName": "Windows Bitmap"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 727,
+      "relatedFormatName": "Windows Bitmap"
+    }
+  ]
+}

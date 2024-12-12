@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2871,
+  "formatName": "IMF Package Asset Map",
+  "version": null,
+  "formatDescription": "The Interoperable Master Format (IMF) is a file-based media format, and an IMF Package (IMP) is a collection of media files with accompanying XML data describing the IMF Package structure. The Asset Map is an XML file that provides a mapping between the UUIDs and filenames used within an IMP. An Asset Map file should be found alongside the other IMP component files described within the file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://www.smpte-ra.org",
+  "lastUpdatedDate": "19 Apr 2024",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "19 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1997",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2352,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-1024}3C41737365744D6170{5-1024}687474703A2F2F7777772E736D7074652D72612E6F7267",
+      "endianness": null,
+      "name": "IMF Package Asset Map",
+      "note": "XML declaration, followed by <AssetMap opening tag, shortly followed by a reference to http://www.smpte-ra.org, included here to avoid any incidental clashes with non-IMF formats using similar tags. Note that this signature doesn\u2019t currently utilize any specific XML Namespace element for the Asset Map, although this could be included if there is a requirement to distinguish between different schema compliance."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

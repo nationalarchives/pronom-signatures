@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 62,
+  "formatName": "CorelDraw Compressed Drawing",
+  "version": "1",
+  "formatDescription": "The CorelDraw Compressed format is known to have been used by Corel ArtShow 5, with the .cdx extension, and Corel Web.Move, with the .cjw extension. CDX files can be opened in CorelDraw but CJW files can only be opened in Web.Move. Please let the PRONOM team know of any other instances of use for this format",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "27 Sep 2020",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Vector)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/31",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1788,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "434452434F4D5031",
+      "endianness": null,
+      "name": "CorelDraw Compressed 1",
+      "note": "BOF: 'CDRCOMP1'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdx",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cjw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

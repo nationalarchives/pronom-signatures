@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 289,
+  "formatName": "X-Windows Pixmap Image",
+  "version": "X10",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/x-xpixmap",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/208",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 620,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2F2A2058504D202A2F*0A7374617469632063686172202A20",
+      "endianness": null,
+      "name": "X-Windows Pixmap Image X10",
+      "note": "XPM files always start with the string \u201c/* XPM */\u201d. The line continues with whitespace and a possible comment, followed by the C declaration of a static char array \u201cstatic char * \u201c.  The file has \"};\" or \"} ;\" at the end or very near the end followed by white space."
+    },
+    {
+      "signatureID": 620,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "7D(3B|203B)",
+      "endianness": null,
+      "name": "X-Windows Pixmap Image X10",
+      "note": "XPM files always start with the string \u201c/* XPM */\u201d. The line continues with whitespace and a possible comment, followed by the C declaration of a static char array \u201cstatic char * \u201c.  The file has \"};\" or \"} ;\" at the end or very near the end followed by white space."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xpm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

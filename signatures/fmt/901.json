@@ -1,0 +1,90 @@
+{
+  "fileFormatID": 1706,
+  "formatName": "Microsoft Works Spreadsheet",
+  "version": "6-9",
+  "formatDescription": "Microsoft Works is a discontinued office suite developed by Microsoft. XLR files can contain either spreadsheet or chart data, and can be opened with Microsoft Works, Excel, and the Excel Viewer.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jun 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "21 Jun 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/901",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xlr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 684,
+      "relatedFormatName": "Microsoft Excel 97 Workbook (xls)"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "15020",
+      "description": "Microsoft Works Spreadsheet 6-9",
+      "files": [
+        {
+          "path": "Workbook",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "1",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'MS Works'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "containerType": "OLE2",
+      "id": "15025",
+      "description": "Microsoft Works Spreadsheet 6-9",
+      "files": [
+        {
+          "path": "Workbook",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "1",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'M'00'S'002000'W'00'o'00'r'00'k'00's'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

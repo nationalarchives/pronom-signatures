@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 1741,
+  "formatName": "Microsoft Picture It! Image File",
+  "version": "1",
+  "formatDescription": "Microsoft Picture It! is a discontinued photo editing application. MIX is its native format, and is similar though not identical to the Microsoft PhotoDraw Image Format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "12 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
+  "formatSourceDate": "12 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/936",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.mix",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mix",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "17015",
+      "description": "Microsoft Picture It! Image File",
+      "files": [
+        {
+          "path": "CompObj",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "32",
+                  "subSeqMaxOffset": "32",
+                  "sequence": "'Microsoft Picture It! version 1 Picture'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

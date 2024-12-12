@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1025,
+  "formatName": "Gridded Binary",
+  "version": "2.0",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "01 Nov 2010",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "Following up external submission. Signature submitted by The Alfred Wegener Institute for Polar and Marine Research, Germany.",
+  "formatSourceDate": "01 Nov 2010",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/285",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 301,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "47524942{3}02",
+      "endianness": null,
+      "name": "Gridded Binary 2.0",
+      "note": "GRIB indicator section GRIB (4 bytes), reserved + discipline (3 bytes), edition number (1 byte). EOF End Section (4 bytes)"
+    },
+    {
+      "signatureID": 301,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "37373737",
+      "endianness": null,
+      "name": "Gridded Binary 2.0",
+      "note": "GRIB indicator section GRIB (4 bytes), reserved + discipline (3 bytes), edition number (1 byte). EOF End Section (4 bytes)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "grb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "wmo",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

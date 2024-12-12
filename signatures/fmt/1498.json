@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2321,
+  "formatName": "Cool Edit/Adobe Audition Session File",
+  "version": "Binary",
+  "formatDescription": "Cool Edit Pro was a Digital Audio Workstation, acquired by Adobe in 2003. The product was renamed as Adobe Audition. This entry covers both Cool Edit, and early versions of the Adobe Audition software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "24 Oct 2021",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1498",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1871,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "434F4F4C4E455353",
+      "endianness": null,
+      "name": "Adobe Audition Session Binary",
+      "note": "BOF: 'COOLNESS'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ses",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

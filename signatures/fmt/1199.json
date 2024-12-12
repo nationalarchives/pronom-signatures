@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2009,
+  "formatName": "RData",
+  "version": "ASCII",
+  "formatDescription": "The RData format is created by the R development environment for statistical computing. The format serialises the entire workspace and can include data frames and other objects that can later be loaded back in to the R environment. By default the RData format is compressed within a GZip container.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "15 Aug 2018",
+  "formatSourceID": 188,
+  "provenanceCompoundName": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000470",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/1199",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1577,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "524441320A410A",
+      "endianness": null,
+      "name": "RData ASCII",
+      "note": "BOF: RDA2 \\n A \\n - described here: https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Serialization-Formats"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rdata",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 386,
+      "relatedFormatName": "GZIP Format"
+    }
+  ]
+}

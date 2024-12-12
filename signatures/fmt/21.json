@@ -1,0 +1,62 @@
+{
+  "fileFormatID": 694,
+  "formatName": "AutoCAD Drawing",
+  "version": "1.0",
+  "formatDescription": "The AutoCAD Drawing format is a vector graphics format, and is the native file format of AutoDesk's AutoCAD family of products. The format is proprietary and AutoDesk does not make details of its structure public. The information contained here is derived primarily from the OpenDWG Alliance's reverse-engineered documentation of the format, and should not therefore be regarded as definitive. The basic structure of a DWG file comprises a header section, a drawing class definitions section, the drawing object data, a drawing object map, which contains the locations of all the objects in the drawing, and an image data section, which may contain a raster image of the drawing in either Windows Bitmap (BMP) or Windows Metafile (WMF) format. DWG version 1.0 is the version of the format associated with Version 1.0 of AutoCAD.",
+  "releaseDate": "01 Dec 1982",
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Mar 2005",
+  "formatDisclosure": "None",
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "DWG (1.0)",
+  "formatTypes": "Image (Vector)",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": "DWG",
+  "identifiers": [
+    {
+      "identifierText": "fmt/21",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "image/vnd.dwg",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 83,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4D43302E30",
+      "endianness": null,
+      "name": "AutoCAD Drawing Format 1.0",
+      "note": "Header"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dwg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 710,
+      "relatedFormatName": "Drawing Interchange File Format (ASCII)"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 695,
+      "relatedFormatName": "AutoCAD Drawing"
+    }
+  ]
+}

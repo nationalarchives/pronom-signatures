@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 1256,
+  "formatName": "MS DOS Compression Format (KWAJ Variant)",
+  "version": null,
+  "formatDescription": "The MS-DOS compression format uses the LZSS algorithm to compress a single file into another single file, \r\nreplacing the last character in the filename with an underscore. It is implemented via the MS-DOS commands COMPRESS.EXE and EXPAND.EXE.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "A DOS compressed file will be named file.**_, so a .exe will look like file.ex_, a DOS compressed .jpg will look like file.jp_ etc.\r\n\r\nhttps://www.cabextract.org.uk/libmspack/doc/szdd_kwaj_format.html",
+  "lastUpdatedDate": "04 Mar 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2012",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/469",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 733,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "4B57414A88F027D1",
+      "endianness": null,
+      "name": "MS DOS Compression format (KWAJ)",
+      "note": "BOF: KWAJ\u02c6\u00f0'\u00d1"
+    }
+  ],
+  "externalSignatures": [],
+  "relationships": []
+}

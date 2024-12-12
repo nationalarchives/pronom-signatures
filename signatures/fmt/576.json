@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1364,
+  "formatName": "GraphPad Prism",
+  "version": "4",
+  "formatDescription": "GraphPad Prism is a scientific graphing and analysis application which organises, analyses and graphs repeated experiments, picks appropriate statistical tests, and interprets the results.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "28 Aug 2013",
+  "formatSourceID": 192,
+  "provenanceCompoundName": "Tessella / Tessella",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Aug 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/576",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 918,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5043464647524134",
+      "endianness": null,
+      "name": "GraphPad Prism 4",
+      "note": "BOF: PCFFGRA4"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pzf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

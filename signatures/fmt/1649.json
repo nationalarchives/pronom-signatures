@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2476,
+  "formatName": "AGS 4 Data Format",
+  "version": "4.0. 4.1",
+  "formatDescription": "The AGS Data Format was created in 1991 by the Association of Geotechnical and Geoenvironmental Specialists, as a way of transferring data between different organisations in the geotechnical/geoenvironmental industry. It provides a way of exchanging said data reliably, independent of software/ hardware and operating system, and to a consistent standard.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Official specification: https://www.ags.org.uk/content/uploads/2022/02/AGS4-v-4.1.1-2022.pdf\r\nOfficial website: https://www.ags.org.uk/data-format/",
+  "lastUpdatedDate": "09 May 2023",
+  "formatSourceID": 278,
+  "provenanceCompoundName": "AGS / Association of Geotechnical and Geoenvironmental Specialists",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Mar 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1649",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1986,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 4,
+      "byteSequence": "22(47524F5550|2A2A50524F4A)22*22{0-1}50524F4A5F4944222C22{0-1}(50524F4A5F4E414D45222C22|50524F4A5F41475322)*22{0-1}414242525F48444E47222C22{0-1}414242525F434F4445222C22",
+      "endianness": null,
+      "name": "AGS 4 Data Format",
+      "note": "Offset 0-4 from beginning of file, magic bytes: \"(GROUP|**PROJ)\"*\u201c{0-1}PROJ_ID\",{0-1}(\"PROJ_NAME\",\u201d|\"PROJ_AGS\",\")*\u201c{0-1}ABBR_HDNG\",\u201d{0-1}ABBR_CODE\",\""
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ags",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

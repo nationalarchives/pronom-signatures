@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 1059,
+  "formatName": "Play SID Audio",
+  "version": "1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/prs.sid",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/314",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 406,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "5053494400010076",
+      "endianness": null,
+      "name": "Play Sid Audio Version 1",
+      "note": "Header ASCII: PSID , followed by offset from the start of the file to the C64 binary data area\r\n(0x0076 for version 1 and 0x007C for version 2)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sid",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "psid",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1060,
+      "relatedFormatName": "Play SID Audio"
+    }
+  ]
+}

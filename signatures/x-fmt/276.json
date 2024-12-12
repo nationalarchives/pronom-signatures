@@ -1,0 +1,66 @@
+{
+  "fileFormatID": 408,
+  "formatName": "Microsoft Word for MS-DOS Document",
+  "version": "5.5",
+  "formatDescription": "Microsoft Word for MS-DOS Document is a proprietary binary format of Microsoft Word, word processing application, for MS-DOS first released in 1983. The first version was released on IBM PC DOS, developed by Microsoft, which Microsoft then re-branded as MS-DOS. The version was developed by Charles Simonyi and Richard Brodie firstly for Xenix in February 1983 (titled as \"Multi-Tool Word\") and in October 1983 for MS-DOS operating systems. The application featured graphics video mode, mouse and printer support (printer support was added in version 2) in WYSIWYG (What You See Is What You Get) interface and could run in text mode or graphics mode, with bold, italics, and underline features only available in the text mode. The version 5.5 of the format was released in 1990, with the release of Word for MS-MOS, which significantly changed the user interface from previous versions, with popup menus and dialog boxes, adding Mac/Windows-like pulldown menus and overlapping windows. Please see the full list of versions using the links provided in the Notes section.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://web.archive.org/web/20211222235433/https://winworldpc.com/product/microsoft-word/5x-dos\r\n\r\nhttps://en.wikipedia.org/wiki/Doc_(computing)#Microsoft_Word_Binary_File_Format\r\n\r\nhttps://web.archive.org/web/20220517101947/https://en.wikipedia.org/wiki/History_of_Microsoft_Word\r\n\r\nhttps://www.docfly.com/blog/2020/a-brief-history-of-microsoft-word",
+  "lastUpdatedDate": "19 May 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/msword",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "com.microsoft.word.doc",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/276",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 490,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "31BE000000AB0000000000000000{82}0000{18}(06|07)",
+      "endianness": null,
+      "name": "Microsoft Word for DOS 5.5",
+      "note": "Word signature (4 bytes) Reserved field (10 bytes) Flag (2 bytes) Version (2bytes)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "doc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2524,
+      "relatedFormatName": "Microsoft Word for MS-DOS Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 407,
+      "relatedFormatName": "Microsoft Word for MS-DOS Document"
+    }
+  ]
+}

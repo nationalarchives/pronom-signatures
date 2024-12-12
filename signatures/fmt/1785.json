@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2635,
+  "formatName": "FLR Database File",
+  "version": null,
+  "formatDescription": "FLR is a database file format produced by the Info File program by Softwood on the Amiga.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/FLR",
+  "lastUpdatedDate": "25 Oct 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "25 Oct 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1785",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2125,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3732323439",
+      "endianness": null,
+      "name": "FLR Database File",
+      "note": "BOF:'72249'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "flr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

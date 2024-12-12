@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1860,
+  "formatName": "M2TS",
+  "version": null,
+  "formatDescription": "M2TS is the video stream packet format used on Blu-ray discs. M2TS is similar to fmt/585 - MPEG-2 Transport Stream, but instead features 192 byte packets, with a 4 byte TP_extra_header preceeding each 188 byte transport packet. Filenames usually take the form 'xxxxx.mts' or xxxxx.m2ts' where xxxxx represents a numeric value, beginning with 00000 and incrementing by 1 for each stream.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "10 Jul 2017",
+  "formatSourceID": 225,
+  "provenanceCompoundName": "National Library of Scotland / National Library of Scotland",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1055",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1421,
+      "positionType": "Absolute from BOF",
+      "offset": 4,
+      "maxOffset": 0,
+      "byteSequence": "47{191}47{191}47{191}47{191}47{191}47{191}47{191}47",
+      "endianness": null,
+      "name": "M2TS",
+      "note": "BOF: offset 4, 0x47 sync byte appearing every 192 bytes from hereon. https://www.google.ch/patents/US7106946"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mts",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "m2ts",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

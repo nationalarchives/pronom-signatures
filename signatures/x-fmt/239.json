@@ -1,0 +1,88 @@
+{
+  "fileFormatID": 351,
+  "formatName": "Microsoft Access Database File",
+  "version": "97",
+  "formatDescription": "Microsoft Access Database File, formerly known as Jet MDB Database format, is proprietary file format developed and used by Microsoft as a native format for its Microsoft Access (formerly Microsoft Jet Database Engine) desktop database management system. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine, with version Microsoft Access 97 utilizing the Jet 3.5 database engine. The page size of the Jet 3 database engine is 2048 bytes. The .mde extension refers to protected Access database file with compiled VBA and macros. This entry records the version 97 of MDB file format, for a full list of versions please follow the links provided in the Notes section.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access\r\n\r\nhttps://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access\r\n\r\nhttps://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digital/formats/fdd/fdd000462.shtml\r\n\r\nhttp://web.archive.org/web/20111115230803/http://support.microsoft.com/kb/178881",
+  "lastUpdatedDate": "02 May 2023",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fdd000462",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "Q48005022",
+      "identifierType": "Wikidata QID Identifier"
+    },
+    {
+      "identifierText": "x-fmt/239",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 272,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "000100005374616E64617264204A65742044420000000000",
+      "endianness": "Little-endian",
+      "name": "MS Access 97",
+      "note": "Jet 3 DB header plus variably-positioned AccessVersion 07. Two byte sequences. Sequence one character sequence, Standard Jet DB. Sequence two character sequence AccessVersion{1-1024}07.[0:9][0:9]"
+    },
+    {
+      "signatureID": 272,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "41636365737356657273696F6E{0-1024}30372E[30:39][30:39]",
+      "endianness": "Little-endian",
+      "name": "MS Access 97",
+      "note": "Jet 3 DB header plus variably-positioned AccessVersion 07. Two byte sequences. Sequence one character sequence, Standard Jet DB. Sequence two character sequence AccessVersion{1-1024}07.[0:9][0:9]"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mdb",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mda",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mdt",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mde",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 352,
+      "relatedFormatName": "Microsoft Access Database File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 350,
+      "relatedFormatName": "Microsoft Access Database File"
+    }
+  ]
+}

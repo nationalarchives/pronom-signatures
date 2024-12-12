@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1468,
+  "formatName": "Minolta RAW",
+  "version": null,
+  "formatDescription": "Minolta RAW is the proprietary raw format of digital cameras manufacturer Minolta or Konica Minolta.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Sep 2014",
+  "formatSourceID": 209,
+  "provenanceCompoundName": "Sebastian Lasse / Redaktor CMS",
+  "formatProvenance": "http://webpages.charter.net/bbiggers/DCExperiments/html/body_mrw_file_format.html",
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/669",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1000,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "004D524D00",
+      "endianness": null,
+      "name": "Minolta RAW",
+      "note": "BOF: .MRM."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mrw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

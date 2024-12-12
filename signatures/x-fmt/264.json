@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 384,
+  "formatName": "RAR Archive",
+  "version": "2.0",
+  "formatDescription": "RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.rar",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/264",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 590,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "526172211A0700{2}73{34}14",
+      "endianness": null,
+      "name": "RAR Archive 2",
+      "note": "Marker block 0x526172211A0700 + Archive header type 0x73 + at offset 44 RAR version needed to extract file 0x14=20 dec = vers 2.0"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

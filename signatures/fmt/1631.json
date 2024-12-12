@@ -1,0 +1,76 @@
+{
+  "fileFormatID": 2458,
+  "formatName": "Adobe InDesign Document",
+  "version": "CS5.5",
+  "formatDescription": "Adobe InDesign is a desktop publishing application developed and produced by Adobe Inc., first released in 1999. It is the successor to PageMaker, software previously created by Aldus Corporation in 1985, which was subsequently acquired by Adobe. It can be used to produce a number of works such as posters, flyers, brochures, magazines, newspapers, presentations and books. InDesign supports XML, stylesheets and other coding markup, providing functionality for exporting tagged text content for use in other digital and online formats.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/InDesign_INDD",
+  "lastUpdatedDate": "24 Feb 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "24 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1631",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1971,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54(01|02){4}(07000000|00000007)05",
+      "endianness": null,
+      "name": "Adobe InDesign Document CS5.5",
+      "note": "BOF:0x0606 (2 x Acknowledge) followed by '\u00ed\u00f5\u00d8' followed by 0x1D (Group Separator) followed by 'F\u00e5\u00bd1\u00ef\u00e7\u00fet\u00b7' followed by 0x1D (Group Separator) followed by 'DOCUMENT' followed by either 0x01 (Start of Header) or 0x02 (Start of Text) followed by a fixed gap of 4 followed by either 0x07000000 (Bell followed by 3 x Null) or 0x00000007 (3 x Null followed by Bell) followed by 0x05 (Enquiry)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "indd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ind",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "indt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 865,
+      "relatedFormatName": "Adobe InDesign Document"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1339,
+      "relatedFormatName": "Adobe InDesign Document"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1340,
+      "relatedFormatName": "Adobe InDesign Document"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1339,
+      "relatedFormatName": "Adobe InDesign Document"
+    }
+  ]
+}

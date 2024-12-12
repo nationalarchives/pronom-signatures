@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2404,
+  "formatName": "SPYne Containers",
+  "version": null,
+  "formatDescription": "SPYne containers were created by John Lannetta c1995 and are found in Compuserve's CBM applications forum and in COMP.BINARIES.CBM newsgroup. The format is self-extracting and does not employ any compression. The word \"SPYNE\" does not represent any acronym, but is meant to represent a \"spine\", with files linked together like a human spine.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://ist.uwaterloo.ca/~schepers/formats/SPYNE.TXT\r\n\r\nhttps://cbm8bit.com/articles/user-contributions/archival_formats",
+  "lastUpdatedDate": "04 Jan 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Jan 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1579",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1929,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "A70220A0E5A90A8D",
+      "endianness": null,
+      "name": "SPY (SPYne Containers)",
+      "note": "BOF; Offset: 0; Magic Bytes: 0xA70220A0E5A90A8D"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "spy",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

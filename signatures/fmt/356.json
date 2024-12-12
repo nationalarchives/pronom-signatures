@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1102,
+  "formatName": "Adaptive Multi-Rate Audio",
+  "version": null,
+  "formatDescription": "The Adaptive Multi-Rate (AMR or AMR-NB or GSM-AMR) audio codec is an audio compression format optimized for speech coding. AMR speech codec consists of a multi-rate narrowband speech codec that encodes narrowband (200\u20133400 Hz) signals at variable bit rates ranging from 4.75 to 12.2 kbit/s with toll quality speech starting at 7.4 kbit/s.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "17 Jun 2011",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Jun 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "AMR-NB, GSM-AMR",
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/amr",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/356",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 524,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "2321414D520A",
+      "endianness": null,
+      "name": "Adaptive Multi-Rate Audio",
+      "note": "Header (ASCII): #!AMR."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "amr",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Can be contained by",
+      "relatedFormatID": 1103,
+      "relatedFormatName": "3GPP Audio/Video File"
+    }
+  ]
+}

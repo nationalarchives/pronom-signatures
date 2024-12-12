@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2070,
+  "formatName": "Raw Flux Image",
+  "version": null,
+  "formatDescription": "The format is used to dump floppy disk images with the bbc-fdc controller. The bbc-fdc controller is a project which allows the direct connection of floppy disk drives with 34 pin ribbon cables to the Raspberry Pi for the purpose of reading floppy disks. The data stream within the file represents the magnetic flux of a disk drive reading a floppy.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://github.com/picosonic/bbc-fdc/blob/master/tools/rfi.h",
+  "lastUpdatedDate": "18 Jan 2020",
+  "formatSourceID": 238,
+  "provenanceCompoundName": "SLUB Dresden / S\u00e4chsische Landesbibliothek \u2013 Staats- und Universit\u00e4tsbibliothek Dresden",
+  "formatProvenance": null,
+  "formatSourceDate": "18 Jan 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1252",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1627,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5246497B646174653A",
+      "endianness": null,
+      "name": "Raw Flux Image",
+      "note": "BOF: 'RFI{date:'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rfi",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

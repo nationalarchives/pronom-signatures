@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1627,
+  "formatName": "Scriptware Script Format",
+  "version": null,
+  "formatDescription": "Scriptware is a software application for creating scripts and screenplays.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "16 Dec 2015",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Dec 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/826",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1181,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "535733(41|43)2D536372697074776172652062792043696E6F766174696F6E",
+      "endianness": null,
+      "name": "Scriptware SW3",
+      "note": "SW3(A|C)-Scriptware by Cinovation"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "sw3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

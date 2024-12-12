@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 1502,
+  "formatName": "Broadcast WAVE",
+  "version": "0 PCM Encoding",
+  "formatDescription": "Broadcast WAVE is a chunk-based audio format developed by the European Broadcasting Union, and based on the Microsoft WAVE format, which is in turn based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, a BWAVE file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It comprises a RIFF header with a WAVE data type identifier, followed by a series of chunks. Every file must include a Broadcast Audio Extension chunk, containing metadata required for exchange of information between broadcasters, a Format chunk, which describes the format of the audio data, and a Data chunk, containing the audio data itself. BWAVE files which contain MPEG-encoded audio data must also include a Fact chunk, containing file-dependent information about the audio data, and an MPEG Audio Extension chunk, containing extra information required to describe the MPEG encoding.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Jun 2022",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Feb 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "BWAVE (0), BWF (0)",
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": "WAVE",
+  "identifiers": [
+    {
+      "identifierText": "audio/x-wav",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/703",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 129,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}57415645*62657874{350}0000*666D7420{4}0100",
+      "endianness": null,
+      "name": "BWAVE PCM 0",
+      "note": "RIFF header, WAVE ID, BEXT chunk (Version=0), Format chunk"
+    },
+    {
+      "signatureID": 826,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "52494646{4}57415645*666D7420{4}0100*62657874{350}0000",
+      "endianness": null,
+      "name": "BWAVE PCM 0 variant",
+      "note": "RIFF header, WAVE ID, Format chunk, BEXT chunk (Version=0)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wav",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 654,
+      "relatedFormatName": "Waveform Audio"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 735,
+      "relatedFormatName": "Broadcast WAVE"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 784,
+      "relatedFormatName": "Waveform Audio (PCMWAVEFORMAT)"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 785,
+      "relatedFormatName": "Waveform Audio (WAVEFORMATEX)"
+    }
+  ]
+}

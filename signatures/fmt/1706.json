@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 2542,
+  "formatName": "Persuasion Windows Document",
+  "version": "2.0",
+  "formatDescription": "Persuasion Windows Document format is part of Adulus Persuasion format family. The format is created using the Aldus Persuasion (now discontinued) presentation program software developed by Peter Polash in 1988 originally for the Macintosh platform by Aldus Corporation. Following a merger of Adobe Systems and Adulus Corporation in 1994, the software was re-branded to Adobe Persuasion and a Microsoft Windows version was released. There were two versions released for Macintosh only, then starting with version 2.x, a version for Windows was released with each new release up to version 4. Adobe discontinued production of the software in September 1997. This format entry describes the variation of the format released with version 2.x of Adulus Persuasion for Microsoft Windows.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Adobe_Persuasion\r\n\r\nhttp://fileformats.archiveteam.org/wiki/Persuasion\r\n\r\nhttps://adobe.fandom.com/wiki/Adobe_Persuasion",
+  "lastUpdatedDate": "14 Jun 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "14 Jun 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1706",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2039,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "000000000000FF99{100}5350050002",
+      "endianness": null,
+      "name": "Persuasion Windows Document v2",
+      "note": "BOF; Offset: 0; Magic Bytes: 000000000000FF99 then a sequence of hundred wildcard bytes followed by 0x5350050002"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pr2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "at2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 2543,
+      "relatedFormatName": "Persuasion Windows Document"
+    }
+  ]
+}

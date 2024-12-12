@@ -1,0 +1,69 @@
+{
+  "fileFormatID": 1789,
+  "formatName": "Binary Property List",
+  "version": null,
+  "formatDescription": "In the OS X, iOS, NeXTSTEP, and GNUstep programming frameworks, property list files store serialized objects. It is the standard way to save and load data between the internal representation within the objects defined in an Objective-C program and disk files, in order to store program settings and other data. This is the binary version but there is also an XML version of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Binary",
+  "formatNote": null,
+  "lastUpdatedDate": "06 Feb 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Feb 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/984",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1345,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "62706C6973743030",
+      "endianness": null,
+      "name": "Binary Property List",
+      "note": "bplist00"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "plist",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "nib",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "aae",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "iMovieProj",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ezdraw",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1670,
+      "relatedFormatName": "Apple Safari Webarchive"
+    }
+  ]
+}

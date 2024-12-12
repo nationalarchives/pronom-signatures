@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 208,
+  "formatName": "Paradox Database Table",
+  "version": "7",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Aug 2005",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/147",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 516,
+      "positionType": "Absolute from BOF",
+      "offset": 2,
+      "maxOffset": null,
+      "byteSequence": "0008(00|02)[01:20]{51}0C{34}00000000",
+      "endianness": null,
+      "name": "Paradox Database Table 7",
+      "note": "Header: offset 2 contains 2 byte length of header block (always 2048 little-endian (0008h)); 0ffset 4 a 1 byte code of 00 or 02 for indexed or non-indexed database table, respectively; offset 5, 1 byte indicting maximum block size ( 1 = 1024, 32=32768 in steps of 1 k); offset 39h or 57 decimal a byte indicating table version (0Ch) ; offset 5Ch or 92 decimal 00000000h indicating file is not encrypted."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "db",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

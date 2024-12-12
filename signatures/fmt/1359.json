@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2177,
+  "formatName": "Softdisk Text Compressor",
+  "version": null,
+  "formatDescription": "Softdisk Text Compresssor was a format used by Softdisk Publishing in the 1990s in its disk magazines.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "06 Mar 2020",
+  "formatSourceID": 216,
+  "provenanceCompoundName": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+  "formatProvenance": null,
+  "formatSourceDate": "06 Mar 2020",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1359",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1742,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "034354303031",
+      "endianness": null,
+      "name": "Softdisk Text Compressor",
+      "note": "Byte sequence .CT0011 (03 43 54 30 30 31)."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ctx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

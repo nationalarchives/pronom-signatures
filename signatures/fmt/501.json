@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 1288,
+  "formatName": "PostScript",
+  "version": "3.1",
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Feb 2013",
+  "formatSourceID": 178,
+  "provenanceCompoundName": "National Library of New Zealand / National Library of New Zealand",
+  "formatProvenance": "Whilst format does not appear to currently have a publically available specification, it appears to be an extension to PostScript 3.0 (http://partners.adobe.com/public/developer/en/ps/5001.DSC_Spec.pdf)",
+  "formatSourceDate": "26 Feb 2013",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/postscript",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/501",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 777,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "252150532D41646F62652D332E31",
+      "endianness": null,
+      "name": "PostScript DSC 3.1",
+      "note": "BOF - %!PS-Adobe-3.1"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ps",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 331,
+      "relatedFormatName": "Encapsulated PostScript File Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1073,
+      "relatedFormatName": "EndNote Import File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 773,
+      "relatedFormatName": "PostScript"
+    }
+  ]
+}

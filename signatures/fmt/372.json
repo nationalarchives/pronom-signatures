@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1119,
+  "formatName": "Earth Resource Satellite Image Header Format",
+  "version": null,
+  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Ongoing DROID signature research.",
+  "lastUpdatedDate": "15 Feb 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Nov 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "GIS, Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/372",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 543,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4461746173657448656164657220426567696E",
+      "endianness": null,
+      "name": "Earth Resource Satellite image header format",
+      "note": "Header ASCII: 'DatasetHeader Begin'. Footer ASCII: 'DatasetHeader End.'"
+    },
+    {
+      "signatureID": 543,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 3,
+      "byteSequence": "4461746173657448656164657220456E640A",
+      "endianness": null,
+      "name": "Earth Resource Satellite image header format",
+      "note": "Header ASCII: 'DatasetHeader Begin'. Footer ASCII: 'DatasetHeader End.'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ers",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

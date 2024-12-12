@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2450,
+  "formatName": "Art Of Noise",
+  "version": "4 Channel Module",
+  "formatDescription": "Aon files produced by ArtOfNoise music tracker software, freeware which was available on the Commodore Amiga. It was intended to be a soundtracker suited to synthetic songs, with a wider range of instruments and effects than comparable software. Originally made in 4 channel mode, a later 8 channel version was produced.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Specification: https://ftp.modland.com/pub/documents/format_documentation/Art%20Of%20Noise%20(.aon).txt\r\n\r\nSamples:\r\nhttps://ftp.modland.com/pub/modules/Art%20Of%20Noise/",
+  "lastUpdatedDate": "17 Feb 2022",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "17 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1623",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1964,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "414F4E34",
+      "endianness": null,
+      "name": "Art Of Noise - 4 Channel Module",
+      "note": "BOF Absolute from beginning of file, magic bytes: AON4"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aon",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1884,
+  "formatName": "AVCHD Thumbnail Index File",
+  "version": null,
+  "formatDescription": "AVCHD (Advanced Video Coding High Definition) is a file-based format for the digital recording and playback of high-definition video. The Thumbnail Index file stores an index to AVCHD thumbails, which are JPEG files with a .tdt extension.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jul 2017",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jul 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1077",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1458,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "5449445830313030",
+      "endianness": null,
+      "name": "AVCHD Thumbnail Index File",
+      "note": "BOF: TIDX0100"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tid",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

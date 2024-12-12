@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2651,
+  "formatName": "Multimedia Viewer Book",
+  "version": null,
+  "formatDescription": "Multimedia Viewer Book is a format developed by Microsoft and used by programs such as Encarta to provide interactive, browsable multimedia. The format is very similar to the Microsoft Help .hlp format fmt/474, and a decompiler for the file format, helpdeco is available under a GNU license: https://github.com/pmachapman/helpdeco. The .hlp format this is based on was deprecated with Windows Vista.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Nov 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1800",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2139,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3F5F0300*6C031B000100",
+      "endianness": null,
+      "name": "Multimedia Viewer Book",
+      "note": "BOF offset 0, 4 byte magic 0x3F5F0300, later SYSTEMHEADER 0x6C03, Format version WMVC/MMVC media view file: 0x1B00, Major version: 0x0100. Reference: http://delphi-kb.blogspot.com/2010/07/detailed-description-of-winhelp-file.html"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mvb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

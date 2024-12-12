@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 1606,
+  "formatName": "MATLAB Mat File",
+  "version": "Level 5",
+  "formatDescription": "A Mat-file stores data in binary form. You can read and write Mat-files using MATLAB. Level 5 MAT-file formats are compatible with MATLAB version 5 and upwards.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "09 Dec 2021",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Nov 2015",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/806",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1171,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D41544C414220352E30{114}(0001494D|01004D49)",
+      "endianness": null,
+      "name": "MATLAB Mat file 5",
+      "note": "MATLAB 5.0{114}(..MI|..IM)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mat",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fig",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2375,
+      "relatedFormatName": "MATLAB Mat File"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 1629,
+      "relatedFormatName": "MATLAB Mat File"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2375,
+      "relatedFormatName": "MATLAB Mat File"
+    }
+  ]
+}

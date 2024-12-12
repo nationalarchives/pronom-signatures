@@ -1,0 +1,184 @@
+{
+  "fileFormatID": 923,
+  "formatName": "MPEG Audio Stream Layer II",
+  "version": null,
+  "formatDescription": "MPEG Audio Stream Layer II is a lossy audio compression format defined by ISO/IEC 11172-3 standard. The format was initiated by the Digital Audio Broadcast (DAB) project financed by the European Union as a part of the EUREKA research program in the late 1980s. The format first appeared in early 1990s, with its encoding derived from the MUSICAM (Masking pattern adapted Universal Subband Integrated Coding And Multiplexing) audio codec, chosen for its simplicity and error resistance. It is a predecessor to MPEG 1/2 Audio Layer III and often referred to as MP2.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000338.shtml\r\n\r\nhttps://en.wikipedia.org/wiki/MPEG-1_Audio_Layer_II\r\n\r\nhttps://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/\r\n\r\nhttp://www.library.snls.org.sz/archive/doc/wikipedia/wikipedia-terodump-0.1/tero-dump/wikipedia/mp/MP3.html",
+  "lastUpdatedDate": "06 Oct 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "27 Oct 2009",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/mpeg",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fdd000338",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "fmt/198",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 495,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFC[10:EB]{45-1726}FFFC[10:EB]{45-1726}FFFC[10:EB]{45-1726}FFFC[10:EB]{45-1726}",
+      "endianness": null,
+      "name": "MPEG-1 Audio Layer II (protected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file. Frame header: MPEG-1, layer II, protected (FFFCh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value Ebh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFCh) repeat"
+    },
+    {
+      "signatureID": 496,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFD[10:EB]{45-1726}FFFD[10:EB]{45-1726}FFFD[10:EB]{45-1726}FFFD[10:EB]{45-1726}",
+      "endianness": null,
+      "name": "MPEG-1 Audio Layer II (unprotected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-1, layer II, unprotected (FFFDh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFDh) repeat"
+    },
+    {
+      "signatureID": 497,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFF4[10:EB]{45-1726}FFF4[10:EB]{45-1726}FFF4[10:EB]{45-1726}FFF4[10:EB]{45-1726}",
+      "endianness": null,
+      "name": "MPEG-2 Audio Layer II (protected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer II, protected (FFF4h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value Ebh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF4h) repeat"
+    },
+    {
+      "signatureID": 498,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFF5[10:EB]{45-1726}FFF5[10:EB]{45-1726}FFF5[10:EB]{45-1726}FFF5[10:EB]{45-1726}",
+      "endianness": null,
+      "name": "MPEG-2 Audio Layer II (unprotected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer II, unprotected (FFF5h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF5h); repeat"
+    },
+    {
+      "signatureID": 499,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": null,
+      "name": "MPEG-1 Audio Layer II with ID3v2 Metadata Tag (protected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-1, layer II, protected (FFFCh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFCh) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 499,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFC[10:EB]{45-1726}FFFC[10:EB]{45-1726}FFFC[10:EB]{45-1726}FFFC[10:EB]{45-1726}FFFC[10:EB]{7-500}000000{36-1426}",
+      "endianness": null,
+      "name": "MPEG-1 Audio Layer II with ID3v2 Metadata Tag (protected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-1, layer II, protected (FFFCh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFCh) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 500,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": null,
+      "name": "MPEG-1 Audio Layer II with ID3v2 Metadata Tag (unprotected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file. Frame header: MPEG-1, layer II, unprotected (FFFDh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFDh) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 500,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFFD[10:EB]{45-1726}FFFD[10:EB]{45-1726}FFFD[10:EB]{45-1726}FFFD[10:EB]{45-1726}FFFD[10:EB]{7-500}000000{36-1426}",
+      "endianness": null,
+      "name": "MPEG-1 Audio Layer II with ID3v2 Metadata Tag (unprotected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file. Frame header: MPEG-1, layer II, unprotected (FFFDh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFDh) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 501,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": null,
+      "name": "MPEG-2 Audio Layer II with ID3v2 Metadata Tag (protected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer II, protected (FFF4h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF4h) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 501,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFF4[10:EB]{45-1726}FFF4[10:EB]{45-1726}FFF4[10:EB]{45-1726}FFF4[10:EB]{45-1726}FFF4[10:EB]{7-500}000000{36-1426}",
+      "endianness": null,
+      "name": "MPEG-2 Audio Layer II with ID3v2 Metadata Tag (protected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer II, protected (FFF4h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF4h) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 502,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "494433",
+      "endianness": null,
+      "name": "MPEG-2 Audio Layer II with ID3v2 Metadata Tag (unprotected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer II, unprotected (FFF5h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF5h) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    },
+    {
+      "signatureID": 502,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "FFF5[10:EB]{45-1726}FFF5[10:EB]{45-1726}FFF5[10:EB]{45-1726}FFF5[10:EB]{45-1726}FFF5[10:EB]{7-500}000000{36-1426}",
+      "endianness": null,
+      "name": "MPEG-2 Audio Layer II with ID3v2 Metadata Tag (unprotected)",
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer II, unprotected (FFF5h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF5h) Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF. The BOF byte sequence represents the MP3 ID3 tag."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mp2",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mpw",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "mpa",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 425,
+      "relatedFormatName": "MPEG 1/2 Audio Layer 3 Streaming"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 1092,
+      "relatedFormatName": "MPEG 1/2 Audio Layer I"
+    }
+  ]
+}

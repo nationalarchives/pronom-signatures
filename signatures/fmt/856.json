@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 1657,
+  "formatName": "Personal Ancestral File (PAF)",
+  "version": "5",
+  "formatDescription": "Personal Ancestral File was the name a genealogy software program made available by The Church of Jesus Christ of Latter-day Saints. PAF is the native data format of the software, which was discontinued in 2013.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Jan 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Jan 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/856",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1213,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3530300035303000504146",
+      "endianness": null,
+      "name": "PAF 5",
+      "note": "BOF: 500.500.PAF"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "paf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1656,
+      "relatedFormatName": "Personal Ancestral File (PAF)"
+    }
+  ]
+}

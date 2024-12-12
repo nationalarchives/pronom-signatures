@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2613,
+  "formatName": "MacBinary",
+  "version": "III",
+  "formatDescription": "MacBinary is a format for the encoding of Macintosh files for transmission or storage on other operating systems. This means that all system specific aspects of the file can be reconstituted after transmission. The file itself combines the two forks of a MacOS file into a single file alongside the metadata.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Aug 2022",
+  "formatSourceID": 220,
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1763",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2103,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00{73}00{7}00{19}6D42494E{16}82",
+      "endianness": null,
+      "name": "MacBinary III",
+      "note": "BOF; Offset: 0; Byte Sequence: 00x00 repeated in 73 bytes and then 7 bytes followed by 'mBIN' and then in 16 bytes 00x82"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bin",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 2612,
+      "relatedFormatName": "MacBinary"
+    }
+  ]
+}

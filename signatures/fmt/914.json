@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1719,
+  "formatName": "Caligari trueSpace File Format",
+  "version": "Binary",
+  "formatDescription": "TrueSpace was a commercial 3D computer graphics and animation software originally developed by Caligari Corporation before being acquired by Microsoft. The .scn extension indicates a scene, the .cob extension indicates an object.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "05 Jul 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "05 Jul 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/914",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1265,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "43616C6967617269205630302E303142",
+      "endianness": null,
+      "name": "Caligari trueSpace Binary",
+      "note": "BOF: Magic: 'Caligari ' Version: 'V00.01' Binary flag: 'B'\r\nSpecification: http://web.archive.org/web/20060118005319/http://internet.caligari.com/pub/info/scncob4.zip"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cob",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "scn",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

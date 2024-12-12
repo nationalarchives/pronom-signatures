@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 1776,
+  "formatName": "Microsoft Windows Movie Maker File",
+  "version": null,
+  "formatDescription": "Windows Movie Maker is video editing software by Microsoft. A .mswmm file won't typically contain any source audio or video data, rather it will contain references or pointers to the source data. For this reason extracting a .mswmm file from its context may result in the movie being unable to play. A movie exported to a video format from within the application will contain the appropriate data for portable playback.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Sep 2016",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "This format is identifiable via a container signature in DROID 6 and later.",
+  "formatSourceDate": "22 Sep 2016",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Video",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/971",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "mswmm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [
+    {
+      "containerType": "OLE2",
+      "id": "29000",
+      "description": "Microsoft Windows Movie Maker File",
+      "files": [
+        {
+          "path": "ProducerData"
+        },
+        {
+          "path": "WmtoolsValid"
+        }
+      ]
+    }
+  ]
+}

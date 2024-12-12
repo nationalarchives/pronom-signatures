@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2608,
+  "formatName": "Media Descriptor Sidecar File",
+  "version": null,
+  "formatDescription": "Media Descriptor Sidecar File contains metadata and structural information about the Media Descriptor File. It is found alongside files with the extension .mdf. These files are created from the software Alcohol %120 which was developed by Alcohol Soft.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "26 Aug 2022",
+  "formatSourceID": 293,
+  "provenanceCompoundName": "The Royal Danish Library / The Royal Danish Library",
+  "formatProvenance": null,
+  "formatSourceDate": "26 Aug 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1759",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2097,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D454449412044455343524950544F52",
+      "endianness": null,
+      "name": "Media Descriptor Sidecar File",
+      "note": "BOF; Offset:0; Magic Bytes: 'MEDIA DESCRIPTOR'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mds",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

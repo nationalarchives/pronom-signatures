@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2293,
+  "formatName": "MIG Graphics File",
+  "version": null,
+  "formatDescription": "MIG is a graphics (raster image) file format for the MSX system, created by Louthrax. It is related to the MIF file, improving on its ability to browse large, interlaced MSX2 pictures. It utlises TeamBomba's decompression tool BitBuster.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/MIG\r\n\r\nhttps://www.louthrax.net/mgr/mifpackage.html\r\n\r\nhttps://sourceforge.net/p/recoil/bugs/31/\r\n\r\nhttps://www.msx.org/forum/msx-talk/software/mif-package-22-released\r\n\r\nhttps://msxhub.com/MIGVIEW",
+  "lastUpdatedDate": "16 Oct 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Oct 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1470",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1841,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4D53584D4947",
+      "endianness": null,
+      "name": "MIG Graphics File",
+      "note": "BOF: 'MSXMIG'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mig",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

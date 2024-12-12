@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2376,
+  "formatName": "NetWare Loadable Module",
+  "version": null,
+  "formatDescription": "A NetWare Loadable Module (NLM) is a loadable kernel module (a binary code module) that can be loaded into Novell's NetWare operating system. NLMs can implement hardware drivers, server functions (e.g. clustering), applications (e.g. GroupWise), system libraries or utilities.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/NetWare_Loadable_Module\r\n\r\nhttps://dbpedia.org/page/NetWare_Loadable_Module",
+  "lastUpdatedDate": "16 Nov 2021",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "16 Nov 2021",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1551",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1895,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "4E657457617265204C6F616461626C65204D6F64756C651A04",
+      "endianness": null,
+      "name": "NetWare Loadable Module",
+      "note": "BOF:'NetWare Loadable Module' followed by 0x1A followed by 0x04"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "nlm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

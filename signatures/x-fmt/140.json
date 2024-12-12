@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 201,
+  "formatName": "Silicon Graphics Image",
+  "version": null,
+  "formatDescription": "Silicon Graphics Image (SGI) or the RGB file format is the native raster graphics file format for Silicon Graphics workstations",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "16 Mar 2012",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "image/x-sgi-bw",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/140",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 623,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "01DA(00|01)(01|02)00(01|02|03){4}00(01|03|04){80}00(00|01|02|03){368}0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "endianness": "Big-endian",
+      "name": "Silicon Graphics Image",
+      "note": "Magic number (integer 474=0x01DA) + storage format (0 or 1) + number of bytes per pixel channel(1 or 2) + Number of dimensions (1, 2 or 3)+ number of channels (1, 3, or 4) + dummy + colour map id"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "bw",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rgb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

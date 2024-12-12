@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2444,
+  "formatName": "Devicetree Blob (DTB)",
+  "version": "17",
+  "formatDescription": "DeviceTree Blobs are a binary representation of a DeviceTree, which represents computer hardware layout, addresses, and interconnections. They enable details to be passed to the operating system as it boots up, instead of hard coding details of a device into that operating system. This signature describes version 17 of DeviceTree, however it may apply to other versions of the dtb file. Please get in touch if you have information which can help refine this signature.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://github.com/devicetree-org/devicetree-specification/releases/download/v0.3/devicetree-specification-v0.3.pdf",
+  "lastUpdatedDate": "03 Feb 2022",
+  "formatSourceID": 273,
+  "provenanceCompoundName": "Oliver Mattos / Oliver Mattos",
+  "formatProvenance": null,
+  "formatSourceDate": "03 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1617",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1952,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "D00DFEED",
+      "endianness": "Big-endian",
+      "name": "Devicetree Blob (DTB)",
+      "note": "Magic bytes, offset zero: \u00d0(carriage return)\u00fe\u00ed"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dtb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

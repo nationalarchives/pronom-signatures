@@ -1,0 +1,61 @@
+{
+  "fileFormatID": 385,
+  "formatName": "Tape Archive Format",
+  "version": null,
+  "formatDescription": "An archive format originally intended to archive files on backup tapes without a file system of their own. TAR files are usually uncompressed.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": "https://en.wikipedia.org/wiki/Tar_(computing)\r\nhttp://fileformats.archiveteam.org/wiki/Tape_Archive\r\nhttps://fileinfo.com/extension/tar",
+  "lastUpdatedDate": "17 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "11/2023 (v.115)- Signature ammended to allow whitespace options. Submitted by National Library of Norway; 04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "tar",
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-tar",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.tar-archive",
+      "identifierType": "Apple Uniform Type Identifier"
+    },
+    {
+      "identifierText": "x-fmt/265",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 265,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "[21:EF]{104}[30:37][20:37](00|20){5}[30:37][20:37](00|20){5}[30:37][20:37]00{10}[30:37](00|20){10}[30:37](00|20){5}[30:37][00:37](00|20)",
+      "endianness": "Little-endian",
+      "name": "TAR (Tape Archive)",
+      "note": "TAR specification has a 256 byte header which includes 6 octal numbers which may be space or null terminated, may have leading spaces or zeros, and may vary in position by one byte, all depending on which of the many flavours the format follows. The above signature was tested on varied TAR files off the internet and the unknown files in digital preservation successfully."
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 795,
+      "relatedFormatName": "Digital Negative Format (DNG)"
+    }
+  ]
+}

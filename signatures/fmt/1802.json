@@ -1,0 +1,53 @@
+{
+  "fileFormatID": 2653,
+  "formatName": "Transcriber AG TAG Format",
+  "version": null,
+  "formatDescription": "TAG is the native, XML-based format of Transcriber AG, a tool for assisting the manual annotation of speech signals. Transcriber AG (https://transag.sourceforge.net/) superseded a previous tool, Transcriber (https://trans.sourceforge.net/)",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "23 Nov 2022",
+  "formatSourceID": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Nov 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1802",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2141,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{1-128}3C21444F4354595045204147536574",
+      "endianness": null,
+      "name": "Transcriber AG TAG Format",
+      "note": "BOF offset 0, XML 1.0 declaration, then !DOCTYPE declaration \u2018AGSet\u2019. A DTD for version 3.0 of the file format can be found here: https://github.com/giuliopaci/transcriber-ag/blob/master/source/etc/TransAG/TransAG-3.0.dtd. For now, PRONOM does not distinguish between different versions of TAG"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tag",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ]
+}

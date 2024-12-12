@@ -1,0 +1,127 @@
+{
+  "fileFormatID": 788,
+  "formatName": "Acrobat PDF/X - Portable Document Format - Exchange 1:2001",
+  "version": null,
+  "formatDescription": "This 'exchange standard' format is based on Adobe's PDF specification and a subset of the PDF specification. This version  was an updated version of PDF/X-1:1999, and was based on PDF 1.3. It was superseded in 2003 by PDF/X-1a and PDF/X-3, at which point it was recommended that PDF/X-1 no longer be used. PDF/X-1 is the only PDF/X standard permitting encryption.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "22 Oct 2009",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "01 Feb 2007",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": "PDF/X-1:2001",
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/145",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 693,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": null,
+      "byteSequence": "255044462D312E33",
+      "endianness": null,
+      "name": "PDF/X-1:2001",
+      "note": "BOF First 8 bytes: %PDF-1.3\r\nVariable bytes: /GTS_PDFXVersion(PDF/X-1:2001)"
+    },
+    {
+      "signatureID": 693,
+      "positionType": "Variable",
+      "offset": null,
+      "maxOffset": null,
+      "byteSequence": "2F4754535F5044465856657273696F6E{0-1}285044462F582D313A3230303129",
+      "endianness": null,
+      "name": "PDF/X-1:2001",
+      "note": "BOF First 8 bytes: %PDF-1.3\r\nVariable bytes: /GTS_PDFXVersion(PDF/X-1:2001)"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 818,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2001"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 613,
+      "relatedFormatName": "Acrobat PDF 1.0 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 614,
+      "relatedFormatName": "Acrobat PDF 1.1 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 615,
+      "relatedFormatName": "Acrobat PDF 1.2 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 617,
+      "relatedFormatName": "Acrobat PDF 1.4 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 618,
+      "relatedFormatName": "Acrobat PDF 1.5 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 637,
+      "relatedFormatName": "Acrobat PDF 1.6 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 869,
+      "relatedFormatName": "TrueType Font"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 789,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2003"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 787,
+      "relatedFormatName": "Acrobat PDF/X - Portable Document Format - Exchange 1:1999"
+    },
+    {
+      "relationshipType": "Is subtype of",
+      "relatedFormatID": 616,
+      "relatedFormatName": "Acrobat PDF 1.3 - Portable Document Format"
+    }
+  ]
+}

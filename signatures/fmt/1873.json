@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 2727,
+  "formatName": "Guitar Pro File",
+  "version": "2-5",
+  "formatDescription": "Guitar Pro is a multitrack editor of guitar and bass tablature and musical scores, possessing a built-in MIDI-editor, a plotter of chords, a player, a metronome and other tools for musicians. It has versions for Windows and Mac OS X (Intel processors only) and is written by the French company Arobas Music. This is an entry for versions 2-5 of the format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Guitar_Pro\r\n http://fileformats.archiveteam.org/wiki/Guitar_Pro_4",
+  "lastUpdatedDate": "15 Aug 2023",
+  "formatSourceID": 180,
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatProvenance": null,
+  "formatSourceDate": "15 Aug 2023",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Aggregate",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1873",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2246,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "1846494348494552204755495441522050524F",
+      "endianness": null,
+      "name": "Guitar Pro v2-v5",
+      "note": "BOF:0x18 (Cancel) followed by 'FICHIER GUITAR PRO'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "gp3",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gp4",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gp5",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 1461,
+  "formatName": "Panasonic Raw",
+  "version": null,
+  "formatDescription": "RW2 is a graphic file format that is typically used for the images captured by the Panasonic Lumix digital cameras.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "30 Jun 2022",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "23 Sep 2014",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/662",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 994,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "494955001800000088E774D8",
+      "endianness": null,
+      "name": "Panasonic Raw",
+      "note": "BOF: IIU.....\u02c6\u00e7t\u00d8"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rw2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

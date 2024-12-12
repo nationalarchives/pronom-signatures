@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 1941,
+  "formatName": "Gatan Digital Micrograph File Format (DM3)",
+  "version": "3",
+  "formatDescription": "DM3 is a file format produced by some Digital Micrography instruments created by Gatan. Please contact the PRONOM team if you are able to provide a more detailed description.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "29 Nov 2017",
+  "formatSourceID": 230,
+  "provenanceCompoundName": "Bodleian Library, University of Oxford / Bodleian Library, University of Oxford",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Nov 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1131",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1513,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "00000003{4}000000(00|01){6}(14|15){2-258}25252525",
+      "endianness": null,
+      "name": "Gatan Digital Micrograph 3",
+      "note": "BOF version 3 {4} endianness 00 = big, 01 = little {6} (tag directory|tag) {2-256} (2 byte tag length value + tag name which can be of zero length. Theroetically tag name could be ~65k long but limiting to 256 bytes for signature efficiency as highly unlikely to be greater. Scope to extend if necessary though). String \"%%%%\"\r\n\r\nEOF: 8 null bytes"
+    },
+    {
+      "signatureID": 1513,
+      "positionType": "Absolute from EOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "0000000000000000",
+      "endianness": null,
+      "name": "Gatan Digital Micrograph 3",
+      "note": "BOF version 3 {4} endianness 00 = big, 01 = little {6} (tag directory|tag) {2-256} (2 byte tag length value + tag name which can be of zero length. Theroetically tag name could be ~65k long but limiting to 256 bytes for signature efficiency as highly unlikely to be greater. Scope to extend if necessary though). String \"%%%%\"\r\n\r\nEOF: 8 null bytes"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dm3",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

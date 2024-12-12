@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2474,
+  "formatName": "Inspiration Software File",
+  "version": null,
+  "formatDescription": "The Inspiration Software File (ISF) is a format created by Inspiration software and files can be opened using the software. The Inspiration software was founded in 1982 by Donald Helfgott and Mona Westhaver, originally as a tool focused on business analytics, helping to build products to meet business needs. In 1996 the focus of the tool shifted to educational purposes, supporting educators and students across early and higher education. There are several known version of this software up to version 10 as the latest version in February 2021. The ISF files created on version 9 Inspiration software are identical to version 10, but version 7 and 8 ISF files lack the functionality to save data containing mind maps (as according to the manufacturer instructions, please see the web-links in Note section).",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://psychology.fandom.com/wiki/Inspiration_Software\r\n\r\nhttps://v10.inspiration-manual.com/\r\n\r\nhttps://web.archive.org/web/20001018120642/http://www.inspirationsoftware.com/beta.html\r\n\r\nhttps://www.inspiration-at.com/",
+  "lastUpdatedDate": "28 Feb 2022",
+  "formatSourceID": 247,
+  "provenanceCompoundName": "National Archives of Australia / National Archives of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Feb 2022",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1647",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1985,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "6170706C69636174696F6E2F782D696E737069726174696F6E202020204372656174656420627920736F6674776172652066726F6D20496E737069726174696F6E20536F6674776172652C20496E632E{80-258}104A464946",
+      "endianness": null,
+      "name": "Inspiration Software File",
+      "note": "BOF; Offset: 0; Magic Bytes: 'application/x-inspiration....Created by software from Inspiration Software, Inc.{80-258}.JFIF'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "isf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

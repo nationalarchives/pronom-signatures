@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 2816,
+  "formatName": "PechaMaker Format",
+  "version": null,
+  "formatDescription": "PechaMaker is a tool with a focus on Tibetan Pecha layout and printing. It allows the user to create files with Tibetan Pecha characterisation. The text can be a mix of Tibetan and non-Tibetan fonts. It can be saved as a .rtf file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.pechamaker.com/",
+  "lastUpdatedDate": "11 Apr 2024",
+  "formatSourceID": 321,
+  "provenanceCompoundName": "Buddhist Digital Resource Center / Buddhist Digital Resource Center",
+  "formatProvenance": null,
+  "formatSourceDate": "11 Apr 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Page Description",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1952",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2297,
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequence": "2E707870",
+      "endianness": null,
+      "name": "PechaMaker Format",
+      "note": "BOF; Offset: 0; Bytes: '.pxp'"
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pxp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

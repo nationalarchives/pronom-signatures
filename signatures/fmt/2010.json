@@ -8,7 +8,15 @@
       "maxOffset": 0,
       "byteSequence": "5445535450524F4E4F4D",
       "name": "PRONOM test",
-      "note": "A PRONOM test signature"
+      "note": "A PRONOM test signature",
+      "signatureID": 3371
+    }
+  ],
+  "fileFormatID": 3882,
+  "identifiers": [
+    {
+      "identifierType": "PUID",
+      "identifierText": "fmt/2010"
     }
   ]
 }

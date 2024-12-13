@@ -1,6 +1,6 @@
 # PRONOM signatures
 
-This repository contains a record of all PRONOM signatures in JSON format. This is used to build the PRONOM signature file and container signature files.a
+This repository contains a record of all PRONOM signatures in JSON format. This is used to build the PRONOM signature file and container signature files.
 
 This repository can be used to submit new signatures to PRONOM.
 
@@ -50,4 +50,5 @@ There are tests which will build your submission into a temporary signature file
 
 The tests will also generate a signature file and container signature file which you can download to test for yourself. There is a guide to downloading artifacts [here](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/downloading-workflow-artifacts).
 
-Merging the pull request won't immeditately deploy a new version. At some point, a TNA staff memeber will raise a pull request to merge all the latest submissions into the main branch and once this is merged, a new release will be generated.
+Merging the pull request won't immediately deploy a new version. At some point, a TNA staff member will raise a pull request to merge all the latest submissions into the main branch and once this is merged, a new release will be generated.
+

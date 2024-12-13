@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "fileFormatID": {
+      "type": "integer"
+    },
+    "formatName": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "formatDescription": {
+      "type": "string"
+    },
+    "releaseDate": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "withdrawnDate": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "binaryFileFormat": {
+      "type": "string"
+    },
+    "formatNote": {
+      "type": ["string", "null"]
+    },
+    "lastUpdatedDate": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "formatSourceID": {
+      "type": "integer"
+    },
+    "provenanceCompoundName": {
+      "type": "string"
+    },
+    "formatProvenance": {
+      "type": ["string", "null"]
+    },
+    "formatSourceDate": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "formatDisclosure": {
+      "type": "string"
+    },
+    "formatEnvironment": {
+      "type": ["string", "null"]
+    },
+    "formatRisk": {
+      "type": ["string", "null"]
+    },
+    "formatAliases": {
+      "type": ["string", "null"]
+    },
+    "formatTypes": {
+      "type": "string"
+    },
+    "byteOrders": {
+      "type": "string"
+    },
+    "formatFamilies": {
+      "type": ["string", "null"]
+    },
+    "identifiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifierText": { "type": "string" },
+          "identifierType": { "type": "string" }
+        },
+        "required": ["identifierText", "identifierType"]
+      }
+    },
+    "internalSignatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "signatureID": { "type": "integer" },
+          "positionType": { "type": "string" },
+          "offset": { "type": "integer" },
+          "maxOffset": { "type": ["integer", "null"] },
+          "byteSequence": { "type": "string" },
+          "endianness": { "type": ["string", "null"] },
+          "name": { "type": "string" },
+          "note": { "type": "string" }
+        },
+        "required": ["positionType", "offset", "byteSequence", "name", "note"]
+      }
+    },
+    "externalSignatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "externalSignature": { "type": "string" },
+          "signatureType": { "type": "string" }
+        },
+        "required": ["externalSignature", "signatureType"]
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "relationshipType": { "type": "string" },
+          "relatedFormatID": { "type": "integer" },
+          "relatedFormatName": { "type": "string" }
+        },
+        "required": ["relationshipType", "relatedFormatID", "relatedFormatName"]
+      }
+    },
+    "containerSignatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "containerType": { "type": "string" },
+          "id": { "type": "integer" },
+          "description": { "type": "string" },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": { "type": "string" },
+                "byteSequences": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "subSequences": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "minFragLength": { "type": "string" },
+                            "position": { "type": "string" },
+                            "subSeqMinOffset": { "type": "string" },
+                            "subSeqMaxOffset": { "type": "string" },
+                            "sequence": { "type": "string" },
+                            "leftFragment": {
+                              "type": "object",
+                              "properties": {
+                                "maxOffset": { "type": "string" },
+                                "minOffset": { "type": "string" },
+                                "position": { "type": "string" }
+                              },
+                              "required": ["maxOffset", "minOffset", "position"]
+                            },
+                            "rightFragment": {
+                              "type": "object",
+                              "properties": {
+                                "maxOffset": { "type": "string" },
+                                "minOffset": { "type": "string" },
+                                "position": { "type": "string" }
+                              },
+                              "required": ["maxOffset", "minOffset", "position"]
+                            }
+                          },
+                          "required": ["minFragLength", "position", "subSeqMinOffset", "subSeqMaxOffset", "sequence"]
+                        }
+                      },
+                      "reference": { "type": "string" }
+                    },
+                    "required": ["subSequences", "reference"]
+                  }
+                }
+              },
+              "required": ["path", "byteSequences"]
+            }
+          }
+        },
+        "required": ["containerType", "id", "description", "files"]
+      }
+    }
+  },
+  "required": [
+    "formatName",
+    "formatDescription",
+    "internalSignatures"
+  ]
+}

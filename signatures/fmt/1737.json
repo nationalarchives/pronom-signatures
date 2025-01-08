@@ -50,7 +50,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 294,
-    "supportedBy": "ISAC / International Society for Advancement of Cytometry",
+    "name": "ISAC / International Society for Advancement of Cytometry",
     "address": "700 Pennsylvania Ave. SE\r\nWashington, DC 20003",
     "addressCountry": "United States",
     "telephone": "(703) 537-7948",
@@ -61,7 +61,7 @@
   },
   "developedBy": {
     "actorId": 294,
-    "developedBy": "ISAC / International Society for Advancement of Cytometry",
+    "name": "ISAC / International Society for Advancement of Cytometry",
     "address": "700 Pennsylvania Ave. SE\r\nWashington, DC 20003",
     "addressCountry": "United States",
     "telephone": "(703) 537-7948",

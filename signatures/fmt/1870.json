@@ -56,7 +56,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 312,
-    "supportedBy": "Yamaha / Yamaha",
+    "name": "Yamaha / Yamaha",
     "address": "10-1\r\nNakazawacho\r\nNaka-ku Hamamatsu-shi\r\nShizuoka\r\n430-8650",
     "addressCountry": "Japan",
     "companyWebsite": "www.yamaha.com/en/",
@@ -65,7 +65,7 @@
   },
   "developedBy": {
     "actorId": 312,
-    "developedBy": "Yamaha / Yamaha",
+    "name": "Yamaha / Yamaha",
     "address": "10-1\r\nNakazawacho\r\nNaka-ku Hamamatsu-shi\r\nShizuoka\r\n430-8650",
     "addressCountry": "Japan",
     "companyWebsite": "www.yamaha.com/en/",

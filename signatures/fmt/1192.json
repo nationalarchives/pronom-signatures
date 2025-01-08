@@ -52,7 +52,7 @@
   ],
   "supportedBy": {
     "actorId": 7,
-    "supportedBy": "Adobe Systems Incorporated",
+    "name": "Adobe Systems Incorporated",
     "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
     "addressCountry": "United States",
     "telephone": "+001 (408) 537-6000",
@@ -64,7 +64,7 @@
   },
   "developedBy": {
     "actorId": 7,
-    "developedBy": "Adobe Systems Incorporated",
+    "name": "Adobe Systems Incorporated",
     "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
     "addressCountry": "United States",
     "telephone": "+001 (408) 537-6000",

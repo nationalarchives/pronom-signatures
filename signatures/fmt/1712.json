@@ -35,7 +35,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 4,
-    "supportedBy": "Software602, Inc.",
+    "name": "Software602, Inc.",
     "address": "8833 Perimeter Park Blvd, Suite 702, Jacksonville, Florida, 32216",
     "addressCountry": "United States",
     "telephone": "1-904-642-5400",
@@ -47,7 +47,7 @@
   },
   "developedBy": {
     "actorId": 4,
-    "developedBy": "Software602, Inc.",
+    "name": "Software602, Inc.",
     "address": "8833 Perimeter Park Blvd, Suite 702, Jacksonville, Florida, 32216",
     "addressCountry": "United States",
     "telephone": "1-904-642-5400",

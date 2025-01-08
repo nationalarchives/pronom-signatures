@@ -50,7 +50,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 95,
-    "supportedBy": "Lotus Corporation",
+    "name": "Lotus Corporation",
     "address": "One Rogers Street, Cambridge, MA, 02142",
     "addressCountry": "United States",
     "telephone": "+001 (617) 577-8500",
@@ -61,7 +61,7 @@
   },
   "developedBy": {
     "actorId": 95,
-    "developedBy": "Lotus Corporation",
+    "name": "Lotus Corporation",
     "address": "One Rogers Street, Cambridge, MA, 02142",
     "addressCountry": "United States",
     "telephone": "+001 (617) 577-8500",

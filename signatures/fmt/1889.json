@@ -46,14 +46,14 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 318,
-    "supportedBy": "Software Products International, Inc / Software Products International, Inc",
+    "name": "Software Products International, Inc / Software Products International, Inc",
     "addressCountry": "United States",
     "source": "National Library of New Zealand / National Library of New Zealand",
     "sourceDate": "2023-08-03"
   },
   "developedBy": {
     "actorId": 318,
-    "developedBy": "Software Products International, Inc / Software Products International, Inc",
+    "name": "Software Products International, Inc / Software Products International, Inc",
     "addressCountry": "United States",
     "source": "National Library of New Zealand / National Library of New Zealand",
     "sourceDate": "2023-08-03"

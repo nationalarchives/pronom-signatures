@@ -50,7 +50,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 219,
-    "supportedBy": "Khronos Group / Khronos Group",
+    "name": "Khronos Group / Khronos Group",
     "address": "9450 SW Gemini Drive #45043\r\nBeaverton,\r\nOR 97008-6018",
     "addressCountry": "United States",
     "telephone": "+1 (415) 869-8627",
@@ -60,7 +60,7 @@
   },
   "developedBy": {
     "actorId": 219,
-    "developedBy": "Khronos Group / Khronos Group",
+    "name": "Khronos Group / Khronos Group",
     "address": "9450 SW Gemini Drive #45043\r\nBeaverton,\r\nOR 97008-6018",
     "addressCountry": "United States",
     "telephone": "+1 (415) 869-8627",

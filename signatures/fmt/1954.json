@@ -52,7 +52,7 @@
   ],
   "supportedBy": {
     "actorId": 337,
-    "supportedBy": "Zoom",
+    "name": "Zoom",
     "address": "Sound Service MSL Distribution\r\nWyvols Court Business Centre\r\nSwallowfield\r\nReading\r\nRG7 1WY",
     "addressCountry": "United Kingdom",
     "companyWebsite": "https://zoomcorp.com/en/gb/",
@@ -61,7 +61,7 @@
   },
   "developedBy": {
     "actorId": 337,
-    "developedBy": "Zoom",
+    "name": "Zoom",
     "address": "Sound Service MSL Distribution\r\nWyvols Court Business Centre\r\nSwallowfield\r\nReading\r\nRG7 1WY",
     "addressCountry": "United Kingdom",
     "companyWebsite": "https://zoomcorp.com/en/gb/",

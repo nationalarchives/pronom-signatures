@@ -56,7 +56,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 63,
-    "supportedBy": "Oracle",
+    "name": "Oracle",
     "address": "500 Oracle Parkway, Redwood Shores, CA, 94065",
     "addressCountry": "United States",
     "telephone": "650-506-7000",
@@ -68,7 +68,7 @@
   },
   "developedBy": {
     "actorId": 63,
-    "developedBy": "Oracle",
+    "name": "Oracle",
     "address": "500 Oracle Parkway, Redwood Shores, CA, 94065",
     "addressCountry": "United States",
     "telephone": "650-506-7000",

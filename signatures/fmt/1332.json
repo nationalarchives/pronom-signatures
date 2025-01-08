@@ -35,7 +35,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 45,
-    "supportedBy": "Hewlett Packard Company",
+    "name": "Hewlett Packard Company",
     "address": "3000 Hanover Street, Palo, California, CA 94304 1",
     "addressCountry": "United States",
     "telephone": "650 857 1501",
@@ -44,7 +44,7 @@
   },
   "developedBy": {
     "actorId": 45,
-    "developedBy": "Hewlett Packard Company",
+    "name": "Hewlett Packard Company",
     "address": "3000 Hanover Street, Palo, California, CA 94304 1",
     "addressCountry": "United States",
     "telephone": "650 857 1501",

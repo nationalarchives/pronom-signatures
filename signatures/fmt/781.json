@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 63,
-    "supportedBy": "Oracle",
+    "name": "Oracle",
     "address": "500 Oracle Parkway, Redwood Shores, CA, 94065",
     "addressCountry": "United States",
     "telephone": "650-506-7000",
@@ -58,7 +58,7 @@
   },
   "developedBy": {
     "actorId": 71,
-    "developedBy": "Sun Microsystems Incorporated",
+    "name": "Sun Microsystems Incorporated",
     "address": "4150 Network Circle, Santa Clara, CA, 95054",
     "addressCountry": "United States",
     "telephone": "+001 (650) 960-1300",

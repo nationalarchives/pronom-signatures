@@ -67,7 +67,7 @@
   ],
   "supportedBy": {
     "actorId": 254,
-    "supportedBy": "Ableton",
+    "name": "Ableton",
     "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
     "addressCountry": "Germany",
     "companyWebsite": "www.ableton.com/en/",
@@ -76,7 +76,7 @@
   },
   "developedBy": {
     "actorId": 254,
-    "developedBy": "Ableton",
+    "name": "Ableton",
     "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
     "addressCountry": "Germany",
     "companyWebsite": "www.ableton.com/en/",

@@ -95,7 +95,7 @@
   ],
   "supportedBy": {
     "actorId": 93,
-    "supportedBy": "Microsoft Corporation",
+    "name": "Microsoft Corporation",
     "address": "One Microsoft Way, Redmond, WA, 98052-6399",
     "addressCountry": "United States",
     "telephone": "+001 (425) 822-8080",
@@ -107,7 +107,7 @@
   },
   "developedBy": {
     "actorId": 93,
-    "developedBy": "Microsoft Corporation",
+    "name": "Microsoft Corporation",
     "address": "One Microsoft Way, Redmond, WA, 98052-6399",
     "addressCountry": "United States",
     "telephone": "+001 (425) 822-8080",

@@ -57,7 +57,7 @@
   ],
   "supportedBy": {
     "actorId": 276,
-    "supportedBy": "BibTex / BibTeX",
+    "name": "BibTex / BibTeX",
     "addressCountry": "United States",
     "supportWebsite": "www.bibtex.org/",
     "companyWebsite": "www.ctan.org/pkg/bibtex",
@@ -66,7 +66,7 @@
   },
   "developedBy": {
     "actorId": 276,
-    "developedBy": "BibTex / BibTeX",
+    "name": "BibTex / BibTeX",
     "addressCountry": "United States",
     "supportWebsite": "www.bibtex.org/",
     "companyWebsite": "www.ctan.org/pkg/bibtex",

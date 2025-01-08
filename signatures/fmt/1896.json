@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 190,
-    "supportedBy": "Nokia / Nokia",
+    "name": "Nokia / Nokia",
     "address": "Keilalahdentie 2-4\r\nP.O. Box 226\r\nFI-00045 Nokia Group",
     "addressCountry": "Finland",
     "telephone": "+358 (0) 7180 08000",
@@ -57,7 +57,7 @@
   },
   "developedBy": {
     "actorId": 190,
-    "developedBy": "Nokia / Nokia",
+    "name": "Nokia / Nokia",
     "address": "Keilalahdentie 2-4\r\nP.O. Box 226\r\nFI-00045 Nokia Group",
     "addressCountry": "Finland",
     "telephone": "+358 (0) 7180 08000",

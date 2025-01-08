@@ -30,7 +30,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 221,
-    "supportedBy": "Esri / Esri",
+    "name": "Esri / Esri",
     "address": "Redlands, California",
     "addressCountry": "United States",
     "companyWebsite": "www.esri.com/",
@@ -39,7 +39,7 @@
   },
   "developedBy": {
     "actorId": 221,
-    "developedBy": "Esri / Esri",
+    "name": "Esri / Esri",
     "address": "Redlands, California",
     "addressCountry": "United States",
     "companyWebsite": "www.esri.com/",

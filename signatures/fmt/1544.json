@@ -62,7 +62,7 @@
   ],
   "supportedBy": {
     "actorId": 263,
-    "supportedBy": "Max Planck Institute for Psycholinguistics, Nijmegen",
+    "name": "Max Planck Institute for Psycholinguistics, Nijmegen",
     "addressCountry": "Germany",
     "supportWebsite": "www.archive.mpi.nl/tla/elan/support",
     "companyWebsite": "www.archive.mpi.nl/tla/",
@@ -71,7 +71,7 @@
   },
   "developedBy": {
     "actorId": 263,
-    "developedBy": "Max Planck Institute for Psycholinguistics, Nijmegen",
+    "name": "Max Planck Institute for Psycholinguistics, Nijmegen",
     "addressCountry": "Germany",
     "supportWebsite": "www.archive.mpi.nl/tla/elan/support",
     "companyWebsite": "www.archive.mpi.nl/tla/",

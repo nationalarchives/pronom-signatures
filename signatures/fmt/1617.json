@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 275,
-    "supportedBy": "DeviceTree / DeviceTree",
+    "name": "DeviceTree / DeviceTree",
     "addressCountry": "United Kingdom",
     "companyWebsite": "www.devicetree.org/",
     "source": "Oliver Mattos / Oliver Mattos",
@@ -54,7 +54,7 @@
   },
   "developedBy": {
     "actorId": 275,
-    "developedBy": "DeviceTree / DeviceTree",
+    "name": "DeviceTree / DeviceTree",
     "addressCountry": "United Kingdom",
     "companyWebsite": "www.devicetree.org/",
     "source": "Oliver Mattos / Oliver Mattos",

@@ -52,7 +52,7 @@
   ],
   "supportedBy": {
     "actorId": 319,
-    "supportedBy": "tableau / tableau",
+    "name": "tableau / tableau",
     "addressCountry": "United States",
     "companyWebsite": "www.tableau.com/en-gb/",
     "source": "Brigham Young University / Brigham Young University",
@@ -60,7 +60,7 @@
   },
   "developedBy": {
     "actorId": 319,
-    "developedBy": "tableau / tableau",
+    "name": "tableau / tableau",
     "addressCountry": "United States",
     "companyWebsite": "www.tableau.com/en-gb/",
     "source": "Brigham Young University / Brigham Young University",

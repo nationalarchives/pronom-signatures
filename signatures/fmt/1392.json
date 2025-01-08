@@ -75,6 +75,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 18,
     "supportedBy": "Autodesk",
     "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
     "addressCountry": "United States",
@@ -85,6 +86,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 18,
     "developedBy": "Autodesk",
     "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
     "addressCountry": "United States",

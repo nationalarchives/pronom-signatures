@@ -55,6 +55,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 303,
     "supportedBy": "Leica Geosystems Limited / Leica Geosystems Limited",
     "addressCountry": "Switzerland",
     "companyWebsite": "www.leica-geosystems.com/en-gb",

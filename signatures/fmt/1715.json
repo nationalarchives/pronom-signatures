@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 30,
     "supportedBy": "CoffeeCup Software, Inc.",
     "address": "226 South Tancahua Street, Corpus Christi, Texas, 78401",
     "addressCountry": "United States",
@@ -53,6 +54,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 30,
     "developedBy": "CoffeeCup Software, Inc.",
     "address": "226 South Tancahua Street, Corpus Christi, Texas, 78401",
     "addressCountry": "United States",

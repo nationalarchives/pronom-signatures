@@ -51,6 +51,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 197,
     "supportedBy": "Canon / Canon",
     "address": "Canon (UK) Ltd\r\nWoodhatch \r\nReigate \r\nSurrey \r\nRH2 8BF",
     "addressCountry": "United Kingdom",
@@ -59,6 +60,7 @@
     "sourceDate": "2013-11-12"
   },
   "developedBy": {
+    "actorId": 197,
     "developedBy": "Canon / Canon",
     "address": "Canon (UK) Ltd\r\nWoodhatch \r\nReigate \r\nSurrey \r\nRH2 8BF",
     "addressCountry": "United Kingdom",

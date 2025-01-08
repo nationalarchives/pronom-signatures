@@ -45,12 +45,14 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 210,
     "supportedBy": "Ricoh / Ricoh",
     "addressCountry": "Japan",
     "source": "Ricoh / Ricoh",
     "sourceDate": "2014-09-23"
   },
   "developedBy": {
+    "actorId": 46,
     "developedBy": "IBM Corporation",
     "address": "1133 Westchester Avenue, White Plains, New York, 10604",
     "addressCountry": "United States",

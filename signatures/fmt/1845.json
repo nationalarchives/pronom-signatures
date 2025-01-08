@@ -71,6 +71,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 158,
     "supportedBy": "Final Draft Inc / Final Draft Inc",
     "address": "Suite 205, 26707 W. Agoura Road, Calabasas, California 91302",
     "addressCountry": "United States",
@@ -82,6 +83,7 @@
     "sourceDate": "2010-04-27"
   },
   "developedBy": {
+    "actorId": 158,
     "developedBy": "Final Draft Inc / Final Draft Inc",
     "address": "Suite 205, 26707 W. Agoura Road, Calabasas, California 91302",
     "addressCountry": "United States",

@@ -59,6 +59,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 222,
     "supportedBy": "Valve Corporation / Valve Corporation",
     "address": "Bellevue, Washington",
     "addressCountry": "United States",
@@ -67,6 +68,7 @@
     "sourceDate": "2017-02-17"
   },
   "developedBy": {
+    "actorId": 222,
     "developedBy": "Valve Corporation / Valve Corporation",
     "address": "Bellevue, Washington",
     "addressCountry": "United States",

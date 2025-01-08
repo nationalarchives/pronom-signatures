@@ -49,6 +49,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 48,
     "supportedBy": "Inspiration Software, Inc.",
     "address": "7412 SW Beaverton-Hillsdale Hwy, Suite 102, Portland, Oregan, OR 97225",
     "addressCountry": "United States",
@@ -60,6 +61,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 48,
     "developedBy": "Inspiration Software, Inc.",
     "address": "7412 SW Beaverton-Hillsdale Hwy, Suite 102, Portland, Oregan, OR 97225",
     "addressCountry": "United States",

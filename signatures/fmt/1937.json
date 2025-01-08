@@ -63,6 +63,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 323,
     "supportedBy": "Amazon / Amazon",
     "addressCountry": "United States",
     "companyWebsite": "www.aboutamazon.com/",
@@ -70,6 +71,7 @@
     "sourceDate": "2023-10-30"
   },
   "developedBy": {
+    "actorId": 323,
     "developedBy": "Amazon / Amazon",
     "addressCountry": "United States",
     "companyWebsite": "www.aboutamazon.com/",

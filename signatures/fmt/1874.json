@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 315,
     "supportedBy": "ESKO / ESKO",
     "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
     "addressCountry": "Belgium",
@@ -52,6 +53,7 @@
     "sourceDate": "2023-07-03"
   },
   "developedBy": {
+    "actorId": 315,
     "developedBy": "ESKO / ESKO",
     "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
     "addressCountry": "Belgium",

@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 317,
     "supportedBy": "CloudCompare / CloudCompare",
     "addressCountry": "France",
     "companyWebsite": "www.cloudcompare.org/",
@@ -52,6 +53,7 @@
     "sourceDate": "2023-08-01"
   },
   "developedBy": {
+    "actorId": 317,
     "developedBy": "CloudCompare / CloudCompare",
     "addressCountry": "France",
     "companyWebsite": "www.cloudcompare.org/",

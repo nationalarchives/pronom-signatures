@@ -51,6 +51,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 319,
     "supportedBy": "tableau / tableau",
     "addressCountry": "United States",
     "companyWebsite": "www.tableau.com/en-gb/",
@@ -58,6 +59,7 @@
     "sourceDate": "2023-08-03"
   },
   "developedBy": {
+    "actorId": 319,
     "developedBy": "tableau / tableau",
     "addressCountry": "United States",
     "companyWebsite": "www.tableau.com/en-gb/",

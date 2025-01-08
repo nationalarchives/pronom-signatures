@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 221,
     "supportedBy": "Esri / Esri",
     "address": "Redlands, California",
     "addressCountry": "United States",
@@ -53,6 +54,7 @@
     "sourceDate": "2017-02-17"
   },
   "developedBy": {
+    "actorId": 221,
     "developedBy": "Esri / Esri",
     "address": "Redlands, California",
     "addressCountry": "United States",

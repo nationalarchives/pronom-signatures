@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 310,
     "supportedBy": "Seequent / Seequent",
     "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch\r\nCanterbury\r\n8011",
     "addressCountry": "New Zealand",
@@ -52,6 +53,7 @@
     "sourceDate": "2023-05-24"
   },
   "developedBy": {
+    "actorId": 310,
     "developedBy": "Seequent / Seequent",
     "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch\r\nCanterbury\r\n8011",
     "addressCountry": "New Zealand",

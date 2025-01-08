@@ -76,6 +76,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 93,
     "supportedBy": "Microsoft Corporation",
     "address": "One Microsoft Way, Redmond, WA, 98052-6399",
     "addressCountry": "United States",
@@ -87,6 +88,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 93,
     "developedBy": "Microsoft Corporation",
     "address": "One Microsoft Way, Redmond, WA, 98052-6399",
     "addressCountry": "United States",

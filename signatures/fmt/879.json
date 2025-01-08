@@ -50,6 +50,7 @@
   ],
   "relationships": [],
   "developedBy": {
+    "actorId": 46,
     "developedBy": "IBM Corporation",
     "address": "1133 Westchester Avenue, White Plains, New York, 10604",
     "addressCountry": "United States",

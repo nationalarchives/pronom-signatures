@@ -51,12 +51,14 @@
     }
   ],
   "supportedBy": {
+    "actorId": 331,
     "supportedBy": "SMPTE / Society of Motion Picture and Television Engineers",
     "addressCountry": "United States",
     "source": "Preservica / Preservica",
     "sourceDate": "2024-04-18"
   },
   "developedBy": {
+    "actorId": 331,
     "developedBy": "SMPTE / Society of Motion Picture and Television Engineers",
     "addressCountry": "United States",
     "source": "Preservica / Preservica",

@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 307,
     "supportedBy": "Trelby / Trelby",
     "addressCountry": "United States",
     "companyWebsite": "www.trelby.org",
@@ -52,6 +53,7 @@
     "sourceDate": "2023-03-28"
   },
   "developedBy": {
+    "actorId": 307,
     "developedBy": "Trelby / Trelby",
     "addressCountry": "United States",
     "companyWebsite": "www.trelby.org",

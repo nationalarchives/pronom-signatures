@@ -66,6 +66,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 254,
     "supportedBy": "Ableton",
     "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
     "addressCountry": "Germany",
@@ -74,6 +75,7 @@
     "sourceDate": "2021-09-08"
   },
   "developedBy": {
+    "actorId": 254,
     "developedBy": "Ableton",
     "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
     "addressCountry": "Germany",

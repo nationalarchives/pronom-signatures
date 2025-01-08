@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 275,
     "supportedBy": "DeviceTree / DeviceTree",
     "addressCountry": "United Kingdom",
     "companyWebsite": "www.devicetree.org/",
@@ -52,6 +53,7 @@
     "sourceDate": "2022-02-03"
   },
   "developedBy": {
+    "actorId": 275,
     "developedBy": "DeviceTree / DeviceTree",
     "addressCountry": "United Kingdom",
     "companyWebsite": "www.devicetree.org/",

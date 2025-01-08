@@ -57,6 +57,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 151,
     "supportedBy": "Caminova Corporation",
     "address": "Forum Bldg 4F, 1-28-13, Hamamatsu-cho, Minato-ku, Tokyo 105-0013",
     "addressCountry": "Japan",
@@ -66,6 +67,7 @@
     "sourceDate": "2010-01-08"
   },
   "developedBy": {
+    "actorId": 151,
     "developedBy": "Caminova Corporation",
     "address": "Forum Bldg 4F, 1-28-13, Hamamatsu-cho, Minato-ku, Tokyo 105-0013",
     "addressCountry": "Japan",

@@ -51,6 +51,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 298,
     "supportedBy": "The Spectral Geologist",
     "address": "Suite 28\r\n7 Narabang Way\r\nBelrose\r\nNSW\r\n2085",
     "addressCountry": "Australia",
@@ -59,6 +60,7 @@
     "sourceDate": "2022-10-20"
   },
   "developedBy": {
+    "actorId": 298,
     "developedBy": "The Spectral Geologist",
     "address": "Suite 28\r\n7 Narabang Way\r\nBelrose\r\nNSW\r\n2085",
     "addressCountry": "Australia",

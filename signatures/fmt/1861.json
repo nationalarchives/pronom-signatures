@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 306,
     "supportedBy": "Quicken / Quicken",
     "addressCountry": "Canada",
     "companyWebsite": "www.quicken.com/",
@@ -52,6 +53,7 @@
     "sourceDate": "2023-04-26"
   },
   "developedBy": {
+    "actorId": 306,
     "developedBy": "Quicken / Quicken",
     "addressCountry": "Canada",
     "companyWebsite": "www.quicken.com/",

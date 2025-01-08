@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 20,
     "supportedBy": "Broderbund Software, Inc",
     "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
     "addressCountry": "United States",
@@ -55,6 +56,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 20,
     "developedBy": "Broderbund Software, Inc",
     "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
     "addressCountry": "United States",

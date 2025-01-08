@@ -80,6 +80,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 7,
     "supportedBy": "Adobe Systems Incorporated",
     "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
     "addressCountry": "United States",
@@ -91,6 +92,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 56,
     "developedBy": "Macromedia, Inc.",
     "address": "600 Townsend Street, San Francisco, California, CA 94103",
     "addressCountry": "United States",

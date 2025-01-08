@@ -38,6 +38,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 1,
     "supportedBy": "Digital Preservation Department / The National Archives",
     "address": "Kew, Richmond, Surrey, TW9 4DU",
     "addressCountry": "United Kingdom",
@@ -47,6 +48,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 1,
     "developedBy": "Digital Preservation Department / The National Archives",
     "address": "Kew, Richmond, Surrey, TW9 4DU",
     "addressCountry": "United Kingdom",

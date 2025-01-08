@@ -50,6 +50,7 @@
   "externalSignatures": [],
   "relationships": [],
   "supportedBy": {
+    "actorId": 72,
     "supportedBy": "Symantec Corporation",
     "address": "20330 Stevens Creek Blvd., Cupertino, California, CA 95014",
     "addressCountry": "United States",
@@ -60,6 +61,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 72,
     "developedBy": "Symantec Corporation",
     "address": "20330 Stevens Creek Blvd., Cupertino, California, CA 95014",
     "addressCountry": "United States",

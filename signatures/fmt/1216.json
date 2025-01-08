@@ -49,6 +49,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 95,
     "supportedBy": "Lotus Corporation",
     "address": "One Rogers Street, Cambridge, MA, 02142",
     "addressCountry": "United States",
@@ -59,6 +60,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 95,
     "developedBy": "Lotus Corporation",
     "address": "One Rogers Street, Cambridge, MA, 02142",
     "addressCountry": "United States",

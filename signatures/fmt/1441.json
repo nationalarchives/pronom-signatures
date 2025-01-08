@@ -50,6 +50,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 15,
     "supportedBy": "Apple Computer, Inc.",
     "address": "1 Infinite Loop, Cupertino, California, CA 95014",
     "addressCountry": "United States",
@@ -60,6 +61,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 15,
     "developedBy": "Apple Computer, Inc.",
     "address": "1 Infinite Loop, Cupertino, California, CA 95014",
     "addressCountry": "United States",

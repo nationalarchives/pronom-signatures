@@ -38,6 +38,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 35,
     "supportedBy": "Corel Corporation",
     "address": "1600 Carling Avenue, Ottawa, Ontario, K1Z 8R7",
     "addressCountry": "Canada",
@@ -48,6 +49,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 35,
     "developedBy": "Corel Corporation",
     "address": "1600 Carling Avenue, Ottawa, Ontario, K1Z 8R7",
     "addressCountry": "Canada",

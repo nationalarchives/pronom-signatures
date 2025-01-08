@@ -61,6 +61,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 316,
     "supportedBy": "opml.org / opml.org",
     "addressCountry": "United States",
     "companyWebsite": "www.opml.org/",
@@ -68,6 +69,7 @@
     "sourceDate": "2023-07-06"
   },
   "developedBy": {
+    "actorId": 316,
     "developedBy": "opml.org / opml.org",
     "addressCountry": "United States",
     "companyWebsite": "www.opml.org/",

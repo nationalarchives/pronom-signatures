@@ -49,6 +49,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 294,
     "supportedBy": "ISAC / International Society for Advancement of Cytometry",
     "address": "700 Pennsylvania Ave. SE\r\nWashington, DC 20003",
     "addressCountry": "United States",
@@ -59,6 +60,7 @@
     "sourceDate": "2022-08-15"
   },
   "developedBy": {
+    "actorId": 294,
     "developedBy": "ISAC / International Society for Advancement of Cytometry",
     "address": "700 Pennsylvania Ave. SE\r\nWashington, DC 20003",
     "addressCountry": "United States",

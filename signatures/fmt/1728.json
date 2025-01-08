@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 80,
     "supportedBy": "dBASE Inc.",
     "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
     "addressCountry": "United States",
@@ -56,6 +57,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 80,
     "developedBy": "dBASE Inc.",
     "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
     "addressCountry": "United States",

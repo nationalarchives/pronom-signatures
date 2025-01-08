@@ -34,6 +34,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 265,
     "supportedBy": "StataCorp / StataCorp",
     "address": "4905 Lakeway Drive\r\nCollege Station, Texas 77845-4512\r\nUSA",
     "addressCountry": "United States",

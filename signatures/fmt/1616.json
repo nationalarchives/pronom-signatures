@@ -56,6 +56,7 @@
     }
   ],
   "supportedBy": {
+    "actorId": 276,
     "supportedBy": "BibTex / BibTeX",
     "addressCountry": "United States",
     "supportWebsite": "www.bibtex.org/",
@@ -64,6 +65,7 @@
     "sourceDate": "2022-02-03"
   },
   "developedBy": {
+    "actorId": 276,
     "developedBy": "BibTex / BibTeX",
     "addressCountry": "United States",
     "supportWebsite": "www.bibtex.org/",

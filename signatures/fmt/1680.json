@@ -55,6 +55,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 281,
     "supportedBy": "Intrepid Geophysics / Intrepid Geophysics",
     "address": "Suite 110\r\n3 Male Street\r\nVIC 3186 Brighton\r\nAustralia",
     "addressCountry": "Australia",
@@ -63,6 +64,7 @@
     "sourceDate": "2022-05-09"
   },
   "developedBy": {
+    "actorId": 281,
     "developedBy": "Intrepid Geophysics / Intrepid Geophysics",
     "address": "Suite 110\r\n3 Male Street\r\nVIC 3186 Brighton\r\nAustralia",
     "addressCountry": "Australia",

@@ -38,6 +38,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 45,
     "supportedBy": "Hewlett Packard Company",
     "address": "3000 Hanover Street, Palo, California, CA 94304 1",
     "addressCountry": "United States",
@@ -46,6 +47,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 45,
     "developedBy": "Hewlett Packard Company",
     "address": "3000 Hanover Street, Palo, California, CA 94304 1",
     "addressCountry": "United States",

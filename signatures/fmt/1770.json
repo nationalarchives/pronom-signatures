@@ -69,6 +69,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 297,
     "supportedBy": "National Center for Biotechnology Information",
     "address": "U.S. National Library of Medicine\r\n8600 Rockville Pike\r\nBethesda MD\r\n20894",
     "addressCountry": "United States",
@@ -77,6 +78,7 @@
     "sourceDate": "2022-09-20"
   },
   "developedBy": {
+    "actorId": 297,
     "developedBy": "National Center for Biotechnology Information",
     "address": "U.S. National Library of Medicine\r\n8600 Rockville Pike\r\nBethesda MD\r\n20894",
     "addressCountry": "United States",

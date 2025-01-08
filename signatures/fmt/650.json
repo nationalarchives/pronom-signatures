@@ -77,6 +77,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 91,
     "supportedBy": "Quark, Inc",
     "address": "1800 Grant St, Denver, CO, 80203",
     "addressCountry": "United States",
@@ -87,6 +88,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 91,
     "developedBy": "Quark, Inc",
     "address": "1800 Grant St, Denver, CO, 80203",
     "addressCountry": "United States",

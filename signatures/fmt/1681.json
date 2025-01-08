@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 282,
     "supportedBy": "Gene Ontology / Gene Ontology",
     "addressCountry": "United States",
     "companyWebsite": "www.geneontology.org/",
@@ -52,6 +53,7 @@
     "sourceDate": "2022-05-09"
   },
   "developedBy": {
+    "actorId": 282,
     "developedBy": "Gene Ontology / Gene Ontology",
     "addressCountry": "United States",
     "companyWebsite": "www.geneontology.org/",

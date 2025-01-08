@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 290,
     "supportedBy": "Geosoft",
     "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch",
     "addressCountry": "New Zealand",
@@ -53,6 +54,7 @@
     "sourceDate": "2022-07-07"
   },
   "developedBy": {
+    "actorId": 290,
     "developedBy": "Geosoft",
     "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch",
     "addressCountry": "New Zealand",

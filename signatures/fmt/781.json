@@ -45,6 +45,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 63,
     "supportedBy": "Oracle",
     "address": "500 Oracle Parkway, Redwood Shores, CA, 94065",
     "addressCountry": "United States",
@@ -56,6 +57,7 @@
     "sourceDate": "2003-09-23"
   },
   "developedBy": {
+    "actorId": 71,
     "developedBy": "Sun Microsystems Incorporated",
     "address": "4150 Network Circle, Santa Clara, CA, 95054",
     "addressCountry": "United States",

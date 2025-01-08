@@ -49,6 +49,7 @@
   ],
   "relationships": [],
   "supportedBy": {
+    "actorId": 302,
     "supportedBy": "Arcsoft / Arcsoft",
     "addressCountry": "United States",
     "companyWebsite": "www.arcsoft.com/",

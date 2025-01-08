@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 282,
-    "supportedBy": "Gene Ontology / Gene Ontology",
+    "name": "Gene Ontology / Gene Ontology",
     "addressCountry": "United States",
     "companyWebsite": "www.geneontology.org/",
     "source": "Digital Preservation Department / The National Archives",
@@ -54,7 +54,7 @@
   },
   "developedBy": {
     "actorId": 282,
-    "developedBy": "Gene Ontology / Gene Ontology",
+    "name": "Gene Ontology / Gene Ontology",
     "addressCountry": "United States",
     "companyWebsite": "www.geneontology.org/",
     "source": "Digital Preservation Department / The National Archives",

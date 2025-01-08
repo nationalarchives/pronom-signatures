@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 51,
-    "supportedBy": "Intuit Inc.",
+    "name": "Intuit Inc.",
     "address": "Corporate Headquarters, 2632 Marine Way, Mountain View, California, CA 94043",
     "addressCountry": "United States",
     "telephone": "1-650-944-6000",
@@ -58,7 +58,7 @@
   },
   "developedBy": {
     "actorId": 51,
-    "developedBy": "Intuit Inc.",
+    "name": "Intuit Inc.",
     "address": "Corporate Headquarters, 2632 Marine Way, Mountain View, California, CA 94043",
     "addressCountry": "United States",
     "telephone": "1-650-944-6000",

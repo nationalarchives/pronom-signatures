@@ -35,7 +35,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 266,
-    "supportedBy": "R Core Team / The R Project for Statistical Computing",
+    "name": "R Core Team / The R Project for Statistical Computing",
     "addressCountry": "New Zealand",
     "source": "Yale University Library / Yale University Library",
     "sourceDate": "2022-01-19"

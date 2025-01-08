@@ -110,7 +110,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 80,
-    "supportedBy": "dBASE Inc.",
+    "name": "dBASE Inc.",
     "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
     "addressCountry": "United States",
     "telephone": "607-729-0960",
@@ -122,7 +122,7 @@
   },
   "developedBy": {
     "actorId": 80,
-    "developedBy": "dBASE Inc.",
+    "name": "dBASE Inc.",
     "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
     "addressCountry": "United States",
     "telephone": "607-729-0960",

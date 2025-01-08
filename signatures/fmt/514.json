@@ -52,7 +52,7 @@
   ],
   "supportedBy": {
     "actorId": 189,
-    "supportedBy": "Asta Development / Asta Development",
+    "name": "Asta Development / Asta Development",
     "address": "Thame Training Centre\r\nKingston House\r\n5 Goodsons Mews\r\nWellington Street\r\nThame\r\nOxfordshire, OX9 3BX",
     "addressCountry": "United Kingdom",
     "telephone": "01844261700",
@@ -63,7 +63,7 @@
   },
   "developedBy": {
     "actorId": 189,
-    "developedBy": "Asta Development / Asta Development",
+    "name": "Asta Development / Asta Development",
     "address": "Thame Training Centre\r\nKingston House\r\n5 Goodsons Mews\r\nWellington Street\r\nThame\r\nOxfordshire, OX9 3BX",
     "addressCountry": "United Kingdom",
     "telephone": "01844261700",

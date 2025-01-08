@@ -51,7 +51,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 72,
-    "supportedBy": "Symantec Corporation",
+    "name": "Symantec Corporation",
     "address": "20330 Stevens Creek Blvd., Cupertino, California, CA 95014",
     "addressCountry": "United States",
     "telephone": "+1 408 517 8000",
@@ -62,7 +62,7 @@
   },
   "developedBy": {
     "actorId": 72,
-    "developedBy": "Symantec Corporation",
+    "name": "Symantec Corporation",
     "address": "20330 Stevens Creek Blvd., Cupertino, California, CA 95014",
     "addressCountry": "United States",
     "telephone": "+1 408 517 8000",

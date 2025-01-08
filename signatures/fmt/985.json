@@ -60,7 +60,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 222,
-    "supportedBy": "Valve Corporation / Valve Corporation",
+    "name": "Valve Corporation / Valve Corporation",
     "address": "Bellevue, Washington",
     "addressCountry": "United States",
     "supportWebsite": "\twww.valvesoftware.com",
@@ -69,7 +69,7 @@
   },
   "developedBy": {
     "actorId": 222,
-    "developedBy": "Valve Corporation / Valve Corporation",
+    "name": "Valve Corporation / Valve Corporation",
     "address": "Bellevue, Washington",
     "addressCountry": "United States",
     "supportWebsite": "\twww.valvesoftware.com",

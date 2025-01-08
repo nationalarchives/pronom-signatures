@@ -55,7 +55,7 @@
   ],
   "supportedBy": {
     "actorId": 18,
-    "supportedBy": "Autodesk",
+    "name": "Autodesk",
     "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
     "addressCountry": "United States",
     "telephone": "001 415-507-5000",
@@ -66,7 +66,7 @@
   },
   "developedBy": {
     "actorId": 18,
-    "developedBy": "Autodesk",
+    "name": "Autodesk",
     "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
     "addressCountry": "United States",
     "telephone": "001 415-507-5000",

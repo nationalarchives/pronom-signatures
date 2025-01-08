@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 30,
-    "supportedBy": "CoffeeCup Software, Inc.",
+    "name": "CoffeeCup Software, Inc.",
     "address": "226 South Tancahua Street, Corpus Christi, Texas, 78401",
     "addressCountry": "United States",
     "telephone": "361 887 7778",
@@ -55,7 +55,7 @@
   },
   "developedBy": {
     "actorId": 30,
-    "developedBy": "CoffeeCup Software, Inc.",
+    "name": "CoffeeCup Software, Inc.",
     "address": "226 South Tancahua Street, Corpus Christi, Texas, 78401",
     "addressCountry": "United States",
     "telephone": "361 887 7778",

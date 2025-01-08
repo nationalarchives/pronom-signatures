@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 306,
-    "supportedBy": "Quicken / Quicken",
+    "name": "Quicken / Quicken",
     "addressCountry": "Canada",
     "companyWebsite": "www.quicken.com/",
     "source": "National Library of Australia / National Library of Australia",
@@ -54,7 +54,7 @@
   },
   "developedBy": {
     "actorId": 306,
-    "developedBy": "Quicken / Quicken",
+    "name": "Quicken / Quicken",
     "addressCountry": "Canada",
     "companyWebsite": "www.quicken.com/",
     "source": "National Library of Australia / National Library of Australia",

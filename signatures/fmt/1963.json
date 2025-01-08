@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 335,
-    "supportedBy": "PT. NEC Indonesia",
+    "name": "PT. NEC Indonesia",
     "address": "Summitmas I\r\n4th Floor\r\nJl. Jend. Sudirman Kav. 61 - 62\r\nJakarta 12190",
     "addressCountry": "Indonesia",
     "companyWebsite": "www.id.nec.com/index.html",
@@ -55,7 +55,7 @@
   },
   "developedBy": {
     "actorId": 335,
-    "developedBy": "PT. NEC Indonesia",
+    "name": "PT. NEC Indonesia",
     "address": "Summitmas I\r\n4th Floor\r\nJl. Jend. Sudirman Kav. 61 - 62\r\nJakarta 12190",
     "addressCountry": "Indonesia",
     "companyWebsite": "www.id.nec.com/index.html",

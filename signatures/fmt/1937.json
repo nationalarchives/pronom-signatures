@@ -64,7 +64,7 @@
   ],
   "supportedBy": {
     "actorId": 323,
-    "supportedBy": "Amazon / Amazon",
+    "name": "Amazon / Amazon",
     "addressCountry": "United States",
     "companyWebsite": "www.aboutamazon.com/",
     "source": "National Library of New Zealand / National Library of New Zealand",
@@ -72,7 +72,7 @@
   },
   "developedBy": {
     "actorId": 323,
-    "developedBy": "Amazon / Amazon",
+    "name": "Amazon / Amazon",
     "addressCountry": "United States",
     "companyWebsite": "www.aboutamazon.com/",
     "source": "National Library of New Zealand / National Library of New Zealand",

@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 315,
-    "supportedBy": "ESKO / ESKO",
+    "name": "ESKO / ESKO",
     "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
     "addressCountry": "Belgium",
     "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
@@ -54,7 +54,7 @@
   },
   "developedBy": {
     "actorId": 315,
-    "developedBy": "ESKO / ESKO",
+    "name": "ESKO / ESKO",
     "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
     "addressCountry": "Belgium",
     "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",

@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 201,
-    "supportedBy": "SmartDraw Software / SmartDraw Software",
+    "name": "SmartDraw Software / SmartDraw Software",
     "address": "SmartDraw Software, LLC\r\n9909 Mira Mesa Blvd.\r\nSan Diego, CA 92131",
     "addressCountry": "United States",
     "companyWebsite": "www.smartdraw.com/",
@@ -55,7 +55,7 @@
   },
   "developedBy": {
     "actorId": 201,
-    "developedBy": "SmartDraw Software / SmartDraw Software",
+    "name": "SmartDraw Software / SmartDraw Software",
     "address": "SmartDraw Software, LLC\r\n9909 Mira Mesa Blvd.\r\nSan Diego, CA 92131",
     "addressCountry": "United States",
     "companyWebsite": "www.smartdraw.com/",

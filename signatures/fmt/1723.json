@@ -35,7 +35,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 288,
-    "supportedBy": "Wordcraft International Limited",
+    "name": "Wordcraft International Limited",
     "address": "8 Heritage Business Centre\r\nDerby Road\r\nBelper\r\nDE56 1SW",
     "addressCountry": "United Kingdom",
     "companyWebsite": "www.wordcraft.com",
@@ -44,7 +44,7 @@
   },
   "developedBy": {
     "actorId": 288,
-    "developedBy": "Wordcraft International Limited",
+    "name": "Wordcraft International Limited",
     "address": "8 Heritage Business Centre\r\nDerby Road\r\nBelper\r\nDE56 1SW",
     "addressCountry": "United Kingdom",
     "companyWebsite": "www.wordcraft.com",

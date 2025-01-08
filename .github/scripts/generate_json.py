@@ -215,7 +215,7 @@ def get_developer(file_format_id):
     sql = f'''
     select
     developer_actor.actor_id actorId,
-    dbo.func_get_actor_compound_name(developer_actor.name_text , developer_actor.organisation_name_text) developedBy,
+    dbo.func_get_actor_compound_name(developer_actor.name_text , developer_actor.organisation_name_text) name,
     developer_actor.address_text address,
     c.country_name_text addressCountry,
     developer_actor.telephone_text telephone,
@@ -243,7 +243,7 @@ def get_support(file_format_id):
     sql = f'''
     select
     support_actor.actor_id actorId,
-    dbo.func_get_actor_compound_name(support_actor.name_text , support_actor.organisation_name_text) As supportedBy,
+    dbo.func_get_actor_compound_name(support_actor.name_text , support_actor.organisation_name_text) As name,
     support_actor.address_text address,
     c.country_name_text addressCountry,
     support_actor.telephone_text telephone,

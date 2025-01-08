@@ -39,7 +39,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 305,
-    "supportedBy": "Fountain / Fountain",
+    "name": "Fountain / Fountain",
     "addressCountry": "United States",
     "companyWebsite": "www.fountain.io",
     "source": "Stadtarchiv Hof / Stadtarchiv Hof",
@@ -47,7 +47,7 @@
   },
   "developedBy": {
     "actorId": 305,
-    "developedBy": "Fountain / Fountain",
+    "name": "Fountain / Fountain",
     "addressCountry": "United States",
     "companyWebsite": "www.fountain.io",
     "source": "Stadtarchiv Hof / Stadtarchiv Hof",

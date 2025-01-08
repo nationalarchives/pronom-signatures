@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 317,
-    "supportedBy": "CloudCompare / CloudCompare",
+    "name": "CloudCompare / CloudCompare",
     "addressCountry": "France",
     "companyWebsite": "www.cloudcompare.org/",
     "source": "National Library of New Zealand / National Library of New Zealand",
@@ -54,7 +54,7 @@
   },
   "developedBy": {
     "actorId": 317,
-    "developedBy": "CloudCompare / CloudCompare",
+    "name": "CloudCompare / CloudCompare",
     "addressCountry": "France",
     "companyWebsite": "www.cloudcompare.org/",
     "source": "National Library of New Zealand / National Library of New Zealand",

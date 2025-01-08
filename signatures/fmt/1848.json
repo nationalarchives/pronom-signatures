@@ -46,7 +46,7 @@
   "relationships": [],
   "supportedBy": {
     "actorId": 307,
-    "supportedBy": "Trelby / Trelby",
+    "name": "Trelby / Trelby",
     "addressCountry": "United States",
     "companyWebsite": "www.trelby.org",
     "source": "Stadtarchiv Hof / Stadtarchiv Hof",
@@ -54,7 +54,7 @@
   },
   "developedBy": {
     "actorId": 307,
-    "developedBy": "Trelby / Trelby",
+    "name": "Trelby / Trelby",
     "addressCountry": "United States",
     "companyWebsite": "www.trelby.org",
     "source": "Stadtarchiv Hof / Stadtarchiv Hof",

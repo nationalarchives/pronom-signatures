@@ -208,7 +208,7 @@
   ],
   "supportedBy": {
     "actorId": 91,
-    "supportedBy": "Quark, Inc",
+    "name": "Quark, Inc",
     "address": "1800 Grant St, Denver, CO, 80203",
     "addressCountry": "United States",
     "telephone": "303.894.8888",
@@ -219,7 +219,7 @@
   },
   "developedBy": {
     "actorId": 91,
-    "developedBy": "Quark, Inc",
+    "name": "Quark, Inc",
     "address": "1800 Grant St, Denver, CO, 80203",
     "addressCountry": "United States",
     "telephone": "303.894.8888",

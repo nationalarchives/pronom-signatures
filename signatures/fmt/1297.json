@@ -46,7 +46,7 @@
   ],
   "supportedBy": {
     "actorId": 20,
-    "supportedBy": "Broderbund Software, Inc",
+    "name": "Broderbund Software, Inc",
     "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
     "addressCountry": "United States",
     "telephone": "319 382 4400",
@@ -57,7 +57,7 @@
   },
   "developedBy": {
     "actorId": 20,
-    "developedBy": "Broderbund Software, Inc",
+    "name": "Broderbund Software, Inc",
     "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
     "addressCountry": "United States",
     "telephone": "319 382 4400",

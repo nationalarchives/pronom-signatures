@@ -49,5 +49,15 @@
       "relatedFormatID": 2741,
       "relatedFormatName": "Resource Interchange File Format (RIFF)"
     }
-  ]
+  ],
+  "developedBy": {
+    "developedBy": "Corel Corporation",
+    "address": "1600 Carling Avenue, Ottawa, Ontario, K1Z 8R7",
+    "addressCountry": "Canada",
+    "telephone": "1 613 728 8200",
+    "companyWebsite": "www.corel.com",
+    "contact": "custserv@corel.com",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2003-09-23"
+  }
 }

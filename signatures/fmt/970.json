@@ -47,5 +47,23 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Khronos Group / Khronos Group",
+    "address": "9450 SW Gemini Drive #45043\r\nBeaverton,\r\nOR 97008-6018",
+    "addressCountry": "United States",
+    "telephone": "+1 (415) 869-8627",
+    "companyWebsite": "www.khronos.org/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2016-09-22"
+  },
+  "developedBy": {
+    "developedBy": "Khronos Group / Khronos Group",
+    "address": "9450 SW Gemini Drive #45043\r\nBeaverton,\r\nOR 97008-6018",
+    "addressCountry": "United States",
+    "telephone": "+1 (415) 869-8627",
+    "companyWebsite": "www.khronos.org/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2016-09-22"
+  }
 }

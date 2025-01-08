@@ -32,5 +32,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "StataCorp / StataCorp",
+    "address": "4905 Lakeway Drive\r\nCollege Station, Texas 77845-4512\r\nUSA",
+    "addressCountry": "United States",
+    "source": "Yale University Library / Yale University Library",
+    "sourceDate": "2022-01-19"
+  }
 }

@@ -54,5 +54,12 @@
       "relatedFormatID": 380,
       "relatedFormatName": "WordStar for Windows Document"
     }
-  ]
+  ],
+  "developedBy": {
+    "developedBy": "MicroPro Inc",
+    "address": "",
+    "addressCountry": "United States",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2005-08-02"
+  }
 }

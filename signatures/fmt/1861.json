@@ -43,5 +43,19 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Quicken / Quicken",
+    "addressCountry": "Canada",
+    "companyWebsite": "www.quicken.com/",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2023-04-26"
+  },
+  "developedBy": {
+    "developedBy": "Quicken / Quicken",
+    "addressCountry": "Canada",
+    "companyWebsite": "www.quicken.com/",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2023-04-26"
+  }
 }

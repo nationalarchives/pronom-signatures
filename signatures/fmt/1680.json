@@ -53,5 +53,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Intrepid Geophysics / Intrepid Geophysics",
+    "address": "Suite 110\r\n3 Male Street\r\nVIC 3186 Brighton\r\nAustralia",
+    "addressCountry": "Australia",
+    "companyWebsite": "www.intrepid-geophysics.com/",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2022-05-09"
+  },
+  "developedBy": {
+    "developedBy": "Intrepid Geophysics / Intrepid Geophysics",
+    "address": "Suite 110\r\n3 Male Street\r\nVIC 3186 Brighton\r\nAustralia",
+    "addressCountry": "Australia",
+    "companyWebsite": "www.intrepid-geophysics.com/",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2022-05-09"
+  }
 }

@@ -47,5 +47,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Esri / Esri",
+    "address": "Redlands, California",
+    "addressCountry": "United States",
+    "companyWebsite": "www.esri.com/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2017-02-17"
+  },
+  "developedBy": {
+    "developedBy": "Esri / Esri",
+    "address": "Redlands, California",
+    "addressCountry": "United States",
+    "companyWebsite": "www.esri.com/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2017-02-17"
+  }
 }

@@ -36,5 +36,23 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Digital Preservation Department / The National Archives",
+    "address": "Kew, Richmond, Surrey, TW9 4DU",
+    "addressCountry": "United Kingdom",
+    "telephone": "+44 (0) 20 8392 5330",
+    "contact": "PRONOM@nationalarchives.gov.uk",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Digital Preservation Department / The National Archives",
+    "address": "Kew, Richmond, Surrey, TW9 4DU",
+    "addressCountry": "United Kingdom",
+    "telephone": "+44 (0) 20 8392 5330",
+    "contact": "PRONOM@nationalarchives.gov.uk",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  }
 }

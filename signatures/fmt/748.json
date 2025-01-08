@@ -49,5 +49,25 @@
       "relatedFormatID": 1542,
       "relatedFormatName": "ClarisWorks/AppleWorks Drawing"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Apple Computer, Inc.",
+    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
+    "addressCountry": "United States",
+    "telephone": "(800) 275-2273",
+    "supportWebsite": "www.info.apple.com",
+    "companyWebsite": "www.apple.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Apple Computer, Inc.",
+    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
+    "addressCountry": "United States",
+    "telephone": "(800) 275-2273",
+    "supportWebsite": "www.info.apple.com",
+    "companyWebsite": "www.apple.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  }
 }

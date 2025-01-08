@@ -38,5 +38,21 @@
     }
   ],
   "externalSignatures": [],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Livecode Ltd / Livecode Ltd",
+    "address": "66 Albion Rodad\r\nEdinburgh\r\nEH7 5QZ",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.livecode.com",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2023-10-09"
+  },
+  "developedBy": {
+    "developedBy": "Livecode Ltd / Livecode Ltd",
+    "address": "66 Albion Rodad\r\nEdinburgh\r\nEH7 5QZ",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.livecode.com",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2023-10-09"
+  }
 }

@@ -32,5 +32,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Esri / Esri",
+    "address": "Redlands, California",
+    "addressCountry": "United States",
+    "companyWebsite": "www.esri.com/",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2017-02-17"
+  },
+  "developedBy": {
+    "developedBy": "Esri / Esri",
+    "address": "Redlands, California",
+    "addressCountry": "United States",
+    "companyWebsite": "www.esri.com/",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2017-02-17"
+  }
 }

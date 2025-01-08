@@ -47,5 +47,25 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "ISAC / International Society for Advancement of Cytometry",
+    "address": "700 Pennsylvania Ave. SE\r\nWashington, DC 20003",
+    "addressCountry": "United States",
+    "telephone": "(703) 537-7948",
+    "companyWebsite": "www.isac-net.org/",
+    "contact": "https://isac-net.org/page/Contact-Us",
+    "source": "UMC Utrecht / University Medical Center Utrecht",
+    "sourceDate": "2022-08-15"
+  },
+  "developedBy": {
+    "developedBy": "ISAC / International Society for Advancement of Cytometry",
+    "address": "700 Pennsylvania Ave. SE\r\nWashington, DC 20003",
+    "addressCountry": "United States",
+    "telephone": "(703) 537-7948",
+    "companyWebsite": "www.isac-net.org/",
+    "contact": "https://isac-net.org/page/Contact-Us",
+    "source": "UMC Utrecht / University Medical Center Utrecht",
+    "sourceDate": "2022-08-15"
+  }
 }

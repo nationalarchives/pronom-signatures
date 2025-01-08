@@ -72,5 +72,27 @@
       "relatedFormatID": 106,
       "relatedFormatName": "Microsoft Word for Macintosh Document"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Microsoft Corporation",
+    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
+    "addressCountry": "United States",
+    "telephone": "+001 (425) 822-8080",
+    "supportWebsite": "support.microsoft.com/",
+    "companyWebsite": "www.microsoft.com/",
+    "contact": "msupport@microsoft.com",
+    "source": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Microsoft Corporation",
+    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
+    "addressCountry": "United States",
+    "telephone": "+001 (425) 822-8080",
+    "supportWebsite": "support.microsoft.com/",
+    "companyWebsite": "www.microsoft.com/",
+    "contact": "msupport@microsoft.com",
+    "source": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+    "sourceDate": "2003-09-23"
+  }
 }

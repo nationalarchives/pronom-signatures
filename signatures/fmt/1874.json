@@ -43,5 +43,19 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "ESKO / ESKO",
+    "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
+    "addressCountry": "Belgium",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2023-07-03"
+  },
+  "developedBy": {
+    "developedBy": "ESKO / ESKO",
+    "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
+    "addressCountry": "Belgium",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2023-07-03"
+  }
 }

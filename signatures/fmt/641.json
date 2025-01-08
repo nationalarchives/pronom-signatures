@@ -54,5 +54,23 @@
       "relatedFormatID": 1099,
       "relatedFormatName": "Tagged Image File Format"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Epson America Inc.",
+    "address": "Epson America Inc., 3840 Kilroy Airport Way, Long Beach, California, CA 90806",
+    "addressCountry": "United States",
+    "telephone": "(1) 562 - 981 - 3840",
+    "companyWebsite": "www.epson.com/",
+    "source": "Artefactual Systems Inc / Artefactual Systems Inc",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Epson America Inc.",
+    "address": "Epson America Inc., 3840 Kilroy Airport Way, Long Beach, California, CA 90806",
+    "addressCountry": "United States",
+    "telephone": "(1) 562 - 981 - 3840",
+    "companyWebsite": "www.epson.com/",
+    "source": "Artefactual Systems Inc / Artefactual Systems Inc",
+    "sourceDate": "2003-09-23"
+  }
 }

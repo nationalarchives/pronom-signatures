@@ -43,5 +43,27 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Intuit Inc.",
+    "address": "Corporate Headquarters, 2632 Marine Way, Mountain View, California, CA 94043",
+    "addressCountry": "United States",
+    "telephone": "1-650-944-6000",
+    "supportWebsite": "www.intuit.com/support/",
+    "companyWebsite": "www.intuit.com/",
+    "contact": "www.intuit.com/company/contact_us/index.ht",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Intuit Inc.",
+    "address": "Corporate Headquarters, 2632 Marine Way, Mountain View, California, CA 94043",
+    "addressCountry": "United States",
+    "telephone": "1-650-944-6000",
+    "supportWebsite": "www.intuit.com/support/",
+    "companyWebsite": "www.intuit.com/",
+    "contact": "www.intuit.com/company/contact_us/index.ht",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2003-09-23"
+  }
 }

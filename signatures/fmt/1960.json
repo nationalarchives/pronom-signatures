@@ -47,5 +47,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Yamaha / Yamaha",
+    "address": "10-1\r\nNakazawacho\r\nNaka-ku Hamamatsu-shi\r\nShizuoka\r\n430-8650",
+    "addressCountry": "Japan",
+    "companyWebsite": "www.yamaha.com/en/",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2023-06-05"
+  },
+  "developedBy": {
+    "developedBy": "Yamaha / Yamaha",
+    "address": "10-1\r\nNakazawacho\r\nNaka-ku Hamamatsu-shi\r\nShizuoka\r\n430-8650",
+    "addressCountry": "Japan",
+    "companyWebsite": "www.yamaha.com/en/",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2023-06-05"
+  }
 }

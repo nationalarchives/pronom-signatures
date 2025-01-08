@@ -53,5 +53,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "Dahua Technology / Zhejiang Dahua Technology Co., Ltd.",
+    "addressCountry": "China",
+    "companyWebsite": "www.dahuasecurity.com/",
+    "source": "Preservica / Preservica",
+    "sourceDate": "2023-05-04"
+  }
 }

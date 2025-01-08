@@ -64,5 +64,21 @@
       "relatedFormatID": 638,
       "relatedFormatName": "Extensible Markup Language"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Ableton",
+    "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
+    "addressCountry": "Germany",
+    "companyWebsite": "www.ableton.com/en/",
+    "source": "Programme Vitam / Programme Vitam",
+    "sourceDate": "2021-09-08"
+  },
+  "developedBy": {
+    "developedBy": "Ableton",
+    "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
+    "addressCountry": "Germany",
+    "companyWebsite": "www.ableton.com/en/",
+    "source": "Programme Vitam / Programme Vitam",
+    "sourceDate": "2021-09-08"
+  }
 }

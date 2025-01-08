@@ -43,5 +43,19 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Seequent / Seequent",
+    "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch\r\nCanterbury\r\n8011",
+    "addressCountry": "New Zealand",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2023-05-24"
+  },
+  "developedBy": {
+    "developedBy": "Seequent / Seequent",
+    "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch\r\nCanterbury\r\n8011",
+    "addressCountry": "New Zealand",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2023-05-24"
+  }
 }

@@ -63,5 +63,21 @@
       "relatedFormatID": 638,
       "relatedFormatName": "Extensible Markup Language"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Esri / Esri",
+    "address": "Redlands, California",
+    "addressCountry": "United States",
+    "companyWebsite": "www.esri.com/",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2017-02-17"
+  },
+  "developedBy": {
+    "developedBy": "Esri / Esri",
+    "address": "Redlands, California",
+    "addressCountry": "United States",
+    "companyWebsite": "www.esri.com/",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2017-02-17"
+  }
 }

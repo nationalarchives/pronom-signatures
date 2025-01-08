@@ -43,5 +43,11 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "Pollen Software",
+    "addressCountry": "United States",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2021-08-20"
+  }
 }

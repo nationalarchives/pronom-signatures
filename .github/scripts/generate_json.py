@@ -3,6 +3,7 @@ import re
 import pyodbc
 import urllib.request
 import xml.etree.ElementTree as Et
+from datetime import datetime
 
 
 def to_camel_case(s):
@@ -187,7 +188,81 @@ def get_format(file_format_id):
     detail_result['internalSignatures'] = get_internal_signatures(file_format_id)
     detail_result['externalSignatures'] = get_external_signatures(file_format_id)
     detail_result['relationships'] = get_format_relationships(file_format_id)
+    support = get_support(file_format_id)
+    developer = get_developer(file_format_id)
+    if support is not None:
+        detail_result['supportedBy'] = support
+    if developer is not None:
+        detail_result['developedBy'] = developer
     return detail_result
+
+
+def process_actor(actor_rows):
+    if len(actor_rows) > 0:
+        actor_result = {}
+        row = actor_rows[0]
+        for key in row.cursor_description:
+            value = row[row.cursor_description.index(key)]
+            if value is not None:
+                if type(value) is datetime:
+                    actor_result[key[0]] = value.strftime("%Y-%m-%d")
+                else:
+                    actor_result[key[0]] = value
+        return actor_result
+
+
+def get_developer(file_format_id):
+    sql = f'''
+    select
+    dbo.func_get_actor_compound_name(developer_actor.name_text , developer_actor.organisation_name_text) developedBy,
+    developer_actor.address_text address,
+    c.country_name_text addressCountry,
+    developer_actor.telephone_text telephone,
+    developer_actor.support_website_text supportWebsite,
+    developer_actor.website_text companyWebsite,
+    developer_actor.contact_email_text contact,
+    dbo.func_get_actor_compound_name(source_actor.name_text , source_actor.organisation_name_text) AS source,
+    developer_actor.source_date sourceDate
+        from file_formats ff
+        JOIN format_developers fd on fd.file_format_id = ff.file_format_id
+        JOIN actors developer_actor on developer_actor.actor_id = fd.developer_id
+        JOIN actors source_actor on source_actor.actor_id = ff.source_id
+        JOIN actors actor_source on actor_source.actor_id = developer_actor.source_id
+        JOIN dbo.countries c on developer_actor.country_code_text = c.country_code_text
+    where ff.file_format_id = {file_format_id};
+    '''
+    conn = get_connection("localhost", "PRONOM", "sa", "P@ssw0rd")
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    rows = cursor.fetchall()
+    return process_actor(rows)
+
+
+def get_support(file_format_id):
+    sql = f'''
+    select
+    dbo.func_get_actor_compound_name(support_actor.name_text , support_actor.organisation_name_text) As supportedBy,
+    support_actor.address_text address,
+    c.country_name_text addressCountry,
+    support_actor.telephone_text telephone,
+    support_actor.support_website_text supportWebsite,
+    support_actor.website_text companyWebsite,
+    support_actor.contact_email_text contact,
+    dbo.func_get_actor_compound_name(source_actor.name_text , source_actor.organisation_name_text) AS source,
+    support_actor.source_date sourceDate
+    from file_formats ff
+         JOIN format_support fs on fs.file_format_id = ff.file_format_id
+         JOIN actors support_actor on support_actor.actor_id = fs.support_id
+         JOIN actors source_actor on source_actor.actor_id = ff.source_id
+         JOIN actors actor_source on actor_source.actor_id = support_actor.source_id
+         JOIN dbo.countries c on support_actor.country_code_text = c.country_code_text
+    where ff.file_format_id = {file_format_id};
+    '''
+    conn = get_connection("localhost", "PRONOM", "sa", "P@ssw0rd")
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    rows = cursor.fetchall()
+    return process_actor(rows)
 
 
 def execute_stored_procedures(procedures, file_format_id):

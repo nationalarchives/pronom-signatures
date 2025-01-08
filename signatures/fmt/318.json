@@ -55,5 +55,23 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Caminova Corporation",
+    "address": "Forum Bldg 4F, 1-28-13, Hamamatsu-cho, Minato-ku, Tokyo 105-0013",
+    "addressCountry": "Japan",
+    "supportWebsite": "www.caminova.net/en/",
+    "contact": "info_jp@caminova.jp",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2010-01-08"
+  },
+  "developedBy": {
+    "developedBy": "Caminova Corporation",
+    "address": "Forum Bldg 4F, 1-28-13, Hamamatsu-cho, Minato-ku, Tokyo 105-0013",
+    "addressCountry": "Japan",
+    "supportWebsite": "www.caminova.net/en/",
+    "contact": "info_jp@caminova.jp",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2010-01-08"
+  }
 }

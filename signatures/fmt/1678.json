@@ -32,5 +32,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "MathWorks / MathWorks",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.matlab.mathworks.com/",
+    "source": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+    "sourceDate": "2022-04-28"
+  }
 }

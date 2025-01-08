@@ -43,5 +43,16 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "Sensors and Software Inc. / Sensors and Software Inc.",
+    "address": "Sensors and Software Inc.\r\n1040 Stacey Court\r\nMississauga, Ontario\r\nL4W 2X8",
+    "addressCountry": "Canada",
+    "telephone": "905-624-8909",
+    "supportWebsite": "www.sensoft.ca/Support.aspx",
+    "companyWebsite": "www.sensoft.ca/Home.aspx",
+    "contact": "techsupport@sensoft.ca",
+    "source": "Archaeology Data Service / Archaeology Data Service",
+    "sourceDate": "2011-07-28"
+  }
 }

@@ -57,5 +57,17 @@
       "relatedFormatID": 2843,
       "relatedFormatName": "ICC Profile"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "International Color Consortium",
+    "addressCountry": "United States",
+    "source": "Biblioth\u00e8que nationale de France",
+    "sourceDate": "2024-04-17"
+  },
+  "developedBy": {
+    "developedBy": "International Color Consortium",
+    "addressCountry": "United States",
+    "source": "Biblioth\u00e8que nationale de France",
+    "sourceDate": "2024-04-17"
+  }
 }

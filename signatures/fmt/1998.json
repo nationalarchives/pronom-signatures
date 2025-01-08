@@ -49,5 +49,17 @@
       "relatedFormatID": 638,
       "relatedFormatName": "Extensible Markup Language"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "SMPTE / Society of Motion Picture and Television Engineers",
+    "addressCountry": "United States",
+    "source": "Preservica / Preservica",
+    "sourceDate": "2024-04-18"
+  },
+  "developedBy": {
+    "developedBy": "SMPTE / Society of Motion Picture and Television Engineers",
+    "addressCountry": "United States",
+    "source": "Preservica / Preservica",
+    "sourceDate": "2024-04-18"
+  }
 }

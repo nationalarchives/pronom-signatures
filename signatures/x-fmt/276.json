@@ -62,5 +62,16 @@
       "relatedFormatID": 407,
       "relatedFormatName": "Microsoft Word for MS-DOS Document"
     }
-  ]
+  ],
+  "developedBy": {
+    "developedBy": "Microsoft Corporation",
+    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
+    "addressCountry": "United States",
+    "telephone": "+001 (425) 822-8080",
+    "supportWebsite": "support.microsoft.com/",
+    "companyWebsite": "www.microsoft.com/",
+    "contact": "msupport@microsoft.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  }
 }

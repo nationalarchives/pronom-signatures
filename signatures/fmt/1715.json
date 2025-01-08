@@ -43,5 +43,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "CoffeeCup Software, Inc.",
+    "address": "226 South Tancahua Street, Corpus Christi, Texas, 78401",
+    "addressCountry": "United States",
+    "telephone": "361 887 7778",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "CoffeeCup Software, Inc.",
+    "address": "226 South Tancahua Street, Corpus Christi, Texas, 78401",
+    "addressCountry": "United States",
+    "telephone": "361 887 7778",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2003-09-23"
+  }
 }

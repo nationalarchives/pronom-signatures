@@ -44,6 +44,26 @@
       "relatedFormatName": "Quattro Pro Spreadsheet for Windows"
     }
   ],
+  "supportedBy": {
+    "supportedBy": "Corel Corporation",
+    "address": "1600 Carling Avenue, Ottawa, Ontario, K1Z 8R7",
+    "addressCountry": "Canada",
+    "telephone": "1 613 728 8200",
+    "companyWebsite": "www.corel.com",
+    "contact": "custserv@corel.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Corel Corporation",
+    "address": "1600 Carling Avenue, Ottawa, Ontario, K1Z 8R7",
+    "addressCountry": "Canada",
+    "telephone": "1 613 728 8200",
+    "companyWebsite": "www.corel.com",
+    "contact": "custserv@corel.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  },
   "containerSignatures": [
     {
       "containerType": "OLE2",

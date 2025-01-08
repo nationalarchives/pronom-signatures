@@ -53,5 +53,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "Graphisoft",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.graphisoft.com/uk/",
+    "source": "Preservica / Preservica",
+    "sourceDate": "2023-08-25"
+  }
 }

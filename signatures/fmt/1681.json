@@ -43,5 +43,19 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Gene Ontology / Gene Ontology",
+    "addressCountry": "United States",
+    "companyWebsite": "www.geneontology.org/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2022-05-09"
+  },
+  "developedBy": {
+    "developedBy": "Gene Ontology / Gene Ontology",
+    "addressCountry": "United States",
+    "companyWebsite": "www.geneontology.org/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2022-05-09"
+  }
 }

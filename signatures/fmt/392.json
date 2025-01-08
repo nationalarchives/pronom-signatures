@@ -53,5 +53,14 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "LizardTech / LizardTech",
+    "address": "LizardTech,\r\n1008 Western Avenue,\r\nSuite 200,\r\nSeattle, WA 98104",
+    "addressCountry": "United States",
+    "telephone": "1-866-725-5211",
+    "companyWebsite": "www.lizardtech.com/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2011-11-25"
+  }
 }

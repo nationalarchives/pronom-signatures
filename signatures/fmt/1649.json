@@ -31,7 +31,7 @@
       "positionType": "Absolute from BOF",
       "offset": 0,
       "maxOffset": 4,
-      "byteSequence": "22(47524F5550|2A2A50524F4A)22*22{0-1}50524F4A5F4944222C22{0-1}(50524F4A5F4E414D45222C22|50524F4A5F41475322)*22{0-1}414242525F48444E47222C22{0-1}414242525F434F4445222C22",
+      "byteSequence": "22(47524F5550|2A2A50524F4A)22**22{0-1}50524F4A5F4944222C22{0-1}(50524F4A5F4E414D45222C22|50524F4A5F41475322)*22{0-1}414242525F48444E47222C22{0-1}414242525F434F4445222C22",
       "endianness": null,
       "name": "AGS 4 Data Format",
       "note": "Offset 0-4 from beginning of file, magic bytes: \"(GROUP|**PROJ)\"*\u201c{0-1}PROJ_ID\",{0-1}(\"PROJ_NAME\",\u201d|\"PROJ_AGS\",\")*\u201c{0-1}ABBR_HDNG\",\u201d{0-1}ABBR_CODE\",\""
@@ -43,5 +43,13 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "AGS / Association of Geotechnical and Geoenvironmental Specialists",
+    "address": "Forum Court, Office 2FF,\r\nSaphir House,\r\n5 Jubilee Way,\r\nFaversham, Kent,\r\nME13 8GD",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.ags.org.uk/",
+    "source": "AGS / Association of Geotechnical and Geoenvironmental Specialists",
+    "sourceDate": "2022-03-15"
+  }
 }

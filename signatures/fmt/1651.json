@@ -43,5 +43,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Garmin / Garmin",
+    "address": "1200 E 151st St\r\nOlathe\r\nKS 66062\r\nUnited States",
+    "addressCountry": "United States",
+    "companyWebsite": "www.garmin.com/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2022-03-15"
+  },
+  "developedBy": {
+    "developedBy": "Garmin / Garmin",
+    "address": "1200 E 151st St\r\nOlathe\r\nKS 66062\r\nUnited States",
+    "addressCountry": "United States",
+    "companyWebsite": "www.garmin.com/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2022-03-15"
+  }
 }

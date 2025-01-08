@@ -47,5 +47,25 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Autodesk",
+    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
+    "addressCountry": "United States",
+    "telephone": "001 415-507-5000",
+    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
+    "companyWebsite": "www.Autodesk.com",
+    "source": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Autodesk",
+    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
+    "addressCountry": "United States",
+    "telephone": "001 415-507-5000",
+    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
+    "companyWebsite": "www.Autodesk.com",
+    "source": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+    "sourceDate": "2003-09-23"
+  }
 }

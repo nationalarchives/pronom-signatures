@@ -36,5 +36,19 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Fountain / Fountain",
+    "addressCountry": "United States",
+    "companyWebsite": "www.fountain.io",
+    "source": "Stadtarchiv Hof / Stadtarchiv Hof",
+    "sourceDate": "2023-03-28"
+  },
+  "developedBy": {
+    "developedBy": "Fountain / Fountain",
+    "addressCountry": "United States",
+    "companyWebsite": "www.fountain.io",
+    "source": "Stadtarchiv Hof / Stadtarchiv Hof",
+    "sourceDate": "2023-03-28"
+  }
 }

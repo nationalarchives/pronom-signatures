@@ -67,5 +67,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "National Center for Biotechnology Information",
+    "address": "U.S. National Library of Medicine\r\n8600 Rockville Pike\r\nBethesda MD\r\n20894",
+    "addressCountry": "United States",
+    "companyWebsite": "www.ncbi.nlm.nih.gov/",
+    "source": "Bodleian Library, University of Oxford / Bodleian Library, University of Oxford",
+    "sourceDate": "2022-09-20"
+  },
+  "developedBy": {
+    "developedBy": "National Center for Biotechnology Information",
+    "address": "U.S. National Library of Medicine\r\n8600 Rockville Pike\r\nBethesda MD\r\n20894",
+    "addressCountry": "United States",
+    "companyWebsite": "www.ncbi.nlm.nih.gov/",
+    "source": "Bodleian Library, University of Oxford / Bodleian Library, University of Oxford",
+    "sourceDate": "2022-09-20"
+  }
 }

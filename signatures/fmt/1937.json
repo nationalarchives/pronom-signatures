@@ -61,5 +61,19 @@
       "relatedFormatID": 1144,
       "relatedFormatName": "PocketMobi (Palm Resource) File"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Amazon / Amazon",
+    "addressCountry": "United States",
+    "companyWebsite": "www.aboutamazon.com/",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2023-10-30"
+  },
+  "developedBy": {
+    "developedBy": "Amazon / Amazon",
+    "addressCountry": "United States",
+    "companyWebsite": "www.aboutamazon.com/",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2023-10-30"
+  }
 }

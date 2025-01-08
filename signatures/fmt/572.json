@@ -59,5 +59,27 @@
       "relatedFormatID": 638,
       "relatedFormatName": "Extensible Markup Language"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "IBM Corporation",
+    "address": "1133 Westchester Avenue, White Plains, New York, 10604",
+    "addressCountry": "United States",
+    "telephone": "404 238-1234",
+    "supportWebsite": "www.ibm.com/planetwide/us/techsup",
+    "companyWebsite": "www.ibm.com/us/",
+    "contact": "www.ibm.com/contact/us/",
+    "source": "Nokia / Nokia",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "IBM Corporation",
+    "address": "1133 Westchester Avenue, White Plains, New York, 10604",
+    "addressCountry": "United States",
+    "telephone": "404 238-1234",
+    "supportWebsite": "www.ibm.com/planetwide/us/techsup",
+    "companyWebsite": "www.ibm.com/us/",
+    "contact": "www.ibm.com/contact/us/",
+    "source": "Nokia / Nokia",
+    "sourceDate": "2003-09-23"
+  }
 }

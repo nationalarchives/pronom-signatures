@@ -53,5 +53,27 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Adobe Systems Incorporated",
+    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
+    "addressCountry": "United States",
+    "telephone": "+001 (408) 537-6000",
+    "supportWebsite": "www.adobe.com/support/main.html",
+    "companyWebsite": "www.adobe.com",
+    "contact": "englishts@adobe.com",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Macromedia, Inc.",
+    "address": "600 Townsend Street, San Francisco, California, CA 94103",
+    "addressCountry": "United States",
+    "telephone": "(415) 252-2000",
+    "supportWebsite": "www.macromedia.com/support/",
+    "companyWebsite": "www.macromedia.com",
+    "contact": "www.macromedia.com/macromedia/contact/",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2003-09-23"
+  }
 }

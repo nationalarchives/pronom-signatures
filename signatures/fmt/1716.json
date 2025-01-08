@@ -47,5 +47,27 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Inspiration Software, Inc.",
+    "address": "7412 SW Beaverton-Hillsdale Hwy, Suite 102, Portland, Oregan, OR 97225",
+    "addressCountry": "United States",
+    "telephone": "503-297-3004",
+    "supportWebsite": "www.inspiration.com/techsupport/index.cfm",
+    "companyWebsite": "www.inspiration.com/home.cfm",
+    "contact": "www.inspiration.com/contact_us/index.cfm",
+    "source": "CSC / IT Center for Science, Finland",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Inspiration Software, Inc.",
+    "address": "7412 SW Beaverton-Hillsdale Hwy, Suite 102, Portland, Oregan, OR 97225",
+    "addressCountry": "United States",
+    "telephone": "503-297-3004",
+    "supportWebsite": "www.inspiration.com/techsupport/index.cfm",
+    "companyWebsite": "www.inspiration.com/home.cfm",
+    "contact": "www.inspiration.com/contact_us/index.cfm",
+    "source": "CSC / IT Center for Science, Finland",
+    "sourceDate": "2003-09-23"
+  }
 }

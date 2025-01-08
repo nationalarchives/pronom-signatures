@@ -79,5 +79,25 @@
       "relatedFormatID": 1297,
       "relatedFormatName": "PowerProject Teamplan"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Asta Development / Asta Development",
+    "address": "Thame Training Centre\r\nKingston House\r\n5 Goodsons Mews\r\nWellington Street\r\nThame\r\nOxfordshire, OX9 3BX",
+    "addressCountry": "United Kingdom",
+    "telephone": "01844261700",
+    "companyWebsite": "www.astadev.com",
+    "contact": "enquiries@astadev.com",
+    "source": "Asta Development / Asta Development",
+    "sourceDate": "2013-05-01"
+  },
+  "developedBy": {
+    "developedBy": "Asta Development / Asta Development",
+    "address": "Thame Training Centre\r\nKingston House\r\n5 Goodsons Mews\r\nWellington Street\r\nThame\r\nOxfordshire, OX9 3BX",
+    "addressCountry": "United Kingdom",
+    "telephone": "01844261700",
+    "companyWebsite": "www.astadev.com",
+    "contact": "enquiries@astadev.com",
+    "source": "Asta Development / Asta Development",
+    "sourceDate": "2013-05-01"
+  }
 }

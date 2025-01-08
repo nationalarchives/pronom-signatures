@@ -43,5 +43,19 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "DeviceTree / DeviceTree",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.devicetree.org/",
+    "source": "Oliver Mattos / Oliver Mattos",
+    "sourceDate": "2022-02-03"
+  },
+  "developedBy": {
+    "developedBy": "DeviceTree / DeviceTree",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.devicetree.org/",
+    "source": "Oliver Mattos / Oliver Mattos",
+    "sourceDate": "2022-02-03"
+  }
 }

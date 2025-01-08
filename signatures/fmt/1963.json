@@ -43,5 +43,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "PT. NEC Indonesia",
+    "address": "Summitmas I\r\n4th Floor\r\nJl. Jend. Sudirman Kav. 61 - 62\r\nJakarta 12190",
+    "addressCountry": "Indonesia",
+    "companyWebsite": "www.id.nec.com/index.html",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2024-02-01"
+  },
+  "developedBy": {
+    "developedBy": "PT. NEC Indonesia",
+    "address": "Summitmas I\r\n4th Floor\r\nJl. Jend. Sudirman Kav. 61 - 62\r\nJakarta 12190",
+    "addressCountry": "Indonesia",
+    "companyWebsite": "www.id.nec.com/index.html",
+    "source": "National Library of Australia / National Library of Australia",
+    "sourceDate": "2024-02-01"
+  }
 }

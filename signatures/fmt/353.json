@@ -251,5 +251,13 @@
       "relatedFormatID": 2694,
       "relatedFormatName": "Digital Negative Format (DNG)"
     }
-  ]
+  ],
+  "developedBy": {
+    "developedBy": "Aldus Corporation",
+    "address": "411 Fist Avenue South, Seattle, Washington, WA",
+    "addressCountry": "United States",
+    "telephone": "+1 206 6225500",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  }
 }

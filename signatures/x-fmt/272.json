@@ -32,5 +32,27 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "dBASE Inc.",
+    "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
+    "addressCountry": "United States",
+    "telephone": "607-729-0960",
+    "supportWebsite": "techsupport@dbase.com",
+    "companyWebsite": "www.dbase.com/mainpage.htm",
+    "contact": "mailto:Rich Lauer<rlauer@dbase.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "dBASE Inc.",
+    "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
+    "addressCountry": "United States",
+    "telephone": "607-729-0960",
+    "supportWebsite": "techsupport@dbase.com",
+    "companyWebsite": "www.dbase.com/mainpage.htm",
+    "contact": "mailto:Rich Lauer<rlauer@dbase.com",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  }
 }

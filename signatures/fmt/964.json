@@ -49,5 +49,27 @@
       "relatedFormatID": 2697,
       "relatedFormatName": "Final Draft Document"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Final Draft Inc / Final Draft Inc",
+    "address": "Suite 205, 26707 W. Agoura Road, Calabasas, California 91302",
+    "addressCountry": "United States",
+    "telephone": "(818) 995 8995",
+    "supportWebsite": "www.finaldraft.com/support/",
+    "companyWebsite": "www.finaldraft.com",
+    "contact": "info@finaldraft.com",
+    "source": "Hull History Centre / Hull History Centre",
+    "sourceDate": "2010-04-27"
+  },
+  "developedBy": {
+    "developedBy": "Final Draft Inc / Final Draft Inc",
+    "address": "Suite 205, 26707 W. Agoura Road, Calabasas, California 91302",
+    "addressCountry": "United States",
+    "telephone": "(818) 995 8995",
+    "supportWebsite": "www.finaldraft.com/support/",
+    "companyWebsite": "www.finaldraft.com",
+    "contact": "info@finaldraft.com",
+    "source": "Hull History Centre / Hull History Centre",
+    "sourceDate": "2010-04-27"
+  }
 }

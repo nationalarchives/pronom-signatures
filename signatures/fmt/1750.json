@@ -43,5 +43,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Canon / Canon",
+    "address": "Canon (UK) Ltd\r\nWoodhatch \r\nReigate \r\nSurrey \r\nRH2 8BF",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.canon.co.uk",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2013-11-12"
+  },
+  "developedBy": {
+    "developedBy": "Canon / Canon",
+    "address": "Canon (UK) Ltd\r\nWoodhatch \r\nReigate \r\nSurrey \r\nRH2 8BF",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.canon.co.uk",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2013-11-12"
+  }
 }

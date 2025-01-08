@@ -53,5 +53,14 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "Earth Resource Mapping, Inc. / Earth Resource Mapping, Inc.",
+    "address": "13400 Sabre Springs\r\nParkway\r\nSuite 150\r\nSan Diego, CA 92128",
+    "addressCountry": "United States",
+    "telephone": "858-391-5638",
+    "companyWebsite": "www.erdas.com/Homepage.aspx",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2011-11-03"
+  }
 }

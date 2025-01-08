@@ -43,5 +43,17 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Husqvarna-Viking",
+    "addressCountry": "Sweden",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2024-04-19"
+  },
+  "developedBy": {
+    "developedBy": "Husqvarna-Viking",
+    "addressCountry": "Sweden",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2024-04-19"
+  }
 }

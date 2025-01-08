@@ -47,5 +47,21 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "supportedBy": "Hewlett Packard Company",
+    "address": "3000 Hanover Street, Palo, California, CA 94304 1",
+    "addressCountry": "United States",
+    "telephone": "650 857 1501",
+    "source": "Public Record Office of Northern Ireland / Public Record Office of Northern Ireland",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Hewlett Packard Company",
+    "address": "3000 Hanover Street, Palo, California, CA 94304 1",
+    "addressCountry": "United States",
+    "telephone": "650 857 1501",
+    "source": "Public Record Office of Northern Ireland / Public Record Office of Northern Ireland",
+    "sourceDate": "2003-09-23"
+  }
 }

@@ -103,5 +103,13 @@
       "relatedFormatID": 1258,
       "relatedFormatName": "Hypertext Markup Language"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Biblioth\u00e8que nationale de France",
+    "address": "Quai Fran\u00e7ois-Mauriac \r\n75706 Paris Cedex 13",
+    "addressCountry": "France",
+    "companyWebsite": "www.bnf.fr/en/bnf/address_transport/s.address_transports_fm.html",
+    "source": "Biblioth\u00e8que nationale de France",
+    "sourceDate": "2010-11-02"
+  }
 }

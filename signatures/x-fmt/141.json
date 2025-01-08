@@ -49,5 +49,25 @@
       "relatedFormatID": 2113,
       "relatedFormatName": "Calendar Creator Event"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Broderbund Software, Inc",
+    "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
+    "addressCountry": "United States",
+    "telephone": "319 382 4400",
+    "companyWebsite": "www.broderbund.com",
+    "contact": "www.broderbund.com/company/contact.asp",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Broderbund Software, Inc",
+    "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
+    "addressCountry": "United States",
+    "telephone": "319 382 4400",
+    "companyWebsite": "www.broderbund.com",
+    "contact": "www.broderbund.com/company/contact.asp",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2003-09-23"
+  }
 }

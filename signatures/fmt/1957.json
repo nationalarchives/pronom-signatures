@@ -43,5 +43,13 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "developedBy": {
+    "developedBy": "Melco Designshop",
+    "address": "Melco International LLC\r\n1575 W. 124th Ave.\r\nWestminster, CO 80234",
+    "addressCountry": "United States",
+    "companyWebsite": "https://melco.com/",
+    "source": "Digital Preservation Department / The National Archives",
+    "sourceDate": "2024-04-25"
+  }
 }

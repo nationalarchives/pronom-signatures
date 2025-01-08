@@ -73,5 +73,25 @@
       "relatedFormatID": 744,
       "relatedFormatName": "Drawing Interchange File Format (Binary)"
     }
-  ]
+  ],
+  "supportedBy": {
+    "supportedBy": "Autodesk",
+    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
+    "addressCountry": "United States",
+    "telephone": "001 415-507-5000",
+    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
+    "companyWebsite": "www.Autodesk.com",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2003-09-23"
+  },
+  "developedBy": {
+    "developedBy": "Autodesk",
+    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
+    "addressCountry": "United States",
+    "telephone": "001 415-507-5000",
+    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
+    "companyWebsite": "www.Autodesk.com",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2003-09-23"
+  }
 }

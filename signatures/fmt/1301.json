@@ -45,14 +45,15 @@
   ],
   "relationships": [],
   "supportedBy": {
-    "actorId": 20,
-    "name": "Broderbund Software, Inc",
-    "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
+    "actorId": 7,
+    "name": "Adobe Systems Incorporated",
+    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
     "addressCountry": "United States",
-    "telephone": "319 382 4400",
-    "companyWebsite": "www.broderbund.com",
-    "contact": "www.broderbund.com/company/contact.asp",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "telephone": "+001 (408) 537-6000",
+    "supportWebsite": "www.adobe.com/support/main.html",
+    "companyWebsite": "www.adobe.com",
+    "contact": "englishts@adobe.com",
+    "source": "Digital Preservation Department / The National Archives",
     "sourceDate": "2003-09-23"
   },
   "developedBy": {

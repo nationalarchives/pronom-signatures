@@ -1,6 +1,6 @@
 {
   "fileFormatID": 2119,
-  "formatName": "The Print Shop Project",
+  "formatName": "I'm changing this field",
   "version": "2-5",
   "formatDescription": "The Print Shop is a desktop publishing application published by Broderbund. This format version post-dates the earlier The Print Shop Deluxe product range. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop.",
   "releaseDate": null,
@@ -45,15 +45,13 @@
   ],
   "relationships": [],
   "supportedBy": {
-    "actorId": 20,
-    "name": "Broderbund Software, Inc",
-    "address": "RiverDeep Group PLC, 500 Redwood Drive, California, CA 94947",
-    "addressCountry": "United States",
-    "telephone": "319 382 4400",
-    "companyWebsite": "www.broderbund.com",
-    "contact": "www.broderbund.com/company/contact.asp",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2003-09-23"
+    "actorId": 197,
+    "name": "Canon / Canon",
+    "address": "Canon (UK) Ltd\r\nWoodhatch \r\nReigate \r\nSurrey \r\nRH2 8BF",
+    "addressCountry": "United Kingdom",
+    "companyWebsite": "www.canon.co.uk",
+    "source": "Artefactual Systems Inc / Artefactual Systems Inc",
+    "sourceDate": "2013-11-12"
   },
   "developedBy": {
     "actorId": 20,

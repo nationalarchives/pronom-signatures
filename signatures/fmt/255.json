@@ -75,5 +75,14 @@
     "contact": "info_jp@caminova.jp",
     "source": "National Library of Singapore / National Library Board Singapore",
     "sourceDate": "2010-01-08"
+  },
+  "source": {
+    "actorId": 149,
+    "name": "National Library of Singapore / National Library Board Singapore",
+    "address": "100 Victoria Street #14-01 188064",
+    "addressCountry": "Singapore",
+    "companyWebsite": "www.nlb.gov.sg",
+    "contact": "ref@nlb.gov.sg",
+    "sourceDate": "2010-01-08"
   }
 }

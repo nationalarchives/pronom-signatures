@@ -44,6 +44,27 @@
       "relatedFormatName": "SIARD (Software-Independent Archiving of Relational Databases)"
     }
   ],
+  "supportedBy": {
+    "actorId": 143,
+    "name": "Swiss Federal Archives / Swiss Federal Archives",
+    "source": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+    "sourceDate": "2009-02-03"
+  },
+  "developedBy": {
+    "actorId": 143,
+    "name": "Swiss Federal Archives / Swiss Federal Archives",
+    "source": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+    "sourceDate": "2009-02-03"
+  },
+  "source": {
+    "actorId": 232,
+    "name": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+    "address": "Landesarchiv NRW\r\nSchifferstra\u00dfe 30\r\n47059 Duisburg",
+    "addressCountry": "Germany",
+    "telephone": "+49 203 98721-0",
+    "companyWebsite": "www.archive.nrw.de",
+    "sourceDate": "2018-07-19"
+  },
   "containerSignatures": [
     {
       "containerType": "ZIP",

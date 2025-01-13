@@ -61,5 +61,11 @@
     "companyWebsite": "www.graphisoft.com/uk/",
     "source": "Preservica / Preservica",
     "sourceDate": "2023-08-25"
+  },
+  "source": {
+    "actorId": 244,
+    "name": "Preservica / Preservica",
+    "addressCountry": "United Kingdom",
+    "sourceDate": "2020-01-14"
   }
 }

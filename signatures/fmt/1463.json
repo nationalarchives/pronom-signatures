@@ -82,5 +82,11 @@
     "companyWebsite": "www.ableton.com/en/",
     "source": "Programme Vitam / Programme Vitam",
     "sourceDate": "2021-09-08"
+  },
+  "source": {
+    "actorId": 250,
+    "name": "Programme Vitam / Programme Vitam",
+    "addressCountry": "France",
+    "sourceDate": "2021-09-08"
   }
 }

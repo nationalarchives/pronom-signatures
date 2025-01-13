@@ -43,5 +43,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 241,
+    "name": "J. Paul Getty Trust / J. Paul Getty Trust",
+    "addressCountry": "United States",
+    "companyWebsite": "www.getty.edu/",
+    "sourceDate": "2019-12-19"
+  }
 }

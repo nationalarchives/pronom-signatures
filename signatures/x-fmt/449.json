@@ -36,5 +36,11 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 131,
+    "name": "Digital Library Research Group / MIT Libraries",
+    "companyWebsite": "www.libraries.mit.edu/dlrg/index.html",
+    "sourceDate": "2008-10-22"
+  }
 }

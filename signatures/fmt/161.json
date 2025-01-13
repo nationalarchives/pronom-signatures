@@ -60,6 +60,23 @@
       "relatedFormatName": "ZIP Format"
     }
   ],
+  "supportedBy": {
+    "actorId": 143,
+    "name": "Swiss Federal Archives / Swiss Federal Archives",
+    "source": "Swiss Federal Archives / Swiss Federal Archives",
+    "sourceDate": "2009-02-03"
+  },
+  "developedBy": {
+    "actorId": 143,
+    "name": "Swiss Federal Archives / Swiss Federal Archives",
+    "source": "Swiss Federal Archives / Swiss Federal Archives",
+    "sourceDate": "2009-02-03"
+  },
+  "source": {
+    "actorId": 143,
+    "name": "Swiss Federal Archives / Swiss Federal Archives",
+    "sourceDate": "2009-02-03"
+  },
   "containerSignatures": [
     {
       "containerType": "ZIP",

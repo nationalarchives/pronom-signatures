@@ -47,5 +47,14 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 195,
+    "name": "Artefactual Systems Inc / Artefactual Systems Inc",
+    "address": "Artefactual Systems Inc.\r\nSuite 202 \u2013 26 Lorne Mews\r\nNew Westminster, BC\r\nCanada V3M 3L7",
+    "addressCountry": "Canada",
+    "companyWebsite": "www.artefactual.com/",
+    "contact": "info@artefactual.com",
+    "sourceDate": "2013-11-12"
+  }
 }

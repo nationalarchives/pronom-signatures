@@ -47,5 +47,26 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "actorId": 200,
+    "name": "W3C / W3C",
+    "companyWebsite": "www.w3.org/Consortium/contact",
+    "source": "LIBNOVA / LIBNOVA",
+    "sourceDate": "2014-02-14"
+  },
+  "developedBy": {
+    "actorId": 200,
+    "name": "W3C / W3C",
+    "companyWebsite": "www.w3.org/Consortium/contact",
+    "source": "LIBNOVA / LIBNOVA",
+    "sourceDate": "2014-02-14"
+  },
+  "source": {
+    "actorId": 249,
+    "name": "LIBNOVA / LIBNOVA",
+    "addressCountry": "Spain",
+    "companyWebsite": "www.libnova.com/",
+    "sourceDate": "2021-10-16"
+  }
 }

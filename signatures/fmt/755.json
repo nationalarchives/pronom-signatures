@@ -92,6 +92,16 @@
     "source": "Archives New Zealand / Archives New Zealand",
     "sourceDate": "2003-09-23"
   },
+  "source": {
+    "actorId": 214,
+    "name": "Archives New Zealand / Archives New Zealand",
+    "address": "10 Mulgrave Street, Thorndon, \r\nWellington 6011, New Zealand",
+    "addressCountry": "New Zealand",
+    "telephone": "(64-4) 499 5595",
+    "companyWebsite": "www.archives.govt.nz/",
+    "contact": "general.enquiries@dia.govt.nz",
+    "sourceDate": "2015-08-07"
+  },
   "containerSignatures": [
     {
       "containerType": "OLE2",

@@ -59,5 +59,14 @@
       "relatedFormatID": 1329,
       "relatedFormatName": "GEM Metafile Format"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 165,
+    "name": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+    "address": "Georgia Institute of Technology, Atlanta, Georgia 30332",
+    "addressCountry": "United States",
+    "telephone": "404-894-4154",
+    "companyWebsite": "www.gtri.gatech.edu/",
+    "sourceDate": "2010-12-02"
+  }
 }

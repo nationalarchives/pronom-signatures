@@ -54,5 +54,25 @@
       "relatedFormatID": 831,
       "relatedFormatName": "3DM"
     }
-  ]
+  ],
+  "supportedBy": {
+    "actorId": 130,
+    "name": "Robert McNeel & Associates",
+    "companyWebsite": "www.en.na.mcneel.com",
+    "source": "Digital Library Research Group / MIT Libraries",
+    "sourceDate": "2008-10-22"
+  },
+  "developedBy": {
+    "actorId": 130,
+    "name": "Robert McNeel & Associates",
+    "companyWebsite": "www.en.na.mcneel.com",
+    "source": "Digital Library Research Group / MIT Libraries",
+    "sourceDate": "2008-10-22"
+  },
+  "source": {
+    "actorId": 131,
+    "name": "Digital Library Research Group / MIT Libraries",
+    "companyWebsite": "www.libraries.mit.edu/dlrg/index.html",
+    "sourceDate": "2008-10-22"
+  }
 }

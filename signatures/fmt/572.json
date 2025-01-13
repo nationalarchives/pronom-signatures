@@ -83,5 +83,16 @@
     "contact": "www.ibm.com/contact/us/",
     "source": "Nokia / Nokia",
     "sourceDate": "2003-09-23"
+  },
+  "source": {
+    "actorId": 190,
+    "name": "Nokia / Nokia",
+    "address": "Keilalahdentie 2-4\r\nP.O. Box 226\r\nFI-00045 Nokia Group",
+    "addressCountry": "Finland",
+    "telephone": "+358 (0) 7180 08000",
+    "support_website_text": "www.nokia.com",
+    "supportWebsite": "www.nokia.com",
+    "companyWebsite": "www.nokia.com",
+    "sourceDate": "2013-07-18"
   }
 }

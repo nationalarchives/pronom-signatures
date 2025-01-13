@@ -68,11 +68,26 @@
       "relatedFormatName": "Sibelius"
     }
   ],
+  "supportedBy": {
+    "actorId": 291,
+    "name": "Avid",
+    "companyWebsite": "www.avid.com/pro-tools",
+    "source": "Brigham Young University / Brigham Young University",
+    "sourceDate": "2022-07-07"
+  },
   "developedBy": {
     "actorId": 332,
     "name": "Sibelius Music",
     "addressCountry": "United States",
     "source": "Brigham Young University / Brigham Young University",
     "sourceDate": "2024-04-18"
+  },
+  "source": {
+    "actorId": 299,
+    "name": "Brigham Young University / Brigham Young University",
+    "address": "Provo\r\nUT\r\n84602",
+    "addressCountry": "United States",
+    "companyWebsite": "www.byu.edu/",
+    "sourceDate": "2023-03-08"
   }
 }

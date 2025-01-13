@@ -59,5 +59,14 @@
       "relatedFormatID": 1902,
       "relatedFormatName": "The Neuroimaging Informatics Technology Initiative File Format"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 215,
+    "name": "University of Edinburgh / University of Edinburgh",
+    "address": "Old College, South Bridge, Edinburgh EH8 9YL",
+    "addressCountry": "United Kingdom",
+    "telephone": "0131 650 1000",
+    "companyWebsite": "www.ed.ac.uk/",
+    "sourceDate": "2015-11-26"
+  }
 }

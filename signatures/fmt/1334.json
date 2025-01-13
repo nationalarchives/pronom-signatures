@@ -47,5 +47,22 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "actorId": 228,
+    "name": "Sony / Sony",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2017-07-10"
+  },
+  "developedBy": {
+    "actorId": 228,
+    "name": "Sony / Sony",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2017-07-10"
+  },
+  "source": {
+    "actorId": 220,
+    "name": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2017-02-06"
+  }
 }

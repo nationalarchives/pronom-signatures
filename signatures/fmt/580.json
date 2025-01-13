@@ -59,5 +59,12 @@
       "relatedFormatID": 1367,
       "relatedFormatName": "X3D"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 193,
+    "name": "Central Digital Archive / Central Digital Archive",
+    "address": "Central Digital Archive, Slovakia",
+    "addressCountry": "Slovakia",
+    "sourceDate": "2013-08-28"
+  }
 }

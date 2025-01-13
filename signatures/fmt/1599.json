@@ -39,5 +39,12 @@
     "addressCountry": "New Zealand",
     "source": "Yale University Library / Yale University Library",
     "sourceDate": "2022-01-19"
+  },
+  "source": {
+    "actorId": 204,
+    "name": "Yale University Library / Yale University Library",
+    "addressCountry": "United States",
+    "companyWebsite": "www.web.library.yale.edu/",
+    "sourceDate": "2014-02-11"
   }
 }

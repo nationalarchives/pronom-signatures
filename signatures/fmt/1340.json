@@ -37,6 +37,15 @@
     }
   ],
   "relationships": [],
+  "source": {
+    "actorId": 239,
+    "name": "The National Archives of Estonia / The National Archives of Estonia",
+    "address": "General contacts\r\nMadara 24\r\nTallinn",
+    "addressCountry": "Estonia",
+    "telephone": "693 8668",
+    "contact": "tallinn@ra.ee",
+    "sourceDate": "2019-02-18"
+  },
   "containerSignatures": [
     {
       "containerType": "ZIP",

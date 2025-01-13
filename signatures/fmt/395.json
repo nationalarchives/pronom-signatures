@@ -77,5 +77,27 @@
       "relatedFormatID": 2735,
       "relatedFormatName": "vCard"
     }
-  ]
+  ],
+  "supportedBy": {
+    "actorId": 106,
+    "name": "World Wide Web Consortium",
+    "address": "",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2005-08-02"
+  },
+  "developedBy": {
+    "actorId": 106,
+    "name": "World Wide Web Consortium",
+    "address": "",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2005-08-02"
+  },
+  "source": {
+    "actorId": 178,
+    "name": "National Library of New Zealand / National Library of New Zealand",
+    "address": "Archives New Zealand\r\n\r\n10 Mulgrave Street\r\n\r\nPipitea\r\n\r\nWellington\r\n\r\nNew Zealand",
+    "addressCountry": "New Zealand",
+    "companyWebsite": "www.natlib.govt.nz",
+    "sourceDate": "2012-03-07"
+  }
 }

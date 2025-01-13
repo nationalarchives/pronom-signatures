@@ -71,5 +71,13 @@
     "contact": "msupport@microsoft.com",
     "source": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
     "sourceDate": "2003-09-23"
+  },
+  "source": {
+    "actorId": 235,
+    "name": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+    "address": "30167 Hannover",
+    "addressCountry": "Germany",
+    "companyWebsite": "www.tib.eu",
+    "sourceDate": "2018-09-10"
   }
 }

@@ -62,6 +62,14 @@
       "relatedFormatName": "BDOC"
     }
   ],
+  "source": {
+    "actorId": 254,
+    "name": "Ableton",
+    "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
+    "addressCountry": "Germany",
+    "companyWebsite": "www.ableton.com/en/",
+    "sourceDate": "2021-09-08"
+  },
   "containerSignatures": [
     {
       "containerType": "ZIP",

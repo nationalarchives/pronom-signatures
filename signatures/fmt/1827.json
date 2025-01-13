@@ -71,6 +71,12 @@
     "source": "Danish National Archives / Danish National Archives",
     "sourceDate": "2003-09-23"
   },
+  "source": {
+    "actorId": 301,
+    "name": "Danish National Archives / Danish National Archives",
+    "addressCountry": "Denmark",
+    "sourceDate": "2023-02-15"
+  },
   "containerSignatures": [
     {
       "containerType": "ZIP",

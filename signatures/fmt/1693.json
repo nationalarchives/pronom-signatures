@@ -53,5 +53,10 @@
       "relatedFormatID": 2530,
       "relatedFormatName": "Asymetrix Compel Presentation"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 220,
+    "name": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2017-02-06"
+  }
 }

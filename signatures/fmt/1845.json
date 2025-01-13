@@ -93,5 +93,13 @@
     "contact": "info@finaldraft.com",
     "source": "Stadtarchiv Hof / Stadtarchiv Hof",
     "sourceDate": "2010-04-27"
+  },
+  "source": {
+    "actorId": 295,
+    "name": "Stadtarchiv Hof / Stadtarchiv Hof",
+    "address": "Unteres Tor 9\r\n95028\r\nHof",
+    "addressCountry": "Germany",
+    "companyWebsite": "www.hof.de/leben-erleben/stadtarchiv",
+    "sourceDate": "2022-09-20"
   }
 }

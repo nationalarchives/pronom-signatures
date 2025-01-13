@@ -43,5 +43,14 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 198,
+    "name": "Provincie West-Vlaanderen / Provincie West-Vlaanderen",
+    "address": "Jan Van Eyckplein 2 - 8000 Brugge",
+    "addressCountry": "Belgium",
+    "companyWebsite": "www.west-vlaanderen.be/Pages/Startpagina.aspx",
+    "contact": "pieter.depraetere@west-vlaanderen.be",
+    "sourceDate": "2014-02-05"
+  }
 }

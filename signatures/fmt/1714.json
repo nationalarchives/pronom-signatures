@@ -43,5 +43,26 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "actorId": 135,
+    "name": "Dassault Syst\u00e8ms",
+    "companyWebsite": "www.3ds.com/",
+    "source": "J. Paul Getty Trust / J. Paul Getty Trust",
+    "sourceDate": "2009-05-06"
+  },
+  "developedBy": {
+    "actorId": 135,
+    "name": "Dassault Syst\u00e8ms",
+    "companyWebsite": "www.3ds.com/",
+    "source": "J. Paul Getty Trust / J. Paul Getty Trust",
+    "sourceDate": "2009-05-06"
+  },
+  "source": {
+    "actorId": 241,
+    "name": "J. Paul Getty Trust / J. Paul Getty Trust",
+    "addressCountry": "United States",
+    "companyWebsite": "www.getty.edu/",
+    "sourceDate": "2019-12-19"
+  }
 }

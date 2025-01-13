@@ -53,5 +53,26 @@
       "relatedFormatID": 1415,
       "relatedFormatName": "GeoGebra"
     }
-  ]
+  ],
+  "supportedBy": {
+    "actorId": 203,
+    "name": "International GeoGebra Institute / International GeoGebra Institute",
+    "companyWebsite": "www.geogebra.org/cms/en/organization",
+    "source": "KULeuven - LIBIS / KULeuven - LIBIS",
+    "sourceDate": "2014-02-14"
+  },
+  "developedBy": {
+    "actorId": 203,
+    "name": "International GeoGebra Institute / International GeoGebra Institute",
+    "companyWebsite": "www.geogebra.org/cms/en/organization",
+    "source": "KULeuven - LIBIS / KULeuven - LIBIS",
+    "sourceDate": "2014-02-14"
+  },
+  "source": {
+    "actorId": 202,
+    "name": "KULeuven - LIBIS / KULeuven - LIBIS",
+    "address": "Oude Markt 13 - bus 5005\r\n3000 Leuven",
+    "addressCountry": "Belgium",
+    "sourceDate": "2014-02-14"
+  }
 }

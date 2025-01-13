@@ -63,5 +63,13 @@
       "relatedFormatID": 638,
       "relatedFormatName": "Extensible Markup Language"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 299,
+    "name": "Brigham Young University / Brigham Young University",
+    "address": "Provo\r\nUT\r\n84602",
+    "addressCountry": "United States",
+    "companyWebsite": "www.byu.edu/",
+    "sourceDate": "2023-03-08"
+  }
 }

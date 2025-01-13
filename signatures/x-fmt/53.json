@@ -77,5 +77,14 @@
     "contact": "www.macromedia.com/macromedia/contact/",
     "source": "Georgia Tech Research Institute / Georgia Tech Research Institute",
     "sourceDate": "2003-09-23"
+  },
+  "source": {
+    "actorId": 165,
+    "name": "Georgia Tech Research Institute / Georgia Tech Research Institute",
+    "address": "Georgia Institute of Technology, Atlanta, Georgia 30332",
+    "addressCountry": "United States",
+    "telephone": "404-894-4154",
+    "companyWebsite": "www.gtri.gatech.edu/",
+    "sourceDate": "2010-12-02"
   }
 }

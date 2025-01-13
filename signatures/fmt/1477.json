@@ -66,5 +66,13 @@
       "relatedFormatID": 2299,
       "relatedFormatName": "TEI P5 - Single Text File"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 236,
+    "name": "Victoria University of Wellington / Victoria University of Wellington",
+    "address": "Victoria University of Wellington\r\nPO Box 600\r\nWellington 6140",
+    "addressCountry": "New Zealand",
+    "companyWebsite": "www.victoria.ac.nz/",
+    "sourceDate": "2018-09-10"
+  }
 }

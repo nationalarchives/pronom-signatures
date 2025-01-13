@@ -57,5 +57,13 @@
       "relatedFormatID": 2436,
       "relatedFormatName": "exFAT (Extensible File Allocation Table) Disc Image"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 225,
+    "name": "National Library of Scotland / National Library of Scotland",
+    "address": "George IV Bridge\r\nEdinburgh\r\nEH1 1EW\r\nScotland, UK",
+    "companyWebsite": "www.nls.uk",
+    "contact": "enquiries@nls.uk",
+    "sourceDate": "2017-07-07"
+  }
 }

@@ -32,5 +32,14 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 2,
+    "name": "Lars Clausen / Statsbiblioteket",
+    "address": "Statsbiblioteket, Universitetsparken, Aarhus, 8220",
+    "addressCountry": "Denmark",
+    "telephone": "+45 89 46 22 53",
+    "contact": "lc@statsbiblioteket.dk",
+    "sourceDate": "2004-02-03"
+  }
 }

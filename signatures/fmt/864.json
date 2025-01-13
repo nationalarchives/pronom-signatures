@@ -49,5 +49,29 @@
       "relatedFormatID": 826,
       "relatedFormatName": "3DM"
     }
-  ]
+  ],
+  "supportedBy": {
+    "actorId": 130,
+    "name": "Robert McNeel & Associates",
+    "companyWebsite": "www.en.na.mcneel.com",
+    "source": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+    "sourceDate": "2008-10-22"
+  },
+  "developedBy": {
+    "actorId": 130,
+    "name": "Robert McNeel & Associates",
+    "companyWebsite": "www.en.na.mcneel.com",
+    "source": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+    "sourceDate": "2008-10-22"
+  },
+  "source": {
+    "actorId": 216,
+    "name": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
+    "address": "Canadian Centre for\r\nArchitecture\r\n1920, rue Baile\r\nMontr\u00e9al, Qu\u00e9bec\r\nH3H 2S6",
+    "addressCountry": "Canada",
+    "telephone": "+15149397026",
+    "companyWebsite": "www.cca.qc.ca/",
+    "contact": "info@cca.qc.ca",
+    "sourceDate": "2016-01-09"
+  }
 }

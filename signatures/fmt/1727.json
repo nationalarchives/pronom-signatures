@@ -43,5 +43,27 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "supportedBy": {
+    "actorId": 291,
+    "name": "Avid",
+    "companyWebsite": "www.avid.com/pro-tools",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2022-07-07"
+  },
+  "developedBy": {
+    "actorId": 291,
+    "name": "Avid",
+    "companyWebsite": "www.avid.com/pro-tools",
+    "source": "National Library of New Zealand / National Library of New Zealand",
+    "sourceDate": "2022-07-07"
+  },
+  "source": {
+    "actorId": 178,
+    "name": "National Library of New Zealand / National Library of New Zealand",
+    "address": "Archives New Zealand\r\n\r\n10 Mulgrave Street\r\n\r\nPipitea\r\n\r\nWellington\r\n\r\nNew Zealand",
+    "addressCountry": "New Zealand",
+    "companyWebsite": "www.natlib.govt.nz",
+    "sourceDate": "2012-03-07"
+  }
 }

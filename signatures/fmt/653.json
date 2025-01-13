@@ -59,5 +59,13 @@
       "relatedFormatID": 638,
       "relatedFormatName": "Extensible Markup Language"
     }
-  ]
+  ],
+  "source": {
+    "actorId": 206,
+    "name": "Swiss Federal Office of Topography / Federal Office of Topography",
+    "address": "Federal Office of Topography\r\nSeftigenstrasse 264\r\nP.O. Box\r\n3084 Wabern",
+    "addressCountry": "Switzerland",
+    "companyWebsite": "www.swisstopo.admin.ch/internet/swisstopo/en/home/swisstopo/contact.html",
+    "sourceDate": "2014-06-25"
+  }
 }

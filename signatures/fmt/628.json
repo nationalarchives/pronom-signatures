@@ -67,6 +67,13 @@
     "source": "Central Digital Archive / Central Digital Archive",
     "sourceDate": "2003-09-23"
   },
+  "source": {
+    "actorId": 193,
+    "name": "Central Digital Archive / Central Digital Archive",
+    "address": "Central Digital Archive, Slovakia",
+    "addressCountry": "Slovakia",
+    "sourceDate": "2013-08-28"
+  },
   "containerSignatures": [
     {
       "containerType": "ZIP",

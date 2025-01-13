@@ -67,5 +67,24 @@
       "relatedFormatID": 1143,
       "relatedFormatName": "vCard"
     }
-  ]
+  ],
+  "supportedBy": {
+    "actorId": 106,
+    "name": "World Wide Web Consortium",
+    "address": "",
+    "source": "National Archives of Australia / National Archives of Australia",
+    "sourceDate": "2005-08-02"
+  },
+  "developedBy": {
+    "actorId": 106,
+    "name": "World Wide Web Consortium",
+    "address": "",
+    "source": "National Archives of Australia / National Archives of Australia",
+    "sourceDate": "2005-08-02"
+  },
+  "source": {
+    "actorId": 247,
+    "name": "National Archives of Australia / National Archives of Australia",
+    "sourceDate": "2020-10-19"
+  }
 }

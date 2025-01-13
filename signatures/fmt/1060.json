@@ -57,5 +57,14 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 227,
+    "name": "Historic Environment Scotland / Historic Environment Scotland",
+    "address": "Longmore House\r\nSalisbury Place\r\nEdinburgh\r\nEH9 1SH",
+    "addressCountry": "United Kingdom",
+    "telephone": "0131 668 8600",
+    "companyWebsite": "www.historicenvironment.scot",
+    "sourceDate": "2017-07-12"
+  }
 }

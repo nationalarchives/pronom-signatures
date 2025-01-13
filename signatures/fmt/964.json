@@ -73,5 +73,14 @@
     "contact": "info@finaldraft.com",
     "source": "Hull History Centre / Hull History Centre",
     "sourceDate": "2010-04-27"
+  },
+  "source": {
+    "actorId": 217,
+    "name": "Hull History Centre / Hull History Centre",
+    "address": "Worship Street, \r\nHull, \r\nHU2 8BG",
+    "addressCountry": "United Kingdom",
+    "telephone": "01482 317500",
+    "contact": "hullhistorycentre@hcandl.co.uk",
+    "sourceDate": "2016-09-20"
   }
 }

@@ -190,10 +190,13 @@ def get_format(file_format_id):
     detail_result['relationships'] = get_format_relationships(file_format_id)
     support = get_support(file_format_id)
     developer = get_developer(file_format_id)
+    source = get_source(file_format_id)
     if support is not None:
         detail_result['supportedBy'] = support
     if developer is not None:
         detail_result['developedBy'] = developer
+    if source is not None:
+        detail_result['source'] = source
     return detail_result
 
 
@@ -209,6 +212,30 @@ def process_actor(actor_rows):
                 else:
                     actor_result[key[0]] = value
         return actor_result
+
+
+def get_source(file_format_id):
+    sql = f'''
+    SELECT source_actor.actor_id actorId,
+       dbo.func_get_actor_compound_name(source_actor.name_text, source_actor.organisation_name_text) name   ,
+       source_actor.address_text                                                                        address,
+       c.country_name_text addressCountry,
+       source_actor.telephone_text telephone,
+       source_actor.support_website_text,
+       source_actor.support_website_text supportWebsite,
+       source_actor.website_text companyWebsite,
+       source_actor.contact_email_text contact,
+       source_actor.source_date sourceDate
+    FROM file_formats ff
+         JOIN actors source_actor on source_actor.actor_id = ff.source_id
+         LEFT JOIN dbo.countries c on source_actor.country_code_text = c.country_code_text
+         WHERE ff.file_format_id = {file_format_id};
+    '''
+    conn = get_connection("localhost", "PRONOM", "sa", "P@ssw0rd")
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    rows = cursor.fetchall()
+    return process_actor(rows)
 
 
 def get_developer(file_format_id):
@@ -229,7 +256,7 @@ def get_developer(file_format_id):
         JOIN actors developer_actor on developer_actor.actor_id = fd.developer_id
         JOIN actors source_actor on source_actor.actor_id = ff.source_id
         JOIN actors actor_source on actor_source.actor_id = developer_actor.source_id
-        JOIN dbo.countries c on developer_actor.country_code_text = c.country_code_text
+        LEFT JOIN dbo.countries c on developer_actor.country_code_text = c.country_code_text
     where ff.file_format_id = {file_format_id};
     '''
     conn = get_connection("localhost", "PRONOM", "sa", "P@ssw0rd")
@@ -257,7 +284,7 @@ def get_support(file_format_id):
          JOIN actors support_actor on support_actor.actor_id = fs.support_id
          JOIN actors source_actor on source_actor.actor_id = ff.source_id
          JOIN actors actor_source on actor_source.actor_id = support_actor.source_id
-         JOIN dbo.countries c on support_actor.country_code_text = c.country_code_text
+         LEFT JOIN dbo.countries c on support_actor.country_code_text = c.country_code_text
     where ff.file_format_id = {file_format_id};
     '''
     conn = get_connection("localhost", "PRONOM", "sa", "P@ssw0rd")

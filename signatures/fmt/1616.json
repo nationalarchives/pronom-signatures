@@ -72,5 +72,13 @@
     "companyWebsite": "www.ctan.org/pkg/bibtex",
     "source": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
     "sourceDate": "2022-02-03"
+  },
+  "source": {
+    "actorId": 235,
+    "name": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+    "address": "30167 Hannover",
+    "addressCountry": "Germany",
+    "companyWebsite": "www.tib.eu",
+    "sourceDate": "2018-09-10"
   }
 }

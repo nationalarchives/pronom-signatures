@@ -43,5 +43,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 188,
+    "name": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
+    "address": "Borthwick Institute for Archives, University of York, Heslington, York, YO10 5DD",
+    "addressCountry": "United Kingdom",
+    "sourceDate": "2013-02-26"
+  }
 }

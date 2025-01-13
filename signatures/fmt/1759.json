@@ -43,5 +43,11 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "source": {
+    "actorId": 293,
+    "name": "The Royal Danish Library / The Royal Danish Library",
+    "addressCountry": "Denmark",
+    "sourceDate": "2022-08-26"
+  }
 }

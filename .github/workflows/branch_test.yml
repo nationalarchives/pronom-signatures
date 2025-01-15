@@ -29,7 +29,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: 17
+          java-version: 21
           distribution: temurin
       - run: .github/scripts/branch_test.sh
       - uses: actions/upload-artifact@v4

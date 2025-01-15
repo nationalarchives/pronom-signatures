@@ -6,19 +6,19 @@
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
-  "formatNote": null,
+  "formatNote": "A note",
   "lastUpdatedDate": "02 Aug 2005",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
   "formatProvenance": null,
   "formatSourceDate": "11 Mar 2005",
-  "formatDisclosure": "Full",
+  "formatDisclosure": "None",
   "formatEnvironment": null,
   "formatRisk": null,
   "formatAliases": "RTF (1.5), RTF (97)",
-  "formatTypes": "Word Processor",
+  "formatTypes": "Format type",
   "byteOrders": null,
-  "formatFamilies": "Rich Text Format",
+  "formatFamilies": "Rich Text Format 2",
   "identifiers": [
     {
       "identifierText": "application/rtf",
@@ -114,6 +114,21 @@
     "addressCountry": "United Kingdom",
     "telephone": "+44 (0) 20 8392 5330",
     "contact": "PRONOM@nationalarchives.gov.uk",
+    "sourceDate": "2003-09-23"
+  },
+  "supportedBy": {
+    "actorId": 347,
+    "name": "Support Name",
+    "address": "An Address",
+    "country": "ATA"
+  },
+  "developedBy": {
+    "actorId": 82,
+    "name": "Aldus Corporation",
+    "address": "411 Fist Avenue South, Seattle, Washington, WA",
+    "addressCountry": "United States",
+    "telephone": "+1 206 6225500",
+    "source": "Digital Preservation Department / The National Archives",
     "sourceDate": "2003-09-23"
   }
 }

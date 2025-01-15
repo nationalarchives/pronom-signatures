@@ -35,6 +35,10 @@
     {
       "identifierText": "text/rtf",
       "identifierType": "MIME"
+    },
+    {
+      "identifierText": "descriptor",
+      "identifierType": "Library of Congress Format Description Identifier"
     }
   ],
   "internalSignatures": [
@@ -105,6 +109,10 @@
       "relationshipType": "Is subsequent version of",
       "relatedFormatID": 630,
       "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Is supertype of",
+      "relatedFormatID": 735
     }
   ],
   "source": {

@@ -1,6 +1,6 @@
 {
   "fileFormatID": 1678,
-  "formatName": "Turtle",
+  "formatName": "Contributor name",
   "version": null,
   "formatDescription": "Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model.",
   "releaseDate": null,
@@ -12,7 +12,7 @@
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
   "formatProvenance": null,
   "formatSourceDate": "20 Jan 2016",
-  "formatDisclosure": null,
+  "formatDisclosure": "Partial",
   "formatEnvironment": null,
   "formatRisk": null,
   "formatAliases": null,
@@ -45,5 +45,21 @@
     "telephone": "+44 (0) 20 8392 5330",
     "contact": "PRONOM@nationalarchives.gov.uk",
     "sourceDate": "2003-09-23"
+  },
+  "supportedBy": {
+    "actorId": 347,
+    "name": "Support Name",
+    "address": "An address",
+    "country": "ATA",
+    "companyWebsite": "",
+    "supportWebsite": ""
+  },
+  "developedBy": {
+    "actorId": 302,
+    "name": "Arcsoft / Arcsoft",
+    "addressCountry": "United States",
+    "companyWebsite": "www.arcsoft.com/",
+    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+    "sourceDate": "2023-02-22"
   }
 }

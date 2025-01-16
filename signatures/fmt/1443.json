@@ -43,31 +43,7 @@
   ],
   "externalSignatures": [],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 91,
-    "name": "Quark, Inc",
-    "address": "1800 Grant St, Denver, CO, 80203",
-    "addressCountry": "United States",
-    "telephone": "303.894.8888",
-    "supportWebsite": "www.quark.com/service/desktop/support/contact.html",
-    "companyWebsite": "www.quark.com/",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 91,
-    "name": "Quark, Inc",
-    "address": "1800 Grant St, Denver, CO, 80203",
-    "addressCountry": "United States",
-    "telephone": "303.894.8888",
-    "supportWebsite": "www.quark.com/service/desktop/support/contact.html",
-    "companyWebsite": "www.quark.com/",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 220,
-    "name": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2017-02-06"
-  }
+  "supportedBy": 91,
+  "developedBy": 91,
+  "source": 220
 }

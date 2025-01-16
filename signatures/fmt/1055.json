@@ -48,24 +48,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 228,
-    "name": "Sony / Sony",
-    "source": "National Library of Scotland / National Library of Scotland",
-    "sourceDate": "2017-07-10"
-  },
-  "developedBy": {
-    "actorId": 228,
-    "name": "Sony / Sony",
-    "source": "National Library of Scotland / National Library of Scotland",
-    "sourceDate": "2017-07-10"
-  },
-  "source": {
-    "actorId": 225,
-    "name": "National Library of Scotland / National Library of Scotland",
-    "address": "George IV Bridge\r\nEdinburgh\r\nEH1 1EW\r\nScotland, UK",
-    "companyWebsite": "www.nls.uk",
-    "contact": "enquiries@nls.uk",
-    "sourceDate": "2017-07-07"
-  }
+  "supportedBy": 228,
+  "developedBy": 228,
+  "source": 225
 }

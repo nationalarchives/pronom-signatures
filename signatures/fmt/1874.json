@@ -44,25 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 315,
-    "name": "ESKO / ESKO",
-    "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
-    "addressCountry": "Belgium",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2023-07-03"
-  },
-  "developedBy": {
-    "actorId": 315,
-    "name": "ESKO / ESKO",
-    "address": "Raymonde de Larochelaan 13\r\n9051\r\nGent",
-    "addressCountry": "Belgium",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2023-07-03"
-  },
-  "source": {
-    "actorId": 220,
-    "name": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2017-02-06"
-  }
+  "supportedBy": 315,
+  "developedBy": 315,
+  "source": 220
 }

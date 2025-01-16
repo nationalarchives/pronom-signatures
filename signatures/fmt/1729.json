@@ -60,29 +60,7 @@
       "relatedFormatName": "Extensible Markup Language"
     }
   ],
-  "supportedBy": {
-    "actorId": 221,
-    "name": "Esri / Esri",
-    "address": "Redlands, California",
-    "addressCountry": "United States",
-    "companyWebsite": "www.esri.com/",
-    "source": "Yan Han / University of Arizona Library",
-    "sourceDate": "2017-02-17"
-  },
-  "developedBy": {
-    "actorId": 221,
-    "name": "Esri / Esri",
-    "address": "Redlands, California",
-    "addressCountry": "United States",
-    "companyWebsite": "www.esri.com/",
-    "source": "Yan Han / University of Arizona Library",
-    "sourceDate": "2017-02-17"
-  },
-  "source": {
-    "actorId": 287,
-    "name": "Yan Han / University of Arizona Library",
-    "addressCountry": "United States",
-    "companyWebsite": "www.new.library.arizona.edu/",
-    "sourceDate": "2022-07-07"
-  }
+  "supportedBy": 221,
+  "developedBy": 221,
+  "source": 287
 }

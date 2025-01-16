@@ -37,28 +37,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 305,
-    "name": "Fountain / Fountain",
-    "addressCountry": "United States",
-    "companyWebsite": "www.fountain.io",
-    "source": "Stadtarchiv Hof / Stadtarchiv Hof",
-    "sourceDate": "2023-03-28"
-  },
-  "developedBy": {
-    "actorId": 305,
-    "name": "Fountain / Fountain",
-    "addressCountry": "United States",
-    "companyWebsite": "www.fountain.io",
-    "source": "Stadtarchiv Hof / Stadtarchiv Hof",
-    "sourceDate": "2023-03-28"
-  },
-  "source": {
-    "actorId": 295,
-    "name": "Stadtarchiv Hof / Stadtarchiv Hof",
-    "address": "Unteres Tor 9\r\n95028\r\nHof",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.hof.de/leben-erleben/stadtarchiv",
-    "sourceDate": "2022-09-20"
-  }
+  "supportedBy": 305,
+  "developedBy": 305,
+  "source": 295
 }

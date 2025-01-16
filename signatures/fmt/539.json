@@ -54,37 +54,7 @@
       "relatedFormatName": "Adobe FrameMaker Document"
     }
   ],
-  "supportedBy": {
-    "actorId": 7,
-    "name": "Adobe Systems Incorporated",
-    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
-    "addressCountry": "United States",
-    "telephone": "+001 (408) 537-6000",
-    "supportWebsite": "www.adobe.com/support/main.html",
-    "companyWebsite": "www.adobe.com",
-    "contact": "englishts@adobe.com",
-    "source": "Georgia Tech Research Institute / Georgia Tech Research Institute",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 7,
-    "name": "Adobe Systems Incorporated",
-    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
-    "addressCountry": "United States",
-    "telephone": "+001 (408) 537-6000",
-    "supportWebsite": "www.adobe.com/support/main.html",
-    "companyWebsite": "www.adobe.com",
-    "contact": "englishts@adobe.com",
-    "source": "Georgia Tech Research Institute / Georgia Tech Research Institute",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 165,
-    "name": "Georgia Tech Research Institute / Georgia Tech Research Institute",
-    "address": "Georgia Institute of Technology, Atlanta, Georgia 30332",
-    "addressCountry": "United States",
-    "telephone": "404-894-4154",
-    "companyWebsite": "www.gtri.gatech.edu/",
-    "sourceDate": "2010-12-02"
-  }
+  "supportedBy": 7,
+  "developedBy": 7,
+  "source": 165
 }

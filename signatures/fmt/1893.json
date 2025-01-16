@@ -44,36 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "New York Public Library / New York Public Library",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "New York Public Library / New York Public Library",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 231,
-    "name": "New York Public Library / New York Public Library",
-    "address": "Stephen A. Schwarzman Building\r\nFifth Avenue and 42nd Street\r\nNew York, NY 10018",
-    "addressCountry": "United States",
-    "companyWebsite": "www.nypl.org",
-    "sourceDate": "2018-07-26"
-  }
+  "supportedBy": 93,
+  "developedBy": 93,
+  "source": 231
 }

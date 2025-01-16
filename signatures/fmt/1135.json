@@ -54,13 +54,5 @@
       "relatedFormatName": "SQLite Database File Format"
     }
   ],
-  "source": {
-    "actorId": 232,
-    "name": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
-    "address": "Landesarchiv NRW\r\nSchifferstra\u00dfe 30\r\n47059 Duisburg",
-    "addressCountry": "Germany",
-    "telephone": "+49 203 98721-0",
-    "companyWebsite": "www.archive.nrw.de",
-    "sourceDate": "2018-07-19"
-  }
+  "source": 232
 }

@@ -68,26 +68,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 18,
-    "name": "Autodesk",
-    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
-    "addressCountry": "United States",
-    "telephone": "001 415-507-5000",
-    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
-    "companyWebsite": "www.Autodesk.com",
-    "source": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 180,
-    "name": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "address": "The National Archives and Records Administration\r\n8601 Adelphi Road\r\nCollege Park, MD 20740-6001",
-    "addressCountry": "United States",
-    "telephone": "+1-800-234-8861",
-    "support_website_text": "www.archives.gov/contact/",
-    "supportWebsite": "www.archives.gov/contact/",
-    "companyWebsite": "www.archives.gov",
-    "sourceDate": "2012-05-14"
-  }
+  "developedBy": 18,
+  "source": 180
 }

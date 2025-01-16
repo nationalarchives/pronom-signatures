@@ -44,29 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 310,
-    "name": "Seequent / Seequent",
-    "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch\r\nCanterbury\r\n8011",
-    "addressCountry": "New Zealand",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2023-05-24"
-  },
-  "developedBy": {
-    "actorId": 310,
-    "name": "Seequent / Seequent",
-    "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch\r\nCanterbury\r\n8011",
-    "addressCountry": "New Zealand",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2023-05-24"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 310,
+  "developedBy": 310,
+  "source": 234
 }

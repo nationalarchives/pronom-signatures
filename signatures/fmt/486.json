@@ -54,24 +54,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 7,
-    "name": "Adobe Systems Incorporated",
-    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
-    "addressCountry": "United States",
-    "telephone": "+001 (408) 537-6000",
-    "supportWebsite": "www.adobe.com/support/main.html",
-    "companyWebsite": "www.adobe.com",
-    "contact": "englishts@adobe.com",
-    "source": "Rhizome / Rhizome",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 185,
-    "name": "Rhizome / Rhizome",
-    "address": "235 Bowery\r\nNew York, NY\r\n10002",
-    "addressCountry": "United States",
-    "companyWebsite": "www.rhizome.org",
-    "sourceDate": "2012-12-18"
-  }
+  "developedBy": 7,
+  "source": 185
 }

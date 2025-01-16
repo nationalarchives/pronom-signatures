@@ -64,12 +64,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 209,
-    "name": "Sebastian Lasse / Redaktor CMS",
-    "address": "Westenhellweg 132  |  44137 Dortmund",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.gplus.to/redaktor",
-    "sourceDate": "2014-09-23"
-  }
+  "source": 209
 }

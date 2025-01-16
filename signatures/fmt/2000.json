@@ -50,26 +50,7 @@
       "relatedFormatName": "Husqvarna / Pfaff Embroidery Stitch File"
     }
   ],
-  "supportedBy": {
-    "actorId": 336,
-    "name": "Husqvarna-Viking",
-    "addressCountry": "Sweden",
-    "source": "Brigham Young University / Brigham Young University",
-    "sourceDate": "2024-04-19"
-  },
-  "developedBy": {
-    "actorId": 336,
-    "name": "Husqvarna-Viking",
-    "addressCountry": "Sweden",
-    "source": "Brigham Young University / Brigham Young University",
-    "sourceDate": "2024-04-19"
-  },
-  "source": {
-    "actorId": 299,
-    "name": "Brigham Young University / Brigham Young University",
-    "address": "Provo\r\nUT\r\n84602",
-    "addressCountry": "United States",
-    "companyWebsite": "www.byu.edu/",
-    "sourceDate": "2023-03-08"
-  }
+  "supportedBy": 336,
+  "developedBy": 336,
+  "source": 299
 }

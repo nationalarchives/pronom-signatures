@@ -164,12 +164,5 @@
       "relatedFormatName": "Tagged Image File Format"
     }
   ],
-  "source": {
-    "actorId": 178,
-    "name": "National Library of New Zealand / National Library of New Zealand",
-    "address": "Archives New Zealand\r\n\r\n10 Mulgrave Street\r\n\r\nPipitea\r\n\r\nWellington\r\n\r\nNew Zealand",
-    "addressCountry": "New Zealand",
-    "companyWebsite": "www.natlib.govt.nz",
-    "sourceDate": "2012-03-07"
-  }
+  "source": 178
 }

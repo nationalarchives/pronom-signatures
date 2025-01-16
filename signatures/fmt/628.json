@@ -43,37 +43,9 @@
       "relatedFormatName": "Microsoft Excel for Windows"
     }
   ],
-  "supportedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "Central Digital Archive / Central Digital Archive",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "Central Digital Archive / Central Digital Archive",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 193,
-    "name": "Central Digital Archive / Central Digital Archive",
-    "address": "Central Digital Archive, Slovakia",
-    "addressCountry": "Slovakia",
-    "sourceDate": "2013-08-28"
-  },
+  "supportedBy": 93,
+  "developedBy": 93,
+  "source": 193,
   "containerSignatures": [
     {
       "containerType": "ZIP",

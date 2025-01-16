@@ -44,17 +44,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 104,
-    "name": "European Broadcasting Union",
-    "address": "",
-    "source": "Sylphide Consulting / Sylphide Consulting",
-    "sourceDate": "2005-08-02"
-  },
-  "source": {
-    "actorId": 324,
-    "name": "Sylphide Consulting / Sylphide Consulting",
-    "companyWebsite": "www.sylphide-consulting.com",
-    "sourceDate": "2023-11-02"
-  }
+  "developedBy": 104,
+  "source": 324
 }

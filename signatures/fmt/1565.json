@@ -33,10 +33,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 243,
-    "name": "Norwegian Unix Users Group / Norwegian Unix Users Group",
-    "addressCountry": "Norway",
-    "sourceDate": "2019-12-20"
-  }
+  "source": 243
 }

@@ -50,33 +50,7 @@
       "relatedFormatName": "PowerProject"
     }
   ],
-  "supportedBy": {
-    "actorId": 189,
-    "name": "Asta Development / Asta Development",
-    "address": "Thame Training Centre\r\nKingston House\r\n5 Goodsons Mews\r\nWellington Street\r\nThame\r\nOxfordshire, OX9 3BX",
-    "addressCountry": "United Kingdom",
-    "telephone": "01844261700",
-    "companyWebsite": "www.astadev.com",
-    "contact": "enquiries@astadev.com",
-    "source": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
-    "sourceDate": "2013-05-01"
-  },
-  "developedBy": {
-    "actorId": 189,
-    "name": "Asta Development / Asta Development",
-    "address": "Thame Training Centre\r\nKingston House\r\n5 Goodsons Mews\r\nWellington Street\r\nThame\r\nOxfordshire, OX9 3BX",
-    "addressCountry": "United Kingdom",
-    "telephone": "01844261700",
-    "companyWebsite": "www.astadev.com",
-    "contact": "enquiries@astadev.com",
-    "source": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
-    "sourceDate": "2013-05-01"
-  },
-  "source": {
-    "actorId": 188,
-    "name": "The Borthwick Institute for Archives / The Borthwick Institute for Archives",
-    "address": "Borthwick Institute for Archives, University of York, Heslington, York, YO10 5DD",
-    "addressCountry": "United Kingdom",
-    "sourceDate": "2013-02-26"
-  }
+  "supportedBy": 189,
+  "developedBy": 189,
+  "source": 188
 }

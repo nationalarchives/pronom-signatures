@@ -39,36 +39,7 @@
   ],
   "externalSignatures": [],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 18,
-    "name": "Autodesk",
-    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
-    "addressCountry": "United States",
-    "telephone": "001 415-507-5000",
-    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
-    "companyWebsite": "www.Autodesk.com",
-    "source": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 18,
-    "name": "Autodesk",
-    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
-    "addressCountry": "United States",
-    "telephone": "001 415-507-5000",
-    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
-    "companyWebsite": "www.Autodesk.com",
-    "source": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 216,
-    "name": "The Canadian Centre for Architecture / The Canadian Centre for Architecture",
-    "address": "Canadian Centre for\r\nArchitecture\r\n1920, rue Baile\r\nMontr\u00e9al, Qu\u00e9bec\r\nH3H 2S6",
-    "addressCountry": "Canada",
-    "telephone": "+15149397026",
-    "companyWebsite": "www.cca.qc.ca/",
-    "contact": "info@cca.qc.ca",
-    "sourceDate": "2016-01-09"
-  }
+  "supportedBy": 18,
+  "developedBy": 18,
+  "source": 216
 }

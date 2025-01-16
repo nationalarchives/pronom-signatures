@@ -54,11 +54,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 240,
-    "name": "University of Illinois / University of Illinois",
-    "address": "601 E John St\t,\r\nChampaign, IL,\r\n61820",
-    "addressCountry": "United States",
-    "sourceDate": "2019-02-18"
-  }
+  "source": 240
 }

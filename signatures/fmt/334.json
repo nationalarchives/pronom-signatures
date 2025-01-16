@@ -44,11 +44,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 168,
-    "name": "University of Southampton / University of Southampton",
-    "address": "University of Southampton\r\nSouthampton\r\nHampshire\r\nSO17 1BJ",
-    "addressCountry": "United Kingdom",
-    "sourceDate": "2011-03-31"
-  }
+  "source": 168
 }

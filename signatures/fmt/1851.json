@@ -54,18 +54,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 309,
-    "name": "Dahua Technology / Zhejiang Dahua Technology Co., Ltd.",
-    "addressCountry": "China",
-    "companyWebsite": "www.dahuasecurity.com/",
-    "source": "Preservica / Preservica",
-    "sourceDate": "2023-05-04"
-  },
-  "source": {
-    "actorId": 244,
-    "name": "Preservica / Preservica",
-    "addressCountry": "United Kingdom",
-    "sourceDate": "2020-01-14"
-  }
+  "developedBy": 309,
+  "source": 244
 }

@@ -64,12 +64,5 @@
       "relatedFormatName": "Extensible Markup Language"
     }
   ],
-  "source": {
-    "actorId": 295,
-    "name": "Stadtarchiv Hof / Stadtarchiv Hof",
-    "address": "Unteres Tor 9\r\n95028\r\nHof",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.hof.de/leben-erleben/stadtarchiv",
-    "sourceDate": "2022-09-20"
-  }
+  "source": 295
 }

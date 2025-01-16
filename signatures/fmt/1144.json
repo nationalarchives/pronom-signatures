@@ -48,26 +48,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 108,
-    "name": "Compuserve Incorporated",
-    "address": "",
-    "source": "Harry Ransom Centre / Harry Ransom Centre",
-    "sourceDate": "2005-08-02"
-  },
-  "developedBy": {
-    "actorId": 108,
-    "name": "Compuserve Incorporated",
-    "address": "",
-    "source": "Harry Ransom Centre / Harry Ransom Centre",
-    "sourceDate": "2005-08-02"
-  },
-  "source": {
-    "actorId": 233,
-    "name": "Harry Ransom Centre / Harry Ransom Centre",
-    "address": "Harry Ransom Center\r\nThe University of Texas at Austin\r\nP.O. Drawer 7219\r\nAustin, Texas 78713-721",
-    "addressCountry": "United States",
-    "companyWebsite": "www.hrc.utexas.edu/",
-    "sourceDate": "2018-07-23"
-  }
+  "supportedBy": 108,
+  "developedBy": 108,
+  "source": 233
 }

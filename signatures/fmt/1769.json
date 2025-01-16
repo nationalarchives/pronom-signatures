@@ -41,19 +41,6 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 296,
-    "name": "ISO Technical Committee- ISO/IEC JTC 1/SC 22 / ISO/IEC JTC 1/SC 22",
-    "companyWebsite": "www.iso.org/committee/45202.html",
-    "source": "Stadtarchiv Hof / Stadtarchiv Hof",
-    "sourceDate": "2022-09-20"
-  },
-  "source": {
-    "actorId": 295,
-    "name": "Stadtarchiv Hof / Stadtarchiv Hof",
-    "address": "Unteres Tor 9\r\n95028\r\nHof",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.hof.de/leben-erleben/stadtarchiv",
-    "sourceDate": "2022-09-20"
-  }
+  "supportedBy": 296,
+  "source": 295
 }

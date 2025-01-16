@@ -63,34 +63,7 @@
       "relatedFormatName": "Apple Partition Map Disk Image"
     }
   ],
-  "supportedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "Datable / Datable",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "Datable / Datable",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 224,
-    "name": "Datable / Datable",
-    "address": "Bloemstraat 24, BE-2140 Antwerpen",
-    "addressCountry": "Belgium",
-    "companyWebsite": "www.datable.be",
-    "sourceDate": "2017-05-18"
-  }
+  "supportedBy": 15,
+  "developedBy": 15,
+  "source": 224
 }

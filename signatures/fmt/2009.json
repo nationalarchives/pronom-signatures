@@ -54,18 +54,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 342,
-    "name": "Worldwide Protein Data Bank",
-    "companyWebsite": "https://www.wwpdb.org/",
-    "source": "ETH Library",
-    "sourceDate": "2024-06-27"
-  },
-  "source": {
-    "actorId": 346,
-    "name": "ETH Library",
-    "address": "R\u00e4mistrasse 101\r\nHauptgeb\u00e4ude\r\n8092 Z\u00fcrich",
-    "companyWebsite": "https://library.ethz.ch/en",
-    "sourceDate": "2024-06-27"
-  }
+  "developedBy": 342,
+  "source": 346
 }

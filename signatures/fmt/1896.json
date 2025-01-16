@@ -44,37 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 190,
-    "name": "Nokia / Nokia",
-    "address": "Keilalahdentie 2-4\r\nP.O. Box 226\r\nFI-00045 Nokia Group",
-    "addressCountry": "Finland",
-    "telephone": "+358 (0) 7180 08000",
-    "supportWebsite": "www.nokia.com",
-    "companyWebsite": "www.nokia.com",
-    "source": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "sourceDate": "2013-07-18"
-  },
-  "developedBy": {
-    "actorId": 190,
-    "name": "Nokia / Nokia",
-    "address": "Keilalahdentie 2-4\r\nP.O. Box 226\r\nFI-00045 Nokia Group",
-    "addressCountry": "Finland",
-    "telephone": "+358 (0) 7180 08000",
-    "supportWebsite": "www.nokia.com",
-    "companyWebsite": "www.nokia.com",
-    "source": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "sourceDate": "2013-07-18"
-  },
-  "source": {
-    "actorId": 180,
-    "name": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "address": "The National Archives and Records Administration\r\n8601 Adelphi Road\r\nCollege Park, MD 20740-6001",
-    "addressCountry": "United States",
-    "telephone": "+1-800-234-8861",
-    "support_website_text": "www.archives.gov/contact/",
-    "supportWebsite": "www.archives.gov/contact/",
-    "companyWebsite": "www.archives.gov",
-    "sourceDate": "2012-05-14"
-  }
+  "supportedBy": 190,
+  "developedBy": 190,
+  "source": 180
 }

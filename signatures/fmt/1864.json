@@ -59,36 +59,7 @@
       "relatedFormatName": "Adobe Illustrator CC 2020 Artwork"
     }
   ],
-  "supportedBy": {
-    "actorId": 7,
-    "name": "Adobe Systems Incorporated",
-    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
-    "addressCountry": "United States",
-    "telephone": "+001 (408) 537-6000",
-    "supportWebsite": "www.adobe.com/support/main.html",
-    "companyWebsite": "www.adobe.com",
-    "contact": "englishts@adobe.com",
-    "source": "Brigham Young University / Brigham Young University",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 7,
-    "name": "Adobe Systems Incorporated",
-    "address": "San Jose Corporate Headquarters, 345 Park Avenue, San Jose, California, 95110-2704",
-    "addressCountry": "United States",
-    "telephone": "+001 (408) 537-6000",
-    "supportWebsite": "www.adobe.com/support/main.html",
-    "companyWebsite": "www.adobe.com",
-    "contact": "englishts@adobe.com",
-    "source": "Brigham Young University / Brigham Young University",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 299,
-    "name": "Brigham Young University / Brigham Young University",
-    "address": "Provo\r\nUT\r\n84602",
-    "addressCountry": "United States",
-    "companyWebsite": "www.byu.edu/",
-    "sourceDate": "2023-03-08"
-  }
+  "supportedBy": 7,
+  "developedBy": 7,
+  "source": 299
 }

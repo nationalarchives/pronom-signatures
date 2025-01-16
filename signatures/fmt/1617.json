@@ -44,25 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 275,
-    "name": "DeviceTree / DeviceTree",
-    "addressCountry": "United Kingdom",
-    "companyWebsite": "www.devicetree.org/",
-    "source": "Oliver Mattos / Oliver Mattos",
-    "sourceDate": "2022-02-03"
-  },
-  "developedBy": {
-    "actorId": 275,
-    "name": "DeviceTree / DeviceTree",
-    "addressCountry": "United Kingdom",
-    "companyWebsite": "www.devicetree.org/",
-    "source": "Oliver Mattos / Oliver Mattos",
-    "sourceDate": "2022-02-03"
-  },
-  "source": {
-    "actorId": 273,
-    "name": "Oliver Mattos / Oliver Mattos",
-    "sourceDate": "2022-02-03"
-  }
+  "supportedBy": 275,
+  "developedBy": 275,
+  "source": 273
 }

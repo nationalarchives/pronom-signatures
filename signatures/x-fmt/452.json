@@ -104,24 +104,7 @@
       "relatedFormatName": "SketchUp Document"
     }
   ],
-  "supportedBy": {
-    "actorId": 141,
-    "name": "Google",
-    "companyWebsite": "www.google.com",
-    "source": "Digital Library Research Group / MIT Libraries",
-    "sourceDate": "2009-05-08"
-  },
-  "developedBy": {
-    "actorId": 141,
-    "name": "Google",
-    "companyWebsite": "www.google.com",
-    "source": "Digital Library Research Group / MIT Libraries",
-    "sourceDate": "2009-05-08"
-  },
-  "source": {
-    "actorId": 131,
-    "name": "Digital Library Research Group / MIT Libraries",
-    "companyWebsite": "www.libraries.mit.edu/dlrg/index.html",
-    "sourceDate": "2008-10-22"
-  }
+  "supportedBy": 141,
+  "developedBy": 141,
+  "source": 131
 }

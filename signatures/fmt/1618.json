@@ -37,20 +37,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 200,
-    "name": "W3C / W3C",
-    "companyWebsite": "www.w3.org/Consortium/contact",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2014-02-14"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "developedBy": 200,
+  "source": 234
 }

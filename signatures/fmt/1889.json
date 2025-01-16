@@ -44,26 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 318,
-    "name": "Software Products International, Inc / Software Products International, Inc",
-    "addressCountry": "United States",
-    "source": "National Library of New Zealand / National Library of New Zealand",
-    "sourceDate": "2023-08-03"
-  },
-  "developedBy": {
-    "actorId": 318,
-    "name": "Software Products International, Inc / Software Products International, Inc",
-    "addressCountry": "United States",
-    "source": "National Library of New Zealand / National Library of New Zealand",
-    "sourceDate": "2023-08-03"
-  },
-  "source": {
-    "actorId": 178,
-    "name": "National Library of New Zealand / National Library of New Zealand",
-    "address": "Archives New Zealand\r\n\r\n10 Mulgrave Street\r\n\r\nPipitea\r\n\r\nWellington\r\n\r\nNew Zealand",
-    "addressCountry": "New Zealand",
-    "companyWebsite": "www.natlib.govt.nz",
-    "sourceDate": "2012-03-07"
-  }
+  "supportedBy": 318,
+  "developedBy": 318,
+  "source": 178
 }

@@ -54,34 +54,7 @@
       "relatedFormatName": "Calc602 Spreadsheet File"
     }
   ],
-  "supportedBy": {
-    "actorId": 4,
-    "name": "Software602, Inc.",
-    "address": "8833 Perimeter Park Blvd, Suite 702, Jacksonville, Florida, 32216",
-    "addressCountry": "United States",
-    "telephone": "1-904-642-5400",
-    "supportWebsite": "support.software.com/contact/",
-    "companyWebsite": "support.software602.com",
-    "contact": "info@software602.com",
-    "source": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 4,
-    "name": "Software602, Inc.",
-    "address": "8833 Perimeter Park Blvd, Suite 702, Jacksonville, Florida, 32216",
-    "addressCountry": "United States",
-    "telephone": "1-904-642-5400",
-    "supportWebsite": "support.software.com/contact/",
-    "companyWebsite": "support.software602.com",
-    "contact": "info@software602.com",
-    "source": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 242,
-    "name": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
-    "addressCountry": "Czech Republic",
-    "sourceDate": "2019-12-20"
-  }
+  "supportedBy": 4,
+  "developedBy": 4,
+  "source": 242
 }

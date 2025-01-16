@@ -176,7 +176,7 @@ def get_format_relationships(file_format_id):
     return format_relationship_result
 
 
-def get_format(file_format_id):
+def get_format(file_format_id, all_actors):
     rows = execute_procedure("proc_get_format_detail_by_id", file_format_id)
     detail_result = {}
     for row in rows:
@@ -192,11 +192,17 @@ def get_format(file_format_id):
     developer = get_developer(file_format_id)
     source = get_source(file_format_id)
     if support is not None:
-        detail_result['supportedBy'] = support
+        actor_id = support['actorId']
+        detail_result['supportedBy'] = actor_id
+        all_actors[actor_id] = support
     if developer is not None:
-        detail_result['developedBy'] = developer
+        actor_id = developer['actorId']
+        detail_result['developedBy'] = actor_id
+        all_actors[actor_id] = developer
     if source is not None:
-        detail_result['source'] = source
+        actor_id = source['actorId']
+        detail_result['source'] = actor_id
+        all_actors[actor_id] = source
     return detail_result
 
 
@@ -340,13 +346,17 @@ def execute_stored_procedures(procedures, file_format_id):
 def run():
     container_signatures = generate_container_signatures()
     file_format_ids = get_file_format_ids()
+    all_actors = {}
     for file_format_id in file_format_ids:
-        format_json = get_format(file_format_id)
+        format_json = get_format(file_format_id, all_actors)
         puid = [x for x in format_json["identifiers"] if x["identifierType"] == "PUID"][0]["identifierText"]
         if puid in container_signatures:
             format_json['containerSignatures'] = container_signatures[puid]
         with open(f'/home/sam/repositories/digitalpreservation/pronom-signatures/signatures/{puid}.json', 'w') as f:
             json.dump(format_json, f, indent=2)
+    for actor_id, actor in all_actors.items():
+        with open(f'/home/sam/repositories/digitalpreservation/pronom-signatures/actors/{actor_id}.json', 'w') as actor_file:
+            actor_file.write(json.dumps(actor, indent=2))
 
 
 # Example usage

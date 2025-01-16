@@ -37,38 +37,9 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "National Library of New Zealand / National Library of New Zealand",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "National Library of New Zealand / National Library of New Zealand",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 178,
-    "name": "National Library of New Zealand / National Library of New Zealand",
-    "address": "Archives New Zealand\r\n\r\n10 Mulgrave Street\r\n\r\nPipitea\r\n\r\nWellington\r\n\r\nNew Zealand",
-    "addressCountry": "New Zealand",
-    "companyWebsite": "www.natlib.govt.nz",
-    "sourceDate": "2012-03-07"
-  },
+  "supportedBy": 93,
+  "developedBy": 93,
+  "source": 178,
   "containerSignatures": [
     {
       "containerType": "OLE2",

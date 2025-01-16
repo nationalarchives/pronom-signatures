@@ -48,38 +48,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "Keep Solutions / Keep Solutions",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "Keep Solutions / Keep Solutions",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 199,
-    "name": "Keep Solutions / Keep Solutions",
-    "address": "Rua Rosalvo de Almeida, n\u00ba 5\r\n4710-429 Braga\r\nPortugal",
-    "addressCountry": "Portugal",
-    "telephone": "+351 253 066735",
-    "companyWebsite": "www.keep.pt/?lang=en",
-    "contact": "info@keep.pt",
-    "sourceDate": "2014-02-05"
-  }
+  "supportedBy": 93,
+  "developedBy": 93,
+  "source": 199
 }

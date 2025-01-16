@@ -104,10 +104,5 @@
       "relatedFormatName": "JSON Data Interchange Format"
     }
   ],
-  "source": {
-    "actorId": 244,
-    "name": "Preservica / Preservica",
-    "addressCountry": "United Kingdom",
-    "sourceDate": "2020-01-14"
-  }
+  "source": 244
 }

@@ -52,16 +52,7 @@
       "relatedFormatName": "AutoCAD Design Web Format(DWFx)"
     }
   ],
-  "source": {
-    "actorId": 207,
-    "name": "Walker Art Center / Walker Art Center",
-    "address": "Walker Art Center\r\n1750 Hennepin Avenue\r\nMinneapolis, MN 55403",
-    "addressCountry": "United States",
-    "telephone": "612.375.7600",
-    "companyWebsite": "www.walkerart.org/",
-    "contact": "info@walkerart.org",
-    "sourceDate": "2014-06-25"
-  },
+  "source": 207,
   "containerSignatures": [
     {
       "containerType": "ZIP",

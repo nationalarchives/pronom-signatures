@@ -44,11 +44,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 321,
-    "name": "Buddhist Digital Resource Center / Buddhist Digital Resource Center",
-    "addressCountry": "United States",
-    "companyWebsite": "www.bdrc.io/",
-    "sourceDate": "2023-08-25"
-  }
+  "source": 321
 }

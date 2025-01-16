@@ -44,9 +44,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 184,
-    "name": "British Library / British Library",
-    "sourceDate": "2012-12-18"
-  }
+  "source": 184
 }

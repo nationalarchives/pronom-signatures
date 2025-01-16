@@ -62,13 +62,5 @@
       "relatedFormatName": "MPEG 1/2 Audio Layer 3"
     }
   ],
-  "source": {
-    "actorId": 191,
-    "name": "Axiell / Axiell",
-    "address": "Box 5151\r\n426 05 V\u00e4stra Fr\u00f6lunda",
-    "addressCountry": "Sweden",
-    "telephone": "+44 (0)115 900 8000",
-    "companyWebsite": "www.axiell.co.uk",
-    "sourceDate": "2013-07-18"
-  }
+  "source": 191
 }

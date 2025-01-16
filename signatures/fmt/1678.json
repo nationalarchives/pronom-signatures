@@ -33,20 +33,6 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 283,
-    "name": "MathWorks / MathWorks",
-    "addressCountry": "United Kingdom",
-    "companyWebsite": "www.matlab.mathworks.com/",
-    "source": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
-    "sourceDate": "2022-04-28"
-  },
-  "source": {
-    "actorId": 235,
-    "name": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
-    "address": "30167 Hannover",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.tib.eu",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 283,
+  "source": 235
 }

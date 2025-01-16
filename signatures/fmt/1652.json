@@ -37,23 +37,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 93,
-    "name": "Microsoft Corporation",
-    "address": "One Microsoft Way, Redmond, WA, 98052-6399",
-    "addressCountry": "United States",
-    "telephone": "+001 (425) 822-8080",
-    "supportWebsite": "support.microsoft.com/",
-    "companyWebsite": "www.microsoft.com/",
-    "contact": "msupport@microsoft.com",
-    "source": "Diplomatic Archives / French Ministry for Europe and Foreign Affairs",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 280,
-    "name": "Diplomatic Archives / French Ministry for Europe and Foreign Affairs",
-    "addressCountry": "France",
-    "companyWebsite": "www.diplomatie.gouv.fr/en/",
-    "sourceDate": "2022-03-15"
-  }
+  "developedBy": 93,
+  "source": 280
 }

@@ -48,12 +48,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 231,
-    "name": "New York Public Library / New York Public Library",
-    "address": "Stephen A. Schwarzman Building\r\nFifth Avenue and 42nd Street\r\nNew York, NY 10018",
-    "addressCountry": "United States",
-    "companyWebsite": "www.nypl.org",
-    "sourceDate": "2018-07-26"
-  }
+  "source": 231
 }

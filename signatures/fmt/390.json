@@ -55,24 +55,6 @@
       "relatedFormatName": "Log ASCII Standard Format"
     }
   ],
-  "developedBy": {
-    "actorId": 176,
-    "name": "Canadian Well Logging Society / Canadian Well Logging Society",
-    "address": "Canadian Well Logging Society,\r\nScotia Centre,\r\n2200 - 700 - 2nd Street SW,\r\nCalgary, Alberta,\r\nT2P 2W1",
-    "addressCountry": "Canada",
-    "telephone": "(403) 269-9366",
-    "supportWebsite": "www.cwls.org/las_info.php",
-    "companyWebsite": "www.cwls.org",
-    "source": "Digital Preservation Department / The National Archives",
-    "sourceDate": "2011-11-25"
-  },
-  "source": {
-    "actorId": 1,
-    "name": "Digital Preservation Department / The National Archives",
-    "address": "Kew, Richmond, Surrey, TW9 4DU",
-    "addressCountry": "United Kingdom",
-    "telephone": "+44 (0) 20 8392 5330",
-    "contact": "PRONOM@nationalarchives.gov.uk",
-    "sourceDate": "2003-09-23"
-  }
+  "developedBy": 176,
+  "source": 1
 }

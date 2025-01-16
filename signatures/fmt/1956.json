@@ -44,24 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 334,
-    "name": "R74n / R74n",
-    "companyWebsite": "www.r74n.com/social",
-    "source": "R74n / R74n",
-    "sourceDate": "2024-01-25"
-  },
-  "developedBy": {
-    "actorId": 334,
-    "name": "R74n / R74n",
-    "companyWebsite": "www.r74n.com/social",
-    "source": "R74n / R74n",
-    "sourceDate": "2024-01-25"
-  },
-  "source": {
-    "actorId": 334,
-    "name": "R74n / R74n",
-    "companyWebsite": "www.r74n.com/social",
-    "sourceDate": "2024-01-25"
-  }
+  "supportedBy": 334,
+  "developedBy": 334,
+  "source": 334
 }

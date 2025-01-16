@@ -64,36 +64,7 @@
       "relatedFormatName": "Drawing Interchange File Format (ASCII)"
     }
   ],
-  "supportedBy": {
-    "actorId": 18,
-    "name": "Autodesk",
-    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
-    "addressCountry": "United States",
-    "telephone": "001 415-507-5000",
-    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
-    "companyWebsite": "www.Autodesk.com",
-    "source": "Museum of London / Museum of London",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 18,
-    "name": "Autodesk",
-    "address": "Worldwide Headquarters, 111 McInnis Parkway, San Rafael, California, 94903",
-    "addressCountry": "United States",
-    "telephone": "001 415-507-5000",
-    "supportWebsite": "www.usa.autodesk.com/adsk/servlet/index?siteID=123112&id=1068444",
-    "companyWebsite": "www.Autodesk.com",
-    "source": "Museum of London / Museum of London",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 181,
-    "name": "Museum of London / Museum of London",
-    "address": "150 London Wall\r\nLondon EC2Y 5HN",
-    "addressCountry": "United Kingdom",
-    "telephone": "020 7566 9318",
-    "companyWebsite": "www.museumoflondon.org.uk/",
-    "contact": "afetherston@museumoflondon.org.uk",
-    "sourceDate": "2012-04-10"
-  }
+  "supportedBy": 18,
+  "developedBy": 18,
+  "source": 181
 }

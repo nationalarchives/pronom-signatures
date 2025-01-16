@@ -44,31 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 335,
-    "name": "PT. NEC Indonesia",
-    "address": "Summitmas I\r\n4th Floor\r\nJl. Jend. Sudirman Kav. 61 - 62\r\nJakarta 12190",
-    "addressCountry": "Indonesia",
-    "companyWebsite": "www.id.nec.com/index.html",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2024-02-01"
-  },
-  "developedBy": {
-    "actorId": 335,
-    "name": "PT. NEC Indonesia",
-    "address": "Summitmas I\r\n4th Floor\r\nJl. Jend. Sudirman Kav. 61 - 62\r\nJakarta 12190",
-    "addressCountry": "Indonesia",
-    "companyWebsite": "www.id.nec.com/index.html",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2024-02-01"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 335,
+  "developedBy": 335,
+  "source": 234
 }

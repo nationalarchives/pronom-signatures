@@ -59,15 +59,5 @@
       "relatedFormatName": "Paint Shop Pro Image"
     }
   ],
-  "source": {
-    "actorId": 180,
-    "name": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "address": "The National Archives and Records Administration\r\n8601 Adelphi Road\r\nCollege Park, MD 20740-6001",
-    "addressCountry": "United States",
-    "telephone": "+1-800-234-8861",
-    "support_website_text": "www.archives.gov/contact/",
-    "supportWebsite": "www.archives.gov/contact/",
-    "companyWebsite": "www.archives.gov",
-    "sourceDate": "2012-05-14"
-  }
+  "source": 180
 }

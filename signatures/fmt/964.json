@@ -50,37 +50,7 @@
       "relatedFormatName": "Final Draft Document"
     }
   ],
-  "supportedBy": {
-    "actorId": 158,
-    "name": "Final Draft Inc / Final Draft Inc",
-    "address": "Suite 205, 26707 W. Agoura Road, Calabasas, California 91302",
-    "addressCountry": "United States",
-    "telephone": "(818) 995 8995",
-    "supportWebsite": "www.finaldraft.com/support/",
-    "companyWebsite": "www.finaldraft.com",
-    "contact": "info@finaldraft.com",
-    "source": "Hull History Centre / Hull History Centre",
-    "sourceDate": "2010-04-27"
-  },
-  "developedBy": {
-    "actorId": 158,
-    "name": "Final Draft Inc / Final Draft Inc",
-    "address": "Suite 205, 26707 W. Agoura Road, Calabasas, California 91302",
-    "addressCountry": "United States",
-    "telephone": "(818) 995 8995",
-    "supportWebsite": "www.finaldraft.com/support/",
-    "companyWebsite": "www.finaldraft.com",
-    "contact": "info@finaldraft.com",
-    "source": "Hull History Centre / Hull History Centre",
-    "sourceDate": "2010-04-27"
-  },
-  "source": {
-    "actorId": 217,
-    "name": "Hull History Centre / Hull History Centre",
-    "address": "Worship Street, \r\nHull, \r\nHU2 8BG",
-    "addressCountry": "United Kingdom",
-    "telephone": "01482 317500",
-    "contact": "hullhistorycentre@hcandl.co.uk",
-    "sourceDate": "2016-09-20"
-  }
+  "supportedBy": 158,
+  "developedBy": 158,
+  "source": 217
 }

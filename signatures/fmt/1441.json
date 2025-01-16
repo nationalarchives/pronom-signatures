@@ -49,33 +49,9 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 220,
-    "name": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2017-02-06"
-  },
+  "supportedBy": 15,
+  "developedBy": 15,
+  "source": 220,
   "containerSignatures": [
     {
       "containerType": "ZIP",

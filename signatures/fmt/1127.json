@@ -50,23 +50,7 @@
       "relatedFormatName": "Tagged Image File Format"
     }
   ],
-  "supportedBy": {
-    "actorId": 228,
-    "name": "Sony / Sony",
-    "source": "KULeuven - LIBIS / KULeuven - LIBIS",
-    "sourceDate": "2017-07-10"
-  },
-  "developedBy": {
-    "actorId": 228,
-    "name": "Sony / Sony",
-    "source": "KULeuven - LIBIS / KULeuven - LIBIS",
-    "sourceDate": "2017-07-10"
-  },
-  "source": {
-    "actorId": 202,
-    "name": "KULeuven - LIBIS / KULeuven - LIBIS",
-    "address": "Oude Markt 13 - bus 5005\r\n3000 Leuven",
-    "addressCountry": "Belgium",
-    "sourceDate": "2014-02-14"
-  }
+  "supportedBy": 228,
+  "developedBy": 228,
+  "source": 202
 }

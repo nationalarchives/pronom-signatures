@@ -58,12 +58,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 187,
-    "name": "l'Institut national de l' Audiovisuel / l'Institut national de l' Audiovisuel",
-    "address": "4 Avenue de l'Europe\r\n94366 Bry-Sur-Marne Cedex",
-    "addressCountry": "France",
-    "companyWebsite": "ina.fr",
-    "sourceDate": "2013-02-26"
-  }
+  "source": 187
 }

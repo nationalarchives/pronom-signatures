@@ -44,33 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 279,
-    "name": "Garmin / Garmin",
-    "address": "1200 E 151st St\r\nOlathe\r\nKS 66062\r\nUnited States",
-    "addressCountry": "United States",
-    "companyWebsite": "www.garmin.com/",
-    "source": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "sourceDate": "2022-03-15"
-  },
-  "developedBy": {
-    "actorId": 279,
-    "name": "Garmin / Garmin",
-    "address": "1200 E 151st St\r\nOlathe\r\nKS 66062\r\nUnited States",
-    "addressCountry": "United States",
-    "companyWebsite": "www.garmin.com/",
-    "source": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "sourceDate": "2022-03-15"
-  },
-  "source": {
-    "actorId": 180,
-    "name": "The National Archives and Records Administration / The National Archives and Records Administration",
-    "address": "The National Archives and Records Administration\r\n8601 Adelphi Road\r\nCollege Park, MD 20740-6001",
-    "addressCountry": "United States",
-    "telephone": "+1-800-234-8861",
-    "support_website_text": "www.archives.gov/contact/",
-    "supportWebsite": "www.archives.gov/contact/",
-    "companyWebsite": "www.archives.gov",
-    "sourceDate": "2012-05-14"
-  }
+  "supportedBy": 279,
+  "developedBy": 279,
+  "source": 180
 }

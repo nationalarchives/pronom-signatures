@@ -44,35 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "Artefactual Systems Inc / Artefactual Systems Inc",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "Artefactual Systems Inc / Artefactual Systems Inc",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 195,
-    "name": "Artefactual Systems Inc / Artefactual Systems Inc",
-    "address": "Artefactual Systems Inc.\r\nSuite 202 \u2013 26 Lorne Mews\r\nNew Westminster, BC\r\nCanada V3M 3L7",
-    "addressCountry": "Canada",
-    "companyWebsite": "www.artefactual.com/",
-    "contact": "info@artefactual.com",
-    "sourceDate": "2013-11-12"
-  }
+  "supportedBy": 15,
+  "developedBy": 15,
+  "source": 195
 }

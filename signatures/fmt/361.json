@@ -54,25 +54,6 @@
     }
   ],
   "relationships": [],
-  "developedBy": {
-    "actorId": 171,
-    "name": "Sensors and Software Inc. / Sensors and Software Inc.",
-    "address": "Sensors and Software Inc.\r\n1040 Stacey Court\r\nMississauga, Ontario\r\nL4W 2X8",
-    "addressCountry": "Canada",
-    "telephone": "905-624-8909",
-    "supportWebsite": "www.sensoft.ca/Support.aspx",
-    "companyWebsite": "www.sensoft.ca/Home.aspx",
-    "contact": "techsupport@sensoft.ca",
-    "source": "Archaeology Data Service / Archaeology Data Service",
-    "sourceDate": "2011-07-28"
-  },
-  "source": {
-    "actorId": 170,
-    "name": "Archaeology Data Service / Archaeology Data Service",
-    "address": "Archaeology Data Service,\r\nDepartment of Archaeology,\r\nThe King's Manor,\r\nUniversity of York,\r\nYork, YO1 7EP",
-    "addressCountry": "United Kingdom",
-    "companyWebsite": "www.archaeologydataservice.ac.uk",
-    "contact": "help@ads.ahds.ac.uk",
-    "sourceDate": "2011-07-28"
-  }
+  "developedBy": 171,
+  "source": 170
 }

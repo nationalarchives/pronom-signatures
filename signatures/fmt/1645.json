@@ -49,14 +49,7 @@
       "relatedFormatName": "Roxio Label Creator Project File"
     }
   ],
-  "source": {
-    "actorId": 221,
-    "name": "Esri / Esri",
-    "address": "Redlands, California",
-    "addressCountry": "United States",
-    "companyWebsite": "www.esri.com/",
-    "sourceDate": "2017-02-17"
-  },
+  "source": 221,
   "containerSignatures": [
     {
       "containerType": "OLE2",

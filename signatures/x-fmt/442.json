@@ -37,24 +37,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 140,
-    "name": "AutoDesSys, Inc",
-    "companyWebsite": "www.formz.com/",
-    "source": "Digital Library Research Group / MIT Libraries",
-    "sourceDate": "2009-05-06"
-  },
-  "developedBy": {
-    "actorId": 140,
-    "name": "AutoDesSys, Inc",
-    "companyWebsite": "www.formz.com/",
-    "source": "Digital Library Research Group / MIT Libraries",
-    "sourceDate": "2009-05-06"
-  },
-  "source": {
-    "actorId": 131,
-    "name": "Digital Library Research Group / MIT Libraries",
-    "companyWebsite": "www.libraries.mit.edu/dlrg/index.html",
-    "sourceDate": "2008-10-22"
-  }
+  "supportedBy": 140,
+  "developedBy": 140,
+  "source": 131
 }

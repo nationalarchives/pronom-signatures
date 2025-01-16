@@ -54,13 +54,5 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 230,
-    "name": "Bodleian Library, University of Oxford / Bodleian Library, University of Oxford",
-    "address": "Bodleian Library, \r\nBroad Street, \r\nOxford OX1 3BG",
-    "addressCountry": "United Kingdom",
-    "telephone": "+44 1865 277162",
-    "companyWebsite": "www.bodleian.ox.ac.uk",
-    "sourceDate": "2017-09-19"
-  }
+  "source": 230
 }

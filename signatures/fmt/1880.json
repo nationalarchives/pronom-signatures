@@ -68,27 +68,7 @@
       "relatedFormatName": "vCard"
     }
   ],
-  "supportedBy": {
-    "actorId": 106,
-    "name": "World Wide Web Consortium",
-    "address": "",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2005-08-02"
-  },
-  "developedBy": {
-    "actorId": 106,
-    "name": "World Wide Web Consortium",
-    "address": "",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2005-08-02"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 106,
+  "developedBy": 106,
+  "source": 234
 }

@@ -55,30 +55,7 @@
       "relatedFormatName": "MPEG-4 Media File"
     }
   ],
-  "supportedBy": {
-    "actorId": 276,
-    "name": "BibTex / BibTeX",
-    "addressCountry": "United States",
-    "supportWebsite": "www.bibtex.org/",
-    "companyWebsite": "www.ctan.org/pkg/bibtex",
-    "source": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
-    "sourceDate": "2022-02-03"
-  },
-  "developedBy": {
-    "actorId": 276,
-    "name": "BibTex / BibTeX",
-    "addressCountry": "United States",
-    "supportWebsite": "www.bibtex.org/",
-    "companyWebsite": "www.ctan.org/pkg/bibtex",
-    "source": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
-    "sourceDate": "2022-02-03"
-  },
-  "source": {
-    "actorId": 235,
-    "name": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
-    "address": "30167 Hannover",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.tib.eu",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 276,
+  "developedBy": 276,
+  "source": 235
 }

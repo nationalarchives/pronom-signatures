@@ -48,23 +48,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 106,
-    "name": "World Wide Web Consortium",
-    "address": "",
-    "source": "British Library / British Library",
-    "sourceDate": "2005-08-02"
-  },
-  "developedBy": {
-    "actorId": 106,
-    "name": "World Wide Web Consortium",
-    "address": "",
-    "source": "British Library / British Library",
-    "sourceDate": "2005-08-02"
-  },
-  "source": {
-    "actorId": 184,
-    "name": "British Library / British Library",
-    "sourceDate": "2012-12-18"
-  }
+  "supportedBy": 106,
+  "developedBy": 106,
+  "source": 184
 }

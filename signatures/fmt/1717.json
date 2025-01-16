@@ -37,26 +37,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 284,
-    "name": "ETSI / ETSI",
-    "address": "650 Route des Lucioles\r\n06560 Valbonne - Sophia Antipolis\r\nFRANCE",
-    "companyWebsite": "www.etsi.org/",
-    "source": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
-    "sourceDate": "2022-06-14"
-  },
-  "developedBy": {
-    "actorId": 284,
-    "name": "ETSI / ETSI",
-    "address": "650 Route des Lucioles\r\n06560 Valbonne - Sophia Antipolis\r\nFRANCE",
-    "companyWebsite": "www.etsi.org/",
-    "source": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
-    "sourceDate": "2022-06-14"
-  },
-  "source": {
-    "actorId": 242,
-    "name": "The National Archives of the Czech Republic / The National Archives of the Czech Republic",
-    "addressCountry": "Czech Republic",
-    "sourceDate": "2019-12-20"
-  }
+  "supportedBy": 284,
+  "developedBy": 284,
+  "source": 242
 }

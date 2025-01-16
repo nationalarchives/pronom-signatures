@@ -65,28 +65,7 @@
       "relatedFormatName": "Extensible Markup Language"
     }
   ],
-  "supportedBy": {
-    "actorId": 254,
-    "name": "Ableton",
-    "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.ableton.com/en/",
-    "source": "Programme Vitam / Programme Vitam",
-    "sourceDate": "2021-09-08"
-  },
-  "developedBy": {
-    "actorId": 254,
-    "name": "Ableton",
-    "address": "Sch\u00f6nhauser Allee 6-7\r\n10119 Berlin\r\nGermany",
-    "addressCountry": "Germany",
-    "companyWebsite": "www.ableton.com/en/",
-    "source": "Programme Vitam / Programme Vitam",
-    "sourceDate": "2021-09-08"
-  },
-  "source": {
-    "actorId": 250,
-    "name": "Programme Vitam / Programme Vitam",
-    "addressCountry": "France",
-    "sourceDate": "2021-09-08"
-  }
+  "supportedBy": 254,
+  "developedBy": 254,
+  "source": 250
 }

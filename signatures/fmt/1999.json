@@ -50,24 +50,7 @@
       "relatedFormatName": "Extensible Markup Language"
     }
   ],
-  "supportedBy": {
-    "actorId": 331,
-    "name": "SMPTE / Society of Motion Picture and Television Engineers",
-    "addressCountry": "United States",
-    "source": "Preservica / Preservica",
-    "sourceDate": "2024-04-18"
-  },
-  "developedBy": {
-    "actorId": 331,
-    "name": "SMPTE / Society of Motion Picture and Television Engineers",
-    "addressCountry": "United States",
-    "source": "Preservica / Preservica",
-    "sourceDate": "2024-04-18"
-  },
-  "source": {
-    "actorId": 244,
-    "name": "Preservica / Preservica",
-    "addressCountry": "United Kingdom",
-    "sourceDate": "2020-01-14"
-  }
+  "supportedBy": 331,
+  "developedBy": 331,
+  "source": 244
 }

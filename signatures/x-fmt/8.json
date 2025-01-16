@@ -54,37 +54,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 80,
-    "name": "dBASE Inc.",
-    "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
-    "addressCountry": "United States",
-    "telephone": "607-729-0960",
-    "supportWebsite": "techsupport@dbase.com",
-    "companyWebsite": "www.dbase.com/mainpage.htm",
-    "contact": "mailto:Rich Lauer<rlauer@dbase.com",
-    "source": "Digital Preservation Department / The National Archives",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 80,
-    "name": "dBASE Inc.",
-    "address": "2548 Vestal Parkway E, Vestal, New York, NY 13850",
-    "addressCountry": "United States",
-    "telephone": "607-729-0960",
-    "supportWebsite": "techsupport@dbase.com",
-    "companyWebsite": "www.dbase.com/mainpage.htm",
-    "contact": "mailto:Rich Lauer<rlauer@dbase.com",
-    "source": "Digital Preservation Department / The National Archives",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 1,
-    "name": "Digital Preservation Department / The National Archives",
-    "address": "Kew, Richmond, Surrey, TW9 4DU",
-    "addressCountry": "United Kingdom",
-    "telephone": "+44 (0) 20 8392 5330",
-    "contact": "PRONOM@nationalarchives.gov.uk",
-    "sourceDate": "2003-09-23"
-  }
+  "supportedBy": 80,
+  "developedBy": 80,
+  "source": 1
 }

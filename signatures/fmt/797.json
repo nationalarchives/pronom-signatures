@@ -50,34 +50,7 @@
       "relatedFormatName": "Quicktime"
     }
   ],
-  "supportedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "National Library of Wales / National Library of Wales",
-    "sourceDate": "2003-09-23"
-  },
-  "developedBy": {
-    "actorId": 15,
-    "name": "Apple Computer, Inc.",
-    "address": "1 Infinite Loop, Cupertino, California, CA 95014",
-    "addressCountry": "United States",
-    "telephone": "(800) 275-2273",
-    "supportWebsite": "www.info.apple.com",
-    "companyWebsite": "www.apple.com",
-    "source": "National Library of Wales / National Library of Wales",
-    "sourceDate": "2003-09-23"
-  },
-  "source": {
-    "actorId": 194,
-    "name": "National Library of Wales / National Library of Wales",
-    "address": "National Library of Wales, Penglais Rd, Aberystwyth, Ceredigion SY23 3BU",
-    "addressCountry": "United Kingdom",
-    "companyWebsite": "www.llgc.org.uk/",
-    "sourceDate": "2013-08-28"
-  }
+  "supportedBy": 15,
+  "developedBy": 15,
+  "source": 194
 }

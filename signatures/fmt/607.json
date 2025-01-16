@@ -54,13 +54,5 @@
       "relatedFormatName": "Statistical Analysis System Data (Windows)"
     }
   ],
-  "source": {
-    "actorId": 192,
-    "name": "Tessella / Tessella",
-    "address": "26 The Quadrant,\r\nAbingdon Science Park,\r\nAbingdon,\r\nOX14 3YS",
-    "addressCountry": "United Kingdom",
-    "telephone": "(+44) (0)1235 555511",
-    "companyWebsite": "www.tessella.com",
-    "sourceDate": "2013-08-28"
-  }
+  "source": 192
 }

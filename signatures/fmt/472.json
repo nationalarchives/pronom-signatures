@@ -64,11 +64,5 @@
       "relatedFormatName": "Memory Stick Voice File (MSV)/Digital Voice File (DVF)"
     }
   ],
-  "source": {
-    "actorId": 183,
-    "name": "Hagley Museum and Library / Hagley Museum and Library",
-    "address": "P.O. Box 3630\r\nWilmington, DE \r\n19807-0630",
-    "addressCountry": "United States",
-    "sourceDate": "2012-10-25"
-  }
+  "source": 183
 }

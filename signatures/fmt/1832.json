@@ -44,17 +44,6 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 302,
-    "name": "Arcsoft / Arcsoft",
-    "addressCountry": "United States",
-    "companyWebsite": "www.arcsoft.com/",
-    "source": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2023-02-22"
-  },
-  "source": {
-    "actorId": 220,
-    "name": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
-    "sourceDate": "2017-02-06"
-  }
+  "supportedBy": 302,
+  "source": 220
 }

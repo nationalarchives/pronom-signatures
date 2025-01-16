@@ -44,31 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 290,
-    "name": "Geosoft",
-    "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch",
-    "addressCountry": "New Zealand",
-    "companyWebsite": "www.seequent.com/products-solutions/geosoft-software/",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2022-07-07"
-  },
-  "developedBy": {
-    "actorId": 290,
-    "name": "Geosoft",
-    "address": "20 Moorhouse Avenue\r\nAddington\r\nChristchurch",
-    "addressCountry": "New Zealand",
-    "companyWebsite": "www.seequent.com/products-solutions/geosoft-software/",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2022-07-07"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 290,
+  "developedBy": 290,
+  "source": 234
 }

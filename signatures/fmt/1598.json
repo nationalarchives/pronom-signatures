@@ -33,19 +33,6 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 265,
-    "name": "StataCorp / StataCorp",
-    "address": "4905 Lakeway Drive\r\nCollege Station, Texas 77845-4512\r\nUSA",
-    "addressCountry": "United States",
-    "source": "Yale University Library / Yale University Library",
-    "sourceDate": "2022-01-19"
-  },
-  "source": {
-    "actorId": 204,
-    "name": "Yale University Library / Yale University Library",
-    "addressCountry": "United States",
-    "companyWebsite": "www.web.library.yale.edu/",
-    "sourceDate": "2014-02-11"
-  }
+  "supportedBy": 265,
+  "source": 204
 }

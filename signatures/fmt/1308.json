@@ -39,15 +39,6 @@
   ],
   "externalSignatures": [],
   "relationships": [],
-  "developedBy": {
-    "actorId": 246,
-    "name": "Locomotive Software / Locomotive Software",
-    "source": "British Library / British Library",
-    "sourceDate": "2020-01-18"
-  },
-  "source": {
-    "actorId": 184,
-    "name": "British Library / British Library",
-    "sourceDate": "2012-12-18"
-  }
+  "developedBy": 246,
+  "source": 184
 }

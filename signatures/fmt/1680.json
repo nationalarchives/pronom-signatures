@@ -54,31 +54,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 281,
-    "name": "Intrepid Geophysics / Intrepid Geophysics",
-    "address": "Suite 110\r\n3 Male Street\r\nVIC 3186 Brighton\r\nAustralia",
-    "addressCountry": "Australia",
-    "companyWebsite": "www.intrepid-geophysics.com/",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2022-05-09"
-  },
-  "developedBy": {
-    "actorId": 281,
-    "name": "Intrepid Geophysics / Intrepid Geophysics",
-    "address": "Suite 110\r\n3 Male Street\r\nVIC 3186 Brighton\r\nAustralia",
-    "addressCountry": "Australia",
-    "companyWebsite": "www.intrepid-geophysics.com/",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2022-05-09"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 281,
+  "developedBy": 281,
+  "source": 234
 }

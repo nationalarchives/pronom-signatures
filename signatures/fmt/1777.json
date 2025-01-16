@@ -39,23 +39,9 @@
       "relatedFormatName": "SIARD (Software-Independent Archiving of Relational Databases)"
     }
   ],
-  "supportedBy": {
-    "actorId": 143,
-    "name": "Swiss Federal Archives / Swiss Federal Archives",
-    "source": "Swiss Federal Archives / Swiss Federal Archives",
-    "sourceDate": "2009-02-03"
-  },
-  "developedBy": {
-    "actorId": 143,
-    "name": "Swiss Federal Archives / Swiss Federal Archives",
-    "source": "Swiss Federal Archives / Swiss Federal Archives",
-    "sourceDate": "2009-02-03"
-  },
-  "source": {
-    "actorId": 143,
-    "name": "Swiss Federal Archives / Swiss Federal Archives",
-    "sourceDate": "2009-02-03"
-  },
+  "supportedBy": 143,
+  "developedBy": 143,
+  "source": 143,
   "containerSignatures": [
     {
       "containerType": "ZIP",

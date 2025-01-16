@@ -48,12 +48,7 @@
       "relatedFormatName": "Associated Signature Container Extended (ASiC-E)"
     }
   ],
-  "source": {
-    "actorId": 245,
-    "name": "The National Archives of Latvia / The National Archives of Latvia",
-    "addressCountry": "Latvia",
-    "sourceDate": "2019-12-31"
-  },
+  "source": 245,
   "containerSignatures": [
     {
       "containerType": "ZIP",

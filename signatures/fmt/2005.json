@@ -37,14 +37,7 @@
     }
   ],
   "relationships": [],
-  "source": {
-    "actorId": 299,
-    "name": "Brigham Young University / Brigham Young University",
-    "address": "Provo\r\nUT\r\n84602",
-    "addressCountry": "United States",
-    "companyWebsite": "www.byu.edu/",
-    "sourceDate": "2023-03-08"
-  },
+  "source": 299,
   "containerSignatures": [
     {
       "containerType": "ZIP",

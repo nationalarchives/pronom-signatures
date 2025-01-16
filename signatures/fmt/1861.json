@@ -44,29 +44,7 @@
     }
   ],
   "relationships": [],
-  "supportedBy": {
-    "actorId": 306,
-    "name": "Quicken / Quicken",
-    "addressCountry": "Canada",
-    "companyWebsite": "www.quicken.com/",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2023-04-26"
-  },
-  "developedBy": {
-    "actorId": 306,
-    "name": "Quicken / Quicken",
-    "addressCountry": "Canada",
-    "companyWebsite": "www.quicken.com/",
-    "source": "National Library of Australia / National Library of Australia",
-    "sourceDate": "2023-04-26"
-  },
-  "source": {
-    "actorId": 234,
-    "name": "National Library of Australia / National Library of Australia",
-    "address": "Parkes Place\r\nCanberra ACT 2600",
-    "addressCountry": "Australia",
-    "telephone": "+61 (0)2 6262 1111",
-    "companyWebsite": "www.nla.gov.au",
-    "sourceDate": "2018-09-10"
-  }
+  "supportedBy": 306,
+  "developedBy": 306,
+  "source": 234
 }

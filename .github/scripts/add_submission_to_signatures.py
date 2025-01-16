@@ -21,8 +21,31 @@ def get_next_ids():
     return sorted(all_file_format_ids)[-1], sorted(all_signature_ids)[-1], sorted(all_puid_ids)[-1]
 
 
+def get_next_actor_id():
+    all_ids = []
+    actor_files = os.listdir('actors')
+    for file in actor_files:
+        with open(f'actors/{file}') as actor_file:
+            actor_json = json.load(actor_file)
+            all_ids.append(actor_json['actorId'])
+    return max(all_ids)
+
+
 def move_json():
     file_format_id, signature_id, puid_id = get_next_ids()
+    if os.path.isdir('actors'):
+        actor_path = 'submissions/actors'
+        actor_submission_files = [f for f in os.listdir(actor_path) if os.path.isfile(f'{actor_path}/{f}')]
+        next_id = get_next_actor_id() + 1
+        for new_actor_submission in actor_submission_files:
+            with open(f'submissions/actors/{new_actor_submission}') as new_submission_file:
+                new_submission_json = json.load(new_submission_file)
+                new_submission_json['actorId'] = next_id
+                with open(f'actors/{next_id}.json', 'w') as new_actor_file:
+                    json.dump(new_submission_json, new_actor_file, indent=2)
+                os.remove(f'{actor_path}/{new_actor_submission}')
+                next_id = next_id + 1
+
     if os.path.isdir('submissions'):
         submissions = [f for f in os.listdir('submissions') if os.path.isfile(f'submissions/{f}')]
         new_puid = f'fmt/{puid_id + 1}'

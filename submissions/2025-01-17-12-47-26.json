@@ -1,0 +1,14 @@
+{
+  "formatName": "New Format",
+  "formatFamilies": "Format Family",
+  "formatDisclosure": "Full",
+  "developedBy": "0",
+  "supportedBy": "0",
+  "identifierType": "MIME",
+  "identifierText": "text/something",
+  "signature-positionType": "Absolute from BOF",
+  "signature-offset": "0",
+  "signature-maxOffset": "1024",
+  "signature-byteSequence": "01",
+  "signature-name": "Signature name"
+}

@@ -1,0 +1,14 @@
+{
+  "formatName": "New Format",
+  "formatFamilies": "Format Family",
+  "formatDisclosure": "Full",
+  "formatDescription": "Description",
+  "formatTypes": "Format type",
+  "formatNote": "Note",
+  "developedBy": "277",
+  "supportedBy": "248",
+  "identifierType": "Apple Uniform Type Identifier",
+  "identifierText": "identifierValue",
+  "relationshipType": "Can contain",
+  "relatedFormatName": "fmt/21"
+}

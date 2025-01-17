@@ -1,0 +1,14 @@
+{
+  "formatName": "New Format",
+  "formatFamilies": "Format Family",
+  "formatDisclosure": "Partial",
+  "formatDescription": "Description",
+  "formatTypes": "Format type",
+  "formatNote": "Note",
+  "developedBy": "170",
+  "supportedBy": "18",
+  "identifierType": "GDFR Format Identifier",
+  "identifierText": "adsdfdsfsdf",
+  "relationshipType": "Can contain",
+  "relatedFormatName": "afsfdfsdf"
+}

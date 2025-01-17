@@ -1,0 +1,14 @@
+{
+  "formatName": "New Format",
+  "formatFamilies": "Format Family",
+  "formatDisclosure": "Full",
+  "formatDescription": "Description",
+  "formatTypes": "Format type",
+  "formatNote": "Note",
+  "developedBy": "302",
+  "supportedBy": "140",
+  "identifierType": "MIME",
+  "identifierText": "text/something",
+  "relationshipType": "Is previous version of",
+  "relatedFormatName": "fmt/21"
+}

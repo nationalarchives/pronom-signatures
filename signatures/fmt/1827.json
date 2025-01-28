@@ -12,7 +12,7 @@
   "provenanceCompoundName": "Danish National Archives / Danish National Archives",
   "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
   "formatSourceDate": "14 Feb 2023",
-  "formatDisclosure": null,
+  "formatDisclosure": "Full",
   "formatEnvironment": null,
   "formatRisk": null,
   "formatAliases": null,
@@ -31,6 +31,10 @@
     {
       "identifierText": "fmt/1827",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "http://example.com",
+      "identifierType": "URL"
     }
   ],
   "internalSignatures": [],

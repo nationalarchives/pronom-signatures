@@ -5,3 +5,4 @@ unzip -q droid-binary-*-bin.zip
 cd ..
 python .github/scripts/add_submission_to_signatures.py $1
 python .github/scripts/generate_signature_files.py "$PWD/droid-bin"
+python .github/scripts/generate_signature_json.py

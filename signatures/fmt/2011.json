@@ -12,7 +12,15 @@
       "offset": "0",
       "maxOffset": "1024",
       "byteSequence": "01",
-      "name": "Signature name"
+      "name": "Signature name",
+      "signatureID": 3372
+    }
+  ],
+  "fileFormatID": 3883,
+  "identifiers": [
+    {
+      "identifierType": "PUID",
+      "identifierText": "fmt/2011"
     }
   ]
 }

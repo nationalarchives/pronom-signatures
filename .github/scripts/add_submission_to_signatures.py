@@ -33,8 +33,8 @@ def get_next_actor_id():
 
 def move_json():
     file_format_id, signature_id, puid_id = get_next_ids()
-    if os.path.isdir('actors'):
-        actor_path = 'submissions/actors'
+    actor_path = 'submissions/actors'
+    if os.path.isdir(actor_path):
         actor_submission_files = [f for f in os.listdir(actor_path) if os.path.isfile(f'{actor_path}/{f}')]
         next_id = get_next_actor_id() + 1
         for new_actor_submission in actor_submission_files:

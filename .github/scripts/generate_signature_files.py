@@ -146,8 +146,8 @@ def create_signature_file(all_files, all_internal_signatures):
                         offset = internal_signature['offset'] if internal_signature['offset'] is not None else 0
                         max_offset = internal_signature['maxOffset'] if internal_signature[
                                                                             'maxOffset'] is not None else 0
-                        min_seq_offset = existing_min_seq_offset + offset if position == 0 else 0
-                        max_seq_offset = existing_max_seq_offset + offset + max_offset
+                        min_seq_offset = int(existing_min_seq_offset) + int(offset) if position == 0 else 0
+                        max_seq_offset = int(existing_max_seq_offset) + int(offset) + int(max_offset)
                         sub_sequence.attrib['SubSeqMinOffset'] = str(min_seq_offset)
                         if position == 0:
                             sub_sequence.attrib['SubSeqMaxOffset'] = str(max_seq_offset)

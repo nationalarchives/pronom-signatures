@@ -23,6 +23,7 @@ jobs:
           NEW_SIGNATURE_FILENAME=$(aws s3 ls s3://tna-pronom-signatures-spike/signatures/ | sort -t'V' -k2,2n | awk -F'V|\\.xml' '{print "DROID_SignatureFile_V" ($2+1) ".xml"}' | tail -1)
           aws s3 cp signature-file.xml s3://tna-pronom-signatures-spike/signatures/$NEW_SIGNATURE_FILENAME
           aws s3 cp container-signature-file.xml s3://tna-pronom-signatures-spike/container-signatures/container-signature-$(date +%Y%m%d).xml
+          python .github/scripts/generate_signature_json.py
       - name: Build website
         uses: octokit/request-action@v2.x
         with:

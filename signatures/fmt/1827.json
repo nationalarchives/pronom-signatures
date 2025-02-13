@@ -1,8 +1,8 @@
 {
   "fileFormatID": 2678,
-  "formatName": "DOCX Strict OOXML Document",
+  "formatName": "DOCX Strict OOXML Document2",
   "version": "2007 onwards",
-  "formatDescription": "DOCX Strict is the implementation of the Office Open XML word processor document format that strictly conforms to the ISO 29500-1: 2008-2016 standard.",
+  "formatDescription": "A description",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": null,

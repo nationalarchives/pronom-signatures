@@ -1,0 +1,65 @@
+{
+  "fileFormatID": 3906,
+  "formatName": "Open Packaging Format",
+  "version": "3",
+  "formatDescription": "The Open Package file with the extension opf is a format used by the openebook group (https://openebook.org/). Daisy Talking Book v.3 packages must include an opf file if they are to conform to Daisy standards.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://www.niso.org/publications/ansiniso-z3986-2005-r2012-specifications-digital-talking-book version 3\t\r\nhttps://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm\r\nhttps://daisy.org/\t\r\nhttps://preservation.tylerthorsted.com/2024/10/04/daisy/ \r\nhttps://github.com/digital-preservation/PRONOM_Research/tree/main/Submissions/Daisy",
+  "lastUpdatedDate": "29 Jan 2025",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2032",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3395,
+      "name": "Open Packaging Format",
+      "note": "BOF, offset 0-3 magic bytes: {0-3}<?xml version=(\"|')1.0(\"|'){0-256}<package*openebook\r\nEOF offset 0-16: </package>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-256}3C7061636B616765*6F70656E65626F6F6B",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 16,
+          "byteSequence": "3C2F7061636B6167653E",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "opf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ],
+  "source": 299
+}

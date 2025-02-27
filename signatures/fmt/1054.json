@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1420,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "48444D5630313030",
-      "endianness": null,
       "name": "AVCHD Clip Information File",
-      "note": "BOF: HDMV0100"
+      "note": "BOF: HDMV0100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "48444D5630313030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

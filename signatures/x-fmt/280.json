@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 538,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
-      "endianness": null,
       "name": "XML Schema Definition",
-      "note": "ASCII header: <?xml version=\"1.0\". ASCII footer: </xsd:schema> or </xs:schema> or </schema>. Signature will only identify against xsd files which do not have any comments inserted either before the xml declaration, or at the very end of the file."
-    },
-    {
-      "signatureID": 538,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "3C(2F7873643A|2F78733A|2F)736368656D613E",
-      "endianness": null,
-      "name": "XML Schema Definition",
-      "note": "ASCII header: <?xml version=\"1.0\". ASCII footer: </xsd:schema> or </xs:schema> or </schema>. Signature will only identify against xsd files which do not have any comments inserted either before the xml declaration, or at the very end of the file."
+      "note": "ASCII header: <?xml version=\"1.0\". ASCII footer: </xsd:schema> or </xs:schema> or </schema>. Signature will only identify against xsd files which do not have any comments inserted either before the xml declaration, or at the very end of the file.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "3C(2F7873643A|2F78733A|2F)736368656D613E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

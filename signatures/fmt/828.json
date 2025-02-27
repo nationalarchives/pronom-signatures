@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1186,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D41544C414220372E33{114}(0002494D|02004D49)",
-      "endianness": null,
       "name": "MATLAB Mat file 7.3",
-      "note": "MATLAB 7.3{114}(..MI|..IM)"
+      "note": "MATLAB 7.3{114}(..MI|..IM)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D41544C414220372E33{114}(0002494D|02004D49)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

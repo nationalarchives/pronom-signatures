@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 757,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "B00CB00C{2}4E55564F",
-      "endianness": null,
       "name": "Rocket Book format",
-      "note": "BOF: \u00b0.\u00b0.{2}NUVO"
+      "note": "BOF: \u00b0.\u00b0.{2}NUVO",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "B00CB00C{2}4E55564F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

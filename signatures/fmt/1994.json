@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2328,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0F434353434F524348",
-      "endianness": null,
       "name": "Sibelius Scorch",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x0F followed by 'CCSCORCH'"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0F followed by 'CCSCORCH'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0F434353434F524348",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

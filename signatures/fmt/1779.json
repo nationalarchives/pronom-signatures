@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2119,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "44594E414D4943205055424C495348455220464F4E54",
-      "endianness": null,
       "name": "Dynamic Publisher Font File",
-      "note": "BOF:'DYNAMIC PUBLISHER FONT'"
+      "note": "BOF:'DYNAMIC PUBLISHER FONT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "44594E414D4943205055424C495348455220464F4E54",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

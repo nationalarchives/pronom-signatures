@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 70,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFD8FFE800205350494646000100(00|01|02|03|04){11}(00|01|02|03|04|05){9}FFE8",
-      "endianness": null,
       "name": "SPIFF 1.0",
-      "note": "SOI and APP8 markers"
+      "note": "SOI and APP8 markers",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFD8FFE800205350494646000100(00|01|02|03|04){11}(00|01|02|03|04|05){9}FFE8",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2216,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41727457",
-      "endianness": null,
       "name": "Esko ArtPro File",
-      "note": "Absolute from beginning of file, magic bytes: \u201cArtW\u201d"
+      "note": "Absolute from beginning of file, magic bytes: \u201cArtW\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41727457",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

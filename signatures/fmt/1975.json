@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2329,
-      "positionType": "Absolute from BOF",
-      "offset": 8,
-      "maxOffset": 0,
-      "byteSequence": "02{27}61637370",
-      "endianness": null,
       "name": "ICC Profie v2",
-      "note": "BOF; Offset: 8; Magic Bytes: Version number tag 0x02 followed 27 bytes later by 'acsp'"
+      "note": "BOF; Offset: 8; Magic Bytes: Version number tag 0x02 followed 27 bytes later by 'acsp'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 8,
+          "maxOffset": 0,
+          "byteSequence": "02{27}61637370",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

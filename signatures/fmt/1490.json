@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1863,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "5354414BFFFFFFFF",
-      "endianness": null,
       "name": "HyperCard Stack",
-      "note": "BOF, offset 4: 'STAK' 0xFFFFFFFF"
+      "note": "BOF, offset 4: 'STAK' 0xFFFFFFFF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "5354414BFFFFFFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

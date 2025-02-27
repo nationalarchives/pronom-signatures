@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 561,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "566A4344303130300403020100000000000000000000",
-      "endianness": null,
       "name": "Chemical Draw Exchange format",
-      "note": "Header: ASCII value \"VjCD0100\", followed by 4 reserved bytes (04 03 02 01) and 10 reserved bytes set to zero."
+      "note": "Header: ASCII value \"VjCD0100\", followed by 4 reserved bytes (04 03 02 01) and 10 reserved bytes set to zero.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "566A4344303130300403020100000000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

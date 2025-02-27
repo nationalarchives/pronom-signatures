@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 734,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "034A424F{20}14",
-      "endianness": null,
       "name": "Asymetrix Toolbook v1-5",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x034A424F then exact of 263 wildcard bytes folled by 0x005400"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x034A424F then exact of 263 wildcard bytes folled by 0x005400",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "034A424F{20}14",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

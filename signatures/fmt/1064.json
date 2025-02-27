@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1440,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "213C3E3C5044423E3C3E21",
-      "endianness": null,
       "name": "Portable Database 1",
-      "note": "BOF: !<><PDB><>!"
+      "note": "BOF: !<><PDB><>!",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "213C3E3C5044423E3C3E21",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

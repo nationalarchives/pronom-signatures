@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 996,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 512,
-      "byteSequence": "2546534C41",
-      "endianness": null,
       "name": "Gerber format",
-      "note": "BOF: %FSLA{512}"
+      "note": "BOF: %FSLA{512}",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 512,
+          "byteSequence": "2546534C41",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

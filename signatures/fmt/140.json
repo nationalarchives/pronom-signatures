@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 207,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E73756E2E786D6C2E62617365*6F66666963653A76657273696F6E3D22312E30",
-      "endianness": "Little-endian",
       "name": "ODF 1.0 database",
-      "note": "ZIP header + MIME-type declaration + version number"
+      "note": "ZIP header + MIME-type declaration + version number",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E73756E2E786D6C2E62617365*6F66666963653A76657273696F6E3D22312E30",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

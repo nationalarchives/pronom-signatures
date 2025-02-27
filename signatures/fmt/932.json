@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1276,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*786D6C6E733D22687474703A2F2F736368656D61732E6D617468736F66742E636F6D",
-      "endianness": null,
       "name": "Mathcad Document XML",
-      "note": "XML subset, seeking XML declaration followed by namespace declaration of http://schemas.mathsoft.com"
+      "note": "XML subset, seeking XML declaration followed by namespace declaration of http://schemas.mathsoft.com",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*786D6C6E733D22687474703A2F2F736368656D61732E6D617468736F66742E636F6D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

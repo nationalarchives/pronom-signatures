@@ -2,15 +2,15 @@
   "fileFormatID": 1082,
   "formatName": "MJ2 (Motion JPEG 2000)",
   "version": null,
-  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "formatDescription": "Motion JPEG 2000 (MJ2) is a video file format known for its mathematically lossless compression, making it suitable for long-term video preservation. Standardized in 2002 as part of ISO/IEC\u2019s JPEG 2000 (JP2) standard, MJ2 encodes timed sequences of images, with options for including audio. Unlike formats with temporal or inter-frame compression (e.g., MPEG-4), MJ2 compresses each video frame independently, enabling reversible, lossless quality. This feature makes it ideal for high-quality preservation, particularly for digitized film and analog videotape.",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": null,
-  "formatNote": null,
-  "lastUpdatedDate": "18 May 2011",
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000127.shtml; https://www.iso.org/standard/41570.html; https://lhncbc.nlm.nih.gov/LHC-publications/PDF/pub9302.pdf",
+  "lastUpdatedDate": "03 Jan 2025",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": null,
+  "formatProvenance": "v.120- New description, library of congress fdd identifier and notes added as part of PRONOM Research Week 2024. Submitted by the J. Paul Getty Trust.",
   "formatSourceDate": "18 May 2011",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -20,6 +20,10 @@
   "byteOrders": null,
   "formatFamilies": "JPEG 2000",
   "identifiers": [
+    {
+      "identifierText": "fdd000127",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
     {
       "identifierText": "fmt/337",
       "identifierType": "PUID"
@@ -32,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 719,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000C6A5020200D0A870A{4}667479706D6A7032",
-      "endianness": null,
       "name": "Motion JPEG 2000",
-      "note": "BOF: ....jP  ..\u2021.{4}ftypmjp2"
+      "note": "BOF: ....jP  ..\u2021.{4}ftypmjp2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000C6A5020200D0A870A{4}667479706D6A7032",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

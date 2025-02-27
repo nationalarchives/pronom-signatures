@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1548,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5380F634{84}50494354",
-      "endianness": null,
       "name": "Softimage PIC Format",
-      "note": "BOF: Magic 0x5380F634 {84} 'PICT'"
+      "note": "BOF: Magic 0x5380F634 {84} 'PICT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5380F634{84}50494354",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 967,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "24464C3240282329",
-      "endianness": null,
       "name": "SPSS Data File",
-      "note": "BOF: $FL2@(#)"
+      "note": "BOF: $FL2@(#)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "24464C3240282329",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

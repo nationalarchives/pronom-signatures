@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 466,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "576F726450726F0000000000000000004C5750370000000000000000000000000000FFFFFFFF000000002E",
-      "endianness": null,
       "name": "Lotus WordPro 97/Millennium",
-      "note": "Header ASCII: WordPro, LWP7"
+      "note": "Header ASCII: WordPro, LWP7",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "576F726450726F0000000000000000004C5750370000000000000000000000000000FFFFFFFF000000002E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

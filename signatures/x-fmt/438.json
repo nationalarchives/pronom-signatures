@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 345,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "56355F434656320000*2E4341544D6174657269616C",
-      "endianness": null,
       "name": "CATIA Material Description V5",
-      "note": "CATIA Version 5 identifier plus file extension of the file name (.CATMaterial)"
+      "note": "CATIA Version 5 identifier plus file extension of the file name (.CATMaterial)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "56355F434656320000*2E4341544D6174657269616C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

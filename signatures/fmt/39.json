@@ -36,33 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 128,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
-      "endianness": null,
       "name": "Microsoft Word for Windows 6.0/95",
-      "note": "Compound document header + WordDocument user stream + version number"
-    },
-    {
-      "signatureID": 128,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "57006F007200640044006F00630075006D0065006E007400{42}02(00|01)",
-      "endianness": null,
-      "name": "Microsoft Word for Windows 6.0/95",
-      "note": "Compound document header + WordDocument user stream + version number"
-    },
-    {
-      "signatureID": 128,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "4D6963726F736F667420576F726420(362E30|666F722057696E646F7773203935|362E302D446F6B756D656E74)",
-      "endianness": null,
-      "name": "Microsoft Word for Windows 6.0/95",
-      "note": "Compound document header + WordDocument user stream + version number"
+      "note": "Compound document header + WordDocument user stream + version number",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "57006F007200640044006F00630075006D0065006E007400{42}02(00|01)",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "4D6963726F736F667420576F726420(362E30|666F722057696E646F7773203935|362E302D446F6B756D656E74)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

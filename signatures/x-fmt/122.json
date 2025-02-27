@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 728,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "000002002151",
-      "endianness": null,
       "name": "Quattro Pro 5",
-      "note": "BOF: ....!Q\r\nEOF: ...."
-    },
-    {
-      "signatureID": 728,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "01000000",
-      "endianness": null,
-      "name": "Quattro Pro 5",
-      "note": "BOF: ....!Q\r\nEOF: ...."
+      "note": "BOF: ....!Q\r\nEOF: ....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "000002002151",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "01000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

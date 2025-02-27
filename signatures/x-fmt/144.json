@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 1134,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4350543746494C45",
-      "endianness": null,
       "name": "CPT 7",
-      "note": "BOF: CPT7FILE"
+      "note": "BOF: CPT7FILE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4350543746494C45",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1135,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4350543846494C45",
-      "endianness": null,
       "name": "CPT 8",
-      "note": "BOF: CPT8FILE"
+      "note": "BOF: CPT8FILE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4350543846494C45",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1136,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4350543946494C45",
-      "endianness": null,
       "name": "CPT 9",
-      "note": "BOF: CPT9FILE"
+      "note": "BOF: CPT9FILE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4350543946494C45",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

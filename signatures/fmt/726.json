@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1050,
-      "positionType": "Absolute from BOF",
-      "offset": 64,
-      "maxOffset": null,
-      "byteSequence": "7F10DABE",
-      "endianness": null,
       "name": "Virtual Disk Image",
-      "note": "64 byte offset: 7F 10 DA BE magic number (..\u00da\u00be)"
+      "note": "64 byte offset: 7F 10 DA BE magic number (..\u00da\u00be)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 64,
+          "maxOffset": null,
+          "byteSequence": "7F10DABE",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

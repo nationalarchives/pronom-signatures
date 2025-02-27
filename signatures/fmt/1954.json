@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2305,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A4F4F4D2048362070726A65637466696C65",
-      "endianness": null,
       "name": "Zoom Project Settings H6",
-      "note": "Absolute from beginning of file, magic bytes: ZOOM H6 prjectfile"
+      "note": "Absolute from beginning of file, magic bytes: ZOOM H6 prjectfile",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A4F4F4D2048362070726A65637466696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

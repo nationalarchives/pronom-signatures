@@ -28,43 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 532,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 320,
-      "byteSequence": "40404040404040404040404040404040404040404040",
-      "endianness": null,
       "name": "SEG Y Data Exchange Format (Generic 1)",
-      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
-    },
-    {
-      "signatureID": 532,
-      "positionType": "Absolute from BOF",
-      "offset": 3200,
-      "maxOffset": null,
-      "byteSequence": "0000{15}[!00]{3}[!00]{2}(0100|00[01:08])",
-      "endianness": null,
-      "name": "SEG Y Data Exchange Format (Generic 1)",
-      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
+      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 320,
+          "byteSequence": "40404040404040404040404040404040404040404040",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 3200,
+          "maxOffset": null,
+          "byteSequence": "0000{15}[!00]{3}[!00]{2}(0100|00[01:08])",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 533,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 320,
-      "byteSequence": "40404040404040404040404040404040404040404040",
-      "endianness": null,
       "name": "SEG Y Data Exchange Format (Generic 2)",
-      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
-    },
-    {
-      "signatureID": 533,
-      "positionType": "Absolute from BOF",
-      "offset": 3600,
-      "maxOffset": null,
-      "byteSequence": "0000{15}[!00]{3}[!00]{2}(0100|00[01:08])",
-      "endianness": null,
-      "name": "SEG Y Data Exchange Format (Generic 2)",
-      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards"
+      "note": "Signature based on recurring sequences observed in sample of 25 files from various web based sources, and with reference to the SEG Y Rev 1 Data Exchange Format SEG Technical Standards Committee paper, May 2002, available at http://www.seg.org/resources/publications/misc/technical-standards",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 320,
+          "byteSequence": "40404040404040404040404040404040404040404040",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 3600,
+          "maxOffset": null,
+          "byteSequence": "0000{15}[!00]{3}[!00]{2}(0100|00[01:08])",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

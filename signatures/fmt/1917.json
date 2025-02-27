@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2267,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492B0008000000",
-      "endianness": null,
       "name": "BigTIFF little endian",
-      "note": "BOF: \u2018II+\u2019 0x00, 0x08000000"
+      "note": "BOF: \u2018II+\u2019 0x00, 0x08000000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492B0008000000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2268,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002B00080000",
-      "endianness": null,
       "name": "BigTIFF big endian",
-      "note": "BOF: \u2018MM\u2019 0x00 \u2018+\u2019, 0x00080000"
+      "note": "BOF: \u2018MM\u2019 0x00 \u2018+\u2019, 0x00080000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002B00080000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

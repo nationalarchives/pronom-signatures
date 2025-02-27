@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2350,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0B23{1}C006",
-      "endianness": null,
       "name": "WinFax Fax Image",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x0B23{1}C006"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0B23{1}C006",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0B23{1}C006",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

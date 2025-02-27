@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2266,
-      "positionType": "Absolute from BOF",
-      "offset": 12,
-      "maxOffset": 0,
-      "byteSequence": "416C69617320506F776572416E696D61746F72000000000030372E",
-      "endianness": null,
       "name": "Autodesk Alias Wire Format v.7",
-      "note": "BOF, offset 12, magic bytes: Alias PowerAnimator\u2026..07."
+      "note": "BOF, offset 12, magic bytes: Alias PowerAnimator\u2026..07.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 12,
+          "maxOffset": 0,
+          "byteSequence": "416C69617320506F776572416E696D61746F72000000000030372E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

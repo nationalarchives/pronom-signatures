@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1334,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "AB4B5458203131BB0D0A1A0A",
-      "endianness": null,
       "name": "KTX",
-      "note": "BOF: \u00abKTX 11\u00bb 0x0D0A1A0A\r\nSpecification: https://www.khronos.org/opengles/sdk/tools/KTX/file_format_spec/"
+      "note": "BOF: \u00abKTX 11\u00bb 0x0D0A1A0A\r\nSpecification: https://www.khronos.org/opengles/sdk/tools/KTX/file_format_spec/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "AB4B5458203131BB0D0A1A0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

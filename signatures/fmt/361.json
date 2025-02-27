@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 530,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 100,
-      "byteSequence": "4E554D424552204F46205452414345532020203D20[30:39]{3-*}4E554D424552204F46205054532F54524320203D20[30:39]",
-      "endianness": null,
       "name": "pulse EKKO header file",
-      "note": "An ASCII header file, which contains information about radar data, such as number of samples and traces, time window, etc., and can be variable in length. Signature looks for ASCII strings 'NUMBER OF TRACES   =' and 'NUMBER OF PTS/TRC  =' near start of file, and \"SURVEY MODE        = \" near end of file."
-    },
-    {
-      "signatureID": 530,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 150,
-      "byteSequence": "535552564559204D4F444520202020202020203D20",
-      "endianness": null,
-      "name": "pulse EKKO header file",
-      "note": "An ASCII header file, which contains information about radar data, such as number of samples and traces, time window, etc., and can be variable in length. Signature looks for ASCII strings 'NUMBER OF TRACES   =' and 'NUMBER OF PTS/TRC  =' near start of file, and \"SURVEY MODE        = \" near end of file."
+      "note": "An ASCII header file, which contains information about radar data, such as number of samples and traces, time window, etc., and can be variable in length. Signature looks for ASCII strings 'NUMBER OF TRACES   =' and 'NUMBER OF PTS/TRC  =' near start of file, and \"SURVEY MODE        = \" near end of file.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 100,
+          "byteSequence": "4E554D424552204F46205452414345532020203D20[30:39]{3-*}4E554D424552204F46205054532F54524320203D20[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 150,
+          "byteSequence": "535552564559204D4F444520202020202020203D20",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

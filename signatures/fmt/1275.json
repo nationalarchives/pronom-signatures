@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1650,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4949{0-320}334D205072696E747363617065",
-      "endianness": null,
       "name": "3M Printscape 2 (Intel)",
-      "note": "BOF: 'II'{0-320}'3M Printscape'"
+      "note": "BOF: 'II'{0-320}'3M Printscape'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4949{0-320}334D205072696E747363617065",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1651,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D{0-320}334D205072696E747363617065",
-      "endianness": null,
       "name": "3M Printscape 2 (Motorola)",
-      "note": "BOF: 'MM'{0-320}'3M Printscape'"
+      "note": "BOF: 'MM'{0-320}'3M Printscape'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D{0-320}334D205072696E747363617065",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1469,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C53435249425553",
-      "endianness": null,
       "name": "Scribus",
-      "note": "BOF: '<SCRIBUS' - this sequence captures the oldest variant to use XML tags, <SCRIBUS> approximately in use for versions 0.3-0.9.*, a later variant <SCRIBUSUTF8 approximately in use for versions 1.0-1.2.*, and an even later variant <SCRIBUSUTF8NEW approximately in use for versions 1.3 onwards. It may be desirable to split these into separate PUIDs."
+      "note": "BOF: '<SCRIBUS' - this sequence captures the oldest variant to use XML tags, <SCRIBUS> approximately in use for versions 0.3-0.9.*, a later variant <SCRIBUSUTF8 approximately in use for versions 1.0-1.2.*, and an even later variant <SCRIBUSUTF8NEW approximately in use for versions 1.3 onwards. It may be desirable to split these into separate PUIDs.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C53435249425553",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1470,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E(0D|0A|0D0A)3C53435249425553555446384E4557",
-      "endianness": null,
       "name": "Scribus version with XML header",
-      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\"?>.<SCRIBUSUTF8NEW - This variant appears to have been in use from approximately Scribus version 1.3 and later"
+      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\"?>.<SCRIBUSUTF8NEW - This variant appears to have been in use from approximately Scribus version 1.3 and later",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E(0D|0A|0D0A)3C53435249425553555446384E4557",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

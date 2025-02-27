@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 813,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F54544F{8-40}43464620",
-      "endianness": null,
       "name": "OpenType Font File",
-      "note": "Seeking both OTTO snft version number, and presence of CFF data tag\r\nBOF: OTTO{8-40}CFF"
+      "note": "Seeking both OTTO snft version number, and presence of CFF data tag\r\nBOF: OTTO{8-40}CFF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F54544F{8-40}43464620",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

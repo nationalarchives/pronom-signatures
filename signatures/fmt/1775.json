@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2113,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "536F6674776172653630320D0A43616C6336303220762E{1-4}20576F726B5370616365",
-      "endianness": null,
       "name": "Calc602 Project File",
-      "note": "BOF Absolute from beginning of file, magic bytes: Software602 Calc602 v.{1-4} WorkSpace"
+      "note": "BOF Absolute from beginning of file, magic bytes: Software602 Calc602 v.{1-4} WorkSpace",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "536F6674776172653630320D0A43616C6336303220762E{1-4}20576F726B5370616365",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

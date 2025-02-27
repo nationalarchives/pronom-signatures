@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 246,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF575043{4}010A02(00|01|02)",
-      "endianness": "Little-endian",
       "name": "WordPerfect for Windows 6.x",
-      "note": "Major and minor version fields are the main variants between version of 6.x (The last two bytes in this signature). The signature follows the pattern of: BOF Byte 0 = FF, Bytes 1-3 = WPC, Bytes 4-7 = size of header, Byte 8 = Product, Byte 9 = FileType, Byte 10 = Major version, Byte 11= Minor Version, Bytes 12-13 = Encryption, Bytes 14-15 = Unused (0)."
+      "note": "Major and minor version fields are the main variants between version of 6.x (The last two bytes in this signature). The signature follows the pattern of: BOF Byte 0 = FF, Bytes 1-3 = WPC, Bytes 4-7 = size of header, Byte 8 = Product, Byte 9 = FileType, Byte 10 = Major version, Byte 11= Minor Version, Bytes 12-13 = Encryption, Bytes 14-15 = Unused (0).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF575043{4}010A02(00|01|02)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

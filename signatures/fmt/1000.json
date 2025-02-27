@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1363,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A5854617065211A01",
-      "endianness": null,
       "name": "TZX Tape",
-      "note": "BOF: 'ZXTape!' 0x1A, Major version 01\r\nhttp://www.worldofspectrum.org/TZXformat.html"
+      "note": "BOF: 'ZXTape!' 0x1A, Major version 01\r\nhttp://www.worldofspectrum.org/TZXformat.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A5854617065211A01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

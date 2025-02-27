@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 2136,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{0-75}3C21444F435459504520776D6C205055424C494320222D2F2F574150464F52554D2F2F44544420574D4C{20-200}3C776D6C3E",
-      "endianness": null,
       "name": "Wireless Markup Language (WML) Document",
-      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"{0-75}<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML{20-200}<wml>\r\nEOF, offset 0-6, magic bytes: </card>{0-6}</wml>{0-2}"
-    },
-    {
-      "signatureID": 2136,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 5,
-      "byteSequence": "3C2F636172643E{0-6}3C2F776D6C3E",
-      "endianness": null,
-      "name": "Wireless Markup Language (WML) Document",
-      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"{0-75}<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML{20-200}<wml>\r\nEOF, offset 0-6, magic bytes: </card>{0-6}</wml>{0-2}"
+      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"{0-75}<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML{20-200}<wml>\r\nEOF, offset 0-6, magic bytes: </card>{0-6}</wml>{0-2}",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{0-75}3C21444F435459504520776D6C205055424C494320222D2F2F574150464F52554D2F2F44544420574D4C{20-200}3C776D6C3E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 5,
+          "byteSequence": "3C2F636172643E{0-6}3C2F776D6C3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1744,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4949020101002600",
-      "endianness": null,
       "name": "Picture Publisher Bitmap Version 4",
-      "note": "BOF 'II' 0x020101002600"
+      "note": "BOF 'II' 0x020101002600",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4949020101002600",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

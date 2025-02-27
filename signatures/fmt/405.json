@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 589,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5037*5749445448{3-256}454E44484452",
-      "endianness": "Big-endian",
       "name": "Portable Any Map",
-      "note": "\u201cP7\u201d followed by (WIDTH, HEIGHT, DEPTH, and MAXVAL may be in any order so we just search for one, WIDTH) + ENDHDR"
+      "note": "\u201cP7\u201d followed by (WIDTH, HEIGHT, DEPTH, and MAXVAL may be in any order so we just search for one, WIDTH) + ENDHDR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5037*5749445448{3-256}454E44484452",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

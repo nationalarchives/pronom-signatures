@@ -28,33 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 208,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
-      "endianness": "Little-endian",
       "name": "Outlook Message Format",
-      "note": "Compound document header + IPM.Note + recip_version stream header"
-    },
-    {
-      "signatureID": 208,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "49504D2E4E6F7465",
-      "endianness": "Little-endian",
-      "name": "Outlook Message Format",
-      "note": "Compound document header + IPM.Note + recip_version stream header"
-    },
-    {
-      "signatureID": 208,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "720065006300690070005F00760065007200730069006F006E00",
-      "endianness": "Little-endian",
-      "name": "Outlook Message Format",
-      "note": "Compound document header + IPM.Note + recip_version stream header"
+      "note": "Compound document header + IPM.Note + recip_version stream header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "49504D2E4E6F7465",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "720065006300690070005F00760065007200730069006F006E00",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 258,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504B0304{26}5B436F6E74656E745F54797065735D2E786D6C20A2*504B0102*504B0506",
-      "endianness": "Little-endian",
       "name": "Microsoft Office Open XML",
-      "note": "Signature represents a combination of OOXML specific bytes and a standard ZIP signature (taken verbatim from Zip format sig). Last two bytes of this signature represents a Microsoft Open Packaging growth hint which indentifies this as one of three OOXML document types so far."
+      "note": "Signature represents a combination of OOXML specific bytes and a standard ZIP signature (taken verbatim from Zip format sig). Last two bytes of this signature represents a Microsoft Open Packaging growth hint which indentifies this as one of three OOXML document types so far.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504B0304{26}5B436F6E74656E745F54797065735D2E786D6C20A2*504B0102*504B0506",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [],

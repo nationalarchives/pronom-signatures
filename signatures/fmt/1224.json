@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1602,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "566947436A1A",
-      "endianness": null,
       "name": "PaperPort MAX 3-4",
-      "note": "BOF: 'ViGCj' 0x1A"
+      "note": "BOF: 'ViGCj' 0x1A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "566947436A1A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

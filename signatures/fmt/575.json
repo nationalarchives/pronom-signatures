@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 916,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5043464647524146",
-      "endianness": null,
       "name": "GraphPad Prism 1-3",
-      "note": "BOF: PCFFGRAF"
+      "note": "BOF: PCFFGRAF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5043464647524146",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1910,
-      "positionType": "Absolute from EOF",
-      "offset": 12,
-      "maxOffset": 988,
-      "byteSequence": "2E6973646F63",
-      "endianness": null,
       "name": "ISDOCX Information System Document 5.x",
-      "note": "BOF; Offset:0; Magic bytes: 'PK' & EOF; Offset:12-1000; Magic bytes: '.isdoc'"
-    },
-    {
-      "signatureID": 1910,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504B0304140002",
-      "endianness": null,
-      "name": "ISDOCX Information System Document 5.x",
-      "note": "BOF; Offset:0; Magic bytes: 'PK' & EOF; Offset:12-1000; Magic bytes: '.isdoc'"
+      "note": "BOF; Offset:0; Magic bytes: 'PK' & EOF; Offset:12-1000; Magic bytes: '.isdoc'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 12,
+          "maxOffset": 988,
+          "byteSequence": "2E6973646F63",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504B0304140002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

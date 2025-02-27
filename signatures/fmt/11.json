@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 58,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "89504E470D0A1A0A0000000D49484452",
-      "endianness": null,
       "name": "PNG 1.0",
-      "note": "Signature + IHDR chunk at BOF, IEND chunk at EOF"
-    },
-    {
-      "signatureID": 58,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "0000000049454E44AE426082",
-      "endianness": null,
-      "name": "PNG 1.0",
-      "note": "Signature + IHDR chunk at BOF, IEND chunk at EOF"
+      "note": "Signature + IHDR chunk at BOF, IEND chunk at EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "89504E470D0A1A0A0000000D49484452",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "0000000049454E44AE426082",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

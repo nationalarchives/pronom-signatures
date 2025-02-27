@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 387,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "55484C31{7}(57|45){7}(4E|53){60}445349",
-      "endianness": null,
       "name": "Digital Terrain Elevation Data",
-      "note": "User Header Label (UHL1), Western or Eastern Hemisphere, Northern or Southern Hemisphere, Data Set Identification(DSI). There is also security classification code (S, C, U, R) that appears in the file. Files with extensions .dt0, .avg, .min and .max are typically unclassified, while those with extensions dt1 and dt2 are typically classified."
+      "note": "User Header Label (UHL1), Western or Eastern Hemisphere, Northern or Southern Hemisphere, Data Set Identification(DSI). There is also security classification code (S, C, U, R) that appears in the file. Files with extensions .dt0, .avg, .min and .max are typically unclassified, while those with extensions dt1 and dt2 are typically classified.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "55484C31{7}(57|45){7}(4E|53){60}445349",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

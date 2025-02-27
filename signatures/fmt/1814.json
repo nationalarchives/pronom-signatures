@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2155,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "384243420001",
-      "endianness": null,
       "name": "Adobe Color Book for Windows",
-      "note": "Absolute from beginning of file, offset 0, magic bytes: 8BCB.."
+      "note": "Absolute from beginning of file, offset 0, magic bytes: 8BCB..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "384243420001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1611,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)20656E636F64696E673D(22|27)5554462D38(22|27)3F3E{0-2}3C5369676E6564446F6320666F726D61743D(22|27)44494749444F432D584D4C(22|27)2076657273696F6E3D(22|27)312E32(22|27)3E",
-      "endianness": null,
       "name": "DigiDoc 1.2",
-      "note": "XML Header + SignedDoc element attributes - https://www.id.ee/public/DigiDoci_vorming_1.2.pdf (in Estonian). XML Schema https://www.id.ee/public/DigiDoc_1.2.xsd"
+      "note": "XML Header + SignedDoc element attributes - https://www.id.ee/public/DigiDoci_vorming_1.2.pdf (in Estonian). XML Schema https://www.id.ee/public/DigiDoc_1.2.xsd",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)20656E636F64696E673D(22|27)5554462D38(22|27)3F3E{0-2}3C5369676E6564446F6320666F726D61743D(22|27)44494749444F432D584D4C(22|27)2076657273696F6E3D(22|27)312E32(22|27)3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

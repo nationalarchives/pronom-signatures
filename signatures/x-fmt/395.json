@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 132,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FF575043{4}01160100",
-      "endianness": null,
       "name": "WordPerfect Graphics 1.0",
-      "note": "4 byte magic (-1, 'WPC'), {4 byte offset to document start}, Product type (01 = wordperfect), File type (0x16 = graphic), Major/minor version=0100"
+      "note": "4 byte magic (-1, 'WPC'), {4 byte offset to document start}, Product type (01 = wordperfect), File type (0x16 = graphic), Major/minor version=0100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FF575043{4}01160100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

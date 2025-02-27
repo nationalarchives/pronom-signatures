@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1668,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "4945534E41(3931|3A4C4D2D36332D)",
-      "endianness": null,
       "name": "IESNA LM-63 Photometric Data File",
-      "note": "BOF: 'IESNA' followed by either '91' or ':LM-63-'"
+      "note": "BOF: 'IESNA' followed by either '91' or ':LM-63-'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "4945534E41(3931|3A4C4D2D36332D)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

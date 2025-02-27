@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1874,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-64}3C7866646620786D6C6E733D22687474703A2F2F6E732E61646F62652E636F6D2F786664662F22",
-      "endianness": null,
       "name": "XML Forms Data Format",
-      "note": "BOF: XML Header folowed by XFDF namespaces declaration '<xfdf xmlns=\"http://ns.adobe.com/xfdf/\"'"
+      "note": "BOF: XML Header folowed by XFDF namespaces declaration '<xfdf xmlns=\"http://ns.adobe.com/xfdf/\"'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-64}3C7866646620786D6C6E733D22687474703A2F2F6E732E61646F62652E636F6D2F786664662F22",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 449,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D534346{20}0301",
-      "endianness": null,
       "name": "Windows Cabinet File",
-      "note": "CAB Signature (MSCF); Reserved Checksum 4 bytes set to zero; total size of cabinet file 4 bytes, 4 bytes reserved, absolute address of the first CFFILE (4 bytes); files checksum (4 bytes): minor version 1-byte (3), major version 1-byte  (1)"
+      "note": "CAB Signature (MSCF); Reserved Checksum 4 bytes set to zero; total size of cabinet file 4 bytes, 4 bytes reserved, absolute address of the first CFFILE (4 bytes); files checksum (4 bytes): minor version 1-byte (3), major version 1-byte  (1)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D534346{20}0301",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

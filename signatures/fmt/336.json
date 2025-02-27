@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 447,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "54484E4C",
-      "endianness": null,
       "name": "Graphic Workshop Thumbnail File",
-      "note": "Header ASCII: THNL"
+      "note": "Header ASCII: THNL",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "54484E4C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

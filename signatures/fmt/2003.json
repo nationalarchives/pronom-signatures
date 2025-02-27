@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2359,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "25567034250100",
-      "endianness": null,
       "name": "Husqvarna / Premier+ Stitch File",
-      "note": "BOF; Offset: 0; Magic Bytes: 25567034250100"
+      "note": "BOF; Offset: 0; Magic Bytes: 25567034250100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "25567034250100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

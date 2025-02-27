@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1912,
-      "positionType": "Absolute from BOF",
-      "offset": 100,
-      "maxOffset": 200,
-      "byteSequence": "436F7079726967687420313938392D313939312062792042697473747265616D20496E632E20416C6C207269676874732072657365727665642E",
-      "endianness": null,
       "name": "Bitstream Speedo Fonts",
-      "note": "BOF; Offset: 100-300; Magic bytes: 'Copyright 1989-1991 by Bitstream Inc. All rights reserved'"
+      "note": "BOF; Offset: 100-300; Magic bytes: 'Copyright 1989-1991 by Bitstream Inc. All rights reserved'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 100,
+          "maxOffset": 200,
+          "byteSequence": "436F7079726967687420313938392D313939312062792042697473747265616D20496E632E20416C6C207269676874732072657365727665642E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

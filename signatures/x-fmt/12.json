@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 614,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "31BE000000AB0000000000000000{82}[!0000]",
-      "endianness": null,
       "name": "Write for Windows Document 3.0",
-      "note": "File Information Block: wident=0xBE31; DocumentType=0x0000 ;wTool=0xAB00; pnMac at offset 96 is the number of 128 byte blocks in entire file in Windows Write and always 0 in similar MS Word for DOS."
+      "note": "File Information Block: wident=0xBE31; DocumentType=0x0000 ;wTool=0xAB00; pnMac at offset 96 is the number of 128 byte blocks in entire file in Windows Write and always 0 in similar MS Word for DOS.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "31BE000000AB0000000000000000{82}[!0000]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

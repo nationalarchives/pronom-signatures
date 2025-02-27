@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2187,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "484D492D4D494449534F4E47303631353935",
-      "endianness": null,
       "name": "Human Machine Interfaces HMI File",
-      "note": "BOF:'HMI-MIDISONG061595'"
+      "note": "BOF:'HMI-MIDISONG061595'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "484D492D4D494449534F4E47303631353935",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

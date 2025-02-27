@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1790,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4200(06|0C)00{6}0A004600",
-      "endianness": null,
       "name": "PFS:Write",
-      "note": "BOF: 0x4200 (06|0C) 00 {6} 0A004600\r\nEOF: 0x0E"
-    },
-    {
-      "signatureID": 1790,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0E",
-      "endianness": null,
-      "name": "PFS:Write",
-      "note": "BOF: 0x4200 (06|0C) 00 {6} 0A004600\r\nEOF: 0x0E"
+      "note": "BOF: 0x4200 (06|0C) 00 {6} 0A004600\r\nEOF: 0x0E",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4200(06|0C)00{6}0A004600",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1821,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5B4D61696E5D0D0A44756D70456E74726965733D",
-      "endianness": null,
       "name": "Autocad DMP File",
-      "note": "BOF magic bytes: [Main]..DumpEntries="
+      "note": "BOF magic bytes: [Main]..DumpEntries=",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5B4D61696E5D0D0A44756D70456E74726965733D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 867,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7B5C707764325C616E7369",
-      "endianness": null,
       "name": "Pocket Word Document",
-      "note": "File must be enclosed in braces { }. The opening brace is followed by control word \\pwd followed by the version number 2 followed by the \\ansi control word."
+      "note": "File must be enclosed in braces { }. The opening brace is followed by control word \\pwd followed by the version number 2 followed by the \\ansi control word.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7B5C707764325C616E7369",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

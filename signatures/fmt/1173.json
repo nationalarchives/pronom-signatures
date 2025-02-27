@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1554,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "23666F726D61743A206672616D6520636865636B73756D73{13-16}23686173683A204D4435",
-      "endianness": null,
       "name": "FrameMD5",
-      "note": "BOF: '#format: frame checksums' {13-16}} '#hash: MD5', based on https://ffmpeg.org/doxygen/3.0/md5enc_8c_source.html (See framemd5_write_header), assuming newline can be CRLF."
+      "note": "BOF: '#format: frame checksums' {13-16}} '#hash: MD5', based on https://ffmpeg.org/doxygen/3.0/md5enc_8c_source.html (See framemd5_write_header), assuming newline can be CRLF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23666F726D61743A206672616D6520636865636B73756D73{13-16}23686173683A204D4435",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1468,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "EB{1}90{10}(01|02|04|08|10|20|40|80)",
-      "endianness": null,
       "name": "FAT Disk Image",
-      "note": "BOF: Jump instruction bytes 1 and 3 - 0XEB{1}0x90, byte 14 = Sectors per cluster, any from 1, 2, 4, 8, 16, 32, 64, or 128"
+      "note": "BOF: Jump instruction bytes 1 and 3 - 0XEB{1}0x90, byte 14 = Sectors per cluster, any from 1, 2, 4, 8, 16, 32, 64, or 128",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "EB{1}90{10}(01|02|04|08|10|20|40|80)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

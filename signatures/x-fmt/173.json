@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2017,
-      "positionType": "Absolute from BOF",
-      "offset": 6,
-      "maxOffset": 0,
-      "byteSequence": "FF99{100}4D500005",
-      "endianness": null,
       "name": "PageMaker PC Document Version 5",
-      "note": "BOF; Offset: 6; Magic Bytes: FF99 followed by 4D500005 100 bytes after.."
+      "note": "BOF; Offset: 6; Magic Bytes: FF99 followed by 4D500005 100 bytes after..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 6,
+          "maxOffset": 0,
+          "byteSequence": "FF99{100}4D500005",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

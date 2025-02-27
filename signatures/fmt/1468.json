@@ -28,43 +28,59 @@
   "internalSignatures": [
     {
       "signatureID": 1834,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D47480101",
-      "endianness": null,
       "name": "multiArtist File (.mg1)",
-      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x01"
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D47480101",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1835,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D47480102",
-      "endianness": null,
       "name": "multiArtist File (.mg2)",
-      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x02"
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x02",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D47480102",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1836,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D47480104",
-      "endianness": null,
       "name": "multiArtist File (.mg4)",
-      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x04"
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x04",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D47480104",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1837,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D47480108",
-      "endianness": null,
       "name": "multiArtist File (.mg8)",
-      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x08"
+      "note": "BOF: 'MGH' then 0x01 (SOH or start of header) then 0x08",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D47480108",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1577,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524441320A410A",
-      "endianness": null,
       "name": "RData ASCII",
-      "note": "BOF: RDA2 \\n A \\n - described here: https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Serialization-Formats"
+      "note": "BOF: RDA2 \\n A \\n - described here: https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Serialization-Formats",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524441320A410A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

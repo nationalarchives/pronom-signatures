@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2296,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0330303130313131313030313031303131{1}01",
-      "endianness": null,
       "name": "Pro Tools Session File 5-9",
-      "note": "BOF; Offset: 0; Bytes: 0x03, ASCII \u201c0010111100101011\u201d {1} 0x01 \u2013 this is based on information from the \u2018ptformat\u2019 Pro Tools file format parser - https://github.com/zamaudio/ptformat/blob/master/ptformat.cc#L402"
+      "note": "BOF; Offset: 0; Bytes: 0x03, ASCII \u201c0010111100101011\u201d {1} 0x01 \u2013 this is based on information from the \u2018ptformat\u2019 Pro Tools file format parser - https://github.com/zamaudio/ptformat/blob/master/ptformat.cc#L402",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0330303130313131313030313031303131{1}01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

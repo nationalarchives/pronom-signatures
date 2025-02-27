@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1797,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00000002FFFFFFFF",
-      "endianness": null,
       "name": "MacPaint 1",
-      "note": "BOF: 0x00000002FFFFFFFF"
+      "note": "BOF: 0x00000002FFFFFFFF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00000002FFFFFFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

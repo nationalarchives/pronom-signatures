@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 329,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "50494146494C4556455253494F4E5F322E302C435442564552312C636F6D70726573730D0A706D7A6C6962636F646563",
-      "endianness": null,
       "name": "AutoCAD Color-Dependent Plot Style Table",
-      "note": "Header: PIAFILEVERSION_2.0,CTBVER1, compress<cr><lf> pmzlibcodec."
+      "note": "Header: PIAFILEVERSION_2.0,CTBVER1, compress<cr><lf> pmzlibcodec.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "50494146494C4556455253494F4E5F322E302C435442564552312C636F6D70726573730D0A706D7A6C6962636F646563",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

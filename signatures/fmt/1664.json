@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1998,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5245445448554D424E41494C0318{3}72646901{6}18{3}0C58110203E8{2}61A8",
-      "endianness": null,
       "name": "RED Thumbnail File",
-      "note": "BOF:'REDTHUMBNAIL' followed by a gap of 3 hex pairs followed by 'rdi' followed by 0x01 (Start of Header) followed by a gap of 6 hex pairs followed by 0x18 (Cancel) followed by a gap of 3 hex pairs followed by 0x0C (Form Feed) followed by 'X' followed by 0x11 (Device Control 1) followed by 0x02 (Start of Text) followed by 0x03 (End of Text) followd by '\u00e8' followed by a gap of 2 hex pairs followed by 'a'"
+      "note": "BOF:'REDTHUMBNAIL' followed by a gap of 3 hex pairs followed by 'rdi' followed by 0x01 (Start of Header) followed by a gap of 6 hex pairs followed by 0x18 (Cancel) followed by a gap of 3 hex pairs followed by 0x0C (Form Feed) followed by 'X' followed by 0x11 (Device Control 1) followed by 0x02 (Start of Text) followed by 0x03 (End of Text) followd by '\u00e8' followed by a gap of 2 hex pairs followed by 'a'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5245445448554D424E41494C0318{3}72646901{6}18{3}0C58110203E8{2}61A8",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

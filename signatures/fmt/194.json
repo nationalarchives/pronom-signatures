@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 690,
-      "positionType": "Absolute from BOF",
-      "offset": 14,
-      "maxOffset": 0,
-      "byteSequence": "C04842414D37{505}4842414D323130314F43543939C102480750726F20372E30C0C0",
-      "endianness": null,
       "name": "FP7",
-      "note": "Looking for '\u00c0HBAM7' at an offset of 14 and then  'HBAM2101OCT99\u00c1.H.Pro 7.0\u00c0\u00c0' at a 525 offset."
+      "note": "Looking for '\u00c0HBAM7' at an offset of 14 and then  'HBAM2101OCT99\u00c1.H.Pro 7.0\u00c0\u00c0' at a 525 offset.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 14,
+          "maxOffset": 0,
+          "byteSequence": "C04842414D37{505}4842414D323130314F43543939C102480750726F20372E30C0C0",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

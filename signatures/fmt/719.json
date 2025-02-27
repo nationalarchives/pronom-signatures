@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1045,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D544D10",
-      "endianness": null,
       "name": "MultiTracker Module",
-      "note": "BOF: MTM. - the 4th byte is the version number where the first nybble is the major format version, the second nybble is the minor format version. At this time we have only encountered version 1.0 MultiTracker Module formats."
+      "note": "BOF: MTM. - the 4th byte is the version number where the first nybble is the major format version, the second nybble is the minor format version. At this time we have only encountered version 1.0 MultiTracker Module formats.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D544D10",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

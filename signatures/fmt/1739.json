@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2077,
-      "positionType": "Absolute from BOF",
-      "offset": 32768,
-      "maxOffset": 37700,
-      "byteSequence": "4344303031{1-16384}FF4344303031",
-      "endianness": null,
       "name": "UDF-ISO 9660 Bridge Disc",
-      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031\r\n\r\n& \r\n\r\nBOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01"
-    },
-    {
-      "signatureID": 2077,
-      "positionType": "Absolute from BOF",
-      "offset": 32768,
-      "maxOffset": 37700,
-      "byteSequence": "00424541303101{2041}004E535230(32|33)01",
-      "endianness": null,
-      "name": "UDF-ISO 9660 Bridge Disc",
-      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031\r\n\r\n& \r\n\r\nBOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01"
+      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031\r\n\r\n& \r\n\r\nBOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 32768,
+          "maxOffset": 37700,
+          "byteSequence": "4344303031{1-16384}FF4344303031",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 32768,
+          "maxOffset": 37700,
+          "byteSequence": "00424541303101{2041}004E535230(32|33)01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

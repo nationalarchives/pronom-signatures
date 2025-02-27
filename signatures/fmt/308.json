@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 400,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "AC9EBD8F0000??00",
-      "endianness": null,
       "name": "Quicken Data Format",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "AC9EBD8F0000??00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -1,0 +1,54 @@
+{
+  "fileFormatID": 3903,
+  "formatName": "Apache Avro",
+  "version": null,
+  "formatDescription": "Avro is a framework developed within Apache's Hadoop project for row-oriented remote procedure calls and data serialization. It employs JSON to define data types and protocols, and serializes data into a compact binary format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://en.wikipedia.org/wiki/Apache_Avro \r\nSamples: https://github.com/apache/avro/tree/main/share/test/data\r\nSpecification: https://avro.apache.org/docs/++version++/",
+  "lastUpdatedDate": "28 Jan 2025",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "28 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2029",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3392,
+      "name": "Apache Avro",
+      "note": "Absolute from beginning of file, magic bytes:\t Obj.{2}avro.(codec|sync){8-50}schema{3}\u201dtype\u201d{2-65}\u201dname\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F626A01{2}6176726F2E(636F646563|73796E63){8-50}736368656D61{3}227479706522{2-65}226E616D6522",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "avro",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "supportedBy": 357,
+  "developedBy": 357,
+  "source": 1
+}

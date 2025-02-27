@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 838,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C4D616B657246696C6520332E30463E",
-      "endianness": null,
       "name": "Framemaker Document Version 3.0",
-      "note": "<MakerFile[version]>"
+      "note": "<MakerFile[version]>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C4D616B657246696C6520332E30463E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

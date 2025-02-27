@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 937,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "78617221001C",
-      "endianness": null,
       "name": "eXtensible ARchive format",
-      "note": "BOF: xar!..    Magic num (4 bytes), header length (2 bytes, value 001C). Next two bytes are version number - currently 0001 so possibility to extend signature, particularly if subsequent versions developed."
+      "note": "BOF: xar!..    Magic num (4 bytes), header length (2 bytes, value 001C). Next two bytes are version number - currently 0001 so possibility to extend signature, particularly if subsequent versions developed.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "78617221001C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

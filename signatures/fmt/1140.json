@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1522,
-      "positionType": "Absolute from BOF",
-      "offset": 14,
-      "maxOffset": null,
-      "byteSequence": "566563746F72576F726B73203130",
-      "endianness": null,
       "name": "VectorWorks 10",
-      "note": "BOF, offset 14 'VectorWorks 10'"
+      "note": "BOF, offset 14 'VectorWorks 10'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 14,
+          "maxOffset": null,
+          "byteSequence": "566563746F72576F726B73203130",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

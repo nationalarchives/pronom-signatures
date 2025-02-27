@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1435,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{4-128}0F01{8-512}48617373656C626C6164",
-      "endianness": null,
       "name": "Hasselblad 3FR",
-      "note": "BOF; Offset: 0; Magic Bytes: A TIFF based format starting with Intel endian header \"II*\" and 0x00 then between 4 to 148 wildcard bytes followed by TIFF Make tag 0x0F01, then wildcard bytes between 8 to 512, followed by, in ASCII, \"Hasselblad\" tag\r\n\r\nBOF; Offset: 1-2048; Magic Bytes: 0x000500040001"
-    },
-    {
-      "signatureID": 1435,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": 2047,
-      "byteSequence": "000500040001",
-      "endianness": null,
-      "name": "Hasselblad 3FR",
-      "note": "BOF; Offset: 0; Magic Bytes: A TIFF based format starting with Intel endian header \"II*\" and 0x00 then between 4 to 148 wildcard bytes followed by TIFF Make tag 0x0F01, then wildcard bytes between 8 to 512, followed by, in ASCII, \"Hasselblad\" tag\r\n\r\nBOF; Offset: 1-2048; Magic Bytes: 0x000500040001"
+      "note": "BOF; Offset: 0; Magic Bytes: A TIFF based format starting with Intel endian header \"II*\" and 0x00 then between 4 to 148 wildcard bytes followed by TIFF Make tag 0x0F01, then wildcard bytes between 8 to 512, followed by, in ASCII, \"Hasselblad\" tag\r\n\r\nBOF; Offset: 1-2048; Magic Bytes: 0x000500040001",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{4-128}0F01{8-512}48617373656C626C6164",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": 2047,
+          "byteSequence": "000500040001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

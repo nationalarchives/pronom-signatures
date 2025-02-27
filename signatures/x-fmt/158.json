@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 459,
-      "positionType": "Absolute from BOF",
-      "offset": 72,
-      "maxOffset": null,
-      "byteSequence": "53(202020202020|303030303030)31(0D0A|0D|0A){72}(5320202020202032|5330303030303032|4720202020202031|4730303030303031)",
-      "endianness": null,
       "name": "Initial Graphics Exchange Specification",
-      "note": "Offset 72 bytes, then section identification character S for Start section; Columns 74-80, section sequence number 1 preceded by leading blanks or zeros; cr/lf or nl;  (Column 73, section identification character S for Start section; Columns 74-80, section sequence number 2 preceded by leading blanks or zeros) or (Column 73, section identification character G for Global section; Columns 74-80, section sequence number 1 preceded by leading blanks or zeros)"
+      "note": "Offset 72 bytes, then section identification character S for Start section; Columns 74-80, section sequence number 1 preceded by leading blanks or zeros; cr/lf or nl;  (Column 73, section identification character S for Start section; Columns 74-80, section sequence number 2 preceded by leading blanks or zeros) or (Column 73, section identification character G for Global section; Columns 74-80, section sequence number 1 preceded by leading blanks or zeros)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 72,
+          "maxOffset": null,
+          "byteSequence": "53(202020202020|303030303030)31(0D0A|0D|0A){72}(5320202020202032|5330303030303032|4720202020202031|4730303030303031)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

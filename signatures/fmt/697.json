@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1026,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-256}3C616D66",
-      "endianness": null,
       "name": "Additive Manufacturing File Format",
-      "note": "<?xml version=('|\")1.0('|\") {1-256} <amf"
+      "note": "<?xml version=('|\")1.0('|\") {1-256} <amf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-256}3C616D66",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

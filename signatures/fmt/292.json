@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 309,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E70726573656E746174696F6E*6F66666963653A76657273696F6E3D22312E3122",
-      "endianness": null,
       "name": "ODF 1.1 presentation (with version number)",
-      "note": "ZIP header + MIME-type declaration + version number. ODF versions without version number detail are assumed to be version 1.1"
+      "note": "ZIP header + MIME-type declaration + version number. ODF versions without version number detail are assumed to be version 1.1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E70726573656E746174696F6E*6F66666963653A76657273696F6E3D22312E3122",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 310,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E70726573656E746174696F6E",
-      "endianness": null,
       "name": "ODF 1.1 presentation (without version number)",
-      "note": "ZIP header + MIME-type declaration. ODF versions without version number detail are assumed to be version 1.1"
+      "note": "ZIP header + MIME-type declaration. ODF versions without version number detail are assumed to be version 1.1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E70726573656E746174696F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

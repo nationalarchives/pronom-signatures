@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 654,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4143313032340000",
-      "endianness": null,
       "name": "AutoCAD Drawing Format 2010/2011/2012",
-      "note": "ASCII: AC1024"
+      "note": "ASCII: AC1024",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4143313032340000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

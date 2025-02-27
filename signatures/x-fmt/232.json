@@ -2,15 +2,15 @@
   "fileFormatID": 324,
   "formatName": "Microsoft Project Export File",
   "version": "1.0",
-  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "formatDescription": "The Microsoft Project Export file or Microsoft Project Exchange file format is for earlier version of Microsoft Project to exhange project data with other Project Management software. Discontinued with Project 2000.",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
   "formatNote": null,
-  "lastUpdatedDate": "02 Aug 2005",
+  "lastUpdatedDate": "03 Jan 2025",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": null,
+  "formatProvenance": "v.120- New description added as part of PRONOM Research Week 2024. Submitted by Brigham Young University.",
   "formatSourceDate": "02 Aug 2005",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 474,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)312E30",
-      "endianness": null,
       "name": "Microsoft Project Export File 1.0",
-      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (1.0)"
+      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (1.0)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

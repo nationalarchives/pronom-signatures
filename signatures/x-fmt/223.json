@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 337,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "1991[!4001C80000000000]",
-      "endianness": "Little-endian",
       "name": "Autodesk Animator CEL Image",
-      "note": "Identifier (0x1991), width of image not equal 320, height of image not equal to 200, X offset not equal to zero, Y offset of image not equal to zero."
+      "note": "Identifier (0x1991), width of image not equal 320, height of image not equal to 200, X offset not equal to zero, Y offset of image not equal to zero.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "1991[!4001C80000000000]",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

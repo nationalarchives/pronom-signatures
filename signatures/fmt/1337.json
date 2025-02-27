@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1728,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C(45|65)(41|61)(44|64)00",
-      "endianness": null,
       "name": "LEADTools Compressed Image",
-      "note": "BOF: 'Lead'/'LEAD' 0x00"
+      "note": "BOF: 'Lead'/'LEAD' 0x00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C(45|65)(41|61)(44|64)00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

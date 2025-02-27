@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1564,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "42423344{8}(54455853|42525553|4E4F4445)",
-      "endianness": null,
       "name": "Blitz3D",
-      "note": "BOF: BB3D{8}(TEXS|BRUS|NODE) - http://mojolabs.nz/sdkspecs/b3dfile_specs.txt"
+      "note": "BOF: BB3D{8}(TEXS|BRUS|NODE) - http://mojolabs.nz/sdkspecs/b3dfile_specs.txt",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "42423344{8}(54455853|42525553|4E4F4445)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

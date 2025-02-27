@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 410,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "58464952{4}3339564D70616D691800000001000000",
-      "endianness": null,
       "name": "Macromedia Director Macintosh",
-      "note": "Header ASCII: XFIR"
+      "note": "Header ASCII: XFIR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "58464952{4}3339564D70616D691800000001000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

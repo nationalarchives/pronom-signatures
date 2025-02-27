@@ -1,0 +1,57 @@
+{
+  "fileFormatID": 3892,
+  "formatName": "Sony OpenMG Audio",
+  "version": null,
+  "formatDescription": "Sony OpenMG Audio files, often used for Minidisc players. The file, though originally designed for ATRAC3 (Adaptive Transform Acoustic Coding) audio files, can have different audio codecs such as MP3, ATRAC, ATRAC3, Linear PCM and WAV. These files can have DRM (digital rights management) protection, OpenMG refereing to the DRM system developed by Sony for managing and protecting digital music data on a personal computer. The OpenMG files have extensions of .omg and .oma.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "04 Oct 2024",
+  "formatSourceID": 347,
+  "provenanceCompoundName": "University of Melbourne / University of Melbourne",
+  "formatProvenance": null,
+  "formatSourceDate": "04 Oct 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "audio/ATRAC-ADVANCED-LOSSLESS",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/2018",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3380,
+      "name": "Sony Open MG Audio",
+      "note": "BOF; Offset: 0; Magic Bytes 'ea3.' followed in 996-3996 bytes by 'EA3'{1}0x0060{2}00000000010F5000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "65613303{996-3996}454133{1}0060{2}00000000010F5000",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "oma",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "developedBy": 228,
+  "source": 347
+}

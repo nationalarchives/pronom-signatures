@@ -2,15 +2,15 @@
   "fileFormatID": 364,
   "formatName": "Microsoft Outlook Personal Folders (ANSI)",
   "version": "1997-2002",
-  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "formatDescription": "The Personal Folders File or PST is an open proprietary data file format used to store local copies of messages, calendar events, and other items within Microsoft software including Microsoft Office Outlook. PST files are used to store archived items and to maintain offline availability of the items. \n\nPST is a stand-alone, self-contained, structured binary file format that does not require any external dependencies. Each PST file represents a message store that contains an arbitrary hierarchy of Folder objects, which contains Message objects, which can contain Attachment objects. Information about Folder objects, Message objects, and Attachment objects are stored in properties, which collectively contain all of the information about the particular item.\n\nNow considered a legacy format and replaced by PST_Unicode, PST_ANSI was used by Microsoft Outlook 97-2002. It employs the American National Standards Institute (ANSI) character set and has an overall size limit of 2 gigabytes (GB). PST_ANSI uses 32-bit values to represent block IDs (BIDs) and byte index (IB).",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
-  "formatNote": null,
-  "lastUpdatedDate": "22 Oct 2009",
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000377.shtml; Format details: http://msdn.microsoft.com/en-us/library/ff385210%28v=office.12%29.aspx . Format specification from Microsoft that covers both PST_ANSI and PST_Unicode files; MIME Type: appears in Forensic Wiki's page on Personal Folder File (PAB, PST, OST)",
+  "lastUpdatedDate": "03 Jan 2025",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": "Digital preservation research.",
+  "formatProvenance": "Digital preservation research.v.120- New description, MIME Type, library of congress fdd identifier and notes added as part of PRONOM Research Week 2024. Submitted by the Library of Congress.",
   "formatSourceDate": "02 Aug 2005",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -21,6 +21,14 @@
   "formatFamilies": null,
   "identifiers": [
     {
+      "identifierText": "application/vnd.ms-outlook",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fdd000377",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
       "identifierText": "x-fmt/248",
       "identifierType": "PUID"
     }
@@ -28,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 260,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2142444E{4}534D(0E00|0F00)",
-      "endianness": "Little-endian",
       "name": "Personal Storage Table *.pst (ANSI)",
-      "note": "Byte analysis completed in http://downloads.sourceforge.net/libpff/Personal_Foler_File_Format.pdf (Personal Folder File (PFF) File Format Specification) and sequence confirmed by research completed in http://www.five-ten-sg.com/libpst/rn01re06.html. PST file header, 24 bytes in total."
+      "note": "Byte analysis completed in http://downloads.sourceforge.net/libpff/Personal_Foler_File_Format.pdf (Personal Folder File (PFF) File Format Specification) and sequence confirmed by research completed in http://www.five-ten-sg.com/libpst/rn01re06.html. PST file header, 24 bytes in total.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2142444E{4}534D(0E00|0F00)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

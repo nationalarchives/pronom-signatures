@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 621,
-      "positionType": "Absolute from BOF",
-      "offset": 20,
-      "maxOffset": null,
-      "byteSequence": "DCA7C4FD",
-      "endianness": null,
       "name": "ZOO Compressed Archive",
-      "note": "Fixed 4-byte string 20 bytes in from BOF, plus fixed 2-byte string at EOF."
-    },
-    {
-      "signatureID": 621,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FC83",
-      "endianness": null,
-      "name": "ZOO Compressed Archive",
-      "note": "Fixed 4-byte string 20 bytes in from BOF, plus fixed 2-byte string at EOF."
+      "note": "Fixed 4-byte string 20 bytes in from BOF, plus fixed 2-byte string at EOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 20,
+          "maxOffset": null,
+          "byteSequence": "DCA7C4FD",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FC83",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

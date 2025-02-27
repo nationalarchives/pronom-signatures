@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 748,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3F5F0300{4}FFFFFFFF",
-      "endianness": null,
       "name": "Windows Help File",
-      "note": "BOF: ?_..{4}\u00ff\u00ff\u00ff\u00ff"
+      "note": "BOF: ?_..{4}\u00ff\u00ff\u00ff\u00ff",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3F5F0300{4}FFFFFFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

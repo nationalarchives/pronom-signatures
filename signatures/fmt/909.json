@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1259,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4352414D01",
-      "endianness": null,
       "name": "CRAM v1",
-      "note": "Magic: CRAM, major version: 0x01\r\nSpecification: http://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/ena/documents/cram_format_1.0.1.pdf"
+      "note": "Magic: CRAM, major version: 0x01\r\nSpecification: http://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/ena/documents/cram_format_1.0.1.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4352414D01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

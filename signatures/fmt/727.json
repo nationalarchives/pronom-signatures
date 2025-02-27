@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1051,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "435043B2",
-      "endianness": null,
       "name": "Cartesian Perceptual Compression",
-      "note": "BOF: CPC\u00b2"
+      "note": "BOF: CPC\u00b2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "435043B2",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

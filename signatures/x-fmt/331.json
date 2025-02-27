@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 465,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "000002000680(02|83|96)00",
-      "endianness": null,
       "name": "Lotus 1-2-3 Spreadsheet Formatting File 2.3-2.4",
-      "note": "BOF Record Type = 0, record length =2 bytes"
+      "note": "BOF Record Type = 0, record length =2 bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "000002000680(02|83|96)00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

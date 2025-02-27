@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1727,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C5452490100",
-      "endianness": null,
       "name": "LEADTools Lead 1Bit Compressed Image",
-      "note": "BOF: LTRI 0x0100"
+      "note": "BOF: LTRI 0x0100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C5452490100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2247,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4F564900000003",
-      "endianness": null,
       "name": "SGI Movie File",
-      "note": "BOF:'MOVI' followed by 3 x 0x00 (Null) followed by 0x03 (End of Text)"
+      "note": "BOF:'MOVI' followed by 3 x 0x00 (Null) followed by 0x03 (End of Text)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4F564900000003",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

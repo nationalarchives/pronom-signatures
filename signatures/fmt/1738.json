@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2076,
-      "positionType": "Absolute from BOF",
-      "offset": 32768,
-      "maxOffset": 4096,
-      "byteSequence": "00424541303101{2041}004E535230(32|33)01",
-      "endianness": null,
       "name": "UDF Disc Image",
-      "note": "BOF; Offset: 32768; Max Offset: 36864; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01"
+      "note": "BOF; Offset: 32768; Max Offset: 36864; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 32768,
+          "maxOffset": 4096,
+          "byteSequence": "00424541303101{2041}004E535230(32|33)01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

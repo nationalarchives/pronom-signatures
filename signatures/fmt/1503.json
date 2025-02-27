@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1875,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220{0-4096}706174683D227B70726F6A6563746E616D657D2E66696C65732F70726F6A6563742E7A6970222F3E0A",
-      "endianness": null,
       "name": "Agisoft Project File",
-      "note": "BOF: XML Header then 'path=\"{projectname}.files/project.zip\"/>.' later in the file"
+      "note": "BOF: XML Header then 'path=\"{projectname}.files/project.zip\"/>.' later in the file",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220{0-4096}706174683D227B70726F6A6563746E616D657D2E66696C65732F70726F6A6563742E7A6970222F3E0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

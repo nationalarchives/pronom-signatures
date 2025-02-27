@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2132,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49434249",
-      "endianness": null,
       "name": "ICDRAW Single Icon File",
-      "note": "BOF:'ICBI'"
+      "note": "BOF:'ICBI'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49434249",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

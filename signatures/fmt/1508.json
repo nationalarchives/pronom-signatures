@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1881,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "566973696F2028544D292044726177696E670D0A{6}02",
-      "endianness": null,
       "name": "Microsoft Visio Drawing 2",
-      "note": "BOF: Visio (TM) Drawing 0x0D0A {6} 0x02"
+      "note": "BOF: Visio (TM) Drawing 0x0D0A {6} 0x02",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "566973696F2028544D292044726177696E670D0A{6}02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

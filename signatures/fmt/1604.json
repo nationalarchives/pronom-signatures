@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1939,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "54525550",
-      "endianness": null,
       "name": "EggPaint (Atari Falcon)",
-      "note": "BOF; Offset: 0; Magic Bytes: 'TRUP'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'TRUP'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "54525550",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

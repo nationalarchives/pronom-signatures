@@ -28,43 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 2082,
-      "positionType": "Absolute from BOF",
-      "offset": 1024,
-      "maxOffset": 1024,
-      "byteSequence": "482B0004",
-      "endianness": null,
       "name": "Hierarchical File System Plus, sig n.1",
-      "note": "BOF; Offset: 1024; Magic Bytes:  0x482B0004 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x482B0004"
-    },
-    {
-      "signatureID": 2082,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "482B0004",
-      "endianness": null,
-      "name": "Hierarchical File System Plus, sig n.1",
-      "note": "BOF; Offset: 1024; Magic Bytes:  0x482B0004 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x482B0004"
+      "note": "BOF; Offset: 1024; Magic Bytes:  0x482B0004 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x482B0004",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1024,
+          "maxOffset": 1024,
+          "byteSequence": "482B0004",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "482B0004",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2083,
-      "positionType": "Absolute from BOF",
-      "offset": 1024,
-      "maxOffset": 1024,
-      "byteSequence": "48580005",
-      "endianness": null,
       "name": "Hierarchical File System Plus, sig n.2",
-      "note": "BOF; Offset: 1024; Magic Bytes:  0x48580005 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x48580005"
-    },
-    {
-      "signatureID": 2083,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "48580005",
-      "endianness": null,
-      "name": "Hierarchical File System Plus, sig n.2",
-      "note": "BOF; Offset: 1024; Magic Bytes:  0x48580005 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x48580005"
+      "note": "BOF; Offset: 1024; Magic Bytes:  0x48580005 \r\n&\r\nEOF; Offset: 1024; Magic Bytes:  0x48580005",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1024,
+          "maxOffset": 1024,
+          "byteSequence": "48580005",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "48580005",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

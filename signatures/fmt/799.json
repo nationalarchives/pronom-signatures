@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1165,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "57726974654E6F77",
-      "endianness": null,
       "name": "WriteNow",
-      "note": "WriteNow header"
+      "note": "WriteNow header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "57726974654E6F77",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

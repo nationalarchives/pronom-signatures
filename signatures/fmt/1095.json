@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1476,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "EA{9}0000504F4400",
-      "endianness": null,
       "name": "PEA Archive",
-      "note": "BOF: Magic 0xEA, 9 bytes include major/minor version which may be desirable to distinguish in the future. Stream Header 0x0000 'POD' 0x00\r\nhttps://hwiegman.home.xs4all.nl/fileformats/pea/pea_file_format.pdf"
+      "note": "BOF: Magic 0xEA, 9 bytes include major/minor version which may be desirable to distinguish in the future. Stream Header 0x0000 'POD' 0x00\r\nhttps://hwiegman.home.xs4all.nl/fileformats/pea/pea_file_format.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "EA{9}0000504F4400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

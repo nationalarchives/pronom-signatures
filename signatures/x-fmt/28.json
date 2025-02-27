@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 343,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "737263646F6369643A",
-      "endianness": null,
       "name": "CALS Compressed Bitmap",
-      "note": "First record identifier in the CALS Header Block:  srcdocid:"
+      "note": "First record identifier in the CALS Header Block:  srcdocid:",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "737263646F6369643A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

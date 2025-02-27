@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 389,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4558502020[30:31]",
-      "endianness": null,
       "name": "ESRI Arc/Info Export File",
-      "note": "Header line beginning with EXP, followed by a constant of 0 or 1. Footer sequence ASCII: ..EOI..EOS.."
-    },
-    {
-      "signatureID": 389,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "454F49{0-2}454F53{0-2}0A",
-      "endianness": null,
-      "name": "ESRI Arc/Info Export File",
-      "note": "Header line beginning with EXP, followed by a constant of 0 or 1. Footer sequence ASCII: ..EOI..EOS.."
+      "note": "Header line beginning with EXP, followed by a constant of 0 or 1. Footer sequence ASCII: ..EOI..EOS..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4558502020[30:31]",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "454F49{0-2}454F53{0-2}0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

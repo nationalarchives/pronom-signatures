@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1749,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0B0000004144432E436174616C6F67",
-      "endianness": null,
       "name": "Advanced Disk Catalog",
-      "note": "BOF: 0x0B000000 \"ADC.Catalog\""
+      "note": "BOF: 0x0B000000 \"ADC.Catalog\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0B0000004144432E436174616C6F67",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

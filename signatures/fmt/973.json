@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1336,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7FFE8001",
-      "endianness": null,
       "name": "DTS Audio",
-      "note": "BOF frame header - 0x7FFE8001\r\nSpecification: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=35781"
+      "note": "BOF frame header - 0x7FFE8001\r\nSpecification: https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=35781",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7FFE8001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

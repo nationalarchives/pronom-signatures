@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2130,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "432D576F72746879202852292048656C70204C696272617269616E20446174612046696C652056657273696F6E",
-      "endianness": null,
       "name": "Help Librarian File",
-      "note": "BOF:'C-Worthy (R) Help Librarian Data File Version'"
+      "note": "BOF:'C-Worthy (R) Help Librarian Data File Version'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "432D576F72746879202852292048656C70204C696272617269616E20446174612046696C652056657273696F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

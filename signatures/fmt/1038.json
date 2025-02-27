@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1397,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 0,
-      "byteSequence": "52454432{2}5232",
-      "endianness": null,
       "name": "R3D v2",
-      "note": "BOF, offset 4: RED2{2}R2"
+      "note": "BOF, offset 4: RED2{2}R2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 0,
+          "byteSequence": "52454432{2}5232",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

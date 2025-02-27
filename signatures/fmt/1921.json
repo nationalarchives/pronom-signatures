@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2272,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5245564F37303030",
-      "endianness": null,
       "name": "LiveCode Stack v7.0",
-      "note": "Absolute from beginning of file, magic bytes: REVO7000"
+      "note": "Absolute from beginning of file, magic bytes: REVO7000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5245564F37303030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

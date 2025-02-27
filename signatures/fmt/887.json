@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1236,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "507269766174654469736B205669727475616C204469736B",
-      "endianness": null,
       "name": "PDisk (Private Virtual Disk)",
-      "note": "507269766174654469736B205669727475616C204469736B {PrivateDisk Virtual Disk}"
+      "note": "507269766174654469736B205669727475616C204469736B {PrivateDisk Virtual Disk}",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "507269766174654469736B205669727475616C204469736B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

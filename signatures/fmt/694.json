@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1023,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "6465780A{3}00",
-      "endianness": null,
       "name": "Dalvik Executable Format",
-      "note": "BOF: dex.<version number>."
+      "note": "BOF: dex.<version number>.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "6465780A{3}00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 591,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "526172211A0700{2}73{34}1D",
-      "endianness": null,
       "name": "RAR Archive 2.9",
-      "note": "Marker block 0x526172211A0700 + Archive header type 0x73 + at offset 44 RAR version needed to extract file 1D indicates vers 2.9"
+      "note": "Marker block 0x526172211A0700 + Archive header type 0x73 + at offset 44 RAR version needed to extract file 1D indicates vers 2.9",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "526172211A0700{2}73{34}1D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 439,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF9(50|70)",
-      "endianness": null,
       "name": "Lotus WordPro 96",
-      "note": "Header ASCII: WordPro followed by regularly recurring sequence"
+      "note": "Header ASCII: WordPro followed by regularly recurring sequence",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF9(50|70)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

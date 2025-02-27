@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2148,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4953504C464F5300010500",
-      "endianness": null,
       "name": "Raw PIMA SWIR Reflectance Spectral File",
-      "note": "Absolute from beginning of file, magic bytes: ISPLFOS\u2026."
+      "note": "Absolute from beginning of file, magic bytes: ISPLFOS\u2026.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4953504C464F5300010500",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

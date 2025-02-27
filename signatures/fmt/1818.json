@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2158,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46524D38{8}4453442046564552",
-      "endianness": null,
       "name": "Direct Stream Digital Interchange File Format",
-      "note": "BOF Absolute from beginning of file, magic bytes:FRM8{8}DSD FVER"
+      "note": "BOF Absolute from beginning of file, magic bytes:FRM8{8}DSD FVER",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46524D38{8}4453442046564552",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

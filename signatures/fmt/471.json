@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 735,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "3C21(444F4354595045|646F6374797065){0-4}(48544D4C|68746D6C)3E",
-      "endianness": null,
       "name": "HTML5 Variant 1",
-      "note": "HTML 5 does not explicitly define the HTML version or any Document Type Definition (DTD) within the DOCTYPE tag. An HTML5 DOCTYPE tag may contain an obsolete permitted DOCTYPE string, however this is discouraged. As such the present signature does not cover identification of an HTML5 document that includes this obsolete permitted DOCTYPE string. This signature may be subject to further revision as, at the time of writing, development on the HTML5 standard is still ongoing.\r\n\r\nVariant 1: <!(DOCTYPE|doctype){0-4}(HTML|html)>"
+      "note": "HTML 5 does not explicitly define the HTML version or any Document Type Definition (DTD) within the DOCTYPE tag. An HTML5 DOCTYPE tag may contain an obsolete permitted DOCTYPE string, however this is discouraged. As such the present signature does not cover identification of an HTML5 document that includes this obsolete permitted DOCTYPE string. This signature may be subject to further revision as, at the time of writing, development on the HTML5 standard is still ongoing.\r\n\r\nVariant 1: <!(DOCTYPE|doctype){0-4}(HTML|html)>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "3C21(444F4354595045|646F6374797065){0-4}(48544D4C|68746D6C)3E",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 736,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "3C21(444F4354595045|646F6374797065){0-4}(48544D4C|68746D6C){0-4}(53595354454D|73797374656D){0-4}(27|22)61626F75743A6C65676163792D636F6D706174(27|22)3E",
-      "endianness": null,
       "name": "HTML5 Variant 2",
-      "note": "BOF: <!(DOCTYPE|doctype){0-4}(HTML|html){0-4}{SYSTEM|system){0-4}('|\")about:legacy-compat('|\")>"
+      "note": "BOF: <!(DOCTYPE|doctype){0-4}(HTML|html){0-4}{SYSTEM|system){0-4}('|\")about:legacy-compat('|\")>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "3C21(444F4354595045|646F6374797065){0-4}(48544D4C|68746D6C){0-4}(53595354454D|73797374656D){0-4}(27|22)61626F75743A6C65676163792D636F6D706174(27|22)3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -80,7 +88,7 @@
     {
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1270,
-      "relatedFormatName": "ePub format"
+      "relatedFormatName": "ePub Format"
     },
     {
       "relationshipType": "Has lower priority than",

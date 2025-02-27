@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2105,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}3C686173686C6973742076657273696F6E3D(22|27)312E30(22|27)",
-      "endianness": null,
       "name": "Media Hash List",
-      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap of 0-512 bytes followed by <hashlist version=(\"OR')1.0(\"OR')"
+      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap of 0-512 bytes followed by <hashlist version=(\"OR')1.0(\"OR')",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}3C686173686C6973742076657273696F6E3D(22|27)312E30(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

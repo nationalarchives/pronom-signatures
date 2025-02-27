@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 816,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8001{4}252150532D41646F6265466F6E742D312E30",
-      "endianness": null,
       "name": "Adobe Printer Font Binary",
-      "note": "BOF: \u20ac.{4}%!PS-AdobeFont-1.0"
+      "note": "BOF: \u20ac.{4}%!PS-AdobeFont-1.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8001{4}252150532D41646F6265466F6E742D312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

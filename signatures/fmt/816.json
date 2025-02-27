@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1175,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "6E75742F6D756C74696D6564696120636F6E7461696E6572",
-      "endianness": null,
       "name": "NUT",
-      "note": "BOF string: nut/multimedia container"
+      "note": "BOF string: nut/multimedia container",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "6E75742F6D756C74696D6564696120636F6E7461696E6572",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

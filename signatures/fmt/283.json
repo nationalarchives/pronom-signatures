@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 299,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "43444602",
-      "endianness": null,
       "name": "netCDF-3 64-bit",
-      "note": "netCDF Magic Number CDF{version indicator}"
+      "note": "netCDF Magic Number CDF{version indicator}",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "43444602",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

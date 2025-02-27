@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1345,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "62706C6973743030",
-      "endianness": null,
       "name": "Binary Property List",
-      "note": "bplist00"
+      "note": "bplist00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "62706C6973743030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

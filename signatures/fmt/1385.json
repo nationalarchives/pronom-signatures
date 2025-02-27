@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1763,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01011700",
-      "endianness": null,
       "name": "Bruker PDZ",
-      "note": "BOF: 0x01011700"
+      "note": "BOF: 0x01011700",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01011700",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

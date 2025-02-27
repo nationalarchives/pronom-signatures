@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 718,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "535A444488F0273341",
-      "endianness": null,
       "name": "MS DOS Compression (SZDD)",
-      "note": "BOF: SZDD\u02c6\u00f0'3A"
+      "note": "BOF: SZDD\u02c6\u00f0'3A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "535A444488F0273341",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

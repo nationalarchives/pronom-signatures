@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1989,
-      "positionType": "Absolute from BOF",
-      "offset": 60,
-      "maxOffset": 0,
-      "byteSequence": "76494D4756696577",
-      "endianness": null,
       "name": "Palm Database ImageViewer Format",
-      "note": "BOF: Offset of 60 followed by 'vIMGView'"
+      "note": "BOF: Offset of 60 followed by 'vIMGView'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 60,
+          "maxOffset": 0,
+          "byteSequence": "76494D4756696577",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

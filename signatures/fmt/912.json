@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1263,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C696E53{22}000000000000",
-      "endianness": null,
       "name": "Microsoft Paint v2",
-      "note": "BOF: LinS{22} 3x16 bit 'null' words"
+      "note": "BOF: LinS{22} 3x16 bit 'null' words",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C696E53{22}000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

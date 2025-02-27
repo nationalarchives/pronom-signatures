@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1655,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0100000000000000947000003601",
-      "endianness": null,
       "name": "Cindex Document 4",
-      "note": "Hexadecimal only signature based on observation - 0100000000000000947000003601. Please contact the PRONOM team if you can help to strengthen this signature."
+      "note": "Hexadecimal only signature based on observation - 0100000000000000947000003601. Please contact the PRONOM team if you can help to strengthen this signature.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0100000000000000947000003601",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

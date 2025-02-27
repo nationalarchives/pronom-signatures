@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 915,
-      "positionType": "Absolute from BOF",
-      "offset": 128,
-      "maxOffset": 0,
-      "byteSequence": "4449434D",
-      "endianness": null,
       "name": "DICOM",
-      "note": "BOF; Offset: 128; Magic bytes: 'DICM'. \r\n\r\nPlease see the specification attached with this entry, which states that any format with string 'DCM' at the 128th byte is considered to be a DICOM file format."
+      "note": "BOF; Offset: 128; Magic bytes: 'DICM'. \r\n\r\nPlease see the specification attached with this entry, which states that any format with string 'DCM' at the 128th byte is considered to be a DICOM file format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 128,
+          "maxOffset": 0,
+          "byteSequence": "4449434D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1686,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "62706C6973743030{6-500}5765624D61696E5265736F75726365",
-      "endianness": null,
       "name": "Apple Safari Webarchive",
-      "note": "BOF:'bplist'{6-500}'WebMainResource'."
+      "note": "BOF:'bplist'{6-500}'WebMainResource'.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "62706C6973743030{6-500}5765624D61696E5265736F75726365",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

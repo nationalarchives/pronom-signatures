@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1505,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4350594120[31:39]2E{7-13}230A",
-      "endianness": null,
       "name": "Origin Project Format Non-Unicode",
-      "note": "BOF Header, \"CPYA \", Major version, \".\" {Minor version, Build number}, \"#\". A 'W64' string is sometimes present between the build number and the terminating hash character which may indicate a 64 bit file version but further research is required to confirm."
+      "note": "BOF Header, \"CPYA \", Major version, \".\" {Minor version, Build number}, \"#\". A 'W64' string is sometimes present between the build number and the terminating hash character which may indicate a 64 bit file version but further research is required to confirm.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4350594120[31:39]2E{7-13}230A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

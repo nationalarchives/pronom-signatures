@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1927,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2554474946",
-      "endianness": null,
       "name": "TGIF file format",
-      "note": "BOF; Offset: 0; Magic Bytes: '%TGIF'"
+      "note": "BOF; Offset: 0; Magic Bytes: '%TGIF'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2554474946",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

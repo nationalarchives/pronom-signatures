@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 866,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1C0100000200041C0114000200141C0116000200081C011E000A4672656548616E643130",
-      "endianness": null,
       "name": "FreeHand 10",
-      "note": "Fileheader+FreeHand10"
+      "note": "Fileheader+FreeHand10",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1C0100000200041C0114000200141C0116000200081C011E000A4672656548616E643130",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

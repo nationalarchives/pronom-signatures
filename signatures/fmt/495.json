@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 768,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4154434F2D434946",
-      "endianness": null,
       "name": "ATCO-CIF",
-      "note": "BOF: ATCO-CIF"
+      "note": "BOF: ATCO-CIF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4154434F2D434946",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

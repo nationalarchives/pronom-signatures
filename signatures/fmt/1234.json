@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1613,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534D4B32{96}00000000",
-      "endianness": null,
       "name": "Smacker Video",
-      "note": "BOF: 'SMK2'{96} unused (null) x 4 bytes"
+      "note": "BOF: 'SMK2'{96} unused (null) x 4 bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534D4B32{96}00000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

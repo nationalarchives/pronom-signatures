@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 875,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "09020600{2}2000",
-      "endianness": null,
       "name": "BIFF 3 Chart",
-      "note": "BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=chart=2000"
+      "note": "BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=chart=2000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "09020600{2}2000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

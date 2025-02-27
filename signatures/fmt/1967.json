@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2315,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 0,
-      "byteSequence": "00000004{0-2048}34F6E64756E64737F2",
-      "endianness": null,
       "name": "Solidworks Design Document Files 2015+",
-      "note": "BOF offset 4, magic bytes: ....{0-2048}4\u00f6\u00e6GV\u00e6G7\u00f2"
+      "note": "BOF offset 4, magic bytes: ....{0-2048}4\u00f6\u00e6GV\u00e6G7\u00f2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 0,
+          "byteSequence": "00000004{0-2048}34F6E64756E64737F2",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

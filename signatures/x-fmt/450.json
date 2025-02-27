@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 240,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54",
-      "endianness": "Little-endian",
       "name": "Adobe InDesign Document Generic",
-      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: DOCUMENT;"
+      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: DOCUMENT;",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

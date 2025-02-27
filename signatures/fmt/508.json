@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 801,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5654424C{54}(4153|7100){66}0000",
-      "endianness": null,
       "name": "QIC",
-      "note": "BOF: VTBL{54}version number(q.= Win 95|AS=Win98/ME){66}.."
+      "note": "BOF: VTBL{54}version number(q.= Win 95|AS=Win98/ME){66}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5654424C{54}(4153|7100){66}0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

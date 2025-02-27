@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1222,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464F5238{12}(4D617961|4D415941)464F5238",
-      "endianness": null,
       "name": "Maya Binary 64 Bit",
-      "note": "BOF: FOR8{12}(Maya|MAYA)FOR8"
+      "note": "BOF: FOR8{12}(Maya|MAYA)FOR8",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464F5238{12}(4D617961|4D415941)464F5238",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

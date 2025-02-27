@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1202,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41444352595054",
-      "endianness": null,
       "name": "AD1 (encrypted)",
-      "note": "BOF: ADCRYPT"
+      "note": "BOF: ADCRYPT",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41444352595054",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1993,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "584C5042",
-      "endianness": null,
       "name": "XL-Paint",
-      "note": "BOF; Offset: 0; Magic Bytes: 'XLPB'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'XLPB'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "584C5042",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

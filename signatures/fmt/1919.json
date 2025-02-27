@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2270,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5245564F32373030",
-      "endianness": null,
       "name": "Revolution Stack v2.7",
-      "note": "Absolute from beginning of file, magic bytes: REVO2700"
+      "note": "Absolute from beginning of file, magic bytes: REVO2700",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5245564F32373030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

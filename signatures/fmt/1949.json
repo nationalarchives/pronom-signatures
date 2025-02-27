@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2294,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "CDF26002(0000FFFF|CCCC0001){4}00000001",
-      "endianness": null,
       "name": "CDF 2.6-2.7",
-      "note": "BOF; Offset:0; Magic number 0xCDF26002, then either 0x0000FFFF if uncompressed, or 0xCCCC0001 if compressed, then a 4 byte variable value representing the size of the \u2018CDF Descriptor Record\u2019, followed by the 4 byte \u2018RecordType\u2019, which for the CDF Descriptor Record is 0x00000001. There are additional elements in the CDF Descriptor Record that may be used to strengthen the signature is required, and potentially to further divide into separate sub-versions if required.\r\nSpecifications can be found on the Internet Archive: https://web.archive.org/web/20150922063622/http://nssdcftp.gsfc.nasa.gov/standards/cdf/doc/ or https://cdaweb.gsfc.nasa.gov/pub/software/cdf/dist/obsolete/"
+      "note": "BOF; Offset:0; Magic number 0xCDF26002, then either 0x0000FFFF if uncompressed, or 0xCCCC0001 if compressed, then a 4 byte variable value representing the size of the \u2018CDF Descriptor Record\u2019, followed by the 4 byte \u2018RecordType\u2019, which for the CDF Descriptor Record is 0x00000001. There are additional elements in the CDF Descriptor Record that may be used to strengthen the signature is required, and potentially to further divide into separate sub-versions if required.\r\nSpecifications can be found on the Internet Archive: https://web.archive.org/web/20150922063622/http://nssdcftp.gsfc.nasa.gov/standards/cdf/doc/ or https://cdaweb.gsfc.nasa.gov/pub/software/cdf/dist/obsolete/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "CDF26002(0000FFFF|CCCC0001){4}00000001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

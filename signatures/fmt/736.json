@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1063,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01{3}424F424F",
-      "endianness": null,
       "name": "CWK 1 Generic",
-      "note": "(Version){3}BOBO"
+      "note": "(Version){3}BOBO",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01{3}424F424F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

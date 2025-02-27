@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1337,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494658{4}4E494646",
-      "endianness": null,
       "name": "NIFF",
-      "note": "BOF: RIFX{4}NIFF\r\nC header file from format SDK: http://www.music-notation.info/niffsdk/niff.h"
+      "note": "BOF: RIFX{4}NIFF\r\nC header file from format SDK: http://www.music-notation.info/niffsdk/niff.h",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494658{4}4E494646",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

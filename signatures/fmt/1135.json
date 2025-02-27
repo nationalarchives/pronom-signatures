@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1517,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2A2A20546869732066696C6520636F6E7461696E7320616E2053514C69746520322E??206461746162617365202A2A",
-      "endianness": null,
       "name": "SQLite Database 2",
-      "note": "BOF: \"** This file contains an SQLite 2.\"<wildcard byte>\" database **\""
+      "note": "BOF: \"** This file contains an SQLite 2.\"<wildcard byte>\" database **\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2A2A20546869732066696C6520636F6E7461696E7320616E2053514C69746520322E??206461746162617365202A2A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

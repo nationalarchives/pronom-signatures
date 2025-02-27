@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1914,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "547970653D4578650D0A",
-      "endianness": null,
       "name": "Visual Basic Project File",
-      "note": "Magic bytes BOF (Offset 0): Type=Exe..\r\nMagic bytes EOF (Offset 0): (MaxNumberOfThreads={1}.."
-    },
-    {
-      "signatureID": 1914,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D61784E756D6265724F66546872656164733D{1}0D0A",
-      "endianness": null,
-      "name": "Visual Basic Project File",
-      "note": "Magic bytes BOF (Offset 0): Type=Exe..\r\nMagic bytes EOF (Offset 0): (MaxNumberOfThreads={1}.."
+      "note": "Magic bytes BOF (Offset 0): Type=Exe..\r\nMagic bytes EOF (Offset 0): (MaxNumberOfThreads={1}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "547970653D4578650D0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D61784E756D6265724F66546872656164733D{1}0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

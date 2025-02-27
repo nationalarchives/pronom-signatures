@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 716,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "445644564944454F2D56(4D47|5453)",
-      "endianness": null,
       "name": "IFO/BUP",
-      "note": "BOF in ASCII 'DVDVIDEO-VTS' (VTS = Video Title Set) or 'DVDVIDEO-VMG' (VMG= Video Manager)"
+      "note": "BOF in ASCII 'DVDVIDEO-VTS' (VTS = Video Title Set) or 'DVDVIDEO-VMG' (VMG= Video Manager)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "445644564944454F2D56(4D47|5453)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

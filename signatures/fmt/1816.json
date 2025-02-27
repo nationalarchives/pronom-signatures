@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2156,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "415345460001",
-      "endianness": null,
       "name": "Adobe Swatch Exchange",
-      "note": "Absolute from beginning of file, magic bytes: ASEF.."
+      "note": "Absolute from beginning of file, magic bytes: ASEF..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "415345460001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

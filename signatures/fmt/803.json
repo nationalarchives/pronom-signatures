@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1168,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "455646090D0AFF00",
-      "endianness": null,
       "name": "EO1",
-      "note": "Header - EVF...\u00ff."
+      "note": "Header - EVF...\u00ff.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "455646090D0AFF00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

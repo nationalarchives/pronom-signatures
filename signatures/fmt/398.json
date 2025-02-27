@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 630,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "454E49474D4120(5452414E53504F525441424C452046494C45|7472616E73706F727461626C652066696C65)",
-      "endianness": null,
       "name": "Enigma Transporter File (Finale)",
-      "note": "BOF; Offset: 0; Magic Bytes: \u2018ENIGMA' followed either by 'TRANSPORTABLE FILE\u2019 or 'transportable file' and later proceeded by version - there are multiple versions this is a generic signature for all."
+      "note": "BOF; Offset: 0; Magic Bytes: \u2018ENIGMA' followed either by 'TRANSPORTABLE FILE\u2019 or 'transportable file' and later proceeded by version - there are multiple versions this is a generic signature for all.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "454E49474D4120(5452414E53504F525441424C452046494C45|7472616E73706F727461626C652066696C65)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

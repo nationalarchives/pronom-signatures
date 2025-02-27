@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1172,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "894844460D0A1A0A00",
-      "endianness": null,
       "name": "HDF5 version 0",
-      "note": "HDF5 Header + Version 00"
+      "note": "HDF5 Header + Version 00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "894844460D0A1A0A00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

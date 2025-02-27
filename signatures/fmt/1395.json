@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1771,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "414331303332",
-      "endianness": null,
       "name": "AutoCAD Drawing Format 2018/2019/2020/2021",
-      "note": "BOF 'AC1032'"
+      "note": "BOF 'AC1032'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "414331303332",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

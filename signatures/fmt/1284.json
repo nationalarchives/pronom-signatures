@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1664,
-      "positionType": "Absolute from BOF",
-      "offset": 9,
-      "maxOffset": 9,
-      "byteSequence": "47455242494C4442",
-      "endianness": null,
       "name": "PFS:First Choice Database",
-      "note": "offset 9: 'GERBILDB'"
+      "note": "offset 9: 'GERBILDB'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 9,
+          "maxOffset": 9,
+          "byteSequence": "47455242494C4442",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

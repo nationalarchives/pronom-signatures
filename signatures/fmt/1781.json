@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2121,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A*50454E544158{0-2048}414F43004D4D",
-      "endianness": "Big-endian",
       "name": "Pentax PEF Image File",
-      "note": "BOF; Offset: 0; Magic Bytes: A TIFF based format starting with  TIFF Motorola endian header \"MM.*\" then variable number of wildcard bytes followed by 'PENTAX' tag, then wildcard bytes between none to 2048 followed by MakerNote values of \"AOC MM\"."
+      "note": "BOF; Offset: 0; Magic Bytes: A TIFF based format starting with  TIFF Motorola endian header \"MM.*\" then variable number of wildcard bytes followed by 'PENTAX' tag, then wildcard bytes between none to 2048 followed by MakerNote values of \"AOC MM\".",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A*50454E544158{0-2048}414F43004D4D",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2224,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "3C2F626F64793E{0-4}3C2F6F706D6C3E",
-      "endianness": null,
       "name": "OPML File v.2",
-      "note": "BOF, offset 0-86, magic bytes:<opml{0-90}version=\"2.0\"{0-60}>{0-5}<head{0-69}>{0-9}<title>{0-300}</title>{0-290}</head>\t\r\nEOF, offset 0-4:</body>(0-4)</opml>"
-    },
-    {
-      "signatureID": 2224,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 86,
-      "byteSequence": "3C6F706D6C{0-90}2076657273696F6E3D22322E3022{0-60}3E{0-5}3C68656164{0-69}3E{0-9}3C7469746C653E{0-300}3C2F7469746C653E",
-      "endianness": null,
-      "name": "OPML File v.2",
-      "note": "BOF, offset 0-86, magic bytes:<opml{0-90}version=\"2.0\"{0-60}>{0-5}<head{0-69}>{0-9}<title>{0-300}</title>{0-290}</head>\t\r\nEOF, offset 0-4:</body>(0-4)</opml>"
+      "note": "BOF, offset 0-86, magic bytes:<opml{0-90}version=\"2.0\"{0-60}>{0-5}<head{0-69}>{0-9}<title>{0-300}</title>{0-290}</head>\t\r\nEOF, offset 0-4:</body>(0-4)</opml>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "3C2F626F64793E{0-4}3C2F6F706D6C3E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 86,
+          "byteSequence": "3C6F706D6C{0-90}2076657273696F6E3D22322E3022{0-60}3E{0-5}3C68656164{0-69}3E{0-9}3C7469746C653E{0-300}3C2F7469746C653E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

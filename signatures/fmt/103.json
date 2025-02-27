@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 40,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "3C21444F43545950452068746D6C205055424C494320222D2F2F5733432F2F445444205848544D4C20312E31",
-      "endianness": null,
       "name": "XHTML 1.1",
-      "note": "With DOCTYPE declaration for 1.1"
-    },
-    {
-      "signatureID": 40,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C68746D6C20786D6C6E733D22687474703A2F2F7777772E77332E6F72672F313939392F7868746D6C22*3C7469746C653E*3C2F7469746C653E",
-      "endianness": null,
-      "name": "XHTML 1.1",
-      "note": "With DOCTYPE declaration for 1.1"
+      "note": "With DOCTYPE declaration for 1.1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "3C21444F43545950452068746D6C205055424C494320222D2F2F5733432F2F445444205848544D4C20312E31",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C68746D6C20786D6C6E733D22687474703A2F2F7777772E77332E6F72672F313939392F7868746D6C22*3C7469746C653E*3C2F7469746C653E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -90,7 +91,7 @@
     {
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1270,
-      "relatedFormatName": "ePub format"
+      "relatedFormatName": "ePub Format"
     },
     {
       "relationshipType": "Has lower priority than",

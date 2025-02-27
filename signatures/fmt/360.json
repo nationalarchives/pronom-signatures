@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 529,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000803F{12}00000000{4}0000{2}0000{1}[41:42]{8}0000000000000000000000000000000000000000{28}00000000{3}[40:49]",
-      "endianness": null,
       "name": "pulse EKKO data file",
-      "note": "A binary data file which contains a record for every trace. Each record consists of a 128-byte header section and a data section. Header section starts: 00 00 80 3F"
+      "note": "A binary data file which contains a record for every trace. Each record consists of a 128-byte header section and a data section. Header section starts: 00 00 80 3F",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000803F{12}00000000{4}0000{2}0000{1}[41:42]{8}0000000000000000000000000000000000000000{28}00000000{3}[40:49]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

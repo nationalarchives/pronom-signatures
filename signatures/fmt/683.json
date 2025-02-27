@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1004,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "5A{2}D3A8",
-      "endianness": null,
       "name": "AFP",
-      "note": "0x53, 2 bytes indicating size then 0xD3A8 indicating a 'Begin XX' structured field, as described in the MO:DCA specification"
+      "note": "0x53, 2 bytes indicating size then 0xD3A8 indicating a 'Begin XX' structured field, as described in the MO:DCA specification",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "5A{2}D3A8",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 320,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "464F524D{4}41494646",
-      "endianness": "Big-endian",
       "name": "Audio Interchange File Format",
-      "note": "Starts like most IFF files (FORM) followed by four bytes that tell how many more bytes follow in the file followed by AIFF."
+      "note": "Starts like most IFF files (FORM) followed by four bytes that tell how many more bytes follow in the file followed by AIFF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "464F524D{4}41494646",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

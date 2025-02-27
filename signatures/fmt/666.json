@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 998,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4A47(03|04)0E",
-      "endianness": null,
       "name": "ART aol",
-      "note": "BOF: JG.."
+      "note": "BOF: JG..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4A47(03|04)0E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

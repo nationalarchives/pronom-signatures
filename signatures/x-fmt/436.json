@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 344,
-      "positionType": "Absolute from BOF",
-      "offset": 80,
-      "maxOffset": 0,
-      "byteSequence": "4341544941202020*434154494120534F4C5554494F4E53205634{6}52454C4541534520",
-      "endianness": null,
       "name": "CATIA Model V4",
-      "note": "BOF offset 80, magic bytes: CATIA followed by three spaces*CATIA SOLUTIONS V4{6}RELEASE followed by one space"
+      "note": "BOF offset 80, magic bytes: CATIA followed by three spaces*CATIA SOLUTIONS V4{6}RELEASE followed by one space",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 80,
+          "maxOffset": 0,
+          "byteSequence": "4341544941202020*434154494120534F4C5554494F4E53205634{6}52454C4541534520",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

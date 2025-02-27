@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2093,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01000200",
-      "endianness": null,
       "name": "Canon SIF File",
-      "note": "BOF: 0x01 (Start of Header) followed by 0x00 (Null) followed by 0x02 (Start of Text) followed by 0x00 (Null)"
+      "note": "BOF: 0x01 (Start of Header) followed by 0x00 (Null) followed by 0x02 (Start of Text) followed by 0x00 (Null)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01000200",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2205,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5157205665722E20332E30302E303020",
-      "endianness": null,
       "name": "Quicken 3 database File",
-      "note": "Absolute from beginning of file, magic bytes: \"QW Ver. 3.00.00\""
+      "note": "Absolute from beginning of file, magic bytes: \"QW Ver. 3.00.00\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5157205665722E20332E30302E303020",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

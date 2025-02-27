@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 193,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "252150532D41646F62652D332E30",
-      "endianness": null,
       "name": "PostScript DSC 3.0",
-      "note": "PostScript DSC header version comment + EOF comment"
+      "note": "PostScript DSC header version comment + EOF comment",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "252150532D41646F62652D332E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

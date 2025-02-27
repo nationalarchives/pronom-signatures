@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1729,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53514C69746520666F726D6174203300{0-256}46616D696C795461626C65",
-      "endianness": null,
       "name": "RootsMagic Database 4-7",
-      "note": "BOF: 'SQLite format 3' 0x00 {0-256} 'FamilyTable'"
+      "note": "BOF: 'SQLite format 3' 0x00 {0-256} 'FamilyTable'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53514C69746520666F726D6174203300{0-256}46616D696C795461626C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

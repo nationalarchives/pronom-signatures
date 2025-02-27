@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 803,
-      "positionType": "Absolute from BOF",
-      "offset": 43,
-      "maxOffset": null,
-      "byteSequence": "44617461626173652056657273696F6E{15}61EA",
-      "endianness": null,
       "name": "PowerProject Teamplan",
-      "note": "40 byte Project Title (+1 byte spacing)\r\n32 byte Version String (+1 byte spacing)\r\n2 byte magic number (0x61EA)"
+      "note": "40 byte Project Title (+1 byte spacing)\r\n32 byte Version String (+1 byte spacing)\r\n2 byte magic number (0x61EA)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 43,
+          "maxOffset": null,
+          "byteSequence": "44617461626173652056657273696F6E{15}61EA",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

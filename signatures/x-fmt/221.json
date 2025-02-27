@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 469,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2077000240",
-      "endianness": null,
       "name": "MapBrowser/MapWriter Vector Map Data",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2077000240",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 470,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "20770033",
-      "endianness": null,
       "name": "MapBrowser/MapWriter Vector Map Data (extended version)",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "20770033",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

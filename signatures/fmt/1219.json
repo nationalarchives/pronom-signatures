@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1596,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676E6D3A576F726B626F6F6B20786D6C6E733A676E6D3D22687474703A2F2F7777772E676E756D657269632E6F7267",
-      "endianness": null,
       "name": "Gnumeric variant 1",
-      "note": "<?xmlversion=\"1.0\"{2-32}<gnm:Workbook xmlns:gnm=\"http://www.gnumeric.org"
+      "note": "<?xmlversion=\"1.0\"{2-32}<gnm:Workbook xmlns:gnm=\"http://www.gnumeric.org",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676E6D3A576F726B626F6F6B20786D6C6E733A676E6D3D22687474703A2F2F7777772E676E756D657269632E6F7267",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1597,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676D723A576F726B626F6F6B20786D6C6E733A676D723D22687474703A2F2F7777772E676E6F6D652E6F72672F676E756D657269632F",
-      "endianness": null,
       "name": "Gnumeric variant 2",
-      "note": "<?xmlversion=\"1.0\"{2-32}<gmr:Workbook xmlns:gmr=\"http://www.gnome.org/gnumeric/"
+      "note": "<?xmlversion=\"1.0\"{2-32}<gmr:Workbook xmlns:gmr=\"http://www.gnome.org/gnumeric/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676D723A576F726B626F6F6B20786D6C6E733A676D723D22687474703A2F2F7777772E676E6F6D652E6F72672F676E756D657269632F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

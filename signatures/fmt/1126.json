@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1507,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{0-512}534F4E59{0-2048}00B001000400000001",
-      "endianness": null,
       "name": "Sony SR2",
-      "note": "TIFF Header{0-512}\"SONY\"{0-2048} Maker Note data adjusted for endianness: Sony 'FileFormat' Exif tag 0xB000, 0x0001=byte, 0x00000004=four times, 0x01 = SR2 format. Sony Maker Note tags described at https://sno.phy.queensu.ca/~phil/exiftool/TagNames/Sony.html"
+      "note": "TIFF Header{0-512}\"SONY\"{0-2048} Maker Note data adjusted for endianness: Sony 'FileFormat' Exif tag 0xB000, 0x0001=byte, 0x00000004=four times, 0x01 = SR2 format. Sony Maker Note tags described at https://sno.phy.queensu.ca/~phil/exiftool/TagNames/Sony.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{0-512}534F4E59{0-2048}00B001000400000001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

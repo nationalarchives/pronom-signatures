@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 358,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2843484957524954455220342E",
-      "endianness": null,
       "name": "Chiwriter Document V4",
-      "note": "Chiwriter Version 4 document header"
+      "note": "Chiwriter Version 4 document header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2843484957524954455220342E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

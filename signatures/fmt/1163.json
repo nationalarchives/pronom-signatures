@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1545,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 256,
-      "byteSequence": "3C434D3E",
-      "endianness": null,
       "name": "Folio Definition File",
-      "note": "BOF, offset 0-256: , both of \r\n'<CM>' and 'Folio,DEF'"
-    },
-    {
-      "signatureID": 1545,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 256,
-      "byteSequence": "466F6C696F2C444546",
-      "endianness": null,
-      "name": "Folio Definition File",
-      "note": "BOF, offset 0-256: , both of \r\n'<CM>' and 'Folio,DEF'"
+      "note": "BOF, offset 0-256: , both of \r\n'<CM>' and 'Folio,DEF'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 256,
+          "byteSequence": "3C434D3E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 256,
+          "byteSequence": "466F6C696F2C444546",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

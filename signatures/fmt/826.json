@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1181,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "535733(41|43)2D536372697074776172652062792043696E6F766174696F6E",
-      "endianness": null,
       "name": "Scriptware SW3",
-      "note": "SW3(A|C)-Scriptware by Cinovation"
+      "note": "SW3(A|C)-Scriptware by Cinovation",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "535733(41|43)2D536372697074776172652062792043696E6F766174696F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

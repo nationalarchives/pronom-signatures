@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1353,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4646464649494949",
-      "endianness": null,
       "name": "JustWrite",
-      "note": "FFFFIIII"
+      "note": "FFFFIIII",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4646464649494949",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

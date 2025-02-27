@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 90,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "414331303032",
-      "endianness": null,
       "name": "AutoCAD Drawing Format 2.5",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "414331303032",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

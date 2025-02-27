@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1425,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "530075007200760065007900{0-64}0061007200630068006900760065002000660069006C006500",
-      "endianness": null,
       "name": "SNAP Archive data file",
-      "note": "S.u.r.v.e.y{0-64}.a.r.c.h.i.v.e. .f.i.l.e."
+      "note": "S.u.r.v.e.y{0-64}.a.r.c.h.i.v.e. .f.i.l.e.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "530075007200760065007900{0-64}0061007200630068006900760065002000660069006C006500",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

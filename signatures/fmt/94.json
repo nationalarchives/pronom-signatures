@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 54,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2356524D4C2056322E302075746638",
-      "endianness": null,
       "name": "VRML 97",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2356524D4C2056322E302075746638",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

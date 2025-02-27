@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 578,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "6D736964",
-      "endianness": null,
       "name": "MrSID Image Format (Multi-resolution Seamless Image Database)",
-      "note": "Header ASCII: msid. Footer ASCII: \u00ff\u00d2\u00ff\u00a1"
-    },
-    {
-      "signatureID": 578,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFD2FFA1",
-      "endianness": null,
-      "name": "MrSID Image Format (Multi-resolution Seamless Image Database)",
-      "note": "Header ASCII: msid. Footer ASCII: \u00ff\u00d2\u00ff\u00a1"
+      "note": "Header ASCII: msid. Footer ASCII: \u00ff\u00d2\u00ff\u00a1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "6D736964",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFD2FFA1",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

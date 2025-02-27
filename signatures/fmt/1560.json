@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1904,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534F554E442053414D504C452044415441",
-      "endianness": null,
       "name": "Sample Vision Audio File Format",
-      "note": "BOF; Offset: 0; Magic Bytes: SOUND SAMPLE DATA"
+      "note": "BOF; Offset: 0; Magic Bytes: SOUND SAMPLE DATA",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534F554E442053414D504C452044415441",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 709,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4C415354204C4F47434845434B2022{24}220A4C41535420434C45414E20{0-1}22{24}220A4C415354204F5054494D495A4520{0-1}22*220A",
-      "endianness": null,
       "name": "Verity Collection Index Pending Transaction File",
-      "note": "BOF:  LAST LOGCHECK \" then \".LAST CLEAN {0-1 space}\" then \".LAST OPTIMIZE {0-1 space}\"*\"."
+      "note": "BOF:  LAST LOGCHECK \" then \".LAST CLEAN {0-1 space}\" then \".LAST OPTIMIZE {0-1 space}\"*\".",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4C415354204C4F47434845434B2022{24}220A4C41535420434C45414E20{0-1}22{24}220A4C415354204F5054494D495A4520{0-1}22*220A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

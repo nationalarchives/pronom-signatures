@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1831,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01002C004F7243414420494E432E2C204C61796F757420446174616261736520",
-      "endianness": null,
       "name": "OrCAD Layout File",
-      "note": "BOF: 01 00 2C followed by 'OrCAD INC., Layout Database' followed by 20"
+      "note": "BOF: 01 00 2C followed by 'OrCAD INC., Layout Database' followed by 20",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01002C004F7243414420494E432E2C204C61796F757420446174616261736520",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

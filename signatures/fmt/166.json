@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 729,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "(00|FF)0002000404055402",
-      "endianness": null,
       "name": "Microsoft Works Spreadsheet 1-5",
-      "note": "BOF: (.|\u00ff)......T.\r\nEOF: ...."
-    },
-    {
-      "signatureID": 729,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01000000",
-      "endianness": null,
-      "name": "Microsoft Works Spreadsheet 1-5",
-      "note": "BOF: (.|\u00ff)......T.\r\nEOF: ...."
+      "note": "BOF: (.|\u00ff)......T.\r\nEOF: ....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "(00|FF)0002000404055402",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

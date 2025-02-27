@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 855,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFF00(18|0E)006500(02|00)",
-      "endianness": null,
       "name": "GEM metafile 1.01 big endian",
-      "note": "Magic number FFFF; length = 0x18 or 0x0E; version 101 decimal =hex 65; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)"
+      "note": "Magic number FFFF; length = 0x18 or 0x0E; version 101 decimal =hex 65; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFF00(18|0E)006500(02|00)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 856,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFF(18|0E)006500(02|00)00",
-      "endianness": null,
       "name": "GEM metafile 1.01 little endian",
-      "note": "Magic number FFFF; length = 0x18 or 0x0E; version 101 decimal =hex 65; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)"
+      "note": "Magic number FFFF; length = 0x18 or 0x0E; version 101 decimal =hex 65; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFF(18|0E)006500(02|00)00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

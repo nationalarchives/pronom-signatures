@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1803,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00360036",
-      "endianness": null,
       "name": "QuarkXPress 3.0",
-      "note": "BOF: 00360036"
+      "note": "BOF: 00360036",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00360036",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2069,
-      "positionType": "Absolute from BOF",
-      "offset": 8,
-      "maxOffset": 0,
-      "byteSequence": "506F776572474658",
-      "endianness": null,
       "name": "PowerGraphics Image File",
-      "note": "BOF:Offset of 8 followed by 'PowerGFX'"
+      "note": "BOF:Offset of 8 followed by 'PowerGFX'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 8,
+          "maxOffset": 0,
+          "byteSequence": "506F776572474658",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

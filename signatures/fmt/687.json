@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1014,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "425047FB",
-      "endianness": null,
       "name": "Better Portable Graphics",
-      "note": "BOF: BPG\u00fb"
+      "note": "BOF: BPG\u00fb",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "425047FB",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

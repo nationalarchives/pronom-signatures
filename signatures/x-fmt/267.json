@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 340,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "425A30",
-      "endianness": null,
       "name": "BZIP Compressed Archive",
-      "note": "Header: BZ0"
+      "note": "Header: BZ0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "425A30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

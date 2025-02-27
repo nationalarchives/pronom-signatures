@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 425,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 154,
-      "byteSequence": "254120[41:5A]{5-50}(0A|0A0D)25(41|42|43|44|54)20([30:39]|[41:5A])",
-      "endianness": null,
       "name": "EndNote Import File No.1",
-      "note": "The format is made up of various pieces of bibliographical data. Each piece of information is preceded by an indicator sequence which defines the type of information recorded, e.g. %A precedes author information, %D precedes date information, %T precedes title etc. This signature has been based on the relative positions of %A  with %T and %D sequences, which appeared in all End Note Import files tested."
+      "note": "The format is made up of various pieces of bibliographical data. Each piece of information is preceded by an indicator sequence which defines the type of information recorded, e.g. %A precedes author information, %D precedes date information, %T precedes title etc. This signature has been based on the relative positions of %A  with %T and %D sequences, which appeared in all End Note Import files tested.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 154,
+          "byteSequence": "254120[41:5A]{5-50}(0A|0A0D)25(41|42|43|44|54)20([30:39]|[41:5A])",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 426,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 154,
-      "byteSequence": "2541[41:5A]{5-50}(0A|0A0D)25(41|42|43|44|54)([30:39]|[41:5A])",
-      "endianness": null,
       "name": "EndNote Import File No.2",
-      "note": "The format is made up of various pieces of bibliographical data. Each piece of information is preceded by an indicator sequence which defines the type of information recorded, e.g. %A precedes author information, %D precedes date information, %T precedes title etc. This signature has been based on the relative positions of %A and %D and %T sequences, which appeared in all End Note Import files tested."
+      "note": "The format is made up of various pieces of bibliographical data. Each piece of information is preceded by an indicator sequence which defines the type of information recorded, e.g. %A precedes author information, %D precedes date information, %T precedes title etc. This signature has been based on the relative positions of %A and %D and %T sequences, which appeared in all End Note Import files tested.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 154,
+          "byteSequence": "2541[41:5A]{5-50}(0A|0A0D)25(41|42|43|44|54)([30:39]|[41:5A])",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

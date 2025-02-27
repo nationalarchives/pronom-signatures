@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2319,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4554432045585020",
-      "endianness": null,
       "name": "ETC Express/Expression Show File",
-      "note": "BOF; Offset: 0; Magic Bytes: 'ETC EXP' 0x20"
+      "note": "BOF; Offset: 0; Magic Bytes: 'ETC EXP' 0x20",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4554432045585020",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

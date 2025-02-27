@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 936,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "667479704D344120",
-      "endianness": null,
       "name": "Apple Lossless Audio Codec",
-      "note": "BOF: (offset 4): ftypM4A \r\nVAR: alac{0-72}alac"
-    },
-    {
-      "signatureID": 936,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "616C6163{0-72}616C6163",
-      "endianness": null,
-      "name": "Apple Lossless Audio Codec",
-      "note": "BOF: (offset 4): ftypM4A \r\nVAR: alac{0-72}alac"
+      "note": "BOF: (offset 4): ftypM4A \r\nVAR: alac{0-72}alac",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "667479704D344120",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "616C6163{0-72}616C6163",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

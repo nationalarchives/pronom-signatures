@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1811,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "61636633",
-      "endianness": null,
       "name": "Aldus FreeHand Drawing Version 1",
-      "note": "BOF: MAC File Type Code 'acf3'"
+      "note": "BOF: MAC File Type Code 'acf3'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "61636633",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

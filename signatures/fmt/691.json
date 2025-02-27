@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1018,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7F454C46020201",
-      "endianness": null,
       "name": "ELF 64bit MSB",
-      "note": "Magic (.ELF) Architecture (01=32bit, 02=64bit) Endianness (01=Little Endian (Least significant byte order) 02=Big Endian (Most significant byte order)) Version (01=format version 1)"
+      "note": "Magic (.ELF) Architecture (01=32bit, 02=64bit) Endianness (01=Little Endian (Least significant byte order) 02=Big Endian (Most significant byte order)) Version (01=format version 1)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7F454C46020201",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

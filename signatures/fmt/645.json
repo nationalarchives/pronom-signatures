@@ -32,43 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 973,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFD8FFE1{2}4578696600004D4D002A*900000070000000430323231",
-      "endianness": null,
       "name": "EXIF Compressed Image 2.21 (big-endian)",
-      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
-    },
-    {
-      "signatureID": 973,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "FFD9",
-      "endianness": null,
-      "name": "EXIF Compressed Image 2.21 (big-endian)",
-      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFD8FFE1{2}4578696600004D4D002A*900000070000000430323231",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "FFD9",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 974,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFD8FFE1{2}45786966000049492A00*009007000400000030323231",
-      "endianness": null,
       "name": "EXIF Compressed Image 2.21 (little-endian)",
-      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
-    },
-    {
-      "signatureID": 974,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "FFD9",
-      "endianness": null,
-      "name": "EXIF Compressed Image 2.21 (little-endian)",
-      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker"
+      "note": "SOI and APP1, EXIF IFD (EXIF ver=2.2.1), EOI marker",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFD8FFE1{2}45786966000049492A00*009007000400000030323231",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "FFD9",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

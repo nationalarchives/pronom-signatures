@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 918,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5043464647524134",
-      "endianness": null,
       "name": "GraphPad Prism 4",
-      "note": "BOF: PCFFGRA4"
+      "note": "BOF: PCFFGRA4",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5043464647524134",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -43,6 +47,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 3891,
+      "relatedFormatName": "GraphPad Prism"
+    }
+  ],
   "source": 192
 }

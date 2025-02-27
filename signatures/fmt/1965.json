@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2313,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50415031",
-      "endianness": null,
       "name": "Papyrus Document",
-      "note": "BOF \u201cPAP1\u201d. Since the format is not publicly documented this does not distinguish between versions or individual Papyrus format types although this may be possible."
+      "note": "BOF \u201cPAP1\u201d. Since the format is not publicly documented this does not distinguish between versions or individual Papyrus format types although this may be possible.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50415031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

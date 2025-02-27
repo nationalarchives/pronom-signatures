@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 812,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50544D5F312E320A50544D5F464F524D41545F",
-      "endianness": null,
       "name": "Polynomial Texture Map",
-      "note": "BOF: PTM_1.2.PTM_FORMAT_"
+      "note": "BOF: PTM_1.2.PTM_FORMAT_",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50544D5F312E320A50544D5F464F524D41545F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

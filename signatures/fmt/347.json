@@ -32,43 +32,59 @@
   "internalSignatures": [
     {
       "signatureID": 491,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFF6[10:EB]{29-769}FFF6[10:EB]{29-769}FFF6[10:EB]{29-769}FFF6[10:EB]{29-769}",
-      "endianness": null,
       "name": "MPEG 1 Audio Layer I (protected)",
-      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-1, layer I, protected (FFF6h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value Ebh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF6h) repeat"
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-1, layer I, protected (FFF6h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value Ebh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF6h) repeat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFF6[10:EB]{29-769}FFF6[10:EB]{29-769}FFF6[10:EB]{29-769}FFF6[10:EB]{29-769}",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 492,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFF7[10:EB]{29-769}FFF7[10:EB]{29-769}FFF7[10:EB]{29-769}FFF7[10:EB]{29-769}",
-      "endianness": null,
       "name": "MPEG 1 Audio Layer I (unprotected)",
-      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.   Frame header: MPEG-1, layer I, unprotected (FFF7h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF7h) repeat"
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.   Frame header: MPEG-1, layer I, unprotected (FFF7h); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFF7h) repeat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFF7[10:EB]{29-769}FFF7[10:EB]{29-769}FFF7[10:EB]{29-769}FFF7[10:EB]{29-769}",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 493,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFFE[10:EB]{29-769}FFFE[10:EB]{29-769}FFFE[10:EB]{29-769}FFFE[10:EB]{29-769}",
-      "endianness": null,
       "name": "MPEG 2 Audio Layer I (protected)",
-      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer I, protected (FFFEh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value Ebh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFEh) repeat"
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer I, protected (FFFEh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value Ebh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFEh) repeat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFFE[10:EB]{29-769}FFFE[10:EB]{29-769}FFFE[10:EB]{29-769}FFFE[10:EB]{29-769}",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 494,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFFF[10:EB]{29-769}FFFF[10:EB]{29-769}FFFF[10:EB]{29-769}FFFF[10:EB]{29-769}",
-      "endianness": null,
       "name": "MPEG 2 Audio Layer I (unprotected)",
-      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer I, unprotected (FFFFh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFFh) repeat"
+      "note": "You have to check for two or more frames in a row to be sure you are dealing with an mpeg file.  Frame header: MPEG-2, layer I, unprotected (FFFFh); Bitrate index Sampling Frequency, padding bit (1 byte), Minimum value 10h, maximum value EBh; Minimum length of frame-3 to maximum length of frame -3; next frame header (FFFFh) repeat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFFF[10:EB]{29-769}FFFF[10:EB]{29-769}FFFF[10:EB]{29-769}FFFF[10:EB]{29-769}",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

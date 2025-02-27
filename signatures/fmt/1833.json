@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2171,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50414C4D",
-      "endianness": null,
       "name": "ArcSoft Album and SlideShow Files for PhotoStudio and PhotoImpression",
-      "note": "BOF Absolute from beginning of file, magic bytes: PALM"
+      "note": "BOF Absolute from beginning of file, magic bytes: PALM",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50414C4D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

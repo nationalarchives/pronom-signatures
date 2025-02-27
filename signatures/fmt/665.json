@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 997,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5F434435100000001A0003",
-      "endianness": null,
       "name": "Chasys Draw CD5",
-      "note": "BOF: _CD5......."
+      "note": "BOF: _CD5.......",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5F434435100000001A0003",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

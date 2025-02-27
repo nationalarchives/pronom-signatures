@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2342,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0F534942454C495553{1}003E",
-      "endianness": null,
       "name": "Sibelius Score v.8.1-8.5",
-      "note": "BOF; Offset:0; 0x0F followed by 'SIBELIUS' then after 1 byte 0x003E"
+      "note": "BOF; Offset:0; 0x0F followed by 'SIBELIUS' then after 1 byte 0x003E",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0F534942454C495553{1}003E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

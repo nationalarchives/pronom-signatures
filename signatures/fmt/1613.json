@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1948,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D{25-26}3C706C61796C697374{1-14}786D6C6E733D22687474703A2F2F787370662E6F72672F6E732F302F",
-      "endianness": null,
       "name": "XML Shareable Playlist Format",
-      "note": "BOF, absolute zero: <?xml version={25-26}<playlist{1-14} xmlns=\"http://xspf.org/ns/0/\r\nEOF, offset 0-1: </playlist>"
-    },
-    {
-      "signatureID": 1948,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1,
-      "byteSequence": "3C2F706C61796C6973743E",
-      "endianness": null,
-      "name": "XML Shareable Playlist Format",
-      "note": "BOF, absolute zero: <?xml version={25-26}<playlist{1-14} xmlns=\"http://xspf.org/ns/0/\r\nEOF, offset 0-1: </playlist>"
+      "note": "BOF, absolute zero: <?xml version={25-26}<playlist{1-14} xmlns=\"http://xspf.org/ns/0/\r\nEOF, offset 0-1: </playlist>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D{25-26}3C706C61796C697374{1-14}786D6C6E733D22687474703A2F2F787370662E6F72672F6E732F302F",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "3C2F706C61796C6973743E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

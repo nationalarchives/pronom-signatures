@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 1825,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53495421{6}724C617501",
-      "endianness": null,
       "name": "Stuffit Archive File Version 1.5",
-      "note": "BOF: 'StuffIt'{6}'rLau' followed by 01, the differentiator between version 1.5 (01) and version 1.6-4.5 (02)."
+      "note": "BOF: 'StuffIt'{6}'rLau' followed by 01, the differentiator between version 1.5 (01) and version 1.6-4.5 (02).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53495421{6}724C617501",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

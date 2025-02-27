@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 420,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "(01|03){2}[00:0F]{4}FE{0-1}3F{1}00{1}00{1}00",
-      "endianness": null,
       "name": "EndNote Library No. 1, versions 1-9",
-      "note": "A rudimentary signature, based on the relative position of certain bytes found to be present in all examples of EndNote Library files tested."
+      "note": "A rudimentary signature, based on the relative position of certain bytes found to be present in all examples of EndNote Library files tested.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "(01|03){2}[00:0F]{4}FE{0-1}3F{1}00{1}00{1}00",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 421,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "(01|03){2}[00:0F]{4}FF{0-1}3F{1}00{1}00{1}00",
-      "endianness": null,
       "name": "EndNote Library No. 2, versions 1-9",
-      "note": "A rudimentary signature, based on the relative position of certain bytes found to be present in all examples of EndNote Library files tested."
+      "note": "A rudimentary signature, based on the relative position of certain bytes found to be present in all examples of EndNote Library files tested.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "(01|03){2}[00:0F]{4}FF{0-1}3F{1}00{1}00{1}00",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 422,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000{2}00{7}0000{2}0000{2}0002{8}202040404020000040404040",
-      "endianness": null,
       "name": "EndNote Library No. 3, versions 1-9",
-      "note": "A rudimentary signature, based on the relative position of certain bytes found to be present in all examples of EndNote Library files tested."
+      "note": "A rudimentary signature, based on the relative position of certain bytes found to be present in all examples of EndNote Library files tested.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000{2}00{7}0000{2}0000{2}0002{8}202040404020000040404040",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

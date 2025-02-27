@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1791,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "44545049",
-      "endianness": null,
       "name": "GST Publisher 1",
-      "note": "BOF: 'DTPI'\r\nEOF 0-16: 'EODF'"
-    },
-    {
-      "signatureID": 1791,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 16,
-      "byteSequence": "454F4446",
-      "endianness": null,
-      "name": "GST Publisher 1",
-      "note": "BOF: 'DTPI'\r\nEOF 0-16: 'EODF'"
+      "note": "BOF: 'DTPI'\r\nEOF 0-16: 'EODF'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "44545049",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 16,
+          "byteSequence": "454F4446",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

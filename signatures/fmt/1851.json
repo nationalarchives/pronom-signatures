@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2196,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "44484156",
-      "endianness": null,
       "name": "DAV Video Format",
-      "note": "BOF, offset 0: \u201cDHAV\u201d\r\nEOF, offset 0, maximum offset 65536: \u201cdhav\u201d"
-    },
-    {
-      "signatureID": 2196,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "64686176",
-      "endianness": null,
-      "name": "DAV Video Format",
-      "note": "BOF, offset 0: \u201cDHAV\u201d\r\nEOF, offset 0, maximum offset 65536: \u201cdhav\u201d"
+      "note": "BOF, offset 0: \u201cDHAV\u201d\r\nEOF, offset 0, maximum offset 65536: \u201cdhav\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "44484156",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "64686176",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

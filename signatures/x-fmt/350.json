@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1750,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "43434D4554",
-      "endianness": null,
       "name": "OmniPage MET",
-      "note": "BOF: 'CCMET'"
+      "note": "BOF: 'CCMET'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "43434D4554",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2033,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53514C69746520666F726D61742033{53}4750*67706B675F7370617469616C5F7265665F737973",
-      "endianness": null,
       "name": "OGC GeoPackage",
-      "note": "BOF Absolute from beginning of file, magic bytes: SQLite format 3{53}GP*gpkg_spatial_ref_sys"
+      "note": "BOF Absolute from beginning of file, magic bytes: SQLite format 3{53}GP*gpkg_spatial_ref_sys",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53514C69746520666F726D61742033{53}4750*67706B675F7370617469616C5F7265665F737973",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1053,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53514C69746520666F726D6174203300",
-      "endianness": null,
       "name": "SQLite Database",
-      "note": "BOF: SQLite format 3."
+      "note": "BOF: SQLite format 3.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53514C69746520666F726D6174203300",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

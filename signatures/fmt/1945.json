@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 687,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41BD0A0001{15}76(31|32)2E30{12}00000000000000000000000000000000",
-      "endianness": null,
       "name": "CLF2",
-      "note": "BOF: 00x41BD0A0001 then after 15 bytes 00x76(31|32)2E30 then in 12 bytes 16 null bytes"
+      "note": "BOF: 00x41BD0A0001 then after 15 bytes 00x76(31|32)2E30 then in 12 bytes 16 null bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41BD0A0001{15}76(31|32)2E30{12}00000000000000000000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

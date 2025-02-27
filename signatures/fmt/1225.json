@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1603,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "566947456D1A",
-      "endianness": null,
       "name": "PaperPort MAX 5-7",
-      "note": "BOF: 'ViGEm' 0x1A"
+      "note": "BOF: 'ViGEm' 0x1A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "566947456D1A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

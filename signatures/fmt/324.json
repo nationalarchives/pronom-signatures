@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 418,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0008(00|FF)(FF|00)0000(00|10)(10|00)525346545354594C(00100100|10000001)",
-      "endianness": null,
       "name": "EndNote Style (RSFTSTYL variant)",
-      "note": "ASCII: RSFTSTYL. This is a version of the EndNote Style format, which is commonly used with EndNote 8 and later versions."
+      "note": "ASCII: RSFTSTYL. This is a version of the EndNote Style format, which is commonly used with EndNote 8 and later versions.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0008(00|FF)(FF|00)0000(00|10)(10|00)525346545354594C(00100100|10000001)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 419,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0008(00|FF)(FF|00)0000(00|10)(10|00)454E444E454E4654(00100100|10000001)",
-      "endianness": null,
       "name": "EndNote Style (ENDNENFT variant)",
-      "note": "ASCII: ENDNENFT. This is a version of the EndNote Style format, which is commonly used with EndNote 7 and earlier versions"
+      "note": "ASCII: ENDNENFT. This is a version of the EndNote Style format, which is commonly used with EndNote 7 and earlier versions",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0008(00|FF)(FF|00)0000(00|10)(10|00)454E444E454E4654(00100100|10000001)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

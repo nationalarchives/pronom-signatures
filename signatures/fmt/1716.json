@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2060,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "010000000400000044564343",
-      "endianness": null,
       "name": "Cintel Raw Image/DaVinci Resolve Image",
-      "note": "BOF: 0x01000000, 0x04000000, \u201cDVCC\u201d"
+      "note": "BOF: 0x01000000, 0x04000000, \u201cDVCC\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "010000000400000044564343",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

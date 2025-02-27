@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2177,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D534346{20}0301*2E(505054|707074)",
-      "endianness": null,
       "name": "Microsoft Powerpoint Packaged Presentation",
-      "note": "BOF Absolute from beginning of file, magic bytes:MSCF{20}..*.(PPT|ppt)"
+      "note": "BOF Absolute from beginning of file, magic bytes:MSCF{20}..*.(PPT|ppt)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D534346{20}0301*2E(505054|707074)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

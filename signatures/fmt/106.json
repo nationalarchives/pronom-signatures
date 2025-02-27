@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 44,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "46575303",
-      "endianness": null,
       "name": "SWF 3",
-      "note": "Header (FWS then version number) and end tag (..)"
-    },
-    {
-      "signatureID": 44,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000",
-      "endianness": null,
-      "name": "SWF 3",
-      "note": "Header (FWS then version number) and end tag (..)"
+      "note": "Header (FWS then version number) and end tag (..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "46575303",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

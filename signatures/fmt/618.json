@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 953,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "ACED00057372001B67656F6765627261",
-      "endianness": null,
       "name": "GeoGebra 1.0",
-      "note": "BOF: \u00ac\u00ed..sr..geogebra"
+      "note": "BOF: \u00ac\u00ed..sr..geogebra",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "ACED00057372001B67656F6765627261",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

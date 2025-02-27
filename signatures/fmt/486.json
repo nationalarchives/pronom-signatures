@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 758,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "52494658{4}4647444D",
-      "endianness": null,
       "name": "Macromedia Director DCR Windows",
-      "note": "BOF: RIFX{4}FGDM"
+      "note": "BOF: RIFX{4}FGDM",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "52494658{4}4647444D",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 759,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "58464952{4}4D444746",
-      "endianness": null,
       "name": "Macromedia Director DCR Macintosh",
-      "note": "BOF: XFIR{4}MDGF"
+      "note": "BOF: XFIR{4}MDGF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "58464952{4}4D444746",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

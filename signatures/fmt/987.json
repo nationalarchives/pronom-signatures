@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1354,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D534346{20}0301{1-2048}6F6E65746F63",
-      "endianness": null,
       "name": "OneNote package file",
-      "note": "MSCF{20}..{1-2048}onetoc"
+      "note": "MSCF{20}..{1-2048}onetoc",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D534346{20}0301{1-2048}6F6E65746F63",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

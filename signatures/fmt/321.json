@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 415,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000001{35}2E{34}01",
-      "endianness": null,
       "name": "ESRI Shapefile Header Index",
-      "note": "Signature based on structured pattern observed in sample files, with first 5 bytes being constant,the next 35 used to identify index header column names. File always ends with 01"
+      "note": "Signature based on structured pattern observed in sample files, with first 5 bytes being constant,the next 35 used to identify index header column names. File always ends with 01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000001{35}2E{34}01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

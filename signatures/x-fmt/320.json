@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 394,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "46494601{52}C0",
-      "endianness": null,
       "name": "Fractal Image",
-      "note": "Header: FIF.{52}\u00c0"
+      "note": "Header: FIF.{52}\u00c0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "46494601{52}C0",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

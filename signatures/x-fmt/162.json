@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 396,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3C4D494646696C6520{4}3E2023",
-      "endianness": null,
       "name": "Framemaker Interchange Format Document",
-      "note": "MIFFile statement followed by a comment"
+      "note": "MIFFile statement followed by a comment",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3C4D494646696C6520{4}3E2023",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,33 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 481,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "010000006C000000{32}20454D4600000100{12}00000000{28}00000000",
-      "endianness": null,
       "name": "Microsoft Windows Enhanced Metafile 3.0 (Variation 1)",
-      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) 108 decimal; Bounds (16 bytes); Frame (16 bytes); signature (\u201cEMF  \u201c; Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) zero ; offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer); number of entries in the palette (4 bytes); Device Size in pixels (8 bytes); device size in millimeters (8 bytes);  cbPixelFormat\u2014size of the PixelFormatDescriptor (4 bytes);  offPixelformat\u2014offset to the PixelFormatDescriptor (4 bytes) zero"
+      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) 108 decimal; Bounds (16 bytes); Frame (16 bytes); signature (\u201cEMF  \u201c; Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) zero ; offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer); number of entries in the palette (4 bytes); Device Size in pixels (8 bytes); device size in millimeters (8 bytes);  cbPixelFormat\u2014size of the PixelFormatDescriptor (4 bytes);  offPixelformat\u2014offset to the PixelFormatDescriptor (4 bytes) zero",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "010000006C000000{32}20454D4600000100{12}00000000{28}00000000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 482,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "01000000{36}20454D4600000100{16}6C000000",
-      "endianness": null,
       "name": "Microsoft Windows Enhanced Metafile 3.0 (Variation 2)",
-      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) >108; Bounds (16 bytes); Frame (16 bytes); signature (\u201cEMF  \u201c; Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer); offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer) 108"
+      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) >108; Bounds (16 bytes); Frame (16 bytes); signature (\u201cEMF  \u201c; Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer); offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer) 108",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "01000000{36}20454D4600000100{16}6C000000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 483,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "01000000{36}20454D4600000100{44}6C000000",
-      "endianness": null,
       "name": "Microsoft Windows Enhanced Metafile 3.0 (Variation 3)",
-      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) >108; Bounds (16 bytes); Frame (16 bytes); signature (\u201cEMF  \u201c; Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer); offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer); number of entries in the palette (4 bytes); Device Size in pixels (8 bytes); device size in millimeters (8 bytes);  cbPixelFormat\u2014size of the PixelFormatDescriptor (4 bytes);  offPixelformat\u2014offset to the PixelFormatDescriptor (4 bytes) 108"
+      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) >108; Bounds (16 bytes); Frame (16 bytes); signature (\u201cEMF  \u201c; Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer); offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer); number of entries in the palette (4 bytes); Device Size in pixels (8 bytes); device size in millimeters (8 bytes);  cbPixelFormat\u2014size of the PixelFormatDescriptor (4 bytes);  offPixelformat\u2014offset to the PixelFormatDescriptor (4 bytes) 108",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "01000000{36}20454D4600000100{44}6C000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

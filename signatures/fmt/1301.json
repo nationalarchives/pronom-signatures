@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1676,
-      "positionType": "Absolute from BOF",
-      "offset": 12,
-      "maxOffset": 12,
-      "byteSequence": "5053443552444F43",
-      "endianness": null,
       "name": "The Print Shop Project 2",
-      "note": "BOF: PSD5RDOC"
+      "note": "BOF: PSD5RDOC",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 12,
+          "maxOffset": 12,
+          "byteSequence": "5053443552444F43",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

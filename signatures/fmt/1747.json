@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2089,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "EDDEAD0B02000000",
-      "endianness": null,
       "name": "Microsoft PowerPoint Presentation v2",
-      "note": "BOF; Offset: 0; Magic Bytes: 0xEDDEAD0B02000000"
+      "note": "BOF; Offset: 0; Magic Bytes: 0xEDDEAD0B02000000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "EDDEAD0B02000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

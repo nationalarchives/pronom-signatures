@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 603,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49443B50",
-      "endianness": null,
       "name": "Microsoft Symbolic Link (SYLK) File",
-      "note": "First Record type descriptor is ID;P<name>;  Last record is E"
-    },
-    {
-      "signatureID": 603,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "(0D|0D0A|0A)45(0D|0D0A|0A)",
-      "endianness": null,
-      "name": "Microsoft Symbolic Link (SYLK) File",
-      "note": "First Record type descriptor is ID;P<name>;  Last record is E"
+      "note": "First Record type descriptor is ID;P<name>;  Last record is E",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49443B50",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "(0D|0D0A|0A)45(0D|0D0A|0A)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

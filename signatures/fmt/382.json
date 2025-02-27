@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 565,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "30??[01:0C][01:1F]{4}2802A5{21}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59){508}2001000000010000([41:5A]|[61:7A])",
-      "endianness": null,
       "name": "Microsoft Visual FoxPro database container (table files)",
-      "note": "A rudimentary signature based on a header sequence: Version number, Date of last update MMDD, character field and signifier."
+      "note": "A rudimentary signature based on a header sequence: Version number, Date of last update MMDD, character field and signifier.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "30??[01:0C][01:1F]{4}2802A5{21}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59){508}2001000000010000([41:5A]|[61:7A])",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

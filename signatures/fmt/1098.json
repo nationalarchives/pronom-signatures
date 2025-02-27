@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1481,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FD377A585A00",
-      "endianness": null,
       "name": "XZ File Format",
-      "note": "BOF: 0xFD '7zXZ', 0x00\r\nEOF: YZ\r\nhttps://tukaani.org/xz/xz-file-format.txt"
-    },
-    {
-      "signatureID": 1481,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "595A",
-      "endianness": null,
-      "name": "XZ File Format",
-      "note": "BOF: 0xFD '7zXZ', 0x00\r\nEOF: YZ\r\nhttps://tukaani.org/xz/xz-file-format.txt"
+      "note": "BOF: 0xFD '7zXZ', 0x00\r\nEOF: YZ\r\nhttps://tukaani.org/xz/xz-file-format.txt",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FD377A585A00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "595A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

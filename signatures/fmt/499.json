@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 774,
-      "positionType": "Absolute from BOF",
-      "offset": 3,
-      "maxOffset": null,
-      "byteSequence": "0D0A56657273696F6E3A5669766F2F312E3030",
-      "endianness": null,
       "name": "Vivo Active V1",
-      "note": "BOF offset 3 ..Version:Vivo/1.00"
+      "note": "BOF offset 3 ..Version:Vivo/1.00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 3,
+          "maxOffset": null,
+          "byteSequence": "0D0A56657273696F6E3A5669766F2F312E3030",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 775,
-      "positionType": "Absolute from BOF",
-      "offset": 3,
-      "maxOffset": null,
-      "byteSequence": "0D0A56657273696F6E3A5669766F2F322E3030",
-      "endianness": null,
       "name": "Vivo Active V2",
-      "note": "BOF offset 3 ..Version:Vivo/2.00"
+      "note": "BOF offset 3 ..Version:Vivo/2.00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 3,
+          "maxOffset": null,
+          "byteSequence": "0D0A56657273696F6E3A5669766F2F322E3030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 196,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D5A",
-      "endianness": null,
       "name": "MS-DOS Executable",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D5A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,43 +36,45 @@
   "internalSignatures": [
     {
       "signatureID": 264,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 144,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": "Little-endian",
       "name": "Acrobat PDF/A-1a",
-      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>1<pdfaid:part> and <pdfaid:conformance>A<pdfaid:conformance>, which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
-    },
-    {
-      "signatureID": 264,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
-      "endianness": "Little-endian",
-      "name": "Acrobat PDF/A-1a",
-      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>1<pdfaid:part> and <pdfaid:conformance>A<pdfaid:conformance>, which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>1<pdfaid:part> and <pdfaid:conformance>A<pdfaid:conformance>, which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 144,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 1954,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 144,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "PDF/A-1A 2",
-      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>A<pdfaid:conformance>and <pdfaid:part>1<pdfaid:part>, and which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
-    },
-    {
-      "signatureID": 1954,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)",
-      "endianness": null,
-      "name": "PDF/A-1A 2",
-      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>A<pdfaid:conformance>and <pdfaid:part>1<pdfaid:part>, and which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+      "note": "Describes a signature for the PDF/A-1a form. Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>A<pdfaid:conformance>and <pdfaid:part>1<pdfaid:part>, and which are the two mandatory elements and values for PDFA/1a. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 144,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

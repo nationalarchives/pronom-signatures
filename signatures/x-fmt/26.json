@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2298,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4175746F43414420457874656E64656420426174636820506C6F74204C697374",
-      "endianness": null,
       "name": "AutoCAD Batch Plot File 1.0-R14",
-      "note": "Absolute from beginning of file, magic bytes: AutoCAD Extended Batch Plot List"
+      "note": "Absolute from beginning of file, magic bytes: AutoCAD Extended Batch Plot List",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4175746F43414420457874656E64656420426174636820506C6F74204C697374",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

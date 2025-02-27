@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 930,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F77706C2076657273696F6E3D22312E30223F3E",
-      "endianness": null,
       "name": "Windows Media Playlist",
-      "note": "BOF: <?wpl version=\"1.0\"?>"
+      "note": "BOF: <?wpl version=\"1.0\"?>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F77706C2076657273696F6E3D22312E30223F3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

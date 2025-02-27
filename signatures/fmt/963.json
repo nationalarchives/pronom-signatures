@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1320,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "537065637472616C20446174612046696C65",
-      "endianness": null,
       "name": "Spectral Data File",
-      "note": "BOF: Spectral Data File"
+      "note": "BOF: Spectral Data File",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "537065637472616C20446174612046696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

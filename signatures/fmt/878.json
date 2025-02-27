@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1232,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF575043{4}0F0F01",
-      "endianness": null,
       "name": "Corel Presentations 3",
-      "note": "\u00ffWPC{4}\u2026"
+      "note": "\u00ffWPC{4}\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF575043{4}0F0F01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

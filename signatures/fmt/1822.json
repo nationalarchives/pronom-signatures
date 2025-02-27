@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2162,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "(2E736E64|646E732E){20}4175646163697479426C6F636B46696C65",
-      "endianness": null,
       "name": "Audacity Audio Block File",
-      "note": "BOF Absolute from beginning of file, magic bytes: .snd|dns.{20}AudacityBlockFile"
+      "note": "BOF Absolute from beginning of file, magic bytes: .snd|dns.{20}AudacityBlockFile",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "(2E736E64|646E732E){20}4175646163697479426C6F636B46696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

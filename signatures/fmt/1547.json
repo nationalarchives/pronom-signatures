@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1892,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "339B",
-      "endianness": null,
       "name": "Daisy-Dot Font (Version III)",
-      "note": "BOF:'3' followed by 0x9B"
+      "note": "BOF:'3' followed by 0x9B",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "339B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

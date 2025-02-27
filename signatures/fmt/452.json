@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 706,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "410D0A",
-      "endianness": null,
       "name": "Acrobat Catalog Cat File",
-      "note": "This file is always 3 bytes long: A.. - 410D0A"
-    },
-    {
-      "signatureID": 706,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "410D0A",
-      "endianness": null,
-      "name": "Acrobat Catalog Cat File",
-      "note": "This file is always 3 bytes long: A.. - 410D0A"
+      "note": "This file is always 3 bytes long: A.. - 410D0A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "410D0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "410D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

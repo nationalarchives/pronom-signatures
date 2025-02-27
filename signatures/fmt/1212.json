@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1590,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "5B4356412046696C6520496E666F726D6174696F6E5D",
-      "endianness": null,
       "name": "HP SSM CVA",
-      "note": "BOF: 0-3 '[CVA File Information]"
+      "note": "BOF: 0-3 '[CVA File Information]",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "5B4356412046696C6520496E666F726D6174696F6E5D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

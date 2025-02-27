@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 331,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4175746F4341442D383620(736861706573|756E69666F6E74|626967666F6E74)20312E",
-      "endianness": null,
       "name": "AutoCAD Compiled Shape/Font File",
-      "note": "Header AutoCAD-86 followed by shapes, unifont, or bigfont followed by version number."
+      "note": "Header AutoCAD-86 followed by shapes, unifont, or bigfont followed by version number.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4175746F4341442D383620(736861706573|756E69666F6E74|626967666F6E74)20312E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 560,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "30??[01:0C][01:1F]{1}000000880AE5{21}504C4154464F524D00000043{20}554E49515545494400000043{52}4F424A54595045000000004E",
-      "endianness": null,
       "name": "Microsoft Visual FoxPro Report",
-      "note": "Header sequence: Version number, Date of last update MMDD, character field 'PLATFORM' followed by character field 'UNIQUE ID', and later character field 'OBJTYPE'\r\nSignature developed utilising collection of frx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal structure of file available at: \r\nhttp://www.mattslay.com/pages/FoxPro-Report-FRX-Structure.html"
+      "note": "Header sequence: Version number, Date of last update MMDD, character field 'PLATFORM' followed by character field 'UNIQUE ID', and later character field 'OBJTYPE'\r\nSignature developed utilising collection of frx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal structure of file available at: \r\nhttp://www.mattslay.com/pages/FoxPro-Report-FRX-Structure.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "30??[01:0C][01:1F]{1}000000880AE5{21}504C4154464F524D00000043{20}554E49515545494400000043{52}4F424A54595045000000004E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

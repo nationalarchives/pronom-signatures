@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 929,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "414249460065",
-      "endianness": null,
       "name": "LifeTechnologies ABIF",
-      "note": "BOF: ABIF.e"
+      "note": "BOF: ABIF.e",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "414249460065",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

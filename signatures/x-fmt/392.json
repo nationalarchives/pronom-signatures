@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 251,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000C6A5020200D0A870A{4}667479706A7032",
-      "endianness": "Big-endian",
       "name": "JPEG2000",
-      "note": "From the ISO JPEG2000 specification"
+      "note": "From the ISO JPEG2000 specification",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000C6A5020200D0A870A{4}667479706A7032",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

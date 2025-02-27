@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1705,
-      "positionType": "Absolute from BOF",
-      "offset": 2,
-      "maxOffset": 2,
-      "byteSequence": "4D4D585052{2}42",
-      "endianness": null,
       "name": "QuarkXPress 5 (Motorola)",
-      "note": "BOF (Offset 2):'MMXPR'{2}'B'."
+      "note": "BOF (Offset 2):'MMXPR'{2}'B'.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2,
+          "maxOffset": 2,
+          "byteSequence": "4D4D585052{2}42",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1706,
-      "positionType": "Absolute from BOF",
-      "offset": 2,
-      "maxOffset": 2,
-      "byteSequence": "4949585052{1}42",
-      "endianness": null,
       "name": "QuarkXPress 5 (Intel)",
-      "note": "BOF (Offset 2):'IIXPR'{1}'B'."
+      "note": "BOF (Offset 2):'IIXPR'{1}'B'.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2,
+          "maxOffset": 2,
+          "byteSequence": "4949585052{1}42",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 809,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000303030303030313230303220{13}2F2F646F646C2076657273696F6E20616E642066696C652069640D0A",
-      "endianness": null,
       "name": "PowerProject v12.0.01",
-      "note": "..00000012002 {13}//dodl version and file id.."
+      "note": "..00000012002 {13}//dodl version and file id..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000303030303030313230303220{13}2F2F646F646C2076657273696F6E20616E642066696C652069640D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

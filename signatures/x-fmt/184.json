@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 598,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "59A66A95{8}000000{5}000000??000000??",
-      "endianness": null,
       "name": "Sun Raster Image",
-      "note": "Magic number for Sun Raster, height & width, depth, length, type, colormap"
+      "note": "Magic number for Sun Raster, height & width, depth, length, type, colormap",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "59A66A95{8}000000{5}000000??000000??",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

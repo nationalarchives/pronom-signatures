@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2024,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "23204152432F494E464F2066696C6520637265617465642066726F6D204552204D6170706572{4-257}627974656F72646572{3-4}6E62697473{3-4}7864696D{1-15}7964696D{1-15}6E636F6C73{2-6}6E726F7773{4-6}6E62616E6473{3-4}756C786D6170{9-15}756C796D6170",
-      "endianness": null,
       "name": "ESRI ArcGIS Raw Raster Reader/ Writer with header",
-      "note": "BOF Absolute from beginning of file, magic bytes: ARC/INFO file created from ER Mapper{4-257}byteorder{3-4}nbits 8{3-4}xdim{1-15}ydim{1-15}ncols{2-6}nrows{4-6}nbands{3-4}ulxmap{9-15}ulymap"
+      "note": "BOF Absolute from beginning of file, magic bytes: ARC/INFO file created from ER Mapper{4-257}byteorder{3-4}nbits 8{3-4}xdim{1-15}ydim{1-15}ncols{2-6}nrows{4-6}nbands{3-4}ulxmap{9-15}ulymap",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23204152432F494E464F2066696C6520637265617465642066726F6D204552204D6170706572{4-257}627974656F72646572{3-4}6E62697473{3-4}7864696D{1-15}7964696D{1-15}6E636F6C73{2-6}6E726F7773{4-6}6E62616E6473{3-4}756C786D6170{9-15}756C796D6170",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2025,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "425954454F52444552{7}0A4C41594F5554{9}42494C0A4E524F5753{13-15}0A4E434F4C53{13-16}0A4E42414E4453{10}0A4E42495453{12}0A42414E44524F574259544553{7-8}0A544F54414C524F574259544553{6-7}0A504958454C54595045",
-      "endianness": null,
       "name": "ESRI ArcGIS Raw Raster Reader/ Writer",
-      "note": "BOF Absolute from beginning of file, magic bytes: BYTEORDER{7}.LAYOUT{9}BIL.NROWS{13-15}.NCOLS{13-16}.NBANDS{10}.NBITS{12}.BANDROWBYTES{7-8}.TOTALROWBYTES{6-7}PIXELTYPE"
+      "note": "BOF Absolute from beginning of file, magic bytes: BYTEORDER{7}.LAYOUT{9}BIL.NROWS{13-15}.NCOLS{13-16}.NBANDS{10}.NBITS{12}.BANDROWBYTES{7-8}.TOTALROWBYTES{6-7}PIXELTYPE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "425954454F52444552{7}0A4C41594F5554{9}42494C0A4E524F5753{13-15}0A4E434F4C53{13-16}0A4E42414E4453{10}0A4E42495453{12}0A42414E44524F574259544553{7-8}0A544F54414C524F574259544553{6-7}0A504958454C54595045",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

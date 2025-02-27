@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1377,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000000000000000000000000C2EA8160B31411CFBD92080009C7318C181F1011{7}31{116}44415441",
-      "endianness": null,
       "name": "SAS Data (Unix) Generic",
-      "note": "BOF: 32 byte binary magic {7} 0x31 = Unix {116} 'DATA'\r\nSignature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf"
+      "note": "BOF: 32 byte binary magic {7} 0x31 = Unix {116} 'DATA'\r\nSignature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000000000000000000000000C2EA8160B31411CFBD92080009C7318C181F1011{7}31{116}44415441",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

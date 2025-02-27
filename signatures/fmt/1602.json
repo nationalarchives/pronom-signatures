@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1937,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D53465402000100",
-      "endianness": null,
       "name": "Type Library Type 2",
-      "note": "BOF; Offset: 0; Magic Bytes: 'MSFT...'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'MSFT...'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D53465402000100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

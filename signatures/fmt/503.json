@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 778,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 196,
-      "byteSequence": "0005160700020000",
-      "endianness": null,
       "name": "Apple Double Resource Fork (v2)",
-      "note": "BOF: \"\u2026\u2026..\" 4 byte AppleDouble Magic Number, then 4 byte version number"
+      "note": "BOF: \"\u2026\u2026..\" 4 byte AppleDouble Magic Number, then 4 byte version number",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 196,
+          "byteSequence": "0005160700020000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

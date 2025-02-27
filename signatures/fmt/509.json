@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 802,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0001{64}81000A002C012C01{43}1E00",
-      "endianness": null,
       "name": "Adobe PFM",
-      "note": "BOF: (..{64}....,.,.{43}..) - 117 byte header: 2byte 'dfVersion', then after Length and Copyright string, 8 bytes (dfType, dfPoint, dfVertRes, dfHorizRes), then first two bytes after the header represent first PFM extension, 'dfSizeFields'"
+      "note": "BOF: (..{64}....,.,.{43}..) - 117 byte header: 2byte 'dfVersion', then after Length and Copyright string, 8 bytes (dfType, dfPoint, dfVertRes, dfHorizRes), then first two bytes after the header represent first PFM extension, 'dfSizeFields'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0001{64}81000A002C012C01{43}1E00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

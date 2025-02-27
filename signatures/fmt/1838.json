@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2176,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "77696C643A3A67656F73797374656D73",
-      "endianness": null,
       "name": "Leica Project File",
-      "note": "BOF Absolute from beginning of file, magic bytes: \"wild::geosystems\"\r\nEOF, offset 0-64, magic bytes: \"Leica Project File\""
-    },
-    {
-      "signatureID": 2176,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 64,
-      "byteSequence": "4C656963612050726F6A6563742046696C65",
-      "endianness": null,
-      "name": "Leica Project File",
-      "note": "BOF Absolute from beginning of file, magic bytes: \"wild::geosystems\"\r\nEOF, offset 0-64, magic bytes: \"Leica Project File\""
+      "note": "BOF Absolute from beginning of file, magic bytes: \"wild::geosystems\"\r\nEOF, offset 0-64, magic bytes: \"Leica Project File\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "77696C643A3A67656F73797374656D73",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 64,
+          "byteSequence": "4C656963612050726F6A6563742046696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

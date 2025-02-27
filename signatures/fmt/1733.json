@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2071,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "746D38395053",
-      "endianness": null,
       "name": "PaintShop Plus Compressed Format",
-      "note": "BOF:'tm89PS'"
+      "note": "BOF:'tm89PS'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "746D38395053",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

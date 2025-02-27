@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1180,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "43363446696C6500{16}00",
-      "endianness": null,
       "name": "P00 C64 Image Format",
-      "note": "C64File.{16}."
+      "note": "C64File.{16}.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "43363446696C6500{16}00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

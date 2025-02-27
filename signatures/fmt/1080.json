@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1461,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "3C2540204170706C69636174696F6E20(436F6465426568696E64|436F6D70696C65724F7074696F6E73|4465736372697074696F6E|496E686572697473|4C616E6775616765)3D",
-      "endianness": null,
       "name": "ASP Application Directive",
-      "note": "BOF: <%@ Application (CodeBehind|CompilerOptions|Description|Inherits|Language)=\r\nhttps://msdn.microsoft.com/en-us/library/es4ac4ek(v=vs.85).aspx"
+      "note": "BOF: <%@ Application (CodeBehind|CompilerOptions|Description|Inherits|Language)=\r\nhttps://msdn.microsoft.com/en-us/library/es4ac4ek(v=vs.85).aspx",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "3C2540204170706C69636174696F6E20(436F6465426568696E64|436F6D70696C65724F7074696F6E73|4465736372697074696F6E|496E686572697473|4C616E6775616765)3D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

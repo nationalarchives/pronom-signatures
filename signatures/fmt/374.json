@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 552,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "30??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-      "endianness": null,
       "name": "Microsoft Visual FoxPro Database table file",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "30??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 553,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "31??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-      "endianness": null,
       "name": "Microsoft Visual FoxPro Database table file, autoincrement enabled",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "31??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 554,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "32??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-      "endianness": null,
       "name": "Microsoft Visual FoxPro Database table file, with field type Varchar or Varbinary",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "32??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

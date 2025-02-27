@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1905,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "535044",
-      "endianness": null,
       "name": "SpritePad Image Format",
-      "note": "BOF; Offset: 0; Magic Bytes: SPD"
+      "note": "BOF; Offset: 0; Magic Bytes: SPD",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "535044",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

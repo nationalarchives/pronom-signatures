@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1400,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0E031301",
-      "endianness": null,
       "name": "HDF 1-4",
-      "note": "BOF: (magic) 0x0E031301\r\nhttps://support.hdfgroup.org/release4/doc/Dspec_html/DS.pdf"
+      "note": "BOF: (magic) 0x0E031301\r\nhttps://support.hdfgroup.org/release4/doc/Dspec_html/DS.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0E031301",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

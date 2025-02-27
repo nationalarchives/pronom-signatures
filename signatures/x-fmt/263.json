@@ -36,33 +36,38 @@
   "internalSignatures": [
     {
       "signatureID": 200,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "504B0304",
-      "endianness": null,
       "name": "ZIP Format Signature 1",
-      "note": "Local file header at BOF (with maximum offset of 4 bytes) + central file header and end of central directory near EOF. NB. The signature byte sequence is currently massaged to steer around the known PRONOM bug in the area of right fragment matching when the longest fragment is not nearest EOF. The first fragment in the EOF byte sequence has been shortened by 1 byte to ensure that the subsequent fragment is the longest. This abbreviation does not reduce the overall signature strength too much and so will hopefully not result in any false pisitive identification. When the PRONOM bug has been fixed, the \"504B01\" at the start of the EOF byte sequence should be extended to \"504B0102\", and this note reduced."
-    },
-    {
-      "signatureID": 200,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B01{43-65531}504B0506{18-65531}",
-      "endianness": "Little-endian",
-      "name": "ZIP Format Signature 1",
-      "note": "Local file header at BOF (with maximum offset of 4 bytes) + central file header and end of central directory near EOF. NB. The signature byte sequence is currently massaged to steer around the known PRONOM bug in the area of right fragment matching when the longest fragment is not nearest EOF. The first fragment in the EOF byte sequence has been shortened by 1 byte to ensure that the subsequent fragment is the longest. This abbreviation does not reduce the overall signature strength too much and so will hopefully not result in any false pisitive identification. When the PRONOM bug has been fixed, the \"504B01\" at the start of the EOF byte sequence should be extended to \"504B0102\", and this note reduced."
+      "note": "Local file header at BOF (with maximum offset of 4 bytes) + central file header and end of central directory near EOF. NB. The signature byte sequence is currently massaged to steer around the known PRONOM bug in the area of right fragment matching when the longest fragment is not nearest EOF. The first fragment in the EOF byte sequence has been shortened by 1 byte to ensure that the subsequent fragment is the longest. This abbreviation does not reduce the overall signature strength too much and so will hopefully not result in any false pisitive identification. When the PRONOM bug has been fixed, the \"504B01\" at the start of the EOF byte sequence should be extended to \"504B0102\", and this note reduced.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "504B0304",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B01{43-65531}504B0506{18-65531}",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 2311,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504B05060000",
-      "endianness": null,
       "name": "ZIP Format Signature 2",
-      "note": "BOF; Offset: 0; Magic Bytes: 'PK' followed by 0x05060000 denoting the end of the central directory"
+      "note": "BOF; Offset: 0; Magic Bytes: 'PK' followed by 0x05060000 denoting the end of the central directory",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504B05060000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -185,7 +190,7 @@
     {
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1270,
-      "relatedFormatName": "ePub format"
+      "relatedFormatName": "ePub Format"
     },
     {
       "relationshipType": "Has lower priority than",

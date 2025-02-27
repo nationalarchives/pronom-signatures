@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 999,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D4F5200000008",
-      "endianness": null,
       "name": "Olympus RAW big endian",
-      "note": "BOF: MMOR...."
+      "note": "BOF: MMOR....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D4F5200000008",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1001,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4949524F08000000",
-      "endianness": null,
       "name": "Olympus RAW little endian 1",
-      "note": "BOF: IIRO...."
+      "note": "BOF: IIRO....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4949524F08000000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1002,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4949525308000000",
-      "endianness": null,
       "name": "Olympus RAW little endian 2",
-      "note": "BOF: IIRS\u2026."
+      "note": "BOF: IIRS\u2026.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4949525308000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

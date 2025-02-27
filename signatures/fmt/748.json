@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1075,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "06{3}424F424F{270}00",
-      "endianness": null,
       "name": "CWK 6 Drawing",
-      "note": "(Version){3}BOBO{270}(format type 0x00 = drawing)"
+      "note": "(Version){3}BOBO{270}(format type 0x00 = drawing)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "06{3}424F424F{270}00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

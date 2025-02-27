@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 293,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "0D0A582D4D696D654F4C453A2050726F6475636564204279204D6963726F736F6674204D696D654F4C452056362E30302E{4}2E{4}0D0A",
-      "endianness": null,
       "name": "Outlook Express Mail Message",
-      "note": "Version of ARPA Internet Text Message. ASCII Characters, X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350 and including the two CRLF that terminate the line in the eml header. Signature may be too prescriptive and will need improving with more eml format testing."
+      "note": "Version of ARPA Internet Text Message. ASCII Characters, X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350 and including the two CRLF that terminate the line in the eml header. Signature may be too prescriptive and will need improving with more eml format testing.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "0D0A582D4D696D654F4C453A2050726F6475636564204279204D6963726F736F6674204D696D654F4C452056362E30302E{4}2E{4}0D0A",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 294,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4096,
-      "byteSequence": "0D0A582D436F6E7665727465642D42793A20456D61696C6368656D7920??2E",
-      "endianness": null,
       "name": "Emailchemy RFC2822",
-      "note": "Signature to identify RFC2822 standard messages output from Emailchemy email conversion application. Character sequence: X-Converted-By: Emailchemy ??."
+      "note": "Signature to identify RFC2822 standard messages output from Emailchemy email conversion application. Character sequence: X-Converted-By: Emailchemy ??.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4096,
+          "byteSequence": "0D0A582D436F6E7665727465642D42793A20456D61696C6368656D7920??2E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1528,
-      "positionType": "Absolute from BOF",
-      "offset": 2,
-      "maxOffset": null,
-      "byteSequence": "4D58492E204D617877656C6C20496D61676520666F726D61742E",
-      "endianness": null,
       "name": "Maxwell Render Image Format",
-      "note": "BOF, offset 2: \"MXI. Maxwell Image format.\""
+      "note": "BOF, offset 2: \"MXI. Maxwell Image format.\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2,
+          "maxOffset": null,
+          "byteSequence": "4D58492E204D617877656C6C20496D61676520666F726D61742E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

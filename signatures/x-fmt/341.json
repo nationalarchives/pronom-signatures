@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 409,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "52494658{4}4D563933696D617000000018000000010000002C",
-      "endianness": null,
       "name": "Macromedia Director PC",
-      "note": "Header ASCII: RIFX"
+      "note": "Header ASCII: RIFX",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "52494658{4}4D563933696D617000000018000000010000002C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1483,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "66747970(6D696631|6D736631|68656963|68656978|68657663|68657678)",
-      "endianness": null,
       "name": "HEIF",
-      "note": "BOF, offset4: ftyp(mif1|msf1|heic|heix|hevc|hevx) - http://nokiatech.github.io/heif/technical.html"
+      "note": "BOF, offset4: ftyp(mif1|msf1|heic|heix|hevc|hevx) - http://nokiatech.github.io/heif/technical.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "66747970(6D696631|6D736631|68656963|68656978|68657663|68657678)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

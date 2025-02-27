@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1025,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0F534942454C495553",
-      "endianness": null,
       "name": "Sibelius",
-      "note": "Absolute from beginning of file, magic bytes: .SIBELIUS"
+      "note": "Absolute from beginning of file, magic bytes: .SIBELIUS",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0F534942454C495553",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

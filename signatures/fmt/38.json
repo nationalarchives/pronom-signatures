@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 127,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "DBA5{16}00000000",
-      "endianness": null,
       "name": "Microsoft Word for Windows 2.0",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "DBA5{16}00000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

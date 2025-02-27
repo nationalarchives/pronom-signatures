@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 569,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "524946462400000043444441666D742018",
-      "endianness": null,
       "name": "CD Audio",
-      "note": "Files are 44 bytes in length, with header sequence ASCII: RIFF$...CDDAfmt ."
+      "note": "Files are 44 bytes in length, with header sequence ASCII: RIFF$...CDDAfmt .",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "524946462400000043444441666D742018",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

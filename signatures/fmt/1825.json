@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2165,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-1024}617564616369747976657273696F6E3D22322E",
-      "endianness": null,
       "name": "Audacity Project File (v.2.x)",
-      "note": "BOF Absolute from beginning of file, magic bytes:\t <?xml version=(\"|')1.0(\"|'){0-1024}audacityversion=\"2."
+      "note": "BOF Absolute from beginning of file, magic bytes:\t <?xml version=(\"|')1.0(\"|'){0-1024}audacityversion=\"2.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-1024}617564616369747976657273696F6E3D22322E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

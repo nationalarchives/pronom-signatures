@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1201,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41445345474D454E54454446494C45",
-      "endianness": null,
       "name": "AD1",
-      "note": "BOF: ADSEGMENTEDFILE. A single AD1 file, or the first part of a multipart AD1 will also contain the string ADLOGICALIMAGE, likely at position 0x0200"
+      "note": "BOF: ADSEGMENTEDFILE. A single AD1 file, or the first part of a multipart AD1 will also contain the string ADLOGICALIMAGE, likely at position 0x0200",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41445345474D454E54454446494C45",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 555,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00{3}000000[!00]{504}000000[00:02]{4}[!00]",
-      "endianness": null,
       "name": "Microsoft FoxPro Memo Generic 1",
-      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files."
+      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00{3}000000[!00]{504}000000[00:02]{4}[!00]",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 556,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00{3}000000[!00]{520}000000[00:02]{4}[!00]",
-      "endianness": "Little-endian",
       "name": "Microsoft FoxPro Memo Generic 2",
-      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files."
+      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00{3}000000[!00]{520}000000[00:02]{4}[!00]",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 557,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00{3}000000[!00]{504}000000[00:02]000000010000000001000000[!00]",
-      "endianness": null,
       "name": "Microsoft FoxPro Memo Generic 3",
-      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files."
+      "note": "This signature identifies memo files used by Microsoft FoxPro and Microsoft Visual FoxPro software, including standard memo files, class library memo files, and associated memo files.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00{3}000000[!00]{504}000000[00:02]000000010000000001000000[!00]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

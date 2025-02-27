@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1929,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "A70220A0E5A90A8D",
-      "endianness": null,
       "name": "SPY (SPYne Containers)",
-      "note": "BOF; Offset: 0; Magic Bytes: 0xA70220A0E5A90A8D"
+      "note": "BOF; Offset: 0; Magic Bytes: 0xA70220A0E5A90A8D",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "A70220A0E5A90A8D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

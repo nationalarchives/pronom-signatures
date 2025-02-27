@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1398,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D3822207374616E64616C6F6E653D22796573223F3E0A3C21444F4354595045205245445849463E",
-      "endianness": null,
       "name": "Redcode Metadata",
-      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>.<!DOCTYPE REDXIF>"
+      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>.<!DOCTYPE REDXIF>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D3822207374616E64616C6F6E653D22796573223F3E0A3C21444F4354595045205245445849463E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

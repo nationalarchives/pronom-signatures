@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1854,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D534346{56}5F4163635270745F2E736E70",
-      "endianness": null,
       "name": "Access Report Snapshot",
-      "note": "BOF: 'MSCF'{56}'_AccRpt_.snp'"
+      "note": "BOF: 'MSCF'{56}'_AccRpt_.snp'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D534346{56}5F4163635270745F2E736E70",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

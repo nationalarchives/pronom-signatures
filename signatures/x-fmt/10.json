@@ -32,73 +32,101 @@
   "internalSignatures": [
     {
       "signatureID": 544,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "04??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
-      "endianness": null,
       "name": "dBASE Database IV without memo",
-      "note": "Header sequence: Version number (04), Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N)."
+      "note": "Header sequence: Version number (04), Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "04??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 545,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "43??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
-      "endianness": null,
       "name": "dBASE Database IV SQL table files, no memo",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "43??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 546,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "63??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
-      "endianness": null,
       "name": "dBASE Database IV SQL system files, no memo",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "63??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 547,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "CB??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-      "endianness": null,
       "name": "dBASE Database IV SQL table files, with memo",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "CB??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 548,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-      "endianness": null,
       "name": "dBASE Database IV, with memo (7B byte)",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 549,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "8B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-      "endianness": null,
       "name": "dBASE Database IV, with memo (8B byte)",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "8B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 550,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "8E??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-      "endianness": null,
       "name": "dBASE Database IV, with SQL",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, F, L, M, N).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "8E??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

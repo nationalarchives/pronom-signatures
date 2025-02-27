@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1432,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{4}4949494943776152",
-      "endianness": null,
       "name": "Phase One IIQ Raw",
-      "note": "BOF: II*.{4}IIIICwaR"
+      "note": "BOF: II*.{4}IIIICwaR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{4}4949494943776152",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 583,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5031(20|09|0D0A|0A)",
-      "endianness": null,
       "name": "Portable Bitmap Image - ASCII",
-      "note": "\u201cP1\u201d followed by a whitespace char (blank, TAB, CR, LF)."
-    },
-    {
-      "signatureID": 583,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 70,
-      "byteSequence": "(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)0A",
-      "endianness": null,
-      "name": "Portable Bitmap Image - ASCII",
-      "note": "\u201cP1\u201d followed by a whitespace char (blank, TAB, CR, LF)."
+      "note": "\u201cP1\u201d followed by a whitespace char (blank, TAB, CR, LF).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5031(20|09|0D0A|0A)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 70,
+          "byteSequence": "(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)(30|31|20|0A|0D)0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

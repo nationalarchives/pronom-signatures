@@ -32,63 +32,73 @@
   "internalSignatures": [
     {
       "signatureID": 673,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{6-4080}169201000400000000000001",
-      "endianness": "Little-endian",
       "name": "TIFF/EP (little-endian, BOF)",
-      "note": "TIFF header plus TIFF/EPStandardId tag near BOF"
+      "note": "TIFF header plus TIFF/EPStandardId tag near BOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{6-4080}169201000400000000000001",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 674,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00",
-      "endianness": "Little-endian",
       "name": "TIFF/EP (little-endian, BOF+EOF)",
-      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
-    },
-    {
-      "signatureID": 674,
-      "positionType": "Absolute from EOF",
-      "offset": 4,
-      "maxOffset": 4084,
-      "byteSequence": "169201000400000000000001",
-      "endianness": "Little-endian",
-      "name": "TIFF/EP (little-endian, BOF+EOF)",
-      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
+      "note": "TIFF header plus TIFF/EPStandardId tag near EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 4,
+          "maxOffset": 4084,
+          "byteSequence": "169201000400000000000001",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 675,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A{6-4080}921600010000000401000000",
-      "endianness": "Big-endian",
       "name": "TIFF/EP (big-endian, BOF)",
-      "note": "TIFF header plus TIFF/EPStandardId tag near BOF"
+      "note": "TIFF header plus TIFF/EPStandardId tag near BOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A{6-4080}921600010000000401000000",
+          "endianness": "Big-endian"
+        }
+      ]
     },
     {
       "signatureID": 676,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A",
-      "endianness": "Big-endian",
       "name": "TIFF/EP (big-endian, BOF+EOF)",
-      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
-    },
-    {
-      "signatureID": 676,
-      "positionType": "Absolute from EOF",
-      "offset": 4,
-      "maxOffset": 4084,
-      "byteSequence": "921600010000000401000000",
-      "endianness": "Big-endian",
-      "name": "TIFF/EP (big-endian, BOF+EOF)",
-      "note": "TIFF header plus TIFF/EPStandardId tag near EOF"
+      "note": "TIFF header plus TIFF/EPStandardId tag near EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A",
+          "endianness": "Big-endian"
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 4,
+          "maxOffset": 4084,
+          "byteSequence": "921600010000000401000000",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1504,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 16,
-      "byteSequence": "56414D41532053757266616365204368656D6963616C20416E616C79736973205374616E646172642044617461205472616E7366657220466F726D61742031393838204D61792034",
-      "endianness": null,
       "name": "VAMAS Surface Chemical Analysis Standard Data Transfer Format",
-      "note": "String near BOF: \"VAMAS Surface Chemical Analysis Standard Data Transfer Format 1988 May 4\""
+      "note": "String near BOF: \"VAMAS Surface Chemical Analysis Standard Data Transfer Format 1988 May 4\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 16,
+          "byteSequence": "56414D41532053757266616365204368656D6963616C20416E616C79736973205374616E646172642044617461205472616E7366657220466F726D61742031393838204D61792034",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

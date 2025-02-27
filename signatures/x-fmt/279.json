@@ -10,7 +10,7 @@
   "lastUpdatedDate": "17 Apr 2024",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": "04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.",
+  "formatProvenance": "v.118: Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.\r\nV.120: Added extension m3u8.",
   "formatSourceDate": "02 Aug 2005",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -33,6 +33,10 @@
   "externalSignatures": [
     {
       "externalSignature": "m3u",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "m3u8",
       "signatureType": "File extension"
     }
   ],

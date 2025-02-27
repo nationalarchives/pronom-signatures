@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 928,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5344533200020002",
-      "endianness": null,
       "name": "LifeTechnologies SDS",
-      "note": "BOF: SDS2\u2026."
+      "note": "BOF: SDS2\u2026.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5344533200020002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 120,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "424D{4}00000000{4}6C000000{8}0100(01|04|08|10|18|20)00(00|01|02|03)000000",
-      "endianness": null,
       "name": "Windows Bitmap 4.0",
-      "note": "BITMAPFILEHEADER + BITMAPV4HEADER structures"
+      "note": "BITMAPFILEHEADER + BITMAPV4HEADER structures",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "424D{4}00000000{4}6C000000{8}0100(01|04|08|10|18|20)00(00|01|02|03)000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

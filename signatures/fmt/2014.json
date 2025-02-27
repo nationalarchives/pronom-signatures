@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 3888,
+  "formatName": "Axon Binary Format",
+  "version": null,
+  "formatDescription": "The Axon Binary Format was created to store binary experimental data. It originated with the pCLAMP suite of programs in the late 1990s, and is also supported by AxoTape and AxoScope. The Axon binary format is encoded as a proprietary format, however it can be read and created by third-party developers. This file format is commonly used in the life sciences.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "22 Aug 2024",
+  "formatSourceID": 349,
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche num\u00e9rique du Canada \u2013 DFDR",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Aug 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2014",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3374,
+      "name": "Axon Binary Format",
+      "note": "BOF; Offset: 0; Magic Bytes: 'ABF' followed by 0x20",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41424620",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "abf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 349
+}

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1242,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4A454F4C2E4E4D52",
-      "endianness": null,
       "name": "JDF NMR Spectroscopy big endian",
-      "note": "Big Endian: BOF: 4A454F4C2E4E4D52  (JEOL.NMR)"
+      "note": "Big Endian: BOF: 4A454F4C2E4E4D52  (JEOL.NMR)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4A454F4C2E4E4D52",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1244,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524D4E2E4C4F454A",
-      "endianness": null,
       "name": "JDF little endian",
-      "note": "Little Endian: 524D4E2E4C4F454A  (RMN.LOEJ)"
+      "note": "Little Endian: 524D4E2E4C4F454A  (RMN.LOEJ)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524D4E2E4C4F454A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 130,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FF575043{5}0A0000{2}0000",
-      "endianness": null,
       "name": "WordPerfect 5.0",
-      "note": "Document Header (Version=0.0)"
+      "note": "Document Header (Version=0.0)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FF575043{5}0A0000{2}0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

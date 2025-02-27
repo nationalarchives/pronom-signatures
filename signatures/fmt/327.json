@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 424,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "454E444E454C3273000000{5}000000260003{2}0000FFFFFFFF",
-      "endianness": null,
       "name": "EndNote Filter File",
-      "note": "ASCII: ENDNEL2s"
+      "note": "ASCII: ENDNEL2s",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "454E444E454C3273000000{5}000000260003{2}0000FFFFFFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

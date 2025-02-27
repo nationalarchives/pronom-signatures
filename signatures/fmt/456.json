@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 710,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "23207374796C652E706C6309312E3131202D20332F322F39340D0A232040282329436F707972696768742028432920313938372D31393934205665726974792C20496E632E0D0A230D0A23",
-      "endianness": null,
       "name": "Verity Collection Index Style Policy",
-      "note": "BOF: # style.plc.1.11 - 3/2/94..# @(#)Copyright (C) 1987-1994 Verity, Inc...#..#\r\nEOF: }..}.."
-    },
-    {
-      "signatureID": 710,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7D0D0A7D0D0A",
-      "endianness": null,
-      "name": "Verity Collection Index Style Policy",
-      "note": "BOF: # style.plc.1.11 - 3/2/94..# @(#)Copyright (C) 1987-1994 Verity, Inc...#..#\r\nEOF: }..}.."
+      "note": "BOF: # style.plc.1.11 - 3/2/94..# @(#)Copyright (C) 1987-1994 Verity, Inc...#..#\r\nEOF: }..}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "23207374796C652E706C6309312E3131202D20332F322F39340D0A232040282329436F707972696768742028432920313938372D31393934205665726974792C20496E632E0D0A230D0A23",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7D0D0A7D0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

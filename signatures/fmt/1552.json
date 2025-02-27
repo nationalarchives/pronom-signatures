@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1896,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53416454",
-      "endianness": null,
       "name": "Surprise! Adlib Tracker v2.0",
-      "note": "BOF: 'Magic Bytes'; SAdT"
+      "note": "BOF: 'Magic Bytes'; SAdT",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53416454",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

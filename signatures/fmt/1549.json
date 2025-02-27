@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1894,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0809FE",
-      "endianness": null,
       "name": "Bentley Microstation Hidden Line File",
-      "note": "BOF absolute zero: 08 09 FE magic bytes \t\t\t..\u00fe\r\nEOF absolute zero: FF FF  magic bytes: \t\t\t\t\u00ff\u00ff"
-    },
-    {
-      "signatureID": 1894,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFF",
-      "endianness": null,
-      "name": "Bentley Microstation Hidden Line File",
-      "note": "BOF absolute zero: 08 09 FE magic bytes \t\t\t..\u00fe\r\nEOF absolute zero: FF FF  magic bytes: \t\t\t\t\u00ff\u00ff"
+      "note": "BOF absolute zero: 08 09 FE magic bytes \t\t\t..\u00fe\r\nEOF absolute zero: FF FF  magic bytes: \t\t\t\t\u00ff\u00ff",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0809FE",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

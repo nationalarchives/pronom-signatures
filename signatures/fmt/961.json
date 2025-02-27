@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1318,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "584D465F322E303000000002",
-      "endianness": null,
       "name": "Mobile XMF",
-      "note": "BOF: magic: XMF_ version: 2.00, XmfFileTypeID: 0x00000002 \r\nSpecification: https://www.midi.org/specifications/item/xmf-specification-all"
+      "note": "BOF: magic: XMF_ version: 2.00, XmfFileTypeID: 0x00000002 \r\nSpecification: https://www.midi.org/specifications/item/xmf-specification-all",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "584D465F322E303000000002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

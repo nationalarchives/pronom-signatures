@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1919,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "456E566973696F6E205075626C6973686572",
-      "endianness": null,
       "name": "Envision Publisher file",
-      "note": "BOF; Offset: 0; Magic Bytes: 'EnVision Publisher'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'EnVision Publisher'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "456E566973696F6E205075626C6973686572",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

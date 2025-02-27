@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 933,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A001000000043520200",
-      "endianness": null,
       "name": "Canon RAW 2",
-      "note": "II*.....CR"
+      "note": "II*.....CR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A001000000043520200",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

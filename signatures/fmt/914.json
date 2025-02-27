@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1265,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "43616C6967617269205630302E303142",
-      "endianness": null,
       "name": "Caligari trueSpace Binary",
-      "note": "BOF: Magic: 'Caligari ' Version: 'V00.01' Binary flag: 'B'\r\nSpecification: http://web.archive.org/web/20060118005319/http://internet.caligari.com/pub/info/scncob4.zip"
+      "note": "BOF: Magic: 'Caligari ' Version: 'V00.01' Binary flag: 'B'\r\nSpecification: http://web.archive.org/web/20060118005319/http://internet.caligari.com/pub/info/scncob4.zip",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "43616C6967617269205630302E303142",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

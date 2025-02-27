@@ -36,23 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 859,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "44525747(4D44|4432){516}1101",
-      "endianness": null,
       "name": "Macintosh PICT Image 1.0 v1",
-      "note": "512 byte header beginning with DRWG(MD|D2); At decimal location 522 (hex 20A) 1 byte opcode for \u201cpicversion\u201d hex 11; next byte version number hex 01"
+      "note": "512 byte header beginning with DRWG(MD|D2); At decimal location 522 (hex 20A) 1 byte opcode for \u201cpicversion\u201d hex 11; next byte version number hex 01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "44525747(4D44|4432){516}1101",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 860,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000000000000{516}1101",
-      "endianness": null,
       "name": "Macintosh PICT Image 1.0 v2",
-      "note": "512 byte header consisting of all nulls;At decimal location 522 (hex 20A) 1 byte opcode for \u201cpicversion\u201d hex 11; next byte version number hex 01"
+      "note": "512 byte header consisting of all nulls;At decimal location 522 (hex 20A) 1 byte opcode for \u201cpicversion\u201d hex 11; next byte version number hex 01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000000000000{516}1101",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

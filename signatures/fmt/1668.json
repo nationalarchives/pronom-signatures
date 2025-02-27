@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2002,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00BB00BB01",
-      "endianness": null,
       "name": "Roxio Easy Media Creator Layout v8-10",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x 00BB00BB01"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x 00BB00BB01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00BB00BB01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

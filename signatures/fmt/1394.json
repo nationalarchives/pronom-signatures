@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1770,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4175746F4341442042696E61727920445846",
-      "endianness": null,
       "name": "Binary DXF Generic",
-      "note": "BOF: 'AutoCAD Binary DXF'"
+      "note": "BOF: 'AutoCAD Binary DXF'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4175746F4341442042696E61727920445846",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

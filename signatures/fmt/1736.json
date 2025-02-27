@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2074,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "437265617469766520566F6963652046696C65",
-      "endianness": null,
       "name": "Creative Voice File",
-      "note": "BOF; Offset: 0; 'Creative Voice File'"
+      "note": "BOF; Offset: 0; 'Creative Voice File'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "437265617469766520566F6963652046696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

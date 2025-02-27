@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2044,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0B433630322D762E312E3030",
-      "endianness": null,
       "name": "Software602 Printer Configuration File",
-      "note": "BOF Absolute from beginning of file, magic bytes: C602-v.1.0"
+      "note": "BOF Absolute from beginning of file, magic bytes: C602-v.1.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0B433630322D762E312E3030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

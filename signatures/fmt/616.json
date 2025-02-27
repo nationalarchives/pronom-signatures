@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 952,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "774F4646",
-      "endianness": null,
       "name": "Web Open Font Format 1",
-      "note": "BOF: wOFF"
+      "note": "BOF: wOFF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "774F4646",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

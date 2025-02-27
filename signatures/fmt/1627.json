@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1967,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255A436F72702053797374656D20536F6674776172652056657273696F6E",
-      "endianness": null,
       "name": "Z Print Build File",
-      "note": "BOF Absolute from beginning of file, magic bytes: %ZCorp System Software Version"
+      "note": "BOF Absolute from beginning of file, magic bytes: %ZCorp System Software Version",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255A436F72702053797374656D20536F6674776172652056657273696F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

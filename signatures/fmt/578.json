@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 920,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "090A6963735F76657273696F6E09322E30",
-      "endianness": null,
       "name": "Image Cytometry Standard 2.0",
-      "note": "BOF: <horizontal tab><line feed>ics_version.2.0"
+      "note": "BOF: <horizontal tab><line feed>ics_version.2.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "090A6963735F76657273696F6E09322E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

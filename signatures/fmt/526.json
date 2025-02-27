@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 823,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "252141646F62652D466F6E744C697374",
-      "endianness": null,
       "name": "Adobe Font List",
-      "note": "BOF: %!Adobe-FontList"
+      "note": "BOF: %!Adobe-FontList",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "252141646F62652D466F6E744C697374",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

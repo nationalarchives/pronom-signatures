@@ -32,43 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 2200,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "4F4D46493A4F4F424A3A4F626A436C617373",
-      "endianness": null,
       "name": "Open Media Framework Interchange 2.0 (sig 1)",
-      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
-    },
-    {
-      "signatureID": 2200,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 24,
-      "byteSequence": "A4434DA5486472D7{4}(0200|0002)",
-      "endianness": null,
-      "name": "Open Media Framework Interchange 2.0 (sig 1)",
-      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
+      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "4F4D46493A4F4F424A3A4F626A436C617373",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 24,
+          "byteSequence": "A4434DA5486472D7{4}(0200|0002)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2201,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "4F4D46493A4F4F424A3A4F626A436C617373",
-      "endianness": null,
       "name": "Open Media Framework Interchange 2.0 (sig 2)",
-      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
-    },
-    {
-      "signatureID": 2201,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 24,
-      "byteSequence": "A4434DA5486472D7{4}(0200|0002)",
-      "endianness": null,
-      "name": "Open Media Framework Interchange 2.0 (sig 2)",
-      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used."
+      "note": "OMF files contain headers version 2.0 'OMFI:OOBJ:ObjClass ', which are variable within the file. The choice to use data from near EOF allows for identification. Version is based on endian, so two bytes are used.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "4F4D46493A4F4F424A3A4F626A436C617373",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 24,
+          "byteSequence": "A4434DA5486472D7{4}(0200|0002)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

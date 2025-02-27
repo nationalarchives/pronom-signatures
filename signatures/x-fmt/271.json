@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 385,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "83??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|4C|4D|4E)",
-      "endianness": null,
       "name": "dBase Table with dbt Version III+",
-      "note": "dbt Flag(Bit 7 of first byte), Version number(bits 0-2 of first byte), Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, L, M, N). Memo fields in the dbf and a flag indicating the existence of a database text (.dbt) file were already a part of the dbase III dbf file format."
+      "note": "dbt Flag(Bit 7 of first byte), Version number(bits 0-2 of first byte), Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, L, M, N). Memo fields in the dbf and a flag indicating the existence of a database text (.dbt) file were already a part of the dbase III dbf file format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "83??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|4C|4D|4E)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

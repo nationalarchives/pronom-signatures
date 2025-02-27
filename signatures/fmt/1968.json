@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2317,
-      "positionType": "Absolute from BOF",
-      "offset": 2896,
-      "maxOffset": 0,
-      "byteSequence": "AC",
-      "endianness": null,
       "name": "Atrac Codec File v.1",
-      "note": "BOF, offset 2896, magic bytes: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u00ac"
-    },
-    {
-      "signatureID": 2317,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "AC",
-      "endianness": null,
-      "name": "Atrac Codec File v.1",
-      "note": "BOF, offset 2896, magic bytes: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u00ac"
+      "note": "BOF, offset 2896, magic bytes: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u00ac",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2896,
+          "maxOffset": 0,
+          "byteSequence": "AC",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "AC",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

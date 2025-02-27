@@ -44,23 +44,31 @@
   "internalSignatures": [
     {
       "signatureID": 2152,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF(F0|F1|F8|F9)(40|41|44|45|48|49|4C|4D|50|51|54|55|58|59|5C|5D|60|61|64|65|68|69|6C|6D|70|71|80|81|84|85|88|89|8C|8D|90|91|94|95|98|99|9C|9D|A0|A1|A4|A5|A8|A9|AC|AD|B0|B1)(00|01|20|40|41|60|80|81|60|A0|C0|C1|E0)",
-      "endianness": null,
       "name": "Audio Data Transport Stream sig.1",
-      "note": "An FF pattern from BOF with variation of byte stream"
+      "note": "An FF pattern from BOF with variation of byte stream",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF(F0|F1|F8|F9)(40|41|44|45|48|49|4C|4D|50|51|54|55|58|59|5C|5D|60|61|64|65|68|69|6C|6D|70|71|80|81|84|85|88|89|8C|8D|90|91|94|95|98|99|9C|9D|A0|A1|A4|A5|A8|A9|AC|AD|B0|B1)(00|01|20|40|41|60|80|81|60|A0|C0|C1|E0)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2153,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "494433{0-2045}FF(F0|F1|F8|F9)(40|41|44|45|48|49|4C|4D|50|51|54|55|58|59|5C|5D|60|61|64|65|68|69|6C|6D|70|71|80|81|84|85|88|89|8C|8D|90|91|94|95|98|99|9C|9D|A0|A1|A4|A5|A8|A9|AC|AD|B0|B1)(00|01|20|40|41|60|80|81|60|A0|C0|C1|E0)",
-      "endianness": null,
       "name": "Audio Data Transport Stream sig.2",
-      "note": "ID3 tag variation with variable byte stream"
+      "note": "ID3 tag variation with variable byte stream",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "494433{0-2045}FF(F0|F1|F8|F9)(40|41|44|45|48|49|4C|4D|50|51|54|55|58|59|5C|5D|60|61|64|65|68|69|6C|6D|70|71|80|81|84|85|88|89|8C|8D|90|91|94|95|98|99|9C|9D|A0|A1|A4|A5|A8|A9|AC|AD|B0|B1)(00|01|20|40|41|60|80|81|60|A0|C0|C1|E0)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1423,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534E4150204D61696E20646174612066696C65",
-      "endianness": null,
       "name": "SNAP Main data file",
-      "note": "SNAP Main data file"
+      "note": "SNAP Main data file",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534E4150204D61696E20646174612066696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

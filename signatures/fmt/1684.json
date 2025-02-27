@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2015,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53514C69746520666F726D6174203300{1-2048}656E6C5F72656673",
-      "endianness": null,
       "name": "EndNote Library v20",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x53514C69746520666F726D6174203300 SQL Lite 3 header, then within 2048 bytes looks for enl_refs database marker"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x53514C69746520666F726D6174203300 SQL Lite 3 header, then within 2048 bytes looks for enl_refs database marker",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53514C69746520666F726D6174203300{1-2048}656E6C5F72656673",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 531,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "(FF00|0007)000400(02|04)100000(00|80)0000(00|80)[41:42]{84}[31:39][30:39][30:39]{13}(46494C45|434C4153){906}(0000|FFFF)",
-      "endianness": null,
       "name": "GSSI SIR-10 RADAN data file",
-      "note": "File header section at the start of the file followed by the GPR traces in the data section. Each file can have from 1 to 4 data channels."
+      "note": "File header section at the start of the file followed by the GPR traces in the data section. Each file can have from 1 to 4 data channels.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "(FF00|0007)000400(02|04)100000(00|80)0000(00|80)[41:42]{84}[31:39][30:39][30:39]{13}(46494C45|434C4153){906}(0000|FFFF)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

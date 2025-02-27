@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1169,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C5646090D0AFF00",
-      "endianness": null,
       "name": "L01",
-      "note": "Header - LVF...\u00ff."
+      "note": "Header - LVF...\u00ff.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C5646090D0AFF00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1585,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5346504B",
-      "endianness": null,
       "name": "Sony SFK file",
-      "note": "BOF: 'SFPK'"
+      "note": "BOF: 'SFPK'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5346504B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

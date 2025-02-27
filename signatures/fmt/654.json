@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 987,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4096,
-      "byteSequence": "494E5445524C495320322E333B0D{1-1024}4D4F44454C{1-64}4154{1-64}56455253494F4E",
-      "endianness": null,
       "name": "INTERLIS 2.3 Model File",
-      "note": "BOF (Max Offset 4096): INTERLIS 2.3;.{1024}MODEL{1-64}AT{1-64}VERSION"
+      "note": "BOF (Max Offset 4096): INTERLIS 2.3;.{1024}MODEL{1-64}AT{1-64}VERSION",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4096,
+          "byteSequence": "494E5445524C495320322E333B0D{1-1024}4D4F44454C{1-64}4154{1-64}56455253494F4E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

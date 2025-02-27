@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1144,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "474D4255{1}02",
-      "endianness": null,
       "name": "Netmon Capture 2",
-      "note": "GMBU - minor version number - major version number"
+      "note": "GMBU - minor version number - major version number",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "474D4255{1}02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

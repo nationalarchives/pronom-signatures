@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1599,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF575043{4}012C03",
-      "endianness": null,
       "name": "WordPerfect for Mac 3.x",
-      "note": "Word Perfect magic: 0xFF'WPC', {4} Product code 0x01=Word Perfect, File Type 0x2C=MAC WP, File Format Major Version 0x03=3 - http://www.columbia.edu/~em36/wpdos/WPMac4FileFormat.pdf"
+      "note": "Word Perfect magic: 0xFF'WPC', {4} Product code 0x01=Word Perfect, File Type 0x2C=MAC WP, File Format Major Version 0x03=3 - http://www.columbia.edu/~em36/wpdos/WPMac4FileFormat.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF575043{4}012C03",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

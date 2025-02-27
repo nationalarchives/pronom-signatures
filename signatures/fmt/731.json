@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1058,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "42494B(62|64|66|67|68|69)",
-      "endianness": null,
       "name": "Bink Video 1",
-      "note": "BOF 3 byte magic, 1 byte codec revision: BIK(b|d|f|g|h|i)"
+      "note": "BOF 3 byte magic, 1 byte codec revision: BIK(b|d|f|g|h|i)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "42494B(62|64|66|67|68|69)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

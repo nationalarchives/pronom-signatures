@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1812,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46484432",
-      "endianness": null,
       "name": "Aldus FreeHand Version 2",
-      "note": "BOF: MAC File Type Code 'FHD2'"
+      "note": "BOF: MAC File Type Code 'FHD2'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46484432",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

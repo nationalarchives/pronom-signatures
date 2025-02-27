@@ -40,23 +40,24 @@
   "internalSignatures": [
     {
       "signatureID": 68,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFD8FFE0{2}4A464946000102(00|01|02)",
-      "endianness": null,
       "name": "JFIF 1.02",
-      "note": "SOI and APP0 markers at BOF, EOI marker at EOF"
-    },
-    {
-      "signatureID": 68,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "FFD9",
-      "endianness": null,
-      "name": "JFIF 1.02",
-      "note": "SOI and APP0 markers at BOF, EOI marker at EOF"
+      "note": "SOI and APP0 markers at BOF, EOI marker at EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFD8FFE0{2}4A464946000102(00|01|02)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "FFD9",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

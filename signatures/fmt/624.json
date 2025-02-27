@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 955,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}50414C2064617461",
-      "endianness": null,
       "name": "RIFF Palette Format",
-      "note": "BOF: RIFF{4}PAL data"
+      "note": "BOF: RIFF{4}PAL data",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}50414C2064617461",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

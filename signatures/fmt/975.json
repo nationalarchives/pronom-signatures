@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1338,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "42654570",
-      "endianness": null,
       "name": "Jamcracker Module",
-      "note": "BOF: BeEp\r\nUnofficial specification: https://github.com/cmatsuoka/libxmp/blob/master/docs/formats/JamCracker.txt"
+      "note": "BOF: BeEp\r\nUnofficial specification: https://github.com/cmatsuoka/libxmp/blob/master/docs/formats/JamCracker.txt",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "42654570",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

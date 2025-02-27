@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 975,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "30323569",
-      "endianness": null,
       "name": "Microsoft Expression Media 2",
-      "note": "BOF: 025i (Offset 4)                                                                                                                              EOF: Svar{8-54}025i(Max Offset 8)"
-    },
-    {
-      "signatureID": 975,
-      "positionType": "Absolute from EOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "53566172{8-54}30323569",
-      "endianness": null,
-      "name": "Microsoft Expression Media 2",
-      "note": "BOF: 025i (Offset 4)                                                                                                                              EOF: Svar{8-54}025i(Max Offset 8)"
+      "note": "BOF: 025i (Offset 4)                                                                                                                              EOF: Svar{8-54}025i(Max Offset 8)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "30323569",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "53566172{8-54}30323569",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

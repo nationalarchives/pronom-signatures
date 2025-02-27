@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 865,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41474434",
-      "endianness": null,
       "name": "FreeHand 9",
-      "note": "MAC File type code AGD4"
+      "note": "MAC File type code AGD4",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41474434",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

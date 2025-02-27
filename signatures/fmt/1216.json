@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1593,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00010F00465245454C414E434504000A",
-      "endianness": null,
       "name": "Lotus Freelance Show",
-      "note": "0x00010F00 'FREELANCE, 0x000A"
+      "note": "0x00010F00 'FREELANCE, 0x000A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00010F00465245454C414E434504000A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

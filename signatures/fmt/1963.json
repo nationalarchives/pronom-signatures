@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2310,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3531303020332E394A20353130321141",
-      "endianness": null,
       "name": "NEC TH5100 Thermo Tracer Image File",
-      "note": "Absolute from beginning of file, magic bytes: 5100 3.9J 5102.A"
+      "note": "Absolute from beginning of file, magic bytes: 5100 3.9J 5102.A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3531303020332E394A20353130321141",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

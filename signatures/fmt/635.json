@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 960,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "C771",
-      "endianness": null,
       "name": "CPIO",
-      "note": "BOF - value of 70707 in octal = 71C7 - reversed for endianness"
+      "note": "BOF - value of 70707 in octal = 71C7 - reversed for endianness",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "C771",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

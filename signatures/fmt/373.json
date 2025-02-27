@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 551,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "F5??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-      "endianness": null,
       "name": "Fox Pro Database 2.x",
-      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y)."
+      "note": "Header sequence: Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (B, C, D, F, I, L, M, N, P, T, Y).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "F5??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

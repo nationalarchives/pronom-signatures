@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1542,
-      "positionType": "Absolute from BOF",
-      "offset": 212,
-      "maxOffset": null,
-      "byteSequence": "EFCDAB8901000300",
-      "endianness": null,
       "name": "Folio SDW v3",
-      "note": "BOF offset 212:\r\nEFCDAB8901000300"
+      "note": "BOF offset 212:\r\nEFCDAB8901000300",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 212,
+          "maxOffset": null,
+          "byteSequence": "EFCDAB8901000300",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

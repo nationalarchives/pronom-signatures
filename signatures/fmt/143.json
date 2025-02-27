@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 608,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "52494646{4}57415645666D7420{4}FEFF{38-*}64617461",
-      "endianness": "Big-endian",
       "name": "Waveform Audio (WAVEFORMATEXTENSIBLE)",
-      "note": "RIFF header, WAVE ID, Format chunk, chunk length GTE 40, wformat Tag = decimal 65534 = 0xFEFF and Data chunk"
+      "note": "RIFF header, WAVE ID, Format chunk, chunk length GTE 40, wformat Tag = decimal 65534 = 0xFEFF and Data chunk",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "52494646{4}57415645666D7420{4}FEFF{38-*}64617461",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

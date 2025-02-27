@@ -36,43 +36,45 @@
   "internalSignatures": [
     {
       "signatureID": 41,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "3C(48544D4C|68746D6C)",
-      "endianness": null,
       "name": "HTML pre-2.0 1",
-      "note": "Signature for pre-2.0 HTML, or non-valid HTML (no DOCTYPE declaration). EOF character sequence: </(HTML|html|BODY|body)>{0-1024}"
-    },
-    {
-      "signatureID": 41,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "3C2F(48544D4C|68746D6C|424F4459|626F6479)3E",
-      "endianness": null,
-      "name": "HTML pre-2.0 1",
-      "note": "Signature for pre-2.0 HTML, or non-valid HTML (no DOCTYPE declaration). EOF character sequence: </(HTML|html|BODY|body)>{0-1024}"
+      "note": "Signature for pre-2.0 HTML, or non-valid HTML (no DOCTYPE declaration). EOF character sequence: </(HTML|html|BODY|body)>{0-1024}",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "3C(48544D4C|68746D6C)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "3C2F(48544D4C|68746D6C|424F4459|626F6479)3E",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 990,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 2048,
-      "byteSequence": "3C00(480054004D004C00|680074006D006C00)",
-      "endianness": null,
       "name": "HTML pre 2.0 2",
-      "note": "BOF (Max offset 2084: <.(H.T.M.L.|h.t.m.l.)                                                                                             EOF: {0-2048} <./.(H.T.M.L.|h.t.m.l|B.O.D.Y.|b.o.d.y.)>."
-    },
-    {
-      "signatureID": 990,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2048,
-      "byteSequence": "3C002F00(480054004D004C00|680074006D006C00|42004F0044005900|62006F0064007900)3E00",
-      "endianness": null,
-      "name": "HTML pre 2.0 2",
-      "note": "BOF (Max offset 2084: <.(H.T.M.L.|h.t.m.l.)                                                                                             EOF: {0-2048} <./.(H.T.M.L.|h.t.m.l|B.O.D.Y.|b.o.d.y.)>."
+      "note": "BOF (Max offset 2084: <.(H.T.M.L.|h.t.m.l.)                                                                                             EOF: {0-2048} <./.(H.T.M.L.|h.t.m.l|B.O.D.Y.|b.o.d.y.)>.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 2048,
+          "byteSequence": "3C00(480054004D004C00|680074006D006C00)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2048,
+          "byteSequence": "3C002F00(480054004D004C00|680074006D006C00|42004F0044005900|62006F0064007900)3E00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -159,7 +161,7 @@
     {
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1270,
-      "relatedFormatName": "ePub format"
+      "relatedFormatName": "ePub Format"
     },
     {
       "relationshipType": "Has lower priority than",

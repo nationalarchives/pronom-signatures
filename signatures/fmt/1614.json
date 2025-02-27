@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1949,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5B4152434558504C4F5245525D",
-      "endianness": null,
       "name": "Esri ArcExplorer project file",
-      "note": "BOF, offset 0, magic bytes: [ARCEXPLORER]"
+      "note": "BOF, offset 0, magic bytes: [ARCEXPLORER]",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5B4152434558504C4F5245525D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

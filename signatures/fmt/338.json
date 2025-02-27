@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 457,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "464F524D{4}494C424D424D4844",
-      "endianness": "Big-endian",
       "name": "Interchange File Format Interleaved Bitmap",
-      "note": "Header: FORM chunk id, 4-byte chunk size, ILBM subchunk id; BMHD Bitmap Header property"
+      "note": "Header: FORM chunk id, 4-byte chunk size, ILBM subchunk id; BMHD Bitmap Header property",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "464F524D{4}494C424D424D4844",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

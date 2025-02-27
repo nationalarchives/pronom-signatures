@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2303,
-      "positionType": "Absolute from BOF",
-      "offset": 420,
-      "maxOffset": 0,
-      "byteSequence": "07{59}2E{1}0037{8}44242020202020",
-      "endianness": null,
       "name": "MultiMate Text File",
-      "note": "Offset 420 from BOF, magic bytes: .{59}.{1}.7{8}D$, followed by five spaces."
+      "note": "Offset 420 from BOF, magic bytes: .{59}.{1}.7{8}D$, followed by five spaces.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 420,
+          "maxOffset": 0,
+          "byteSequence": "07{59}2E{1}0037{8}44242020202020",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

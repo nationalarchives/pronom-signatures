@@ -28,43 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 1443,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "213C3E3C5044423E3C3E21",
-      "endianness": null,
       "name": "SILO PDB 1",
-      "note": "BOF: !<><PDB><>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
-    },
-    {
-      "signatureID": 1443,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "5F73696C6F6C6962696E666F",
-      "endianness": null,
-      "name": "SILO PDB 1",
-      "note": "BOF: !<><PDB><>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
+      "note": "BOF: !<><PDB><>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "213C3E3C5044423E3C3E21",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "5F73696C6F6C6962696E666F",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1444,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "213C3C5044423A49493E3E21",
-      "endianness": null,
       "name": "SILO PDB 2",
-      "note": "BOF: !<<PDB:II>>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
-    },
-    {
-      "signatureID": 1444,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "5F73696C6F6C6962696E666F",
-      "endianness": null,
-      "name": "SILO PDB 2",
-      "note": "BOF: !<<PDB:II>>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf"
+      "note": "BOF: !<<PDB:II>>!\r\nVAR: _silolibinfo\r\nhttps://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "213C3C5044423A49493E3E21",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "5F73696C6F6C6962696E666F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

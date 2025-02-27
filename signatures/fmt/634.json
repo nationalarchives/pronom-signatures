@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 961,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49545346",
-      "endianness": null,
       "name": "Microsoft Compiled Help file",
-      "note": "BOF: ITSF (Info-Tech Storage Format)"
+      "note": "BOF: ITSF (Info-Tech Storage Format)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49545346",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

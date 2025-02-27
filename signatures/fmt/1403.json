@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1777,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1A544C43{1}464600(0200|0002)",
-      "endianness": null,
       "name": "Student Writing Center Sign",
-      "note": "BOF: 0x1A 'TLC' {1} 'FF' 0x00, then 0x0200 or 0x0002 for Sign\r\nEOF, max offset 36: 0x1A 'FF' 0x1A"
-    },
-    {
-      "signatureID": 1777,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 36,
-      "byteSequence": "1A46461A",
-      "endianness": null,
-      "name": "Student Writing Center Sign",
-      "note": "BOF: 0x1A 'TLC' {1} 'FF' 0x00, then 0x0200 or 0x0002 for Sign\r\nEOF, max offset 36: 0x1A 'FF' 0x1A"
+      "note": "BOF: 0x1A 'TLC' {1} 'FF' 0x00, then 0x0200 or 0x0002 for Sign\r\nEOF, max offset 36: 0x1A 'FF' 0x1A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1A544C43{1}464600(0200|0002)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 36,
+          "byteSequence": "1A46461A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

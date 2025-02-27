@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 3884,
+  "formatName": "Visualization Toolkit",
+  "version": "4.2",
+  "formatDescription": "VTK files are outputs of the Visualization Toolkit, an open source, \"Object-Oriented Approach to 3D Graphics\" software that supports image processing, modeling, scientific visualization and 3D computer graphics. The Visualization Software and the corresponding vtk file outputs date from 1994. VTK are serial formats and are considered a legacy format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://docs.vtk.org/en/latest/design_documents/VTKFileFormats.html\r\n\r\nhttps://vtk.org/wp-content/uploads/2021/08/VTKUsersGuide.pdf",
+  "lastUpdatedDate": "22 Aug 2024",
+  "formatSourceID": 349,
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche num\u00e9rique du Canada \u2013 DFDR",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Aug 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2012",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3377,
+      "name": "vtk v.4.2",
+      "note": "BOF; Offset: 0; Magic Bytes: '# vtk DataFile Version 4.2'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "232076746B204461746146696C652056657273696F6E20342E32",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vtk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 3883,
+      "relatedFormatName": "Visualization Toolkit"
+    }
+  ],
+  "source": 349
+}

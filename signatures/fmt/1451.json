@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1814,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "255044462D312E37*2F436F6C6C656374696F6E20",
-      "endianness": null,
       "name": "PDF Portfolio 1.7",
-      "note": "BOF: %PDF-1.7 followed by '/Collection '. EOF (offset up to 1024 bytes): '%%EOFF(.|F.|F..|F..)'"
-    },
-    {
-      "signatureID": 1814,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "2525454F(46|460A|460D|460D0A|460D00)",
-      "endianness": null,
-      "name": "PDF Portfolio 1.7",
-      "note": "BOF: %PDF-1.7 followed by '/Collection '. EOF (offset up to 1024 bytes): '%%EOFF(.|F.|F..|F..)'"
+      "note": "BOF: %PDF-1.7 followed by '/Collection '. EOF (offset up to 1024 bytes): '%%EOFF(.|F.|F..|F..)'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "255044462D312E37*2F436F6C6C656374696F6E20",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "2525454F(46|460A|460D|460D0A|460D00)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

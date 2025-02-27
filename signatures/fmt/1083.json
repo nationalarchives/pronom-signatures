@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1464,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "48575020446F63756D656E742046696C652056332E3030201A0102030405",
-      "endianness": null,
       "name": "HWP 3",
-      "note": "BOF: \"HWP Document File V3.00 \" 0x1A0102030405\r\nhttps://www.hancom.com/etc/hwpDownload.do"
+      "note": "BOF: \"HWP Document File V3.00 \" 0x1A0102030405\r\nhttps://www.hancom.com/etc/hwpDownload.do",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "48575020446F63756D656E742046696C652056332E3030201A0102030405",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

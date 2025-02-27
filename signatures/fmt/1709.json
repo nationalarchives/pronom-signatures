@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2042,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524F4F54{4}50726573656E746174696F6E20496E7465726368616E67652046696C6520466F726D6174",
-      "endianness": null,
       "name": "Persuasion Presentation Interchange File",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x524F4F54 then a gap of 4 wildcard bytes followed by 0x50726573656E746174696F6E20496E7465726368616E67652046696C6520466F726D6174"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x524F4F54 then a gap of 4 wildcard bytes followed by 0x50726573656E746174696F6E20496E7465726368616E67652046696C6520466F726D6174",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524F4F54{4}50726573656E746174696F6E20496E7465726368616E67652046696C6520466F726D6174",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2086,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50495854",
-      "endianness": null,
       "name": "PixArt Bitmap",
-      "note": "BOF:'PIXT'"
+      "note": "BOF:'PIXT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50495854",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

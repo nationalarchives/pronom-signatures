@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 62,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A0401",
-      "endianness": null,
       "name": "PCX 4",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x0A0401"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0A0401",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A0401",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

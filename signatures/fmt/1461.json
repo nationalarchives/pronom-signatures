@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1827,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D454E5501",
-      "endianness": null,
       "name": "Autorun Maestro Menu File",
-      "note": "BOF: Magic bytes MENU"
+      "note": "BOF: Magic bytes MENU",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D454E5501",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

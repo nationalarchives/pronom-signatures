@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1747,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C7669736D61743E{0-128}72656E64657265723D2276726179223E",
-      "endianness": null,
       "name": "V-Ray Material XML",
-      "note": "BOF: '<vismat>' {0-128} 'renderer=\"vray\">'"
+      "note": "BOF: '<vismat>' {0-128} 'renderer=\"vray\">'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C7669736D61743E{0-128}72656E64657265723D2276726179223E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

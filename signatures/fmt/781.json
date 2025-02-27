@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1149,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "736E6F6F7000000000000002",
-      "endianness": null,
       "name": "Snoop",
-      "note": "Magic: snoop... Version: 2 - https://tools.ietf.org/rfc/rfc1761.txt"
+      "note": "Magic: snoop... Version: 2 - https://tools.ietf.org/rfc/rfc1761.txt",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "736E6F6F7000000000000002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1487,
-      "positionType": "Absolute from BOF",
-      "offset": 1024,
-      "maxOffset": null,
-      "byteSequence": "4244{12}0003{6}[!&01]00",
-      "endianness": null,
       "name": "HFS",
-      "note": "Offset 1024, magic 0x4244 {12}, first block of volume bitmap always 0x0003{6}, size (in bytes) of allocation blocks (4 byte multiple of 512 so byte 4 always 00, byte 3 has 'even' value)[!&01]00"
+      "note": "Offset 1024, magic 0x4244 {12}, first block of volume bitmap always 0x0003{6}, size (in bytes) of allocation blocks (4 byte multiple of 512 so byte 4 always 00, byte 3 has 'even' value)[!&01]00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1024,
+          "maxOffset": null,
+          "byteSequence": "4244{12}0003{6}[!&01]00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

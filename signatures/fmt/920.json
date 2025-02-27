@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1270,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2320416D6972614D6573682033442042494E4152592D4C4954544C452D454E4449414E20322E30",
-      "endianness": null,
       "name": "AmiraMesh 3D BINARY-LITTLE-ENDIAN 2.0",
-      "note": "BOF: # AmiraMesh 3D BINARY-LITTLE-ENDIAN 2.0"
+      "note": "BOF: # AmiraMesh 3D BINARY-LITTLE-ENDIAN 2.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2320416D6972614D6573682033442042494E4152592D4C4954544C452D454E4449414E20322E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1442,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "213C3C5044423A333E3E21",
-      "endianness": null,
       "name": "Portable Database 3",
-      "note": "BOF: !<<PDB:3>>!\r\nhttps://wci.llnl.gov/codes/pact/pdb.html"
+      "note": "BOF: !<<PDB:3>>!\r\nhttps://wci.llnl.gov/codes/pact/pdb.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "213C3C5044423A333E3E21",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

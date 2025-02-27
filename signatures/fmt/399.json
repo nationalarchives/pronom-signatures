@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 629,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5374756666497421",
-      "endianness": null,
       "name": "StuffIt X",
-      "note": "'StuffIt!' starts BOF sequence, plus 3 bytes EOF"
-    },
-    {
-      "signatureID": 629,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "020255",
-      "endianness": null,
-      "name": "StuffIt X",
-      "note": "'StuffIt!' starts BOF sequence, plus 3 bytes EOF"
+      "note": "'StuffIt!' starts BOF sequence, plus 3 bytes EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5374756666497421",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "020255",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

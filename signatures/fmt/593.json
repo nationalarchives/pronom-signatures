@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 934,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49491A0000004845415043434452",
-      "endianness": null,
       "name": "Canon RAW 1",
-      "note": "II....HEAPCCDR"
+      "note": "II....HEAPCCDR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49491A0000004845415043434452",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

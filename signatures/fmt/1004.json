@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1359,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4E52524430303033",
-      "endianness": null,
       "name": "NRRD 3",
-      "note": "BOF: NRRD0003\r\nhttp://teem.sourceforge.net/nrrd/format.html"
+      "note": "BOF: NRRD0003\r\nhttp://teem.sourceforge.net/nrrd/format.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4E52524430303033",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

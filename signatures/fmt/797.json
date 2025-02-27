@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1156,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 0,
-      "byteSequence": "66726565{12}69637066",
-      "endianness": null,
       "name": "Apple ProRes",
-      "note": "BOF: Offset 4, free{12}icpf"
+      "note": "BOF: Offset 4, free{12}icpf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 0,
+          "byteSequence": "66726565{12}69637066",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

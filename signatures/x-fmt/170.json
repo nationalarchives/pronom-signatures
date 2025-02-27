@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 861,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3412{9}FF",
-      "endianness": null,
       "name": "PC Paint Bitmap (pic)",
-      "note": "Magic number hex 3412; offset decimal 11 byte hex FF"
+      "note": "Magic number hex 3412; offset decimal 11 byte hex FF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3412{9}FF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

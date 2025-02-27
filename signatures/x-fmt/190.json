@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 448,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2E524D46000000(10|12)",
-      "endianness": null,
       "name": "RealMedia",
-      "note": "File header chunk + chunk size"
+      "note": "File header chunk + chunk size",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2E524D46000000(10|12)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

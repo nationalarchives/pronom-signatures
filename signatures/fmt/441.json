@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 685,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
-      "endianness": null,
       "name": "Windows Media Video 9 Advanced Profile (WVC1)",
-      "note": "BOF; Offset: 0; 00x3026B2758E66CF11A6D900AA0062CE6C{12}0102 and variable signature of 00x9107DCB7B7A9CF118EE600C00C205365{8}00xC0EF19BC4D5BCF11A8FD00805F5C442B. Followed in 65 byte by string 'WVC1'"
-    },
-    {
-      "signatureID": 685,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}C0EF19BC4D5BCF11A8FD00805F5C442B{65}57564331",
-      "endianness": null,
-      "name": "Windows Media Video 9 Advanced Profile (WVC1)",
-      "note": "BOF; Offset: 0; 00x3026B2758E66CF11A6D900AA0062CE6C{12}0102 and variable signature of 00x9107DCB7B7A9CF118EE600C00C205365{8}00xC0EF19BC4D5BCF11A8FD00805F5C442B. Followed in 65 byte by string 'WVC1'"
+      "note": "BOF; Offset: 0; 00x3026B2758E66CF11A6D900AA0062CE6C{12}0102 and variable signature of 00x9107DCB7B7A9CF118EE600C00C205365{8}00xC0EF19BC4D5BCF11A8FD00805F5C442B. Followed in 65 byte by string 'WVC1'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}C0EF19BC4D5BCF11A8FD00805F5C442B{65}57564331",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

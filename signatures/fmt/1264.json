@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1637,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFEFF0E53006B0065007400630068005500700020004D006F00640065006C00FFFEFF{1}7B0036",
-      "endianness": null,
       "name": "SketchUp Version 6",
-      "note": "BOF: Magic bytes:'\u00ff\u00fe\u00ff.S.k.e.t.c.h.U.p. .M.o.d.e.l.\u00ff\u00fe\u00ff.{.6'"
+      "note": "BOF: Magic bytes:'\u00ff\u00fe\u00ff.S.k.e.t.c.h.U.p. .M.o.d.e.l.\u00ff\u00fe\u00ff.{.6'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFEFF0E53006B0065007400630068005500700020004D006F00640065006C00FFFEFF{1}7B0036",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

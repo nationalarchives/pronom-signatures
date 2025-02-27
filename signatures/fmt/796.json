@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1155,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494658{4}45676721",
-      "endianness": null,
       "name": "Adobe After Effects",
-      "note": "Header RIFX, Egg! Format chunk"
+      "note": "Header RIFX, Egg! Format chunk",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494658{4}45676721",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

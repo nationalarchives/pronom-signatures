@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 558,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00??0000{8}0A00[!00]{487}(0000|0001){2}010000000100{512-4608}03{3}FFFFFFFFFFFFFFFF{2}FFFF{2}0F0F",
-      "endianness": null,
       "name": "FoxPro Compound Index File",
-      "note": "Signature developed utilising collection of cdx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal sturcture of file available at: http://www.clicketyclick.dk/databases/xbase/format/cdx.html#CDX_STRUCT"
+      "note": "Signature developed utilising collection of cdx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal sturcture of file available at: http://www.clicketyclick.dk/databases/xbase/format/cdx.html#CDX_STRUCT",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00??0000{8}0A00[!00]{487}(0000|0001){2}010000000100{512-4608}03{3}FFFFFFFFFFFFFFFF{2}FFFF{2}0F0F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

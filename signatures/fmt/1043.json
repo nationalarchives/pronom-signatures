@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1402,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFE3C005000520058003E",
-      "endianness": null,
       "name": "Microsoft PRX",
-      "note": "BOF: \u00ff\u00fe<.P.R.X.>"
+      "note": "BOF: \u00ff\u00fe<.P.R.X.>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFE3C005000520058003E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1680,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4A4F590102",
-      "endianness": null,
       "name": "LocoScript Document Version 2",
-      "note": "BOF: Magic Bytes 'JOY..' with the last 02 byte specific to file version."
+      "note": "BOF: Magic Bytes 'JOY..' with the last 02 byte specific to file version.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4A4F590102",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

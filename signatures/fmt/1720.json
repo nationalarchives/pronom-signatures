@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2049,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01666370",
-      "endianness": null,
       "name": "Portable Compiled Format",
-      "note": "BOF: 0x01 (Start of Header) followed by 'fcp'"
+      "note": "BOF: 0x01 (Start of Header) followed by 'fcp'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01666370",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

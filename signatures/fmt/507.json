@@ -32,33 +32,38 @@
   "internalSignatures": [
     {
       "signatureID": 783,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4657530A",
-      "endianness": null,
       "name": "SWF 10",
-      "note": "Header (FWS then version number) and end tag (..)"
-    },
-    {
-      "signatureID": 783,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000",
-      "endianness": null,
-      "name": "SWF 10",
-      "note": "Header (FWS then version number) and end tag (..)"
+      "note": "Header (FWS then version number) and end tag (..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4657530A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 788,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4357530A",
-      "endianness": null,
       "name": "SWF 10 - zlib compressed",
-      "note": "Header (CWS then version number)"
+      "note": "Header (CWS then version number)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4357530A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

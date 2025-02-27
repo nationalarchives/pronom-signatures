@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 925,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 128,
-      "byteSequence": "786D6C6E733A763D2275726E3A736368656D61732D6D6963726F736F66742D636F6D3A766D6C22",
-      "endianness": null,
       "name": "Vector Markup Language",
-      "note": "xmlns:v=\"urn:schemas-microsoft-com:vml\""
+      "note": "xmlns:v=\"urn:schemas-microsoft-com:vml\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 128,
+          "byteSequence": "786D6C6E733A763D2275726E3A736368656D61732D6D6963726F736F66742D636F6D3A766D6C22",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

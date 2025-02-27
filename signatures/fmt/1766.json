@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2106,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C6C69737420747970653D22{0-64}6E616D653D",
-      "endianness": null,
       "name": "Sony SML File",
-      "note": "BOF:'<list type=' followed by a gap of 0-64 bytes followed by 'name= ; 'EOF:'</list>"
-    },
-    {
-      "signatureID": 2106,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C2F6C6973743E",
-      "endianness": null,
-      "name": "Sony SML File",
-      "note": "BOF:'<list type=' followed by a gap of 0-64 bytes followed by 'name= ; 'EOF:'</list>"
+      "note": "BOF:'<list type=' followed by a gap of 0-64 bytes followed by 'name= ; 'EOF:'</list>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C6C69737420747970653D22{0-64}6E616D653D",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C2F6C6973743E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

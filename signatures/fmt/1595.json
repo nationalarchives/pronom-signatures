@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1934,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 5,
-      "byteSequence": "6674797063727820*6D6F6F76{32}43",
-      "endianness": null,
       "name": "Canon Raw 3.0",
-      "note": "BOF, offset 0: ftypcrx*moov{32}CanonCR"
+      "note": "BOF, offset 0: ftypcrx*moov{32}CanonCR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 5,
+          "byteSequence": "6674797063727820*6D6F6F76{32}43",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

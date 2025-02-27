@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1923,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C423FC96A87C2CF",
-      "endianness": null,
       "name": "ADRIFT Text Adventure File",
-      "note": "BOF; Offset: 0; Magic Bytes: '<B?\u00c9j\u2021\u00c2\u00cf'"
+      "note": "BOF; Offset: 0; Magic Bytes: '<B?\u00c9j\u2021\u00c2\u00cf'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C423FC96A87C2CF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1784,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46433631",
-      "endianness": null,
       "name": "Flow Charting 6",
-      "note": "BOF: 'FC61'"
+      "note": "BOF: 'FC61'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46433631",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

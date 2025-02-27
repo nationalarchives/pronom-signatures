@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 292,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304*504B0304*786D6C6E733D22687474703A2F2F7777772E6261722E61646D696E2E63682F786D6C6E732F73696172642F312E302F6D657461646174612E78736422",
-      "endianness": null,
       "name": "SIARD",
-      "note": "Signature for SIARD, combining that of a standard ZIP file and the expected XMLNS string: xmlns=\u201chttp://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd\u201c - Offset currently set to 1024 bytes but it is expected that this could be improved given further test data."
-    },
-    {
-      "signatureID": 292,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B01{43-65531}504B0506{18-65531}",
-      "endianness": null,
-      "name": "SIARD",
-      "note": "Signature for SIARD, combining that of a standard ZIP file and the expected XMLNS string: xmlns=\u201chttp://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd\u201c - Offset currently set to 1024 bytes but it is expected that this could be improved given further test data."
+      "note": "Signature for SIARD, combining that of a standard ZIP file and the expected XMLNS string: xmlns=\u201chttp://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd\u201c - Offset currently set to 1024 bytes but it is expected that this could be improved given further test data.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304*504B0304*786D6C6E733D22687474703A2F2F7777772E6261722E61646D696E2E63682F786D6C6E732F73696172642F312E302F6D657461646174612E78736422",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B01{43-65531}504B0506{18-65531}",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

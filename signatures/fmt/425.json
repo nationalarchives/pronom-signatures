@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 636,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000001BA{8-11}000001(BB|BD|BE|E0)",
-      "endianness": null,
       "name": "Video Object File",
-      "note": "Same as BOF sequence for MPEG 1 & 2 but variation on last byte. VAR is seeking presence of Private Stream with \u2018Packet Control Information\u2019, then \u2018Data Search Information\u2019 respectively"
-    },
-    {
-      "signatureID": 636,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "000001BF03D400{979}000001BF03FA01",
-      "endianness": null,
-      "name": "Video Object File",
-      "note": "Same as BOF sequence for MPEG 1 & 2 but variation on last byte. VAR is seeking presence of Private Stream with \u2018Packet Control Information\u2019, then \u2018Data Search Information\u2019 respectively"
+      "note": "Same as BOF sequence for MPEG 1 & 2 but variation on last byte. VAR is seeking presence of Private Stream with \u2018Packet Control Information\u2019, then \u2018Data Search Information\u2019 respectively",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000001BA{8-11}000001(BB|BD|BE|E0)",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "000001BF03D400{979}000001BF03FA01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

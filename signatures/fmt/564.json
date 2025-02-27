@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 898,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D6174203131",
-      "endianness": null,
       "name": "Adobe Illustrator 15.0",
-      "note": "Header PDF-1.5. Comment %!PS-Adobe-3.0 declares that the file contains a Postscript program. The comment \u201c%AI5_FileFormat 11\u201d indicates that the format is that of a version 15.0 Adobe Illustrator file."
+      "note": "Header PDF-1.5. Comment %!PS-Adobe-3.0 declares that the file contains a Postscript program. The comment \u201c%AI5_FileFormat 11\u201d indicates that the format is that of a version 15.0 Adobe Illustrator file.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D6174203131",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

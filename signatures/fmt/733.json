@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1060,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464C6864",
-      "endianness": null,
       "name": "FL Studio FLP",
-      "note": "BOF: FLhd"
+      "note": "BOF: FLhd",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464C6864",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

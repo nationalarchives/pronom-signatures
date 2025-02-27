@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 297,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4096,
-      "byteSequence": "5C(7573657061636B6167657B|636861707465727B|73656374696F6E7B|73756273656374696F6E7B|626567696E7B)",
-      "endianness": null,
       "name": "LaTeX (Subdocument)",
-      "note": "Looking for relevant tags in LaTeX subdocument. \\usepackage{ \\chapter{ \\section{ \\subsection{ \\begin{"
+      "note": "Looking for relevant tags in LaTeX subdocument. \\usepackage{ \\chapter{ \\section{ \\subsection{ \\begin{",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4096,
+          "byteSequence": "5C(7573657061636B6167657B|636861707465727B|73656374696F6E7B|73756273656374696F6E7B|626567696E7B)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

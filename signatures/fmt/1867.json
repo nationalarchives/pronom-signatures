@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2211,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0BADDEED00000003",
-      "endianness": null,
       "name": "Microsoft Powerpoint for Macintosh v.3",
-      "note": "Absolute from beginning of file, magic bytes: ''\u00de\u00ed...."
+      "note": "Absolute from beginning of file, magic bytes: ''\u00de\u00ed....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0BADDEED00000003",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

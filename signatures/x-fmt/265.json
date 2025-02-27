@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 265,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "[21:EF]{104}[30:37][20:37](00|20){5}[30:37][20:37](00|20){5}[30:37][20:37]00{10}[30:37](00|20){10}[30:37](00|20){5}[30:37][00:37](00|20)",
-      "endianness": "Little-endian",
       "name": "TAR (Tape Archive)",
-      "note": "TAR specification has a 256 byte header which includes 6 octal numbers which may be space or null terminated, may have leading spaces or zeros, and may vary in position by one byte, all depending on which of the many flavours the format follows. The above signature was tested on varied TAR files off the internet and the unknown files in digital preservation successfully."
+      "note": "TAR specification has a 256 byte header which includes 6 octal numbers which may be space or null terminated, may have leading spaces or zeros, and may vary in position by one byte, all depending on which of the many flavours the format follows. The above signature was tested on varied TAR files off the internet and the unknown files in digital preservation successfully.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "[21:EF]{104}[30:37][20:37](00|20){5}[30:37][20:37](00|20){5}[30:37][20:37]00{10}[30:37](00|20){10}[30:37](00|20){5}[30:37][00:37](00|20)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

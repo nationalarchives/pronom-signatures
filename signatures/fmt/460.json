@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 714,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "232066617368696F6E2E706464202D207772697474656E206279206D6B707274696E64202D20536174204465632030372030303A31323A303220313939310D0A",
-      "endianness": null,
       "name": "Verity Collection Partition Definition Descriptor Style Set",
-      "note": "BOF: # fashion.pdd - written by mkprtind - Sat Dec 07 00:12:02 1991..\r\nEOF: }..}.."
-    },
-    {
-      "signatureID": 714,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7D0D0A7D0D0A",
-      "endianness": null,
-      "name": "Verity Collection Partition Definition Descriptor Style Set",
-      "note": "BOF: # fashion.pdd - written by mkprtind - Sat Dec 07 00:12:02 1991..\r\nEOF: }..}.."
+      "note": "BOF: # fashion.pdd - written by mkprtind - Sat Dec 07 00:12:02 1991..\r\nEOF: }..}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "232066617368696F6E2E706464202D207772697474656E206279206D6B707274696E64202D20536174204465632030372030303A31323A303220313939310D0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7D0D0A7D0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

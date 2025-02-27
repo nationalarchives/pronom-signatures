@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2141,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{1-128}3C21444F4354595045204147536574",
-      "endianness": null,
       "name": "Transcriber AG TAG Format",
-      "note": "BOF offset 0, XML 1.0 declaration, then !DOCTYPE declaration \u2018AGSet\u2019. A DTD for version 3.0 of the file format can be found here: https://github.com/giuliopaci/transcriber-ag/blob/master/source/etc/TransAG/TransAG-3.0.dtd. For now, PRONOM does not distinguish between different versions of TAG"
+      "note": "BOF offset 0, XML 1.0 declaration, then !DOCTYPE declaration \u2018AGSet\u2019. A DTD for version 3.0 of the file format can be found here: https://github.com/giuliopaci/transcriber-ag/blob/master/source/etc/TransAG/TransAG-3.0.dtd. For now, PRONOM does not distinguish between different versions of TAG",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{1-128}3C21444F4354595045204147536574",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

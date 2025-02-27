@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1547,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "BAFED54601001122",
-      "endianness": null,
       "name": "Niton Data Transfer",
-      "note": "BOF: 0xBAFED54601001122"
+      "note": "BOF: 0xBAFED54601001122",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "BAFED54601001122",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

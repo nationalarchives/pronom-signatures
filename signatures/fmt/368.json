@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 539,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4C415346{20}0100{78}[00:99]",
-      "endianness": null,
       "name": "ASPRS Lidar Data Exchange Format 1.0",
-      "note": "ASCII header: LASF, followed after 20 bytes by version number 1.0"
+      "note": "ASCII header: LASF, followed after 20 bytes by version number 1.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4C415346{20}0100{78}[00:99]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

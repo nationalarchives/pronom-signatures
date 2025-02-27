@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 596,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "(73|2073)6F6C696420*6661636574206E6F726D616C20{0-200}6F75746572206C6F6F70{0-20}76657274657820",
-      "endianness": null,
       "name": "STL",
-      "note": "<optional blank>solid + \u2026 + \u201cfacet normal\u201d + \u2026 + \u201couter loop\u201d + \u2026 + vertex"
+      "note": "<optional blank>solid + \u2026 + \u201cfacet normal\u201d + \u2026 + \u201couter loop\u201d + \u2026 + vertex",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "(73|2073)6F6C696420*6661636574206E6F726D616C20{0-200}6F75746572206C6F6F70{0-20}76657274657820",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

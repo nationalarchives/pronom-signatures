@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1592,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "454846415F4845414445525F54414700",
-      "endianness": null,
       "name": "Reduced Resolution Dataset",
-      "note": "BOF: 'EHFA_HEADER_TAG', 0x00"
+      "note": "BOF: 'EHFA_HEADER_TAG', 0x00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "454846415F4845414445525F54414700",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

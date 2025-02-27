@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1996,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C4D3839353300",
-      "endianness": null,
       "name": "Yamaha Audio Generic",
-      "note": "BOF; Offset: 0; Magic Bytes: 'LM8953.'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'LM8953.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C4D3839353300",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

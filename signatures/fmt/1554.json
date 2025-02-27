@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1898,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2E736366",
-      "endianness": null,
       "name": "DNA Sequence Chromatogram File",
-      "note": "BOF; offset: 0-3; Magic Bytes: '.scf'"
+      "note": "BOF; offset: 0-3; Magic Bytes: '.scf'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2E736366",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

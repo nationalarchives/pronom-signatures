@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2209,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 512,
-      "byteSequence": "435363656E654F626A",
-      "endianness": null,
       "name": "SWiSH Movie File",
-      "note": "BOF Offset 0-512, magic bytes: CSceneObj"
+      "note": "BOF Offset 0-512, magic bytes: CSceneObj",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 512,
+          "byteSequence": "435363656E654F626A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

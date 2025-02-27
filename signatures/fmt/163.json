@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 767,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01FE{18}(D0|C4)02",
-      "endianness": null,
       "name": "MS Works Word Processor DOS 1-3 and Win 2",
-      "note": "BOF: .\u00fe{18}\u00d0.\r\nThere is no published specification. These bytes are common to Works Word Processor for DOS versions 1-3 and Works Word Processor for Windows 2. The 18 variable bytes may signify distinct versions so further investigation may provide further granularity."
+      "note": "BOF: .\u00fe{18}\u00d0.\r\nThere is no published specification. These bytes are common to Works Word Processor for DOS versions 1-3 and Works Word Processor for Windows 2. The 18 variable bytes may signify distinct versions so further investigation may provide further granularity.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01FE{18}(D0|C4)02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

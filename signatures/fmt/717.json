@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1043,
-      "positionType": "Absolute from BOF",
-      "offset": 20,
-      "maxOffset": null,
-      "byteSequence": "2153637265616D211A",
-      "endianness": null,
       "name": "Scream Tracker Module 1-2",
-      "note": "BOF, offset 20: !Scream!."
+      "note": "BOF, offset 20: !Scream!.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 20,
+          "maxOffset": null,
+          "byteSequence": "2153637265616D211A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

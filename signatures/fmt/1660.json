@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1994,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "435553544F4D00",
-      "endianness": null,
       "name": "Arts & Letters Clip Art Library",
-      "note": "BOF; Offset: 0; Magic Bytes: 'CUSTOM, then 0x00'\r\n\r\nEOF; Offset: 0; Magic Bytes; '\u00ff\u00ff'"
-    },
-    {
-      "signatureID": 1994,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFF",
-      "endianness": null,
-      "name": "Arts & Letters Clip Art Library",
-      "note": "BOF; Offset: 0; Magic Bytes: 'CUSTOM, then 0x00'\r\n\r\nEOF; Offset: 0; Magic Bytes; '\u00ff\u00ff'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'CUSTOM, then 0x00'\r\n\r\nEOF; Offset: 0; Magic Bytes; '\u00ff\u00ff'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "435553544F4D00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

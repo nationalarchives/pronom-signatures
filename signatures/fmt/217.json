@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 450,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4A4153432042524F57532046494C4500",
-      "endianness": null,
       "name": "PaintShopPro Browser Cache File",
-      "note": "Header ASCII: JASC BROWS FILE."
+      "note": "Header ASCII: JASC BROWS FILE.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4A4153432042524F57532046494C4500",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

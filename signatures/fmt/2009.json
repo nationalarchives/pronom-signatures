@@ -9,7 +9,7 @@
   "formatNote": "Specification: https://www.wwpdb.org/documentation/file-format-content/format33/sect1.html\r\nhttps://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format) \r\nhttps://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/dealing-with-coordinates \r\nhttps://www.biostat.jhsph.edu/~iruczins/teaching/260.655/links/pdbformat.pdf",
   "lastUpdatedDate": "27 Jun 2024",
   "formatSourceID": 346,
-  "provenanceCompoundName": null,
+  "provenanceCompoundName": "ETH Library / ETH Library",
   "formatProvenance": null,
   "formatSourceDate": "27 Jun 2024",
   "formatDisclosure": null,
@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 3370,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1,
-      "byteSequence": "0A4D4153544552{74-75}0A454E44{77-78}0A",
-      "endianness": null,
       "name": "Protein Data Bank File v.3.3",
-      "note": "Absolute from beginning of file, magic bytes: HEADER{74-80}TITLE{74-250}COMPND*SOURCE*KEYWDS*EXPDTA{74-76}AUTHOR*REVDAT*REMARK*CRYST1*ORIGX1*SCALE1"
-    },
-    {
-      "signatureID": 3370,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1,
-      "byteSequence": "484541444552{74-80}0A5449544C45{74-250}0A434F4D504E44*0A534F55524345*0A4B4559574453*0A455850445441{74-76}0A415554484F52*0A524556444154*0A52454D41524B*0A435259535431*0A4F5249475831*0A5343414C4531",
-      "endianness": null,
-      "name": "Protein Data Bank File v.3.3",
-      "note": "Absolute from beginning of file, magic bytes: HEADER{74-80}TITLE{74-250}COMPND*SOURCE*KEYWDS*EXPDTA{74-76}AUTHOR*REVDAT*REMARK*CRYST1*ORIGX1*SCALE1"
+      "note": "Absolute from beginning of file, magic bytes: HEADER{74-80}TITLE{74-250}COMPND*SOURCE*KEYWDS*EXPDTA{74-76}AUTHOR*REVDAT*REMARK*CRYST1*ORIGX1*SCALE1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "0A4D4153544552{74-75}0A454E44{77-78}0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "484541444552{74-80}0A5449544C45{74-250}0A434F4D504E44*0A534F55524345*0A4B4559574453*0A455850445441{74-76}0A415554484F52*0A524556444154*0A52454D41524B*0A435259535431*0A4F5249475831*0A5343414C4531",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1947,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5842494E1A",
-      "endianness": null,
       "name": "XBIN (eXtended BIN)",
-      "note": "BOF; Offset: 0; Magic Bytes: 'XBIN.'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'XBIN.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5842494E1A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

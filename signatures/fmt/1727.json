@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2063,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0330303130313131313030313031303131{3}5A010004",
-      "endianness": null,
       "name": "Pro Tools Session File 10+",
-      "note": "BOF Absolute from beginning of file, magic bytes:.0010111100101011{3}Z\u2026"
+      "note": "BOF Absolute from beginning of file, magic bytes:.0010111100101011{3}Z\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0330303130313131313030313031303131{3}5A010004",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

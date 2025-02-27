@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1856,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF0A",
-      "endianness": null,
       "name": "JPEG XL Codestream",
-      "note": "BOF: 0xFF0A"
+      "note": "BOF: 0xFF0A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

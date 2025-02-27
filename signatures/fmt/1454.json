@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1819,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "574542565454{5-400}[30:35][30:39]3A[30:35][30:39]2E[30:39][30:39][30:39]202D2D3E20{0-5}[30:35][30:39]3A[30:35][30:39]2E[30:39][30:39][30:39]",
-      "endianness": null,
       "name": "Web Video Text Tracks (WebVTT)",
-      "note": "Absolute from beginning of file, offset 0-4, magic bytes: WEBVTT {10-40}  then a time stamp in the format xx:xx.xxx followed by --> {0-5} followed by xx:xx.xxx (where x is a number)."
+      "note": "Absolute from beginning of file, offset 0-4, magic bytes: WEBVTT {10-40}  then a time stamp in the format xx:xx.xxx followed by --> {0-5} followed by xx:xx.xxx (where x is a number).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "574542565454{5-400}[30:35][30:39]3A[30:35][30:39]2E[30:39][30:39][30:39]202D2D3E20{0-5}[30:35][30:39]3A[30:35][30:39]2E[30:39][30:39][30:39]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

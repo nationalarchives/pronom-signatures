@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 2306,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "6D6D*4172636869434144",
-      "endianness": null,
       "name": "Graphisoft Archicad Project versions 6-9 (Intel Mac, little-endian)",
-      "note": "Absolute from beginning of file, magic bytes: mm*ArchiCAD"
+      "note": "Absolute from beginning of file, magic bytes: mm*ArchiCAD",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "6D6D*4172636869434144",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2307,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D*4172636869434144",
-      "endianness": null,
       "name": "Graphisoft Archicad Project versions 6-9 (big-endian)",
-      "note": "Absolute from beginning of file, magic bytes: MM*ArchiCAD"
+      "note": "Absolute from beginning of file, magic bytes: MM*ArchiCAD",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D*4172636869434144",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2308,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5757*4172636869434144",
-      "endianness": null,
       "name": "Graphisoft Archicad Project versions 6-9 (Intel Windows, little-endian)",
-      "note": "Absolute from beginning of file, magic bytes: WW*ArchiCAD"
+      "note": "Absolute from beginning of file, magic bytes: WW*ArchiCAD",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5757*4172636869434144",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1982,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D4C49425241525932",
-      "endianness": null,
       "name": "Adobe InDesign Library 2",
-      "note": "BOF:0x0606 (2 x Acknowledge) followed by '\u00ed\u00f5\u00d8' followed by 0x1D (Group Separator) followed by 'F\u00e5\u00bd1\u00ef\u00e7\u00fet\u00b7' followed by 0x1D (Group Separator) followed by 'LIBRARY2'"
+      "note": "BOF:0x0606 (2 x Acknowledge) followed by '\u00ed\u00f5\u00d8' followed by 0x1D (Group Separator) followed by 'F\u00e5\u00bd1\u00ef\u00e7\u00fet\u00b7' followed by 0x1D (Group Separator) followed by 'LIBRARY2'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D4C49425241525932",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

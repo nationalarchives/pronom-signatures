@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2006,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "(07|0B|CC|08)(00|01)6400",
-      "endianness": null,
       "name": "Linux/i386 Binary Executable File ZMAGIC",
-      "note": "BOF; Offset: 0; Magic Bytes: Starting with either 0x07, 0x0B, 0xCC followed by either 0x00 or 0x01, then by 0x6400"
+      "note": "BOF; Offset: 0; Magic Bytes: Starting with either 0x07, 0x0B, 0xCC followed by either 0x00 or 0x01, then by 0x6400",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "(07|0B|CC|08)(00|01)6400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

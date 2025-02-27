@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2251,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "237573646120312E",
-      "endianness": null,
       "name": "Universal Scene Description ASCII File",
-      "note": "BOF:'#usda' followed by 0x20 (Space) followed by '1.'"
+      "note": "BOF:'#usda' followed by 0x20 (Space) followed by '1.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "237573646120312E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 932,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "233F52414449414E43450A",
-      "endianness": null,
       "name": "Radiance",
-      "note": "#?RADIANCE."
+      "note": "#?RADIANCE.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "233F52414449414E43450A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

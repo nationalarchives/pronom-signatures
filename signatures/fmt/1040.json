@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1399,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "444453207C000000",
-      "endianness": null,
       "name": "DirectDraw Surface",
-      "note": "BOF: magic: 'DDS ', length of header (0x7C000000) = 124 bytes\r\nhttps://msdn.microsoft.com/en-us/library/windows/desktop/bb943991(v=vs.85).aspx#File_Layout1"
+      "note": "BOF: magic: 'DDS ', length of header (0x7C000000) = 124 bytes\r\nhttps://msdn.microsoft.com/en-us/library/windows/desktop/bb943991(v=vs.85).aspx#File_Layout1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "444453207C000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

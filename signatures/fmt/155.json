@@ -36,63 +36,73 @@
   "internalSignatures": [
     {
       "signatureID": 677,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{4-4080}AF870300??000000",
-      "endianness": "Little-endian",
       "name": "GeoTIFF (little-endian, BOF)",
-      "note": "TIFF header plus GeoKeyDirectory tag near BOF"
+      "note": "TIFF header plus GeoKeyDirectory tag near BOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{4-4080}AF870300??000000",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 678,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00",
-      "endianness": "Little-endian",
       "name": "GeoTIFF (little-endian, BOF+EOF)",
-      "note": "TIFF header plus GeoKeyDirectory tag near EOF"
-    },
-    {
-      "signatureID": 678,
-      "positionType": "Absolute from EOF",
-      "offset": 4,
-      "maxOffset": 5000,
-      "byteSequence": "AF870300??000000",
-      "endianness": "Little-endian",
-      "name": "GeoTIFF (little-endian, BOF+EOF)",
-      "note": "TIFF header plus GeoKeyDirectory tag near EOF"
+      "note": "TIFF header plus GeoKeyDirectory tag near EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 4,
+          "maxOffset": 5000,
+          "byteSequence": "AF870300??000000",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 679,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A{4-4080}87AF0003000000",
-      "endianness": "Big-endian",
       "name": "GeoTIFF (big-endian, BOF)",
-      "note": "TIFF header plus GeoKeyDirectory tag near BOF"
+      "note": "TIFF header plus GeoKeyDirectory tag near BOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A{4-4080}87AF0003000000",
+          "endianness": "Big-endian"
+        }
+      ]
     },
     {
       "signatureID": 680,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A",
-      "endianness": "Big-endian",
       "name": "GeoTIFF (big-endian, BOF+EOF)",
-      "note": "TIFF header plus GeoKeyDirectory tag near EOF"
-    },
-    {
-      "signatureID": 680,
-      "positionType": "Absolute from EOF",
-      "offset": 5,
-      "maxOffset": 5000,
-      "byteSequence": "87AF0003000000",
-      "endianness": null,
-      "name": "GeoTIFF (big-endian, BOF+EOF)",
-      "note": "TIFF header plus GeoKeyDirectory tag near EOF"
+      "note": "TIFF header plus GeoKeyDirectory tag near EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A",
+          "endianness": "Big-endian"
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 5,
+          "maxOffset": 5000,
+          "byteSequence": "87AF0003000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -102,6 +112,10 @@
     },
     {
       "externalSignature": "tiff",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "cog",
       "signatureType": "File extension"
     }
   ],

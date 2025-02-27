@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2264,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "42494D78",
-      "endianness": null,
       "name": "Graphisoft BIMx",
-      "note": "BOF; Offset: 0; Sequence: \u2018BIMx\u2019, EOF; Offset:0; Sequence: \u2018KPXB\u2019"
-    },
-    {
-      "signatureID": 2264,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4B505842",
-      "endianness": null,
-      "name": "Graphisoft BIMx",
-      "note": "BOF; Offset: 0; Sequence: \u2018BIMx\u2019, EOF; Offset:0; Sequence: \u2018KPXB\u2019"
+      "note": "BOF; Offset: 0; Sequence: \u2018BIMx\u2019, EOF; Offset:0; Sequence: \u2018KPXB\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "42494D78",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4B505842",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1164,
-      "positionType": "Absolute from BOF",
-      "offset": 344,
-      "maxOffset": 0,
-      "byteSequence": "6E693100",
-      "endianness": null,
       "name": "The Neuroimaging Informatics Technology Initiative File Format V1 variant1",
-      "note": "Offset 344: ni1."
+      "note": "Offset 344: ni1.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 344,
+          "maxOffset": 0,
+          "byteSequence": "6E693100",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1174,
-      "positionType": "Absolute from BOF",
-      "offset": 344,
-      "maxOffset": 0,
-      "byteSequence": "6E2B3100",
-      "endianness": null,
       "name": "The Neuroimaging Informatics Technology Initiative File Format V1 variant2",
-      "note": "Offset 344: n+1."
+      "note": "Offset 344: n+1.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 344,
+          "maxOffset": 0,
+          "byteSequence": "6E2B3100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

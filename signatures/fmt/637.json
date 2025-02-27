@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 968,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "E4525C7B8CD8A74DAEB15378D02996D3",
-      "endianness": null,
       "name": "Microsoft OneNote",
-      "note": "BOF: \u00e4R\\{\u0152\u00d8\u00a7M\u00ae\u00b1Sx\u00d0)\u2013\u00d3"
+      "note": "BOF: \u00e4R\\{\u0152\u00d8\u00a7M\u00ae\u00b1Sx\u00d0)\u2013\u00d3",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "E4525C7B8CD8A74DAEB15378D02996D3",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

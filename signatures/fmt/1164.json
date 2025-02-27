@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1546,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50726161745069637475726546696C65",
-      "endianness": null,
       "name": "Praat Picture File",
-      "note": "BOF: \"PraatPictureFile\""
+      "note": "BOF: \"PraatPictureFile\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50726161745069637475726546696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

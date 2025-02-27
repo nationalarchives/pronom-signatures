@@ -32,33 +32,38 @@
   "internalSignatures": [
     {
       "signatureID": 1083,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4657530C",
-      "endianness": null,
       "name": "SWF 12",
-      "note": "Header (FWS then version number) and end tag (..)"
-    },
-    {
-      "signatureID": 1083,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000",
-      "endianness": null,
-      "name": "SWF 12",
-      "note": "Header (FWS then version number) and end tag (..)"
+      "note": "Header (FWS then version number) and end tag (..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4657530C",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1101,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4357530C",
-      "endianness": null,
       "name": "SWF 12 - zlib compressed",
-      "note": "Header (CWS then version number)"
+      "note": "Header (CWS then version number)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4357530C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

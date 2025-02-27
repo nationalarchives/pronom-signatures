@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2061,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)3F3E0A3C494D473E0A",
-      "endianness": null,
       "name": "Capture One Settings File",
-      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"?>.<IMG>.\r\nEOF Absolute from end of file, magic bytes: </IMG>"
-    },
-    {
-      "signatureID": 2061,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C2F494D473E0A",
-      "endianness": null,
-      "name": "Capture One Settings File",
-      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"?>.<IMG>.\r\nEOF Absolute from end of file, magic bytes: </IMG>"
+      "note": "BOF Absolute from beginning of file, magic bytes: <?xml version=\"1.0\"?>.<IMG>.\r\nEOF Absolute from end of file, magic bytes: </IMG>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)3F3E0A3C494D473E0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C2F494D473E0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

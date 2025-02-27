@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 607,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}57415645666D7420[!10]{21-*}64617461",
-      "endianness": "Big-endian",
       "name": "Waveform Audio (WAVEFORMATEX)",
-      "note": "RIFF header, WAVE ID, Format chunk, chunk length GTE 18, wformat Tag not equal to decimal 65534 = 0xFFFE and Data chunk. Since DROID cannot currently handle inverted (i.e. not equal to) sequences, the wformat chunk is not expressed in this signature. For fmt/143 the wformat tag = 65534 = 0xFFFE, so this is handled by setting an appropriate identification priority."
+      "note": "RIFF header, WAVE ID, Format chunk, chunk length GTE 18, wformat Tag not equal to decimal 65534 = 0xFFFE and Data chunk. Since DROID cannot currently handle inverted (i.e. not equal to) sequences, the wformat chunk is not expressed in this signature. For fmt/143 the wformat tag = 65534 = 0xFFFE, so this is handled by setting an appropriate identification priority.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}57415645666D7420[!10]{21-*}64617461",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

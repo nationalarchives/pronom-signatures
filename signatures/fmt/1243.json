@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1620,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 20500,
-      "byteSequence": "687474703A2F2F697364732E637A656368706F696E742E637A2F7632302F6D657373616765",
-      "endianness": null,
       "name": "ZFO (Message) File",
-      "note": "Magic bytes http://isds.czechpoint.cz/v20/message"
+      "note": "Magic bytes http://isds.czechpoint.cz/v20/message",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 20500,
+          "byteSequence": "687474703A2F2F697364732E637A656368706F696E742E637A2F7632302F6D657373616765",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

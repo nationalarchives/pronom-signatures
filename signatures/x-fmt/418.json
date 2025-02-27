@@ -40,13 +40,17 @@
   "internalSignatures": [
     {
       "signatureID": 440,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00000100[01:09]00{3}00[00:01]00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000",
-      "endianness": null,
       "name": "Icon file format",
-      "note": "Header: (00000100) followed by number of images used in file. For purposes of this signature, range of limited to 1-9 - the largest number of images that was observed in any Icon file used for testing was 8. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000)"
+      "note": "Header: (00000100) followed by number of images used in file. For purposes of this signature, range of limited to 1-9 - the largest number of images that was observed in any Icon file used for testing was 8. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00000100[01:09]00{3}00[00:01]00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

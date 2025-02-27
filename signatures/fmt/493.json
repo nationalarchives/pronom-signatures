@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 761,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "PDF/E-1",
-      "note": "BOF: %PDF-1.[0-7] - specification is based on PDF1.6, however the specification doesn't specifically preclude other versions. We have seen and produced samples with PDF value not 1.6, so we are including all possible values.\r\nVAR: <pdfe:ISO_PDFEVersion>PDF/E-1</pdfe:ISO_PDFEVersion>"
-    },
-    {
-      "signatureID": 761,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C706466653A49534F5F5044464556657273696F6E3E5044462F452D313C2F706466653A49534F5F5044464556657273696F6E3E",
-      "endianness": null,
-      "name": "PDF/E-1",
-      "note": "BOF: %PDF-1.[0-7] - specification is based on PDF1.6, however the specification doesn't specifically preclude other versions. We have seen and produced samples with PDF value not 1.6, so we are including all possible values.\r\nVAR: <pdfe:ISO_PDFEVersion>PDF/E-1</pdfe:ISO_PDFEVersion>"
+      "note": "BOF: %PDF-1.[0-7] - specification is based on PDF1.6, however the specification doesn't specifically preclude other versions. We have seen and produced samples with PDF value not 1.6, so we are including all possible values.\r\nVAR: <pdfe:ISO_PDFEVersion>PDF/E-1</pdfe:ISO_PDFEVersion>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C706466653A49534F5F5044464556657273696F6E3E5044462F452D313C2F706466653A49534F5F5044464556657273696F6E3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

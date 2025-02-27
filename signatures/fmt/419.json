@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 887,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "252150532D41646F62652D332E30{1-128}252543726561746F723A2041646F626520496C6C7573747261746F7228544D2920666F722057696E646F77732C2076657273696F6E20342E30",
-      "endianness": null,
       "name": "Adobe Illustrator 4.0",
-      "note": "The first line of the file declares that the file contains a Postscript program and identifies the version of the Document Structuring Conventions to which the document conforms as 3.0. In version 4.0 files, the Creator Comment contains the string \u201cAdobe Illustrator (TM) for Windows, version 4\u201d"
+      "note": "The first line of the file declares that the file contains a Postscript program and identifies the version of the Document Structuring Conventions to which the document conforms as 3.0. In version 4.0 files, the Creator Comment contains the string \u201cAdobe Illustrator (TM) for Windows, version 4\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "252150532D41646F62652D332E30{1-128}252543726561746F723A2041646F626520496C6C7573747261746F7228544D2920666F722057696E646F77732C2076657273696F6E20342E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

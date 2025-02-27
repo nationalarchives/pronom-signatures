@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 640,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524946(46|58){4}434452447672736E",
-      "endianness": null,
       "name": "CorelDraw X3",
-      "note": "RIFF (little-endian) or RIFX (big-endian) Form labeled CDRDvrsn (D=13)"
+      "note": "RIFF (little-endian) or RIFX (big-endian) Form labeled CDRDvrsn (D=13)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524946(46|58){4}434452447672736E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

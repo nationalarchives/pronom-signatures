@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1209,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4EF546E96CE5",
-      "endianness": null,
       "name": "NuFX",
-      "note": "4EF546E96CE5"
+      "note": "4EF546E96CE5",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4EF546E96CE5",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1887,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "56455253494F4E20{1-4}0D0A426567696E2056422E466F726D2066726D",
-      "endianness": null,
       "name": "Visual Basic Form File (Version 4 onwards)",
-      "note": "BOF (magic bytes): VERSION {1-4}..Begin VB.Form frm"
+      "note": "BOF (magic bytes): VERSION {1-4}..Begin VB.Form frm",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "56455253494F4E20{1-4}0D0A426567696E2056422E466F726D2066726D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2202,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
-      "endianness": null,
       "name": "Capture One Session File",
-      "note": "BOF XML header.  Then BOF tags specific to Capture One software '<IMG>' gap between {0-256} then '<E K=' either 0x22 or 0x27 followed by 'Author'."
-    },
-    {
-      "signatureID": 2202,
-      "positionType": "Absolute from BOF",
-      "offset": 22,
-      "maxOffset": 0,
-      "byteSequence": "3C494D473E{0-256}3C45204B3D(22|27)417574686F72(22|27)",
-      "endianness": null,
-      "name": "Capture One Session File",
-      "note": "BOF XML header.  Then BOF tags specific to Capture One software '<IMG>' gap between {0-256} then '<E K=' either 0x22 or 0x27 followed by 'Author'."
+      "note": "BOF XML header.  Then BOF tags specific to Capture One software '<IMG>' gap between {0-256} then '<E K=' either 0x22 or 0x27 followed by 'Author'.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 22,
+          "maxOffset": 0,
+          "byteSequence": "3C494D473E{0-256}3C45204B3D(22|27)417574686F72(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

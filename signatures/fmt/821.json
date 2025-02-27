@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1178,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4743522D3135343100",
-      "endianness": null,
       "name": "G64 GCR-encoded Disk Image Format",
-      "note": "BOF: GCR-1541."
+      "note": "BOF: GCR-1541.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4743522D3135343100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

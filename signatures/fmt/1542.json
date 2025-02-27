@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1888,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFCC2C00",
-      "endianness": null,
       "name": "Visual Basic Form File (Version 3 or earlier)",
-      "note": "Magic bytes BOF offset 0: \u00ff\u00cc,. And EOF offset 0: .\u00fd"
-    },
-    {
-      "signatureID": 1888,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00FD",
-      "endianness": null,
-      "name": "Visual Basic Form File (Version 3 or earlier)",
-      "note": "Magic bytes BOF offset 0: \u00ff\u00cc,. And EOF offset 0: .\u00fd"
+      "note": "Magic bytes BOF offset 0: \u00ff\u00cc,. And EOF offset 0: .\u00fd",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFCC2C00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00FD",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

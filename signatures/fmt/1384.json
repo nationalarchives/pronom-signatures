@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1762,
-      "positionType": "Absolute from BOF",
-      "offset": 8,
-      "maxOffset": null,
-      "byteSequence": "02000200{22}4C50{36}0000",
-      "endianness": null,
       "name": "Embedded OpenType (EOT) 0x00020002",
-      "note": "BOF, offset 8: 0x02000200 {22} 'LP' {36} 0x0000. There may need to be a second pattern adjusting for endianness. Please let the PRONOM team know if you encounter this use-case."
+      "note": "BOF, offset 8: 0x02000200 {22} 'LP' {36} 0x0000. There may need to be a second pattern adjusting for endianness. Please let the PRONOM team know if you encounter this use-case.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 8,
+          "maxOffset": null,
+          "byteSequence": "02000200{22}4C50{36}0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1607,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00000000898888CD7B141640",
-      "endianness": null,
       "name": "NMRPipe Big Endian IEEE Float",
-      "note": "0x00000000898888cd7b141640"
+      "note": "0x00000000898888cd7b141640",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00000000898888CD7B141640",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1608,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000000004F6EEEEF4016147B",
-      "endianness": null,
       "name": "NMRPipe Little Endian IEEE Float",
-      "note": "0x000000004F6EEEEF4016147B"
+      "note": "0x000000004F6EEEEF4016147B",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000000004F6EEEEF4016147B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

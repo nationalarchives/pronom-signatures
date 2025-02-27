@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 733,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4B57414A88F027D1",
-      "endianness": null,
       "name": "MS DOS Compression format (KWAJ)",
-      "note": "BOF: KWAJ\u02c6\u00f0'\u00d1"
+      "note": "BOF: KWAJ\u02c6\u00f0'\u00d1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4B57414A88F027D1",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

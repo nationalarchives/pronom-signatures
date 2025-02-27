@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1349,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C783A786D706D65746120786D6C6E733A783D(22|27)61646F62653A6E733A6D6574612F(22|27)",
-      "endianness": null,
       "name": "XMP file format",
-      "note": "<x:xmpmeta xmlns:x=(\"|')adobe:ns:meta/(\"|')"
+      "note": "<x:xmpmeta xmlns:x=(\"|')adobe:ns:meta/(\"|')",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C783A786D706D65746120786D6C6E733A783D(22|27)61646F62653A6E733A6D6574612F(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1991,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": 0,
-      "byteSequence": "58494D470000",
-      "endianness": null,
       "name": "XIMG (Extended GEM Bit Image)",
-      "note": "BOF; Offset: 0; Magic Bytes: 'XIMG..'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'XIMG..'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": 0,
+          "byteSequence": "58494D470000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

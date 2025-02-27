@@ -1,0 +1,59 @@
+{
+  "fileFormatID": 3900,
+  "formatName": "Codebook Exchange Format",
+  "version": null,
+  "formatDescription": "Codebook Exchange Format (.qdc) is a file format for sharing codes so that they can easily be read by different types of Qualitative Data Analysis software. Files contain an xml header followed by the names of coding categories (name=), and a description (<Description>) of what data goes into that category. They don\u2019t contain the coded data itself. Qdc files help researchers share and interpret information consistently and reliably, and identify patterns in their data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "10 Jan 2025",
+  "formatSourceID": 356,
+  "provenanceCompoundName": "Cabinet Office / Cabinet Office",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2026",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3389,
+      "name": "Codebook Exchange Format",
+      "note": "BOF; Offset: 0-3; Magic Bytes: '<CodeBook xmlns=\"urn:QDA-XML:codebook:1:0\"' and EOF; Offset:0-3; Magic Bytes: '</CodeBook>'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 38,
+          "maxOffset": 50,
+          "byteSequence": "3C436F6465426F6F6B20786D6C6E733D2275726E3A5144412D584D4C3A636F6465626F6F6B3A313A3022",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C2F436F6465426F6F6B3E",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "qdc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 356
+}

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2139,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3F5F0300*6C031B000100",
-      "endianness": null,
       "name": "Multimedia Viewer Book",
-      "note": "BOF offset 0, 4 byte magic 0x3F5F0300, later SYSTEMHEADER 0x6C03, Format version WMVC/MMVC media view file: 0x1B00, Major version: 0x0100. Reference: http://delphi-kb.blogspot.com/2010/07/detailed-description-of-winhelp-file.html"
+      "note": "BOF offset 0, 4 byte magic 0x3F5F0300, later SYSTEMHEADER 0x6C03, Format version WMVC/MMVC media view file: 0x1B00, Major version: 0x0100. Reference: http://delphi-kb.blogspot.com/2010/07/detailed-description-of-winhelp-file.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3F5F0300*6C031B000100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

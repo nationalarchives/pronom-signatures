@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 602,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "537570657243616C63207665722E{2}352E",
-      "endianness": null,
       "name": "SuperCalc Spreadsheet 5",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "537570657243616C63207665722E{2}352E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

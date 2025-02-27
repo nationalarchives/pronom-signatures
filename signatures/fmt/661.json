@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 993,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464F5662",
-      "endianness": null,
       "name": "Sigma RAW Image",
-      "note": "BOF: FOVb"
+      "note": "BOF: FOVb",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464F5662",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

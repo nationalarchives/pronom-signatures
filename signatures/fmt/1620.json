@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1961,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4145524F00000001",
-      "endianness": null,
       "name": "Aero Studio Song",
-      "note": "BOF Absolute from beginning of file, magic bytes: AERO 00 00 00 01\r\nEOF Absolute from beginning of file, magic bytes: @"
-    },
-    {
-      "signatureID": 1961,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "40",
-      "endianness": null,
-      "name": "Aero Studio Song",
-      "note": "BOF Absolute from beginning of file, magic bytes: AERO 00 00 00 01\r\nEOF Absolute from beginning of file, magic bytes: @"
+      "note": "BOF Absolute from beginning of file, magic bytes: AERO 00 00 00 01\r\nEOF Absolute from beginning of file, magic bytes: @",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4145524F00000001",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "40",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

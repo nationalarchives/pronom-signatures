@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 3905,
+  "formatName": "HxC Floppy Emulator Disk Image",
+  "version": null,
+  "formatDescription": "The HFE (HxC Floppy Emulator) File Format is a floppy bitstream tracks container which was originally designed for the SD HxC Floppy Emulator devices, but is now a universal floppy emulator. This format stores floppy media content at bit-cell level.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://github.com/digital-preservation/PRONOM_Research/tree/main/Submissions/HFE \r\nhttps://hxc2001.com/floppy_drive_emulator/HFE-file-format.html\r\nSpecification:  https://hxc2001.com/floppy_drive_emulator/HFE-file-format.html",
+  "lastUpdatedDate": "05 Feb 2025",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "05 Feb 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Presentation",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2031",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3394,
+      "name": "HxC Floppy Emulator Disk Image",
+      "note": "Absolute from beginning of file, magic bytes: HXCPICFE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4858435049434645",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "hfe",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

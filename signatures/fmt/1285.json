@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1665,
-      "positionType": "Absolute from BOF",
-      "offset": 9,
-      "maxOffset": 9,
-      "byteSequence": "5241424249544752415048",
-      "endianness": null,
       "name": "PFS:First Choice Graph",
-      "note": "Offset 9: 'RABBITGRAPH'"
+      "note": "Offset 9: 'RABBITGRAPH'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 9,
+          "maxOffset": 9,
+          "byteSequence": "5241424249544752415048",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

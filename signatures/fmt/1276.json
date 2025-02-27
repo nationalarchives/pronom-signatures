@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1652,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D5600FF",
-      "endianness": null,
       "name": "SureThing Project File",
-      "note": "BOF: 'MV' then 0x00FF"
+      "note": "BOF: 'MV' then 0x00FF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D5600FF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

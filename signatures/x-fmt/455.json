@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 244,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4143313032310000",
-      "endianness": "Little-endian",
       "name": "AutoCAD Drawing Format 2007-2008",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4143313032310000",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

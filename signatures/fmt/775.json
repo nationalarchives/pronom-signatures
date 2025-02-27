@@ -32,43 +32,52 @@
   "internalSignatures": [
     {
       "signatureID": 1137,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A57531D",
-      "endianness": null,
       "name": "SWF 29 - LZMA compressed",
-      "note": "Header (ZWS then version number)"
+      "note": "Header (ZWS then version number)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A57531D",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1139,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4357531D",
-      "endianness": null,
       "name": "SWF 29 - zlib compressed",
-      "note": "Header (CWS then version number)"
+      "note": "Header (CWS then version number)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4357531D",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1141,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4657531D",
-      "endianness": null,
       "name": "SWF 29",
-      "note": "Header (FWS then version number) and end tag (..)"
-    },
-    {
-      "signatureID": 1141,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000",
-      "endianness": null,
-      "name": "SWF 29",
-      "note": "Header (FWS then version number) and end tag (..)"
+      "note": "Header (FWS then version number) and end tag (..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4657531D",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

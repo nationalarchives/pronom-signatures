@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2005,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1F9D90",
-      "endianness": null,
       "name": "Z Compressed Data",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x1F9D90"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x1F9D90",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1F9D90",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

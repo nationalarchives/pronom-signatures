@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2161,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D616343617074696F6E5F434341",
-      "endianness": null,
       "name": "MacCaption Project File",
-      "note": "BOF Absolute from beginning of file, magic bytes: MacCaption_CCA"
+      "note": "BOF Absolute from beginning of file, magic bytes: MacCaption_CCA",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D616343617074696F6E5F434341",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

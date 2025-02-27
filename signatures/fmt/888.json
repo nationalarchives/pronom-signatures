@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1237,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "9F087C4E",
-      "endianness": null,
       "name": "QuadriSpace Format",
-      "note": "BOF: \u0178.|N\r\nWith further research it may be possible to distinguish between different types of QuadriSpace formats. For now, known formats that conform to this signature pattern are:\r\n.qsd - QuadriSpace Document Format\r\n.qst - QuadriSpace Template\r\n.qsm - QuadriSpace Model\r\n.qsl - QuadriSpace Material"
+      "note": "BOF: \u0178.|N\r\nWith further research it may be possible to distinguish between different types of QuadriSpace formats. For now, known formats that conform to this signature pattern are:\r\n.qsd - QuadriSpace Document Format\r\n.qst - QuadriSpace Template\r\n.qsm - QuadriSpace Model\r\n.qsl - QuadriSpace Material",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "9F087C4E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

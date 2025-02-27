@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2174,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "23425249462042494E",
-      "endianness": null,
       "name": "Brio Query File",
-      "note": "BOF:'#BRIF' followed by 0x20 (Space) followed by 'BIN'"
+      "note": "BOF:'#BRIF' followed by 0x20 (Space) followed by 'BIN'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23425249462042494E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

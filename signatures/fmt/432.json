@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 650,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}434152437672736E",
-      "endianness": null,
       "name": "Corel R.A.V.E version 3",
-      "note": "ASCII: RIFF{4}CARCvrsn (where C = version 3)"
+      "note": "ASCII: RIFF{4}CARCvrsn (where C = version 3)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}434152437672736E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

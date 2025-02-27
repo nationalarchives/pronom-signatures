@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1804,
-      "positionType": "Absolute from BOF",
-      "offset": 2,
-      "maxOffset": 2,
-      "byteSequence": "4D4D585052{2}3C",
-      "endianness": null,
       "name": "QuarkXPress 3.2 (Motorola)",
-      "note": "BOF (Offset 2):'MMXPR'{2}'<'. The 'MM' stands for created on a Motorola computer."
+      "note": "BOF (Offset 2):'MMXPR'{2}'<'. The 'MM' stands for created on a Motorola computer.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2,
+          "maxOffset": 2,
+          "byteSequence": "4D4D585052{2}3C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

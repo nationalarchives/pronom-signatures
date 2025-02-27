@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1842,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D5050",
-      "endianness": null,
       "name": "Multi Palette Picture File",
-      "note": "BOF:'MPP' followed by 0x0"
+      "note": "BOF:'MPP' followed by 0x0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D5050",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

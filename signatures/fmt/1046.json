@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1406,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "445241434F01",
-      "endianness": null,
       "name": "Draco",
-      "note": "BOF: 'DRACO', major version 1\r\nHeader defined in code: https://github.com/google/draco/blob/master/compression/config/compression_shared.h"
+      "note": "BOF: 'DRACO', major version 1\r\nHeader defined in code: https://github.com/google/draco/blob/master/compression/config/compression_shared.h",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "445241434F01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

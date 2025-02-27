@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 357,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "464C49420200{2}00{3}0000{2}00{5}0000{2}0000",
-      "endianness": null,
       "name": "Autodesk Animator (FlicLib development library)",
-      "note": "Animator files which are created by an applicaton using the FlicLib development library. Header will be \"FLIB\"."
+      "note": "Animator files which are created by an applicaton using the FlicLib development library. Header will be \"FLIB\".",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "464C49420200{2}00{3}0000{2}00{5}0000{2}0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

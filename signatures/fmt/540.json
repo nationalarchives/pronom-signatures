@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 847,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D433530{4}(50524635|444F4B35|43415435|46435635)",
-      "endianness": null,
       "name": "Cinema 4D 5.x",
-      "note": "16 byte header: Cinema 4D Version 5 identifier = \u201cMC50\u201d, long integer file length, long Filetype: (possible file types: \u201cPRF5\u201d, \u201cDOK5\u201d, \u201cCAT5\u201d, \u201cFCV5\u201d)"
+      "note": "16 byte header: Cinema 4D Version 5 identifier = \u201cMC50\u201d, long integer file length, long Filetype: (possible file types: \u201cPRF5\u201d, \u201cDOK5\u201d, \u201cCAT5\u201d, \u201cFCV5\u201d)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D433530{4}(50524635|444F4B35|43415435|46435635)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1953,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000140004445425240{155}42756C6C65746564204C697374",
-      "endianness": null,
       "name": "Lotus Freelance Smartmaster Graphics",
-      "note": "BOF; Offset: 0; Header 00x00014000 followed by 'DEBR@' then at byte 164 'Bulleted List'"
+      "note": "BOF; Offset: 0; Header 00x00014000 followed by 'DEBR@' then at byte 164 'Bulleted List'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000140004445425240{155}42756C6C65746564204C697374",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

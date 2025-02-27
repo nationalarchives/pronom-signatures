@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1538,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4A4D434B",
-      "endianness": null,
       "name": "Lightwright 6",
-      "note": "BOF: JMCK\r\nEOF, max offset 2048: CLEAR TEXT BLOCK..LWFORMAT V6"
-    },
-    {
-      "signatureID": 1538,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2048,
-      "byteSequence": "434C454152205445585420424C4F434B0D0A4C57464F524D4154205636",
-      "endianness": null,
-      "name": "Lightwright 6",
-      "note": "BOF: JMCK\r\nEOF, max offset 2048: CLEAR TEXT BLOCK..LWFORMAT V6"
+      "note": "BOF: JMCK\r\nEOF, max offset 2048: CLEAR TEXT BLOCK..LWFORMAT V6",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4A4D434B",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2048,
+          "byteSequence": "434C454152205445585420424C4F434B0D0A4C57464F524D4154205636",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

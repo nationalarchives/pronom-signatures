@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 609,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D7CDC69A0000{16}01000900",
-      "endianness": null,
       "name": "Windows Metafile Image with Placeable File Header",
-      "note": "Many applications that create metafiles prepend a 22-byte 'Placeable File Header' to the metafile: https://msdn.microsoft.com/en-us/library/windows/desktop/ms534075(v=vs.85).aspx\r\n\r\nMagic number 0x9AC6CDD7,  2-byte handle, always 0, skip 16 bytes, File type (1 or 2), header size in words, always 9."
+      "note": "Many applications that create metafiles prepend a 22-byte 'Placeable File Header' to the metafile: https://msdn.microsoft.com/en-us/library/windows/desktop/ms534075(v=vs.85).aspx\r\n\r\nMagic number 0x9AC6CDD7,  2-byte handle, always 0, skip 16 bytes, File type (1 or 2), header size in words, always 9.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D7CDC69A0000{16}01000900",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1228,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0100090000(01|03)",
-      "endianness": null,
       "name": "Windows Metafile Image without Placeable File Header",
-      "note": "File type (1 or 2), header size in words, always 9. Version either 01 or 03"
+      "note": "File type (1 or 2), header size in words, always 9. Version either 01 or 03",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0100090000(01|03)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

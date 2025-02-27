@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 926,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1,
-      "byteSequence": "3C(617378|415358)20(76657273696F6E|56455253494F4E){0-1}3D{0-3}33{0-64}3E",
-      "endianness": null,
       "name": "Windows Media Metafile",
-      "note": "<(asx|ASX) (version|VERSION){0-1}={0-3}3{0-64}>"
+      "note": "<(asx|ASX) (version|VERSION){0-1}={0-3}3{0-64}>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "3C(617378|415358)20(76657273696F6E|56455253494F4E){0-1}3D{0-3}33{0-64}3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

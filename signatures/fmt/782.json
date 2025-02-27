@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1150,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "E80300000B00000041422E504F442E322E3000E803008000000000",
-      "endianness": null,
       "name": "PowerVR POD",
-      "note": "Format consists of blocks. Identification based upon 'version' block - 8 bytes 'version' block start tag: identifier = 0xE8030000 & length of block (11 bytes = 0x0B000000) - Data (in this case the 11 byte null-terminated version string AB.POD.2.0) - 8 bytes 'version' block end tag: identifier = 0xE8030080 & length (0 bytes as end tag = 0x00000000)"
+      "note": "Format consists of blocks. Identification based upon 'version' block - 8 bytes 'version' block start tag: identifier = 0xE8030000 & length of block (11 bytes = 0x0B000000) - Data (in this case the 11 byte null-terminated version string AB.POD.2.0) - 8 bytes 'version' block end tag: identifier = 0xE8030080 & length (0 bytes as end tag = 0x00000000)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "E80300000B00000041422E504F442E322E3000E803008000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

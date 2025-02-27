@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1615,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3B2045636C6970736543726F7373776F7264{0-12}63726F7373776F72642070757A7A6C650D0A3B",
-      "endianness": null,
       "name": "EclipseCrossword Puzzle File",
-      "note": "BOF: Magic bytes \u2018; EclipseCrossword\u2019 usually followed by a version number \u2018crossword puzzle..;\u2019"
-    },
-    {
-      "signatureID": 1615,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0D0A0D0A",
-      "endianness": null,
-      "name": "EclipseCrossword Puzzle File",
-      "note": "BOF: Magic bytes \u2018; EclipseCrossword\u2019 usually followed by a version number \u2018crossword puzzle..;\u2019"
+      "note": "BOF: Magic bytes \u2018; EclipseCrossword\u2019 usually followed by a version number \u2018crossword puzzle..;\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3B2045636C6970736543726F7373776F7264{0-12}63726F7373776F72642070757A7A6C650D0A3B",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0D0A0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

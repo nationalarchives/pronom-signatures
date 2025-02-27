@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1312,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}444C5320",
-      "endianness": null,
       "name": "Downloadable Sounds Audio",
-      "note": "BOF: RIFF{4} 'DLS '\r\nSpecification: http://dev.midi.org/techspecs/"
+      "note": "BOF: RIFF{4} 'DLS '\r\nSpecification: http://dev.midi.org/techspecs/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}444C5320",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

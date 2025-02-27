@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1582,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "56697333{7-64}(54415454524942555445|5447524F5550|544D4F44454C|54504F4C59474F4E)",
-      "endianness": null,
       "name": "StrataPro Vis",
-      "note": "BOF: 'Vis3' {7-64} (TATTRIBUTE|TGROUP|TMODEL|TPOLYGON)"
+      "note": "BOF: 'Vis3' {7-64} (TATTRIBUTE|TGROUP|TMODEL|TPOLYGON)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "56697333{7-64}(54415454524942555445|5447524F5550|544D4F44454C|54504F4C59474F4E)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 458,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "464F524D{4}3853565856484452",
-      "endianness": null,
       "name": "Interchange Format File 8-bit Sampled Voice",
-      "note": "Header: FORM chunk id, 4-byte chunk size, 8SVX subchunk id, Voice8header property VHDR"
+      "note": "Header: FORM chunk id, 4-byte chunk size, 8SVX subchunk id, Voice8header property VHDR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "464F524D{4}3853565856484452",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

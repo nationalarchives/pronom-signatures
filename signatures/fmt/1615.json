@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1950,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "56355F4346563200*434154447277436F6E74",
-      "endianness": null,
       "name": "CATIA Drawing",
-      "note": "BOF offset 0, magic bytes: V5_CFV2 * CATDrwCont"
+      "note": "BOF offset 0, magic bytes: V5_CFV2 * CATDrwCont",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "56355F4346563200*434154447277436F6E74",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

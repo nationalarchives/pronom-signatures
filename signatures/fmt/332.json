@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 431,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2F332E[30:33]0D0A284F44422E31",
-      "endianness": null,
       "name": "ESRI Arc/View Project Version 3.x",
-      "note": "Header containing version number followed by ODB format information"
+      "note": "Header containing version number followed by ODB format information",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2F332E[30:33]0D0A284F44422E31",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

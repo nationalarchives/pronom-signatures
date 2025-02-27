@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 995,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-32}69736F5F31303330335F3238",
-      "endianness": null,
       "name": "Industry Foundation Classes XML",
-      "note": "XML declaration tag shortly followed by declaration of iso_10303_28 namespace"
+      "note": "XML declaration tag shortly followed by declaration of iso_10303_28 namespace",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-32}69736F5F31303330335F3238",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

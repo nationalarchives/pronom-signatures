@@ -36,63 +36,73 @@
   "internalSignatures": [
     {
       "signatureID": 2179,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{0-4080}12C601000400000001050000",
-      "endianness": null,
       "name": "DNG 1.5 (Little Endian, BOF)",
-      "note": "TIFF header plus DNGVersion tag near BOF"
+      "note": "TIFF header plus DNGVersion tag near BOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{0-4080}12C601000400000001050000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2180,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A{0-4080}C61200010000000401050000",
-      "endianness": null,
       "name": "DNG 1.5 (Big Endian, BOF)",
-      "note": "TIFF header plus DNGVersion tag near BOF"
+      "note": "TIFF header plus DNGVersion tag near BOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A{0-4080}C61200010000000401050000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2181,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00",
-      "endianness": null,
       "name": "DNG 1.5 (Little Endian, BOF+EOF)",
-      "note": "\tTIFF header plus DNGVersion tag near EOF"
-    },
-    {
-      "signatureID": 2181,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 128000,
-      "byteSequence": "12C601000400000001050000",
-      "endianness": null,
-      "name": "DNG 1.5 (Little Endian, BOF+EOF)",
-      "note": "\tTIFF header plus DNGVersion tag near EOF"
+      "note": "\tTIFF header plus DNGVersion tag near EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 128000,
+          "byteSequence": "12C601000400000001050000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2182,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A",
-      "endianness": null,
       "name": "DNG 1.5 (Big Endian, BOF+EOF)",
-      "note": "\tTIFF header plus DNGVersion tag near EOF"
-    },
-    {
-      "signatureID": 2182,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 128000,
-      "byteSequence": "C61200010000000401050000",
-      "endianness": null,
-      "name": "DNG 1.5 (Big Endian, BOF+EOF)",
-      "note": "\tTIFF header plus DNGVersion tag near EOF"
+      "note": "\tTIFF header plus DNGVersion tag near EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 128000,
+          "byteSequence": "C61200010000000401050000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 24,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*3C737667*7376673E",
-      "endianness": null,
       "name": "SVG 1.0",
-      "note": "Including <svg></svg> fragments"
+      "note": "Including <svg></svg> fragments",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*3C737667*7376673E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

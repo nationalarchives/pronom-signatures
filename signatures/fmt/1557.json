@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1901,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FEDB0000",
-      "endianness": null,
       "name": "Cyber Paint Sequence",
-      "note": "BOF; Offset: 0; Magic bytes: \u00fe\u00db.."
+      "note": "BOF; Offset: 0; Magic bytes: \u00fe\u00db..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FEDB0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

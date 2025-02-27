@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2228,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "42BD0A0001{15}76312E306100{10}00000000000000000000000000000000",
-      "endianness": null,
       "name": "CIF1",
-      "note": "BOF: 00x42BD0A0001 then after 15 bytes 00x76312E306100 followed by 16 null bytes"
+      "note": "BOF: 00x42BD0A0001 then after 15 bytes 00x76312E306100 followed by 16 null bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "42BD0A0001{15}76312E306100{10}00000000000000000000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

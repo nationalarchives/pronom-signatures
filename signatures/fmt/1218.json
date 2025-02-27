@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2149,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 64,
-      "byteSequence": "[30:39][30:39]3A[30:39][30:39]3A[30:39][30:39]2C[30:39][30:39][30:39]202D2D3E20[30:39][30:39]3A[30:39][30:39]3A[30:39][30:39]2C[30:39][30:39][30:39]",
-      "endianness": null,
       "name": "\tSubRip Subtitle File",
-      "note": "Absolute from beginning of file, offset 0-64: xx:xx:xx,xxxxxx --> xx:xx:xx,xxx where each x is a numeric value 0-9"
+      "note": "Absolute from beginning of file, offset 0-64: xx:xx:xx,xxxxxx --> xx:xx:xx,xxx where each x is a numeric value 0-9",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 64,
+          "byteSequence": "[30:39][30:39]3A[30:39][30:39]3A[30:39][30:39]2C[30:39][30:39][30:39]202D2D3E20[30:39][30:39]3A[30:39][30:39]3A[30:39][30:39]2C[30:39][30:39][30:39]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

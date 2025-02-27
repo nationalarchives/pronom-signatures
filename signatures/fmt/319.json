@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 413,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000270AFFFFFE700000000000000000000000000000000000{3}00[00:01]",
-      "endianness": null,
       "name": "ESRI Spatial Index File",
-      "note": "Regularly recurring header sequence"
+      "note": "Regularly recurring header sequence",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000270AFFFFFE700000000000000000000000000000000000{3}00[00:01]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

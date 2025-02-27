@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 36,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "3C21(444F4354595045|646F6374797065)20(48544D4C|68746D6C)20(5055424C4943|7075626C6963)20222D2F2F{1-16}2F2F(445444|647464)20{0-64}(48544D4C|68746D6C)20332E32",
-      "endianness": null,
       "name": "HTML 3.2",
-      "note": "With DOCTYPE declaration of 3.2. Single byte sequence. BOF character sequence: {0-1024}<!(DOCTYPE|doctype) (HTML|html) (PUBLIC/public) \"-//{1-16}//(DTD|dtd) {0-64}(HTML|html) 3.2"
+      "note": "With DOCTYPE declaration of 3.2. Single byte sequence. BOF character sequence: {0-1024}<!(DOCTYPE|doctype) (HTML|html) (PUBLIC/public) \"-//{1-16}//(DTD|dtd) {0-64}(HTML|html) 3.2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "3C21(444F4354595045|646F6374797065)20(48544D4C|68746D6C)20(5055424C4943|7075626C6963)20222D2F2F{1-16}2F2F(445444|647464)20{0-64}(48544D4C|68746D6C)20332E32",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -84,7 +88,7 @@
     {
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1270,
-      "relatedFormatName": "ePub format"
+      "relatedFormatName": "ePub Format"
     },
     {
       "relationshipType": "Has lower priority than",

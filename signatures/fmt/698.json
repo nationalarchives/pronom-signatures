@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1028,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49534F2D31303330332D32313B",
-      "endianness": null,
       "name": "Standard for the Exchange of Product model data",
-      "note": "BOF: ISO-10303-21;"
+      "note": "BOF: ISO-10303-21;",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49534F2D31303330332D32313B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

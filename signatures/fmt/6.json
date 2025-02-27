@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 50,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}57415645",
-      "endianness": null,
       "name": "WAVE",
-      "note": "RIFF header, WAVE ID"
+      "note": "RIFF header, WAVE ID",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}57415645",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

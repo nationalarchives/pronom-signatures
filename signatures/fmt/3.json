@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 18,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "474946383761",
-      "endianness": null,
       "name": "GIF 1987a",
-      "note": "header & trailer"
-    },
-    {
-      "signatureID": 18,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "3B",
-      "endianness": null,
-      "name": "GIF 1987a",
-      "note": "header & trailer"
+      "note": "header & trailer",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "474946383761",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "3B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

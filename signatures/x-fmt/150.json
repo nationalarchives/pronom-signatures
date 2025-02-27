@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 566,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0004000000000000000000000A00[!00]{1009}03000200FFFFFFFFFFFFFFFF{1}01FFFF{2}0F0F{491}[41:5A]000A{502}2B00[0B:0F]0000002B00{512}[!00]00[!00]00FFFFFFFFFFFFFFFF",
-      "endianness": null,
       "name": "Microsoft Visual FoxPro database container (index files)",
-      "note": "Rudimentary signature developed utilising collection of dcx files obtained from Visual Fox Pro 7 Databases and webharvested samples."
+      "note": "Rudimentary signature developed utilising collection of dcx files obtained from Visual Fox Pro 7 Databases and webharvested samples.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0004000000000000000000000A00[!00]{1009}03000200FFFFFFFFFFFFFFFF{1}01FFFF{2}0F0F{491}[41:5A]000A{502}2B00[0B:0F]0000002B00{512}[!00]00[!00]00FFFFFFFFFFFFFFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 209,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "CAFEBABE",
-      "endianness": "Little-endian",
       "name": "Java Class File",
-      "note": "Magic number (first four bytes) of every valid class file is 0xCAFEBABE"
+      "note": "Magic number (first four bytes) of every valid class file is 0xCAFEBABE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "CAFEBABE",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1759,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": null,
-      "byteSequence": "870100",
-      "endianness": null,
       "name": "VariCAD 7+",
-      "note": "BOF, offset 1 0x870100. First byte likely represents software version number with 0x32 being version 7, 0x33 being version 8 and so on. Please contact the PRONOM team if you can improve this signature."
+      "note": "BOF, offset 1 0x870100. First byte likely represents software version number with 0x32 being version 7, 0x33 being version 8 and so on. Please contact the PRONOM team if you can improve this signature.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": null,
+          "byteSequence": "870100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 971,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46554A4946494C4D4343442D52415720",
-      "endianness": null,
       "name": "Fujifilm RAW Image Format",
-      "note": "BOF: FUJIFILMCCD-RAW"
+      "note": "BOF: FUJIFILMCCD-RAW",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46554A4946494C4D4343442D52415720",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

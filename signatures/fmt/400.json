@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 628,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "1C0100000200041C0114000200141C0116000200091C011E000A4672656548616E6431311C01280008{6}30301C014600083230",
-      "endianness": null,
       "name": "FreeHand 11",
-      "note": "ASCII text 'FreeHAnd 11' in BOF sequence, 'FlateDecode' in EOF sequence"
-    },
-    {
-      "signatureID": 628,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 10,
-      "byteSequence": "6400F300F00086466C6174654465636F646500FFFFFFFF1C090A000400",
-      "endianness": null,
-      "name": "FreeHand 11",
-      "note": "ASCII text 'FreeHAnd 11' in BOF sequence, 'FlateDecode' in EOF sequence"
+      "note": "ASCII text 'FreeHAnd 11' in BOF sequence, 'FlateDecode' in EOF sequence",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "1C0100000200041C0114000200141C0116000200091C011E000A4672656548616E6431311C01280008{6}30301C014600083230",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 10,
+          "byteSequence": "6400F300F00086466C6174654465636F646500FFFFFFFF1C090A000400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

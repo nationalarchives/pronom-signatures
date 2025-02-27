@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 2134,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FF4FFF51",
-      "endianness": null,
       "name": "JPEG 2000 Codestream",
-      "note": "Based on the specification, start of codestream marker (0xFF4F) followed by image and tile size marker (0xFF51) at BOF, end of codestream marker (0xFFD9) at EOF."
-    },
-    {
-      "signatureID": 2134,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFD9",
-      "endianness": null,
-      "name": "JPEG 2000 Codestream",
-      "note": "Based on the specification, start of codestream marker (0xFF4F) followed by image and tile size marker (0xFF51) at BOF, end of codestream marker (0xFFD9) at EOF."
+      "note": "Based on the specification, start of codestream marker (0xFF4F) followed by image and tile size marker (0xFF51) at BOF, end of codestream marker (0xFFD9) at EOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FF4FFF51",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFD9",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

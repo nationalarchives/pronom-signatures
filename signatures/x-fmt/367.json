@@ -2,15 +2,15 @@
   "fileFormatID": 533,
   "formatName": "Truevision TGA Bitmap",
   "version": "1.0",
-  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "formatDescription": "TGA (often referred to as TARGA) is a simple raster format for individual images first established by Truevision, Inc. in 1984. Designed for use on systems that used MS-DOS color applications, TGA is the native format of Truevision's TARGA (Truevision Advanced Raster Graphics Adapter) boards, which were some of the first graphic cards for IBM-compatible PCs to support truecolor display (most often defined as 24-bit RGB color encoding). Truevision defined the first version of its TGA file format in 1984 for use with its first videographics products, including video boards for PC displays. In 1989, Truevision introduced TGA version 2.0. \r\n\r\nTGA supports mapped/indexed color and RGB color, with additional support for transparency information (sometimes referred to as alpha channel, as in RGBA color space). Transparency information permits images to be superimposed over other data, e.g., additional images, text layouts, or video, and permits effects like cross-fading between graphic images and video, etc.\r\n\r\nTGA images may be encoded at 8, 16, 24, or 32 bits per pixel (as mapped/indexed color, RGB, or RGBA). TGA supported 24-bit color before such support was available in the TIFF format, and this helped establish the format's popularity during the 1980s.\r\n\r\nThe file signature is a FourCC code: TPIC. Also a variety of extensions were permissable in TGA version 1 (including .VDA\u201d, \u201c.ICB\u201d, \u201c.TGA\u201d, and \u201c.VST) but these were deprecated in TGA version 2.0 specification and only TGA was permitted).",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
-  "formatNote": null,
-  "lastUpdatedDate": "16 Mar 2012",
+  "formatNote": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000179.shtml; Only incomplete versions of the TGA version 1 are available but https://www.dca.fee.unicamp.br/~martino/disciplinas/ea978/tgaffs.pdf explains some of the differences between the versions in that version 2 added specification of pixel aspect ratio (providing more explicit support for square and non-square pixels), color correction tables, an embedded thumbnail image (termed postage-stamp in the standard), and some very basic metadata elements (such as author, software, date/timestamp, job number, comments). A developer area provided a mechanism for including additional information.",
+  "lastUpdatedDate": "02 Jan 2025",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": null,
+  "formatProvenance": "v.120- New description created, additional notes and fdd identifier added as part of PRONOM Research Week 2024. Submitted by Library of Congress.",
   "formatSourceDate": "02 Aug 2005",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -25,6 +25,10 @@
       "identifierType": "Apple Uniform Type Identifier"
     },
     {
+      "identifierText": "fdd000179",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
       "identifierText": "x-fmt/367",
       "identifierType": "PUID"
     }
@@ -32,23 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 604,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": null,
-      "byteSequence": "01(01|09){4}(0F|10|18|20){8}(08|0F|10|18|20)",
-      "endianness": null,
       "name": "Truevision TGA Bitmap 1 (BOF 1)",
-      "note": "offset 1: 0x01 colormap included; offset 2: Imagetype 0x01, 0x09 (color-mapped); offset 3, 4 bytes Color map specification (ignore); offset 7 Color map entry size (byte) decimal 15, 16, 24, 32; offset 8 (2 bytes) X origin of image (ignore); offset 10 (2 bytes) Y origin of image (ignore);  offset 12 (2 bytes) width of image (not zero), offset 14 (bytes) height of image (not zero), Image pixel size - 1 byte (0x08, 0x15, 0x16, )x24, 0x32)"
+      "note": "offset 1: 0x01 colormap included; offset 2: Imagetype 0x01, 0x09 (color-mapped); offset 3, 4 bytes Color map specification (ignore); offset 7 Color map entry size (byte) decimal 15, 16, 24, 32; offset 8 (2 bytes) X origin of image (ignore); offset 10 (2 bytes) Y origin of image (ignore);  offset 12 (2 bytes) width of image (not zero), offset 14 (bytes) height of image (not zero), Image pixel size - 1 byte (0x08, 0x15, 0x16, )x24, 0x32)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": null,
+          "byteSequence": "01(01|09){4}(0F|10|18|20){8}(08|0F|10|18|20)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 627,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": null,
-      "byteSequence": "00(02|03|0A|0B)0000000000{8}(08|0F|10|18|20)",
-      "endianness": null,
       "name": "Truevision TGA Bitmap 1 (BOF 2)",
-      "note": "offset 1: 0x00 no color map included; offset 2: Imagetype 0x02. 0x0A (RGB), 0x03 0x0B (Monochrome); offset 3, 5 bytes Color map specification 0x0000000000; offset 8 (2 bytes) X origin of image (ignore); offset 10 (2 bytes) Y origin of image (ignore);  offset 12 (2 bytes) width of image, offset 14 (bytes) height of image. Image pixel size - 1 byte (0x08, 0x15, 0x16, )x24, 0x32)"
+      "note": "offset 1: 0x00 no color map included; offset 2: Imagetype 0x02. 0x0A (RGB), 0x03 0x0B (Monochrome); offset 3, 5 bytes Color map specification 0x0000000000; offset 8 (2 bytes) X origin of image (ignore); offset 10 (2 bytes) Y origin of image (ignore);  offset 12 (2 bytes) width of image, offset 14 (bytes) height of image. Image pixel size - 1 byte (0x08, 0x15, 0x16, )x24, 0x32)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": null,
+          "byteSequence": "00(02|03|0A|0B)0000000000{8}(08|0F|10|18|20)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

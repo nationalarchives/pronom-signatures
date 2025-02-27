@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2234,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "C3ABCDAB",
-      "endianness": null,
       "name": "Microsoft Agent File",
-      "note": "Absolute from beginning of file, magic bytes: \u00c3\u00ab\u00cd\u00ab"
+      "note": "Absolute from beginning of file, magic bytes: \u00c3\u00ab\u00cd\u00ab",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "C3ABCDAB",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

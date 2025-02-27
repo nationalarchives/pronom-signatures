@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1231,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464C4946(31|33|34|41|43|44|51|53|54|61|63|64)",
-      "endianness": null,
       "name": "FLIF",
-      "note": "BOF: 4 byte Magic string: 'FLIF', 1 byte Type string:\r\n1 = static, grayscale, non-interlaced; 3 = static, RGB, non-interlaced; 4 = static, RGBA, non-interlaced; A = static, grayscale; C = static, RGB, interlaced; D = static, RGBA, interlaced; Q = animated, grayscale, non-interlaced; S = animated, RGB, non-interlaced; T = animated, RGBA, non-interlaced; a = animated, grayscale; c = animated, RGB, interlaced; d = animated, RGBA, interlaced."
+      "note": "BOF: 4 byte Magic string: 'FLIF', 1 byte Type string:\r\n1 = static, grayscale, non-interlaced; 3 = static, RGB, non-interlaced; 4 = static, RGBA, non-interlaced; A = static, grayscale; C = static, RGB, interlaced; D = static, RGBA, interlaced; Q = animated, grayscale, non-interlaced; S = animated, RGB, non-interlaced; T = animated, RGBA, non-interlaced; a = animated, grayscale; c = animated, RGB, interlaced; d = animated, RGBA, interlaced.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464C4946(31|33|34|41|43|44|51|53|54|61|63|64)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

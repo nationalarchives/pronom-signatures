@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 1251,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D5A{126-128500}50450000{20}0B02{66}[0000:1000]",
-      "endianness": null,
       "name": "Windows Portable Executable 64 bit",
-      "note": "DWORD Signature; \r\nIMAGE_FILE_HEADER FileHeader;\r\nIMAGE_OPTIONAL_HEADER OptionalHeader;"
+      "note": "DWORD Signature; \r\nIMAGE_FILE_HEADER FileHeader;\r\nIMAGE_OPTIONAL_HEADER OptionalHeader;",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D5A{126-128500}50450000{20}0B02{66}[0000:1000]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

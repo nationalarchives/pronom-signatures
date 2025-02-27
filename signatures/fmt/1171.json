@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1552,
-      "positionType": "Absolute from BOF",
-      "offset": 12,
-      "maxOffset": null,
-      "byteSequence": "416C69617320506F776572416E696D61746F72{6}392E30",
-      "endianness": null,
       "name": "Alias PowerAnimator 9",
-      "note": "Offset 12: 'Alias PowerAnimator'{6}'9.0'"
+      "note": "Offset 12: 'Alias PowerAnimator'{6}'9.0'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 12,
+          "maxOffset": null,
+          "byteSequence": "416C69617320506F776572416E696D61746F72{6}392E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

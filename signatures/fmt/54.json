@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 166,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4175746F4341442044584220312E300D0A1A00",
-      "endianness": null,
       "name": "DXB 1.0",
-      "note": "File header and file terminator."
-    },
-    {
-      "signatureID": 166,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00",
-      "endianness": null,
-      "name": "DXB 1.0",
-      "note": "File header and file terminator."
+      "note": "File header and file terminator.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4175746F4341442044584220312E300D0A1A00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

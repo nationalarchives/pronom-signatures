@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2091,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D49010102",
-      "endianness": null,
       "name": "Canon MIF File",
-      "note": "BOF:'MI' followed by 0x01 (Start of Header) followed by 0x01 (Start of Header) followed by 0x02 (Start of Text)"
+      "note": "BOF:'MI' followed by 0x01 (Start of Header) followed by 0x01 (Start of Header) followed by 0x02 (Start of Text)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D49010102",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

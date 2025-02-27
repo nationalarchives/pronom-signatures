@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1040,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "584D465F",
-      "endianness": null,
       "name": "XMF",
-      "note": "BOF: XMF_ \r\nAt this time the XMF signature does not distinguish between different XMF subtypes, with the exception of Mobile XMF."
+      "note": "BOF: XMF_ \r\nAt this time the XMF signature does not distinguish between different XMF subtypes, with the exception of Mobile XMF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "584D465F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

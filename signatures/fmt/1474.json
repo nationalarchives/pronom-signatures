@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1846,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}5445492E32",
-      "endianness": null,
       "name": "TEI P4 XML - Single Text",
-      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-512 bytes followed by 'TEI.2'"
+      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-512 bytes followed by 'TEI.2'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}5445492E32",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

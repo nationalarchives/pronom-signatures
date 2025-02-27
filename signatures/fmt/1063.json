@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1437,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A{4-36864}504B545300000001",
-      "endianness": null,
       "name": "Leaf Mosaic Raw",
-      "note": "BOF: Tiff big endian header 'MM' 0x002A {4-36864} 'PKTS' 0x00000001"
+      "note": "BOF: Tiff big endian header 'MM' 0x002A {4-36864} 'PKTS' 0x00000001",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A{4-36864}504B545300000001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

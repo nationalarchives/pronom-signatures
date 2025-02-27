@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 489,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "31BE000000AB0000000000000000{82}0000{18}(04|05)",
-      "endianness": null,
       "name": "Microsoft Word for DOS 5.0",
-      "note": "Word signature (4 bytes) Reserved field (10 bytes) Flag (2 bytes) Version (2bytes)"
+      "note": "Word signature (4 bytes) Reserved field (10 bytes) Flag (2 bytes) Version (2bytes)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "31BE000000AB0000000000000000{82}0000{18}(04|05)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

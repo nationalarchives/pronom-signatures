@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2001,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFE2300{0-900}5B0052006F00780069006F0049004E004600380030005D000D000A000D000A005B00500072006F006A00650063007400530065007400740069006E00670073005D000D000A00520043004C005600650072003D00380030",
-      "endianness": null,
       "name": "Roxio Easy Media Creator - Classic Creator File v8-10",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x FFFE2300, followed by a wildcard bytes between 0-900, then '[RoxioINF80] [ProjectSettings] RCLVer=80'"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x FFFE2300, followed by a wildcard bytes between 0-900, then '[RoxioINF80] [ProjectSettings] RCLVer=80'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFE2300{0-900}5B0052006F00780069006F0049004E004600380030005D000D000A000D000A005B00500072006F006A00650063007400530065007400740069006E00670073005D000D000A00520043004C005600650072003D00380030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

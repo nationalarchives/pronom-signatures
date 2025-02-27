@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1480,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2121382D4269742121",
-      "endianness": null,
       "name": "TCR eBook",
-      "note": "BOF: !!8-Bit!!"
+      "note": "BOF: !!8-Bit!!",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2121382D4269742121",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

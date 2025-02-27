@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2253,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A5A5A5A{37}76696577",
-      "endianness": null,
       "name": "Micrografx Icon File",
-      "note": "BOF:'ZZZZ' followed by an offset of 37 followed by 'view'"
+      "note": "BOF:'ZZZZ' followed by an offset of 37 followed by 'view'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A5A5A5A{37}76696577",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

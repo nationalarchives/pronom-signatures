@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 593,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2E7261FD000400002E726134",
-      "endianness": null,
       "name": "RealAudio 4",
-      "note": "Header signature +version 4 + unused word +ra4 signature"
+      "note": "Header signature +version 4 + unused word +ra4 signature",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2E7261FD000400002E726134",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

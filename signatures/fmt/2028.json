@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 3902,
+  "formatName": "Microsoft Project",
+  "version": "3",
+  "formatDescription": "Microsoft Project is a project management software program developed by Microsoft. Version 3 was released in the early 90s.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jan 2025",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2028",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3391,
+      "name": "Microsoft Project v.3",
+      "note": "Absolute from beginning of file, magic bytes: ...\u00f2.JLBM..\u00de\u00c8",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000006F20B4A4C424D0100DEC8",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 234
+}

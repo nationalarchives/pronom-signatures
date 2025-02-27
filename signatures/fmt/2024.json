@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 3898,
+  "formatName": "CD Architect Project File",
+  "version": "4",
+  "formatDescription": "Sonic Foundry CD Architect, later sold as Sony CD Architect is a software used for burning and mastering CDs. It was sold in 2016 to MAGIX Software. CD Archtect software uses a small project file (CDP) to handle the organisation of CDs which saves informatin about source file locations, edits, cuts and insertion points. The project file is used to create the CD when the editing is finished and is not a multimedia file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/CD_Architect",
+  "lastUpdatedDate": "10 Jan 2025",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2024",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3387,
+      "name": "CD Architect 4",
+      "note": "BOF; Offset: 0; Magic Bytes: 'RIFF' and then after four bytes 'SFPJ'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}5346504A",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 3899,
+      "relatedFormatName": "CD Architect Project File"
+    }
+  ],
+  "source": 299
+}

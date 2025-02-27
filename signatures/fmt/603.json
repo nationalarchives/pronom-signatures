@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 940,
-      "positionType": "Absolute from BOF",
-      "offset": 92,
-      "maxOffset": null,
-      "byteSequence": "58505F50524F{0-16}534153392E31",
-      "endianness": null,
       "name": "SAS Data XPT (Windows)",
-      "note": "BOF offset 92: (XP_PRO{0-16}SAS9.1)\r\nEOF offset 0-63: (End of Data)"
-    },
-    {
-      "signatureID": 940,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 63,
-      "byteSequence": "456E64206F662044617461",
-      "endianness": null,
-      "name": "SAS Data XPT (Windows)",
-      "note": "BOF offset 92: (XP_PRO{0-16}SAS9.1)\r\nEOF offset 0-63: (End of Data)"
+      "note": "BOF offset 92: (XP_PRO{0-16}SAS9.1)\r\nEOF offset 0-63: (End of Data)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 92,
+          "maxOffset": null,
+          "byteSequence": "58505F50524F{0-16}534153392E31",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 63,
+          "byteSequence": "456E64206F662044617461",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

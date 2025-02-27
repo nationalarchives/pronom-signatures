@@ -36,33 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 171,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
-      "endianness": null,
       "name": "Powerpoint 95",
-      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement."
-    },
-    {
-      "signatureID": 171,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "50006F0077006500720050006F0069006E007400200044006F00630075006D0065006E007400",
-      "endianness": null,
-      "name": "Powerpoint 95",
-      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement."
-    },
-    {
-      "signatureID": 171,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "4D6963726F736F66742028522920506F776572506F696E74202852292057696E646F777320200007(00|01)0000F00300005F",
-      "endianness": null,
-      "name": "Powerpoint 95",
-      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement."
+      "note": "Compound Document Header + PowerPoint Document user stream + \u2018Microsoft \u00ae PowerPoint \u00ae Windows\u2019 statement.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "50006F0077006500720050006F0069006E007400200044006F00630075006D0065006E007400",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "4D6963726F736F66742028522920506F776572506F696E74202852292057696E646F777320200007(00|01)0000F00300005F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

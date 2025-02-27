@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 888,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "252150532D41646F62652D332E30{128-1024}254149355F46696C65466F726D61742031",
-      "endianness": null,
       "name": "Adobe Illustrator 5.0",
-      "note": "The first line of the file declares that the file contains a Postscript program and identifies the version of the Document Structuring Conventions to which the document conforms as 3.0. The comment \u201c%AI5_FileFormat 1\u201d indicates that this is a version 5.x file."
+      "note": "The first line of the file declares that the file contains a Postscript program and identifies the version of the Document Structuring Conventions to which the document conforms as 3.0. The comment \u201c%AI5_FileFormat 1\u201d indicates that this is a version 5.x file.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "252150532D41646F62652D332E30{128-1024}254149355F46696C65466F726D61742031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

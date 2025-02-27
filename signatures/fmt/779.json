@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1145,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "A1B2C3D4",
-      "endianness": null,
       "name": "pcap Big Endian",
-      "note": "0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. \r\n0xd4c3b2a1 indicates that the reader has a different byte order from the writer."
+      "note": "0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. \r\n0xd4c3b2a1 indicates that the reader has a different byte order from the writer.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "A1B2C3D4",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1146,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "D4C3B2A1",
-      "endianness": null,
       "name": "pcap Little Endian",
-      "note": "0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. \r\n0xd4c3b2a1 indicates that the reader has a different byte order from the writer."
+      "note": "0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. \r\n0xd4c3b2a1 indicates that the reader has a different byte order from the writer.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "D4C3B2A1",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

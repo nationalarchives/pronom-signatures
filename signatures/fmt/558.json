@@ -40,23 +40,24 @@
   "internalSignatures": [
     {
       "signatureID": 892,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D312E(33|34)*41495072697661746544617461*252150532D41646F62652D332E30*254149355F46696C65466F726D617420(34|35)",
-      "endianness": null,
       "name": "Adobe Illustrator 9.0",
-      "note": "PDF header '%PDF-1.' either byte '4' or '3' then 'AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat' and either bytes '4' or '5'"
-    },
-    {
-      "signatureID": 892,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 32000,
-      "byteSequence": "252150532D41646F62652D332E30{128-1024}254149355F46696C65466F726D61742035",
-      "endianness": null,
-      "name": "Adobe Illustrator 9.0",
-      "note": "PDF header '%PDF-1.' either byte '4' or '3' then 'AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat' and either bytes '4' or '5'"
+      "note": "PDF header '%PDF-1.' either byte '4' or '3' then 'AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat' and either bytes '4' or '5'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D312E(33|34)*41495072697661746544617461*252150532D41646F62652D332E30*254149355F46696C65466F726D617420(34|35)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 32000,
+          "byteSequence": "252150532D41646F62652D332E30{128-1024}254149355F46696C65466F726D61742035",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 850,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53445058{4}56322E30",
-      "endianness": null,
       "name": "DPX v2 Big endian",
-      "note": "Magic number in first four bytes: SDPX indicates big-endian byte order; 4 byte offset to image; Version 2"
+      "note": "Magic number in first four bytes: SDPX indicates big-endian byte order; 4 byte offset to image; Version 2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53445058{4}56322E30",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 851,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "58504453{4}56322E30",
-      "endianness": null,
       "name": "DPX v2 Little endian",
-      "note": "Magic number in first four bytes: XPDS indicates little-endian byte order; 4 byte offset to image; Version 2"
+      "note": "Magic number in first four bytes: XPDS indicates little-endian byte order; 4 byte offset to image; Version 2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "58504453{4}56322E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

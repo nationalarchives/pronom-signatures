@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 1693,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 5,
-      "byteSequence": "7B*22617373657422*3A*7B*2276657273696F6E22{0-20}3A{0-20}22312E{1-10}22",
-      "endianness": null,
       "name": "GLTF 1.x",
-      "note": "BOF:'{'*'\"asset\"'*':'*'{'*'\"version\"'*':'*'\"1.{a gap of 1-10 bytes to allow for minor versions to be identified}\"' EOF: '}'"
-    },
-    {
-      "signatureID": 1693,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 5,
-      "byteSequence": "7D",
-      "endianness": null,
-      "name": "GLTF 1.x",
-      "note": "BOF:'{'*'\"asset\"'*':'*'{'*'\"version\"'*':'*'\"1.{a gap of 1-10 bytes to allow for minor versions to be identified}\"' EOF: '}'"
+      "note": "BOF:'{'*'\"asset\"'*':'*'{'*'\"version\"'*':'*'\"1.{a gap of 1-10 bytes to allow for minor versions to be identified}\"' EOF: '}'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 5,
+          "byteSequence": "7B*22617373657422*3A*7B*2276657273696F6E22{0-20}3A{0-20}22312E{1-10}22",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 5,
+          "byteSequence": "7D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

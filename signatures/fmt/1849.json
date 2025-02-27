@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2193,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{0-4080}12C601000400000001030000*56432D35",
-      "endianness": null,
       "name": "General Purpose RAW (GoPro GPR)",
-      "note": "GPR files have a typical DNG 1.3 (fmt/438) header, but later in the file use a VC-5 compression wavelet"
+      "note": "GPR files have a typical DNG 1.3 (fmt/438) header, but later in the file use a VC-5 compression wavelet",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{0-4080}12C601000400000001030000*56432D35",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

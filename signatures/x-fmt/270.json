@@ -32,33 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 505,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "424D{12}(10|30|40)000000{8}0100",
-      "endianness": null,
       "name": "OS/2 Bitmap 2.0",
-      "note": "2-byte file type identifier ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (16, 64); offset 26 2-byte little-endian number of bit planes (always 1). \r\nThe 2 byte file type identifier BM indicates that the BMP was created by OS/2 or Windows. Windows 3.x, Windows NT, and OS/2 2.x BMP files only vary in the number of fields in the bitmap header and in the interpretation of the compression field. Bitmap headerSize is 12 for Windows 2.x BMP and OS/2 1.x BMP, 40 for Windows 3.x and Windows NT BMP, 12 to 64 for OS/2 2.x BMP, and 108 for Windows 4.x BMP. Only OS/2 2.x bitmaps have Bitmap header size of 16 and 64. If Bitmap header size is 40, only OS/2 Bitmaps can use 24-bit RLE compression on 24-bit pixel bitmaps and only oS/2 bitmaps can use Huffman 1D compression on 1-bit per pixel (monochrome) bitmaps."
+      "note": "2-byte file type identifier ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (16, 64); offset 26 2-byte little-endian number of bit planes (always 1). \r\nThe 2 byte file type identifier BM indicates that the BMP was created by OS/2 or Windows. Windows 3.x, Windows NT, and OS/2 2.x BMP files only vary in the number of fields in the bitmap header and in the interpretation of the compression field. Bitmap headerSize is 12 for Windows 2.x BMP and OS/2 1.x BMP, 40 for Windows 3.x and Windows NT BMP, 12 to 64 for OS/2 2.x BMP, and 108 for Windows 4.x BMP. Only OS/2 2.x bitmaps have Bitmap header size of 16 and 64. If Bitmap header size is 40, only OS/2 Bitmaps can use 24-bit RLE compression on 24-bit pixel bitmaps and only oS/2 bitmaps can use Huffman 1D compression on 1-bit per pixel (monochrome) bitmaps.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "424D{12}(10|30|40)000000{8}0100",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 506,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "424D{12}28000000{8}0100180004000000",
-      "endianness": null,
       "name": "OS/2 Bitmap 2.0 (24-bit RLE compression)",
-      "note": "2-byte magic number ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (40); offset 26 2-byte little-endian number of bit planes (always 1); offset 28 24-bits per pixel (1800); offset 30 Compression type 24-bit RLE (0400)."
+      "note": "2-byte magic number ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (40); offset 26 2-byte little-endian number of bit planes (always 1); offset 28 24-bits per pixel (1800); offset 30 Compression type 24-bit RLE (0400).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "424D{12}28000000{8}0100180004000000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 507,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "424D{12}28000000{8}0100010003000000",
-      "endianness": null,
       "name": "OS/2 Bitmap 2.0 (Huffman 1D compression)",
-      "note": "2-byte magic number ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (40); offset 26 2-byte little-endian number of bit planes (always 1); offset 28 1-bit perpixel (0100); offset 30 huffman 1D compression (0300)"
+      "note": "2-byte magic number ASCII \u201cBM\u201d at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (40); offset 26 2-byte little-endian number of bit planes (always 1); offset 28 1-bit perpixel (0100); offset 30 huffman 1D compression (0300)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "424D{12}28000000{8}0100010003000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1315,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}444D5354",
-      "endianness": null,
       "name": "DirectMusic Style File Format",
-      "note": "BOF: RIFF{4}DMST\r\nFormat description: https://msdn.microsoft.com/en-us/library/ms900527.aspx"
+      "note": "BOF: RIFF{4}DMST\r\nFormat description: https://msdn.microsoft.com/en-us/library/ms900527.aspx",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}444D5354",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

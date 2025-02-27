@@ -28,33 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2108,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C4F435553",
-      "endianness": null,
       "name": "GenBank Flat File",
-      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //."
-    },
-    {
-      "signatureID": 2108,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "4F524947494E",
-      "endianness": null,
-      "name": "GenBank Flat File",
-      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //."
-    },
-    {
-      "signatureID": 2108,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1,
-      "byteSequence": "2F2F(0A|0D)",
-      "endianness": null,
-      "name": "GenBank Flat File",
-      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //."
+      "note": "BOF Absolute from beginning of file, magic bytes: LOCUS\r\nVariable: ORIGIN\r\nEOF offset 0-1, magic bytes: //.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C4F435553",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "4F524947494E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "2F2F(0A|0D)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

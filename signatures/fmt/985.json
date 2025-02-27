@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1347,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00465456",
-      "endianness": null,
       "name": "Valve Texture Format little endian",
-      "note": ".FTV"
+      "note": ".FTV",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00465456",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1348,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "56544600",
-      "endianness": null,
       "name": "Valve Texture Format big endian",
-      "note": "VTF."
+      "note": "VTF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "56544600",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

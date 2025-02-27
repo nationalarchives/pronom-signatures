@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 731,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "524946(46|58){4}434D5831{62}32",
-      "endianness": null,
       "name": "Corel Metafile Exchange Image (32 bit)",
-      "note": "RIFF (little-endian) or RIFX (big-endian) Form labeled CMX1, then {62}2"
+      "note": "RIFF (little-endian) or RIFX (big-endian) Form labeled CMX1, then {62}2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "524946(46|58){4}434D5831{62}32",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

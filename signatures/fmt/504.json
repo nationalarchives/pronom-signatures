@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 779,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2E73666600000001",
-      "endianness": null,
       "name": "Standard Flowgram Format",
-      "note": "BOF: 4byte magic number .sff, 4byte version number 00 01"
+      "note": "BOF: 4byte magic number .sff, 4byte version number 00 01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2E73666600000001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

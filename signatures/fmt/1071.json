@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 1449,
-      "positionType": "Absolute from EOF",
-      "offset": 500,
-      "maxOffset": 0,
-      "byteSequence": "6B6F6C790000000400000200",
-      "endianness": null,
       "name": "Apple Disk Image",
-      "note": "EOF, 512 offset - 'koly' block header, 4 byte version (0x00000004), 4 byte size of header (0x00000200)"
+      "note": "EOF, 512 offset - 'koly' block header, 4 byte version (0x00000004), 4 byte size of header (0x00000200)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 500,
+          "maxOffset": 0,
+          "byteSequence": "6B6F6C790000000400000200",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

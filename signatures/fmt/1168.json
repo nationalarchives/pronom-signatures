@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1549,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D61796149636F6E73{4}5377617463686573",
-      "endianness": null,
       "name": "Maya Icons or Swatches file",
-      "note": "BOF: MayaIcons{4}Swatches"
+      "note": "BOF: MayaIcons{4}Swatches",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D61796149636F6E73{4}5377617463686573",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

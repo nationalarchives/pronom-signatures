@@ -28,43 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 1052,
-      "positionType": "Absolute from BOF",
-      "offset": 10,
-      "maxOffset": null,
-      "byteSequence": "000002",
-      "endianness": null,
       "name": "RealLegal E-Transcript",
-      "note": "BOF: (offset 10) 0x000002\r\nVAR: .This transcript created and delivered by..<COMPANY>...Ph:"
-    },
-    {
-      "signatureID": 1052,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "0054686973207472616E736372697074206372656174656420616E642064656C6976657265642062790D0A3C434F4D50414E593E2E0D0A50683A",
-      "endianness": null,
-      "name": "RealLegal E-Transcript",
-      "note": "BOF: (offset 10) 0x000002\r\nVAR: .This transcript created and delivered by..<COMPANY>...Ph:"
+      "note": "BOF: (offset 10) 0x000002\r\nVAR: .This transcript created and delivered by..<COMPANY>...Ph:",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 10,
+          "maxOffset": null,
+          "byteSequence": "000002",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "0054686973207472616E736372697074206372656174656420616E642064656C6976657265642062790D0A3C434F4D50414E593E2E0D0A50683A",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1346,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 10,
-      "byteSequence": "000003",
-      "endianness": null,
       "name": "RealLegal E-Transcript v2",
-      "note": "BOF: (offset 10) 0x000003\r\nVAR: .This transcript created and delivered by..<COMPANY>\u2026Ph:"
-    },
-    {
-      "signatureID": 1346,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "0054686973207472616E736372697074206372656174656420616E642064656C6976657265642062790D0A3C434F4D50414E593E2E0D0A50683A",
-      "endianness": null,
-      "name": "RealLegal E-Transcript v2",
-      "note": "BOF: (offset 10) 0x000003\r\nVAR: .This transcript created and delivered by..<COMPANY>\u2026Ph:"
+      "note": "BOF: (offset 10) 0x000003\r\nVAR: .This transcript created and delivered by..<COMPANY>\u2026Ph:",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 10,
+          "byteSequence": "000003",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "0054686973207472616E736372697074206372656174656420616E642064656C6976657265642062790D0A3C434F4D50414E593E2E0D0A50683A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

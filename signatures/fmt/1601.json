@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1936,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534C5447",
-      "endianness": null,
       "name": "Type Library Type 1",
-      "note": "BOF; Offset: 0; Magic Bytes: 'SLTG' & EOF; Offset: 0; Magic Bytes: 'TYPELIB'"
-    },
-    {
-      "signatureID": 1936,
-      "positionType": "Absolute from EOF",
-      "offset": 13,
-      "maxOffset": 20,
-      "byteSequence": "545950454C4942",
-      "endianness": null,
-      "name": "Type Library Type 1",
-      "note": "BOF; Offset: 0; Magic Bytes: 'SLTG' & EOF; Offset: 0; Magic Bytes: 'TYPELIB'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'SLTG' & EOF; Offset: 0; Magic Bytes: 'TYPELIB'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534C5447",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 13,
+          "maxOffset": 20,
+          "byteSequence": "545950454C4942",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

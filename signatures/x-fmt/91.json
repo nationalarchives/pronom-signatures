@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 190,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "252150532D41646F62652D312E30",
-      "endianness": null,
       "name": "PostScript DSC 1.0",
-      "note": "PostScript DSC header version comment + EOF comment"
-    },
-    {
-      "signatureID": 190,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2525454F46(0D|0A|0D0A|0A0A)",
-      "endianness": null,
-      "name": "PostScript DSC 1.0",
-      "note": "PostScript DSC header version comment + EOF comment"
+      "note": "PostScript DSC header version comment + EOF comment",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "252150532D41646F62652D312E30",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2525454F46(0D|0A|0D0A|0A0A)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

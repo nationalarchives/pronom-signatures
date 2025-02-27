@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1820,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "45524D484452",
-      "endianness": null,
       "name": "Primavera P6 Project Management",
-      "note": "BOF: 'ERMHDR' EOF:0D0A"
-    },
-    {
-      "signatureID": 1820,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0D0A",
-      "endianness": null,
-      "name": "Primavera P6 Project Management",
-      "note": "BOF: 'ERMHDR' EOF:0D0A"
+      "note": "BOF: 'ERMHDR' EOF:0D0A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "45524D484452",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

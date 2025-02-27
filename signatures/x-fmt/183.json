@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 210,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "727473703A2F2F",
-      "endianness": "Little-endian",
       "name": "RealAudio Metafile",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "727473703A2F2F",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2204,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "64424153452049562047656E657269632044657369676E2046696C652056657273696F6E20312E30",
-      "endianness": null,
       "name": "dBASE Report Form Definition File IV",
-      "note": "Absolute from beginning of file, magic bytes: dBASE IV Generic Design File Version 1.0"
+      "note": "Absolute from beginning of file, magic bytes: dBASE IV Generic Design File Version 1.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "64424153452049562047656E657269632044657369676E2046696C652056657273696F6E20312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

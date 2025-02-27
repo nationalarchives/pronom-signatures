@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1567,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4148{4}0A00",
-      "endianness": null,
       "name": "Dr. Halo Image Palette",
-      "note": "BOF: 'AH'{4} 0x0A00"
+      "note": "BOF: 'AH'{4} 0x0A00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4148{4}0A00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

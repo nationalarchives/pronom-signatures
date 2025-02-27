@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2046,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 80,
-      "byteSequence": "4341544941202020*43415449412056455253494F4E2033{11}52454C4541534520",
-      "endianness": null,
       "name": "CATIA Model V.3",
-      "note": "BOF; Offset: 80; Magic Bytes: 'CATIA' * 'CATIA VERSION 3'{11}'RELEASE'"
+      "note": "BOF; Offset: 80; Magic Bytes: 'CATIA' * 'CATIA VERSION 3'{11}'RELEASE'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 80,
+          "byteSequence": "4341544941202020*43415449412056455253494F4E2033{11}52454C4541534520",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 1234,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 130,
-      "byteSequence": "7F20575332303030FF312E3030",
-      "endianness": null,
       "name": "Wordstar 2000 v1 File",
-      "note": "WS2000\u00ff1.00"
+      "note": "WS2000\u00ff1.00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 130,
+          "byteSequence": "7F20575332303030FF312E3030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

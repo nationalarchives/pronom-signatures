@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 301,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "47524942{3}02",
-      "endianness": null,
       "name": "Gridded Binary 2.0",
-      "note": "GRIB indicator section GRIB (4 bytes), reserved + discipline (3 bytes), edition number (1 byte). EOF End Section (4 bytes)"
-    },
-    {
-      "signatureID": 301,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "37373737",
-      "endianness": null,
-      "name": "Gridded Binary 2.0",
-      "note": "GRIB indicator section GRIB (4 bytes), reserved + discipline (3 bytes), edition number (1 byte). EOF End Section (4 bytes)"
+      "note": "GRIB indicator section GRIB (4 bytes), reserved + discipline (3 bytes), edition number (1 byte). EOF End Section (4 bytes)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "47524942{3}02",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "37373737",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

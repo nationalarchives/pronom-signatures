@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2352,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-1024}3C41737365744D6170{5-1024}687474703A2F2F7777772E736D7074652D72612E6F7267",
-      "endianness": null,
       "name": "IMF Package Asset Map",
-      "note": "XML declaration, followed by <AssetMap opening tag, shortly followed by a reference to http://www.smpte-ra.org, included here to avoid any incidental clashes with non-IMF formats using similar tags. Note that this signature doesn\u2019t currently utilize any specific XML Namespace element for the Asset Map, although this could be included if there is a requirement to distinguish between different schema compliance."
+      "note": "XML declaration, followed by <AssetMap opening tag, shortly followed by a reference to http://www.smpte-ra.org, included here to avoid any incidental clashes with non-IMF formats using similar tags. Note that this signature doesn\u2019t currently utilize any specific XML Namespace element for the Asset Map, although this could be included if there is a requirement to distinguish between different schema compliance.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-1024}3C41737365744D6170{5-1024}687474703A2F2F7777772E736D7074652D72612E6F7267",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

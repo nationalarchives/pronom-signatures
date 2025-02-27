@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2008,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A7958454C02",
-      "endianness": null,
       "name": "ZyXEL Voice Format Audio",
-      "note": "BOF; Offset: 0; Magic Bytes: 'ZyXEL' followed by 0x02"
+      "note": "BOF; Offset: 0; Magic Bytes: 'ZyXEL' followed by 0x02",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A7958454C02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

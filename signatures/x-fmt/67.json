@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2073,
-      "positionType": "Absolute from BOF",
-      "offset": 2,
-      "maxOffset": 2,
-      "byteSequence": "D3A8A8",
-      "endianness": null,
       "name": "OS/2 Presentation Manager Metafile (MET)",
-      "note": "BOF, offset 2: Header begins with a variable 2-byte header size value, followed by 0xD3A8A8 \u2018Begin Document\u2019 field."
+      "note": "BOF, offset 2: Header begins with a variable 2-byte header size value, followed by 0xD3A8A8 \u2018Begin Document\u2019 field.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2,
+          "maxOffset": 2,
+          "byteSequence": "D3A8A8",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 170,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
-      "endianness": null,
       "name": "OLE2 Compound Document Format",
-      "note": "Compound Document Header"
+      "note": "Compound Document Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

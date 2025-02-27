@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2036,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0014{5}0003",
-      "endianness": null,
       "name": "Persuasion Mac Document v2.1",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x0014 then a sequence of five wildcard bytes followed by 0x0003"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0014 then a sequence of five wildcard bytes followed by 0x0003",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0014{5}0003",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

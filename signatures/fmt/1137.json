@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1519,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000082200000000",
-      "endianness": null,
       "name": "MiniCAD 7",
-      "note": "BOF, 0x0000082200000000"
+      "note": "BOF, 0x0000082200000000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000082200000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

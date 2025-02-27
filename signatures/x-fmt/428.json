@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 262,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4C0000000114020000000000C000000000000046",
-      "endianness": "Little-endian",
       "name": "Microsoft Windows Shortcut",
-      "note": "Reference to format: http://msdn.microsoft.com/en-us/library/dd871305(PROT.10).aspx. Byte values five to eight seem to need to be reversed (little-endian ordering) from the suggested ordering in the specification. Ambiguity in the specification means this ordering may or may not be expected."
+      "note": "Reference to format: http://msdn.microsoft.com/en-us/library/dd871305(PROT.10).aspx. Byte values five to eight seem to need to be reversed (little-endian ordering) from the suggested ordering in the specification. Ambiguity in the specification means this ordering may or may not be expected.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4C0000000114020000000000C000000000000046",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

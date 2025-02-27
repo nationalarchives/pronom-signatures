@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2131,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "6E636966",
-      "endianness": null,
       "name": "Haiku Vector Icon Format",
-      "note": "BOF:'ncif'"
+      "note": "BOF:'ncif'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "6E636966",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1257,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "232366696C65666F726D61743D5643467633",
-      "endianness": null,
       "name": "Variant Call Format v3",
-      "note": "BOF: ##fileformat=VCFv3\r\nWe currently only distinguish by major version number, but it may be desireable to distinguish between minor version too. \r\n\r\nSpecifications: https://github.com/samtools/hts-specs"
+      "note": "BOF: ##fileformat=VCFv3\r\nWe currently only distinguish by major version number, but it may be desireable to distinguish between minor version too. \r\n\r\nSpecifications: https://github.com/samtools/hts-specs",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "232366696C65666F726D61743D5643467633",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

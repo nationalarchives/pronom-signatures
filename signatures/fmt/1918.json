@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2269,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "23212F62696E2F73680A23204D657461436172642032",
-      "endianness": null,
       "name": "MetaCard Stack 2.x",
-      "note": "Absolute from beginning of file, magic bytes: #!/bin/sh# MetaCard 2"
+      "note": "Absolute from beginning of file, magic bytes: #!/bin/sh# MetaCard 2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23212F62696E2F73680A23204D657461436172642032",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

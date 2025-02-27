@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 452,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "46616C63",
-      "endianness": null,
       "name": "Harvard Graphics Vector Graphics 2.0",
-      "note": "Header ASCII: Falc"
+      "note": "Header ASCII: Falc",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "46616C63",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

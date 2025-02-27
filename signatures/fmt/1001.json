@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1364,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "762F310102",
-      "endianness": null,
       "name": "OpenEXR",
-      "note": "BOF: Magic 0x762F3101, version 02\r\nhttp://www.openexr.com/openexrfilelayout.pdf"
+      "note": "BOF: Magic 0x762F3101, version 02\r\nhttp://www.openexr.com/openexrfilelayout.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "762F310102",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

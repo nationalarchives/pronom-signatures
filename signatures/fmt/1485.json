@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1857,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000000C4A584C200D0A870A",
-      "endianness": null,
       "name": "JPEG XL",
-      "note": "BOF: 0x0000000C4A584C200D0A870A"
+      "note": "BOF: 0x0000000C4A584C200D0A870A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000000C4A584C200D0A870A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

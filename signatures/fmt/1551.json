@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1895,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4E657457617265204C6F616461626C65204D6F64756C651A04",
-      "endianness": null,
       "name": "NetWare Loadable Module",
-      "note": "BOF:'NetWare Loadable Module' followed by 0x1A followed by 0x04"
+      "note": "BOF:'NetWare Loadable Module' followed by 0x1A followed by 0x04",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4E657457617265204C6F616461626C65204D6F64756C651A04",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

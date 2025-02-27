@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2314,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464F524D{4}53575254",
-      "endianness": null,
       "name": "Final Writer Document",
-      "note": "Based on the Interchange File Format. \u201cFORM\u201d {4} \u201cSWRT\u201d"
+      "note": "Based on the Interchange File Format. \u201cFORM\u201d {4} \u201cSWRT\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464F524D{4}53575254",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

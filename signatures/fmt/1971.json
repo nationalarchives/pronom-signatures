@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2326,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46696E616C65(AA|28544D29)2031",
-      "endianness": null,
       "name": "Enigma Binary File (Finale) v.1",
-      "note": "BOF; Offset: 0; Magic Bytes: 'Finale' followed by either '\u00aa' or '\u2122' and then the version number ' 1'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'Finale' followed by either '\u00aa' or '\u2122' and then the version number ' 1'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46696E616C65(AA|28544D29)2031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

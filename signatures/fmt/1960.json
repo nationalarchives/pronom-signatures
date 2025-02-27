@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2362,
-      "positionType": "Absolute from BOF",
-      "offset": 7,
-      "maxOffset": 0,
-      "byteSequence": "434F4D2D45534551",
-      "endianness": null,
       "name": "Disklavier E-Seq Music",
-      "note": "BOF, Offset: 7, Magic Bytes: 'COM-ESEQ'"
+      "note": "BOF, Offset: 7, Magic Bytes: 'COM-ESEQ'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 7,
+          "maxOffset": 0,
+          "byteSequence": "434F4D2D45534551",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

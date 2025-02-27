@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1212,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5041460033303000343030",
-      "endianness": null,
       "name": "PAF 4",
-      "note": "BOF: PAF.300.400"
+      "note": "BOF: PAF.300.400",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5041460033303000343030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

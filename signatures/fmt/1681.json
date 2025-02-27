@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2014,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "666F726D61742D76657273696F6E3A20312E32",
-      "endianness": null,
       "name": "OBO Flat File Format",
-      "note": "BOF Absolute from beginning of file, magic bytes: format-version: 1.2"
+      "note": "BOF Absolute from beginning of file, magic bytes: format-version: 1.2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "666F726D61742D76657273696F6E3A20312E32",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2103,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00{73}00{7}00{19}6D42494E{16}82",
-      "endianness": null,
       "name": "MacBinary III",
-      "note": "BOF; Offset: 0; Byte Sequence: 00x00 repeated in 73 bytes and then 7 bytes followed by 'mBIN' and then in 16 bytes 00x82"
+      "note": "BOF; Offset: 0; Byte Sequence: 00x00 repeated in 73 bytes and then 7 bytes followed by 'mBIN' and then in 16 bytes 00x82",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00{73}00{7}00{19}6D42494E{16}82",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

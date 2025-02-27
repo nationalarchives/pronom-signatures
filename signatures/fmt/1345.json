@@ -28,33 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1736,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000100005374616E64617264204A65742044420001000000",
-      "endianness": null,
       "name": "Legacy Family Tree Database 3-9",
-      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'"
-    },
-    {
-      "signatureID": 1736,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "410063006300650073007300560065007200730069006F006E{0-2048}300038002E00[30:39]00[30:39]",
-      "endianness": null,
-      "name": "Legacy Family Tree Database 3-9",
-      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'"
-    },
-    {
-      "signatureID": 1736,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "4C656761637931",
-      "endianness": null,
-      "name": "Legacy Family Tree Database 3-9",
-      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'"
+      "note": "BOF: JET DB Header VAR: Access Version VAR: 'Legacy1'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000100005374616E64617264204A65742044420001000000",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "410063006300650073007300560065007200730069006F006E{0-2048}300038002E00[30:39]00[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "4C656761637931",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

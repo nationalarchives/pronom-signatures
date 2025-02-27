@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1990,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3A42617365{1-259}2E(484C50|686C70)",
-      "endianness": null,
       "name": "Microsoft Help Contents File",
-      "note": "BOF Absolute from beginning of file, magic bytes: :Base{1-259}.(hlp/HLP)"
+      "note": "BOF Absolute from beginning of file, magic bytes: :Base{1-259}.(hlp/HLP)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3A42617365{1-259}2E(484C50|686C70)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

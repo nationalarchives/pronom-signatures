@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2019,
-      "positionType": "Absolute from BOF",
-      "offset": 6,
-      "maxOffset": 0,
-      "byteSequence": "99FF{100}504D0500",
-      "endianness": null,
       "name": "PageMaker Mac Document Version 5",
-      "note": "BOF; Offset: 6; Magic Bytes: 99FF followed by 504D0500 100 bytes after."
+      "note": "BOF; Offset: 6; Magic Bytes: 99FF followed by 504D0500 100 bytes after.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 6,
+          "maxOffset": 0,
+          "byteSequence": "99FF{100}504D0500",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

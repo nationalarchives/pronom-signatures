@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1579,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3F3F3F3F02570257",
-      "endianness": null,
       "name": "PowerCADD",
-      "note": "BOF:????.W.W"
+      "note": "BOF:????.W.W",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3F3F3F3F02570257",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

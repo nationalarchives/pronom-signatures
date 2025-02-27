@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 976,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "30333069",
-      "endianness": null,
       "name": "Media View Pro",
-      "note": "BOF: 030i (offset 4)\r\nEOF: Svar {8-34} 030i (offset 8)"
-    },
-    {
-      "signatureID": 976,
-      "positionType": "Absolute from EOF",
-      "offset": 8,
-      "maxOffset": null,
-      "byteSequence": "53566172{8-34}30333069",
-      "endianness": null,
-      "name": "Media View Pro",
-      "note": "BOF: 030i (offset 4)\r\nEOF: Svar {8-34} 030i (offset 8)"
+      "note": "BOF: 030i (offset 4)\r\nEOF: Svar {8-34} 030i (offset 8)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "30333069",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 8,
+          "maxOffset": null,
+          "byteSequence": "53566172{8-34}30333069",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

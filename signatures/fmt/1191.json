@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1571,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D424F4F4B424F4F4B",
-      "endianness": null,
       "name": "Adobe InDesign Book",
-      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: BOOKBOOK;"
+      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: BOOKBOOK;",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D424F4F4B424F4F4B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

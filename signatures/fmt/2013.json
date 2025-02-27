@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 3886,
+  "formatName": "RawACF",
+  "version": null,
+  "formatDescription": "RAWACF files are raw files produced at Super Dual Auroral Radar Network (SuperDARN) radar sites. RawACF files began being used by the SuperDARN sites in 2006-2007 when it replaced the dat format.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://radar-software-toolkit-rst.readthedocs.io/en/latest/references/general/rawacf/",
+  "lastUpdatedDate": "22 Aug 2024",
+  "formatSourceID": 349,
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche num\u00e9rique du Canada \u2013 DFDR",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Aug 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2013",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3372,
+      "name": "RawACF",
+      "note": "BOF; Offset: 16; Magic Bytes: radar.revision.major",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 16,
+          "byteSequence": "72616461722E7265766973696F6E2E6D616A6F72",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rawacf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 349
+}

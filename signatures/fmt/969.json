@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1333,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7B5C727466305C(616E7369|6D6163|7063|706361)",
-      "endianness": null,
       "name": "RTF 0",
-      "note": "\tBOF: {\\rtf0 version control word & any character set control word  from /ansi /mac /pc /pca"
+      "note": "\tBOF: {\\rtf0 version control word & any character set control word  from /ansi /mac /pc /pca",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7B5C727466305C(616E7369|6D6163|7063|706361)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 375,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "524946(46|58){4}434452377672736E",
-      "endianness": null,
       "name": "Corel Drawing Version 7.0",
-      "note": "RIFF (little-endian) or RIFX (big-endian) Form labeled CDR7vrsn"
+      "note": "RIFF (little-endian) or RIFX (big-endian) Form labeled CDR7vrsn",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "524946(46|58){4}434452377672736E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 949,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "526172211A070100",
-      "endianness": null,
       "name": "RAR Archive",
-      "note": "BOF: Rar!...."
+      "note": "BOF: Rar!....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "526172211A070100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

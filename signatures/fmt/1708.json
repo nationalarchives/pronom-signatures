@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2041,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "474946383961",
-      "endianness": null,
       "name": "Persuasion Player File v3",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x474946383961"
-    },
-    {
-      "signatureID": 2041,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "706C703252545046",
-      "endianness": null,
-      "name": "Persuasion Player File v3",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x474946383961"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x474946383961",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "474946383961",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "706C703252545046",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

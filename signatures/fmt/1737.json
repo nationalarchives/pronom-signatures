@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2075,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464353{3}20",
-      "endianness": null,
       "name": "Flow Cytometry Standard File",
-      "note": "BOF; Offset: 0; Magic Bytes: 'FCS' followed by a version number then followed by space characters, followed by at least three pairs of ASCII-encoded integers indicating the byte offsets for the start and end (=last byte of) of the primary TEXT segment, the DATA segment, and the ANALYSIS segment"
+      "note": "BOF; Offset: 0; Magic Bytes: 'FCS' followed by a version number then followed by space characters, followed by at least three pairs of ASCII-encoded integers indicating the byte offsets for the start and end (=last byte of) of the primary TEXT segment, the DATA segment, and the ANALYSIS segment",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464353{3}20",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

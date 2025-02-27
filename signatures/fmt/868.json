@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1227,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FE01{3}00{21}02{13}000000000000",
-      "endianness": null,
       "name": "MySQL FRM",
-      "note": "BOF signature derived from format description, based upon bytes that are constant: http://dev.mysql.com/doc/internals/en/frm-file-format.html"
+      "note": "BOF signature derived from format description, based upon bytes that are constant: http://dev.mysql.com/doc/internals/en/frm-file-format.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FE01{3}00{21}02{13}000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

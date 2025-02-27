@@ -32,43 +32,52 @@
   "internalSignatures": [
     {
       "signatureID": 1099,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4657531C",
-      "endianness": null,
       "name": "SWF 28",
-      "note": "Header (FWS then version number) and end tag (..)"
-    },
-    {
-      "signatureID": 1099,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000",
-      "endianness": null,
-      "name": "SWF 28",
-      "note": "Header (FWS then version number) and end tag (..)"
+      "note": "Header (FWS then version number) and end tag (..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4657531C",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1117,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4357531C",
-      "endianness": null,
       "name": "SWF 28 - zlib compressed",
-      "note": "Header (CWS then version number)"
+      "note": "Header (CWS then version number)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4357531C",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1133,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A57531C",
-      "endianness": null,
       "name": "SWF 28 - LZMA compressed",
-      "note": "Header (ZWS then version number)"
+      "note": "Header (ZWS then version number)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A57531C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

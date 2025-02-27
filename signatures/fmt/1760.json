@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2101,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5B436C6F6E6543445D",
-      "endianness": null,
       "name": "CloneCD Control File",
-      "note": "BOF; Offset:0; Magic Bytes: '[CloneCD]'"
+      "note": "BOF; Offset:0; Magic Bytes: '[CloneCD]'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5B436C6F6E6543445D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

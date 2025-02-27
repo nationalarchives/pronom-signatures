@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 923,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F435459504520583344205055424C4943202249534F2F2F57656233442F2F4454442058334420332E322F2F454E22",
-      "endianness": null,
       "name": "X3D v3.2",
-      "note": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>.<!DOCTYPE X3D PUBLIC \"ISO//Web3D//DTD X3D 3.2//EN\""
+      "note": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>.<!DOCTYPE X3D PUBLIC \"ISO//Web3D//DTD X3D 3.2//EN\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F435459504520583344205055424C4943202249534F2F2F57656233442F2F4454442058334420332E322F2F454E22",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

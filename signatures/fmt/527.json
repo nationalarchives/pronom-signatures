@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1034,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}57415645*62657874{350}0200",
-      "endianness": null,
       "name": "BWAVE Generic 2",
-      "note": "RIFF header, WAVE ID, BEXT chunk (Version=2)"
+      "note": "RIFF header, WAVE ID, BEXT chunk (Version=2)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}57415645*62657874{350}0200",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

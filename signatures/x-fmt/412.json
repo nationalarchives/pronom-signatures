@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 199,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304*4D4554412D494E462F4D414E49464553542E4D46",
-      "endianness": null,
       "name": "JAR format",
-      "note": "Local file header + manifest + end of central directory. Signature consists of two byte sequences, a BOF sequence and EOF sequence. BOF character sequence: PK..*META-INF/MANIFEST.MF, EOF character sequence: PK.."
-    },
-    {
-      "signatureID": 199,
-      "positionType": "Absolute from EOF",
-      "offset": 18,
-      "maxOffset": 65531,
-      "byteSequence": "504B0506",
-      "endianness": null,
-      "name": "JAR format",
-      "note": "Local file header + manifest + end of central directory. Signature consists of two byte sequences, a BOF sequence and EOF sequence. BOF character sequence: PK..*META-INF/MANIFEST.MF, EOF character sequence: PK.."
+      "note": "Local file header + manifest + end of central directory. Signature consists of two byte sequences, a BOF sequence and EOF sequence. BOF character sequence: PK..*META-INF/MANIFEST.MF, EOF character sequence: PK..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304*4D4554412D494E462F4D414E49464553542E4D46",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 18,
+          "maxOffset": 65531,
+          "byteSequence": "504B0506",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

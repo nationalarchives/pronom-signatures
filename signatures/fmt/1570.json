@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1911,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": 284,
-      "byteSequence": "6973646F632E637A2F6E616D6573706163652F32303133222076657273696F6E3D22362E302E3122",
-      "endianness": null,
       "name": "ISDOC Information System Document (Version 6.0.1)",
-      "note": "BOF; Offset:16-300; Magic bytes: ' isdoc.cz/namespace/2013\" version=\"6.0.1\" '"
+      "note": "BOF; Offset:16-300; Magic bytes: ' isdoc.cz/namespace/2013\" version=\"6.0.1\" '",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": 284,
+          "byteSequence": "6973646F632E637A2F6E616D6573706163652F32303133222076657273696F6E3D22362E302E3122",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 416,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5046460007020006",
-      "endianness": null,
       "name": "Portable Form File",
-      "note": "ASCII: PFF"
+      "note": "ASCII: PFF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5046460007020006",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

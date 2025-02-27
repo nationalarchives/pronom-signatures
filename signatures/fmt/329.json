@@ -36,23 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 427,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1936,
-      "byteSequence": "2321{0-1}2F62696E2F73680A2320546869732069732061207368656C6C2061726368697665",
-      "endianness": null,
       "name": "Shell Archive No. 1",
-      "note": "ASCII: #!/bin/sh.# This is a shell archive"
+      "note": "ASCII: #!/bin/sh.# This is a shell archive",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1936,
+          "byteSequence": "2321{0-1}2F62696E2F73680A2320546869732069732061207368656C6C2061726368697665",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 428,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2320546869732069732061207368656C6C2061726368697665",
-      "endianness": null,
       "name": "Shell Archive No. 2",
-      "note": "ASCII: # This is a shell archive"
+      "note": "ASCII: # This is a shell archive",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2320546869732069732061207368656C6C2061726368697665",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1946,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF424CFF",
-      "endianness": null,
       "name": "WRAptor Compressed File",
-      "note": "BOF; Offset: 0; Magic Bytes: '\u00ffBL\u00ff'"
+      "note": "BOF; Offset: 0; Magic Bytes: '\u00ffBL\u00ff'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF424CFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

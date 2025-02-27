@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1531,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}34584D564C495354{4}48454144",
-      "endianness": null,
       "name": "4X Movie File",
-      "note": "BOF: RIFF{4}4XMVLIST{4}HEAD"
+      "note": "BOF: RIFF{4}4XMVLIST{4}HEAD",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}34584D564C495354{4}48454144",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

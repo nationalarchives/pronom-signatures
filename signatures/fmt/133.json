@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 82,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
-      "endianness": null,
       "name": "Windows Media Video",
-      "note": "Header Object + Stream Properties Object (stream type = Video Stream) with WMV Compression ID"
-    },
-    {
-      "signatureID": 82,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}C0EF19BC4D5BCF11A8FD00805F5C442B{65}574D56(31|32|33)",
-      "endianness": null,
-      "name": "Windows Media Video",
-      "note": "Header Object + Stream Properties Object (stream type = Video Stream) with WMV Compression ID"
+      "note": "Header Object + Stream Properties Object (stream type = Video Stream) with WMV Compression ID",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}C0EF19BC4D5BCF11A8FD00805F5C442B{65}574D56(31|32|33)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

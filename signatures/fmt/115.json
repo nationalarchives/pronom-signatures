@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 117,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "424D{4}00000000{4}0C000000{4}0100(01|04|08|18)00",
-      "endianness": null,
       "name": "Windows Bitmap 2.0",
-      "note": "BITMAPFILEHEADER: File Type identifier \u201cBM\u201d, file size (4 butes); two short integer reserved fields with values zero, long integer offset to bitmap image data + BITMAPINFOHEADER: length of bitmap header, long integer 12; number of color planes, short integer, always 1; number of bits per pixel, short integer, 1, 4, 8 or 24."
+      "note": "BITMAPFILEHEADER: File Type identifier \u201cBM\u201d, file size (4 butes); two short integer reserved fields with values zero, long integer offset to bitmap image data + BITMAPINFOHEADER: length of bitmap header, long integer 12; number of color planes, short integer, always 1; number of bits per pixel, short integer, 1, 4, 8 or 24.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "424D{4}00000000{4}0C000000{4}0100(01|04|08|18)00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

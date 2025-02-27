@@ -32,43 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 754,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 144,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "PDF/A-3B",
-      "note": "BOF: %PDF1.(0-7)\r\nVAR: Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>3<pdfaid:part> and <pdfaid:conformance>B<pdfaid:conformance>, which are the two mandatory elements and values for PDF/A. See ISO 19005-3:2012 for further information."
-    },
-    {
-      "signatureID": 754,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)33(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
-      "endianness": null,
-      "name": "PDF/A-3B",
-      "note": "BOF: %PDF1.(0-7)\r\nVAR: Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>3<pdfaid:part> and <pdfaid:conformance>B<pdfaid:conformance>, which are the two mandatory elements and values for PDF/A. See ISO 19005-3:2012 for further information."
+      "note": "BOF: %PDF1.(0-7)\r\nVAR: Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:part>3<pdfaid:part> and <pdfaid:conformance>B<pdfaid:conformance>, which are the two mandatory elements and values for PDF/A. See ISO 19005-3:2012 for further information.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 144,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)33(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1959,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 144,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "PDF/A-3B 2",
-      "note": "BOF: %PDF1.(0-7) VAR: Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>B<pdfaid:conformance> and <pdfaid:part>3<pdfaid:part>, which are the two mandatory elements and values for PDF/A. See ISO 19005-3:2012 for further information."
-    },
-    {
-      "signatureID": 1959,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)33(22|27|3C2F7064666169643A706172743E)",
-      "endianness": null,
-      "name": "PDF/A-3B 2",
-      "note": "BOF: %PDF1.(0-7) VAR: Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>B<pdfaid:conformance> and <pdfaid:part>3<pdfaid:part>, which are the two mandatory elements and values for PDF/A. See ISO 19005-3:2012 for further information."
+      "note": "BOF: %PDF1.(0-7) VAR: Identifies the byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/ which is the PDF/A identification namespace within the PDF/A meta-data, followed by <pdfaid:conformance>B<pdfaid:conformance> and <pdfaid:part>3<pdfaid:part>, which are the two mandatory elements and values for PDF/A. See ISO 19005-3:2012 for further information.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 144,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)33(22|27|3C2F7064666169643A706172743E)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

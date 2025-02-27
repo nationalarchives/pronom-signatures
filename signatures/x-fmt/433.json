@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 215,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "33442047656F6D657472792046696C6520466F726D617420202020202020203101000000",
-      "endianness": "Little-endian",
       "name": "3DM 1",
-      "note": "Header with version no."
+      "note": "Header with version no.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "33442047656F6D657472792046696C6520466F726D617420202020202020203101000000",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

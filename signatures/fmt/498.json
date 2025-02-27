@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 773,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C504B204C6963656E7365205061636B6167650D0A0D",
-      "endianness": null,
       "name": "LPK",
-      "note": "BOF: LPK License Package\u2026"
+      "note": "BOF: LPK License Package\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C504B204C6963656E7365205061636B6167650D0A0D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

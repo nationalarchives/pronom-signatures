@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2012,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C406741724D694E403E",
-      "endianness": null,
       "name": "Garmin track log file",
-      "note": "BOF Absolute from beginning of file, magic bytes: <@gArMiN@>"
+      "note": "BOF Absolute from beginning of file, magic bytes: <@gArMiN@>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C406741724D694E403E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

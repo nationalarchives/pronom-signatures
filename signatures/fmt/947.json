@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1291,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F6767530002{23}464C4143{46}4F676753",
-      "endianness": null,
       "name": "Ogg FLAC Compressed Multimedia File",
-      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {23} FLAC identifier {46} next Ogg Page."
+      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {23} FLAC identifier {46} next Ogg Page.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F6767530002{23}464C4143{46}4F676753",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

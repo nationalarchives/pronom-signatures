@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2223,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "3C2F626F64793E{0-4}3C2F6F706D6C3E",
-      "endianness": null,
       "name": "OPML File v.1.*",
-      "note": "Absolute from BOF, magic bytes: <?xml version=\"1.0\" encoding=\"UTF-8\"?><opml version=\"1.{1}\"><head><title>{0-300}</title></head><body>\r\nEOF, offset 0-4:</body>(0-4)</opml>"
-    },
-    {
-      "signatureID": 2223,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E3C6F706D6C2076657273696F6E3D22312E{1}223E3C686561643E3C7469746C653E{0-300}3C2F7469746C653E3C2F686561643E3C626F64793E",
-      "endianness": null,
-      "name": "OPML File v.1.*",
-      "note": "Absolute from BOF, magic bytes: <?xml version=\"1.0\" encoding=\"UTF-8\"?><opml version=\"1.{1}\"><head><title>{0-300}</title></head><body>\r\nEOF, offset 0-4:</body>(0-4)</opml>"
+      "note": "Absolute from BOF, magic bytes: <?xml version=\"1.0\" encoding=\"UTF-8\"?><opml version=\"1.{1}\"><head><title>{0-300}</title></head><body>\r\nEOF, offset 0-4:</body>(0-4)</opml>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "3C2F626F64793E{0-4}3C2F6F706D6C3E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E3C6F706D6C2076657273696F6E3D22312E{1}223E3C686561643E3C7469746C653E{0-300}3C2F7469746C653E3C2F686561643E3C626F64793E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

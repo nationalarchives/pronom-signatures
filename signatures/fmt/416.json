@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 845,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "636166660001000064657363",
-      "endianness": null,
       "name": "Apple Core Audio Format 1",
-      "note": "File type =\u201dcaff\u201d, File version = 1, Flags = 0, Chunk type = \u201cdesc\u201d"
+      "note": "File type =\u201dcaff\u201d, File version = 1, Flags = 0, Chunk type = \u201cdesc\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "636166660001000064657363",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

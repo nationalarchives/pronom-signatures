@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1987,
-      "positionType": "Absolute from BOF",
-      "offset": 9,
-      "maxOffset": 0,
-      "byteSequence": "464954",
-      "endianness": null,
       "name": "Garmin Flexible and Interoperable Data Transfer file",
-      "note": "BOF Absolute from beginning of file, magic bytes: FIT"
+      "note": "BOF Absolute from beginning of file, magic bytes: FIT",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 9,
+          "maxOffset": 0,
+          "byteSequence": "464954",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2110,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "07204D4D",
-      "endianness": null,
       "name": "Casio QV CAM",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x0720 followed by 'MM'"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0720 followed by 'MM'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "07204D4D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

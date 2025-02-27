@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 445,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "205F61746F6D5F747970655F736361745F64697370657273696F6E5F7265616C",
-      "endianness": null,
       "name": "CIF (Crystallographic Information File)",
-      "note": "Looking for keyword within CIF file:  _atom_type_scat_dispersion_real"
+      "note": "Looking for keyword within CIF file:  _atom_type_scat_dispersion_real",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "205F61746F6D5F747970655F736361745F64697370657273696F6E5F7265616C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

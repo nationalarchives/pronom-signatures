@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 811,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C00520046000000",
-      "endianness": null,
       "name": "Broad Band eBook (lrf)",
-      "note": "BOF: L.R.F\u2026"
+      "note": "BOF: L.R.F\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C00520046000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

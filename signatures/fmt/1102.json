@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1484,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "626567696E20[30:37][30:37][30:37]20{1-256}0A",
-      "endianness": null,
       "name": "Uuencoded File",
-      "note": "BOF: 'begin '<unix permissions mode> ' ' <file name> newline character. \r\nEOF, max offset 2: newline character 'end'"
-    },
-    {
-      "signatureID": 1484,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "0A656E64",
-      "endianness": null,
-      "name": "Uuencoded File",
-      "note": "BOF: 'begin '<unix permissions mode> ' ' <file name> newline character. \r\nEOF, max offset 2: newline character 'end'"
+      "note": "BOF: 'begin '<unix permissions mode> ' ' <file name> newline character. \r\nEOF, max offset 2: newline character 'end'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "626567696E20[30:37][30:37][30:37]20{1-256}0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "0A656E64",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

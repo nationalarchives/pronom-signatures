@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1272,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "58415241A3A30D0A",
-      "endianness": null,
       "name": "Xar Image",
-      "note": "BOF:XARA\u00a3\u00a3 [Carriage Return][Line Feed]\r\nSpecification: http://site.xara.com/support/docs/webformat/spec/XARFormatDocument.pdf"
+      "note": "BOF:XARA\u00a3\u00a3 [Carriage Return][Line Feed]\r\nSpecification: http://site.xara.com/support/docs/webformat/spec/XARFormatDocument.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "58415241A3A30D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

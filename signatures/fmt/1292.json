@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1672,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00000FFFFFFFFFFF010045005600450052004D004F0052004500200053004F00460054005700410052004500200049004E0043002E00",
-      "endianness": null,
       "name": "EIOffice Document",
-      "note": "Identification sequence consists of 0x00000FFFFFFFFFFF0100, then double-byte encoded text 'EVERMORE SOFTWARE INC.'. Please contact the PRONOM team if you are able to enhance this signature."
+      "note": "Identification sequence consists of 0x00000FFFFFFFFFFF0100, then double-byte encoded text 'EVERMORE SOFTWARE INC.'. Please contact the PRONOM team if you are able to enhance this signature.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00000FFFFFFFFFFF010045005600450052004D004F0052004500200053004F00460054005700410052004500200049004E0043002E00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

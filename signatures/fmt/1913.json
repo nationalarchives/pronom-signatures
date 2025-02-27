@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2263,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524F462046444220",
-      "endianness": null,
       "name": "Archicad Project",
-      "note": "BOF; Offset: 0; Magic Bytes: \u2018ROF FDB \u2019"
+      "note": "BOF; Offset: 0; Magic Bytes: \u2018ROF FDB \u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524F462046444220",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

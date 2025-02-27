@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 304,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "7674695F656E636F64696E673A53527C757466382D6E6C0D0A",
-      "endianness": null,
       "name": "Microsoft Front Page Server Extension Configuration",
-      "note": "Character sequence taken from beginning of file, terminated by CR/LF."
+      "note": "Character sequence taken from beginning of file, terminated by CR/LF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "7674695F656E636F64696E673A53527C757466382D6E6C0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1862,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4349{2}01{1}(00|01)",
-      "endianness": null,
       "name": "Phantom CINE Compressed Video File",
-      "note": "BOF: 'CI' - 0x01 {1} (00|01)"
+      "note": "BOF: 'CI' - 0x01 {1} (00|01)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4349{2}01{1}(00|01)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

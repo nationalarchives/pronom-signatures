@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1631,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 6,
-      "byteSequence": "4A65742053797374656D204442",
-      "endianness": null,
       "name": "Microsoft Access Workgroup Information File",
-      "note": "Offset 0-6 Magic Bytes from beginning of file: 'Jet System DB'"
+      "note": "Offset 0-6 Magic Bytes from beginning of file: 'Jet System DB'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 6,
+          "byteSequence": "4A65742053797374656D204442",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

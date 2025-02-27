@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 3891,
+  "formatName": "GraphPad Prism",
+  "version": "5-9",
+  "formatDescription": "GraphPad Prism is a program that combines scientific graphing and statistics for data analysis. The pzfx format can be opened only by GraphPad Prism 5 or later. The first part of the file contains all the data tables and info sheets in a plain-text XML format that can be viewed by other programs. After that there is information about results, graphs and layouts embedded in the XML as a binary format specific to the Prism application.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "Mimetype: https://www.graphpad.com/support/faq/mime-types-for-prism-files/\r\nSignature: https://www.graphpad.com/support/faq/how-can-a-prism-file-be-identified/\r\nGeneral info: https://www.graphpad.com/guides/prism/latest/user-guide/pzf_vs__pzfx_file_format.htm\r\nSchema: https://www.graphpad.com/support/faq/prism-xml-style-sheet-and-schema-that-define-the-pzfx-format/",
+  "lastUpdatedDate": "22 Aug 2024",
+  "formatSourceID": 350,
+  "provenanceCompoundName": "Portico / Portico",
+  "formatProvenance": null,
+  "formatSourceDate": "22 Aug 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/x-graphpad-prism-pzfx",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/2017",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3379,
+      "name": "GraphPad Prism 5-9",
+      "note": "BOF; Offset: 0; Magic Bytes: '<?xml version=\"1.0\"' followed by '?>' or encoding attribute follwed by '<GraphPadPrismFile'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){2-32}3C4772617068506164507269736D46696C65",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pzfx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1364,
+      "relatedFormatName": "GraphPad Prism"
+    }
+  ],
+  "source": 350
+}

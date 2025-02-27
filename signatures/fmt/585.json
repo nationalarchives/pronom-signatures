@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 927,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "47{187}47{187}47{187}47{187}47{187}47{187}47{187}47",
-      "endianness": null,
       "name": "MPEG-2 Transport Stream",
-      "note": "Packets of 188 bytes each, each packet beginning with 0x47. This signature may be strengthened with a better understanding of the make-up of these packets."
+      "note": "Packets of 188 bytes each, each packet beginning with 0x47. This signature may be strengthened with a better understanding of the make-up of these packets.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "47{187}47{187}47{187}47{187}47{187}47{187}47{187}47",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

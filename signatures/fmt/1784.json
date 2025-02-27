@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2124,
-      "positionType": "Absolute from BOF",
-      "offset": 48,
-      "maxOffset": 0,
-      "byteSequence": "27182818",
-      "endianness": null,
       "name": "Animatic Film Format",
-      "note": "BOF:Offset of 48 followed by ' followed by 0x18 (Cancel) followed by ( followed by 0x18 (Cancel)"
+      "note": "BOF:Offset of 48 followed by ' followed by 0x18 (Cancel) followed by ( followed by 0x18 (Cancel)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 48,
+          "maxOffset": 0,
+          "byteSequence": "27182818",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2126,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "F03F46554E5041494E5420284D542920",
-      "endianness": null,
       "name": "Funpaint Image File",
-      "note": "BOF:'\u00f0?FUNPAINT' followed by 0x20 (Space) followed by '(MT)' followed by 0x20 (Space)"
+      "note": "BOF:'\u00f0?FUNPAINT' followed by 0x20 (Space) followed by '(MT)' followed by 0x20 (Space)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "F03F46554E5041494E5420284D542920",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

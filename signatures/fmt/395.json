@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 634,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "424547494E3A5643415244{1-3}56455253494F4E3A",
-      "endianness": null,
       "name": "vCard",
-      "note": "BOF: 'begin:vcard'..'version:'  EOF: 'end:vcard'\r\nInternet standard: https://tools.ietf.org/html/rfc6350"
-    },
-    {
-      "signatureID": 634,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "454E443A5643415244",
-      "endianness": null,
-      "name": "vCard",
-      "note": "BOF: 'begin:vcard'..'version:'  EOF: 'end:vcard'\r\nInternet standard: https://tools.ietf.org/html/rfc6350"
+      "note": "BOF: 'begin:vcard'..'version:'  EOF: 'end:vcard'\r\nInternet standard: https://tools.ietf.org/html/rfc6350",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "424547494E3A5643415244{1-3}56455253494F4E3A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "454E443A5643415244",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

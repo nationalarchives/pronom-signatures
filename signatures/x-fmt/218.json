@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 388,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000270AFFFF(FC14|FBF8)",
-      "endianness": "Little-endian",
       "name": "ESRI Arc/Info Binary Grid Raster File",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000270AFFFF(FC14|FBF8)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

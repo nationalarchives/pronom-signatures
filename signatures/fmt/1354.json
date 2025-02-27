@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1737,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "458600000600",
-      "endianness": null,
       "name": "QuickBooks Backup File",
-      "note": "BOF:E\u2020...."
+      "note": "BOF:E\u2020....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "458600000600",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

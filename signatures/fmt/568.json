@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 904,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}5745425056503858",
-      "endianness": null,
       "name": "WebP Extended",
-      "note": "RIFF{4}WEBPVP8X"
+      "note": "RIFF{4}WEBPVP8X",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}5745425056503858",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

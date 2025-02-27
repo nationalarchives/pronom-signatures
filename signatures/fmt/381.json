@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 564,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "F5??[01:0C][01:1F]{4}010488{21}4E414D45000000000000004D{20}545950450000000000000043{20}54494D455354414D5000004E",
-      "endianness": null,
       "name": "FoxPro Project",
-      "note": "A rudimentary signature based on a header sequence: Version number, Date of last update MMDD, character field 'NAME' followed by character field 'TYPE' and 'TIMESTAMP'. All sample files tested displayed this structure, although it is possible that the structure of the file can be hacked and manually edited."
+      "note": "A rudimentary signature based on a header sequence: Version number, Date of last update MMDD, character field 'NAME' followed by character field 'TYPE' and 'TIMESTAMP'. All sample files tested displayed this structure, although it is possible that the structure of the file can be hacked and manually edited.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "F5??[01:0C][01:1F]{4}010488{21}4E414D45000000000000004D{20}545950450000000000000043{20}54494D455354414D5000004E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

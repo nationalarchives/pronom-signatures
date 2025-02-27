@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2085,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504943DC3030",
-      "endianness": null,
       "name": "Psion Series 3 Bitmap",
-      "note": "BOF:'PIC\u00dc00'"
+      "note": "BOF:'PIC\u00dc00'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504943DC3030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

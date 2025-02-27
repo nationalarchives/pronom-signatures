@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1541,
-      "positionType": "Absolute from BOF",
-      "offset": 224,
-      "maxOffset": null,
-      "byteSequence": "0400{2}00000000FCAE56896274BFAE",
-      "endianness": null,
       "name": "Folio NFO v4",
-      "note": "BOF, offset 224: version 0400 {2}, hex 00000000FCAE56896274BFAE"
+      "note": "BOF, offset 224: version 0400 {2}, hex 00000000FCAE56896274BFAE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 224,
+          "maxOffset": null,
+          "byteSequence": "0400{2}00000000FCAE56896274BFAE",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

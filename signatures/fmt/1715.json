@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2047,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "434F4E464947204441544120464F52204150504C4554204546464543545320464143544F5259",
-      "endianness": null,
       "name": "Applet Effect Factory Config File",
-      "note": "BOF Absolute from beginning of file, magic bytes: CONFIG DATA FOR APPLET EFFECTS FACTORY"
+      "note": "BOF Absolute from beginning of file, magic bytes: CONFIG DATA FOR APPLET EFFECTS FACTORY",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "434F4E464947204441544120464F52204150504C4554204546464543545320464143544F5259",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1873,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "254644462D31",
-      "endianness": null,
       "name": "Adobe Acrobat Forms Data Format 1.x",
-      "note": "BOF: '%FDF-1'. It may be desirable to distinguish between minor versions"
+      "note": "BOF: '%FDF-1'. It may be desirable to distinguish between minor versions",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "254644462D31",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

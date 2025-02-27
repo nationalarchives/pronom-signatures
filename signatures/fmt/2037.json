@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 3912,
+  "formatName": "Plextalk Project File (imtt)",
+  "version": null,
+  "formatDescription": "Files created when a Daisy Talking Book Project is made using Plextalk software. Three files called Ncc.imdn, ImdPhrInfo.imph, ImdTxtTabl.imtt are automatically created each time; these files are called Plextalk project files. They store tables of contents, information etc., and may not be crucial to the playing of the Daisy format, but they are important to the PlexTalk software.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://daisy.org/\t\r\nhttps://preservation.tylerthorsted.com/2024/10/04/daisy/ \r\nhttps://github.com/digital-preservation/PRONOM_Research/tree/main/Submissions/Daisy\r\nhttp://www.plextalk.com/jp/dw_data/PRSStd/PLEX_RS_UM.html",
+  "lastUpdatedDate": "29 Jan 2025",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2037",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3400,
+      "name": "Plextalk Project File (imtt)",
+      "note": "Absolute from beginning of file, offset 1: ...{22-24}....{2}.....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "000000{22-24}03000000{2}000B000000",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "imtt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1832,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C696F6E706F75626E6B",
-      "endianness": null,
       "name": "STOS Memory Bank",
-      "note": "BOF: 'Lionpoubnk' (No offset)"
+      "note": "BOF: 'Lionpoubnk' (No offset)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C696F6E706F75626E6B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1176,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}43445841",
-      "endianness": null,
       "name": "CDXA",
-      "note": "BOF: RIFF{4}CDXA"
+      "note": "BOF: RIFF{4}CDXA",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}43445841",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

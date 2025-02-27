@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1696,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01FF020403(00|01|02)0002",
-      "endianness": null,
       "name": "Micrografx Draw Versions 1-2",
-      "note": "BOF: 0x01FF020403 then either byte 00, 01 or 02 followed by 0x0002"
+      "note": "BOF: 0x01FF020403 then either byte 00, 01 or 02 followed by 0x0002",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01FF020403(00|01|02)0002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

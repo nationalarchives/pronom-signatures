@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1746,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C5046200001",
-      "endianness": null,
       "name": "DeluxePaint Animation File",
-      "note": "BOF: Magic bytes \u2019LPF \u2019 0x0001"
+      "note": "BOF: Magic bytes \u2019LPF \u2019 0x0001",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C5046200001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

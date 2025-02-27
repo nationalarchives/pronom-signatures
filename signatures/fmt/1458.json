@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1823,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "417274732026204C65747465727320",
-      "endianness": null,
       "name": "Arts and Letters Short Signature",
-      "note": "BOF: 'Arts & Letters '"
+      "note": "BOF: 'Arts & Letters '",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "417274732026204C65747465727320",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1824,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41264C2D00417274732026204C65747465727320",
-      "endianness": null,
       "name": "Arts and Letters Long Signature",
-      "note": "BOF: 'A&L-.Arts & Letters '"
+      "note": "BOF: 'A&L-.Arts & Letters '",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41264C2D00417274732026204C65747465727320",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

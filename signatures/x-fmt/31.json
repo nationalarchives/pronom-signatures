@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1788,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "434452434F4D5031",
-      "endianness": null,
       "name": "CorelDraw Compressed 1",
-      "note": "BOF: 'CDRCOMP1'"
+      "note": "BOF: 'CDRCOMP1'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "434452434F4D5031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

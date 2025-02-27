@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 339,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4084,
-      "byteSequence": "28546869732066696C65206D75737420626520636F6E76657274656420776974682042696E486578{6-9}3A",
-      "endianness": null,
       "name": "BinHex Binary Text",
-      "note": "BOF; Offset:0-4084; Magic Bytes: '(This file must be converted with BinHex' and in 6-9 bytes 0x3A; EOF; Offset: 64; Magic Bytes: 0x3A"
-    },
-    {
-      "signatureID": 339,
-      "positionType": "Absolute from EOF",
-      "offset": 64,
-      "maxOffset": 0,
-      "byteSequence": "3A",
-      "endianness": null,
-      "name": "BinHex Binary Text",
-      "note": "BOF; Offset:0-4084; Magic Bytes: '(This file must be converted with BinHex' and in 6-9 bytes 0x3A; EOF; Offset: 64; Magic Bytes: 0x3A"
+      "note": "BOF; Offset:0-4084; Magic Bytes: '(This file must be converted with BinHex' and in 6-9 bytes 0x3A; EOF; Offset: 64; Magic Bytes: 0x3A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4084,
+          "byteSequence": "28546869732066696C65206D75737420626520636F6E76657274656420776974682042696E486578{6-9}3A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 64,
+          "maxOffset": 0,
+          "byteSequence": "3A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

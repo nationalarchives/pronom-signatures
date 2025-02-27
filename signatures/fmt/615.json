@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 951,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "67696D702078636620",
-      "endianness": null,
       "name": "Gimp Image file format",
-      "note": "BOF: gimp xcf"
+      "note": "BOF: gimp xcf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "67696D702078636620",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

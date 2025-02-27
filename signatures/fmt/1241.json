@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1618,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4000,
-      "byteSequence": "666F3A726F6F74",
-      "endianness": null,
       "name": "FO File",
-      "note": "Within the first 4000 hex byte pairs 'fo:root'"
+      "note": "Within the first 4000 hex byte pairs 'fo:root'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4000,
+          "byteSequence": "666F3A726F6F74",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

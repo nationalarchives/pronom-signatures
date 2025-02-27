@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1069,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "04{3}424F424F{248}04",
-      "endianness": null,
       "name": "CWK 4 Painting",
-      "note": "(Version){3}BOBO{248}(format type 0x04 = painting)"
+      "note": "(Version){3}BOBO{248}(format type 0x04 = painting)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "04{3}424F424F{248}04",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

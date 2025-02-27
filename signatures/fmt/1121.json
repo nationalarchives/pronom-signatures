@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1503,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524157312E303100{8}[30:31][30:39]2F[30:33][30:39]2F[30:39][30:39]",
-      "endianness": null,
       "name": "DIFFRACplus Raw Data File Format 2",
-      "note": "BOF: \"RAW1.01\", 0x00 {8} MM/DD/YY. Signnature based on the format description in the Bruker Advanced X-Ray Solutions General Area Detector Diffraction System (GADDS) Reference Manual. Also see https://github.com/scattering/scattio/blob/master/python/scattio/bruker.py"
+      "note": "BOF: \"RAW1.01\", 0x00 {8} MM/DD/YY. Signnature based on the format description in the Bruker Advanced X-Ray Solutions General Area Detector Diffraction System (GADDS) Reference Manual. Also see https://github.com/scattering/scattio/blob/master/python/scattio/bruker.py",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524157312E303100{8}[30:31][30:39]2F[30:33][30:39]2F[30:39][30:39]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

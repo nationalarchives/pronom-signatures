@@ -4,6 +4,19 @@ import pyodbc
 import urllib.request
 import xml.etree.ElementTree as Et
 from datetime import datetime
+from itertools import groupby
+
+"""
+Generates the signature json from a backup of the PRONOM MSSQL database. To restore, download the backup file then:
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" -v $PWD/backup:/var/opt/mssql/backup  -p 1433:1433 \
+ --name pronom --hostname sql1 -d mcr.microsoft.com/mssql/server:2022-latest
+RESTORE DATABASE PRONOM
+    FROM DISK = '/var/opt/mssql/backup/PRONOM6_backup.bak'
+    WITH MOVE 'Pronom4' TO '/var/opt/mssql/data/PRONOM6.mdf',
+    MOVE 'ftrow_PRONOM_Search' TO '/var/opt/mssql/data/ftrow_PRONOM_Search.ndf',
+    MOVE 'Pronom4_log' TO '/var/opt/mssql/data/PRONOM6_1.ldf'
+GO
+"""
 
 
 def to_camel_case(s):
@@ -121,18 +134,29 @@ def get_internal_signatures(file_format_id):
     signatures_result = []
     byte_sequence_rows = execute_procedure("proc_get_format_int_sig_byte_sequences_by_id", file_format_id)
     internal_signatures = execute_procedure("proc_get_format_internal_signatures_by_id", file_format_id)
+    byte_sequences = []
     for byte_sequence_row in byte_sequence_rows:
         each_identifier = {}
         for key in byte_sequence_row.cursor_description:
             if key[0] in ["PositionType", "Offset", "MaxOffset", "ByteSequence", "Endianness", "SignatureID"]:
                 value = byte_sequence_row[byte_sequence_row.cursor_description.index(key)]
                 each_identifier[to_camel_case(key[0])] = value
-        signatures_result.append(each_identifier)
 
-    for result in signatures_result:
-        signature = [isig for isig in internal_signatures if isig[1] == result["signatureID"]][0]
-        result["name"] = signature[2]
-        result["note"] = signature[3]
+        byte_sequences.append(each_identifier)
+
+    byte_sequences.sort(key=lambda x: x['signatureID'])
+    grouped_items = {key: list(group) for key, group in groupby(byte_sequences, key=lambda x: x['signatureID'])}
+
+    for sig in internal_signatures:
+        signature_id = sig[1]
+        list(map(lambda d: d.pop("signatureID", None), grouped_items[signature_id]))
+        result = {
+            "signatureID": signature_id,
+            "name": sig[2],
+            "note": sig[3],
+            "byteSequences": grouped_items[signature_id]
+        }
+        signatures_result.append(result)
 
     return signatures_result
 
@@ -355,7 +379,8 @@ def run():
         with open(f'/home/sam/repositories/digitalpreservation/pronom-signatures/signatures/{puid}.json', 'w') as f:
             json.dump(format_json, f, indent=2)
     for actor_id, actor in all_actors.items():
-        with open(f'/home/sam/repositories/digitalpreservation/pronom-signatures/actors/{actor_id}.json', 'w') as actor_file:
+        with open(f'/home/sam/repositories/digitalpreservation/pronom-signatures/actors/{actor_id}.json',
+                  'w') as actor_file:
             actor_file.write(json.dumps(actor, indent=2))
 
 

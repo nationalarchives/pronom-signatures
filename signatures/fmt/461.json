@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 715,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "74576263{60}242424{57}24246600",
-      "endianness": null,
       "name": "Verity Collection Index Descriptor File",
-      "note": "BOF: tWbc then $$$ then $$f."
+      "note": "BOF: tWbc then $$$ then $$f.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "74576263{60}242424{57}24246600",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1909,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": 284,
-      "byteSequence": "6973646F632E637A",
-      "endianness": null,
       "name": "ISDOC Information System Document 5.x",
-      "note": "BOF; Offset: 16-300; Magic bytes: 'isdoc.cz'"
+      "note": "BOF; Offset: 16-300; Magic bytes: 'isdoc.cz'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": 284,
+          "byteSequence": "6973646F632E637A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

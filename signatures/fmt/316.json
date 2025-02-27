@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 408,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "525349440002007C{4}0000",
-      "endianness": null,
       "name": "Real Sid Audio",
-      "note": "Header ASCII: RSID"
+      "note": "Header ASCII: RSID",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "525349440002007C{4}0000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

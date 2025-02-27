@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 139,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304140000000000{20}6D696D65747970656170706C69636174696F6E2F766E642E73756E2E786D6C2E777269746572*504B0304140000000000{20}6D6574612E786D6C3C3F786D6C2076657273696F6E3D22312E3022{322}6F66666963653A76657273696F6E3D22312E30223E",
-      "endianness": null,
       "name": "OpenOffice Writer 1.0",
-      "note": "PKZIP file header + MIME-type declaration, PKZIP file header + meta.xml (office:version=\"1.0\")"
+      "note": "PKZIP file header + MIME-type declaration, PKZIP file header + meta.xml (office:version=\"1.0\")",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304140000000000{20}6D696D65747970656170706C69636174696F6E2F766E642E73756E2E786D6C2E777269746572*504B0304140000000000{20}6D6574612E786D6C3C3F786D6C2076657273696F6E3D22312E3022{322}6F66666963653A76657273696F6E3D22312E30223E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

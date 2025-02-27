@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2325,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46494E414C4520504552464F524D414E4345204153534553534D454E54",
-      "endianness": null,
       "name": "Finale Performance Assessment",
-      "note": "BOF; Offset: 0; Magic Bytes: 'FINALE PERFORMANCE ASSESSMENT'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'FINALE PERFORMANCE ASSESSMENT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46494E414C4520504552464F524D414E4345204153534553534D454E54",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

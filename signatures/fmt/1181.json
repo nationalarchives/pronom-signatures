@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1563,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41433444426F6479",
-      "endianness": null,
       "name": "BodyPaint 3D",
-      "note": "BOF: AC4DBody - http://http.maxon.net/pub/sdk/91/b3dformat.zip"
+      "note": "BOF: AC4DBody - http://http.maxon.net/pub/sdk/91/b3dformat.zip",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41433444426F6479",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

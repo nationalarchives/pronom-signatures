@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 906,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F782D69626F6F6B732B7A6970",
-      "endianness": null,
       "name": "iBook",
-      "note": "PK..{26}mimetypeapplication/x-ibooks+zip"
+      "note": "PK..{26}mimetypeapplication/x-ibooks+zip",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F782D69626F6F6B732B7A6970",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

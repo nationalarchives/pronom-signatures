@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2301,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A0000004442434E43205231357C0C000000544D50",
-      "endianness": null,
       "name": "AutoCAD dbConnect Template Set",
-      "note": "Absolute from beginning of file, magic bytes: ....DBCNC R15|....TMPLSET"
+      "note": "Absolute from beginning of file, magic bytes: ....DBCNC R15|....TMPLSET",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A0000004442434E43205231357C0C000000544D50",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

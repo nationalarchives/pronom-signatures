@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1899,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0D0A1A",
-      "endianness": null,
       "name": "Standard Data Format",
-      "note": "Magic bytes, BOF, offset 0: G0\r\nMagic bytes: 0x0D (Carriage Return) followed by 0x0A (Line Feed) followed by 0x1A (Substitute)"
-    },
-    {
-      "signatureID": 1899,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "4730",
-      "endianness": null,
-      "name": "Standard Data Format",
-      "note": "Magic bytes, BOF, offset 0: G0\r\nMagic bytes: 0x0D (Carriage Return) followed by 0x0A (Line Feed) followed by 0x1A (Substitute)"
+      "note": "Magic bytes, BOF, offset 0: G0\r\nMagic bytes: 0x0D (Carriage Return) followed by 0x0A (Line Feed) followed by 0x1A (Substitute)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0D0A1A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "4730",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 2256,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D322E[30:39]",
-      "endianness": null,
       "name": "PDF/A-4",
-      "note": "BOF \u2013 the specification states that this must begin at offset 0: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019"
-    },
-    {
-      "signatureID": 2256,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C7064666169643A706172743E343C2F7064666169643A706172743E",
-      "endianness": null,
-      "name": "PDF/A-4",
-      "note": "BOF \u2013 the specification states that this must begin at offset 0: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019"
+      "note": "BOF \u2013 the specification states that this must begin at offset 0: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D322E[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C7064666169643A706172743E343C2F7064666169643A706172743E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

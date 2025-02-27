@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1328,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FDFDFDFD{12-64}46696E616C2044726166742C20496E63",
-      "endianness": null,
       "name": "Final Draft 5-7",
-      "note": "BOF: 0xFDFDFDFD {12-64} string 'Final Draft, Inc'"
+      "note": "BOF: 0xFDFDFDFD {12-64} string 'Final Draft, Inc'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FDFDFDFD{12-64}46696E616C2044726166742C20496E63",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 908,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F787061636B657420626567696E3D(22|27)EFBBBF(22|27)2069643D(22|27)57354D304D7043656869487A7265537A4E54637A6B633964(22|27)3F3E0A3C783A786D706D65746120786D6C6E733A783D(22|27)61646F62653A6E733A6D6574612F(22|27)",
-      "endianness": null,
       "name": "Extensible Metadata Platform Packet",
-      "note": "<?xpacket begin=\"(0xEFBBBF)\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>.<x:xmpmeta xmlns:x=\"adobe:ns:meta/\""
+      "note": "<?xpacket begin=\"(0xEFBBBF)\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>.<x:xmpmeta xmlns:x=\"adobe:ns:meta/\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F787061636B657420626567696E3D(22|27)EFBBBF(22|27)2069643D(22|27)57354D304D7043656869487A7265537A4E54637A6B633964(22|27)3F3E0A3C783A786D706D65746120786D6C6E733A783D(22|27)61646F62653A6E733A6D6574612F(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

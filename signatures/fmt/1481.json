@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1853,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01FF010403060001000401FFFFFF0020",
-      "endianness": null,
       "name": "Micrografx In-A-Vision Drawing",
-      "note": "BOF: (hex values) 01FF0104 03060001 000401FF FFFF0020"
+      "note": "BOF: (hex values) 01FF0104 03060001 000401FF FFFF0020",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01FF010403060001000401FFFFFF0020",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

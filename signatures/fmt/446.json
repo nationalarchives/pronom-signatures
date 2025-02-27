@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 698,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2550445820322E300D0A0D0A4F626A426567696E200D0A3C3C",
-      "endianness": null,
       "name": "Adobe PDX 2.0",
-      "note": "BOF first 25 bytes: %PDX 2.0....ObjBegin ..<<\r\nEOF last 16 bytes >> ..ObjEnd ...."
-    },
-    {
-      "signatureID": 698,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3E3E200D0A4F626A456E64200D0A0D0A",
-      "endianness": null,
-      "name": "Adobe PDX 2.0",
-      "note": "BOF first 25 bytes: %PDX 2.0....ObjBegin ..<<\r\nEOF last 16 bytes >> ..ObjEnd ...."
+      "note": "BOF first 25 bytes: %PDX 2.0....ObjBegin ..<<\r\nEOF last 16 bytes >> ..ObjEnd ....",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2550445820322E300D0A0D0A4F626A426567696E200D0A3C3C",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3E3E200D0A4F626A456E64200D0A0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

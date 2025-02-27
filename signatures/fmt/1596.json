@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1935,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": 0,
-      "byteSequence": "00(02|04|08)FFFF00010004",
-      "endianness": null,
       "name": "ESRI ArcInfo Grid .nit File",
-      "note": "BOF, offset 16: magic bytes .. \u00ff\u00ff\u2026."
+      "note": "BOF, offset 16: magic bytes .. \u00ff\u00ff\u2026.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": 0,
+          "byteSequence": "00(02|04|08)FFFF00010004",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

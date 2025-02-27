@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 672,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4253444946463430{24}425A68??314159265359",
-      "endianness": null,
       "name": "BSDIFF4.0",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4253444946463430{24}425A68??314159265359",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

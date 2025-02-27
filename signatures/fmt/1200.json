@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1578,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5064253402",
-      "endianness": null,
       "name": "PowerDraw",
-      "note": "BOF: Pd%4."
+      "note": "BOF: Pd%4.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5064253402",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

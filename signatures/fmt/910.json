@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1260,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4352414D02",
-      "endianness": null,
       "name": "CRAM v2",
-      "note": "Magic: CRAM, major version: 0x02\r\nSpecification: http://samtools.github.io/hts-specs/CRAMv2.1.pdf"
+      "note": "Magic: CRAM, major version: 0x02\r\nSpecification: http://samtools.github.io/hts-specs/CRAMv2.1.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4352414D02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

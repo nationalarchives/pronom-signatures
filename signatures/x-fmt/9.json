@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 384,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "03??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|4C|4D|4E)",
-      "endianness": "Little-endian",
       "name": "dBase Table Version III",
-      "note": "Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, L, M, N). Dbase III (versions 1.0, 1.1 and 1.2) was released by Ashton-Tate during the period 1984-85. Dbase III+ (versions 1.0 and 1.1) was released during the period 1986-1987. Dbase IV (versions 1.0 and 1.1) was released during the period 1988-1990. All used the same dBase III file format for a dbf."
+      "note": "Version number, Date of last update MMDD, First upper or lowercase character of field name, field type (C, D, L, M, N). Dbase III (versions 1.0, 1.1 and 1.2) was released by Ashton-Tate during the period 1984-85. Dbase III+ (versions 1.0 and 1.1) was released during the period 1986-1987. Dbase IV (versions 1.0 and 1.1) was released during the period 1988-1990. All used the same dBase III file format for a dbf.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "03??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|4C|4D|4E)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

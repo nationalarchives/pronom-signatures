@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1077,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "06{3}424F424F{270}02",
-      "endianness": null,
       "name": "CWK 6 Spreadsheet",
-      "note": "(Version){3}BOBO{270}(format type 0x02 = spreadsheet)"
+      "note": "(Version){3}BOBO{270}(format type 0x02 = spreadsheet)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "06{3}424F424F{270}02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

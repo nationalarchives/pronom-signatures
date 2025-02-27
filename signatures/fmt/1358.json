@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1741,
-      "positionType": "Absolute from BOF",
-      "offset": 824,
-      "maxOffset": 2792,
-      "byteSequence": "4850545F44445F494744533A464F4E544C4942{32600-33200}44474E2D5469746C6573",
-      "endianness": null,
       "name": "MicroStation Base File",
-      "note": "Absolute from BOF offset 824- 3616, magic bytes:\r\n'HPT_DD_IGDS:FONTLIB'.{32600-33200}DGN-Titles"
+      "note": "Absolute from BOF offset 824- 3616, magic bytes:\r\n'HPT_DD_IGDS:FONTLIB'.{32600-33200}DGN-Titles",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 824,
+          "maxOffset": 2792,
+          "byteSequence": "4850545F44445F494744533A464F4E544C4942{32600-33200}44474E2D5469746C6573",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1551,
-      "positionType": "Absolute from BOF",
-      "offset": 12,
-      "maxOffset": null,
-      "byteSequence": "416C6961732053747564696F{13}382E35",
-      "endianness": null,
       "name": "Alias Studio Wire 8.5",
-      "note": "Offset 12: 'Alias Studio'{13}8.5"
+      "note": "Offset 12: 'Alias Studio'{13}8.5",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 12,
+          "maxOffset": null,
+          "byteSequence": "416C6961732053747564696F{13}382E35",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

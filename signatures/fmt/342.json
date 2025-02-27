@@ -2,15 +2,15 @@
   "fileFormatID": 1087,
   "formatName": "Microsoft Project Export File",
   "version": "4.0",
-  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "formatDescription": "The Microsoft Project Export file or Microsoft Project Exchange file format is for earlier version of Microsoft Project to exhange project data with other Project Management software. Discontinued with Project 2000.",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
   "formatNote": null,
-  "lastUpdatedDate": "21 Apr 2011",
+  "lastUpdatedDate": "03 Jan 2025",
   "formatSourceID": 165,
   "provenanceCompoundName": "Georgia Tech Research Institute / Georgia Tech Research Institute",
-  "formatProvenance": "Submitted by Georgia Tech Research Institute",
+  "formatProvenance": "Submitted by Georgia Tech Research Institute;  v.120- New description added as part of PRONOM Research Week 2024. Submitted by Brigham Young University.",
   "formatSourceDate": "21 Apr 2011",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 473,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)34(2C|2E)30",
-      "endianness": null,
       "name": "Microsoft Project Export File 4.0",
-      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (4.0 ), if list separator is ;, version may be 4,0."
+      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (4.0 ), if list separator is ;, version may be 4,0.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)34(2C|2E)30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

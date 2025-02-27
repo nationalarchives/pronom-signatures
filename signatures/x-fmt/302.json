@@ -1,6 +1,6 @@
 {
   "fileFormatID": 456,
-  "formatName": "Adobe FrameMaker Document",
+  "formatName": "Visualization Toolkit",
   "version": "8.0",
   "formatDescription": "Adobe FrameMaker format is a desktop publishing and word processing format originally developed by Frame Technology Corp. Frame Technology Corp was bought by Adobe Systems in 1995, who continued to develop and support FrameMaker.",
   "releaseDate": null,
@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 395,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3C4D616B657246696C6520382E30483E",
-      "endianness": null,
       "name": "Framemaker Document Version 8.0",
-      "note": "Framemaker binary document type and version"
+      "note": "Framemaker binary document type and version",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3C4D616B657246696C6520382E30483E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

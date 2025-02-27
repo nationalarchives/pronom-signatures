@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1396,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C73746174615F6474613E3C6865616465723E3C72656C656173653E3131383C2F72656C656173653E",
-      "endianness": null,
       "name": "Stata DTA 118",
-      "note": "<stata_dta><header><release>118</release>\r\nBased on specification: http://www.stata.com/help.cgi?dta"
+      "note": "<stata_dta><header><release>118</release>\r\nBased on specification: http://www.stata.com/help.cgi?dta",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C73746174615F6474613E3C6865616465723E3C72656C656173653E3131383C2F72656C656173653E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

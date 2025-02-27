@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 1769,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4175746F4341442042696E617279204458460D0A1A00*0053454354494F4E0002{0-1}48454144455200*09{0-1}24414341445645520001{0-1}41433130333200*0000454E4453454300",
-      "endianness": null,
       "name": "Binary DXF 2018-2021",
-      "note": "File header, header section with $ACADVER group code (AC1032), EOF marker"
-    },
-    {
-      "signatureID": 1769,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00454F4600",
-      "endianness": null,
-      "name": "Binary DXF 2018-2021",
-      "note": "File header, header section with $ACADVER group code (AC1032), EOF marker"
+      "note": "File header, header section with $ACADVER group code (AC1032), EOF marker",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4175746F4341442042696E617279204458460D0A1A00*0053454354494F4E0002{0-1}48454144455200*09{0-1}24414341445645520001{0-1}41433130333200*0000454E4453454300",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00454F4600",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

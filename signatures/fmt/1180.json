@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1562,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": null,
-      "byteSequence": "43344443344436",
-      "endianness": null,
       "name": "Cinema 4D 6+",
-      "note": "offset 1, 'C4DC4D6'."
+      "note": "offset 1, 'C4DC4D6'.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": null,
+          "byteSequence": "43344443344436",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

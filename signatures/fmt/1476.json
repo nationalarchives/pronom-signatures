@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1848,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}544549{0-512}687474703A2F2F7777772E7465692D632E6F72672F6E732F312E30",
-      "endianness": null,
       "name": "TEI P5 XML - Single Text",
-      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-512 bytes followed by 'TEI' followed by a gap between 0-512 bytes followed by 'http://www.tei-c.org/ns/1.0'"
+      "note": "BOF:'<?xml version=(\"OR')1.0(\"OR')' followed by a gap between 0-512 bytes followed by 'TEI' followed by a gap between 0-512 bytes followed by 'http://www.tei-c.org/ns/1.0'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}544549{0-512}687474703A2F2F7777772E7465692D632E6F72672F6E732F312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1288,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F6767530002{22}807468656F7261030201{32}4F676753",
-      "endianness": null,
       "name": "Ogg Theora Video variant 1",
-      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} '\u20actheora' identifier, Major version 0x03, Minor version 0x02, Revision version 0x01 {32} next Ogg Page."
+      "note": "Ogg Page header: Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} '\u20actheora' identifier, Major version 0x03, Minor version 0x02, Revision version 0x01 {32} next Ogg Page.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F6767530002{22}807468656F7261030201{32}4F676753",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1289,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F6767530002{22}6669736865616400{56-72}4F6767530002{22}807468656F7261030201{32}4F676753",
-      "endianness": null,
       "name": "Ogg Theora Video variant 2",
-      "note": "Ogg Page Skeleton header (with 'fishead\\0' identifier), followed by Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} '\u20actheora' identifier, Major version 0x03, Minor version 0x02, Revision version 0x01 {32} next Ogg Page."
+      "note": "Ogg Page Skeleton header (with 'fishead\\0' identifier), followed by Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h) {22} '\u20actheora' identifier, Major version 0x03, Minor version 0x02, Revision version 0x01 {32} next Ogg Page.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F6767530002{22}6669736865616400{56-72}4F6767530002{22}807468656F7261030201{32}4F676753",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

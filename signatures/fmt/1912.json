@@ -32,43 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 2261,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D322E[30:39]",
-      "endianness": null,
       "name": "PDF/A-4f variant 1",
-      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019 followed by \u2018<pdfaid:conformance>F</pdfaid:conformance>\u2019"
-    },
-    {
-      "signatureID": 2261,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C7064666169643A706172743E343C2F7064666169643A706172743E*3C7064666169643A636F6E666F726D616E63653E463C2F7064666169643A636F6E666F726D616E63653E",
-      "endianness": null,
-      "name": "PDF/A-4f variant 1",
-      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019 followed by \u2018<pdfaid:conformance>F</pdfaid:conformance>\u2019"
+      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:part>4</pdfaid:part>\u2019 followed by \u2018<pdfaid:conformance>F</pdfaid:conformance>\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D322E[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C7064666169643A706172743E343C2F7064666169643A706172743E*3C7064666169643A636F6E666F726D616E63653E463C2F7064666169643A636F6E666F726D616E63653E",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2262,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D322E[30:39]",
-      "endianness": null,
       "name": "PDF/A-4f variant 2",
-      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:conformance>F</pdfaid:conformance>\u2019 followed by \u2018<pdfaid:part>4</pdfaid:part>\u2019"
-    },
-    {
-      "signatureID": 2262,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C7064666169643A636F6E666F726D616E63653E463C2F7064666169643A636F6E666F726D616E63653E*3C7064666169643A706172743E343C2F7064666169643A706172743E",
-      "endianness": null,
-      "name": "PDF/A-4f variant 2",
-      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:conformance>F</pdfaid:conformance>\u2019 followed by \u2018<pdfaid:part>4</pdfaid:part>\u2019"
+      "note": "BOF: \u2018%PDF-2.\u2019[0-9], then variable: \u2018<pdfaid:conformance>F</pdfaid:conformance>\u2019 followed by \u2018<pdfaid:part>4</pdfaid:part>\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D322E[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C7064666169643A636F6E666F726D616E63653E463C2F7064666169643A636F6E666F726D616E63653E*3C7064666169643A706172743E343C2F7064666169643A706172743E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

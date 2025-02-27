@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1573,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A4D325302",
-      "endianness": null,
       "name": "ZModeler Z3D v2",
-      "note": "BOF: 'ZM2S 0x02'"
+      "note": "BOF: 'ZM2S 0x02'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A4D325302",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

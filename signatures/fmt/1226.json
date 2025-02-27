@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1604,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "55435346204E4D5200{4}02",
-      "endianness": null,
       "name": "Sparky 2",
-      "note": "BOF: Magic bytes \u2018UCSF NMR\u2019 followed by null, In addition, the byte offset 13 (0x0D) should be the number 2 (unsigned char, for version 2)."
+      "note": "BOF: Magic bytes \u2018UCSF NMR\u2019 followed by null, In addition, the byte offset 13 (0x0D) should be the number 2 (unsigned char, for version 2).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "55435346204E4D5200{4}02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

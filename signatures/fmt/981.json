@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1342,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E{8-1024}45617A794472617756657273696F6E",
-      "endianness": null,
       "name": "EazyDraw File Format",
-      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\">{8-1024}EazyDrawVersion"
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\">{8-1024}EazyDrawVersion",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E{8-1024}45617A794472617756657273696F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

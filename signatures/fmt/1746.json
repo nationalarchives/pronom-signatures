@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2087,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "524950312E",
-      "endianness": null,
       "name": "Rocky Interlace Picture",
-      "note": "BOF:'RIP1.'"
+      "note": "BOF:'RIP1.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "524950312E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

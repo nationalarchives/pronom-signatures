@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1742,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "034354303031",
-      "endianness": null,
       "name": "Softdisk Text Compressor",
-      "note": "Byte sequence .CT0011 (03 43 54 30 30 31)."
+      "note": "Byte sequence .CT0011 (03 43 54 30 30 31).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "034354303031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

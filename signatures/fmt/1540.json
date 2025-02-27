@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1886,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2E4E494303003B4E656F4465736B2049636F6E2046696C6520666F726D61742C20436F7079726967687420BD203139393020477269626E696620536F667477617265",
-      "endianness": null,
       "name": "NeoDesk Icon File",
-      "note": "BOF:'.NIC' followed by 0x03 (end of text) followed by 0x00 (null) followed by ';NeoDesk Icon File format, Copyright \u00bd 1990 Gribnif Software'"
+      "note": "BOF:'.NIC' followed by 0x03 (end of text) followed by 0x00 (null) followed by ';NeoDesk Icon File format, Copyright \u00bd 1990 Gribnif Software'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2E4E494303003B4E656F4465736B2049636F6E2046696C6520666F726D61742C20436F7079726967687420BD203139393020477269626E696620536F667477617265",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 453,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "53484F57",
-      "endianness": null,
       "name": "Harvard Graphics Show 2.0",
-      "note": "Header ASCII: SHOW"
+      "note": "Header ASCII: SHOW",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "53484F57",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

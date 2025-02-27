@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1773,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "ABCD0054",
-      "endianness": null,
       "name": "DiskDoubler",
-      "note": "BOF: 0xABCD0054"
+      "note": "BOF: 0xABCD0054",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "ABCD0054",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

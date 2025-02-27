@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1418,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "11542367",
-      "endianness": null,
       "name": "Adobe .pek",
-      "note": "BOF: 0x11542367"
+      "note": "BOF: 0x11542367",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "11542367",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

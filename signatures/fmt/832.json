@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1189,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "23496E76656E746F722056312E{1}20(6173636969|62696E617279)",
-      "endianness": null,
       "name": "Open Inventor 1.x",
-      "note": "#Inventor V1.{1} (ascii|binary)"
+      "note": "#Inventor V1.{1} (ascii|binary)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23496E76656E746F722056312E{1}20(6173636969|62696E617279)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

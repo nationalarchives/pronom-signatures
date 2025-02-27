@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 579,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "000233512E2126402324212626",
-      "endianness": null,
       "name": "Borland Reflex flat datafile",
-      "note": "Signature based on regularly recurring header sequence observed in collection of .rxd files"
+      "note": "Signature based on regularly recurring header sequence observed in collection of .rxd files",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "000233512E2126402324212626",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

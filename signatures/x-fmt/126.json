@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 876,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "09040600{2}2000",
-      "endianness": null,
       "name": "BIFF 4 Chart",
-      "note": "BIFF4: BOF hex 0904. record length hex 0600, BIFF version=(not used), filetype=chart=2000"
+      "note": "BIFF4: BOF hex 0904. record length hex 0600, BIFF version=(not used), filetype=chart=2000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "09040600{2}2000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 977,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000001B3{8-136}000001B8",
-      "endianness": null,
       "name": "MPEG-1 Elementary Stream",
-      "note": "BOF: ...\u00b3{8}...\u00b5"
+      "note": "BOF: ...\u00b3{8}...\u00b5",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000001B3{8-136}000001B8",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

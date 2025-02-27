@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1649,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5363656E61726973745F534343",
-      "endianness": null,
       "name": "Sonic Scenarist Closed Caption Format",
-      "note": "BOF: 'Scenarist_SCC'"
+      "note": "BOF: 'Scenarist_SCC'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5363656E61726973745F534343",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

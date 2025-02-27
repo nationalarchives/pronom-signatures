@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1287,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F6767530002",
-      "endianness": null,
       "name": "Ogg Container",
-      "note": "Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h)"
+      "note": "Capture pattern (\u201cOggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F6767530002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

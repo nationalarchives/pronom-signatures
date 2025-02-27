@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2236,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": 0,
-      "byteSequence": "688F688F688FFFF3",
-      "endianness": null,
       "name": "RagTime Document File v2-3",
-      "note": "BOF:Offset of 16 followed by 'h' followed by 0x8F (Single Shift Three) followed by 'h' followed by 0x8F (Single Shift Three) followed by 'h' followed by 0x8F (Single Shift Three) followed by '\u00ff\u00f3'"
+      "note": "BOF:Offset of 16 followed by 'h' followed by 0x8F (Single Shift Three) followed by 'h' followed by 0x8F (Single Shift Three) followed by 'h' followed by 0x8F (Single Shift Three) followed by '\u00ff\u00f3'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": 0,
+          "byteSequence": "688F688F688FFFF3",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

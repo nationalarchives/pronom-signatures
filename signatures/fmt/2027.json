@@ -1,0 +1,56 @@
+{
+  "fileFormatID": 3901,
+  "formatName": " Microsoft Project",
+  "version": "1",
+  "formatDescription": "Microsoft Project is a project management software program developed by Microsoft. The first Windows version was released in 1990, and was labelled version 1 for Windows.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "21 Jan 2025",
+  "formatSourceID": 234,
+  "provenanceCompoundName": "National Library of Australia / National Library of Australia",
+  "formatProvenance": null,
+  "formatSourceDate": "21 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Structured)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.ms-project",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/2027",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3390,
+      "name": "Microsoft Project v.1",
+      "note": "Absolute from beginning of file, magic bytes: ...\u00f2.JLBM..>d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000006F2004A4C424D01003E64",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mpp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 234
+}

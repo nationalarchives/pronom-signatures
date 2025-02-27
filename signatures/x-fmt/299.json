@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 617,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "23646566696E6520{1-30}5F776964746820{1-16}23646566696E6520{1-30}5F68656967687420*73746174696320756E7369676E65642073686F727420{1-30}5F626974735B5D203D207B",
-      "endianness": null,
       "name": "X-Windows Bitmap Image X10",
-      "note": "Starts with a C declaration: \"#define <name>_width <integer>#define <name>_height <integer> static unsigned short <name>_bits[] = {\"  where <name> is filename without extension."
+      "note": "Starts with a C declaration: \"#define <name>_width <integer>#define <name>_height <integer> static unsigned short <name>_bits[] = {\"  where <name> is filename without extension.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "23646566696E6520{1-30}5F776964746820{1-16}23646566696E6520{1-30}5F68656967687420*73746174696320756E7369676E65642073686F727420{1-30}5F626974735B5D203D207B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

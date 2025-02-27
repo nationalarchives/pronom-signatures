@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2246,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1846494348494552204755495441522050524F",
-      "endianness": null,
       "name": "Guitar Pro v2-v5",
-      "note": "BOF:0x18 (Cancel) followed by 'FICHIER GUITAR PRO'"
+      "note": "BOF:0x18 (Cancel) followed by 'FICHIER GUITAR PRO'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1846494348494552204755495441522050524F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

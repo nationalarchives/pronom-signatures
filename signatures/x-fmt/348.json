@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 503,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "B168DE3A",
-      "endianness": null,
       "name": "Multipage Zsoft Paintbrush Bitmap Graphics",
-      "note": "Header, ASCII: \u00b1h\u00de:"
+      "note": "Header, ASCII: \u00b1h\u00de:",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "B168DE3A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

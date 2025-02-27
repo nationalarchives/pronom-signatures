@@ -36,33 +36,38 @@
   "internalSignatures": [
     {
       "signatureID": 173,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "252150532D41646F62652D322E3020455053462D312E32(0D|0A|0D0A|0A0D)",
-      "endianness": null,
       "name": "EPS 1.2",
-      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)"
+      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "252150532D41646F62652D322E3020455053462D312E32(0D|0A|0D0A|0A0D)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 174,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "C5D0D3C6",
-      "endianness": null,
       "name": "EPS 1.2 Preview",
-      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)"
-    },
-    {
-      "signatureID": 174,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "252150532D41646F62652D322E3020455053462D312E32(0D|0A|0D0A|0A0D)",
-      "endianness": null,
-      "name": "EPS 1.2 Preview",
-      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)"
+      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable, magic bytes: %!PS-Adobe-2.0 EPSF-1.2(.|..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "C5D0D3C6",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "252150532D41646F62652D322E3020455053462D312E32(0D|0A|0D0A|0A0D)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

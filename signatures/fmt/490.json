@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 764,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "PDF/X-5g",
-      "note": "BOF: %PDF-1.(0-7). Specification is based on 1.6,  however doesn't specifically preclude other versions. \r\nVAR: <pdfxid:GTS_PDFXVersion>PDF/X-5g</pdfxid:GTS_PDFXVersion>"
-    },
-    {
-      "signatureID": 764,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C7064667869643A4754535F5044465856657273696F6E3E5044462F582D35673C2F7064667869643A4754535F5044465856657273696F6E3E",
-      "endianness": null,
-      "name": "PDF/X-5g",
-      "note": "BOF: %PDF-1.(0-7). Specification is based on 1.6,  however doesn't specifically preclude other versions. \r\nVAR: <pdfxid:GTS_PDFXVersion>PDF/X-5g</pdfxid:GTS_PDFXVersion>"
+      "note": "BOF: %PDF-1.(0-7). Specification is based on 1.6,  however doesn't specifically preclude other versions. \r\nVAR: <pdfxid:GTS_PDFXVersion>PDF/X-5g</pdfxid:GTS_PDFXVersion>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C7064667869643A4754535F5044465856657273696F6E3E5044462F582D35673C2F7064667869643A4754535F5044465856657273696F6E3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

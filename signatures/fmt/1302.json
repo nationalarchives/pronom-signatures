@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1677,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4C53444F43",
-      "endianness": null,
       "name": "PrintMaster Gold Project 1",
-      "note": "BOF: MLSDOC"
+      "note": "BOF: MLSDOC",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4C53444F43",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

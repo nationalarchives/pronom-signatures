@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1605,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3418ABCD",
-      "endianness": null,
       "name": "NMRView Big Endian",
-      "note": "BOF: Magic number decimal \u2018874032077\u2019 stored as big endian 32 bit integer. http://docs.nmrfx.org/processor/files/fformat"
+      "note": "BOF: Magic number decimal \u2018874032077\u2019 stored as big endian 32 bit integer. http://docs.nmrfx.org/processor/files/fformat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3418ABCD",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1606,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "CDAB1834",
-      "endianness": null,
       "name": "NMRView Little Endian",
-      "note": "BOF: Magic number decimal \u2018874032077\u2019 stored as little endian 32 bit integer. http://docs.nmrfx.org/processor/files/fformat"
+      "note": "BOF: Magic number decimal \u2018874032077\u2019 stored as little endian 32 bit integer. http://docs.nmrfx.org/processor/files/fformat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "CDAB1834",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

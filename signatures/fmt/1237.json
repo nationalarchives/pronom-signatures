@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1617,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 14,
-      "byteSequence": "C04842414D37{0-512}4842414D323132354A414E3131C102480850726F2031322E30C0C0",
-      "endianness": null,
       "name": "FileMaker Pro Database 12",
-      "note": "BOF: Magic bytes \u2018\u00c0HBAM7\u2019, then later in the file ASCII string \u2018HBAM2125JAN11\u00c1.H.Pro 12.0\u00c0\u00c0'"
+      "note": "BOF: Magic bytes \u2018\u00c0HBAM7\u2019, then later in the file ASCII string \u2018HBAM2125JAN11\u00c1.H.Pro 12.0\u00c0\u00c0'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 14,
+          "byteSequence": "C04842414D37{0-512}4842414D323132354A414E3131C102480850726F2031322E30C0C0",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

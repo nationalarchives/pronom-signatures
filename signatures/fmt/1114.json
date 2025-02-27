@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1497,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F0C0D0A",
-      "endianness": null,
       "name": "PYC 3.1",
-      "note": "4F0C0D0A - O\u2026"
+      "note": "4F0C0D0A - O\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F0C0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

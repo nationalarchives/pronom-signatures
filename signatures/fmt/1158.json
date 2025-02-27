@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1540,
-      "positionType": "Absolute from BOF",
-      "offset": 212,
-      "maxOffset": null,
-      "byteSequence": "EFCDAB8900000300",
-      "endianness": null,
       "name": "Folio NFO v3",
-      "note": "BOF, offset 212: hex EFCDAB89, version 00000300"
+      "note": "BOF, offset 212: hex EFCDAB89, version 00000300",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 212,
+          "maxOffset": null,
+          "byteSequence": "EFCDAB8900000300",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

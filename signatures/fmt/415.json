@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 846,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464F524D{4}4D433444",
-      "endianness": null,
       "name": "Cinema 4D 4.x",
-      "note": "Header is 12 bytes: IFF Identifier = \u201cFORM\u201d, Long integer = File size\u2019 Cinema 4d Identifier = \u201cMC4D\u201d"
+      "note": "Header is 12 bytes: IFF Identifier = \u201cFORM\u201d, Long integer = File size\u2019 Cinema 4d Identifier = \u201cMC4D\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464F524D{4}4D433444",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2092,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4349010011141110",
-      "endianness": null,
       "name": "Canon CIF File",
-      "note": "BOF:'CI' followed by 0x01 (Start of Header) followed by 0x00 (Null) followed by 0x11 (Device Control 1) followed by 0x14 (Device Control 4) followed by 0x11 (Device Control 1) followed by 0x10 (Data Link Escape)"
+      "note": "BOF:'CI' followed by 0x01 (Start of Header) followed by 0x00 (Null) followed by 0x11 (Device Control 1) followed by 0x14 (Device Control 4) followed by 0x11 (Device Control 1) followed by 0x10 (Data Link Escape)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4349010011141110",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

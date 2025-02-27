@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1917,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53505801",
-      "endianness": null,
       "name": "Spectrum 512 Extended v1",
-      "note": "BOF; Offset: 0; Magic Bytes: 'SPX.'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'SPX.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53505801",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

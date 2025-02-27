@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 290,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000270A0000000000000000000000000000000000000000{4}E8030000{68}00000032",
-      "endianness": null,
       "name": "ESRI Arc/View ShapeFile Index",
-      "note": "100-byte header (file code, version), then first record offset. | Magic No. (4 bytes) | Unused (20 bytes) | File Length (4 bytes) | Version (1000 (decimal), little endian - 4 bytes) | Other - (68 bytes) | First Record No. (4 bytes) |"
+      "note": "100-byte header (file code, version), then first record offset. | Magic No. (4 bytes) | Unused (20 bytes) | File Length (4 bytes) | Version (1000 (decimal), little endian - 4 bytes) | Other - (68 bytes) | First Record No. (4 bytes) |",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000270A0000000000000000000000000000000000000000{4}E8030000{68}00000032",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

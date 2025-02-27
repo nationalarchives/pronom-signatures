@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1988,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "704D38(35|36)",
-      "endianness": null,
       "name": "STAD Pac File",
-      "note": "BOF:'pM' followed by either '35' or '36'"
+      "note": "BOF:'pM' followed by either '35' or '36'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "704D38(35|36)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

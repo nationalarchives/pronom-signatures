@@ -2,15 +2,15 @@
   "fileFormatID": 169,
   "formatName": "Lotus 1-2-3 Worksheet",
   "version": "1.0",
-  "formatDescription": "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select \u2018Add an Entry\u2019.",
+  "formatDescription": "Lotus 1-2-3 Worksheet v 1 is a spreadsheet format developed for the spreadsheet, charting, and database software of the same name. Lotus Development Corporation released Lotus 1-2-3 in 1983 and its popularity led to it becoming close to an industry standard through the early 1990s.",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
   "formatNote": null,
-  "lastUpdatedDate": "02 Aug 2005",
+  "lastUpdatedDate": "03 Jan 2025",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": null,
+  "formatProvenance": "v.120- New description added as part of PRONOM Research Week 2024. Submitted by the J. Paul Getty Trust",
   "formatSourceDate": "02 Aug 2005",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 460,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "000002000404",
-      "endianness": null,
       "name": "Lotus 123 Worksheet 1.0",
-      "note": "BOF Record Type = 0, record length =2 bytes; file format version number = dec 1028 = hex 0404"
+      "note": "BOF Record Type = 0, record length =2 bytes; file format version number = dec 1028 = hex 0404",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "000002000404",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

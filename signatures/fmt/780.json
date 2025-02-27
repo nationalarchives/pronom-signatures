@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1147,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A0D0D0A{4}1A2B3C4D",
-      "endianness": null,
       "name": "pcap-ng Big Endian",
-      "note": "Section Header Block - Block Type, Length, Magic"
+      "note": "Section Header Block - Block Type, Length, Magic",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A0D0D0A{4}1A2B3C4D",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1148,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A0D0D0A{4}4D3C2B1A",
-      "endianness": null,
       "name": "pcap-ng Little Endian",
-      "note": "Section Header Block - Block Type, Length, Magic"
+      "note": "Section Header Block - Block Type, Length, Magic",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A0D0D0A{4}4D3C2B1A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

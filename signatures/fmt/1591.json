@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1930,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000270AFFFFFFBD",
-      "endianness": null,
       "name": "ESRI ArcInfo Coverage Annotation File",
-      "note": "Magic bytes, Absolute from beginning of file: ..'\u00ff\u00ff\u00ff.\u00bd"
+      "note": "Magic bytes, Absolute from beginning of file: ..'\u00ff\u00ff\u00ff.\u00bd",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000270AFFFFFFBD",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

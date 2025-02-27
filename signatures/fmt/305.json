@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 370,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00[20:3F]*10220003",
-      "endianness": "Little-endian",
       "name": "Computer Graphics Metafile (Binary) Version 3",
-      "note": "Begin Metafile command header followed by Metafile name (possibly empty) followed by Metafile Description which includes Metafile Version command header (hex 1022) and version number 3.  Trailer End Metafile command header (0040) that may be followed by nulls."
-    },
-    {
-      "signatureID": 370,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "0040",
-      "endianness": "Little-endian",
-      "name": "Computer Graphics Metafile (Binary) Version 3",
-      "note": "Begin Metafile command header followed by Metafile name (possibly empty) followed by Metafile Description which includes Metafile Version command header (hex 1022) and version number 3.  Trailer End Metafile command header (0040) that may be followed by nulls."
+      "note": "Begin Metafile command header followed by Metafile name (possibly empty) followed by Metafile Description which includes Metafile Version command header (hex 1022) and version number 3.  Trailer End Metafile command header (0040) that may be followed by nulls.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00[20:3F]*10220003",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "0040",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

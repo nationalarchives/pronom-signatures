@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 338,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "11AF{6}08{24}00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000{4}FAF1{2}0000000000000000",
-      "endianness": null,
       "name": "Autodesk Animator FLIC fli",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "11AF{6}08{24}00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000{4}FAF1{2}0000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

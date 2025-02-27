@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 429,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "F106000000[01:02]0000{3}00{3}0000000000{4}FFFFFFFF00000000",
-      "endianness": null,
       "name": "Peak File",
-      "note": "Signature based on recurring header byte sequence observed in sample test formats."
+      "note": "Signature based on recurring header byte sequence observed in sample test formats.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "F106000000[01:02]0000{3}00{3}0000000000{4}FFFFFFFF00000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

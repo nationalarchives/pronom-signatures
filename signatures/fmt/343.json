@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 475,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)332E30",
-      "endianness": null,
       "name": "Microsoft Project Export File 3.0",
-      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (3.0)"
+      "note": "Header: (MPX) ; list separator (e.g. a comma or semicolon), The name and version of the program used to create the MPX file; list separator; the version of MPX format that the file uses (3.0)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D5058(2C|3B){1-50}(2C|3B)332E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

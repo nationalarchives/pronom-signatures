@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 946,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "60EA",
-      "endianness": null,
       "name": "ARJ File Format",
-      "note": "BOF: `\u00ea"
+      "note": "BOF: `\u00ea",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "60EA",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

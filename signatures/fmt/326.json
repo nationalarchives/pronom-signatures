@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 423,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "454E444E454E5A33000000{5}000000260005{2}0000FFFFFFFF",
-      "endianness": null,
       "name": "EndNote Connection File",
-      "note": "ASCII: ENDNENZ3"
+      "note": "ASCII: ENDNENZ3",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "454E444E454E5A33000000{5}000000260005{2}0000FFFFFFFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

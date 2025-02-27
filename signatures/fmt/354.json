@@ -36,43 +36,45 @@
   "internalSignatures": [
     {
       "signatureID": 521,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 144,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "Acrobat PDF/A 1b 1",
-      "note": "Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/\">.<pdfaid:part>1</pdfaid:part>.<pdfaid:conformance>B</pdfaid:conformance>. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
-    },
-    {
-      "signatureID": 521,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
-      "endianness": null,
-      "name": "Acrobat PDF/A 1b 1",
-      "note": "Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/\">.<pdfaid:part>1</pdfaid:part>.<pdfaid:conformance>B</pdfaid:conformance>. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+      "note": "Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/\">.<pdfaid:part>1</pdfaid:part>.<pdfaid:conformance>B</pdfaid:conformance>. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 144,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 966,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 144,
-      "byteSequence": "255044462D312E[30:37]",
-      "endianness": null,
       "name": "Acrobat PDF/A 1b 2",
-      "note": "Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/\">.<pdfaid:conformance>B</pdfaid:conformance>.<pdfaid:part>1</pdfaid:part>. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
-    },
-    {
-      "signatureID": 966,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)",
-      "endianness": null,
-      "name": "Acrobat PDF/A 1b 2",
-      "note": "Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/\">.<pdfaid:conformance>B</pdfaid:conformance>.<pdfaid:part>1</pdfaid:part>. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information."
+      "note": "Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid=\"http://www.aiim.org/pdfa/ns/id/\">.<pdfaid:conformance>B</pdfaid:conformance>.<pdfaid:part>1</pdfaid:part>. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 144,
+          "byteSequence": "255044462D312E[30:37]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

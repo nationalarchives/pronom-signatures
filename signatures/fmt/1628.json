@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1968,
-      "positionType": "Absolute from BOF",
-      "offset": 92,
-      "maxOffset": 0,
-      "byteSequence": "444F43554D454E54(01|02){4}(00000000|00000000|01000000|00000001)",
-      "endianness": null,
       "name": "Adobe InDesign Document 1.0",
-      "note": "BOF, Offset=92:'DOCUMENT' followed by either 0x01 (Start of Header) or 0x02 (Start of Text) followed by a fixed gap of 4 followed by either 0x00000000 (4 x Null) or 0x01000000 (Start of Header followed by 3 x Null) or 0x00000001 (3 x Null followed by Start of Header)"
+      "note": "BOF, Offset=92:'DOCUMENT' followed by either 0x01 (Start of Header) or 0x02 (Start of Text) followed by a fixed gap of 4 followed by either 0x00000000 (4 x Null) or 0x01000000 (Start of Header followed by 3 x Null) or 0x00000001 (3 x Null followed by Start of Header)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 92,
+          "maxOffset": 0,
+          "byteSequence": "444F43554D454E54(01|02){4}(00000000|00000000|01000000|00000001)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

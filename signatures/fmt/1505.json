@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1877,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4F430102",
-      "endianness": null,
       "name": "Agisoft Point Cloud",
-      "note": "BOF: 'OC' 0x0102"
+      "note": "BOF: 'OC' 0x0102",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4F430102",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

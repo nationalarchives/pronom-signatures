@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1355,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4A4946393961",
-      "endianness": null,
       "name": "Jeffs Image Format",
-      "note": "JIF99a"
+      "note": "JIF99a",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4A4946393961",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

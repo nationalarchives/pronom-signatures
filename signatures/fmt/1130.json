@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1512,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0250{22}00000000000000000000{481}(54|55|56){2}(504F494E54|414E414C4F47)",
-      "endianness": null,
       "name": "C3D",
-      "note": "BOF: 0x0250 (magic plus pointer to first block of parameter section), {22} a block of 270 null bytes - we're using the first ten here for signature brevity, byte at 0x203 is either 0x54, 0x55, 0x56 representing processor type. String beginning at 0x516 either POINT or ANALOG. Https://www.c3d.org/HTML/default.htm"
+      "note": "BOF: 0x0250 (magic plus pointer to first block of parameter section), {22} a block of 270 null bytes - we're using the first ten here for signature brevity, byte at 0x203 is either 0x54, 0x55, 0x56 representing processor type. String beginning at 0x516 either POINT or ANALOG. Https://www.c3d.org/HTML/default.htm",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0250{22}00000000000000000000{481}(54|55|56){2}(504F494E54|414E414C4F47)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

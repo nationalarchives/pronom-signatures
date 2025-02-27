@@ -2,15 +2,15 @@
   "fileFormatID": 2664,
   "formatName": "xdomea",
   "version": "3.0.0",
-  "formatDescription": "xdomea is an XML interface for the exchange of documents, cases, and records, typically used by digital record management systems in Germany. Schema files are available here: https://xdomea.de/schemata/300/",
+  "formatDescription": "xdomea is an XML interface for the exchange of documents, cases, and records, typically used by digital record management systems in Germany. Schema files are available here: https://www.xrepository.de/api/xrepository/urn:xoev-de:xdomea:kosit:standard:xdomea_3.0.0:xmlschema",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": null,
   "formatNote": "Specification:: https://www.xrepository.de/api/xrepository/urn:xoev-de:xdomea:kosit:standard:xdomea_3.0.0:dokument:Spezifikation_xdomea_3.0.0",
-  "lastUpdatedDate": "31 Jan 2023",
+  "lastUpdatedDate": "22 Aug 2024",
   "formatSourceID": 232,
   "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
-  "formatProvenance": null,
+  "formatProvenance": "v. 120- Links in description updated to correspond to specification in notes. Submitted by Landesarchiv Nordrhein-Westfalen.",
   "formatSourceDate": "31 Jan 2023",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2154,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A78646F6D65613D(22|27)75726E3A786F65762D64653A78646F6D65613A736368656D613A332E302E30(22|27)",
-      "endianness": null,
       "name": "xdomea v.3.0.0",
-      "note": "ASCII header: XML declaration <?xml version=\"1.0\" (alternatively with single quotes), followed by up to 320 arbitrary bytes (rest of XML declaration + possible whitespace, comments etc.), followed by xdomea namespace declaration xmlns:xdomea=\"urn:xoev-de:xdomea:schema:3.0.0\" (alternatively with single quotes). The prefix xdomea is mandatory as per the specification, page 75."
+      "note": "ASCII header: XML declaration <?xml version=\"1.0\" (alternatively with single quotes), followed by up to 320 arbitrary bytes (rest of XML declaration + possible whitespace, comments etc.), followed by xdomea namespace declaration xmlns:xdomea=\"urn:xoev-de:xdomea:schema:3.0.0\" (alternatively with single quotes). The prefix xdomea is mandatory as per the specification, page 75.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A78646F6D65613D(22|27)75726E3A786F65762D64653A78646F6D65613A736368656D613A332E302E30(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

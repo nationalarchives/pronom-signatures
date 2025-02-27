@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1662,
-      "positionType": "Absolute from BOF",
-      "offset": 9,
-      "maxOffset": 9,
-      "byteSequence": "47455242494C444F4320",
-      "endianness": null,
       "name": "PFS:First Choice Document 1-2",
-      "note": "Offset 9: 'GERBILDOC '"
+      "note": "Offset 9: 'GERBILDOC '",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 9,
+          "maxOffset": 9,
+          "byteSequence": "47455242494C444F4320",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

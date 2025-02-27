@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2241,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50746578",
-      "endianness": null,
       "name": "Ptex File Format",
-      "note": "BOF:'Ptex'"
+      "note": "BOF:'Ptex'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50746578",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

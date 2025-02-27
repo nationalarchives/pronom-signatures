@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1920,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4483F9F8F8F9F9F911FAF8F9F8F9D9F919F9",
-      "endianness": null,
       "name": "Envision Publisher font files",
-      "note": "BOF; Offset: 0; Magic Bytes: 'D\u0192\u00f9\u00f8\u00f8\u00f9\u00f9\u00f9 \u00fa\u00f8\u00f9\u00f8\u00f9\u00d9\u00f9.\u00f9'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'D\u0192\u00f9\u00f8\u00f8\u00f9\u00f9\u00f9 \u00fa\u00f8\u00f9\u00f8\u00f9\u00d9\u00f9.\u00f9'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4483F9F8F8F9F9F911FAF8F9F8F9D9F919F9",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

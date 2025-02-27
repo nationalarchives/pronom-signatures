@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2169,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3DC2{3}00",
-      "endianness": null,
       "name": "3D Studio (DOS) Project File",
-      "note": "BOF Absolute from beginning of file, magic bytes:=\u00c2{2}.."
+      "note": "BOF Absolute from beginning of file, magic bytes:=\u00c2{2}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3DC2{3}00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

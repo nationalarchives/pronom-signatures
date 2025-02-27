@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1200,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41495846000017F80100001400000800",
-      "endianness": null,
       "name": "Interleaved ADX (AIX)",
-      "note": "16 byte header: AIXF, 0x000017F80100001400000800"
+      "note": "16 byte header: AIXF, 0x000017F80100001400000800",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41495846000017F80100001400000800",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

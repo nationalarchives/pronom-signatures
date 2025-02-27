@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 950,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D5357494D",
-      "endianness": null,
       "name": "Windows Imaging Format",
-      "note": "BOF: MSWIM"
+      "note": "BOF: MSWIM",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D5357494D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

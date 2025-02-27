@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1365,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "02647373",
-      "endianness": null,
       "name": "Digital Speech Standard",
-      "note": "BOF: 0x02 'DSS'"
+      "note": "BOF: 0x02 'DSS'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "02647373",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2249,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4741524D494E204249544D4150203031",
-      "endianness": null,
       "name": "Garmin Vehicle Images File",
-      "note": "BOF:'GARMIN' followed by 0x20 (Space) followed by 'BITMAP' followed by 0x20 (Space) followed by '01'"
+      "note": "BOF:'GARMIN' followed by 0x20 (Space) followed by 'BITMAP' followed by 0x20 (Space) followed by '01'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4741524D494E204249544D4150203031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

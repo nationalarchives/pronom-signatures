@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 852,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5343486C{4}5054",
-      "endianness": null,
       "name": "Electronic Arts Music ASF",
-      "note": "Header Block ID = SCHl; 4 byte block length; Patch Tag = \u201cPT\u201d"
+      "note": "Header Block ID = SCHl; 4 byte block length; Patch Tag = \u201cPT\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5343486C{4}5054",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

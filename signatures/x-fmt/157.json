@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 456,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "(464F524D|4C495354|43415420)00",
-      "endianness": null,
       "name": "Interchange File",
-      "note": "All interchange file format files must start with either 'FORM', 'LIST', or 'CAT ' values. This is a generic signature that will identify Interchange Files which do not have a more complete and specific signature assigned to them within PRONOM."
+      "note": "All interchange file format files must start with either 'FORM', 'LIST', or 'CAT ' values. This is a generic signature that will identify Interchange Files which do not have a more complete and specific signature assigned to them within PRONOM.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "(464F524D|4C495354|43415420)00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

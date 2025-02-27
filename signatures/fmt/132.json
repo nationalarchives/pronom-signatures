@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 81,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
-      "endianness": null,
       "name": "Windows Media Audio",
-      "note": "Header Object + Stream Properties Object (stream type = Audio Stream) with WMA Codec ID"
-    },
-    {
-      "signatureID": 81,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}409E69F84D5BCF11A8FD00805F5C442B{38}(6101|6201|6301)",
-      "endianness": null,
-      "name": "Windows Media Audio",
-      "note": "Header Object + Stream Properties Object (stream type = Audio Stream) with WMA Codec ID"
+      "note": "Header Object + Stream Properties Object (stream type = Audio Stream) with WMA Codec ID",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "{30}9107DCB7B7A9CF118EE600C00C205365{8}409E69F84D5BCF11A8FD00805F5C442B{38}(6101|6201|6301)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

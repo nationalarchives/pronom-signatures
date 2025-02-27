@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1561,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41574402",
-      "endianness": null,
       "name": "AWD 2.x",
-      "note": "BOF: 'AWD', major version 02\r\nThe current PRONOM identification signature doesn't distinguish between minor versions, however if this is desirable this can be determined by checking the byte value at offset position 0x04."
+      "note": "BOF: 'AWD', major version 02\r\nThe current PRONOM identification signature doesn't distinguish between minor versions, however if this is desirable this can be determined by checking the byte value at offset position 0x04.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41574402",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

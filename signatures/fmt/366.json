@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 536,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4E49544630322E3130[30:39][31:39]{14}(31|32)[30:39][30:39][30:39](30|31)[30:39][30:33][30:39][30:32][30:39][30:35][30:39][30:35][30:39]{80}(43|52|53|54|55)",
-      "endianness": null,
       "name": "National Imagery Transmission Format 2.1",
-      "note": "File Profile and name version declaration, followed by numerical complexity level (01-99), then 14 bytes comprised of 4 bytes standard type information and 10 bytes for originating station id, followed by 14 byte file date and time sequence CCYYMMDDhhmmss, followed by 72 byte length file title alphanumeric sequence with 8 additional space bytes,to 1 byte file security classification declaration (T|S|C|R|U)"
+      "note": "File Profile and name version declaration, followed by numerical complexity level (01-99), then 14 bytes comprised of 4 bytes standard type information and 10 bytes for originating station id, followed by 14 byte file date and time sequence CCYYMMDDhhmmss, followed by 72 byte length file title alphanumeric sequence with 8 additional space bytes,to 1 byte file security classification declaration (T|S|C|R|U)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4E49544630322E3130[30:39][31:39]{14}(31|32)[30:39][30:39][30:39](30|31)[30:39][30:33][30:39][30:32][30:39][30:35][30:39][30:35][30:39]{80}(43|52|53|54|55)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

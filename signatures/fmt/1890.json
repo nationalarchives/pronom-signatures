@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2231,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D535F564F494345{4}01000000534F4E5920434F52504F524154494F4E{28}00(05|09)0001",
-      "endianness": null,
       "name": "MSV ADPCM",
-      "note": "Description:'MS_VOICE' followed by 00x01000000'SONY CORPORATION' and then after 28 bytes the following sequence 00x00(05|09)0001"
+      "note": "Description:'MS_VOICE' followed by 00x01000000'SONY CORPORATION' and then after 28 bytes the following sequence 00x00(05|09)0001",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D535F564F494345{4}01000000534F4E5920434F52504F524154494F4E{28}00(05|09)0001",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

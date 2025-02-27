@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1963,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4153594C554D204D7573696320466F726D6174",
-      "endianness": null,
       "name": "Asylum Music Format",
-      "note": "BOF, offset 0, magic bytes: ASYLUM Music Format"
+      "note": "BOF, offset 0, magic bytes: ASYLUM Music Format",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4153594C554D204D7573696320466F726D6174",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

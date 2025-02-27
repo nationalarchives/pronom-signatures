@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2067,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 250,
-      "byteSequence": "3C6D6574616461746120786D6C3A6C616E673D22{2}223E{0-2}3C457372693E",
-      "endianness": null,
       "name": "Esri Shapefile Geospatial Metadata File",
-      "note": "BOF, offset 0-250, magic bytes: <metadata xml:lang=\"en\"><Esri>\r\nEOF offset 0-5: </metadata>"
-    },
-    {
-      "signatureID": 2067,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 5,
-      "byteSequence": "3C2F6D657461646174613E",
-      "endianness": null,
-      "name": "Esri Shapefile Geospatial Metadata File",
-      "note": "BOF, offset 0-250, magic bytes: <metadata xml:lang=\"en\"><Esri>\r\nEOF offset 0-5: </metadata>"
+      "note": "BOF, offset 0-250, magic bytes: <metadata xml:lang=\"en\"><Esri>\r\nEOF offset 0-5: </metadata>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 250,
+          "byteSequence": "3C6D6574616461746120786D6C3A6C616E673D22{2}223E{0-2}3C457372693E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 5,
+          "byteSequence": "3C2F6D657461646174613E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1890,
-      "positionType": "Absolute from BOF",
-      "offset": 27,
-      "maxOffset": 30,
-      "byteSequence": "3C707265666572656E636573*7873693A6E6F4E616D657370616365536368656D614C6F636174696F6E3D22687474703A2F2F7777772E6D70692E6E6C2F746F6F6C732F656C616E2F50726566735F76",
-      "endianness": null,
       "name": "ELAN Preference File",
-      "note": "BOF magic bytes: <preferences * xsi:noNamespaceSchemaLocation=\"http://www.mpi.nl/tools/elan/Prefs_v EOF magic bytes: </preferences>."
-    },
-    {
-      "signatureID": 1890,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C2F707265666572656E6365733E0A",
-      "endianness": null,
-      "name": "ELAN Preference File",
-      "note": "BOF magic bytes: <preferences * xsi:noNamespaceSchemaLocation=\"http://www.mpi.nl/tools/elan/Prefs_v EOF magic bytes: </preferences>."
+      "note": "BOF magic bytes: <preferences * xsi:noNamespaceSchemaLocation=\"http://www.mpi.nl/tools/elan/Prefs_v EOF magic bytes: </preferences>.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 27,
+          "maxOffset": 30,
+          "byteSequence": "3C707265666572656E636573*7873693A6E6F4E616D657370616365536368656D614C6F636174696F6E3D22687474703A2F2F7777772E6D70692E6E6C2F746F6F6C732F656C616E2F50726566735F76",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C2F707265666572656E6365733E0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

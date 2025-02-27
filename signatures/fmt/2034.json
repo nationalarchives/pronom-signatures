@@ -1,0 +1,67 @@
+{
+  "fileFormatID": 3909,
+  "formatName": "Daisy Talking Book Resource File",
+  "version": "3",
+  "formatDescription": "DAISY (Digital Accessible Information System) is a type of digital book format conceived in 1988 as a way of creating talking books for the visually impaired. The books are actually a package of interoperable files.The ncx file is the first file accessed since it lays out the navigation for the whole Daisy Talking Book.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "https://daisy.org/activities/standards/daisy/daisy-3/z39-86-2005-r2012-specifications-for-the-digital-talking-book/\r\nhttps://www.niso.org/publications/ansiniso-z3986-2005-r2012-specifications-digital-talking-book\r\nhttps://preservation.tylerthorsted.com/2024/10/04/daisy/ \r\nhttps://github.com/digital-preservation/PRONOM_Research/tree/main/Submissions/Daisy",
+  "lastUpdatedDate": "29 Jan 2025",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "29 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Audio",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2034",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3397,
+      "name": "Daisy Talking Book Resource file v.3",
+      "note": "BOF offset 0-3: <?xml version=(\"|')1.0(\"|'){0-256}<resources\r\nEOF offset 0-16: </resources>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-256}3C7265736F7572636573",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 16,
+          "byteSequence": "3C2F7265736F75726365733E",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "res",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ],
+  "supportedBy": 358,
+  "developedBy": 358,
+  "source": 299
+}

@@ -52,13 +52,17 @@
   "internalSignatures": [
     {
       "signatureID": 386,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "28445746205630??2E????29",
-      "endianness": null,
       "name": "AutoCAD Design Web Format",
-      "note": "(DWF Version)"
+      "note": "(DWF Version)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "28445746205630??2E????29",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

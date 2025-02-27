@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 528,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "1C010000{272}0C0000002C000000{4}FFFFFFFF0002",
-      "endianness": null,
       "name": "Microsoft FrontPage Binary Tree Index",
-      "note": "Character sequence taken from beginning of file. File format is sufficiently distinct from more general Microsoft FrontPage Server Configuration Files for separate identification."
+      "note": "Character sequence taken from beginning of file. File format is sufficiently distinct from more general Microsoft FrontPage Server Configuration Files for separate identification.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "1C010000{272}0C0000002C000000{4}FFFFFFFF0002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

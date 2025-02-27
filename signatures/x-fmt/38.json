@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2318,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "414341440D0A414349530D0A4175746F4341440D0A4175746F43444D0D0A4175746F6465736B0D0A4175746F45444D0D0A4175746F466C69780D0A4175746F4C617468650D0A4175746F4C4953500D0A4175746F53686164650D0A4175746F536B657463680D0A4175746F536F6C69640D0A4175746F537572660D0A4175746F566973696F6E0D0A",
-      "endianness": null,
       "name": "\tAutoCAD Custom Dictionary",
-      "note": "Absolute from beginning of file, magic bytes: ACAD..ACIS..AutoCAD..AutoCDM..Autodesk..AutoEDM..AutoFlix..AutoLathe..AutoLISP..AutoShade..AutoSketch..AutoSolid..AutoSurf..AutoVision"
+      "note": "Absolute from beginning of file, magic bytes: ACAD..ACIS..AutoCAD..AutoCDM..Autodesk..AutoEDM..AutoFlix..AutoLathe..AutoLISP..AutoShade..AutoSketch..AutoSolid..AutoSurf..AutoVision",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "414341440D0A414349530D0A4175746F4341440D0A4175746F43444D0D0A4175746F6465736B0D0A4175746F45444D0D0A4175746F466C69780D0A4175746F4C617468650D0A4175746F4C4953500D0A4175746F53686164650D0A4175746F536B657463680D0A4175746F536F6C69640D0A4175746F537572660D0A4175746F566973696F6E0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

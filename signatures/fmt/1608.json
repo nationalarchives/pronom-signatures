@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1943,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49434521{4-11}7472753F",
-      "endianness": null,
       "name": "Packed-Ice True Colour Picture [Spooky Sprites] (Atari Falcon)",
-      "note": "BOF; Offset: 0; Magic Bytes: 'ICE! {4-11} tru?'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'ICE! {4-11} tru?'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49434521{4-11}7472753F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

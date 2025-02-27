@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 992,
-      "positionType": "Absolute from BOF",
-      "offset": 82,
-      "maxOffset": null,
-      "byteSequence": "4C57464E{176}252150532D41646F6265466F6E742D312E30",
-      "endianness": null,
       "name": "Adobe Type 1 Mac Font File",
-      "note": "Offset 82: LWFN {176} %!PS-AdobeFont-1.0"
+      "note": "Offset 82: LWFN {176} %!PS-AdobeFont-1.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 82,
+          "maxOffset": null,
+          "byteSequence": "4C57464E{176}252150532D41646F6265466F6E742D312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

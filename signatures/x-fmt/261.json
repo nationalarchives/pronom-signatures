@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 613,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "1D7D000070{120}7D001D",
-      "endianness": null,
       "name": "WordStar for DOS Document 7.0",
-      "note": "Header symmetrical sequence 0f 128 bytes: first thee bytes, 0x1D 0x7D00, sequence type header = 0x00, version =0x70,  last three bytes 0x7D00 0X1D"
+      "note": "Header symmetrical sequence 0f 128 bytes: first thee bytes, 0x1D 0x7D00, sequence type header = 0x00, version =0x70,  last three bytes 0x7D00 0X1D",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "1D7D000070{120}7D001D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

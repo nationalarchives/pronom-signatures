@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 277,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "38425053000100000000000000",
-      "endianness": "Little-endian",
       "name": "Adobe Photoshop PSD",
-      "note": "BOF: '8BPS', version 1 (0x0001), 6 reserved null bytes\r\nhttps://www.adobe.com/devnet-apps/photoshop/fileformatashtml/"
+      "note": "BOF: '8BPS', version 1 (0x0001), 6 reserved null bytes\r\nhttps://www.adobe.com/devnet-apps/photoshop/fileformatashtml/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "38425053000100000000000000",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

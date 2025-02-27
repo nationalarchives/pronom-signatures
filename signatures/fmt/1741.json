@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2080,
-      "positionType": "Absolute from BOF",
-      "offset": 32768,
-      "maxOffset": 70468,
-      "byteSequence": "{0-16}45520200{508}504D4344303031{1-16384}FF4344303031",
-      "endianness": null,
       "name": "Apple Partition Map ISO 9660 Hybrid, sig n.1",
-      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520200, an exact 508 wildcard bytes followed by 0x504D4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031"
+      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520200, an exact 508 wildcard bytes followed by 0x504D4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 32768,
+          "maxOffset": 70468,
+          "byteSequence": "{0-16}45520200{508}504D4344303031{1-16384}FF4344303031",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2081,
-      "positionType": "Absolute from BOF",
-      "offset": 32768,
-      "maxOffset": 70468,
-      "byteSequence": "{0-16}45520800{2044}504D4344303031{1-16384}FF4344303031",
-      "endianness": null,
       "name": "Apple Partition Map ISO 9660 Hybrid, sig n.2",
-      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520800, an exact 2044 wildcard bytes followed by 0x504D4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031"
+      "note": "BOF; Offset: 32768; Max Offset: 70468; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520800, an exact 2044 wildcard bytes followed by 0x504D4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 32768,
+          "maxOffset": 70468,
+          "byteSequence": "{0-16}45520800{2044}504D4344303031{1-16384}FF4344303031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

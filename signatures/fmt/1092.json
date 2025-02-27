@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1471,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "0000{2}0018[!00]",
-      "endianness": null,
       "name": "Alias Pix Image",
-      "note": "BOF, offset 4: 0x0000 (representing offset to x coordinates from end of 10 byte header), {2}, 0x0018 representing 24 bits per pixel, [!00] representing number of contiguous bytes (greater than 0) that contain the following 3 byte RGB value - https://www.autodesk.com/techpubs/aliasstudio/2010/index.html?url=WS73099cc142f4875535a241551166ac8792f-7d76.htm,topicNumber=d0e246178"
+      "note": "BOF, offset 4: 0x0000 (representing offset to x coordinates from end of 10 byte header), {2}, 0x0018 representing 24 bits per pixel, [!00] representing number of contiguous bytes (greater than 0) that contain the following 3 byte RGB value - https://www.autodesk.com/techpubs/aliasstudio/2010/index.html?url=WS73099cc142f4875535a241551166ac8792f-7d76.htm,topicNumber=d0e246178",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "0000{2}0018[!00]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

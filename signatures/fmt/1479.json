@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1851,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{4}5845524F58204449464602",
-      "endianness": null,
       "name": "XIFF Xerox DIFF Image 2",
-      "note": "BOF: TIFF header then 4 bytes later \"XEROX DIFF\" 0x02"
+      "note": "BOF: TIFF header then 4 bytes later \"XEROX DIFF\" 0x02",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{4}5845524F58204449464602",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

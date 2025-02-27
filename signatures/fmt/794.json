@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1153,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "EDABEEDB02",
-      "endianness": null,
       "name": "RPMv2",
-      "note": "Header - \u00ed\u00ab\u00ee\u00db."
+      "note": "Header - \u00ed\u00ab\u00ee\u00db.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "EDABEEDB02",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

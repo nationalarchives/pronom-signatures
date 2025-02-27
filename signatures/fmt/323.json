@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 417,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "457874656E646564204D6F64756C653A20{20}1A",
-      "endianness": null,
       "name": "Extended Module Audio",
-      "note": "ASCII: Extended Module: then 20 bytes, then 1A"
+      "note": "ASCII: Extended Module: then 20 bytes, then 1A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "457874656E646564204D6F64756C653A20{20}1A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

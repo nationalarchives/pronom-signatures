@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 476,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0100000058000000{32}20454D4600000100{16}00000000",
-      "endianness": null,
       "name": "Microsoft Windows Enhanced Metafile 1.0 (Variation 1)",
-      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) decimal 88; Bounds (16 bytes); Frame (16 bytes); at offset 40 signature (\u201cEMF  \u201c); Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) zero"
+      "note": "Record Type EMR_HEADER (00000001h); Record Size (4 bytes) decimal 88; Bounds (16 bytes); Frame (16 bytes); at offset 40 signature (\u201cEMF  \u201c); Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) zero",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0100000058000000{32}20454D4600000100{16}00000000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 477,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "01000000{36}20454D4600000100{16}58000000",
-      "endianness": null,
       "name": "Microsoft Windows Enhanced Metafile 1.0 (Variation 2)",
-      "note": "Record Type EMR_HEADER (01000000h); Record Size (4 bytes) greater than 88; Bounds (16 bytes); Frame (16 bytes); at offset 40 signature (\u201cEMF  \u201c); Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) greater than zero; offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer) 88"
+      "note": "Record Type EMR_HEADER (01000000h); Record Size (4 bytes) greater than 88; Bounds (16 bytes); Frame (16 bytes); at offset 40 signature (\u201cEMF  \u201c); Version (00010000h); size of the metafile in bytes (4 bytes); number of records in the metafile (4 bytes); number of handles (2 bytes); reserved (2 bytes);  nDescription--number of characters in the Description (32-bit integer) greater than zero; offDescription\u2014offset from the beginning  of  this record to the beginning of the description (32-bit integer) 88",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "01000000{36}20454D4600000100{16}58000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

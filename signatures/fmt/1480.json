@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1852,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492A00{4}20655874656E6465642003",
-      "endianness": null,
       "name": "XIFF eXtended Image File 3",
-      "note": "BOF: TIFF header then 4 bytes later \" eXtended \" 0x03"
+      "note": "BOF: TIFF header then 4 bytes later \" eXtended \" 0x03",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{4}20655874656E6465642003",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

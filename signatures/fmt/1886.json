@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2227,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646",
-      "endianness": null,
       "name": "RIFF",
-      "note": "BOF:'RIFF'"
+      "note": "BOF:'RIFF'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

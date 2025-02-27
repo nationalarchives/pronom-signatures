@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1252,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "424C454E4445525F(56|76)",
-      "endianness": null,
       "name": "Blender 3D 32-bit",
-      "note": "BLENDER_(v|V) - v is little endian, V is big endian"
+      "note": "BLENDER_(v|V) - v is little endian, V is big endian",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "424C454E4445525F(56|76)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

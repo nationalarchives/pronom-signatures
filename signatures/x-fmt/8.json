@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 381,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "02{2}[01:1C][01:1F]????[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
-      "endianness": "Little-endian",
       "name": "dBase Table Version II (date last updated (month (1-12), day (1-31), year)",
-      "note": "Version number (02), date last updated ((month (1-12), day (1-31), year), Maximum length of each record =1000, first character of field name is upper or lowercase ASCII letter (41-5A) or (61-7A), Field Type (C, N or L)"
+      "note": "Version number (02), date last updated ((month (1-12), day (1-31), year), Maximum length of each record =1000, first character of field name is upper or lowercase ASCII letter (41-5A) or (61-7A), Field Type (C, N or L)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "02{2}[01:1C][01:1F]????[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 382,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "02{2}000000??[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
-      "endianness": "Little-endian",
       "name": "dBase Table Version II (date last updated MMDDYY all zero)",
-      "note": "Version number (02), date last updated MMDDYY all zero, Maximum length of each record =1000, first character of field name is upper or lowercase ASCII letter (41-5A) or (61-7A), Field Type (C, N or L)"
+      "note": "Version number (02), date last updated MMDDYY all zero, Maximum length of each record =1000, first character of field name is upper or lowercase ASCII letter (41-5A) or (61-7A), Field Type (C, N or L)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "02{2}000000??[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

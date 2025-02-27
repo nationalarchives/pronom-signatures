@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1916,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "535000",
-      "endianness": null,
       "name": "Spectrum 512 Compressed and Smooshed",
-      "note": "BOF; Offset: 0; Magic Bytes: 'SP.'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'SP.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "535000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

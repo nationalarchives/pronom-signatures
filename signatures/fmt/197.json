@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1830,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "614C755A0000436F707972696768742028632920313939302D3139393920537469726C696E6720546563686E6F6C6F676965732C204C74642E",
-      "endianness": null,
       "name": "InstallShield Compiled Rules File",
-      "note": "BOF: 'aLuZ  Copyright (c) 1990'"
+      "note": "BOF: 'aLuZ  Copyright (c) 1990'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "614C755A0000436F707972696768742028632920313939302D3139393920537469726C696E6720546563686E6F6C6F676965732C204C74642E",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1845,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "614C755A0000436F707972696768742028632920313939302D3230303220496E7374616C6C536869656C6420536F66747761726520436F72702E",
-      "endianness": null,
       "name": "InstallShield Compiled Rules File (1990-2002)",
-      "note": "BOF: 'aLuZ  Copyright (c) 1990-2002 InstallShield Software Corp.'"
+      "note": "BOF: 'aLuZ  Copyright (c) 1990-2002 InstallShield Software Corp.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "614C755A0000436F707972696768742028632920313939302D3230303220496E7374616C6C536869656C6420536F66747761726520436F72702E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

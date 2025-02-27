@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 954,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534D4152544452570180",
-      "endianness": null,
       "name": "SmartDraw",
-      "note": "BOF: SMARTDRW.\u20ac"
+      "note": "BOF: SMARTDRW.\u20ac",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534D4152544452570180",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

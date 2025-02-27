@@ -40,13 +40,17 @@
   "internalSignatures": [
     {
       "signatureID": 158,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7B5C7274(66|6631){0-1}5C(616E7369|6D6163|7063|706361)5C616E7369637067",
-      "endianness": null,
       "name": "RTF 1.5 - 1.6 (generic)",
-      "note": "\\rtf control word, \\ansicpg control word"
+      "note": "\\rtf control word, \\ansicpg control word",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7B5C7274(66|6631){0-1}5C(616E7369|6D6163|7063|706361)5C616E7369637067",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

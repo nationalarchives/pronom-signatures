@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1735,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 128,
-      "byteSequence": "636F6D2E70746775692E70726F6A6563745F70726F",
-      "endianness": null,
       "name": "PTGui Project File 11",
-      "note": "BOF, max offset 128: 'com.ptgui.project_pro'"
+      "note": "BOF, max offset 128: 'com.ptgui.project_pro'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 128,
+          "byteSequence": "636F6D2E70746775692E70726F6A6563745F70726F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

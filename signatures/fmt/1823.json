@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2163,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "417564616369747950726F6A656374(0D|0D0A)56657273696F6E(0D|0D0A){4}(0D|0D0A)70726F6A4E616D65",
-      "endianness": null,
       "name": "Audacity Project File (Early)",
-      "note": "BOF Absolute from beginning of file, magic bytes: AudacityProject(.|..)Version(.|..){4}(.|..)projName\r\nThe singature allows for Mac & Windows spacing differences."
+      "note": "BOF Absolute from beginning of file, magic bytes: AudacityProject(.|..)Version(.|..){4}(.|..)projName\r\nThe singature allows for Mac & Windows spacing differences.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "417564616369747950726F6A656374(0D|0D0A)56657273696F6E(0D|0D0A){4}(0D|0D0A)70726F6A4E616D65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

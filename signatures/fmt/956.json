@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1313,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}524D4944",
-      "endianness": null,
       "name": "RIFF-based MIDI",
-      "note": "BOF: RIFF{4}RMID\r\nFormat description: https://www.aelius.com/njh/wavemetatools/doc/riffmci.pdf"
+      "note": "BOF: RIFF{4}RMID\r\nFormat description: https://www.aelius.com/njh/wavemetatools/doc/riffmci.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}524D4944",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -6,7 +6,7 @@
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": null,
-  "formatNote": null,
+  "formatNote": "http://www.dca.fee.unicamp.br/~martino/disciplinas/ea978/tgaffs.pdf; https://www.loc.gov/preservation/digital/formats/fdd/fdd000179.shtml",
   "lastUpdatedDate": "28 Aug 2012",
   "formatSourceID": 180,
   "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 601,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "54525545564953494F4E2D5846494C452E00",
-      "endianness": null,
       "name": "Truevision TGA Bitmap 2",
-      "note": "TRUEVISION-XFILE.<null> last 18 bytes of the file"
+      "note": "TRUEVISION-XFILE.<null> last 18 bytes of the file",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "54525545564953494F4E2D5846494C452E00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1310,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "54544132",
-      "endianness": null,
       "name": "True Audio 2",
-      "note": "BOF: TTA2\r\nSpecification: http://tausoft.org/wiki/True_Audio_Codec_Format"
+      "note": "BOF: TTA2\r\nSpecification: http://tausoft.org/wiki/True_Audio_Codec_Format",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "54544132",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

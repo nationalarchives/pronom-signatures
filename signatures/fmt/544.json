@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 863,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41474432",
-      "endianness": null,
       "name": "FreeHand 7",
-      "note": "MAC File type Code AGD2"
+      "note": "MAC File type Code AGD2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41474432",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

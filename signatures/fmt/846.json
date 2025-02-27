@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1204,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "02{3}424F424F{240}01",
-      "endianness": null,
       "name": "CWK 2 Word Processor",
-      "note": "(Version){2}BOBO{240}(format type 0x01 = word processor document)"
+      "note": "(Version){2}BOBO{240}(format type 0x01 = word processor document)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "02{3}424F424F{240}01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

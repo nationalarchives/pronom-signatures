@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1446,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "46494C45{0-1024}2020545241434B203031{0-1024}494E44455820303120[30:39][30:39]3A[30:35][30:39]3A[30:37][30:39]",
-      "endianness": null,
       "name": "CUE Sheet",
-      "note": "BOF max offset 1024: seeking 'FILE', '  TRACK 01', '  INDEX 01 ' minutes 00-99 [30:39][30:39] ':' seconds 00-59 - [30:35][30:39] ':' frames 00-75 - [30:37][30:39]. Currently set to up to 1024 bytes between each element. These offsets and indents are not strictly defined and may need to be refined further as we encounter further examples."
+      "note": "BOF max offset 1024: seeking 'FILE', '  TRACK 01', '  INDEX 01 ' minutes 00-99 [30:39][30:39] ':' seconds 00-59 - [30:35][30:39] ':' frames 00-75 - [30:37][30:39]. Currently set to up to 1024 bytes between each element. These offsets and indents are not strictly defined and may need to be refined further as we encounter further examples.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "46494C45{0-1024}2020545241434B203031{0-1024}494E44455820303120[30:39][30:39]3A[30:35][30:39]3A[30:37][30:39]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 815,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": null,
-      "byteSequence": "636F6D2E70726F6A6974792E7365727665722E646174612E50726F6A65637444617461",
-      "endianness": null,
       "name": "POD project file",
-      "note": "offset 16, BOF: com.projity.server.data.ProjectData"
+      "note": "offset 16, BOF: com.projity.server.data.ProjectData",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": null,
+          "byteSequence": "636F6D2E70726F6A6974792E7365727665722E646174612E50726F6A65637444617461",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

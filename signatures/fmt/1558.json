@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1902,
-      "positionType": "Absolute from BOF",
-      "offset": 3000,
-      "maxOffset": 700,
-      "byteSequence": "4336342F433132382053454C462045585452414354494E47204C4841524348495645",
-      "endianness": null,
       "name": "SelF-eXtracting LHA/LZH Compressed File",
-      "note": "BOF; Offset: 3370 - 3410; Magic bytes: C64/C128 SELF EXTRACTING LHARCHIVE"
+      "note": "BOF; Offset: 3370 - 3410; Magic bytes: C64/C128 SELF EXTRACTING LHARCHIVE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 3000,
+          "maxOffset": 700,
+          "byteSequence": "4336342F433132382053454C462045585452414354494E47204C4841524348495645",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

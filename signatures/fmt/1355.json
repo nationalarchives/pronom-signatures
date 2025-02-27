@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1738,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4096,
-      "byteSequence": "574152432F312E300D0A{0-512}(574152432D5265636F72642D4944|436F6E74656E742D4C656E677468|574152432D54797065|574152432D44617465)",
-      "endianness": "Little-endian",
       "name": "WARC 1.0",
-      "note": "Matching WARC header. Header: WARC/1.0 CRLF. Then either 'WARC-Record-ID', 'WARC-Date',  'WARC-Type', 'Content-Length' all madatory fields that can appear in any order."
+      "note": "Matching WARC header. Header: WARC/1.0 CRLF. Then either 'WARC-Record-ID', 'WARC-Date',  'WARC-Type', 'Content-Length' all madatory fields that can appear in any order.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4096,
+          "byteSequence": "574152432F312E300D0A{0-512}(574152432D5265636F72642D4944|436F6E74656E742D4C656E677468|574152432D54797065|574152432D44617465)",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1466,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D414320{48}(E803|D007|B80B|A00F|8813)",
-      "endianness": null,
       "name": "Monkey's Audio variant 1",
-      "note": "\"MAC \" {48} Compression level (1000|2000|3000|4000|5000) representing (FAST|NORMAL|HIGH|EXTRA_HIGH|INSANE)"
+      "note": "\"MAC \" {48} Compression level (1000|2000|3000|4000|5000) representing (FAST|NORMAL|HIGH|EXTRA_HIGH|INSANE)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D414320{48}(E803|D007|B80B|A00F|8813)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1467,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D414320{2}(E803|D007|B80B|A00F|8813)",
-      "endianness": null,
       "name": "Monkey's Audio variant 2",
-      "note": "\"MAC \" {2} Compression level (1000|2000|3000|4000|5000) representing (FAST|NORMAL|HIGH|EXTRA_HIGH|INSANE)"
+      "note": "\"MAC \" {2} Compression level (1000|2000|3000|4000|5000) representing (FAST|NORMAL|HIGH|EXTRA_HIGH|INSANE)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D414320{2}(E803|D007|B80B|A00F|8813)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

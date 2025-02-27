@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 570,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00000200[01:09]00{3}00{1}00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000",
-      "endianness": null,
       "name": "Microsoft Windows Cursor",
-      "note": "Header: (00000200) followed by number of images used in file. For purposes of this signature, range limited to 1-9. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000). Microsoft Windows cursor file has been extended from the Icon file format (.ico)"
-    },
-    {
-      "signatureID": 570,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "000028000000{2}0000{2}00000100[01:20]0000000000",
-      "endianness": null,
-      "name": "Microsoft Windows Cursor",
-      "note": "Header: (00000200) followed by number of images used in file. For purposes of this signature, range limited to 1-9. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000). Microsoft Windows cursor file has been extended from the Icon file format (.ico)"
+      "note": "Header: (00000200) followed by number of images used in file. For purposes of this signature, range limited to 1-9. Header sequence followed by image directory, then sequence (000028000000{2}0000{2}00000100[01:20]0000000000). Microsoft Windows cursor file has been extended from the Icon file format (.ico)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00000200[01:09]00{3}00{1}00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "000028000000{2}0000{2}00000100[01:20]0000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

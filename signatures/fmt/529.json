@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 832,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8B4A4E470D0A1A0A000000104A484452",
-      "endianness": null,
       "name": "JNG",
-      "note": "BOF \u2039JNG........JHDR \r\nEOF IEND\u00aeB`\u201a"
-    },
-    {
-      "signatureID": 832,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49454E44AE426082",
-      "endianness": null,
-      "name": "JNG",
-      "note": "BOF \u2039JNG........JHDR \r\nEOF IEND\u00aeB`\u201a"
+      "note": "BOF \u2039JNG........JHDR \r\nEOF IEND\u00aeB`\u201a",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8B4A4E470D0A1A0A000000104A484452",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49454E44AE426082",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

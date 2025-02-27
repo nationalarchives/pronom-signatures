@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1513,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00000003{4}000000(00|01){6}(14|15){2-258}25252525",
-      "endianness": null,
       "name": "Gatan Digital Micrograph 3",
-      "note": "BOF version 3 {4} endianness 00 = big, 01 = little {6} (tag directory|tag) {2-256} (2 byte tag length value + tag name which can be of zero length. Theroetically tag name could be ~65k long but limiting to 256 bytes for signature efficiency as highly unlikely to be greater. Scope to extend if necessary though). String \"%%%%\"\r\n\r\nEOF: 8 null bytes"
-    },
-    {
-      "signatureID": 1513,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000000000000000",
-      "endianness": null,
-      "name": "Gatan Digital Micrograph 3",
-      "note": "BOF version 3 {4} endianness 00 = big, 01 = little {6} (tag directory|tag) {2-256} (2 byte tag length value + tag name which can be of zero length. Theroetically tag name could be ~65k long but limiting to 256 bytes for signature efficiency as highly unlikely to be greater. Scope to extend if necessary though). String \"%%%%\"\r\n\r\nEOF: 8 null bytes"
+      "note": "BOF version 3 {4} endianness 00 = big, 01 = little {6} (tag directory|tag) {2-256} (2 byte tag length value + tag name which can be of zero length. Theroetically tag name could be ~65k long but limiting to 256 bytes for signature efficiency as highly unlikely to be greater. Scope to extend if necessary though). String \"%%%%\"\r\n\r\nEOF: 8 null bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00000003{4}000000(00|01){6}(14|15){2-258}25252525",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 776,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2E5741460000004C",
-      "endianness": null,
       "name": "WAF MS Internet Cache",
-      "note": "BOF: .WAF...L"
+      "note": "BOF: .WAF...L",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2E5741460000004C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

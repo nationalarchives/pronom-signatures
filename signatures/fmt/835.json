@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1192,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000002000210",
-      "endianness": null,
       "name": "Quattro Pro 6 WIN",
-      "note": "BOF 00000200, version 0210\r\nEOF: \u2026."
+      "note": "BOF 00000200, version 0210\r\nEOF: \u2026.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000002000210",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

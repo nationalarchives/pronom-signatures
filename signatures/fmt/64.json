@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 99,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "30(0D0A|0A|0D)53454354494F4E(0D0A|0D|0A)202032(0D0A|0A|0D)484541444552(0D0A|0D|0A)*39(0D0A|0D|0A)2441434144564552(0D0A|0D|0A)202031(0D0A|0D|0A)4D43302E30(0D0A|0D|0A)*30(0D0A|0D|0A)454E44534543(0D0A|0D|0A)",
-      "endianness": null,
       "name": "Drawing Interchange File Format 1.0",
-      "note": "Header section with $ACADVER group code (MC0.0), EOF marker"
-    },
-    {
-      "signatureID": 99,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 5,
-      "byteSequence": "30(0D0A|0D|0A)454F46",
-      "endianness": null,
-      "name": "Drawing Interchange File Format 1.0",
-      "note": "Header section with $ACADVER group code (MC0.0), EOF marker"
+      "note": "Header section with $ACADVER group code (MC0.0), EOF marker",
+      "byteSequences": [
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "30(0D0A|0A|0D)53454354494F4E(0D0A|0D|0A)202032(0D0A|0A|0D)484541444552(0D0A|0D|0A)*39(0D0A|0D|0A)2441434144564552(0D0A|0D|0A)202031(0D0A|0D|0A)4D43302E30(0D0A|0D|0A)*30(0D0A|0D|0A)454E44534543(0D0A|0D|0A)",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 5,
+          "byteSequence": "30(0D0A|0D|0A)454F46",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

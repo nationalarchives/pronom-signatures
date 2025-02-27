@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1630,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "21576F726B7370616365{0-6}2156657273696F6E{0-6}2143686172736574",
-      "endianness": null,
       "name": "MapInfo Workspace File",
-      "note": "BOF: !Workspace{0-6}!Version{0-6}!Charset"
+      "note": "BOF: !Workspace{0-6}!Version{0-6}!Charset",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "21576F726B7370616365{0-6}2156657273696F6E{0-6}2143686172736574",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

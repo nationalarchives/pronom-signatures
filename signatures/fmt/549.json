@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 870,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54(01|02){4}(05000000|00000005)",
-      "endianness": null,
       "name": "Adobe InDesign Document CS3",
-      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: DOCUMENT; 1-byte Endianness: 1=little endian (intel), 2= big endian (Motorola); 4 wildcard bytes; 4 byte version (consider endianess) 5=CS3"
+      "note": "16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: DOCUMENT; 1-byte Endianness: 1=little endian (intel), 2= big endian (Motorola); 4 wildcard bytes; 4 byte version (consider endianess) 5=CS3",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54(01|02){4}(05000000|00000005)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

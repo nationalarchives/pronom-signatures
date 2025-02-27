@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2022,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "31BE020000AB0000000000000000",
-      "endianness": null,
       "name": "Microsoft Word for MS-DOS Style Sheet File (Generic)",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x31BE020000AB0000000000000000"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x31BE020000AB0000000000000000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "31BE020000AB0000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

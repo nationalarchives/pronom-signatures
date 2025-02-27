@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2122,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "54534720372E31352044617461736574",
-      "endianness": null,
       "name": "The Spectral Geologist Dataset v.7.15",
-      "note": "BOF 0-1024, magic bytes: TSG 7.15 Dataset"
+      "note": "BOF 0-1024, magic bytes: TSG 7.15 Dataset",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "54534720372E31352044617461736574",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

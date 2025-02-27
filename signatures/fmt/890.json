@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1239,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F435459504520616269776F7264205055424C494320222D2F2F414249534F555243452F2F4454442041574D4C20312E30205374726963742F2F454E222022687474703A2F2F7777772E616269736F757263652E636F6D2F61776D6C2E647464223E0A3C616269776F72642074656D706C6174653D2266616C736522",
-      "endianness": null,
       "name": "AbiWord Document",
-      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\"?>.<!DOCTYPE abiword PUBLIC \"-//ABISOURCE//DTD AWML 1.0 Strict//EN\" \"http://www.abisource.com/awml.dtd\">.<abiword template=\"false\""
+      "note": "BOF: <?xml version=\"1.0\" encoding=\"UTF-8\"?>.<!DOCTYPE abiword PUBLIC \"-//ABISOURCE//DTD AWML 1.0 Strict//EN\" \"http://www.abisource.com/awml.dtd\">.<abiword template=\"false\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F435459504520616269776F7264205055424C494320222D2F2F414249534F555243452F2F4454442041574D4C20312E30205374726963742F2F454E222022687474703A2F2F7777772E616269736F757263652E636F6D2F61776D6C2E647464223E0A3C616269776F72642074656D706C6174653D2266616C736522",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

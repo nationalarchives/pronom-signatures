@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 464,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "010000000100080044000000000C7F0906",
-      "endianness": "Big-endian",
       "name": "Lotus 123 Chart",
-      "note": "17 byte header string"
+      "note": "17 byte header string",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "010000000100080044000000000C7F0906",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

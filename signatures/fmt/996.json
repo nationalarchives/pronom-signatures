@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1356,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "384250530002000000000000",
-      "endianness": null,
       "name": "Adobe Photoshop PSB",
-      "note": "BOF: '8BPS', version 2 (0x0002), 6 reserved null bytes\r\nhttps://www.adobe.com/devnet-apps/photoshop/fileformatashtml/"
+      "note": "BOF: '8BPS', version 2 (0x0002), 6 reserved null bytes\r\nhttps://www.adobe.com/devnet-apps/photoshop/fileformatashtml/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "384250530002000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

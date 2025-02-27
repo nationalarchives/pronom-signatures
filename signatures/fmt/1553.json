@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1897,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 460,
-      "byteSequence": "2440{460-3000}506F6C615278535F50524F",
-      "endianness": null,
       "name": "Septentrio Binary Format",
-      "note": "BOF: offset 0-3000; Magic bytes '$@{460-3000}PolaRxS_PRO'"
+      "note": "BOF: offset 0-3000; Magic bytes '$@{460-3000}PolaRxS_PRO'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 460,
+          "byteSequence": "2440{460-3000}506F6C615278535F50524F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

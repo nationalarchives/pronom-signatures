@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 78,
-      "positionType": "Absolute from BOF",
-      "offset": 512,
-      "maxOffset": null,
-      "byteSequence": "0908{2}00060500",
-      "endianness": null,
       "name": "BIFF 8 & 8X Workbook (generic)",
-      "note": "09 - BOF / 08 - Version indicator / {2} - unspecified / 0006 - version / 0500 - substream"
+      "note": "09 - BOF / 08 - Version indicator / {2} - unspecified / 0006 - version / 0500 - substream",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 512,
+          "maxOffset": null,
+          "byteSequence": "0908{2}00060500",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 858,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7B5C707769",
-      "endianness": null,
       "name": "Inkwriter/Notetaker PWI format",
-      "note": "A pwi file must be enclosed in braces { }. The opening brace is followed by control word \\pwi"
+      "note": "A pwi file must be enclosed in braces { }. The opening brace is followed by control word \\pwi",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7B5C707769",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 756,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "377ABCAF271C",
-      "endianness": null,
       "name": "7Zip",
-      "note": "BOF: 7z\u00bc\u00af'."
+      "note": "BOF: 7z\u00bc\u00af'.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "377ABCAF271C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

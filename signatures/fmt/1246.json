@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1619,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 10,
-      "byteSequence": "484F4445{0-300}534F5349",
-      "endianness": null,
       "name": "SOSI",
-      "note": "BOF: Magic bytes: {0-10} \u2018HODE\u2019{0-300}\u2019SOSI\u2019"
+      "note": "BOF: Magic bytes: {0-10} \u2018HODE\u2019{0-300}\u2019SOSI\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 10,
+          "byteSequence": "484F4445{0-300}534F5349",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

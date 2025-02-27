@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1913,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "284578707265737350726F6A65637420",
-      "endianness": null,
       "name": "OrCAD Project File",
-      "note": "BOF:'(ExpressProject' followed by 0x20 (Space)"
+      "note": "BOF:'(ExpressProject' followed by 0x20 (Space)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "284578707265737350726F6A65637420",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

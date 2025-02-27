@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1529,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "F9B22AD1{4-32}6D787374",
-      "endianness": null,
       "name": "Maxwell Render Scene File Format",
-      "note": "BOF: 0xF9B22AD1{4-32}mxst"
+      "note": "BOF: 0xF9B22AD1{4-32}mxst",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "F9B22AD1{4-32}6D787374",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

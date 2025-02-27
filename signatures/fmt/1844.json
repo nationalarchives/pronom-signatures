@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2188,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "47494D502050616C65747465",
-      "endianness": null,
       "name": "GNU Image Manipulation Program Palette File",
-      "note": "BOF:'GIMP' followed by 0x20 (Space) followed by 'Palette'"
+      "note": "BOF:'GIMP' followed by 0x20 (Space) followed by 'Palette'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "47494D502050616C65747465",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

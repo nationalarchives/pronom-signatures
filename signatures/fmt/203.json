@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 504,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4F6767530002{23}766F7262697300000000{19}4F676753",
-      "endianness": null,
       "name": "Ogg Vorbis Codec Compressed Multimedia File",
-      "note": "Ogg Page header: Capture pattern (\u201coggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h); 23 bytes; page segment Identification header  (\u201cvorbis\u201d; version (00000000h)"
+      "note": "Ogg Page header: Capture pattern (\u201coggS\u201d); stream structure revision (00h); flag: 1st page of a logical bitstream (02h); 23 bytes; page segment Identification header  (\u201cvorbis\u201d; version (00000000h)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4F6767530002{23}766F7262697300000000{19}4F676753",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

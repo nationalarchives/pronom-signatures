@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2225,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "252150532D41646F62652D332E3020455053462D322E31",
-      "endianness": null,
       "name": "EPS 2.1",
-      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-3.0 EPSF-2.1"
+      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-3.0 EPSF-2.1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "252150532D41646F62652D332E3020455053462D322E31",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

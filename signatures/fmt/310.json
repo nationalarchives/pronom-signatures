@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 402,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "4F46584845414445523A313030{0-2}444154413A*56455253494F4E3A313033{0-2}53454355524954593A*454E434F44494E473A*434841525345543A*434F4D5052455353494F4E3A*4F4C4446494C455549443A*4E455746494C455549443A",
-      "endianness": null,
       "name": "Open Financial Exchange 1.03",
-      "note": "The first entry will always be OFXHEADER with a version number. This entry identifies the contents as an Open Financial Exchange file and provides the version number of the Open Financial Exchange headers that follow (not the version number of the contents). For example:OFXHEADER:100. Open Financial Exchange headers can contain the following tags.DATA: VERSION:103 SECURITY: ENCODING: CHARSET: COMPRESSION: OLDFILEUID: NEWFILEUID:"
+      "note": "The first entry will always be OFXHEADER with a version number. This entry identifies the contents as an Open Financial Exchange file and provides the version number of the Open Financial Exchange headers that follow (not the version number of the contents). For example:OFXHEADER:100. Open Financial Exchange headers can contain the following tags.DATA: VERSION:103 SECURITY: ENCODING: CHARSET: COMPRESSION: OLDFILEUID: NEWFILEUID:",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "4F46584845414445523A313030{0-2}444154413A*56455253494F4E3A313033{0-2}53454355524954593A*454E434F44494E473A*434841525345543A*434F4D5052455353494F4E3A*4F4C4446494C455549443A*4E455746494C455549443A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2104,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "736C7667{4}66696C6C",
-      "endianness": null,
       "name": "Sony SLV File",
-      "note": "BOF:'slvg' followed by a gap of 4 followed by 'fill'"
+      "note": "BOF:'slvg' followed by a gap of 4 followed by 'fill'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "736C7667{4}66696C6C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

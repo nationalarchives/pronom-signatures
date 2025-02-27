@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1575,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FEFE0701{19}00",
-      "endianness": null,
       "name": "MyISAM Indexes File",
-      "note": "BOF magic 0xFEFE0701 {19} 0x00 unused byte"
+      "note": "BOF magic 0xFEFE0701 {19} 0x00 unused byte",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FEFE0701{19}00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 122,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000001BA{8-12}000001BB",
-      "endianness": null,
       "name": "MPEG-1 Program Stream",
-      "note": "Pack Header Start Code + System Header Start Code"
+      "note": "Pack Header Start Code + System Header Start Code",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000001BA{8-12}000001BB",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1876,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "544C0102",
-      "endianness": null,
       "name": "Agisoft Tiled Model",
-      "note": "BOF: 'TL' 0x0102"
+      "note": "BOF: 'TL' 0x0102",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "544C0102",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

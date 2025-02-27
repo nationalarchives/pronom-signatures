@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2219,
-      "positionType": "Absolute from BOF",
-      "offset": 16,
-      "maxOffset": 0,
-      "byteSequence": "4753543A41525400",
-      "endianness": null,
       "name": "GST Art File v.1",
-      "note": "BOF; Offset: 16; 'GST:ART'"
+      "note": "BOF; Offset: 16; 'GST:ART'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 16,
+          "maxOffset": 0,
+          "byteSequence": "4753543A41525400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

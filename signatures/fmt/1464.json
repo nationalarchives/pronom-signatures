@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1829,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D61657374726F0A",
-      "endianness": null,
       "name": "Maestro Music File",
-      "note": "BOF: Maestro + 0x0A (No offset)"
+      "note": "BOF: Maestro + 0x0A (No offset)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D61657374726F0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

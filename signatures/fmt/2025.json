@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 3899,
+  "formatName": "CD Architect Project File",
+  "version": "5",
+  "formatDescription": "Sonic Foundry CD Architect, later sold as Sony CD Architect is a software used for burning and mastering CDs. It was sold in 2016 to MAGIX Software. CD Archtect software uses a small project file (CDP) to handle the organisation of CDs which saves informatin about source file locations, edits, cuts and insertion points. The project file is used to create the CD when the editing is finished and is not a multimedia file.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/CD_Architect",
+  "lastUpdatedDate": "10 Jan 2025",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Jan 2025",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Dataset",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2025",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3388,
+      "name": "CD Architect 5",
+      "note": "BOF,offset 0, magic bytes: 'riff' and then after four bytes '\u00a5\u00d6(\u00db'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "72696666{4}A5D628DB",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cdp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1756,
+      "relatedFormatName": "Sonic Foundry WAVE 64"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 3898,
+      "relatedFormatName": "CD Architect Project File"
+    }
+  ],
+  "source": 299
+}

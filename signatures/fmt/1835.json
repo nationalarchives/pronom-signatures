@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2173,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "213C617263683E",
-      "endianness": null,
       "name": "Archiver Format",
-      "note": "BOF:'!<arch>' followed by 0x0A (Line Feed)"
+      "note": "BOF:'!<arch>' followed by 0x0A (Line Feed)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "213C617263683E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

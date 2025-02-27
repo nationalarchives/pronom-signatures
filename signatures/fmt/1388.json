@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1764,
-      "positionType": "Absolute from BOF",
-      "offset": 40,
-      "maxOffset": 168,
-      "byteSequence": "3C6D7576656550726F6A6563743E3C76",
-      "endianness": null,
       "name": "Muvee Reveal RVL",
-      "note": "BOF Offset 40-168 \"<muveeProject><v\""
+      "note": "BOF Offset 40-168 \"<muveeProject><v\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 40,
+          "maxOffset": 168,
+          "byteSequence": "3C6D7576656550726F6A6563743E3C76",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

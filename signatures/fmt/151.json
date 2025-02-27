@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 720,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000C6A5020200D0A870A{4}667479706A7078",
-      "endianness": null,
       "name": "JPEG 2000 with Extensions",
-      "note": "BOF: ....jP  ..\u2021.{4}ftypjpx"
+      "note": "BOF: ....jP  ..\u2021.{4}ftypjpx",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000C6A5020200D0A870A{4}667479706A7078",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

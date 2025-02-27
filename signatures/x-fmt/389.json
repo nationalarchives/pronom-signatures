@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 144,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "52494646{4}57415645*666D7420{4}(01|07|11)00*4C495354{4}6578696665766572{4}30323130*64617461",
-      "endianness": null,
       "name": "EXIF Audio 2.1",
-      "note": "RIFF header, WAVE ID, Format chunk, LIST exif chunk (ever=2.1) and Data chunk"
+      "note": "RIFF header, WAVE ID, Format chunk, LIST exif chunk (ever=2.1) and Data chunk",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "52494646{4}57415645*666D7420{4}(01|07|11)00*4C495354{4}6578696665766572{4}30323130*64617461",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

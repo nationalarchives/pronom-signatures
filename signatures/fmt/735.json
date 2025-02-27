@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1062,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0B77",
-      "endianness": null,
       "name": "Dolby Digital AC-3",
-      "note": "The file consists of repeated frames of audio data. Each frame begins with the 0x0B77 syncword. The size of the frame is determined by the nominal bit rate and sample rate as per Table 5.18 of the Digital Audio Compression Standard specification http://www.atsc.org/cms/standards/a_52-2010.pdf"
+      "note": "The file consists of repeated frames of audio data. Each frame begins with the 0x0B77 syncword. The size of the frame is determined by the nominal bit rate and sample rate as per Table 5.18 of the Digital Audio Compression Standard specification http://www.atsc.org/cms/standards/a_52-2010.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0B77",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

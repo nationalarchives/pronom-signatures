@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1915,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 36,
-      "byteSequence": "66726D",
-      "endianness": null,
       "name": "Visual Basic Project Workspace File",
-      "note": "Magic bytes BOF, offset 0 - 36: frm\r\nMagic bytes EOF, offset 0: .."
-    },
-    {
-      "signatureID": 1915,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0D0A",
-      "endianness": null,
-      "name": "Visual Basic Project Workspace File",
-      "note": "Magic bytes BOF, offset 0 - 36: frm\r\nMagic bytes EOF, offset 0: .."
+      "note": "Magic bytes BOF, offset 0 - 36: frm\r\nMagic bytes EOF, offset 0: ..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 36,
+          "byteSequence": "66726D",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

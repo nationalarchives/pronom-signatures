@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2039,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "000000000000FF99{100}5350050002",
-      "endianness": null,
       "name": "Persuasion Windows Document v2",
-      "note": "BOF; Offset: 0; Magic Bytes: 000000000000FF99 then a sequence of hundred wildcard bytes followed by 0x5350050002"
+      "note": "BOF; Offset: 0; Magic Bytes: 000000000000FF99 then a sequence of hundred wildcard bytes followed by 0x5350050002",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "000000000000FF99{100}5350050002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1942,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7472753F",
-      "endianness": null,
       "name": "True Colour Picture [Spooky Sprites] (Atari Falcon)",
-      "note": "BOF; Offset: 0; Magic Bytes: 'tru?'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'tru?'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7472753F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

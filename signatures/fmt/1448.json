@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1810,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3E3E3E3E3E20584C4434204752415048494320444154412020444F43554D454E54203C3C3C3C3C3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D",
-      "endianness": null,
       "name": "XLD4 (Graphic Data Document)",
-      "note": "BOF: Magic bytes ASCII string \u2018===============>>>>> XLD4 GRAPHIC DATA DOCUMENT <<<<<===============\u2019"
+      "note": "BOF: Magic bytes ASCII string \u2018===============>>>>> XLD4 GRAPHIC DATA DOCUMENT <<<<<===============\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3E3E3E3E3E20584C4434204752415048494320444154412020444F43554D454E54203C3C3C3C3C3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

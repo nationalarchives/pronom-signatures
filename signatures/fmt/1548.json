@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1893,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 61,
-      "byteSequence": "50726F6A57696E53697A653D{7-15}0D0A50726F6A57696E53686F773D{1-3}0D0A49636F6E466F726D3D22466F726D",
-      "endianness": null,
       "name": "Visual Basics MAK File",
-      "note": "Magic bytes EOF range 0-55: ProjWinSize=[7-15]..ProjWinShow=[1-3]..IconForm=\"Form"
+      "note": "Magic bytes EOF range 0-55: ProjWinSize=[7-15]..ProjWinShow=[1-3]..IconForm=\"Form",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 61,
+          "byteSequence": "50726F6A57696E53697A653D{7-15}0D0A50726F6A57696E53686F773D{1-3}0D0A49636F6E466F726D3D22466F726D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

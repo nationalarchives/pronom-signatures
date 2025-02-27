@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2365,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}4F464D38",
-      "endianness": null,
       "name": "Melco OFM Project v.11",
-      "note": "BOF; Offset:0; Magic Bytes: 'RIFF' followed 4 bytes later by 'OFM8'"
+      "note": "BOF; Offset:0; Magic Bytes: 'RIFF' followed 4 bytes later by 'OFM8'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}4F464D38",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

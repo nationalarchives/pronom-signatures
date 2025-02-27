@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1926,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "434F4B4520666F726D61742E",
-      "endianness": null,
       "name": "COKE format (Atari Falcon)",
-      "note": "BOF; Offset: 0; Magic Bytes: 'COKE Format.'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'COKE Format.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "434F4B4520666F726D61742E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1659,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "434F52574156",
-      "endianness": null,
       "name": "Corel Wavelet (WVL)",
-      "note": "BOF: 'CORWAV'"
+      "note": "BOF: 'CORWAV'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "434F52574156",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1660,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "574904[01:06]{3}[40:46]",
-      "endianness": null,
       "name": "Corel Wavelet (WI)",
-      "note": "BOF uses \"WI \". Byte 4 appears to be a value between 01:06 and byte 8 appears to be a value between 40:46."
+      "note": "BOF uses \"WI \". Byte 4 appears to be a value between 01:06 and byte 8 appears to be a value between 40:46.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "574904[01:06]{3}[40:46]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

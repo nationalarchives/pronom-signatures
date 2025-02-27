@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1656,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "003200000000(01|52494646)",
-      "endianness": null,
       "name": "NCH Dictation Audio File",
-      "note": "Format consists of header, then RIFF WAVE audio data, which can be PCM or MP3. The audio data may also be encrypted, in which case the RIFF chunk is not visible, but a flag is set. The file may also include a transcription file, again for which a flag is set."
+      "note": "Format consists of header, then RIFF WAVE audio data, which can be PCM or MP3. The audio data may also be encrypted, in which case the RIFF chunk is not visible, but a flag is set. The file may also include a transcription file, again for which a flag is set.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "003200000000(01|52494646)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1999,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "10000000{1}0000000100000011000000",
-      "endianness": null,
       "name": "Roxio Easy CD Creator Layout v5 & v6",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x10000000, then a gap of 1 byte followed by 0x0000000100000011000000"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x10000000, then a gap of 1 byte followed by 0x0000000100000011000000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "10000000{1}0000000100000011000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

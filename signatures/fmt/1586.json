@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1925,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "155468654472617720536176652046696C65",
-      "endianness": null,
       "name": "TheDraw Save File",
-      "note": "BOF; Offset: 0; Magic Bytes: '.TheDraw Save File'"
+      "note": "BOF; Offset: 0; Magic Bytes: '.TheDraw Save File'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "155468654472617720536176652046696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

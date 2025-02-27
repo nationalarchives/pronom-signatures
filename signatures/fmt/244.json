@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 574,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)*3C6B6D6C20786D6C6E733D",
-      "endianness": null,
       "name": "Keyhole Markup Language",
-      "note": "Header: XML declaration and version, followed by kml namespace decalaration. Footer: </kml>"
-    },
-    {
-      "signatureID": 574,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "3C2F6B6D6C3E",
-      "endianness": null,
-      "name": "Keyhole Markup Language",
-      "note": "Header: XML declaration and version, followed by kml namespace decalaration. Footer: </kml>"
+      "note": "Header: XML declaration and version, followed by kml namespace decalaration. Footer: </kml>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)*3C6B6D6C20786D6C6E733D",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "3C2F6B6D6C3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

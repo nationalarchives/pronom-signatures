@@ -32,23 +32,31 @@
   "internalSignatures": [
     {
       "signatureID": 1006,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}57415645*666D7420{4}FEFF*62657874{350}0000",
-      "endianness": null,
       "name": "BWAVE WAVEFORMATEXTENSIBLE 0",
-      "note": "RIFF header, WAVE ID, Format chunk (WAVEFORMATEXTENSIBLE), BEXT chunk (Version=0)"
+      "note": "RIFF header, WAVE ID, Format chunk (WAVEFORMATEXTENSIBLE), BEXT chunk (Version=0)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}57415645*666D7420{4}FEFF*62657874{350}0000",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1035,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}57415645*62657874{350}0000*666D7420{4}FEFF",
-      "endianness": null,
       "name": "BWAVE WAVEFORMATEXTENSIBLE 0 variant",
-      "note": "RIFF header, WAVE ID, BEXT chunk (Version=0), Format chunk (WAVEFORMATEXTENSIBLE)"
+      "note": "RIFF header, WAVE ID, BEXT chunk (Version=0), Format chunk (WAVEFORMATEXTENSIBLE)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}57415645*62657874{350}0000*666D7420{4}FEFF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

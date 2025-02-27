@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 893,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D312E34*41495072697661746544617461*252150532D41646F62652D332E30*254149355F46696C65466F726D61742036",
-      "endianness": null,
       "name": "Adobe Illustrator 10.0",
-      "note": "PDF header '%PDF-1.4AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat 6'"
+      "note": "PDF header '%PDF-1.4AIPrivateData%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat 6'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D312E34*41495072697661746544617461*252150532D41646F62652D332E30*254149355F46696C65466F726D61742036",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

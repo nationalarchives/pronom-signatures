@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 732,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*3C737667{0-512}76657273696F6E3D22312E3222*7376673E",
-      "endianness": null,
       "name": "SVG 1.2 Tiny",
-      "note": "BOF - <?xml version=\"1.0\"*<svg{0-512}version=\"1.2\"*svg>"
+      "note": "BOF - <?xml version=\"1.0\"*<svg{0-512}version=\"1.2\"*svg>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022*3C737667{0-512}76657273696F6E3D22312E3222*7376673E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

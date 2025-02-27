@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1594,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C656F207A6F6E6520666F726D617420",
-      "endianness": null,
       "name": "Leonardo Image Format",
-      "note": "BOF: 'Leo zone format '"
+      "note": "BOF: 'Leo zone format '",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C656F207A6F6E6520666F726D617420",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

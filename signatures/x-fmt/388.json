@@ -32,83 +32,87 @@
   "internalSignatures": [
     {
       "signatureID": 153,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D4D002A",
-      "endianness": null,
       "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near EOF)",
-      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
-    },
-    {
-      "signatureID": 153,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65535,
-      "byteSequence": "900000070000000430323130",
-      "endianness": null,
-      "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near EOF)",
-      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
+      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D4D002A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65535,
+          "byteSequence": "900000070000000430323130",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 156,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "49492A00",
-      "endianness": null,
       "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near EOF)",
-      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
-    },
-    {
-      "signatureID": 156,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65535,
-      "byteSequence": "009007000400000030323130",
-      "endianness": null,
-      "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near EOF)",
-      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)"
+      "note": "TIFF header, EXIF IFD near EOF (EXIF ver=2.1)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "49492A00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65535,
+          "byteSequence": "009007000400000030323130",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 284,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D4D002A",
-      "endianness": null,
       "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near BOF)",
-      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
-    },
-    {
-      "signatureID": 284,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "{10-65535}900000070000000430323130",
-      "endianness": null,
-      "name": "EXIF Uncompressed Image 2.1 (big-endian, EXIF near BOF)",
-      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
+      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D4D002A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "{10-65535}900000070000000430323130",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 287,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "49492A00",
-      "endianness": null,
       "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near BOF)",
-      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
-    },
-    {
-      "signatureID": 287,
-      "positionType": "Absolute from BOF",
-      "offset": 10,
-      "maxOffset": 65535,
-      "byteSequence": "009007000400000030323130",
-      "endianness": null,
-      "name": "EXIF Uncompressed Image 2.1 (little-endian, EXIF near BOF)",
-      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]"
+      "note": "TIFF header, EXIF IFD near BOF (EXIF ver=2.1).  [NB: When the DROID bug associated with longest fragment not nearest anchor is fixed, the 2 BOF sequences can be merged.]",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "49492A00",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 10,
+          "maxOffset": 65535,
+          "byteSequence": "009007000400000030323130",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

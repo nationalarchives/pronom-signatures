@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2300,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A0000004442434E43205231357C0D0000005155455259534554",
-      "endianness": null,
       "name": "AutoCAD dbConnect Query Set",
-      "note": "Absolute from beginning of file, magic bytes: \u2026.DBCNC R15|\u2026.QUERYSET"
+      "note": "Absolute from beginning of file, magic bytes: \u2026.DBCNC R15|\u2026.QUERYSET",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A0000004442434E43205231357C0D0000005155455259534554",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

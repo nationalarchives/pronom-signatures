@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 326,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2A(424547494E|5354415254)205241535445522056455253494F4E3D",
-      "endianness": null,
       "name": "Applix Bitmap",
-      "note": "Header begins with asterisk (*) followed by BEGIN or START RASTER followed by VERSION=. Trailer is *END RASTER followed by a newline."
-    },
-    {
-      "signatureID": 326,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2A454E44205241535445520A",
-      "endianness": null,
-      "name": "Applix Bitmap",
-      "note": "Header begins with asterisk (*) followed by BEGIN or START RASTER followed by VERSION=. Trailer is *END RASTER followed by a newline."
+      "note": "Header begins with asterisk (*) followed by BEGIN or START RASTER followed by VERSION=. Trailer is *END RASTER followed by a newline.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2A(424547494E|5354415254)205241535445522056455253494F4E3D",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2A454E44205241535445520A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

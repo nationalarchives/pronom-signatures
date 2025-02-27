@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 619,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000002800000006{4}000000??000000(00|01)",
-      "endianness": "Big-endian",
       "name": "X-Windows Screen Dump X10",
-      "note": "Header starts with 4-byte integers: Size (40), Version (6), Type, Planes (typically 1 or 3), Format (0 - single-plane XYFormat, 1 - multi-plane Zformat)"
+      "note": "Header starts with 4-byte integers: Size (40), Version (6), Type, Planes (typically 1 or 3), Format (0 - single-plane XYFormat, 1 - multi-plane Zformat)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000002800000006{4}000000??000000(00|01)",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

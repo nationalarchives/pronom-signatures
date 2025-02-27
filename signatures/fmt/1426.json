@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1794,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "445257474D440006",
-      "endianness": null,
       "name": "MacDraw 1.x",
-      "note": "BOF: 'DRWGMD' 0x0006"
+      "note": "BOF: 'DRWGMD' 0x0006",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "445257474D440006",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

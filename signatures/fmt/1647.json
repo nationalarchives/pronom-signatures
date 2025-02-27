@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1985,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "6170706C69636174696F6E2F782D696E737069726174696F6E202020204372656174656420627920736F6674776172652066726F6D20496E737069726174696F6E20536F6674776172652C20496E632E{80-258}104A464946",
-      "endianness": null,
       "name": "Inspiration Software File",
-      "note": "BOF; Offset: 0; Magic Bytes: 'application/x-inspiration....Created by software from Inspiration Software, Inc.{80-258}.JFIF'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'application/x-inspiration....Created by software from Inspiration Software, Inc.{80-258}.JFIF'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "6170706C69636174696F6E2F782D696E737069726174696F6E202020204372656174656420627920736F6674776172652066726F6D20496E737069726174696F6E20536F6674776172652C20496E632E{80-258}104A464946",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2170,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4653504103000000",
-      "endianness": null,
       "name": "ArcSoft PhotoStudio File",
-      "note": "BOF Absolute from beginning of file, magic bytes: FSPA\u2026."
+      "note": "BOF Absolute from beginning of file, magic bytes: FSPA\u2026.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4653504103000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

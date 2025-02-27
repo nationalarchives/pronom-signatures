@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 1838,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D414B4930314120",
-      "endianness": null,
       "name": "MAKIchan Graphics (.mki - \"MAKI01A \" Signature)",
-      "note": "BOF: 'MAKI01A' then 0x20 (space). The first of the two known signatures for .mki files associated with the MAKIchan Graphics file format."
+      "note": "BOF: 'MAKI01A' then 0x20 (space). The first of the two known signatures for .mki files associated with the MAKIchan Graphics file format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D414B4930314120",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1839,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D414B4930314220",
-      "endianness": null,
       "name": "MAKIchan Graphics (.mki - \"MAKI01B \" Signature)",
-      "note": "BOF: 'MAKI01B' then 0x20 (space). The second of the two known signatures for .mki files associated with the MAKIchan Graphics file format."
+      "note": "BOF: 'MAKI01B' then 0x20 (space). The second of the two known signatures for .mki files associated with the MAKIchan Graphics file format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D414B4930314220",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1840,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D414B49303220",
-      "endianness": null,
       "name": "MAKIchan Graphics (.mag/.max \"MAKI02 \" Signature)",
-      "note": "BOF: 'MAKI02' then 0x20 (space). Signature for both .mag and .max files associatd with the MAKIchan Graphics file format."
+      "note": "BOF: 'MAKI02' then 0x20 (space). Signature for both .mag and .max files associatd with the MAKIchan Graphics file format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D414B49303220",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

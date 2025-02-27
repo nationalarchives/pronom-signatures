@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2364,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "23504553",
-      "endianness": null,
       "name": "Program Embroidery Stitch (PES) File",
-      "note": "Absolute from beginning of file, magic bytes:\t #PES"
+      "note": "Absolute from beginning of file, magic bytes:\t #PES",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23504553",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

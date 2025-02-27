@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 205,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E70726573656E746174696F6E*6F66666963653A76657273696F6E3D22312E30",
-      "endianness": "Little-endian",
       "name": "ODF 1.0 presentation",
-      "note": "ZIP header + MIME-type declaration + version number"
+      "note": "ZIP header + MIME-type declaration + version number",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "504B0304{26}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E70726573656E746174696F6E*6F66666963653A76657273696F6E3D22312E30",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 948,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2F2F203C212D2D203C6D64623A6D6F726B3A7A20",
-      "endianness": null,
       "name": "Mork",
-      "note": "BOF: // <!-- <mdb:mork:z"
+      "note": "BOF: // <!-- <mdb:mork:z",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2F2F203C212D2D203C6D64623A6D6F726B3A7A20",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

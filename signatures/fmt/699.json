@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1029,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49534F2D31303330332D3231{0-4096}46494C455F534348454D41{0-1}28{0-1}2827494643325833",
-      "endianness": null,
       "name": "Industry Foundation Classes 2x3",
-      "note": "BOF: ISO-10303-21{0-4096}FILE_SCHEMA{0-1}({0-1}('IFC2X3"
+      "note": "BOF: ISO-10303-21{0-4096}FILE_SCHEMA{0-1}({0-1}('IFC2X3",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49534F2D31303330332D3231{0-4096}46494C455F534348454D41{0-1}28{0-1}2827494643325833",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

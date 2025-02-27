@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 468,
-      "positionType": "Absolute from BOF",
-      "offset": 522,
-      "maxOffset": null,
-      "byteSequence": "001102FF0C00",
-      "endianness": null,
       "name": "Macintosh PICT Image 2.0 (colour images)",
-      "note": "512 byte header, 2-byte picture size, 8 bytes picture frame (rectangle), version operator (0011h); version number (02FFh); Version operator (0C00h). The PICT format can be written by a number of applications; as a result the 512 byte header either includes information about the particular software which created the file, or is all zeros. The version operator and version number information is constant across objects of this format."
+      "note": "512 byte header, 2-byte picture size, 8 bytes picture frame (rectangle), version operator (0011h); version number (02FFh); Version operator (0C00h). The PICT format can be written by a number of applications; as a result the 512 byte header either includes information about the particular software which created the file, or is all zeros. The version operator and version number information is constant across objects of this format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 522,
+          "maxOffset": null,
+          "byteSequence": "001102FF0C00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

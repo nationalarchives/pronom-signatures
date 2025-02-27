@@ -28,33 +28,45 @@
   "internalSignatures": [
     {
       "signatureID": 2078,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "{0-16}45520200{508}504D",
-      "endianness": null,
       "name": "Apple Partition Map Disk Image, sig n.1",
-      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520200, an exact 508 wildcard bytes followed by 0x504D"
+      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520200, an exact 508 wildcard bytes followed by 0x504D",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16}45520200{508}504D",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2079,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "{0-16}45520800{2044}504D",
-      "endianness": null,
       "name": "Apple Partition Map Disk Image, sig n.2",
-      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520800, an exact 2044 wildcard bytes followed by 0x504D"
+      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by 0x45520800, an exact 2044 wildcard bytes followed by 0x504D",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16}45520800{2044}504D",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2088,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "{0-16}00000000{508}504D",
-      "endianness": null,
       "name": "Apple Partition Map Disk Image, sig n.3",
-      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by a set of null bytes, then an exact 508 wildcard bytes followed by 0x504D"
+      "note": "BOF; Offset: 0; Magic Bytes: wildcard bytes between 0 to 16 bytes, followed by a set of null bytes, then an exact 508 wildcard bytes followed by 0x504D",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16}00000000{508}504D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

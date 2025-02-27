@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1210,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "302048454144{0-1024}47454443(0D0A|0D|0A)322056455253",
-      "endianness": null,
       "name": "GEDCOM",
-      "note": "<potential byte order mark - max offset 3>0 HEAD{0-1024}1 GEDC<newline>2 VERS"
+      "note": "<potential byte order mark - max offset 3>0 HEAD{0-1024}1 GEDC<newline>2 VERS",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "302048454144{0-1024}47454443(0D0A|0D|0A)322056455253",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

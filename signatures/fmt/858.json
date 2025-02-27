@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1215,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "234C635553747265616D2D56312E312062696E61727920646F75626C652072656C656173652043206C696368756E6B2D303037{0-16}234C635553747265616D2D56312E312062696E61727920646F75626C652072656C656173652075746638206E61766973776F726B733A313134",
-      "endianness": null,
       "name": "Navisworks NWD 2010",
-      "note": "BOF: #LcUStream-V1.1 binary double release C lichunk-007{0-16}#LcUStream-V1.1 binary double release utf8 navisworks:114"
+      "note": "BOF: #LcUStream-V1.1 binary double release C lichunk-007{0-16}#LcUStream-V1.1 binary double release utf8 navisworks:114",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "234C635553747265616D2D56312E312062696E61727920646F75626C652072656C656173652043206C696368756E6B2D303037{0-16}234C635553747265616D2D56312E312062696E61727920646F75626C652072656C656173652075746638206E61766973776F726B733A313134",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

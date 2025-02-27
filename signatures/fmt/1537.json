@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1883,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "CE19CE19",
-      "endianness": null,
       "name": "Serif PagePlus Publication 1-3",
-      "note": "BOF: 0xCE19CE19"
+      "note": "BOF: 0xCE19CE19",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "CE19CE19",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

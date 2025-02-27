@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 380,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5441424C450D0A302C310D0A22{1-100}220D0A564543544F52530D0A",
-      "endianness": "Little-endian",
       "name": "Data Interchange Format",
-      "note": "Header begins with TABLE on first line, the pair 0,1 on the second line, a title string in quotes on the third line and VECTORS on the fourth line."
+      "note": "Header begins with TABLE on first line, the pair 0,1 on the second line, a title string in quotes on the third line and VECTORS on the fourth line.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5441424C450D0A302C310D0A22{1-100}220D0A564543544F52530D0A",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

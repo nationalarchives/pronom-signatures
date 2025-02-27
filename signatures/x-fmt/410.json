@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 197,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D5A*4E45",
-      "endianness": null,
       "name": "Windows New Executable",
-      "note": "Header"
+      "note": "Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D5A*4E45",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

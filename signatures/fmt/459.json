@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 713,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "23207374796C652E776C6409312E35202D20312F31312F39340D0A232040282329",
-      "endianness": null,
       "name": "Verity Collection Word List Descriptor Style Set",
-      "note": "BOF: # style.wld.1.5 - 1/11/94..# @(#)\r\nEOF: }..}..$$.."
-    },
-    {
-      "signatureID": 713,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7D0D0A7D0D0A24240D0A",
-      "endianness": null,
-      "name": "Verity Collection Word List Descriptor Style Set",
-      "note": "BOF: # style.wld.1.5 - 1/11/94..# @(#)\r\nEOF: }..}..$$.."
+      "note": "BOF: # style.wld.1.5 - 1/11/94..# @(#)\r\nEOF: }..}..$$..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "23207374796C652E776C6409312E35202D20312F31312F39340D0A232040282329",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7D0D0A7D0D0A24240D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

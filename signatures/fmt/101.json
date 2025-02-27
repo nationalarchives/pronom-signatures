@@ -40,13 +40,17 @@
   "internalSignatures": [
     {
       "signatureID": 34,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
-      "endianness": null,
       "name": "XML 1.0",
-      "note": "XML declaration and version. Signature updated November 2011 to allow an optional 3 byte undisclosed beginning of file offset to allow for UTF-8 byte order mark (BOM) that may precede the XML declaration ([<?xml version=\"])"
+      "note": "XML declaration and version. Signature updated November 2011 to allow an optional 3 byte undisclosed beginning of file offset to allow for UTF-8 byte order mark (BOM) that may precede the XML declaration ([<?xml version=\"])",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -565,6 +569,26 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 2873,
       "relatedFormatName": "IMF Package Composition Playlist"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3891,
+      "relatedFormatName": "GraphPad Prism"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3906,
+      "relatedFormatName": "Open Packaging Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3907,
+      "relatedFormatName": "Daisy Talking Book Navigation Control File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3909,
+      "relatedFormatName": "Daisy Talking Book Resource File"
     },
     {
       "relationshipType": "Has priority over",

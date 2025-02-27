@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2281,
-      "positionType": "Absolute from BOF",
-      "offset": 3,
-      "maxOffset": 0,
-      "byteSequence": "53544C(3234|3235|3330)2E30",
-      "endianness": null,
       "name": "EBU Subtitling Data Exchange Format",
-      "note": "Absolute from beginning of file, offset 3: STL(24|25|30).01"
+      "note": "Absolute from beginning of file, offset 3: STL(24|25|30).01",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 3,
+          "maxOffset": 0,
+          "byteSequence": "53544C(3234|3235|3330)2E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

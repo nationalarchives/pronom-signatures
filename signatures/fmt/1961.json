@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2363,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "616A6B67",
-      "endianness": null,
       "name": "Shorten (codec)",
-      "note": "BOF, Offset:0, magic bytes: 'ajkg'"
+      "note": "BOF, Offset:0, magic bytes: 'ajkg'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "616A6B67",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

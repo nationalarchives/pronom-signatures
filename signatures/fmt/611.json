@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 947,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "646E3A20",
-      "endianness": null,
       "name": "LDAP Data Interchange Format",
-      "note": "BOF: dn:"
+      "note": "BOF: dn:",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "646E3A20",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

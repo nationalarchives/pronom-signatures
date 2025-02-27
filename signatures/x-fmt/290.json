@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 325,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "414D495F4D45544146494C455F464F524D41542056455253494F4E",
-      "endianness": null,
       "name": "AmiDraw Vector Image",
-      "note": "Header begins with AMI_METAFILE_FORMAT VERSION."
+      "note": "Header begins with AMI_METAFILE_FORMAT VERSION.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "414D495F4D45544146494C455F464F524D41542056455253494F4E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

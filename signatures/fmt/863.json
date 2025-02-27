@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1223,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2F2F4D617961204153434949",
-      "endianness": null,
       "name": "Maya ASCII",
-      "note": "BOF: //Maya ASCII"
+      "note": "BOF: //Maya ASCII",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2F2F4D617961204153434949",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2007,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5A42727573682046696C652E",
-      "endianness": null,
       "name": "Zbrush MatCap",
-      "note": "BOF; Offset: 0; Magic Bytes: 'ZBrushFile', then 0x2E"
+      "note": "BOF; Offset: 0; Magic Bytes: 'ZBrushFile', then 0x2E",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5A42727573682046696C652E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

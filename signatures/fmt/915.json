@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1266,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "6D617073666F7267652062696E617279204F534D",
-      "endianness": null,
       "name": "Mapsforge Binary Map",
-      "note": "BOF: mapsforge binary OSM. Version is 4 byte integer from position 0x18. It may be desirable to distinguish between different versions as the format matures.\r\nSpecification: https://github.com/mapsforge/mapsforge/blob/master/docs/Specification-Binary-Map-File.md"
+      "note": "BOF: mapsforge binary OSM. Version is 4 byte integer from position 0x18. It may be desirable to distinguish between different versions as the format matures.\r\nSpecification: https://github.com/mapsforge/mapsforge/blob/master/docs/Specification-Binary-Map-File.md",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "6D617073666F7267652062696E617279204F534D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

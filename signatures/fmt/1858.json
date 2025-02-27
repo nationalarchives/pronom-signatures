@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2203,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0908080000050001{3}0742000200E40438000400{1}0005003D001200",
-      "endianness": null,
       "name": "Microsoft Excel Workspace File",
-      "note": "Absolute from beginning of file, magic bytes:\t \u2026\u2026..{3}.B\u2026\u00e4.8\u2026{1}\u2026=\u2026"
+      "note": "Absolute from beginning of file, magic bytes:\t \u2026\u2026..{3}.B\u2026\u00e4.8\u2026{1}\u2026=\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0908080000050001{3}0742000200E40438000400{1}0005003D001200",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

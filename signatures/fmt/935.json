@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 1279,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "89504E470D0A1A0A0000000D49484452*6163544C",
-      "endianness": null,
       "name": "APNG",
-      "note": "Signature + IHDR and acTL chunks at BOF, IEND chunk at EOF\r\nSpecification: https://wiki.mozilla.org/APNG_Specification"
-    },
-    {
-      "signatureID": 1279,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000000049454E44AE426082",
-      "endianness": null,
-      "name": "APNG",
-      "note": "Signature + IHDR and acTL chunks at BOF, IEND chunk at EOF\r\nSpecification: https://wiki.mozilla.org/APNG_Specification"
+      "note": "Signature + IHDR and acTL chunks at BOF, IEND chunk at EOF\r\nSpecification: https://wiki.mozilla.org/APNG_Specification",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "89504E470D0A1A0A0000000D49484452*6163544C",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000000049454E44AE426082",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

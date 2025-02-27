@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1235,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "736600FF",
-      "endianness": null,
       "name": "Siegfried Signature File",
-      "note": "73 66 00 FF - BOF: 736600FF"
+      "note": "73 66 00 FF - BOF: 736600FF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "736600FF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

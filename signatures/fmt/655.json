@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 988,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 54,
-      "byteSequence": "4B72796F466C7578204469736B53797374656D2C2076657273696F6E3D322E30306E",
-      "endianness": null,
       "name": "KryoFlux v2",
-      "note": "BOF: {54} KryoFlux DiskSystem, version=2.00n"
+      "note": "BOF: {54} KryoFlux DiskSystem, version=2.00n",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 54,
+          "byteSequence": "4B72796F466C7578204469736B53797374656D2C2076657273696F6E3D322E30306E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -48,6 +52,11 @@
       "relationshipType": "Is previous version of",
       "relatedFormatID": 1455,
       "relatedFormatName": "KryoFlux"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 3889,
+      "relatedFormatName": "KryoFlux Stream"
     }
   ],
   "source": 195

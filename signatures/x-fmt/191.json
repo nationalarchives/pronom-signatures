@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 324,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5B7665725D{6}5B7374795D*5B65646F635D",
-      "endianness": null,
       "name": "Ami Professional Document",
-      "note": "Version tag, style tag, edoc tag."
+      "note": "Version tag, style tag, edoc tag.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5B7665725D{6}5B7374795D*5B65646F635D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

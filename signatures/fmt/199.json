@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 278,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "66747970{0-64}(6D703432|6D703431|69736F6D|69736F32)*6D6F6F76",
-      "endianness": "Little-endian",
       "name": "MP4 Media File",
-      "note": "Represents the following character sequence: {4}ftyp{0-64}(mp42|mp41|isom|iso2)*moov"
+      "note": "Represents the following character sequence: {4}ftyp{0-64}(mp42|mp41|isom|iso2)*moov",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "66747970{0-64}(6D703432|6D703431|69736F6D|69736F32)*6D6F6F76",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

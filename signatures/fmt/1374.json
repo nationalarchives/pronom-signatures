@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1752,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A78646F3D(22|27)687474703A2F2F7777772E78646F6D65612E6465(22|27)",
-      "endianness": null,
       "name": "xdomea 1.0",
-      "note": "ASCII header: <?xml version=\"1.0\" (alternatively with single quotes), followed by xdomea namespace declaration xmlns:xdo=\"http://www.xdomea.de\" (alternatively with single quotes)"
+      "note": "ASCII header: <?xml version=\"1.0\" (alternatively with single quotes), followed by xdomea namespace declaration xmlns:xdo=\"http://www.xdomea.de\" (alternatively with single quotes)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A78646F3D(22|27)687474703A2F2F7777772E78646F6D65612E6465(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

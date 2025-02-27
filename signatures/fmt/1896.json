@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2240,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4E504D",
-      "endianness": null,
       "name": "Nokia Picture Message",
-      "note": "BOF:'NPM'"
+      "note": "BOF:'NPM'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4E504D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

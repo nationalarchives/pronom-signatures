@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1859,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4237443042443932344135383432343841373735414341373132464334303834",
-      "endianness": null,
       "name": "Timeline Maker Document variant 1",
-      "note": "BOF: ASCII string 'B7D0BD924A584248A775ACA712FC4084'"
+      "note": "BOF: ASCII string 'B7D0BD924A584248A775ACA712FC4084'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4237443042443932344135383432343841373735414341373132464334303834",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1860,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3036333530353031383530463439323639383732393243383743353341443746",
-      "endianness": null,
       "name": "Timeline Maker Document variant 2",
-      "note": "BOF: ASCII string 06350501850F4926987292C87C53AD7F'"
+      "note": "BOF: ASCII string 06350501850F4926987292C87C53AD7F'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3036333530353031383530463439323639383732393243383743353341443746",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

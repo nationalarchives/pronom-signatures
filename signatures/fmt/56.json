@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 73,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "09020600{2}1000",
-      "endianness": null,
       "name": "BIFF 3 Worksheet",
-      "note": "BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=worksheet=1000"
+      "note": "BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=worksheet=1000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "09020600{2}1000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

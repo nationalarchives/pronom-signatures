@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2280,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "884047590C0B1B0B0001010201010501",
-      "endianness": null,
       "name": "Auto FX PhotoGraphic Edges Image File",
-      "note": "Magic bytes: \u02c6@GY\u2026\u2026\u2026\u2026"
+      "note": "Magic bytes: \u02c6@GY\u2026\u2026\u2026\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "884047590C0B1B0B0001010201010501",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

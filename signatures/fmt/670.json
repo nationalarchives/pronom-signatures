@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 1003,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "30{1-5}06092A864886F7",
-      "endianness": null,
       "name": "PKCS #7 Cryptographic Message File",
-      "note": "The signature is seeking the first byte of 0x30, then the presence of the OID (Object Identifier) 1 2 840 113549 1 7 in ASN.1 (Abstract Syntax Notation) using BER (Basic encoding rules) encoding."
+      "note": "The signature is seeking the first byte of 0x30, then the presence of the OID (Object Identifier) 1 2 840 113549 1 7 in ASN.1 (Abstract Syntax Notation) using BER (Basic encoding rules) encoding.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "30{1-5}06092A864886F7",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

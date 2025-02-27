@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1772,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "46494E(43|45)(01|02)",
-      "endianness": null,
       "name": "FinePrint",
-      "note": "BOF: FIN(C|E) 0x(01|02)"
+      "note": "BOF: FIN(C|E) 0x(01|02)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46494E(43|45)(01|02)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2277,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5255552043524F53532053595354454D204D415020464F524D4154",
-      "endianness": null,
       "name": "PCRaster",
-      "note": "BOF; Offset: 0; Magic Bytes: \u201cRUU CROSS SYSTEM MAP FORMAT\u201d"
+      "note": "BOF; Offset: 0; Magic Bytes: \u201cRUU CROSS SYSTEM MAP FORMAT\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5255552043524F53532053595354454D204D415020464F524D4154",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

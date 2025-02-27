@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1997,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2359414F444C0D0A",
-      "endianness": null,
       "name": "YAODL (Yet Another Object Description Language) File",
-      "note": "BOF; Offset: 0; Magic Bytes: '#YAODL, then 0x0D0A'"
+      "note": "BOF; Offset: 0; Magic Bytes: '#YAODL, then 0x0D0A'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2359414F444C0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,43 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 582,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "255044462D312E33",
-      "endianness": null,
       "name": "PDF/X-3:2002 (directory)",
-      "note": "%PDF-1.3 and info directory entry /GTS_PDFXVersion (PDF/X-3:2002)"
-    },
-    {
-      "signatureID": 582,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "2F4754535F5044465856657273696F6E{0-1}285044462F582D333A3230303229",
-      "endianness": null,
-      "name": "PDF/X-3:2002 (directory)",
-      "note": "%PDF-1.3 and info directory entry /GTS_PDFXVersion (PDF/X-3:2002)"
+      "note": "%PDF-1.3 and info directory entry /GTS_PDFXVersion (PDF/X-3:2002)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "255044462D312E33",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "2F4754535F5044465856657273696F6E{0-1}285044462F582D333A3230303229",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 597,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "255044462D312E33",
-      "endianness": null,
       "name": "PDF/X-3:2002 (metadata)",
-      "note": "PDF-1.3 and RDF Metadata entry   <pdfx:GTS_PDFXVersion> PDF/X-3:2002"
-    },
-    {
-      "signatureID": 597,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "3C706466783A4754535F5044465856657273696F6E3E5044462F582D333A32303032",
-      "endianness": null,
-      "name": "PDF/X-3:2002 (metadata)",
-      "note": "PDF-1.3 and RDF Metadata entry   <pdfx:GTS_PDFXVersion> PDF/X-3:2002"
+      "note": "PDF-1.3 and RDF Metadata entry   <pdfx:GTS_PDFXVersion> PDF/X-3:2002",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "255044462D312E33",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "3C706466783A4754535F5044465856657273696F6E3E5044462F582D333A32303032",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

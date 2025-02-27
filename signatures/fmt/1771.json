@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2109,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 30,
-      "byteSequence": "3C50414D446174617365743E{10-200}3C4D6574616461746120646F6D61696E3D22(4553524922|4573726922)3E",
-      "endianness": null,
       "name": "Esri Persistent Auxiliary Metadata File",
-      "note": "BOF offset 0-30, magic bytes: <PAMDataset>(10-200)<Metadata domain=\"ESRI\"|\"Esri\">\r\nEOF, offset 0-1:</PAMDataset>"
-    },
-    {
-      "signatureID": 2109,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1,
-      "byteSequence": "3C2F50414D446174617365743E",
-      "endianness": null,
-      "name": "Esri Persistent Auxiliary Metadata File",
-      "note": "BOF offset 0-30, magic bytes: <PAMDataset>(10-200)<Metadata domain=\"ESRI\"|\"Esri\">\r\nEOF, offset 0-1:</PAMDataset>"
+      "note": "BOF offset 0-30, magic bytes: <PAMDataset>(10-200)<Metadata domain=\"ESRI\"|\"Esri\">\r\nEOF, offset 0-1:</PAMDataset>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 30,
+          "byteSequence": "3C50414D446174617365743E{10-200}3C4D6574616461746120646F6D61696E3D22(4553524922|4573726922)3E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1,
+          "byteSequence": "3C2F50414D446174617365743E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

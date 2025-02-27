@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2143,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01000000{1026}5269636807",
-      "endianness": null,
       "name": "Microsoft Access Database File v1.0",
-      "note": "BOF; Offset: 0; Magic Bytes: Access database header 0x01000000, then an exact gap of 1026 bytes followed by 0x5269636807"
+      "note": "BOF; Offset: 0; Magic Bytes: Access database header 0x01000000, then an exact gap of 1026 bytes followed by 0x5269636807",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01000000{1026}5269636807",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

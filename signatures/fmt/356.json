@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 524,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2321414D520A",
-      "endianness": null,
       "name": "Adaptive Multi-Rate Audio",
-      "note": "Header (ASCII): #!AMR."
+      "note": "Header (ASCII): #!AMR.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2321414D520A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2230,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "034C54326A000000",
-      "endianness": null,
       "name": "Open Access III Document",
-      "note": "Absolute from beginning of file, magic bytes: .LT2j\u2026"
+      "note": "Absolute from beginning of file, magic bytes: .LT2j\u2026",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "034C54326A000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

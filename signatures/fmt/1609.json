@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1944,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "EB7690455846415420202000",
-      "endianness": null,
       "name": "exFAT (extensible File Allocation Table) disc image",
-      "note": "BOF, offset 0, magic bytes: \u00ebv.EXFAT000."
+      "note": "BOF, offset 0, magic bytes: \u00ebv.EXFAT000.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "EB7690455846415420202000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

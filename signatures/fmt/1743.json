@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2084,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 12,
-      "byteSequence": "4E4552(35|4F)",
-      "endianness": null,
       "name": "Nero Burning ROM Image File",
-      "note": "EOF; Offset: 0-12; Magic Bytes: 0x4E4552(35|4F)"
+      "note": "EOF; Offset: 0-12; Magic Bytes: 0x4E4552(35|4F)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 12,
+          "byteSequence": "4E4552(35|4F)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

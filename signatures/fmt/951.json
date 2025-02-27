@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1308,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "726966662E91CF11A5D628DB04C10000{8}77617665F3ACD311",
-      "endianness": null,
       "name": "Sonic Foundry WAVE 64",
-      "note": "BOF: riff.\u2018\u00cf.\u00a5\u00d6(\u00db.\u00c1..{8}wave\u00f3\u00ac\u00d3."
+      "note": "BOF: riff.\u2018\u00cf.\u00a5\u00d6(\u00db.\u00c1..{8}wave\u00f3\u00ac\u00d3.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "726966662E91CF11A5D628DB04C10000{8}77617665F3ACD311",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -47,6 +51,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 3899,
+      "relatedFormatName": "CD Architect Project File"
+    }
+  ],
   "source": 1
 }

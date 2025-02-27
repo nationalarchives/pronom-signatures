@@ -28,33 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2217,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 700,
-      "byteSequence": "4345442F",
-      "endianness": null,
       "name": "Maptech BSB Documentation File",
-      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'"
-    },
-    {
-      "signatureID": 2217,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 700,
-      "byteSequence": "4E544D2F",
-      "endianness": null,
-      "name": "Maptech BSB Documentation File",
-      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'"
-    },
-    {
-      "signatureID": 2217,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 700,
-      "byteSequence": "5645522F",
-      "endianness": null,
-      "name": "Maptech BSB Documentation File",
-      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'"
+      "note": "Three BOF sequences with an offset of 0-700 for the following tags 'VER/' 'NTM/' 'CED/'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 700,
+          "byteSequence": "4345442F",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 700,
+          "byteSequence": "4E544D2F",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 700,
+          "byteSequence": "5645522F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1945,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "564E4D1A",
-      "endianness": null,
       "name": "Viacom New Media Graphics",
-      "note": "BOF; Offset: 0; Magic Bytes: 'VNM\u2026.\u20ac'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'VNM\u2026.\u20ac'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "564E4D1A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

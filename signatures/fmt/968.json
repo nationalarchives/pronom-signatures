@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1332,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0005160000020000",
-      "endianness": null,
       "name": "AppleSingle v2",
-      "note": "BOF: 4 byte AppleSingle Magic Number 0x00051600, then 4 byte version number 0x00020000"
+      "note": "BOF: 4 byte AppleSingle Magic Number 0x00051600, then 4 byte version number 0x00020000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0005160000020000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

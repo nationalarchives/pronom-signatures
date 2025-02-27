@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 637,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000000000000000FFFF01001000434861727269734D6174726978446F63",
-      "endianness": null,
       "name": "Harris Matrix",
-      "note": "Looking for 'CHarrisMatrixDoc' in ASCII header."
-    },
-    {
-      "signatureID": 637,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "02266E00{1}00000001000000",
-      "endianness": null,
-      "name": "Harris Matrix",
-      "note": "Looking for 'CHarrisMatrixDoc' in ASCII header."
+      "note": "Looking for 'CHarrisMatrixDoc' in ASCII header.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000000000000000FFFF01001000434861727269734D6174726978446F63",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "02266E00{1}00000001000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

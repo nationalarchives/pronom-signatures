@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 252,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3433302C??2C{3}2C",
-      "endianness": "Little-endian",
       "name": "PrimeOCR 4.3",
-      "note": "Initial bytes of PrimeOCR output format represent Version,Format,Confidence and are represented in binary as ASCII at the beginning of the *.pro format. The value 430,0,450, represent version 4.3 of the format, custom word flag representing format and a confidence of 850 (PrimeOCR confidence * 100). The hex representation of this is 34 33 30 2C 30 2C 34 35 30 2C (we include the final signature represented in the format to create the unique signature). If version 4.3 is represented as 34 33 30 (ascii), version 4.2 for example is represented as 34 32 30, 3.8 as 33 38 39."
+      "note": "Initial bytes of PrimeOCR output format represent Version,Format,Confidence and are represented in binary as ASCII at the beginning of the *.pro format. The value 430,0,450, represent version 4.3 of the format, custom word flag representing format and a confidence of 850 (PrimeOCR confidence * 100). The hex representation of this is 34 33 30 2C 30 2C 34 35 30 2C (we include the final signature represented in the format to create the unique signature). If version 4.3 is represented as 34 33 30 (ascii), version 4.2 for example is represented as 34 32 30, 3.8 as 33 38 39.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3433302C??2C{3}2C",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

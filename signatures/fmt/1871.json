@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2215,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4844{75-80}0A{80-81}0A",
-      "endianness": null,
       "name": "Common Interface File",
-      "note": "Absolute from beginning of file, magic bytes: HD{75-80}.{80-81}.\r\nEOF, offset 0-2: .ZZ,followed by 78 bytes of white space,{0-1}."
-    },
-    {
-      "signatureID": 2215,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "5A5A202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020{0-1}0A",
-      "endianness": null,
-      "name": "Common Interface File",
-      "note": "Absolute from beginning of file, magic bytes: HD{75-80}.{80-81}.\r\nEOF, offset 0-2: .ZZ,followed by 78 bytes of white space,{0-1}."
+      "note": "Absolute from beginning of file, magic bytes: HD{75-80}.{80-81}.\r\nEOF, offset 0-2: .ZZ,followed by 78 bytes of white space,{0-1}.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4844{75-80}0A{80-81}0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "5A5A202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020{0-1}0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

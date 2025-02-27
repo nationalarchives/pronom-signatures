@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 512,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "5061696E742053686F702050726F20496D6167652046696C650A1A00000000000700",
-      "endianness": null,
       "name": "Paint Shop Pro Image 7",
-      "note": "Header 32 byte PSP signature (ASCII: Paint Shop Pro Image File); followed by 2 byte little-endian major version"
+      "note": "Header 32 byte PSP signature (ASCII: Paint Shop Pro Image File); followed by 2 byte little-endian major version",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "5061696E742053686F702050726F20496D6167652046696C650A1A00000000000700",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

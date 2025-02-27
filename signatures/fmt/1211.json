@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1589,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "6E65776D746C{0-80}(4B61|4B64|4B73)20",
-      "endianness": null,
       "name": "Wavefront Material Template Library",
-      "note": "BOF, offset 0-1024, 'newmtl' <name> {0-80} (Ka|Kd|Ks) <space>"
+      "note": "BOF, offset 0-1024, 'newmtl' <name> {0-80} (Ka|Kd|Ks) <space>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "6E65776D746C{0-80}(4B61|4B64|4B73)20",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

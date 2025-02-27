@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2239,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "43232B44A4434DA5486472",
-      "endianness": null,
       "name": "RagTime Document File v4-6",
-      "note": "BOF:'C#+D\u00a4CM\u00a5Hdr'"
+      "note": "BOF:'C#+D\u00a4CM\u00a5Hdr'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "43232B44A4434DA5486472",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

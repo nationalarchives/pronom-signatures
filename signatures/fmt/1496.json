@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1869,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "7A626578",
-      "endianness": null,
       "name": "ZB Thumbnail",
-      "note": "BOF: 'zbex'"
+      "note": "BOF: 'zbex'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7A626578",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

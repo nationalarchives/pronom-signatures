@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 2220,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "424547494E3A5643415244*0A56455253494F4E3A322E31",
-      "endianness": null,
       "name": "vCard v.2.1",
-      "note": "Absolute from beginning of file, magic bytes: (BEGIN:VCARD|begin:vcard).*(VERSION|version):2.1\r\nEOF, offset 0-4: (END:VCARD|end:vcard)"
-    },
-    {
-      "signatureID": 2220,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "454E443A5643415244",
-      "endianness": null,
-      "name": "vCard v.2.1",
-      "note": "Absolute from beginning of file, magic bytes: (BEGIN:VCARD|begin:vcard).*(VERSION|version):2.1\r\nEOF, offset 0-4: (END:VCARD|end:vcard)"
+      "note": "Absolute from beginning of file, magic bytes: (BEGIN:VCARD|begin:vcard).*(VERSION|version):2.1\r\nEOF, offset 0-4: (END:VCARD|end:vcard)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "424547494E3A5643415244*0A56455253494F4E3A322E31",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "454E443A5643415244",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

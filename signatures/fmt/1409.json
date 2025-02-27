@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1783,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0DFFCDAB",
-      "endianness": null,
       "name": "Flow Charting 5",
-      "note": "BOF: 0x0DFFCDAB"
+      "note": "BOF: 0x0DFFCDAB",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0DFFCDAB",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

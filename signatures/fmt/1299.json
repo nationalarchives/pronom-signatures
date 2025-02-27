@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1675,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "79A600004949494938",
-      "endianness": null,
       "name": "The Print Shop Deluxe 5-6",
-      "note": "BOF: 0x79A600004949494938"
+      "note": "BOF: 0x79A600004949494938",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "79A600004949494938",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

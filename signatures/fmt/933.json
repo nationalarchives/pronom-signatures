@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 1277,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "535646207631",
-      "endianness": null,
       "name": "Simple Vector Format 1",
-      "note": "BOF: SVF v1\r\nSpecification: http://www.svf.org/spec.html"
+      "note": "BOF: SVF v1\r\nSpecification: http://www.svf.org/spec.html",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "535646207631",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

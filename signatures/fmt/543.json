@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 857,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFFF18003601(02|00)00",
-      "endianness": null,
       "name": "GEM metafile 3.10 little endian",
-      "note": "Magic number FFFF; length = 0x18; version 310 decimal =hex 3601; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)"
+      "note": "Magic number FFFF; length = 0x18; version 310 decimal =hex 3601; coordinate system either 0 (Normalized Device Coordinates) or 2 (Raster Coordinates)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFFF18003601(02|00)00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

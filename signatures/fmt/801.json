@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1166,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "130000{20}FF",
-      "endianness": null,
       "name": "TAPZX",
-      "note": "\u2026{20}\u00ff"
+      "note": "\u2026{20}\u00ff",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "130000{20}FF",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

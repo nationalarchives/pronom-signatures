@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 296,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 4096,
-      "byteSequence": "5C646F63756D656E74636C617373",
-      "endianness": null,
       "name": "LaTeX (Master document)",
-      "note": "Looking for \\documentclass tag in LaTeX document. Could potentially improve this by including a variant looing for a master document with an include tag, \\include{file.tex}"
+      "note": "Looking for \\documentclass tag in LaTeX document. Could potentially improve this by including a variant looing for a master document with an include tag, \\include{file.tex}",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 4096,
+          "byteSequence": "5C646F63756D656E74636C617373",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

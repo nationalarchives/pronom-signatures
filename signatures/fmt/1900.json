@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2243,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C(20|09){0-30}76657273696F6E{0-30}3D{0-30}(22|27)312E30(22|27){0-512}3C6D7A4D4C20786D6C6E733D(22|27)687474703A2F2F7073692E6875706F2E6F72672F6D732F6D7A6D6C(22|27)",
-      "endianness": null,
       "name": "Mass Spectrometry Markup Language",
-      "note": "BOF; Offset: 0; Sequence: xml tag for version 1.0 followed by unique mass spectrometry tag allowing for spacing and different characters. '<?xml'{0-30}'version'{0-30}'='{0-30}'1.0'{0-512}'<mzML xmlns=' quote character 'http://psi.hupo.org/ms/mzml' followed by a final quote character"
+      "note": "BOF; Offset: 0; Sequence: xml tag for version 1.0 followed by unique mass spectrometry tag allowing for spacing and different characters. '<?xml'{0-30}'version'{0-30}'='{0-30}'1.0'{0-512}'<mzML xmlns=' quote character 'http://psi.hupo.org/ms/mzml' followed by a final quote character",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C(20|09){0-30}76657273696F6E{0-30}3D{0-30}(22|27)312E30(22|27){0-512}3C6D7A4D4C20786D6C6E733D(22|27)687474703A2F2F7073692E6875706F2E6F72672F6D732F6D7A6D6C(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

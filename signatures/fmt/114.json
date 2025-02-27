@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 116,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000{6}01(01|04|08)",
-      "endianness": null,
       "name": "Windows Bitmap 1.0",
-      "note": "Device Dependent Bitmap File Header"
+      "note": "Device Dependent Bitmap File Header",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000{6}01(01|04|08)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

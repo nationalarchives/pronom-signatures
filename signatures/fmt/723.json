@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1049,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "464152FE",
-      "endianness": null,
       "name": "Farandole Composer",
-      "note": "FAR\u00fe"
+      "note": "FAR\u00fe",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464152FE",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

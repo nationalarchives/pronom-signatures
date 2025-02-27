@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1267,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2320416D6972614D65736820415343494920312E30",
-      "endianness": null,
       "name": "AmiraMesh ASCII 1.0",
-      "note": "BOF: # AmiraMesh ASCII 1.0"
+      "note": "BOF: # AmiraMesh ASCII 1.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2320416D6972614D65736820415343494920312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

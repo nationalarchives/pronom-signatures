@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2282,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0001000000FFFFFFFF01000000000000000C02000000{1}41634478",
-      "endianness": null,
       "name": "AutoCAD Block Attribute Template",
-      "note": "Absolute from beginning of file, magic bytes: \u2026..\u00ff\u00ff\u00ff\u00ff\u2026\u2026\u2026\u2026.AcDx"
+      "note": "Absolute from beginning of file, magic bytes: \u2026..\u00ff\u00ff\u00ff\u00ff\u2026\u2026\u2026\u2026.AcDx",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0001000000FFFFFFFF01000000000000000C02000000{1}41634478",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2283,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "01000000{1}00FFFF01000E004345617474426C6F636B496E666F",
-      "endianness": null,
       "name": "AutoCAD Block Attribute Template, BlockInfo",
-      "note": "Absolute from beginning of file, magic bytes: \u2026\u2026\u00ff\u00ff\u2026.CEattBlockInfo"
+      "note": "Absolute from beginning of file, magic bytes: \u2026\u2026\u00ff\u00ff\u2026.CEattBlockInfo",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "01000000{1}00FFFF01000E004345617474426C6F636B496E666F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

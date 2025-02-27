@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1938,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1854554E4452413234",
-      "endianness": null,
       "name": "TUNDRA",
-      "note": "BOF; Offset: 0; Magic Bytes: '.TUNDRA24'"
+      "note": "BOF; Offset: 0; Magic Bytes: '.TUNDRA24'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1854554E4452413234",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

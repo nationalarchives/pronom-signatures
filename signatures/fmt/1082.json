@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1463,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C2540205765625365727669636520(436C617373|436F6465426568696E64|4465627567|4C616E6775616765)3D",
-      "endianness": null,
       "name": "ASP WebService Directive",
-      "note": "BOF: <%@ WebService (Class|CodeBehind|Debug|Language)=\r\nhttps://msdn.microsoft.com/en-us/library/yt16sxzt(v=vs.85).aspx"
+      "note": "BOF: <%@ WebService (Class|CodeBehind|Debug|Language)=\r\nhttps://msdn.microsoft.com/en-us/library/yt16sxzt(v=vs.85).aspx",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C2540205765625365727669636520(436C617373|436F6465426568696E64|4465627567|4C616E6775616765)3D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2142,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{1-128}3C21444F4354595045205472616E73",
-      "endianness": null,
       "name": "Transcriber TRS Format",
-      "note": "BOF offset 0, XML 1.0 declaration, then !DOCTYPE declaration \u2018trans\u2019. A DTD for version 1.4 of the file format can be found here: https://github.com/giuliopaci/transcriber/blob/master/etc/trans-14.dtd. For now, PRONOM does not distinguish between different versions of TRS."
+      "note": "BOF offset 0, XML 1.0 declaration, then !DOCTYPE declaration \u2018trans\u2019. A DTD for version 1.4 of the file format can be found here: https://github.com/giuliopaci/transcriber/blob/master/etc/trans-14.dtd. For now, PRONOM does not distinguish between different versions of TRS.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D22312E3022{1-128}3C21444F4354595045205472616E73",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

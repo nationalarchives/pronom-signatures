@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1984,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52004F005800490020",
-      "endianness": null,
       "name": "Roxio Label Creator Project File v8-11",
-      "note": "BOF; Offset: 0; Magic Bytes: 'R.O.X.I.' \r\n\r\nEOF; Offset: 109 - 120; Magic bytes; '\u00ff\u00fe\u00ff.A.r.i.a.l'"
-    },
-    {
-      "signatureID": 1984,
-      "positionType": "Absolute from EOF",
-      "offset": 109,
-      "maxOffset": 11,
-      "byteSequence": "02FFFEFF0541007200690061006C",
-      "endianness": null,
-      "name": "Roxio Label Creator Project File v8-11",
-      "note": "BOF; Offset: 0; Magic Bytes: 'R.O.X.I.' \r\n\r\nEOF; Offset: 109 - 120; Magic bytes; '\u00ff\u00fe\u00ff.A.r.i.a.l'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'R.O.X.I.' \r\n\r\nEOF; Offset: 109 - 120; Magic bytes; '\u00ff\u00fe\u00ff.A.r.i.a.l'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52004F005800490020",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 109,
+          "maxOffset": 11,
+          "byteSequence": "02FFFEFF0541007200690061006C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

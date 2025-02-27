@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2218,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "484D4D535953205061636B46696C650A1A000000000000000000000000000000",
-      "endianness": null,
       "name": "HMM Packfile",
-      "note": "BOF: 'HMMSYS PackFile' followed by 15 null bytes"
+      "note": "BOF: 'HMMSYS PackFile' followed by 15 null bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "484D4D535953205061636B46696C650A1A000000000000000000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

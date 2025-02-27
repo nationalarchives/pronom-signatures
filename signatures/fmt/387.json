@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 572,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "424547494E3A5643414C454E444152*56455253494F4E{0-2}3A312E30",
-      "endianness": null,
       "name": "VCalendar format",
-      "note": "Header ASCII: BEGIN:VCALENDAR, followed at undefined point by VERSION:1.0 (version 1.0 signifies Vcalendar format, version 2.0 signifies Internet Calendaring and Scheduling format). Footer sequence ASCII: END:VCALENDAR"
-    },
-    {
-      "signatureID": 572,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 4,
-      "byteSequence": "454E443A5643414C454E444152",
-      "endianness": null,
-      "name": "VCalendar format",
-      "note": "Header ASCII: BEGIN:VCALENDAR, followed at undefined point by VERSION:1.0 (version 1.0 signifies Vcalendar format, version 2.0 signifies Internet Calendaring and Scheduling format). Footer sequence ASCII: END:VCALENDAR"
+      "note": "Header ASCII: BEGIN:VCALENDAR, followed at undefined point by VERSION:1.0 (version 1.0 signifies Vcalendar format, version 2.0 signifies Internet Calendaring and Scheduling format). Footer sequence ASCII: END:VCALENDAR",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "424547494E3A5643414C454E444152*56455253494F4E{0-2}3A312E30",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 4,
+          "byteSequence": "454E443A5643414C454E444152",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

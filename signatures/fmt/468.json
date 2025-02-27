@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 730,
-      "positionType": "Absolute from BOF",
-      "offset": 32700,
-      "maxOffset": 37700,
-      "byteSequence": "4344303031{1-16384}FF4344303031",
-      "endianness": null,
       "name": "ISO Disk Image File",
-      "note": "BOF: CD001{1-16384}\u00ffCD001 with offset of (32700- 37700).\r\nBeginning at byte 32768, an ISO file will hold two-to-many volume descriptors, each of 2048 bytes and starting with '*CD001', where * represents the volume desciptor type as defined within the specification."
+      "note": "BOF: CD001{1-16384}\u00ffCD001 with offset of (32700- 37700).\r\nBeginning at byte 32768, an ISO file will hold two-to-many volume descriptors, each of 2048 bytes and starting with '*CD001', where * represents the volume desciptor type as defined within the specification.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 32700,
+          "maxOffset": 37700,
+          "byteSequence": "4344303031{1-16384}FF4344303031",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

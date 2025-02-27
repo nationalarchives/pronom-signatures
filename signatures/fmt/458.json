@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 712,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "23207374796C652E64696409312E33202D20312F31312F39340D0A232040282329",
-      "endianness": null,
       "name": "Verity Collection Document Index Descriptor Style Set",
-      "note": "BOF: # style.did.1.3 - 1/11/94..# @(#)\r\nEOF: }..}.."
-    },
-    {
-      "signatureID": 712,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7D0D0A7D0D0A",
-      "endianness": null,
-      "name": "Verity Collection Document Index Descriptor Style Set",
-      "note": "BOF: # style.did.1.3 - 1/11/94..# @(#)\r\nEOF: }..}.."
+      "note": "BOF: # style.did.1.3 - 1/11/94..# @(#)\r\nEOF: }..}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "23207374796C652E64696409312E33202D20312F31312F39340D0A232040282329",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7D0D0A7D0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

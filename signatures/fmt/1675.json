@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2009,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00440001000000{2}000002",
-      "endianness": null,
       "name": "IntelliFont Font File",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x00440001000000{2}000002"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x00440001000000{2}000002",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00440001000000{2}000002",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

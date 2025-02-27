@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1570,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D4C49425241525934",
-      "endianness": null,
       "name": "Adobe InDesign Library 4",
-      "note": "BOF: 16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: LIBRARY4;"
+      "note": "BOF: 16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: LIBRARY4;",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D4C49425241525934",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2011,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C786D6C20786D6C6E733A6F3D2275726E3A736368656D61732D6D6963726F736F66742D636F6D3A6F66666963653A6F6666696365223E0D0A203C6F3A4D61696E46696C6520485265663D222E2E",
-      "endianness": null,
       "name": "Microsoft Office File List",
-      "note": "BOF Absolute from beginning of file, magic bytes <xml xmlns:o=\"urn:schemas-microsoft-com:office:office\"> <o:MainFile Href=\".. \r\nEOF Absolute from beginning of file, magic bytes: </xml>"
-    },
-    {
-      "signatureID": 2011,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C2F786D6C3E",
-      "endianness": null,
-      "name": "Microsoft Office File List",
-      "note": "BOF Absolute from beginning of file, magic bytes <xml xmlns:o=\"urn:schemas-microsoft-com:office:office\"> <o:MainFile Href=\".. \r\nEOF Absolute from beginning of file, magic bytes: </xml>"
+      "note": "BOF Absolute from beginning of file, magic bytes <xml xmlns:o=\"urn:schemas-microsoft-com:office:office\"> <o:MainFile Href=\".. \r\nEOF Absolute from beginning of file, magic bytes: </xml>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C786D6C20786D6C6E733A6F3D2275726E3A736368656D61732D6D6963726F736F66742D636F6D3A6F66666963653A6F6666696365223E0D0A203C6F3A4D61696E46696C6520485265663D222E2E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C2F786D6C3E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2133,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49434233",
-      "endianness": null,
       "name": "ICDRAW Group Icon File",
-      "note": "BOF:'ICB3'"
+      "note": "BOF:'ICB3'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49434233",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

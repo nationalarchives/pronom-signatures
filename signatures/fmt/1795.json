@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2135,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D5A{126-128500}50450000{20}0B01{66}[0000:1000]*54006F006F006C00(42|62)006F006F006B00",
-      "endianness": null,
       "name": "Asymetrix Toolbook File v6-11.5",
-      "note": "BOF; Offset: 0; Magic Bytes: Starting with 0x4D5A then between 126 to 128500 wildcard bytes followed by 0x50450000, then wildcard bytes of 20, followed by 0x0B01, then 66 wildcard bytes"
+      "note": "BOF; Offset: 0; Magic Bytes: Starting with 0x4D5A then between 126 to 128500 wildcard bytes followed by 0x50450000, then wildcard bytes of 20, followed by 0x0B01, then 66 wildcard bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D5A{126-128500}50450000{20}0B01{66}[0000:1000]*54006F006F006C00(42|62)006F006F006B00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

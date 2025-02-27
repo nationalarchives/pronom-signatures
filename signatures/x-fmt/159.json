@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 397,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0001000800(01|04)0002",
-      "endianness": "Big-endian",
       "name": "GEM Paint Image",
-      "note": "2 byte Version (always 1), number of words in header (8), 2 byte number of planes (1 or 4), pattern size (2)"
+      "note": "2 byte Version (always 1), number of words in header (8), 2 byte number of planes (1 or 4), pattern size (2)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0001000800(01|04)0002",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

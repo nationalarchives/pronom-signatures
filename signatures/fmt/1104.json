@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1486,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534657393441",
-      "endianness": null,
       "name": "Seattle FilmWorks Image 94A variant",
-      "note": "BOF: SFW94A"
+      "note": "BOF: SFW94A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534657393441",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1614,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534657393841",
-      "endianness": null,
       "name": "Seattle FilmWorks Image 98A variant",
-      "note": "BOF: SFW98A"
+      "note": "BOF: SFW98A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534657393841",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

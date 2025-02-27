@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1787,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "40436F72656C424D460A0D436F72656C20436F72706F726174696F6E0A0D",
-      "endianness": null,
       "name": "Corel Gallery Clipart BMF",
-      "note": "BOF: '@CorelBMF' 0x0D0A, 'Corel Corporation' 0x0D0A"
+      "note": "BOF: '@CorelBMF' 0x0D0A, 'Corel Corporation' 0x0D0A",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "40436F72656C424D460A0D436F72656C20436F72706F726174696F6E0A0D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 535,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4E49544630322E3030[30:39][31:39]20202020{10}[30:33][30:39][30:32][30:39][30:35][30:39][30:35][30:39]5A{3}[30:39][30:39]{80}(43|52|53|54|55)",
-      "endianness": null,
       "name": "National Imagery Transmission Format 2.0",
-      "note": "File Profile and name version declaration, followed by numercial complexity level (2 bytes), followed by 4 resereved bytes, followed by originating station id, followed by 14 byte file date and time sequence in form DDHHMMSSz(MON)YY, followed by 72 byte length file title alphanumeric sequence with 8 additional space bytes,to 1 byte file security classification declaration (T|S|C|R|U)"
+      "note": "File Profile and name version declaration, followed by numercial complexity level (2 bytes), followed by 4 resereved bytes, followed by originating station id, followed by 14 byte file date and time sequence in form DDHHMMSSz(MON)YY, followed by 72 byte length file title alphanumeric sequence with 8 additional space bytes,to 1 byte file security classification declaration (T|S|C|R|U)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4E49544630322E3030[30:39][31:39]20202020{10}[30:33][30:39][30:32][30:39][30:35][30:39][30:35][30:39]5A{3}[30:39][30:39]{80}(43|52|53|54|55)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

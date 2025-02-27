@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1933,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2E2E2F",
-      "endianness": null,
       "name": "ESRI ArcInfo .dat File (external)",
-      "note": "BOF, offset 0, magic bytes: ../\r\nEOF, offset 0-100, magic bytes,:   .adf"
-    },
-    {
-      "signatureID": 1933,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 60,
-      "byteSequence": "2E616466",
-      "endianness": null,
-      "name": "ESRI ArcInfo .dat File (external)",
-      "note": "BOF, offset 0, magic bytes: ../\r\nEOF, offset 0-100, magic bytes,:   .adf"
+      "note": "BOF, offset 0, magic bytes: ../\r\nEOF, offset 0-100, magic bytes,:   .adf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2E2E2F",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 60,
+          "byteSequence": "2E616466",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

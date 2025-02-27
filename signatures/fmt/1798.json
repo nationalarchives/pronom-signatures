@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 2137,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 256,
-      "byteSequence": "4055544638{0-256}40426567696E{0-64}404C616E6775616765733A{0-256}405061727469636970616E74733A",
-      "endianness": null,
       "name": "CHAT Transcription Format",
-      "note": "BOF, Offset 0, Max Offset 256, using 4 mandatory elements, although there are some additional non-mandatory elements that may also appear near BOF: \u2018@UTF8\u2019 {0-256} \u2018@Begin\u2019 {0-64} \u2018@Languages:\u2019 {0-256} \u2018@Participants:\u2019 \u2013 see https://talkbank.org/manuals/CHAT.pdf. As such these relative offsets between elements may need to be adjusted as more examples of this format are encountered."
+      "note": "BOF, Offset 0, Max Offset 256, using 4 mandatory elements, although there are some additional non-mandatory elements that may also appear near BOF: \u2018@UTF8\u2019 {0-256} \u2018@Begin\u2019 {0-64} \u2018@Languages:\u2019 {0-256} \u2018@Participants:\u2019 \u2013 see https://talkbank.org/manuals/CHAT.pdf. As such these relative offsets between elements may need to be adjusted as more examples of this format are encountered.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 256,
+          "byteSequence": "4055544638{0-256}40426567696E{0-64}404C616E6775616765733A{0-256}405061727469636970616E74733A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

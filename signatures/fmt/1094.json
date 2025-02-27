@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1474,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "6E6932000D0A1A0A",
-      "endianness": null,
       "name": "The Neuroimaging Informatics Technology Initiative File Format V2 variant1",
-      "note": "Offset 4: 'ni2 ' 0x0D0A1A0A\r\nhttps://www.nitrc.org/forum/forum.php?thread_id=2148&forum_id=1941"
+      "note": "Offset 4: 'ni2 ' 0x0D0A1A0A\r\nhttps://www.nitrc.org/forum/forum.php?thread_id=2148&forum_id=1941",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "6E6932000D0A1A0A",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1475,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": null,
-      "byteSequence": "6E2B32000D0A1A0A",
-      "endianness": null,
       "name": "The Neuroimaging Informatics Technology Initiative File Format V2 variant2",
-      "note": "Offset 4: 'n+2 ' 0x0D0A1A0A\r\nhttps://www.nitrc.org/forum/forum.php?thread_id=2148&forum_id=1941"
+      "note": "Offset 4: 'n+2 ' 0x0D0A1A0A\r\nhttps://www.nitrc.org/forum/forum.php?thread_id=2148&forum_id=1941",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": null,
+          "byteSequence": "6E2B32000D0A1A0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

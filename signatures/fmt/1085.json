@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1465,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5B5452494D20436F6E74657874205265666572656E63655D",
-      "endianness": null,
       "name": "TRIM Context Reference File",
-      "note": "BOF: [TRIM Context Reference]"
+      "note": "BOF: [TRIM Context Reference]",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5B5452494D20436F6E74657874205265666572656E63655D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

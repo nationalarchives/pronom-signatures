@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1799,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "574F524B53484545542053544F524544204259204D494E49544142",
-      "endianness": null,
       "name": "Minitab Worksheet 8-11",
-      "note": "BOF: 'WORKSHEET STORED BY MINITAB'"
+      "note": "BOF: 'WORKSHEET STORED BY MINITAB'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "574F524B53484545542053544F524544204259204D494E49544142",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

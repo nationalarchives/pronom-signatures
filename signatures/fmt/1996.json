@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2351,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0302230700000100",
-      "endianness": null,
       "name": "SPIR-V",
-      "note": "BOF magic number 0x03022307, version 0x00000100"
+      "note": "BOF magic number 0x03022307, version 0x00000100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0302230700000100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

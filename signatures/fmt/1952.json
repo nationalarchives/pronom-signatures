@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2297,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2E707870",
-      "endianness": null,
       "name": "PechaMaker Format",
-      "note": "BOF; Offset: 0; Bytes: '.pxp'"
+      "note": "BOF; Offset: 0; Bytes: '.pxp'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2E707870",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

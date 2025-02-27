@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2248,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504E4349",
-      "endianness": null,
       "name": "Norton Change Directory Persistent Cache File",
-      "note": "BOF:'PNCI'"
+      "note": "BOF:'PNCI'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504E4349",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

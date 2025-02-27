@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2192,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "EFBBBF2356657273696F6E20",
-      "endianness": null,
       "name": "Trelby Document File",
-      "note": "BOF Absolute from beginning of file, magic bytes: \u00ef\u00bb\u00bf#Version"
+      "note": "BOF Absolute from beginning of file, magic bytes: \u00ef\u00bb\u00bf#Version",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "EFBBBF2356657273696F6E20",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

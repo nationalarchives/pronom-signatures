@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 794,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "060E2B34020501010D0102010102{70}060E2B34040101010D0102010201",
-      "endianness": null,
       "name": "MXF OP2a",
-      "note": "Header ..+4.......... then Operational Pattern Label ..+4.........."
+      "note": "Header ..+4.......... then Operational Pattern Label ..+4..........",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "060E2B34020501010D0102010102{70}060E2B34040101010D0102010201",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

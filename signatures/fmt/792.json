@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1151,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5545462046696C652100",
-      "endianness": null,
       "name": "UEF",
-      "note": "Header - UEF File!."
+      "note": "Header - UEF File!.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5545462046696C652100",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

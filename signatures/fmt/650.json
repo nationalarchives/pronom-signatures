@@ -32,33 +32,45 @@
   "internalSignatures": [
     {
       "signatureID": 979,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C76312E36303E3C65(30|31)3E0D{1-512}50726F6A65637420686173206265656E2073617665642062792074686520666F6C6C6F77696E672076657273696F6E73206F6620517561726B585072657373",
-      "endianness": null,
       "name": "QuarkXpress Report 1",
-      "note": "BOF: <v1.60><e(0|1)>.{1-512}Project has been saved by the following versions of QuarkXPress"
+      "note": "BOF: <v1.60><e(0|1)>.{1-512}Project has been saved by the following versions of QuarkXPress",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C76312E36303E3C65(30|31)3E0D{1-512}50726F6A65637420686173206265656E2073617665642062792074686520666F6C6C6F77696E672076657273696F6E73206F6620517561726B585072657373",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 980,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "3C00760031002E00360030003E003C006500(30|31)003E00{1-1024}500072006F006A00650063007400200068006100730020006200650065006E002000730061007600650064002000620079002000740068006500200066006F006C006C006F00770069006E0067002000760065007200730069006F006E00730020006F006600200051007500610072006B00580050007200650073007300",
-      "endianness": null,
       "name": "QuarkXpress Report 2",
-      "note": "Offset 2: <.v.1...6.0.>.<.e.1.>.{1-1024}P.r.o.j.e.c.t. .h.a.s. .b.e.e.n. .s.a.v.e.d. .b.y. .t.h.e. .f.o.l.l.o.w.i.n.g. .v.e.r.s.i.o.n.s. .o.f. .Q.u.a.r.k.X.P.r.e.s.s."
+      "note": "Offset 2: <.v.1...6.0.>.<.e.1.>.{1-1024}P.r.o.j.e.c.t. .h.a.s. .b.e.e.n. .s.a.v.e.d. .b.y. .t.h.e. .f.o.l.l.o.w.i.n.g. .v.e.r.s.i.o.n.s. .o.f. .Q.u.a.r.k.X.P.r.e.s.s.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "3C00760031002E00360030003E003C006500(30|31)003E00{1-1024}500072006F006A00650063007400200068006100730020006200650065006E002000730061007600650064002000620079002000740068006500200066006F006C006C006F00770069006E0067002000760065007200730069006F006E00730020006F006600200051007500610072006B00580050007200650073007300",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 981,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C76312E36303E3C65(30|31)3E0D{1-512}446F63756D656E7420686173206265656E2073617665642062792074686520666F6C6C6F77696E672076657273696F6E73206F6620517561726B585072657373",
-      "endianness": null,
       "name": "QuarkXpress Report 3",
-      "note": "BOF: <v1.60><e0>.{1-512}Document has been saved by the following versions of QuarkXPress"
+      "note": "BOF: <v1.60><e0>.{1-512}Document has been saved by the following versions of QuarkXPress",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C76312E36303E3C65(30|31)3E0D{1-512}446F63756D656E7420686173206265656E2073617665642062792074686520666F6C6C6F77696E672076657273696F6E73206F6620517561726B585072657373",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

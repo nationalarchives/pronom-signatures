@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 642,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504B{48}524946(46|58){4}43445245",
-      "endianness": null,
       "name": "CorelDraw X4",
-      "note": "PK{48}RIFF (little-endian) or RIFX (big-endian){4}CDRE (E=14 although refferred to as version X4)"
+      "note": "PK{48}RIFF (little-endian) or RIFX (big-endian){4}CDRE (E=14 although refferred to as version X4)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504B{48}524946(46|58){4}43445245",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

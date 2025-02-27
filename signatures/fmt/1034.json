@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1393,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "72(01|02)01{105}00",
-      "endianness": null,
       "name": "Stata DTA 114",
-      "note": "'r' 0x(01|02)=(big|little) endianness filetype (0x01) 0x00 at position 109\r\nBased on specification: http://www.stata.com/help.cgi?dta_114"
+      "note": "'r' 0x(01|02)=(big|little) endianness filetype (0x01) 0x00 at position 109\r\nBased on specification: http://www.stata.com/help.cgi?dta_114",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "72(01|02)01{105}00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

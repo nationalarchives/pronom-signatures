@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1745,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "444F53(00|01|02|03|04|05|06|07)",
-      "endianness": null,
       "name": "Amiga Disk File",
-      "note": "BOF: \u2018DOS\u2019 followed by \u201800|01|02|03|04|05|06|07\u2019 depending on the format of the disk. More information on the internal signature can be found here: http://lclevy.free.fr/adflib/adf_info.html#p41"
+      "note": "BOF: \u2018DOS\u2019 followed by \u201800|01|02|03|04|05|06|07\u2019 depending on the format of the disk. More information on the internal signature can be found here: http://lclevy.free.fr/adflib/adf_info.html#p41",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "444F53(00|01|02|03|04|05|06|07)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

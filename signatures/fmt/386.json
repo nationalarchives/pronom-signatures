@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 571,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "52494646{4}41434F4E{0-*}616E69682400000024000000[!00]*4C495354{4}6672616D69636F6E",
-      "endianness": null,
       "name": "Microsoft Animated Cursor Format",
-      "note": "Header: RIFF (4 bytes) ACON (variable length byte sequence) anih, then length of subchunck (32) minus 8 followed by HeaderSize is the size of the subchunk data (all the bytes appearing after the Size field) in bytes. Followed by LIST (4 bytes) framicon"
+      "note": "Header: RIFF (4 bytes) ACON (variable length byte sequence) anih, then length of subchunck (32) minus 8 followed by HeaderSize is the size of the subchunk data (all the bytes appearing after the Size field) in bytes. Followed by LIST (4 bytes) framicon",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "52494646{4}41434F4E{0-*}616E69682400000024000000[!00]*4C495354{4}6672616D69636F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

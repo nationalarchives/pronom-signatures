@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2062,
-      "positionType": "Absolute from BOF",
-      "offset": 56,
-      "maxOffset": 56,
-      "byteSequence": "2F2078732C79732C6D622C6D722C6D742C6D6C",
-      "endianness": null,
       "name": "Geosoft Map Description File",
-      "note": "BOF, offset 56, magic bytes: / xs,ys,mb,mr,mt,ml"
+      "note": "BOF, offset 56, magic bytes: / xs,ys,mb,mr,mt,ml",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 56,
+          "maxOffset": 56,
+          "byteSequence": "2F2078732C79732C6D622C6D722C6D742C6D6C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

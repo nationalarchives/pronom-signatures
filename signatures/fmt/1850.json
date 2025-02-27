@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2194,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF575043{4}0101",
-      "endianness": null,
       "name": "WordPerfect Macro File - wpm extension",
-      "note": "Absolute from beginning of file, magic bytes: \u00ffWPC{4}.."
+      "note": "Absolute from beginning of file, magic bytes: \u00ffWPC{4}..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF575043{4}0101",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2195,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FF575043{4}010A{0-4000}(77636D|57434D)*(61|41)70706C69636174696F6E{0-15}(64|44)656661756C74",
-      "endianness": null,
       "name": "WordPerfect Macro File - wcm extension",
-      "note": "Absolute from beginning of file, magic bytes: \u00ffWPC{4}..{0-4000}(wcm|WCM)*(a|A)pplication{0-15}(d|D}efault"
+      "note": "Absolute from beginning of file, magic bytes: \u00ffWPC{4}..{0-4000}(wcm|WCM)*(a|A)pplication{0-15}(d|D}efault",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FF575043{4}010A{0-4000}(77636D|57434D)*(61|41)70706C69636174696F6E{0-15}(64|44)656661756C74",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 2150,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "08F2A6B6",
-      "endianness": null,
       "name": "Vips Little-endian",
-      "note": "Description: Hex magic: 0x08F2A6B6"
+      "note": "Description: Hex magic: 0x08F2A6B6",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "08F2A6B6",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 2151,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "B6A6F208",
-      "endianness": "Big-endian",
       "name": "Vips Big-endian",
-      "note": "Description: Hex Magic: 0xB6A6F208"
+      "note": "Description: Hex Magic: 0xB6A6F208",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "B6A6F208",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

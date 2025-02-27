@@ -36,33 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 181,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
-      "endianness": null,
       "name": "PowerPoint 4.0",
-      "note": "Compound document header + PowerPoint Document user stream + version number (pp40)"
-    },
-    {
-      "signatureID": 181,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "5000500034003000",
-      "endianness": null,
-      "name": "PowerPoint 4.0",
-      "note": "Compound document header + PowerPoint Document user stream + version number (pp40)"
-    },
-    {
-      "signatureID": 181,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "4D6963726F736F667420506F776572506F696E74",
-      "endianness": null,
-      "name": "PowerPoint 4.0",
-      "note": "Compound document header + PowerPoint Document user stream + version number (pp40)"
+      "note": "Compound document header + PowerPoint Document user stream + version number (pp40)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "5000500034003000",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "4D6963726F736F667420506F776572506F696E74",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

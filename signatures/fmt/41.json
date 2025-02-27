@@ -36,43 +36,45 @@
   "internalSignatures": [
     {
       "signatureID": 69,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFD8FF",
-      "endianness": null,
       "name": "Raw JPEG",
-      "note": "SOI marker at BOF, EOI marker at EOF"
-    },
-    {
-      "signatureID": 69,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 65536,
-      "byteSequence": "FFD9",
-      "endianness": null,
-      "name": "Raw JPEG",
-      "note": "SOI marker at BOF, EOI marker at EOF"
+      "note": "SOI marker at BOF, EOI marker at EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFD8FF",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "FFD9",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 697,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FFD8FFED{2}50686F746F73686F7020332E30003842494D",
-      "endianness": null,
       "name": "Photoshop JPEG",
-      "note": "BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0. \r\nEOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metadata seen after the end of image marker in sample files."
-    },
-    {
-      "signatureID": 697,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 16000,
-      "byteSequence": "FFD9",
-      "endianness": null,
-      "name": "Photoshop JPEG",
-      "note": "BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0. \r\nEOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metadata seen after the end of image marker in sample files."
+      "note": "BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0. \r\nEOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metadata seen after the end of image marker in sample files.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FFD8FFED{2}50686F746F73686F7020332E30003842494D",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 16000,
+          "byteSequence": "FFD9",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

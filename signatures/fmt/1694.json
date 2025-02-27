@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2027,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "034A424F4FF53C55",
-      "endianness": null,
       "name": "Asymetrix Compel Presentation v2.0",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x034A424F4FF53C55"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x034A424F4FF53C55",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "034A424F4FF53C55",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

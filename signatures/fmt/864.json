@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1225,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "33442047656F6D657472792046696C6520466F726D61742020202020202035",
-      "endianness": null,
       "name": "3DM 5",
-      "note": "Header with version number - 3D Geometry File Format       5"
+      "note": "Header with version number - 3D Geometry File Format       5",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "33442047656F6D657472792046696C6520466F726D61742020202020202035",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

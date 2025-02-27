@@ -36,23 +36,31 @@
   "internalSignatures": [
     {
       "signatureID": 9,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "49492A00",
-      "endianness": null,
       "name": "TIFF generic (little-endian)",
-      "note": "Header: II* 0x00"
+      "note": "Header: II* 0x00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "49492A00",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 10,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D4D002A",
-      "endianness": null,
       "name": "TIFF generic (big-endian)",
-      "note": "Header: MM 0x00 *"
+      "note": "Header: MM 0x00 *",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D4D002A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 22,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "255044462D312E35",
-      "endianness": null,
       "name": "PDF 1.5",
-      "note": "BOF: %PDF-1.5 EOF (offset up to 1024 bytes): %%EOF"
-    },
-    {
-      "signatureID": 22,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 1024,
-      "byteSequence": "2525454F46",
-      "endianness": null,
-      "name": "PDF 1.5",
-      "note": "BOF: %PDF-1.5 EOF (offset up to 1024 bytes): %%EOF"
+      "note": "BOF: %PDF-1.5 EOF (offset up to 1024 bytes): %%EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "255044462D312E35",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "2525454F46",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

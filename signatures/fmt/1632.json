@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1972,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54(01|02){4}(09000000|00000009)",
-      "endianness": null,
       "name": "Adobe InDesign Document CC",
-      "note": "BOF:0x0606 (2 x Acknowledge) followed by '\u00ed\u00f5\u00d8' followed by 0x1D (Group Separator) followed by 'F\u00e5\u00bd1\u00ef\u00e7\u00fet\u00b7' followed by 0x1D (Group Separator) followed by 'DOCUMENT' followed by either 0x01 (Start of Header) or 0x02 (Start of Text) followed by a fixed gap of 4 followed by either 0x09000000 (Horizontal Tab followed by 3 x Null) or 0x00000009 (3 x Null followed by Horizontal Tab)"
+      "note": "BOF:0x0606 (2 x Acknowledge) followed by '\u00ed\u00f5\u00d8' followed by 0x1D (Group Separator) followed by 'F\u00e5\u00bd1\u00ef\u00e7\u00fet\u00b7' followed by 0x1D (Group Separator) followed by 'DOCUMENT' followed by either 0x01 (Start of Header) or 0x02 (Start of Text) followed by a fixed gap of 4 followed by either 0x09000000 (Horizontal Tab followed by 3 x Null) or 0x00000009 (3 x Null followed by Horizontal Tab)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54(01|02){4}(09000000|00000009)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1586,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4E656D6F20466900",
-      "endianness": null,
       "name": "Virtools File Format",
-      "note": "BOF: 'Nemo Fi.'"
+      "note": "BOF: 'Nemo Fi.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4E656D6F20466900",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1724,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1000000001000001{0-288}424DB6BB",
-      "endianness": null,
       "name": "Sony PictureGear Studio PhotoAlbum",
-      "note": "BOF: 0x1000000001000001{0-288}'BM\u00b6\u00bb'"
+      "note": "BOF: 0x1000000001000001{0-288}'BM\u00b6\u00bb'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1000000001000001{0-288}424DB6BB",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

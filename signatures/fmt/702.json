@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1031,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "55334400",
-      "endianness": null,
       "name": "Universal 3D File Format",
-      "note": "BOF: U3D."
+      "note": "BOF: U3D.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "55334400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

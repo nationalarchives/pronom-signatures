@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2004,
-      "positionType": "Absolute from BOF",
-      "offset": 160,
-      "maxOffset": 100,
-      "byteSequence": "31303235334334432D323239442D346338372D384431442D313639454644464544383639",
-      "endianness": null,
       "name": "Roxio Audio Project File v11",
-      "note": "BOF; Offset: 169-260; Magic Bytes: '10253C4C-229D-4c87-8D1D-169EFDFED869'"
+      "note": "BOF; Offset: 169-260; Magic Bytes: '10253C4C-229D-4c87-8D1D-169EFDFED869'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 160,
+          "maxOffset": 100,
+          "byteSequence": "31303235334334432D323239442D346338372D384431442D313639454644464544383639",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

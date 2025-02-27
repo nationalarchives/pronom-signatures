@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 595,
-      "positionType": "Absolute from BOF",
-      "offset": 80,
-      "maxOffset": null,
-      "byteSequence": "4354000000000000000000000000??0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000{879}(00|01)??00(07|08|FF)",
-      "endianness": "Big-endian",
       "name": "Scitex Continuous Tone Bitmap",
-      "note": "Offset for file name (80), \u201cCT\u201d, BlockSize (12), Count (1); Padding/reserved field (50), Units of measurement (0=MM,1=INCH) + Color Model (7=RGB, 8=GREYSCALE, 15=0xFF=CMYK)"
+      "note": "Offset for file name (80), \u201cCT\u201d, BlockSize (12), Count (1); Padding/reserved field (50), Units of measurement (0=MM,1=INCH) + Color Model (7=RGB, 8=GREYSCALE, 15=0xFF=CMYK)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 80,
+          "maxOffset": null,
+          "byteSequence": "4354000000000000000000000000??0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000{879}(00|01)??00(07|08|FF)",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

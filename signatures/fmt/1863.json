@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2207,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D6174203134",
-      "endianness": null,
       "name": "Adobe Illustrator CC 2020 Artwork 24-24.1",
-      "note": "PDF header '%PDF-1.5<illustrator:Type>Document</illustrator:Type>%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat 14'"
+      "note": "PDF header '%PDF-1.5<illustrator:Type>Document</illustrator:Type>%!PS-Adobe-3.0' followed by wildcard bytes, then '%AI5_FileFormat 14'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D6174203134",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

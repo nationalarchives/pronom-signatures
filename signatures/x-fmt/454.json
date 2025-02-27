@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 263,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 35,
-      "byteSequence": "5B496E7465726E657453686F72746375745D",
-      "endianness": "Little-endian",
       "name": "Microsoft Windows URL",
-      "note": "Signature - 5B 49 6E 74 65 72 6E 65 74 53 68 6F 72 74 63 75 74 5D - ASCII - [InternetShortcut] may further be ammended by two bytes 0x0D 0x0A [CR LF / Carriage Return, Line Feed] at the end of the signature if required. Further, the initial 18 byte sequence may suffer regional differences, additional byte sequences may be required to identify these also."
+      "note": "Signature - 5B 49 6E 74 65 72 6E 65 74 53 68 6F 72 74 63 75 74 5D - ASCII - [InternetShortcut] may further be ammended by two bytes 0x0D 0x0A [CR LF / Carriage Return, Line Feed] at the end of the signature if required. Further, the initial 18 byte sequence may suffer regional differences, additional byte sequences may be required to identify these also.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 35,
+          "byteSequence": "5B496E7465726E657453686F72746375745D",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

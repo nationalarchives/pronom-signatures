@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2242,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "505A5854",
-      "endianness": null,
       "name": "Perfect ZX Tape (PZX) Image Format",
-      "note": "BOF:'PZXT'"
+      "note": "BOF:'PZXT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "505A5854",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

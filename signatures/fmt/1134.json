@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1516,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27){8-512}687474703A2F2F7777772E746F706F6772616669782E636F6D2F4750582F312F3122",
-      "endianness": null,
       "name": "GPX 1.1",
-      "note": "BOF: XML declaration{8-512}GPX 1.1 namespace http://www.topografix.com/GPX/1/1"
+      "note": "BOF: XML declaration{8-512}GPX 1.1 namespace http://www.topografix.com/GPX/1/1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27){8-512}687474703A2F2F7777772E746F706F6772616669782E636F6D2F4750582F312F3122",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

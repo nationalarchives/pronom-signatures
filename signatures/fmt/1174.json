@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 1555,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "1B2530424250494E",
-      "endianness": null,
       "name": "HP-GL/2",
-      "note": "BOF <ESC> character (0x1B) '%0BBPIN'\r\nEOF: 'PG;"
-    },
-    {
-      "signatureID": 1555,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "50473B",
-      "endianness": null,
-      "name": "HP-GL/2",
-      "note": "BOF <ESC> character (0x1B) '%0BBPIN'\r\nEOF: 'PG;"
+      "note": "BOF <ESC> character (0x1B) '%0BBPIN'\r\nEOF: 'PG;",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "1B2530424250494E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "50473B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

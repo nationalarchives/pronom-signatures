@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2299,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4175746F434144203230303020426174636820506C6F74204C6973742046696C65",
-      "endianness": null,
       "name": "\tAutoCAD Batch Plot File \t2000-2005",
-      "note": "Absolute from beginning of file, magic bytes: AutoCAD 2000 Batch Plot List File"
+      "note": "Absolute from beginning of file, magic bytes: AutoCAD 2000 Batch Plot List File",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4175746F434144203230303020426174636820506C6F74204C6973742046696C65",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

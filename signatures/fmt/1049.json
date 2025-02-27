@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1412,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "33444D65746166696C652028",
-      "endianness": null,
       "name": "3DMF ASCII",
-      "note": "BOF: '3DMetafile ('\r\nhttps://hwiegman.home.xs4all.nl/fileformats/3dmf/3DMF.pdf"
+      "note": "BOF: '3DMetafile ('\r\nhttps://hwiegman.home.xs4all.nl/fileformats/3dmf/3DMF.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "33444D65746166696C652028",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2112,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "536F6674776172653630320D0A43616C6336303220762E{1-4}2047726166",
-      "endianness": null,
       "name": "602 Graph/Chart File",
-      "note": "BOF Absolute from beginning of file, magic bytes: Software602 Calc602 v.{1-4} Graf"
+      "note": "BOF Absolute from beginning of file, magic bytes: Software602 Calc602 v.{1-4} Graf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "536F6674776172653630320D0A43616C6336303220762E{1-4}2047726166",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

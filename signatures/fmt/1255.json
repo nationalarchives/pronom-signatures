@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1629,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "9CCBCB8D1375D211915800C04F7956A4{0-400}813284C18505D011B29000AA003CF676",
-      "endianness": null,
       "name": "Windows Address Book",
-      "note": "BOF: 0x9CCBCB8D1375D211915800C04F7956A4{0-400}813284C18505D011B29000AA003CF676"
+      "note": "BOF: 0x9CCBCB8D1375D211915800C04F7956A4{0-400}813284C18505D011B29000AA003CF676",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "9CCBCB8D1375D211915800C04F7956A4{0-400}813284C18505D011B29000AA003CF676",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

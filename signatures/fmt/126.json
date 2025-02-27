@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 172,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
-      "endianness": null,
       "name": "Powerpoint 97-2003",
-      "note": "Compound Document Header + PowerPoint Document user stream"
-    },
-    {
-      "signatureID": 172,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "50006F0077006500720050006F0069006E007400200044006F00630075006D0065006E007400",
-      "endianness": null,
-      "name": "Powerpoint 97-2003",
-      "note": "Compound Document Header + PowerPoint Document user stream"
+      "note": "Compound Document Header + PowerPoint Document user stream",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "D0CF11E0A1B11AE1{20}FEFF",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "50006F0077006500720050006F0069006E007400200044006F00630075006D0065006E007400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

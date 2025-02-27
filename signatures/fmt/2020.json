@@ -1,0 +1,63 @@
+{
+  "fileFormatID": 3894,
+  "formatName": "askSam Document for Windows",
+  "version": "1",
+  "formatDescription": "AskSam, originally created for DOS but later for Windows, was a database desktop application and personal information manager. It could organise emails, documents, text files, spreadsheets and web pages into dynamic folders and export reports or spreadsheets. Created by The Florida company askSam systems was formed in 1985. The final release was created for version 7 of Windows in 2008.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": "http://fileformats.archiveteam.org/wiki/AskSam",
+  "lastUpdatedDate": "10 Oct 2024",
+  "formatSourceID": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatProvenance": null,
+  "formatSourceDate": "10 Oct 2024",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Database",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/2020",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3382,
+      "name": "askSam for Windows v.1",
+      "note": "BOF; Offset: 0; Magic Bytes: \u2018askwin\u2019 followed by two null bytes",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "61736B77696E0000",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ask",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 3895,
+      "relatedFormatName": "askSam Document for Windows"
+    },
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 3893,
+      "relatedFormatName": "askSam Document for DOS"
+    }
+  ],
+  "source": 299
+}

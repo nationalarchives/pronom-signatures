@@ -36,33 +36,38 @@
   "internalSignatures": [
     {
       "signatureID": 177,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "252150532D41646F62652D32{0-3}455053462D32{0-2}0A",
-      "endianness": null,
       "name": "EPS 2.0",
-      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-2{0-3}EPSF-2{0-2}."
+      "note": "Absolute from beginning of file, magic bytes: %!PS-Adobe-2{0-3}EPSF-2{0-2}.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "252150532D41646F62652D32{0-3}455053462D32{0-2}0A",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 178,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "C5D0D3C6",
-      "endianness": null,
       "name": "EPS 2.0 Preview",
-      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable: %!PS-Adobe-2.0 EPSF-2.0(.|..)"
-    },
-    {
-      "signatureID": 178,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "252150532D41646F62652D322E3020455053462D322E30(0D|0A|0D0A|0A0D)",
-      "endianness": null,
-      "name": "EPS 2.0 Preview",
-      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable: %!PS-Adobe-2.0 EPSF-2.0(.|..)"
+      "note": "Absolute from beginning of file, magic bytes: \u00c5\u00d0\u00d3\u00c6\r\nVariable: %!PS-Adobe-2.0 EPSF-2.0(.|..)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "C5D0D3C6",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "252150532D41646F62652D322E3020455053462D322E30(0D|0A|0D0A|0A0D)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

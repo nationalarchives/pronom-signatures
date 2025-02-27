@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 80,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
-      "endianness": null,
       "name": "Advanced Systems Format",
-      "note": "Header Object"
+      "note": "Header Object",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "3026B2758E66CF11A6D900AA0062CE6C{12}0102",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

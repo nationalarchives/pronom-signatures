@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 322,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "46483331",
-      "endianness": "Little-endian",
       "name": "Aldus Freehand Drawing Version 3",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "46483331",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

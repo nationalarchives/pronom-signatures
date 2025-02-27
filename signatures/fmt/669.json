@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1000,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "004D524D00",
-      "endianness": null,
       "name": "Minolta RAW",
-      "note": "BOF: .MRM."
+      "note": "BOF: .MRM.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "004D524D00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

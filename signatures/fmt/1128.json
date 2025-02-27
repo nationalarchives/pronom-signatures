@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1510,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504746(02|05|06|07)",
-      "endianness": null,
       "name": "Progressive Graphics File",
-      "note": "BOF: \"PGF\", Version = The source code suggests possible versions 2, 5, 6, 7, however samples available from the libpgf SourceForge project site are all version 6. http://libpgf.org/fileadmin/MEDIA/PGF_Details.pdf"
+      "note": "BOF: \"PGF\", Version = The source code suggests possible versions 2, 5, 6, 7, however samples available from the libpgf SourceForge project site are all version 6. http://libpgf.org/fileadmin/MEDIA/PGF_Details.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504746(02|05|06|07)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

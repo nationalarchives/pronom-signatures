@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1316,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "505346(01|02|11|12|13|21|22|23|41)",
-      "endianness": null,
       "name": "Portable Sound Format",
-      "note": "BOF: PSFx, where x represents one of the following values for which PSF has been adapted\r\n\r\n4th byte:\r\n0x01: Playstation (PSF1)\r\n0x02: Playstation 2 (PSF2)\r\n0x11: Sega Saturn (SSF)\r\n0x12: Sega Dreamcast (DSF)\r\n0x13: Sega Genesis\r\n0x21: Nintendo 64 (USF)\r\n0x22: GameBoy Advance (GSF)\r\n0x23: Super NES (SNSF)\r\n0x41: Capcom QSound (QSF)\r\n\r\nFormat description: http://web.archive.org/web/20140125155137/http://wiki.neillcorlett.com/PSFFormat"
+      "note": "BOF: PSFx, where x represents one of the following values for which PSF has been adapted\r\n\r\n4th byte:\r\n0x01: Playstation (PSF1)\r\n0x02: Playstation 2 (PSF2)\r\n0x11: Sega Saturn (SSF)\r\n0x12: Sega Dreamcast (DSF)\r\n0x13: Sega Genesis\r\n0x21: Nintendo 64 (USF)\r\n0x22: GameBoy Advance (GSF)\r\n0x23: Super NES (SNSF)\r\n0x41: Capcom QSound (QSF)\r\n\r\nFormat description: http://web.archive.org/web/20140125155137/http://wiki.neillcorlett.com/PSFFormat",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "505346(01|02|11|12|13|21|22|23|41)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

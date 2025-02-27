@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 517,
-      "positionType": "Absolute from BOF",
-      "offset": 2,
-      "maxOffset": null,
-      "byteSequence": "0008(00|02)[01:04]{31}00000000{16}[03:04]",
-      "endianness": null,
       "name": "Paradox Database Table 3.0",
-      "note": "Header: offset 2 contains 2 byte length of header block (always 2048 little-endian (0008h); 0ffset 4 a 1 byte code of 00 or 02 for indexed or non-indexed database table, respectively; offset 5, 1 byte indicating maximum block size ( 1 = 1024, \u2026 4=4096 in steps of 1 k); offset  25h or 37 decimal 00000000h indicating file is not encrypted, offset 39h or 57 decimal code indicating table version [03:04]."
+      "note": "Header: offset 2 contains 2 byte length of header block (always 2048 little-endian (0008h); 0ffset 4 a 1 byte code of 00 or 02 for indexed or non-indexed database table, respectively; offset 5, 1 byte indicating maximum block size ( 1 = 1024, \u2026 4=4096 in steps of 1 k); offset  25h or 37 decimal 00000000h indicating file is not encrypted, offset 39h or 57 decimal code indicating table version [03:04].",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 2,
+          "maxOffset": null,
+          "byteSequence": "0008(00|02)[01:04]{31}00000000{16}[03:04]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

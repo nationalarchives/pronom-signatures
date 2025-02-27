@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1995,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4C4D383935330000000000000000000000{5}(49|C9)01",
-      "endianness": null,
       "name": "Yamaha TX Wave Audio",
-      "note": "BOF; Offset: 0; Magic Bytes: 'LM8953, then null bytes followed by wildcard bytes beween {16-21} then either bytes 0x49 or 0xC9, followed by 0x01'"
+      "note": "BOF; Offset: 0; Magic Bytes: 'LM8953, then null bytes followed by wildcard bytes beween {16-21} then either bytes 0x49 or 0xC9, followed by 0x01'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4C4D383935330000000000000000000000{5}(49|C9)01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

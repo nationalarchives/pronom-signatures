@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1245,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "49492B00080000001000000000000000",
-      "endianness": null,
       "name": "Zoomify ZIF",
-      "note": "BOF: II+.....\r\nhttps://github.com/lovasoa/ZIF/"
+      "note": "BOF: II+.....\r\nhttps://github.com/lovasoa/ZIF/",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492B00080000001000000000000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

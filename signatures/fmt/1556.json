@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1900,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "534453",
-      "endianness": null,
       "name": "Starlink Data Format",
-      "note": "BOF; Offset: 0; Magic Bytes: SDS"
+      "note": "BOF; Offset: 0; Magic Bytes: SDS",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534453",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

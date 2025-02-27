@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1179,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "43363420434152545249444745202020{48}43484950",
-      "endianness": null,
       "name": "CRT C64 Cartridge",
-      "note": "BOF: C64 CARTRIDGE   {48}CHIP"
+      "note": "BOF: C64 CARTRIDGE   {48}CHIP",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "43363420434152545249444745202020{48}43484950",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

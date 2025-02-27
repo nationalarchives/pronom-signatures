@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2003,
-      "positionType": "Absolute from BOF",
-      "offset": 160,
-      "maxOffset": 100,
-      "byteSequence": "39434130454545452D354243352D343165392D383234322D424545323136343346464630",
-      "endianness": null,
       "name": "Roxio Data Project File v11",
-      "note": "BOF; Offset: 160-260; Magic Bytes: '9CA0EEEE-5BC5-41e9-8242-BEE21643FFF0'"
+      "note": "BOF; Offset: 160-260; Magic Bytes: '9CA0EEEE-5BC5-41e9-8242-BEE21643FFF0'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 160,
+          "maxOffset": 100,
+          "byteSequence": "39434130454545452D354243352D343165392D383234322D424545323136343346464630",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2097,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D454449412044455343524950544F52",
-      "endianness": null,
       "name": "Media Descriptor Sidecar File",
-      "note": "BOF; Offset:0; Magic Bytes: 'MEDIA DESCRIPTOR'"
+      "note": "BOF; Offset:0; Magic Bytes: 'MEDIA DESCRIPTOR'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D454449412044455343524950544F52",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

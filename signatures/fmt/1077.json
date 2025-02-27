@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1458,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5449445830313030",
-      "endianness": null,
       "name": "AVCHD Thumbnail Index File",
-      "note": "BOF: TIDX0100"
+      "note": "BOF: TIDX0100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5449445830313030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

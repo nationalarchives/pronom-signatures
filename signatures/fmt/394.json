@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 635,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "01427564310000",
-      "endianness": null,
       "name": "DS_Store",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "01427564310000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

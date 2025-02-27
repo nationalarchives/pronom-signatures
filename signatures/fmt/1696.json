@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2029,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "41CEAE1940060000",
-      "endianness": null,
       "name": "ESRI Attribute Index Files",
-      "note": "BOF Absolute from beginning of file, magic bytes: A\u00ce\u00ae.@..."
+      "note": "BOF Absolute from beginning of file, magic bytes: A\u00ce\u00ae.@...",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41CEAE1940060000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

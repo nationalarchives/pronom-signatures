@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1439,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D4D002A{4-16384}FDE8{4-16384}4B6F64616B{4-256}FDE8",
-      "endianness": null,
       "name": "Kodak DCR Raw",
-      "note": "BOF: Big endian TIFF header MM 0x002A {4-16384} IFD tag 0xFDE8 {4-16384} 'Kodak' {4-256} IFD tag 0xFDE8"
+      "note": "BOF: Big endian TIFF header MM 0x002A {4-16384} IFD tag 0xFDE8 {4-16384} 'Kodak' {4-256} IFD tag 0xFDE8",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D4D002A{4-16384}FDE8{4-16384}4B6F64616B{4-256}FDE8",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

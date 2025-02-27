@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2357,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "2576736D250000",
-      "endianness": null,
       "name": "Husqvarna / TruE Embroidery Stitch File",
-      "note": "BOF; Offset: 0; Magic Bytes: 2576736D250000"
+      "note": "BOF; Offset: 0; Magic Bytes: 2576736D250000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2576736D250000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

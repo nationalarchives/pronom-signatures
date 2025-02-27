@@ -28,53 +28,73 @@
   "internalSignatures": [
     {
       "signatureID": 1195,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8000{16}0300{0-65535}286329435249",
-      "endianness": null,
       "name": "ADX V3",
-      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8000{16}0300{0-65535}286329435249",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1196,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8000{16}0400{0-65535}286329435249",
-      "endianness": null,
       "name": "ADX V4",
-      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8000{16}0400{0-65535}286329435249",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1197,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8000{16}0500{0-65535}286329435249",
-      "endianness": null,
       "name": "ADX V5",
-      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8000{16}0500{0-65535}286329435249",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1198,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8000{16}0408{0-65535}286329435249",
-      "endianness": null,
       "name": "ADX V8 encrypted",
-      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8000{16}0408{0-65535}286329435249",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1199,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "8000{16}0409{0-65535}286329435249",
-      "endianness": null,
       "name": "ADX V9 encrypted",
-      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements."
+      "note": "2 Byte Magic, then variable 2 byte offset to copyright statement (max value 0xFFFF, or 65535 bytes). Bytes 0x12-13 are the version and encryption flag statements.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "8000{16}0409{0-65535}286329435249",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

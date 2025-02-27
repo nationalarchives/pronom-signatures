@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1568,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "00105B4D65736853657269616C697A65725F7631",
-      "endianness": null,
       "name": "Ogre Mesh 1.x",
-      "note": "0x0010 '[MeshSerializer_v1'"
+      "note": "0x0010 '[MeshSerializer_v1'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "00105B4D65736853657269616C697A65725F7631",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

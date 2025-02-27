@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 486,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FE37001C",
-      "endianness": null,
       "name": "Microsoft Word for Macintosh Document 4.0",
-      "note": "wIdent (2 bytes) (FE37h); nFib \u2013 version number of file format (2 bytes )(00C1h)"
+      "note": "wIdent (2 bytes) (FE37h); nFib \u2013 version number of file format (2 bytes )(00C1h)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FE37001C",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

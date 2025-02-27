@@ -36,63 +36,66 @@
   "internalSignatures": [
     {
       "signatureID": 183,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "89504E470D0A1A0A0000000D49484452*69434350",
-      "endianness": null,
       "name": "PNG 1.1iCCP",
-      "note": "Signature + IHDR and iCCP chunks at BOF, IEND chunk at EOF"
-    },
-    {
-      "signatureID": 183,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000049454E44AE426082",
-      "endianness": null,
-      "name": "PNG 1.1iCCP",
-      "note": "Signature + IHDR and iCCP chunks at BOF, IEND chunk at EOF"
+      "note": "Signature + IHDR and iCCP chunks at BOF, IEND chunk at EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "89504E470D0A1A0A0000000D49484452*69434350",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000049454E44AE426082",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 184,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "89504E470D0A1A0A0000000D49484452*73504C54",
-      "endianness": null,
       "name": "PNG 1.1sPLT",
-      "note": "Signature + IHDR and sPLT chunks at BOF, IEND chunk at EOF"
-    },
-    {
-      "signatureID": 184,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000049454E44AE426082",
-      "endianness": null,
-      "name": "PNG 1.1sPLT",
-      "note": "Signature + IHDR and sPLT chunks at BOF, IEND chunk at EOF"
+      "note": "Signature + IHDR and sPLT chunks at BOF, IEND chunk at EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "89504E470D0A1A0A0000000D49484452*73504C54",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000049454E44AE426082",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 185,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "89504E470D0A1A0A0000000D49484452*73524742",
-      "endianness": null,
       "name": "PNG 1.1sRGB",
-      "note": "Signature + IHDR and sRGB chunks at BOF, IEND chunk at EOF"
-    },
-    {
-      "signatureID": 185,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "0000000049454E44AE426082",
-      "endianness": null,
-      "name": "PNG 1.1sRGB",
-      "note": "Signature + IHDR and sRGB chunks at BOF, IEND chunk at EOF"
+      "note": "Signature + IHDR and sRGB chunks at BOF, IEND chunk at EOF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "89504E470D0A1A0A0000000D49484452*73524742",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "0000000049454E44AE426082",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 737,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D535F564F4943450000005001020000534F4E5920434F52504F524154494F4E",
-      "endianness": null,
       "name": "Sony Digital Voice File/Sony Memory Stick Voice File",
-      "note": "MS_VOICE...P....SONY CORPORATION"
+      "note": "MS_VOICE...P....SONY CORPORATION",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D535F564F4943450000005001020000534F4E5920434F52504F524154494F4E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

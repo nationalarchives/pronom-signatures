@@ -36,23 +36,24 @@
   "internalSignatures": [
     {
       "signatureID": 272,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "000100005374616E64617264204A65742044420000000000",
-      "endianness": "Little-endian",
       "name": "MS Access 97",
-      "note": "Jet 3 DB header plus variably-positioned AccessVersion 07. Two byte sequences. Sequence one character sequence, Standard Jet DB. Sequence two character sequence AccessVersion{1-1024}07.[0:9][0:9]"
-    },
-    {
-      "signatureID": 272,
-      "positionType": "Variable",
-      "offset": null,
-      "maxOffset": null,
-      "byteSequence": "41636365737356657273696F6E{0-1024}30372E[30:39][30:39]",
-      "endianness": "Little-endian",
-      "name": "MS Access 97",
-      "note": "Jet 3 DB header plus variably-positioned AccessVersion 07. Two byte sequences. Sequence one character sequence, Standard Jet DB. Sequence two character sequence AccessVersion{1-1024}07.[0:9][0:9]"
+      "note": "Jet 3 DB header plus variably-positioned AccessVersion 07. Two byte sequences. Sequence one character sequence, Standard Jet DB. Sequence two character sequence AccessVersion{1-1024}07.[0:9][0:9]",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "000100005374616E64617264204A65742044420000000000",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "41636365737356657273696F6E{0-1024}30372E[30:39][30:39]",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

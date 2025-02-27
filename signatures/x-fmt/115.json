@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 462,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "00001A0000100400",
-      "endianness": null,
       "name": "Lotus 123 Worksheet 3.0",
-      "note": "Section Record Type = 0, record length dec 26 = 1A; file format version number = hex \r\n00100400"
+      "note": "Section Record Type = 0, record length dec 26 = 1A; file format version number = hex \r\n00100400",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "00001A0000100400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

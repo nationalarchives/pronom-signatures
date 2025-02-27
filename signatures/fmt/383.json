@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 568,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4C424C53495A453D[30:39]{15}464F524D41543D27(48414C46|42595445|46554C4C|5245414C|444F5542|434F4D50|434F4D504C4558|574F5244|4C4F4E47)27",
-      "endianness": null,
       "name": "VICAR Planetary File Format",
-      "note": "Header ASCII: 'LBLSIZE=n, followed by FORMAT='(BYTE|HALF|FULL|REAL|DOUB|COMP|COMPLEX|WORD|LONG)'\r\nThe label is always located at the beginning of the file."
+      "note": "Header ASCII: 'LBLSIZE=n, followed by FORMAT='(BYTE|HALF|FULL|REAL|DOUB|COMP|COMPLEX|WORD|LONG)'\r\nThe label is always located at the beginning of the file.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4C424C53495A453D[30:39]{15}464F524D41543D27(48414C46|42595445|46554C4C|5245414C|444F5542|434F4D50|434F4D504C4558|574F5244|4C4F4E47)27",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

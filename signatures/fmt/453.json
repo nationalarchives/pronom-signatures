@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 707,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "616364656B6B6D730D0A",
-      "endianness": null,
       "name": "Verity Collection Stop List",
-      "note": "BOF 10 bytes: acdekkms..\r\nEOF 2 bytes: .."
-    },
-    {
-      "signatureID": 707,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0D0A",
-      "endianness": null,
-      "name": "Verity Collection Stop List",
-      "note": "BOF 10 bytes: acdekkms..\r\nEOF 2 bytes: .."
+      "note": "BOF 10 bytes: acdekkms..\r\nEOF 2 bytes: ..",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "616364656B6B6D730D0A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

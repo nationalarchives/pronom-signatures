@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1452,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D504C5330313030",
-      "endianness": null,
       "name": "AVCHD Playlist File 1",
-      "note": "BOF: MPLS0100"
+      "note": "BOF: MPLS0100",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D504C5330313030",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1453,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D504C5330323030",
-      "endianness": null,
       "name": "AVCHD Playlist File 2",
-      "note": "BOF: MPLS0200"
+      "note": "BOF: MPLS0200",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D504C5330323030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

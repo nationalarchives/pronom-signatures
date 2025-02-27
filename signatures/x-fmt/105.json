@@ -40,13 +40,17 @@
   "internalSignatures": [
     {
       "signatureID": 334,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4175746F43414420536C6964650D0A1A00",
-      "endianness": null,
       "name": "AutoCAD Slide",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4175746F43414420536C6964650D0A1A00",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

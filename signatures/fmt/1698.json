@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2031,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "536F6674776172653630320D0A43616C6336303220762E312E303020546162756C6B61",
-      "endianness": null,
       "name": "Calc602 Spreadsheet file v.1.00",
-      "note": "Absolute from beginning of file, magic bytes: Software602 Calc602 v.1.00 Tabulka"
+      "note": "Absolute from beginning of file, magic bytes: Software602 Calc602 v.1.00 Tabulka",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "536F6674776172653630320D0A43616C6336303220762E312E303020546162756C6B61",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

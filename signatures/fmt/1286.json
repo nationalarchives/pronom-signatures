@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1666,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "325E1010",
-      "endianness": null,
       "name": "Envoy Document File 1",
-      "note": "BOF: 0x325E1010"
+      "note": "BOF: 0x325E1010",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "325E1010",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

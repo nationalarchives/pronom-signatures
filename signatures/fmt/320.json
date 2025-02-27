@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 414,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 152,
-      "byteSequence": "47454F474353*444154554D*53504845524F4944*5052494D454D*554E4954",
-      "endianness": "Little-endian",
       "name": "ESRI Shapefile Projection (Well-Known Text) Format",
-      "note": "Signature based on ordered keyword entities, GEOGCS * DATUM * SPHEROID * PRIMEM * UNIT"
-    },
-    {
-      "signatureID": 414,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 2,
-      "byteSequence": "5D5D",
-      "endianness": "Little-endian",
-      "name": "ESRI Shapefile Projection (Well-Known Text) Format",
-      "note": "Signature based on ordered keyword entities, GEOGCS * DATUM * SPHEROID * PRIMEM * UNIT"
+      "note": "Signature based on ordered keyword entities, GEOGCS * DATUM * SPHEROID * PRIMEM * UNIT",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 152,
+          "byteSequence": "47454F474353*444154554D*53504845524F4944*5052494D454D*554E4954",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 2,
+          "byteSequence": "5D5D",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1616,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3B2045636C6970736543726F7373776F726420776F7264206C6973740D0A3B",
-      "endianness": null,
       "name": "EclipseCrossword Word List File",
-      "note": "BOF: Magic bytes \u2018; EclipseCrossword word list..;'"
+      "note": "BOF: Magic bytes \u2018; EclipseCrossword word list..;'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3B2045636C6970736543726F7373776F726420776F7264206C6973740D0A3B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

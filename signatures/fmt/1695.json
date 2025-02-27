@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2028,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "40435420",
-      "endianness": null,
       "name": "602 Text file",
-      "note": "BOF Absolute from beginning of file, magic bytes: @CT followed by a space"
+      "note": "BOF Absolute from beginning of file, magic bytes: @CT followed by a space",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "40435420",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

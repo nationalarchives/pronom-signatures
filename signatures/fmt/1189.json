@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1569,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C6D6573683E{0-64}3C7375626D65736865733E{0-8}3C7375626D657368",
-      "endianness": null,
       "name": "Ogre Mesh XML",
-      "note": "BOF: <mesh>{0-64}<submeshes>{0-8}<submesh\r\nEOF offset 0-3: </mesh> - \r\nhttp://wiki.ogre3d.org/tiki-index.php?page=Ogre+meshxml+DTD"
-    },
-    {
-      "signatureID": 1569,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C2F6D6573683E",
-      "endianness": null,
-      "name": "Ogre Mesh XML",
-      "note": "BOF: <mesh>{0-64}<submeshes>{0-8}<submesh\r\nEOF offset 0-3: </mesh> - \r\nhttp://wiki.ogre3d.org/tiki-index.php?page=Ogre+meshxml+DTD"
+      "note": "BOF: <mesh>{0-64}<submeshes>{0-8}<submesh\r\nEOF offset 0-3: </mesh> - \r\nhttp://wiki.ogre3d.org/tiki-index.php?page=Ogre+meshxml+DTD",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C6D6573683E{0-64}3C7375626D65736865733E{0-8}3C7375626D657368",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C2F6D6573683E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

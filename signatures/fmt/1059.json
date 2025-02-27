@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1427,
-      "positionType": "Absolute from BOF",
-      "offset": 525,
-      "maxOffset": null,
-      "byteSequence": "4842414D323030314D41593834*450750726F20322E304621",
-      "endianness": null,
       "name": "FileMaker Pro 2",
-      "note": "Offset 525: HBAM2001MAY84*E.Pro 2.0F!\r\nThis signature may be improved with a better understanding of the format."
+      "note": "Offset 525: HBAM2001MAY84*E.Pro 2.0F!\r\nThis signature may be improved with a better understanding of the format.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 525,
+          "maxOffset": null,
+          "byteSequence": "4842414D323030314D41593834*450750726F20322E304621",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

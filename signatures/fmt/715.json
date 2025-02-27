@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1041,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "494D504D",
-      "endianness": null,
       "name": "Impulse Tracker Module",
-      "note": "BOF: IMPM\r\nThe creating software version number can be found at hex position 0x28-29, and the 'minimum compatible version' number can be found at hex position 0x2A-2B. At this time PRONOM does not distinguish beteen versions."
+      "note": "BOF: IMPM\r\nThe creating software version number can be found at hex position 0x28-29, and the 'minimum compatible version' number can be found at hex position 0x2A-2B. At this time PRONOM does not distinguish beteen versions.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "494D504D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

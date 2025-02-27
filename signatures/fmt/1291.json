@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1671,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52464C4F37",
-      "endianness": null,
       "name": "RFFlow Chart 5",
-      "note": "BOF: RFLO7"
+      "note": "BOF: RFLO7",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52464C4F37",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

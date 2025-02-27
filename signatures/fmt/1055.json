@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1421,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 0,
-      "byteSequence": "47{191}47{191}47{191}47{191}47{191}47{191}47{191}47",
-      "endianness": null,
       "name": "M2TS",
-      "note": "BOF: offset 4, 0x47 sync byte appearing every 192 bytes from hereon. https://www.google.ch/patents/US7106946"
+      "note": "BOF: offset 4, 0x47 sync byte appearing every 192 bytes from hereon. https://www.google.ch/patents/US7106946",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 0,
+          "byteSequence": "47{191}47{191}47{191}47{191}47{191}47{191}47{191}47",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 51,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}41564920",
-      "endianness": null,
       "name": "AVI",
-      "note": "BOF: 'RIFF' and after four bytes 'AVI'"
+      "note": "BOF: 'RIFF' and after four bytes 'AVI'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}41564920",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

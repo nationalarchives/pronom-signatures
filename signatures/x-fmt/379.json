@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 724,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52494646{4}434452207672736E",
-      "endianness": null,
       "name": "CorelDraw Drawing Version 3",
-      "note": "RIFF{4}CDR vrsn"
+      "note": "RIFF{4}CDR vrsn",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}434452207672736E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

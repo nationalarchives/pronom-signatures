@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 844,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C4D616B657246696C6520392E30483E",
-      "endianness": null,
       "name": "Framemaker Document Version 9.0",
-      "note": "<MakerFile[version]>"
+      "note": "<MakerFile[version]>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C4D616B657246696C6520392E30483E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [
@@ -51,7 +55,7 @@
     {
       "relationshipType": "Is subsequent version of",
       "relatedFormatID": 456,
-      "relatedFormatName": "Adobe FrameMaker Document"
+      "relatedFormatName": "Visualization Toolkit"
     }
   ],
   "supportedBy": 7,

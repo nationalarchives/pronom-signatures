@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 342,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "425A68??314159265359",
-      "endianness": null,
       "name": "BZIP2 Compressed Archive",
-      "note": "Magic number BZh, Block header (1AY&SY)"
+      "note": "Magic number BZh, Block header (1AY&SY)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "425A68??314159265359",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

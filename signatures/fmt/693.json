@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1021,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "FEEDFACF",
-      "endianness": null,
       "name": "Mach-O 64 bit 1",
-      "note": "BOF: \u00fe\u00ed\u00fa\u00cf (0xFEEDFACF)"
+      "note": "BOF: \u00fe\u00ed\u00fa\u00cf (0xFEEDFACF)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "FEEDFACF",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1022,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "CFFAEDFE",
-      "endianness": null,
       "name": "Mach-O 64 bit 2",
-      "note": "BOF: \u00cf\u00fa\u00ed\u00fe (0xCFFAEDFE)"
+      "note": "BOF: \u00cf\u00fa\u00ed\u00fe (0xCFFAEDFE)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "CFFAEDFE",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

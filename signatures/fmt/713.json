@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1039,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "52463634{4}5741564564733634*62657874",
-      "endianness": null,
       "name": "RF64 MBWF",
-      "note": "BOF: RF64{4}WAVEds64 with bext chunk following at indeterminate point. Further research is required to refine this signature"
+      "note": "BOF: RF64{4}WAVEds64 with bext chunk following at indeterminate point. Further research is required to refine this signature",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52463634{4}5741564564733634*62657874",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

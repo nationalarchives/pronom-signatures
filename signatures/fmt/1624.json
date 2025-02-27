@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1965,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "414F4E38",
-      "endianness": null,
       "name": "Art Of Noise - 8 Channel Module",
-      "note": "BOF Absolute from beginning of file, magic bytes: AON8"
+      "note": "BOF Absolute from beginning of file, magic bytes: AON8",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "414F4E38",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

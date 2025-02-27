@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1580,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": 2,
-      "byteSequence": "4755594D41474552204143515549534954494F4E20494E464F2046494C45",
-      "endianness": null,
       "name": "Guymager Acquisition Info File",
-      "note": "BOF, offset 1-2: GUYMAGER ACQUISITION INFO FILE"
+      "note": "BOF, offset 1-2: GUYMAGER ACQUISITION INFO FILE",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": 2,
+          "byteSequence": "4755594D41474552204143515549534954494F4E20494E464F2046494C45",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2255,
-      "positionType": "Absolute from BOF",
-      "offset": 1,
-      "maxOffset": 0,
-      "byteSequence": "504B5443{3}5469626574446F63",
-      "endianness": null,
       "name": "TibetDoc",
-      "note": "BOF; Offset: 1; Magic Bytes: 'PKTC' with a 3 byte gap and then 'TibetDoc'"
+      "note": "BOF; Offset: 1; Magic Bytes: 'PKTC' with a 3 byte gap and then 'TibetDoc'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1,
+          "maxOffset": 0,
+          "byteSequence": "504B5443{3}5469626574446F63",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1527,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4D584D{4-64}000000",
-      "endianness": null,
       "name": "Maxwell Render Material File",
-      "note": "BOF: 'MXM' {5-64} 0x000000. It may be possible to enhance this signature and to distinguish between different versions. Please contact the PRONOM team if you can assist with this."
+      "note": "BOF: 'MXM' {5-64} 0x000000. It may be possible to enhance this signature and to distinguish between different versions. Please contact the PRONOM team if you can assist with this.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4D584D{4-64}000000",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

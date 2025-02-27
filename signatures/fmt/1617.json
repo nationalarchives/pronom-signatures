@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1952,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "D00DFEED",
-      "endianness": "Big-endian",
       "name": "Devicetree Blob (DTB)",
-      "note": "Magic bytes, offset zero: \u00d0(carriage return)\u00fe\u00ed"
+      "note": "Magic bytes, offset zero: \u00d0(carriage return)\u00fe\u00ed",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "D00DFEED",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

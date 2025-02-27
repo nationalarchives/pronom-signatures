@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 543,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4461746173657448656164657220426567696E",
-      "endianness": null,
       "name": "Earth Resource Satellite image header format",
-      "note": "Header ASCII: 'DatasetHeader Begin'. Footer ASCII: 'DatasetHeader End.'"
-    },
-    {
-      "signatureID": 543,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "4461746173657448656164657220456E640A",
-      "endianness": null,
-      "name": "Earth Resource Satellite image header format",
-      "note": "Header ASCII: 'DatasetHeader Begin'. Footer ASCII: 'DatasetHeader End.'"
+      "note": "Header ASCII: 'DatasetHeader Begin'. Footer ASCII: 'DatasetHeader End.'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4461746173657448656164657220426567696E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "4461746173657448656164657220456E640A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

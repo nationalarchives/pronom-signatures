@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1408,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C474D4C46656174757265436C6173734C6973743E",
-      "endianness": null,
       "name": "OGR GFS File",
-      "note": "BOF: <GMLFeatureClassList>\r\nEOF: </GMLFeatureClassList>"
-    },
-    {
-      "signatureID": 1408,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 16,
-      "byteSequence": "3C2F474D4C46656174757265436C6173734C6973743E",
-      "endianness": null,
-      "name": "OGR GFS File",
-      "note": "BOF: <GMLFeatureClassList>\r\nEOF: </GMLFeatureClassList>"
+      "note": "BOF: <GMLFeatureClassList>\r\nEOF: </GMLFeatureClassList>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C474D4C46656174757265436C6173734C6973743E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 16,
+          "byteSequence": "3C2F474D4C46656174757265436C6173734C6973743E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

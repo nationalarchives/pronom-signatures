@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 61,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A0501",
-      "endianness": null,
       "name": "PCX 5",
-      "note": "BOF; Offset: 0; Magic Bytes: 0x0A0501"
+      "note": "BOF; Offset: 0; Magic Bytes: 0x0A0501",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A0501",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

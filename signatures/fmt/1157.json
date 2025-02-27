@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1539,
-      "positionType": "Absolute from BOF",
-      "offset": 1292,
-      "maxOffset": 2623,
-      "byteSequence": "466F6C696F",
-      "endianness": null,
       "name": "Folio NFO v2",
-      "note": "BOF: \"Folio\" and \"v200\" found between bytes 1292-2623"
-    },
-    {
-      "signatureID": 1539,
-      "positionType": "Absolute from BOF",
-      "offset": 1292,
-      "maxOffset": 2623,
-      "byteSequence": "76323030",
-      "endianness": null,
-      "name": "Folio NFO v2",
-      "note": "BOF: \"Folio\" and \"v200\" found between bytes 1292-2623"
+      "note": "BOF: \"Folio\" and \"v200\" found between bytes 1292-2623",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1292,
+          "maxOffset": 2623,
+          "byteSequence": "466F6C696F",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 1292,
+          "maxOffset": 2623,
+          "byteSequence": "76323030",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

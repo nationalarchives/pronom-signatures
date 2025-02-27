@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1739,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 300,
-      "byteSequence": "3C5652544461746173657420726173746572",
-      "endianness": null,
       "name": "Virtual Format (Raster)",
-      "note": "BOF: \u2018<VRTDataset raster\u2019"
+      "note": "BOF: \u2018<VRTDataset raster\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 300,
+          "byteSequence": "3C5652544461746173657420726173746572",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

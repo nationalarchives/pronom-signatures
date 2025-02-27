@@ -36,13 +36,17 @@
   "internalSignatures": [
     {
       "signatureID": 2312,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0000000C6A5020200D0A870A{4}667479706A706820",
-      "endianness": null,
       "name": "JPEG2000 \u2013 JPH/HTJ2K",
-      "note": "BOF, header size 0x0000000C, magic 'jP  ', variable 4 byte compatibility chunk size, filetype compatibility starting 'ftypjph'"
+      "note": "BOF, header size 0x0000000C, magic 'jP  ', variable 4 byte compatibility chunk size, filetype compatibility starting 'ftypjph'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0000000C6A5020200D0A870A{4}667479706A706820",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

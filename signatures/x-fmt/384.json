@@ -32,83 +32,115 @@
   "internalSignatures": [
     {
       "signatureID": 1300,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant1",
-      "note": "Offset 4: moov{0-4096}(mvhd|cmov|rmra)"
+      "note": "Offset 4: moov{0-4096}(mvhd|cmov|rmra)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1301,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "6D646174*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant2",
-      "note": "Offset 4: mdat*moov{0-4096}(mvhd|cmov|rmra)\r\nVariants 2-8 cover the following pattern, which would be desirable to consolidate but is currently not possible due to limitations of the PRONOM signature engine:\r\n(mdat|cmov|ftypqt  |pnot|skip|free|wide)*moov{0-4096}(mvhd|cmov|rmra)\r\n(6D646174|636D6F76|6674797071742020|706E6F74|736B6970|66726565|77696465)*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)"
+      "note": "Offset 4: mdat*moov{0-4096}(mvhd|cmov|rmra)\r\nVariants 2-8 cover the following pattern, which would be desirable to consolidate but is currently not possible due to limitations of the PRONOM signature engine:\r\n(mdat|cmov|ftypqt  |pnot|skip|free|wide)*moov{0-4096}(mvhd|cmov|rmra)\r\n(6D646174|636D6F76|6674797071742020|706E6F74|736B6970|66726565|77696465)*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "6D646174*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1302,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "636D6F76*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant3",
-      "note": "Offset 4: cmov*moov{0-4096}(mvhd|cmov|rmra)"
+      "note": "Offset 4: cmov*moov{0-4096}(mvhd|cmov|rmra)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "636D6F76*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1303,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "6674797071742020",
-      "endianness": null,
       "name": "QuickTime variant4",
-      "note": "Offset 4: 'ftypqt  ' only - assumption is that format is QuickTime if FTYP define as 'qt  ' therefore no need to seek additional MOOV atom."
+      "note": "Offset 4: 'ftypqt  ' only - assumption is that format is QuickTime if FTYP define as 'qt  ' therefore no need to seek additional MOOV atom.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "6674797071742020",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1304,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "706E6F74*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant5",
-      "note": "Offset 4: pnot*moov{0-4096}(mvhd|cmov|rmra)"
+      "note": "Offset 4: pnot*moov{0-4096}(mvhd|cmov|rmra)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "706E6F74*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1305,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "736B6970*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant6",
-      "note": "Offset 4: skip*moov{0-4096}(mvhd|cmov|rmra)"
+      "note": "Offset 4: skip*moov{0-4096}(mvhd|cmov|rmra)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "736B6970*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1306,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "66726565*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant7",
-      "note": "Offset 4: free*moov{0-4096}(mvhd|cmov|rmra)"
+      "note": "Offset 4: free*moov{0-4096}(mvhd|cmov|rmra)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "66726565*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1307,
-      "positionType": "Absolute from BOF",
-      "offset": 4,
-      "maxOffset": 4,
-      "byteSequence": "77696465*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-      "endianness": null,
       "name": "QuickTime variant8",
-      "note": "Offset 4: wide*moov{0-4096}(mvhd|cmov|rmra)"
+      "note": "Offset 4: wide*moov{0-4096}(mvhd|cmov|rmra)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 4,
+          "byteSequence": "77696465*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 241,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0E536B657463685570204D6F64656C08",
-      "endianness": "Little-endian",
       "name": "SketchUp Document (older version)",
-      "note": "BOF: 0x0E, 'SketchUp Model', 0x08"
+      "note": "BOF: 0x0E, 'SketchUp Model', 0x08",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0E536B657463685570204D6F64656C08",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 243,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFFEFF0E53006B0065007400630068005500700020004D006F00640065006C00",
-      "endianness": "Little-endian",
       "name": "SketchUp Document",
-      "note": null
+      "note": null,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFFEFF0E53006B0065007400630068005500700020004D006F00640065006C00",
+          "endianness": "Little-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

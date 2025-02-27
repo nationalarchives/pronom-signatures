@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 1344,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E",
-      "endianness": null,
       "name": "NIB File Format",
-      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\"> EOF: IBSystem Version"
-    },
-    {
-      "signatureID": 1344,
-      "positionType": "Absolute from EOF",
-      "offset": 8,
-      "maxOffset": 256,
-      "byteSequence": "494253797374656D2056657273696F6E",
-      "endianness": null,
-      "name": "NIB File Format",
-      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\"> EOF: IBSystem Version"
+      "note": "BOF: <?xml version=(\"|')1.0(\"|'){8-256}<plist version=\"1.0\"> EOF: IBSystem Version",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 8,
+          "maxOffset": 256,
+          "byteSequence": "494253797374656D2056657273696F6E",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -28,23 +28,24 @@
   "internalSignatures": [
     {
       "signatureID": 2213,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "64617461206C6973742066726565202F{1-45}7661726961626C65206C6162656C73202F{1-200}626567696E2064617461",
-      "endianness": null,
       "name": "SPSS PC File format",
-      "note": "Absolute from beginning of file, magic bytes: data list free /{1-45}variable labels /{1-200}begin data\r\nEOF, offset 5:end data"
-    },
-    {
-      "signatureID": 2213,
-      "positionType": "Absolute from EOF",
-      "offset": 5,
-      "maxOffset": 5,
-      "byteSequence": "656E642064617461",
-      "endianness": null,
-      "name": "SPSS PC File format",
-      "note": "Absolute from beginning of file, magic bytes: data list free /{1-45}variable labels /{1-200}begin data\r\nEOF, offset 5:end data"
+      "note": "Absolute from beginning of file, magic bytes: data list free /{1-45}variable labels /{1-200}begin data\r\nEOF, offset 5:end data",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "64617461206C6973742066726565202F{1-45}7661726961626C65206C6162656C73202F{1-200}626567696E2064617461",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 5,
+          "maxOffset": 5,
+          "byteSequence": "656E642064617461",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [],

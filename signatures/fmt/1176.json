@@ -28,23 +28,31 @@
   "internalSignatures": [
     {
       "signatureID": 1557,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4E535666{24-16384}4E535673",
-      "endianness": null,
       "name": "Nullsoft Video with optional header",
-      "note": "BOF: 'NSVf'{24-16384}'NSVs' (must have minimum 24 byte header but can include variable amount of metadata, Table of Contents)"
+      "note": "BOF: 'NSVf'{24-16384}'NSVs' (must have minimum 24 byte header but can include variable amount of metadata, Table of Contents)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4E535666{24-16384}4E535673",
+          "endianness": null
+        }
+      ]
     },
     {
       "signatureID": 1558,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4E535673",
-      "endianness": null,
       "name": "Nullsoft Video without optional header",
-      "note": "BOF: 'NSVs'"
+      "note": "BOF: 'NSVs'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4E535673",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

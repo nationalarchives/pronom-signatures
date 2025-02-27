@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1903,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "53494646",
-      "endianness": null,
       "name": "Beam Software SIFF File",
-      "note": "BOF; Offset: 0; Magic Bytes: SIFF"
+      "note": "BOF; Offset: 0; Magic Bytes: SIFF",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "53494646",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

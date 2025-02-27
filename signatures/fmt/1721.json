@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2048,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "5041424C4F205041434B454420504943545552453A2047726F7570652043444E44200D0A",
-      "endianness": null,
       "name": "Pablo Paint Raster Image",
-      "note": "BOF:'PABLO PACKED PICTURE: Groupe CDND ' followed by 0x0D (Carriage Return) followed by 0x0A (Line Feed)"
+      "note": "BOF:'PABLO PACKED PICTURE: Groupe CDND ' followed by 0x0D (Carriage Return) followed by 0x0A (Line Feed)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5041424C4F205041434B454420504943545552453A2047726F7570652043444E44200D0A",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

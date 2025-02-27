@@ -36,133 +36,157 @@
   "internalSignatures": [
     {
       "signatureID": 266,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{47-1795}",
-      "endianness": "Little-endian",
       "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
-    },
-    {
-      "signatureID": 266,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "494433",
-      "endianness": "Little-endian",
-      "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{47-1795}",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "494433",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 267,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{47-1795}",
-      "endianness": "Little-endian",
       "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
-    },
-    {
-      "signatureID": 267,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "494433",
-      "endianness": "Little-endian",
-      "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF."
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{47-1795}",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "494433",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 268,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{47-1795}",
-      "endianness": "Little-endian",
       "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag (protected)",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
-    },
-    {
-      "signatureID": 268,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "494433",
-      "endianness": "Little-endian",
-      "name": "MPEG-1 Audio Layer 3 with ID3v2 Tag (protected)",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{47-1795}",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "494433",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 269,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{47-1795}",
-      "endianness": "Little-endian",
       "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag (protected)",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
-    },
-    {
-      "signatureID": 269,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "494433",
-      "endianness": "Little-endian",
-      "name": "MPEG-2 Audio Layer 3 with ID3v2 Tag (protected)",
-      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF."
+      "note": "Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{47-1795}",
+          "endianness": "Little-endian"
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "494433",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 279,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1795,
-      "byteSequence": "FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]",
-      "endianness": "Little-endian",
       "name": "MPEG-1 Audio Layer 3 without ID3v2 Tag",
-      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF."
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1795,
+          "byteSequence": "FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 280,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1795,
-      "byteSequence": "FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]",
-      "endianness": "Little-endian",
       "name": "MPEG-2 Audio Layer 3 without ID3v2 Tag",
-      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF."
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1795,
+          "byteSequence": "FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 281,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1795,
-      "byteSequence": "FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]",
-      "endianness": "Little-endian",
       "name": "MPEG-1 Audio Layer 3 without ID3v2 Tag (protected)",
-      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF with each header having CRC bit set off to indicate file is protected."
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF with each header having CRC bit set off to indicate file is protected.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1795,
+          "byteSequence": "FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 282,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1795,
-      "byteSequence": "FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]",
-      "endianness": "Little-endian",
       "name": "MPEG-2 Audio Layer 3 without ID3v2 Tag (protected)",
-      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF with each header having CRC bit set off to indicate file is protected."
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF with each header having CRC bit set off to indicate file is protected.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1795,
+          "byteSequence": "FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]",
+          "endianness": "Little-endian"
+        }
+      ]
     },
     {
       "signatureID": 1733,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 1795,
-      "byteSequence": "FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]",
-      "endianness": null,
       "name": "MP3 2.5",
-      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF. MPEG 2.5 is an extended variant of MP3 that provides wider support of lower bit-rates than standard MP3. It is implemented by LAME encoder among others, however is not an officially recognised standard."
+      "note": "Regularly-spaced frame headers should always be discoverable starting at BOF. MPEG 2.5 is an extended variant of MP3 that provides wider support of lower bit-rates than standard MP3. It is implemented by LAME encoder among others, however is not an officially recognised standard.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 1795,
+          "byteSequence": "FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]{46-1439}FFE3[10:EB]",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

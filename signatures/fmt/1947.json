@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2292,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "214F70656E5761796261636B2D4344584A20312E30",
-      "endianness": null,
       "name": "OpenWayback CDXJ",
-      "note": "BOF; Offset:0; Byte Sequence: \u201c!OpenWayback-CDXJ 1.0\u201d"
+      "note": "BOF; Offset:0; Byte Sequence: \u201c!OpenWayback-CDXJ 1.0\u201d",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "214F70656E5761796261636B2D4344584A20312E30",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,23 +32,24 @@
   "internalSignatures": [
     {
       "signatureID": 2235,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 128,
-      "byteSequence": "545920",
-      "endianness": null,
       "name": "RIS Citation",
-      "note": "BOF; Offset: 0-128; Signature: 'TY '; EOF; Offset: 0-32; Signature: 'ER  -'"
-    },
-    {
-      "signatureID": 2235,
-      "positionType": "Absolute from EOF",
-      "offset": 0,
-      "maxOffset": 32,
-      "byteSequence": "455220202D",
-      "endianness": null,
-      "name": "RIS Citation",
-      "note": "BOF; Offset: 0-128; Signature: 'TY '; EOF; Offset: 0-32; Signature: 'ER  -'"
+      "note": "BOF; Offset: 0-128; Signature: 'TY '; EOF; Offset: 0-32; Signature: 'ER  -'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 128,
+          "byteSequence": "545920",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 32,
+          "byteSequence": "455220202D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

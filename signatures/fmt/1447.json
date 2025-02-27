@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 1809,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 11,
-      "byteSequence": "4D414A594F",
-      "endianness": null,
       "name": "XLD4 (Bitmap Image)",
-      "note": "BOF: Magic bytes ASCII string \u2018MAJYO\u2019"
+      "note": "BOF: Magic bytes ASCII string \u2018MAJYO\u2019",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 11,
+          "byteSequence": "4D414A594F",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

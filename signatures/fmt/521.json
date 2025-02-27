@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 814,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0A010100436F7079726967687420{158}FF007500000000000000110076000000E803E803",
-      "endianness": null,
       "name": "Adobe Multiple Master Metrics Font file",
-      "note": "BOF: ....Copyright {158}\u00ff.u.........v...\u00e8.\u00e8."
+      "note": "BOF: ....Copyright {158}\u00ff.u.........v...\u00e8.\u00e8.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0A010100436F7079726967687420{158}FF007500000000000000110076000000E803E803",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

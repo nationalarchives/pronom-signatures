@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 592,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "2E7261FD0003",
-      "endianness": "Big-endian",
       "name": "RealAudio 3",
-      "note": "Header signature +version 3"
+      "note": "Header signature +version 3",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "2E7261FD0003",
+          "endianness": "Big-endian"
+        }
+      ]
     }
   ],
   "externalSignatures": [

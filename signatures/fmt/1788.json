@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2128,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "0040{1000}47554E5041494E54",
-      "endianness": null,
       "name": "Gunpaint Image File",
-      "note": "BOF: 0x00 (Null) followed by '@' followed by a gap of 1000 bytes followed by 'GUNPAINT'"
+      "note": "BOF: 0x00 (Null) followed by '@' followed by a gap of 1000 bytes followed by 'GUNPAINT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0040{1000}47554E5041494E54",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

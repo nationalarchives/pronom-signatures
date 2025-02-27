@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 175,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "{0-50}3C46465369676E617475726546696C6520{0-100}56657273696F6E3D",
-      "endianness": null,
       "name": "DROID Signature File",
-      "note": "<FFSignatureFile> element - {0-50} F F S I g n a t u r e F I l e {0-100} V e r s I o n ="
+      "note": "<FFSignatureFile> element - {0-50} F F S I g n a t u r e F I l e {0-100} V e r s I o n =",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "{0-50}3C46465369676E617475726546696C6520{0-100}56657273696F6E3D",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -44,13 +44,17 @@
   "internalSignatures": [
     {
       "signatureID": 2117,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 3,
-      "byteSequence": "3C3F786D6C(20|09|0A|0D){0-1}76657273696F6E{0-1}3D{0-1}(22|27)312E31(22|27)",
-      "endianness": null,
       "name": "Extensible Markup Language v1.1",
-      "note": "BOF; Offset: 0; Magic Bytes: XML header declaration - '<?xml' followed by whitespace character specific to XML file, then either no wildcard characters or up to thirty whitespace characters, then followed by version number. XML 1.1 can incorporate various spaces in its syntax, this possibility has been incorporated to this signature."
+      "note": "BOF; Offset: 0; Magic Bytes: XML header declaration - '<?xml' followed by whitespace character specific to XML file, then either no wildcard characters or up to thirty whitespace characters, then followed by version number. XML 1.1 can incorporate various spaces in its syntax, this possibility has been incorporated to this signature.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 3,
+          "byteSequence": "3C3F786D6C(20|09|0A|0D){0-1}76657273696F6E{0-1}3D{0-1}(22|27)312E31(22|27)",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

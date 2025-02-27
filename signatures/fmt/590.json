@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 931,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4949BC01",
-      "endianness": null,
       "name": "JPEG XR",
-      "note": "BOF: II\u00bc."
+      "note": "BOF: II\u00bc.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4949BC01",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 398,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "4D5468640000000600[00:02]{4}4D54726B",
-      "endianness": null,
       "name": "MIDI Audio",
-      "note": "<Chunk type>MThd <header length> 32-bit representation of the number 6, followed by <format> 2 bytes (must be 00, 01 or 02); <number of tracks> 2 bytes; and <division>2 bytes; followed by MTrk <track header>"
+      "note": "<Chunk type>MThd <header length> 32-bit representation of the number 6, followed by <format> 2 bytes (must be 00, 01 or 02); <number of tracks> 2 bytes; and <division>2 bytes; followed by MTrk <track header>",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "4D5468640000000600[00:02]{4}4D54726B",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

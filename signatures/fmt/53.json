@@ -40,13 +40,17 @@
   "internalSignatures": [
     {
       "signatureID": 523,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": null,
-      "byteSequence": "7B5C7274(66|6631){0-15}(616E7369|6D6163|7063|706361)5C616E7369637067{3-*}5C737473686664626368{1-4}5C73747368666C6F6368{1-4}5C737473686668696368{1-4}5C73747368666269*5C6C73647374696D6178",
-      "endianness": null,
       "name": "RTF 1.8",
-      "note": "\\rtf control word, \\ansicpg control word, followed by <deffont> declaration the following control word \r\n\\lsdstimax"
+      "note": "\\rtf control word, \\ansicpg control word, followed by <deffont> declaration the following control word \r\n\\lsdstimax",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7B5C7274(66|6631){0-15}(616E7369|6D6163|7063|706361)5C616E7369637067{3-*}5C737473686664626368{1-4}5C73747368666C6F6368{1-4}5C737473686668696368{1-4}5C73747368666269*5C6C73647374696D6178",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

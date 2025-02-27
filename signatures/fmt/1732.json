@@ -28,13 +28,17 @@
   "internalSignatures": [
     {
       "signatureID": 2070,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "504E5400",
-      "endianness": null,
       "name": "Prism Paint Bitmap",
-      "note": "BOF:'PNT' followed by 0x00"
+      "note": "BOF:'PNT' followed by 0x00",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504E5400",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

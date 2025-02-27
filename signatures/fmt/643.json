@@ -32,13 +32,17 @@
   "internalSignatures": [
     {
       "signatureID": 972,
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequence": "4153544D2D453537",
-      "endianness": null,
       "name": "E57 3D File Format",
-      "note": "BOF: ASTM-E57"
+      "note": "BOF: ASTM-E57",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4153544D2D453537",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

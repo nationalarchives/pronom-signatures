@@ -1,0 +1,35 @@
+{
+  "fileFormatID": 3945,
+  "formatName": "A2R Disk Image File",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2058",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3419,
+      "name": "A2R Disk Image File",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41325233FF0A0D0A",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "a2r",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

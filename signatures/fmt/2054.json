@@ -1,0 +1,20 @@
+{
+  "fileFormatID": 3940,
+  "formatName": "JSON Lines Text Format",
+  "provenanceCompoundName": "Ross Spencer / Ravensburger AG",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2054",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "jsonl",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 320
+}

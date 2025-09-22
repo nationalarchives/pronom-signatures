@@ -1,0 +1,35 @@
+{
+  "fileFormatID": 3951,
+  "formatName": "AV1 Image File Format",
+  "provenanceCompoundName": "The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2062",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3425,
+      "name": "AV1 Image File Format",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{4}6674797061766966",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "avif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 220
+}

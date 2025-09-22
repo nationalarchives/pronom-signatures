@@ -1,0 +1,60 @@
+{
+  "fileFormatID": 3919,
+  "formatName": "Android Archive File",
+  "provenanceCompoundName": "Bibliothèque nationale de France / Bibliothèque nationale de France",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2043",
+      "identifierType": "PUID"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "description": "Android Archive File",
+      "id": "101140",
+      "files": [
+        {
+          "path": "AndroidManifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "4096",
+                  "sequence": "'manifest xmlns:android='"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3410,
+      "name": "Android Archive File",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5B436F6E74656E745F54797065735D2E786D6C20A2",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aar",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 162
+}

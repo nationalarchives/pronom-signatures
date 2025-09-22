@@ -1,0 +1,60 @@
+{
+  "fileFormatID": 3918,
+  "formatName": "Android App Bundle File",
+  "provenanceCompoundName": "Bibliothèque nationale de France / Bibliothèque nationale de France",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2042",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3409,
+      "name": "Android App Bundle File",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-4}504B0304",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "101130",
+      "description": "Android App Bundle File",
+      "files": [
+        {
+          "path": "base/manifest/AndroidManifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "61 6E 64 72 6F 69 64"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aab",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 162
+}

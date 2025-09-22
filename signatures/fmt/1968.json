@@ -33,16 +33,44 @@
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
-          "offset": 2896,
+          "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "AC",
+          "byteSequence": "00080000{260}(01|02)",
           "endianness": null
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "AC",
+          "byteSequence": "AC{0-1024}",
+          "endianness": null
+        }
+      ]
+    },
+    {
+      "signatureID": 3380,
+      "specificity": "Generic",
+      "name": "Sony Open MG Audio",
+      "note": "BOF; Offset: 0; Magic Bytes 'ea3.' followed in 996-3996 bytes by 'EA3'{1}0x0060{2}00000000010F5000",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "656133{3069}454133",
+          "endianness": null
+        }
+      ]
+    },
+    {
+      "signatureID": 3407,
+      "specificity": "Generic",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{8-16}6F70656E4D47",
           "endianness": null
         }
       ]

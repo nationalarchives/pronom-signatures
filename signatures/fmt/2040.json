@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 3914,
+  "formatName": "CityGML File",
+  "formatSourceID": 232,
+  "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2040",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3406,
+      "name": "CityGML",
+      "note": "XML declaration <?xml version=\"1.0\" (alternatively with single quotes), followed by up to 320 arbitrary bytes. CityGML root element, CityModel, preceded by either an angle bracket < or a colon. This may be followed by a varying amount of arbitrary bytes. CityGML namespace declaration xmlns + up to 8 bytes + =\"http://www.opengis.net/citygml/1.0\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}(3A|3C)436974794D6F64656C{0-1024}786D6C6E73{0-8}3D(22|27)687474703A2F2F7777772E6F70656E6769732E6E65742F63697479676D6C2F312E30(22|27)",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "gml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+     {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 319,
+      "relatedFormatName": "3D Studio (V1)"
+    },
+        {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1852,
+      "relatedFormatName": "XIFF eXtended Image File 3"
+    }
+  ],
+  "source": 232
+}

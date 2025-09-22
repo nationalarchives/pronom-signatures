@@ -76,7 +76,8 @@
                   "rightFragment": {
                     "maxOffset": "2",
                     "minOffset": "2",
-                    "position": "1"
+                    "position": "1",
+                    "sequence": "10"
                   }
                 }
               ],

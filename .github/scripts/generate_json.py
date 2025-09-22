@@ -92,6 +92,7 @@ def process_byte_sequences(elem):
             right_fragment = sub_sequence.find('RightFragment')
             if right_fragment is not None:
                 right_fragment_json = {to_camel_case(key): value for key, value in right_fragment.attrib.items()}
+                right_fragment_json['sequence'] = right_fragment.text
                 sub_sequence_json['rightFragment'] = right_fragment_json
 
             byte_sequence_json['subSequences'].append(sub_sequence_json)

@@ -187,10 +187,19 @@ def generate_binary_signatures(format_json):
             byte_sequence_attributes = {'Reference': sequence['reference']} if 'reference' in sequence else {}
             byte_sequence_elem = Et.Element('ByteSequence', attrib=byte_sequence_attributes)
             for sub_sequence in sequence['subSequences']:
-                sub_sequence_attributes = {k[0].upper() + k[1:]: v for k, v in sub_sequence.items() if k != 'sequence'}
+                sub_sequence_attributes = {
+                    k[0].upper() + k[1:]: v for k, v in sub_sequence.items() if k not in ['sequence', 'rightFragment']
+                }
                 sub_sequence_elem = Et.Element('SubSequence', attrib=sub_sequence_attributes)
                 sequence_elem = Et.Element('Sequence')
                 sequence_elem.text = sub_sequence['sequence']
+                if 'rightFragment' in sub_sequence:
+                    right_fragment_attributes = {
+                        k[0].upper() + k[1:]: v for k, v in sub_sequence['rightFragment'].items() if k != 'sequence'
+                    }
+                    right_fragment_elem = Et.Element('RightFragment', right_fragment_attributes)
+                    right_fragment_elem.text = sub_sequence['rightFragment']['sequence']
+                    sub_sequence_elem.append(right_fragment_elem)
                 sub_sequence_elem.append(sequence_elem)
                 byte_sequence_elem.append(sub_sequence_elem)
             internal_signature.append(byte_sequence_elem)

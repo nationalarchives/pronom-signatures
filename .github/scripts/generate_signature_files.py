@@ -49,7 +49,8 @@ def generate_files_signatures():
 
 
 def get_binary_signatures(all_internal_signatures):
-    sorted_internal_signatures = sorted(all_internal_signatures, key=lambda x: x['positionType'])
+    all_byte_sequences = [seq for signature in all_internal_signatures for seq in signature['byteSequences']]
+    sorted_internal_signatures = sorted(all_byte_sequences, key=lambda x: x['positionType'])
     grouped_internal_signatures = itertools.groupby(sorted_internal_signatures, lambda x: x['positionType'])
     cwd = os.getcwd()
     results_for_type = {}
@@ -120,6 +121,7 @@ def create_signature_file(all_files, all_internal_signatures):
     root_element.append(internal_signature_collection)
     root_element.append(file_format_collection)
     binary_signatures = get_binary_signatures(all_internal_signatures)
+    existing_signature_ids = []
     for format_json in all_files:
         internal_signatures = format_json['internalSignatures']
 
@@ -129,33 +131,48 @@ def create_signature_file(all_files, all_internal_signatures):
         add_extensions(file_format_element, format_json)
         signatures_by_id = itertools.groupby(internal_signatures, lambda x: x['signatureID'])
         for signature_id, internal_signatures in signatures_by_id:
-            signature_id_element = Et.Element('InternalSignatureID')
-            signature_id_element.text = str(signature_id)
-            file_format_element.append(signature_id_element)
-            signature_element_attributes = {'ID': str(signature_id), 'Specificity': 'Specific'}
-            signature_element = Et.Element('InternalSignature', attrib=signature_element_attributes)
-            for internal_signature in internal_signatures:
-                position_type = get_position_type(internal_signature['positionType'])
-                byte_sequence = internal_signature['byteSequence']
-                if position_type in binary_signatures and byte_sequence in binary_signatures[position_type]:
-                    sigtool_response = binary_signatures[position_type][byte_sequence]
-                    sigtool_element = Et.fromstring(sigtool_response)
-                    for position, sub_sequence in enumerate(sigtool_element.iter('SubSequence')):
-                        existing_min_seq_offset = int(sub_sequence.attrib['SubSeqMinOffset'])
-                        existing_max_seq_offset = int(sub_sequence.attrib['SubSeqMaxOffset'])
-                        offset = internal_signature['offset'] if internal_signature['offset'] is not None else 0
-                        max_offset = internal_signature['maxOffset'] if internal_signature[
-                                                                            'maxOffset'] is not None else 0
-                        min_seq_offset = int(existing_min_seq_offset) + int(offset) if position == 0 else 0
-                        max_seq_offset = int(existing_max_seq_offset) + int(offset) + int(max_offset)
-                        sub_sequence.attrib['SubSeqMinOffset'] = str(min_seq_offset)
-                        if position == 0:
-                            sub_sequence.attrib['SubSeqMaxOffset'] = str(max_seq_offset)
-                        else:
-                            del sub_sequence.attrib['SubSeqMaxOffset']
-                    signature_element.append(sigtool_element)
-            internal_signature_collection.append(signature_element)
+            if signature_id not in existing_signature_ids:
+                signature_id_element = Et.Element('InternalSignatureID')
+                signature_id_element.text = str(signature_id)
+                file_format_element.append(signature_id_element)
+                signature_element_attributes = {'ID': str(signature_id), 'Specificity': 'Specific'}
+                signature_element = Et.Element('InternalSignature', attrib=signature_element_attributes)
+                for internal_signature in internal_signatures:
+                    if 'specificity' in internal_signature and internal_signature['specificity']:
+                        signature_element.attrib['Specificity'] = internal_signature['specificity']
+                    byte_sequences = internal_signature['byteSequences']
+                    for byte_sequence in byte_sequences:
+                        position_type = get_position_type(byte_sequence['positionType'])
+                        seq_string = byte_sequence['byteSequence']
+                        if position_type in binary_signatures and seq_string in binary_signatures[position_type]:
+                            sigtool_response = binary_signatures[position_type][seq_string]
+                            sigtool_element = Et.fromstring(sigtool_response)
+                            if 'endianness' in byte_sequence and byte_sequence['endianness']:
+                                sigtool_element.attrib['Endianness'] = byte_sequence['endianness']
+                            for sub_sequence in sigtool_element.iter('SubSequence'):
+                                position = int(sub_sequence.attrib['Position'])
+                                existing_min_seq_offset = int(sub_sequence.attrib['SubSeqMinOffset'])
+                                existing_max_seq_offset = int(sub_sequence.attrib['SubSeqMaxOffset'])
+                                offset = byte_sequence['offset'] if byte_sequence['offset'] is not None else 0
+                                max_offset = byte_sequence['maxOffset'] if byte_sequence[
+                                                                               'maxOffset'] is not None else 0
+                                min_seq_offset = int(existing_min_seq_offset) + int(offset) \
+                                    if position == 1 else existing_min_seq_offset
+                                max_seq_offset = int(existing_max_seq_offset) + int(offset) + int(max_offset)
+                                sub_sequence.attrib['SubSeqMinOffset'] = str(min_seq_offset)
+                                if (position_type == 'Variable' and 'Reference' in sigtool_element.attrib
+                                        and sigtool_element.attrib['Reference'] == 'Variable'):
+                                    del sigtool_element.attrib['Reference']
+                                if position == 1 and position_type != 'Variable':
+                                    sub_sequence.attrib['SubSeqMaxOffset'] = str(max_seq_offset)
+                                else:
+                                    del sub_sequence.attrib['SubSeqMaxOffset']
+                            signature_element.append(sigtool_element)
+                internal_signature_collection.append(signature_element)
+                existing_signature_ids.append(signature_id)
         file_format_collection.append(file_format_element)
+
+    Et.indent(root_element, space="\t", level=0)
     Et.ElementTree(root_element).write('signature-file.xml')
 
 

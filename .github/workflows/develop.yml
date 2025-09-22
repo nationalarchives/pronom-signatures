@@ -13,6 +13,10 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.WORKFLOW_TOKEN }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
       - run: |
           .github/scripts/create_signature_files.sh --release
           .github/scripts/commit.sh "Generate signature files" ${{ github.event.pull_request.head.ref }}

@@ -1,11 +1,15 @@
 import json
+import sys
+
 import boto3
 import re
 from datetime import datetime
 
 client = boto3.client('s3')
 
-bucket_name = 'tna-pronom-signatures-spike'
+environment = sys.argv[1]
+
+bucket_name = f'{environment}-pronom-website'
 
 
 def list_keys(prefix):

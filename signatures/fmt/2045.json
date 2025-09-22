@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 3925,
+  "version": "1.4",
+  "formatName": "OpenDocument Spreadsheet",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2045",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/vnd.oasis.opendocument.spreadsheet",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "7040",
+      "description": "Open Document Spreadsheet 1.4",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.spreadsheet'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'office:version=' (22|27) '1.4' (22|27)"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ods",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1037,
+      "relatedFormatName": "OpenDocument Spreadsheet"
+    }
+  ],
+  "source": 244
+}

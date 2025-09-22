@@ -92,6 +92,27 @@
           "endianness": null
         }
       ]
+    },
+    {
+      "signatureID": 3404,
+      "name": "Tweet JSON (reversed order)",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7B*22726574776565746564223A*2269645F737472223A",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7D{0-2}",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

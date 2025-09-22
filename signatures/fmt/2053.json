@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3939,
+  "formatName": "Apache Arrow IPC Format",
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2053",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3415,
+      "name": "Apache Arrow IPC Format",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4152524F5731",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "4152524F5731",
+          "endianness": "Big-endian"
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "arrow",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 1
+}

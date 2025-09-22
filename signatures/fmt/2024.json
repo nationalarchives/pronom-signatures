@@ -52,6 +52,11 @@
       "relationshipType": "Is previous version of",
       "relatedFormatID": 3899,
       "relatedFormatName": "CD Architect Project File"
+    },
+        {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 2741,
+      "relatedFormatName": "Resource Interchange File Format (RIFF)"
     }
   ],
   "source": 299

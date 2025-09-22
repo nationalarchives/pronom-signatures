@@ -1,0 +1,75 @@
+{
+  "fileFormatID": 3917,
+  "formatName": "Android Package File",
+  "provenanceCompoundName": "Bibliothèque nationale de France / Bibliothèque nationale de France",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2041",
+      "identifierType": "PUID"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "101120",
+      "description": "Android Package File",
+      "files": [
+        {
+          "path": "classes.dex"
+        },
+        {
+          "path": "AndroidManifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "03 00 08 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "internalSignatures": [
+    {
+      "signatureID": 3408,
+      "name": "Android Package",
+      "note": "The format can be identified because it contains a file named AndroidManifest.xml at the root level. ",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "D0CF11E0A1B11AE1",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "apk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 777,
+      "relatedFormatName": "Java Archive Format"
+    }
+  ],
+  "source": 162
+}

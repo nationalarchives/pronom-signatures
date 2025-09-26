@@ -18,7 +18,7 @@
   "formatAliases": "MP3",
   "formatTypes": "Audio",
   "byteOrders": null,
-  "formatFamilies": null,
+  "formatFamilies": "Test family",
   "identifiers": [
     {
       "identifierText": "audio/mpeg",

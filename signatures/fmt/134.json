@@ -12,13 +12,13 @@
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
   "formatProvenance": null,
   "formatSourceDate": "11 Mar 2005",
-  "formatDisclosure": null,
+  "formatDisclosure": "Full",
   "formatEnvironment": null,
   "formatRisk": null,
   "formatAliases": "MP3",
   "formatTypes": "Audio",
   "byteOrders": null,
-  "formatFamilies": null,
+  "formatFamilies": "Test family",
   "identifiers": [
     {
       "identifierText": "audio/mpeg",
@@ -387,5 +387,6 @@
       "relatedFormatName": "VBM (VDC BitMap) File"
     }
   ],
-  "source": 1
+  "source": 1,
+  "developedBy": 189
 }

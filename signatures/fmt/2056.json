@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3942,
+  "fileFormatID": 3931,
   "formatName": "Immersive Audio Model Format",
   "provenanceCompoundName": "Preservica / Preservica",
   "identifiers": [
@@ -10,7 +10,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3417,
+      "signatureID": 3419,
       "name": "Immersive Audio Model Format",
       "note": "",
       "byteSequences": [

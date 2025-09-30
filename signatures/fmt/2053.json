@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3939,
+  "fileFormatID": 3928,
   "formatName": "Apache Arrow IPC Format",
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
   "identifiers": [
@@ -10,7 +10,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3415,
+      "signatureID": 3417,
       "name": "Apache Arrow IPC Format",
       "note": "",
       "byteSequences": [

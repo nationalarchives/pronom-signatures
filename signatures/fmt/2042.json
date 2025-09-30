@@ -37,7 +37,7 @@
               "subSequences": [
                 {
                   "position": "1",
-                  "subSeqMinOffset": "0",
+                  "subSeqMinOffset": "7",
                   "subSeqMaxOffset": "0",
                   "sequence": "61 6E 64 72 6F 69 64"
                 }

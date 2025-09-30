@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3954,
+  "fileFormatID": 3939,
   "version": "9+",
   "formatName": "DaVinci Resolve Project File",
   "provenanceCompoundName": "Brigham Young University / Brigham Young University",
@@ -47,7 +47,7 @@
   "relationships": [
     {
       "relationshipType": "Has priority over",
-      "relatedFormatID": 3952,
+      "relatedFormatID": 3938,
       "relatedFormatName": "DaVinci Resolve Timeline File"
     }
   ],

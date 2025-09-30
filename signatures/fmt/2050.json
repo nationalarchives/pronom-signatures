@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3934,
+  "fileFormatID": 3925,
   "formatName": "PDF/UA Portable Document Format",
   "provenanceCompoundName": "Preservica / Preservica",
   "identifiers": [
@@ -10,7 +10,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3412,
+      "signatureID": 3414,
       "name": "PDF/UA Portable Document Format",
       "note": "",
       "byteSequences": [
@@ -34,7 +34,7 @@
     {
       "relationshipType": "Has priority over",
       "relatedFormatID": 1016,
-      "relatedFormatName": "Acrobat PDF 1.7 - Portable Document Format"
+      "relatedFormatName": "PDF 2.0 - Portable Document Format"
     }
   ],
   "source": 244

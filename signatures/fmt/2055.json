@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3941,
+  "fileFormatID": 3930,
   "formatName": "Apple Mail EMLX Format",
   "provenanceCompoundName": "Brigham Young University / Brigham Young University",
   "identifiers": [
@@ -10,7 +10,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3416,
+      "signatureID": 3418,
       "name": "Apple Mail EMLX Format",
       "note": "",
       "byteSequences": [

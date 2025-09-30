@@ -1,6 +1,6 @@
 {
-  "fileFormatID": 3935,
-  "formatName": "PDF/UA Portable Document Format",
+  "fileFormatID": 3927,
+  "formatName": "Cineon",
   "provenanceCompoundName": "Preservica / Preservica",
   "identifiers": [
     {
@@ -10,15 +10,15 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3413,
-      "name": "PDF/UA Portable Document Format",
+      "signatureID": 3416,
+      "name": "Cineon",
       "note": "",
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "255044462D322E30*706466756169643A706172743D223222",
+          "byteSequence": "802A5FD7",
           "endianness": null
         }
       ]
@@ -26,16 +26,10 @@
   ],
   "externalSignatures": [
     {
-      "externalSignature": "pdf",
+      "externalSignature": "cin",
       "signatureType": "File extension"
     }
   ],
-  "relationships": [
-    {
-      "relationshipType": "Has priority over",
-      "relatedFormatID": 1939,
-      "relatedFormatName": "PDF 2.0 - Portable Document Format"
-    }
-  ],
+  "relationships": [],
   "source": 244
 }

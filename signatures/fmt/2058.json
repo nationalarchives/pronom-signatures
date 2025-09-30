@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3945,
+  "fileFormatID": 3933,
   "formatName": "A2R Disk Image File",
   "provenanceCompoundName": "Brigham Young University / Brigham Young University",
   "identifiers": [
@@ -10,7 +10,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3419,
+      "signatureID": 3421,
       "name": "A2R Disk Image File",
       "note": "",
       "byteSequences": [

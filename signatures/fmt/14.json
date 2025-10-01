@@ -6,7 +6,7 @@
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Binary",
-  "formatNote": null,
+  "formatNote": "A note",
   "lastUpdatedDate": "22 Oct 2009",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
@@ -18,7 +18,7 @@
   "formatAliases": "PDF (1.0)",
   "formatTypes": "Page Description",
   "byteOrders": "Big-endian (Motorola)",
-  "formatFamilies": null,
+  "formatFamilies": "Format Family",
   "identifiers": [
     {
       "identifierText": "application/pdf",

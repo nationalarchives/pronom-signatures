@@ -12,13 +12,13 @@
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
   "formatProvenance": null,
   "formatSourceDate": "11 Mar 2005",
-  "formatDisclosure": "None",
+  "formatDisclosure": "Partial",
   "formatEnvironment": null,
   "formatRisk": null,
   "formatAliases": "PDF (1.1)",
   "formatTypes": "Page Description",
   "byteOrders": "Big-endian (Motorola)",
-  "formatFamilies": null,
+  "formatFamilies": "Format Family",
   "identifiers": [
     {
       "identifierText": "application/pdf",
@@ -31,6 +31,10 @@
     {
       "identifierText": "fmt/15",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "sdfadfsf",
+      "identifierType": "GDFRClass"
     }
   ],
   "internalSignatures": [
@@ -185,5 +189,6 @@
     }
   ],
   "developedBy": 7,
-  "source": 1
+  "source": 1,
+  "supportedBy": 140
 }

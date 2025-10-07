@@ -18,6 +18,10 @@ jobs:
           role-to-assume: arn:aws:iam::${{ secrets.ACCOUNT_ID }}:role/SandboxGithubActionsDeployPronom
           aws-region: eu-west-2
           role-session-name: DeployPRONOM
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
       - run: |
           .github/scripts/create_signature_files.sh --release
           NEW_SIGNATURE_FILENAME=$(aws s3 ls s3://intg-pronom-website/signatures/ | sort -t'V' -k2,2n | awk -F'V|\\.xml' '{print "DROID_SignatureFile_V" ($2+1) ".xml"}' | tail -1)

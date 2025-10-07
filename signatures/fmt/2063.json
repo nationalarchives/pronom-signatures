@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 3938,
+  "version": "9+",
+  "formatName": "DaVinci Resolve Timeline File",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2063",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "101150",
+      "description": "DaVinci Resolve Timeline",
+      "files": [
+        {
+          "path": "project.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "3C 53 4D 5F 50 72 6F 6A 65 63 74"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "drt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

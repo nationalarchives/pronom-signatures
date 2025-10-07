@@ -1,0 +1,35 @@
+{
+  "fileFormatID": 3933,
+  "formatName": "ArcGIS Pro Layer File",
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2049",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3413,
+      "name": "ArcGIS Pro Layer File",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "7B{0-1}0A2020227479706522203A202243494D4C61796572446F63756D656E74222C{0-1}0A20202276657273696F6E22203A2022",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "lyrx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 1
+}

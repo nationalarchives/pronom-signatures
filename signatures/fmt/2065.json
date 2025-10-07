@@ -1,0 +1,20 @@
+{
+  "fileFormatID": 3940,
+  "formatName": "TOML",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2065",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "toml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 244
+}

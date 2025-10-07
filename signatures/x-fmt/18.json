@@ -2,7 +2,7 @@
   "fileFormatID": 45,
   "formatName": "Comma Separated Values",
   "version": null,
-  "formatDescription": "A comma-separated values (CSV) file file stores tabular data (numbers and text) in plain text. Plain text means that the file is interpreted a sequence of characters, so that it is human-readable with a standard text editor. Each line of the file is a data record.",
+  "formatDescription": "A comma-separated values (CSV) file stores tabular data (numbers and text) in plain text. Plain text means that the file is interpreted a sequence of characters, so that it is human-readable with a standard text editor. Each line of the file is a data record.",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",

@@ -1,0 +1,20 @@
+{
+  "fileFormatID": 3942,
+  "formatName": "XYZ Coordinate Data",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2067",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "xyz",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 244
+}

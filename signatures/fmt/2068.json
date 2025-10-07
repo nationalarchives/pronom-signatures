@@ -1,0 +1,35 @@
+{
+  "fileFormatID": 3943,
+  "formatName": "Macintosh File System",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2068",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3426,
+      "name": "Macintosh File System",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{1024}D2D7{12}0004{6}[!&01]00",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "mfs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

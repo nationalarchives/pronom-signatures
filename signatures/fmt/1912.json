@@ -71,6 +71,48 @@
           "endianness": null
         }
       ]
+    },
+    {
+      "signatureID": 3430,
+      "name": "PDF/A-4f variant 3",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D322E[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "7064666169643A706172743D223422207064666169643A636F6E666F726D616E63653D224622",
+          "endianness": null
+        }
+      ]
+    },
+    {
+      "signatureID": 3431,
+      "name": "PDF/A-4f variant 4",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D322E[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "7064666169643A636F6E666F726D616E63653D224622207064666169643A706172743D223422",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

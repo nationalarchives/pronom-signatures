@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 3923,
+  "version": "1.4",
+  "formatName": "OpenDocument Graphics",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2048",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/vnd.oasis.opendocument.graphics",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "9540",
+      "description": "Open Document Graphics 1.4",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.graphics'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'office:version=' (22|27) '1.4' (22|27)"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "odg",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1039,
+      "relatedFormatName": "OpenDocument Graphics"
+    }
+  ],
+  "source": 244
+}

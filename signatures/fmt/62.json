@@ -65,16 +65,6 @@
       "relationshipType": "Has priority over",
       "relatedFormatID": 767,
       "relatedFormatName": "OLE2 Compound Document Format"
-    },
-    {
-      "relationshipType": "Is subsequent version of",
-      "relatedFormatID": 684,
-      "relatedFormatName": "Microsoft Excel 97 Workbook (xls)"
-    },
-    {
-      "relationshipType": "Is subtype of",
-      "relatedFormatID": 767,
-      "relatedFormatName": "OLE2 Compound Document Format"
     }
   ],
   "source": 1

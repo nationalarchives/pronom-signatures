@@ -1,3 +1,4 @@
+rm -rf droid-bin
 mkdir droid-bin
 cd droid-bin
 wget -q $(curl https://api.github.com/repos/digital-preservation/droid/releases/latest | jq -r '.assets[] | select(.name | contains("with-jre") | not) | .browser_download_url')

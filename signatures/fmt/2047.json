@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 3922,
+  "version": "1.4",
+  "formatName": "OpenDocument Database",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2047",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/vnd.oasis.opendocument.base",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "9040",
+      "description": "Open Document Database 1.4",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.base'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'office:version=' (22|27) '1.4' (22|27)"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "odb",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1231,
+      "relatedFormatName": "OpenDocument Database Format"
+    }
+  ],
+  "source": 244
+}

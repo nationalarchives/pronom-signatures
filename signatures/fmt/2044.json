@@ -1,0 +1,82 @@
+{
+  "fileFormatID": 3919,
+  "version": "1.4",
+  "formatName": "OpenDocument Text",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2044",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/vnd.oasis.opendocument.text",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "6040",
+      "description": "Open Document Text 1.4",
+      "files": [
+        {
+          "path": "META-INF/manifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "1024",
+                  "sequence": "'manifest:media-type=\"application/vnd.oasis.opendocument.text'"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        },
+        {
+          "path": "content.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "128",
+                  "sequence": "'office:document-content'"
+                },
+                {
+                  "position": "2",
+                  "subSeqMinOffset": "0",
+                  "sequence": "'office:version=' (22|27) '1.4' (22|27)"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "odt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 778,
+      "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1033,
+      "relatedFormatName": "OpenDocument Text"
+    }
+  ],
+  "source": 244
+}

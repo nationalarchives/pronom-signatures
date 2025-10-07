@@ -34,8 +34,8 @@
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
-          "maxOffset": 256,
-          "byteSequence": "69643D496D6167654D616769636B{0-256}3A0A",
+          "maxOffset": 0,
+          "byteSequence": "{0-256}69643D496D6167654D616769636B{0-1024}3A",
           "endianness": null
         }
       ]
@@ -44,6 +44,10 @@
   "externalSignatures": [
     {
       "externalSignature": "mif",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "miff",
       "signatureType": "File extension"
     }
   ],

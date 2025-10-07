@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 3930,
+  "formatName": "Apple Mail EMLX Format",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2055",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3418,
+      "name": "Apple Mail EMLX Format",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C2F706C6973743E{0-8}",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16384}4D(494D45|696D65)2D(56|76)657273696F6E3A20312E30",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16384}546F3A20",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16384}46726F6D3A20",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16384}446174653A20",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "{0-16384}436F6E74656E742D(54|74)7970653A20",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "emlx",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 645,
+      "relatedFormatName": "Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1755,
+      "relatedFormatName": "MIME Email"
+    }
+  ],
+  "source": 299
+}

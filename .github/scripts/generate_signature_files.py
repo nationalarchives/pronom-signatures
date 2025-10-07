@@ -121,7 +121,6 @@ def create_signature_file(all_files, all_internal_signatures):
     root_element.append(internal_signature_collection)
     root_element.append(file_format_collection)
     binary_signatures = get_binary_signatures(all_internal_signatures)
-    existing_signature_ids = []
     for format_json in all_files:
         internal_signatures = format_json['internalSignatures']
 
@@ -131,45 +130,43 @@ def create_signature_file(all_files, all_internal_signatures):
         add_extensions(file_format_element, format_json)
         signatures_by_id = itertools.groupby(internal_signatures, lambda x: x['signatureID'])
         for signature_id, internal_signatures in signatures_by_id:
-            if signature_id not in existing_signature_ids:
-                signature_id_element = Et.Element('InternalSignatureID')
-                signature_id_element.text = str(signature_id)
-                file_format_element.append(signature_id_element)
-                signature_element_attributes = {'ID': str(signature_id), 'Specificity': 'Specific'}
-                signature_element = Et.Element('InternalSignature', attrib=signature_element_attributes)
-                for internal_signature in internal_signatures:
-                    if 'specificity' in internal_signature and internal_signature['specificity']:
-                        signature_element.attrib['Specificity'] = internal_signature['specificity']
-                    byte_sequences = internal_signature['byteSequences']
-                    for byte_sequence in byte_sequences:
-                        position_type = get_position_type(byte_sequence['positionType'])
-                        seq_string = byte_sequence['byteSequence']
-                        if position_type in binary_signatures and seq_string in binary_signatures[position_type]:
-                            sigtool_response = binary_signatures[position_type][seq_string]
-                            sigtool_element = Et.fromstring(sigtool_response)
-                            if 'endianness' in byte_sequence and byte_sequence['endianness']:
-                                sigtool_element.attrib['Endianness'] = byte_sequence['endianness']
-                            for sub_sequence in sigtool_element.iter('SubSequence'):
-                                position = int(sub_sequence.attrib['Position'])
-                                existing_min_seq_offset = int(sub_sequence.attrib['SubSeqMinOffset'])
-                                existing_max_seq_offset = int(sub_sequence.attrib['SubSeqMaxOffset'])
-                                offset = byte_sequence['offset'] if byte_sequence['offset'] is not None else 0
-                                max_offset = byte_sequence['maxOffset'] if byte_sequence[
-                                                                               'maxOffset'] is not None else 0
-                                min_seq_offset = int(existing_min_seq_offset) + int(offset) \
-                                    if position == 1 else existing_min_seq_offset
-                                max_seq_offset = int(existing_max_seq_offset) + int(offset) + int(max_offset)
-                                sub_sequence.attrib['SubSeqMinOffset'] = str(min_seq_offset)
-                                if (position_type == 'Variable' and 'Reference' in sigtool_element.attrib
-                                        and sigtool_element.attrib['Reference'] == 'Variable'):
-                                    del sigtool_element.attrib['Reference']
-                                if position == 1 and position_type != 'Variable':
-                                    sub_sequence.attrib['SubSeqMaxOffset'] = str(max_seq_offset)
-                                else:
-                                    del sub_sequence.attrib['SubSeqMaxOffset']
-                            signature_element.append(sigtool_element)
-                internal_signature_collection.append(signature_element)
-                existing_signature_ids.append(signature_id)
+            signature_id_element = Et.Element('InternalSignatureID')
+            signature_id_element.text = str(signature_id)
+            file_format_element.append(signature_id_element)
+            signature_element_attributes = {'ID': str(signature_id), 'Specificity': 'Specific'}
+            signature_element = Et.Element('InternalSignature', attrib=signature_element_attributes)
+            for internal_signature in internal_signatures:
+                if 'specificity' in internal_signature and internal_signature['specificity']:
+                    signature_element.attrib['Specificity'] = internal_signature['specificity']
+                byte_sequences = internal_signature['byteSequences']
+                for byte_sequence in byte_sequences:
+                    position_type = get_position_type(byte_sequence['positionType'])
+                    seq_string = byte_sequence['byteSequence']
+                    if position_type in binary_signatures and seq_string in binary_signatures[position_type]:
+                        sigtool_response = binary_signatures[position_type][seq_string]
+                        sigtool_element = Et.fromstring(sigtool_response)
+                        if 'endianness' in byte_sequence and byte_sequence['endianness']:
+                            sigtool_element.attrib['Endianness'] = byte_sequence['endianness']
+                        for sub_sequence in sigtool_element.iter('SubSequence'):
+                            position = int(sub_sequence.attrib['Position'])
+                            existing_min_seq_offset = int(sub_sequence.attrib['SubSeqMinOffset'])
+                            existing_max_seq_offset = int(sub_sequence.attrib['SubSeqMaxOffset'])
+                            offset = byte_sequence['offset'] if byte_sequence['offset'] is not None else 0
+                            max_offset = byte_sequence['maxOffset'] if byte_sequence[
+                                                                           'maxOffset'] is not None else 0
+                            min_seq_offset = int(existing_min_seq_offset) + int(offset) \
+                                if position == 1 else existing_min_seq_offset
+                            max_seq_offset = int(existing_max_seq_offset) + int(offset) + int(max_offset)
+                            sub_sequence.attrib['SubSeqMinOffset'] = str(min_seq_offset)
+                            if (position_type == 'Variable' and 'Reference' in sigtool_element.attrib
+                                    and sigtool_element.attrib['Reference'] == 'Variable'):
+                                del sigtool_element.attrib['Reference']
+                            if position == 1 and position_type != 'Variable':
+                                sub_sequence.attrib['SubSeqMaxOffset'] = str(max_seq_offset)
+                            else:
+                                del sub_sequence.attrib['SubSeqMaxOffset']
+                        signature_element.append(sigtool_element)
+            internal_signature_collection.append(signature_element)
         file_format_collection.append(file_format_element)
 
     Et.indent(root_element, space="\t", level=0)
@@ -187,10 +184,19 @@ def generate_binary_signatures(format_json):
             byte_sequence_attributes = {'Reference': sequence['reference']} if 'reference' in sequence else {}
             byte_sequence_elem = Et.Element('ByteSequence', attrib=byte_sequence_attributes)
             for sub_sequence in sequence['subSequences']:
-                sub_sequence_attributes = {k[0].upper() + k[1:]: v for k, v in sub_sequence.items() if k != 'sequence'}
+                sub_sequence_attributes = {
+                    k[0].upper() + k[1:]: v for k, v in sub_sequence.items() if k not in ['sequence', 'rightFragment']
+                }
                 sub_sequence_elem = Et.Element('SubSequence', attrib=sub_sequence_attributes)
                 sequence_elem = Et.Element('Sequence')
                 sequence_elem.text = sub_sequence['sequence']
+                if 'rightFragment' in sub_sequence:
+                    right_fragment_attributes = {
+                        k[0].upper() + k[1:]: v for k, v in sub_sequence['rightFragment'].items() if k != 'sequence'
+                    }
+                    right_fragment_elem = Et.Element('RightFragment', right_fragment_attributes)
+                    right_fragment_elem.text = sub_sequence['rightFragment']['sequence']
+                    sub_sequence_elem.append(right_fragment_elem)
                 sub_sequence_elem.append(sequence_elem)
                 byte_sequence_elem.append(sub_sequence_elem)
             internal_signature.append(byte_sequence_elem)

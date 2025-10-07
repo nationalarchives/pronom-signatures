@@ -1,0 +1,41 @@
+{
+  "fileFormatID": 3925,
+  "formatName": "PDF/UA Portable Document Format",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2050",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3414,
+      "name": "PDF/UA Portable Document Format",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D312E37*3C706466756169643A706172743E313C2F706466756169643A706172743E",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pdf",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1016,
+      "relatedFormatName": "PDF 2.0 - Portable Document Format"
+    }
+  ],
+  "source": 244
+}

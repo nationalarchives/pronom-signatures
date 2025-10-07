@@ -50,6 +50,27 @@
           "endianness": null
         }
       ]
+    },
+    {
+      "signatureID": 3427,
+      "name": "PDF/A-4",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "255044462D322E[30:39]",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "7064666169643A706172743D223422",
+          "endianness": null
+        }
+      ]
     }
   ],
   "externalSignatures": [

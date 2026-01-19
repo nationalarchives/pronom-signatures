@@ -23,7 +23,15 @@ Add a json file with the details of the new signature in the submissions directo
       "positionType": "Absolute from BOF",
       "offset": 0,
       "maxOffset": 0,
-      "byteSequence": "5445535450524F4E4F4D",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "5445535450524F4E4F4D",
+          "endianness": null
+        }
+      ],
       "name": "PRONOM test",
       "note": "A PRONOM test signature"
     }

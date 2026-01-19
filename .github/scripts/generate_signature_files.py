@@ -1,6 +1,7 @@
 import subprocess
 import os
 import json
+import urllib.request
 import xml.etree.ElementTree as Et
 import itertools
 import sys
@@ -240,17 +241,11 @@ def create_container_file(all_container_signatures):
 
 
 def get_latest_signature_version():
-    s3 = boto3.client('s3')
+    url = "https://d21gi86t6uhf68.cloudfront.net/signatures.json"
 
-    response = s3.list_objects_v2(Bucket="intg-pronom-website", Prefix="signatures/")
-    version_numbers = []
-    for obj in response['Contents']:
-        key = obj['Key']
-        match = re.search(r'V(\d+)\.xml$', key)
-        if match:
-            version_numbers.append(int(match.group(1)))
-
-    return str(max(version_numbers))
+    with urllib.request.urlopen(url) as response:
+        data = json.load(response)
+    return int(data['latest_signature']['version'])
 
 def run():
     latest_signature_version = get_latest_signature_version()

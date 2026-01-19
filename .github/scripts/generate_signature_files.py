@@ -245,7 +245,7 @@ def get_latest_signature_version():
 
     with urllib.request.urlopen(url) as response:
         data = json.load(response)
-    return int(data['latest_signature']['version'])
+    return data['latest_signature']['version']
 
 def run():
     latest_signature_version = get_latest_signature_version()

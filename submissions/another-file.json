@@ -1,0 +1,22 @@
+{
+  "formatName": "A test PRONOM file",
+  "formatDescription": "This is a test file",
+  "internalSignatures": [
+    {
+      "positionType": "Absolute from BOF",
+      "offset": 0,
+      "maxOffset": 0,
+      "byteSequences": [
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 1024,
+          "byteSequence": "5445535450524F4E4F4D",
+          "endianness": null
+        }
+      ],
+      "name": "PRONOM test",
+      "note": "A PRONOM test signature"
+    }
+  ]
+}

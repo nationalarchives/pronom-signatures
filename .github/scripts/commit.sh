@@ -5,8 +5,8 @@ if git status --porcelain | grep -q '^??'; then
   git config --global user.email 181243999+tna-da-bot@users.noreply.github.com
   git config --global user.name tna-da-bot
   git add -A
-  git commit -m "$1"
-  git push origin HEAD:$2
+  git commit -m "Generate signature files"
+  git push origin $(git rev-parse --abbrev-ref HEAD)
 else
   echo "No untracked files found. Nothing to commit."
 fi

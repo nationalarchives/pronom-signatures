@@ -6,7 +6,7 @@ if git status --porcelain | grep -q '^??'; then
   git config --global user.name tna-da-bot
   git add -A
   git commit -m "Generate signature files"
-  git push origin HEAD:$GITHUB_BASE_REF
+  git push origin HEAD:$GITHUB_HEAD_REF
 else
   echo "No untracked files found. Nothing to commit."
 fi

@@ -54,11 +54,6 @@
   "relationships": [
     {
       "relationshipType": "Has lower priority than",
-      "relatedFormatID": 1502,
-      "relatedFormatName": "Broadcast WAVE"
-    },
-    {
-      "relationshipType": "Has lower priority than",
       "relatedFormatID": 1505,
       "relatedFormatName": "Broadcast WAVE"
     },

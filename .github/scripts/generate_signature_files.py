@@ -1,9 +1,12 @@
 import subprocess
 import os
 import json
+import urllib.request
 import xml.etree.ElementTree as Et
 import itertools
 import sys
+import boto3
+import re
 
 droid_path = sys.argv[1]
 
@@ -109,11 +112,11 @@ def add_relationships(file_format_element, format_json):
             file_format_element.append(priority_element)
 
 
-def create_signature_file(all_files, all_internal_signatures):
+def create_signature_file(all_files, all_internal_signatures, latest_signature_version):
     root_attributes = {
         'xmlns': 'http://www.nationalarchives.gov.uk/pronom/SignatureFile',
         'DateCreated': '2024-07-08T11:54:20',
-        'Version': '119'
+        'Version': latest_signature_version
     }
     root_element = Et.Element('FFSignatureFile', attrib=root_attributes)
     internal_signature_collection = Et.Element('InternalSignatureCollection')
@@ -237,9 +240,17 @@ def create_container_file(all_container_signatures):
     Et.ElementTree(root_element).write('container-signature-file.xml', xml_declaration=False)
 
 
+def get_latest_signature_version():
+    url = "https://d21gi86t6uhf68.cloudfront.net/signatures.json"
+
+    with urllib.request.urlopen(url) as response:
+        data = json.load(response)
+    return data['latest_signature']['version']
+
 def run():
+    latest_signature_version = get_latest_signature_version()
     all_files, all_internal_signatures, all_container_signatures = generate_files_signatures()
-    create_signature_file(all_files, all_internal_signatures)
+    create_signature_file(all_files, all_internal_signatures, latest_signature_version)
     create_container_file(all_container_signatures)
 
 

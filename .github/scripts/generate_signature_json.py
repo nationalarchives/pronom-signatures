@@ -16,13 +16,20 @@ def list_keys(prefix):
     return [obj['Key'].split('/')[-1] for obj in client.list_objects_v2(Bucket=bucket_name, Prefix=prefix)['Contents']]
 
 
+def get_binary_version(key):
+    return key.split('_')[2].split('.')[0]
+
+
+def get_container_version(key):
+    return key.split('-')[2].split('.')[0]
+
 def signature_key_to_name(key):
-    version = key.split('_')[2].split('.')[0]
+    version = get_binary_version(key)
     return f'DROID Signature File {version}'
 
 
 def container_key_to_name(key):
-    date_str = key.split('-')[2].split('.')[0]
+    date_str = get_container_version(key)
     date_obj = datetime.strptime(date_str, "%Y%m%d")
     return date_obj.strftime("%d %B %Y")
 
@@ -31,9 +38,19 @@ signatures = sorted(list_keys('signatures/'), key=lambda k: int(re.search(r'(\d+
 container_signatures = list_keys('container-signatures/')
 latest_signature_file_name = signatures[-1]
 latest_container_signature_file_name = container_signatures[-1]
-signature_names = [{"name": signature_key_to_name(sig), "location": f"/signatures/{sig}"} for sig in signatures]
+signature_names = [
+    {
+        "name": signature_key_to_name(sig),
+        "location": f"/signatures/{sig}",
+        "version": get_binary_version(sig)[1:]
+    } for sig in signatures
+]
 container_signature_names = [
-    {"name": container_key_to_name(sig), "location": f"/container-signatures/{sig}"} for sig in container_signatures
+    {
+        "name": container_key_to_name(sig),
+        "location": f"/container-signatures/{sig}",
+        "version": get_container_version(sig)
+    } for sig in container_signatures
 ]
 signature_json = {
     "latest_signature": signature_names[-1],

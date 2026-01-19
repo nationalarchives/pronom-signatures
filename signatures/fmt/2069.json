@@ -16,7 +16,15 @@
         }
       ],
       "name": "PRONOM test",
-      "note": "A PRONOM test signature"
+      "note": "A PRONOM test signature",
+      "signatureID": 3432
+    }
+  ],
+  "fileFormatID": 3944,
+  "identifiers": [
+    {
+      "identifierType": "PUID",
+      "identifierText": "fmt/2069"
     }
   ]
 }

@@ -27,6 +27,7 @@ jobs:
           NEW_SIGNATURE_FILENAME=$(aws s3 ls s3://intg-pronom-website/signatures/ | sort -t'V' -k2,2n | awk -F'V|\\.xml' '{print "DROID_SignatureFile_V" ($2+1) ".xml"}' | tail -1)
           aws s3 cp signature-file.xml s3://intg-pronom-website/signatures/$NEW_SIGNATURE_FILENAME
           aws s3 cp container-signature-file.xml s3://intg-pronom-website/container-signatures/container-signature-$(date +%Y%m%d).xml
+          aws s3 cp container-signature-file.xml s3://intg-pronom-website/container-signature.xml
           python .github/scripts/generate_signature_json.py intg
       - name: Build website
         uses: octokit/request-action@v2.x

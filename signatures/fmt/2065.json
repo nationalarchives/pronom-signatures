@@ -1,11 +1,17 @@
 {
   "fileFormatID": 3940,
   "formatName": "TOML",
-  "provenanceCompoundName": "Preservica / Preservica",
+  "provenanceCompoundName": "Ross Spencer / Ravensburger AG",
+  "formatDescription": "TOML (Tom’s Obvious Minimal Language) was created by Tom Preston-Werner, in the github repository tom-lang. TOML is a minimal configuration file format that is designed with clear semantics so as to be easily human-readable. TOML is designed to map unambiguously to a hash table (synonymous with a dictionary or map) and so can be parsed and understood by a number of programming languages. Data structures represented by TOML can often be mapped into other languages as required such as JSON or YAML.",
+  "formatAliases": "TOML (Tom's Obvious Minimal Language), TOML (Tom's Own Markup Language)",
   "identifiers": [
     {
       "identifierText": "fmt/2065",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/toml",
+      "identifierType": "MIME"
     }
   ],
   "internalSignatures": [],
@@ -16,5 +22,5 @@
     }
   ],
   "relationships": [],
-  "source": 244
+  "source": 320
 }

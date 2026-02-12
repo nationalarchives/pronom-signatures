@@ -7,6 +7,10 @@
     {
       "identifierText": "fmt/2061",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "Q116870058",
+      "identifierType": "Wikidata QID Identifier"
     }
   ],
   "internalSignatures": [

@@ -23,6 +23,10 @@
     {
       "identifierText": "x-fmt/430",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/vnd.ms-outlook",
+      "identifierType": "MIME"
     }
   ],
   "internalSignatures": [

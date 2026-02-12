@@ -28,6 +28,14 @@
     {
       "externalSignature": "mfs",
       "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "IMG",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "DSK",
+      "signatureType": "File extension"
     }
   ],
   "relationships": [],

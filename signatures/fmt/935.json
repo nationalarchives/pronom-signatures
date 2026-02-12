@@ -25,8 +25,16 @@
       "identifierType": "PUID"
     },
     {
-      "identifierText": "image/vnd.mozilla.apng",
+      "identifierText": "image/apng",
       "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fdd000649",
+      "identifierType": "Library of Congress Format Description Identifier"
+    },
+    {
+      "identifierText": "Q433224",
+      "identifierType": "Wikidata QID Identifier"
     }
   ],
   "internalSignatures": [
@@ -47,6 +55,13 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "0000000049454E44AE426082",
+          "endianness": null
+        },
+        {
+          "positionType": "Variable",
+          "offset": null,
+          "maxOffset": null,
+          "byteSequence": "6663544C00000000",
           "endianness": null
         }
       ]

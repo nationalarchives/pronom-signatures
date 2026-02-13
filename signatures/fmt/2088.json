@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3965,
+  "version": null,
+  "formatName": "Final Cut Pro XML Interchange Format",
+  "formatDescription": "fcpxml is a specialised format used in Apple's Final Cut Pro which uses xml elements to describe the data exchanged between Final Cut Pro and third-party applications and tools.",
+  "formatSourceID": 299,
+  "formatTypes": "Text (Mark-up)",
+  "formatNote": "Note: https://fileinfo.com/extension/fcp\nhttps://www.apple.com/uk/final-cut-pro/resources/",
+  "lastUpdatedDate": "04 Dec 2025",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatSourceDate": "04 Dec 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2088",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3451,
+      "name": "Final Cut Pro XML Interchange Format",
+      "note": "Absolute from beginning of file, magic bytes: <?xml version=(\"|')1.0(\"|'){0-128}xmeml",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-128}786D656D6C",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

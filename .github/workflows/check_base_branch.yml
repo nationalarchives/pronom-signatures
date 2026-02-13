@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Error if a fork with a base which is not develop
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
       - run: echo "You cannot create a pull request to ${{ github.base_ref }} from a fork" && exit 1
         if: github.event.pull_request.head.repo.full_name != github.repository && github.base_ref != 'develop'
       - run: exit 0

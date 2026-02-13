@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3959,
+  "version": "8",
+  "formatName": "3DM 8",
+  "formatDescription": "The 3DM (openNURBS) format is a 3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes openNURBS models.",
+  "formatSourceID": 244,
+  "formatTypes": "Model",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2025",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatSourceDate": "02 Dec 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2084",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3447,
+      "name": "3DM 8",
+      "note": "BOF: '3D Geometry File Format       8'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "33442047656F6D657472792046696C6520466F726D61742020202020202038",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "3dm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 244
+}

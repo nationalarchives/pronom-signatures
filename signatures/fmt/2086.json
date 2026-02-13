@@ -1,0 +1,27 @@
+{
+  "fileFormatID": 3963,
+  "version": null,
+  "formatName": "FieldWorks Language Explorer FWBackup",
+  "formatDescription": "FWBackup is a backup file native to FieldWorks Language Explorer (FLEx), an application for recording and analysing information relating to languages and cultures. The FWBackup file is a zip which stores the complete project including configuration, FWData XML, and any multimedia assets associated with the project.",
+  "formatSourceID": 244,
+  "formatTypes": "Aggregate",
+  "formatNote": null,
+  "lastUpdatedDate": "02 Dec 2025",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatSourceDate": "02 Dec 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2086",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "fwbackup",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 244
+}

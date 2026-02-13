@@ -1,0 +1,47 @@
+{
+  "fileFormatID": 3946,
+  "formatName": "SuperCard Pro Image File",
+  "formatDescription": "SuperCard Pro Image File is a RAW flux format for the SuperCard Pro software and is used by many flux boards such as the Greaseweazle. It handles images for any type of floppy disk as well as tape drives and hard drives that are MFM, RLL or GCR encoded.",
+  "formatSourceID": 299,
+  "formatNote": "https://www.cbmstuff.com http://fileformats.archiveteam.org/wiki/SuperCard_Pro",
+  "lastUpdatedDate": "24 Nov 2025",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatSourceDate": "24 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2071",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3433,
+      "name": "SuperCard Image Pro",
+      "note": "BOF; Offset: 0; Magic Bytes: 'SCP' and EOF; Offset: 0; Magic Bytes: 'FPCS'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "534350",
+          "endianness": null
+        },
+        {
+          "positionType": "Absolute from EOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "46504353",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "scp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

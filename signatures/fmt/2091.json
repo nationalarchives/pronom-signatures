@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3968,
+  "version": "3",
+  "formatName": "Kodak DCS RAW Image",
+  "formatDescription": "A Kodak DCS RAW image is a digital camera raw file from Kodak's Digital Camera System (DCS) series, saved in a proprietary format based on the Tagged Image File Format (TIFF). These files contain uncompressed, unprocessed image data.",
+  "formatSourceID": 299,
+  "formatTypes": "Image (Raster)",
+  "formatNote": "https://github.com/thorsted/PRONOM_Research/tree/main/Submissions/DCS\nhttp://fileformats.archiveteam.org/wiki/Kodak\nhttps://preservation.tylerthorsted.com/2024/11/29/kodak-tiff/",
+  "lastUpdatedDate": "04 Dec 2025",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatSourceDate": "04 Dec 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2091",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3454,
+      "name": "Kodak DCS RAW Image v.3",
+      "note": "Absolute from beginning of file, magic bytes: II*.{12}KODAK{11}(DCS|EOSDCS)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "49492A00{12}4B4F44414B{11}(444353|454F53444353)",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3952,
+  "version": "1",
+  "formatName": "Common Ground Digital Paper",
+  "formatDescription": "Common Ground  Digital Paper files are generated from Common Ground from No Hands Software, which allows any Windows or Mac program to create a document that can be viewed or printed by users even if they don't have the program that was used to create the document in the first instance. Common Grounds was used to create portable, self-contained documentation applications called \"Digital Paper\"",
+  "formatSourceID": 299,
+  "formatTypes": "Presentation",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/Common_Ground",
+  "lastUpdatedDate": "27 Nov 2025",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatSourceDate": "27 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2077",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3440,
+      "name": "Common Ground Digital Paper 1",
+      "note": "BOF; Offset: 8; Magic Bytes: 'CGDC'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 8,
+          "maxOffset": 0,
+          "byteSequence": "43474443",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dp",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

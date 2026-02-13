@@ -35,7 +35,7 @@
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "{0-256}69643D496D6167654D616769636B{0-1024}3A",
+          "byteSequence": "69643D496D6167654D616769636B{0-1024}3A",
           "endianness": null
         }
       ]

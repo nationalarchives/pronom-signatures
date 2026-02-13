@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3947,
+  "version": "1.1",
+  "formatName": "Weaving Information File (WIF)",
+  "formatDescription": "The Weaving Information File (WIF) format is a weaving information interchange format that is supported by most major weaving software packages. WIF allows users to share weaving designs between different weaving software programs and is human readable with a text editor. It is based on the Microsoft Windows .ini file format. WIF was collaboratively developed by a group of programmers of major software packages available to handweavers, including Patternland Weave Simulator, Fiberworks PCW, Swiftweave, WeaveIt, WeaveMake, Proweave and WeavePoint.",
+  "formatSourceID": 180,
+  "formatTypes": "Text (Structured)",
+  "formatNote": "http://www.mhsoft.com/wif/wif.html",
+  "lastUpdatedDate": "24 Nov 2025",
+  "provenanceCompoundName": "The National Archives and Records Administration / The National Archives and Records Administration",
+  "formatSourceDate": "24 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2072",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3432,
+      "name": "Weaving Information File",
+      "note": "BOF; Offset: 0; Magic Bytes '[WIF]' followed by carriage return 0x0D0A followed by 'Version=1.1'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "5B5749465D0D0A56657273696F6E3D312E31",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wif",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 180
+}

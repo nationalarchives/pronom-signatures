@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3956,
+  "version": "4.0.0",
+  "formatName": "xdomea",
+  "formatDescription": "xdomea is an XML interface for the exchange of documents, cases, and records, typically used by digital record management systems in Germany.",
+  "formatSourceID": 232,
+  "formatTypes": "Text (Mark-up)",
+  "formatNote": "Specification: https://www.xrepository.de/api/xrepository/urn:xoev-de:xdomea:kosit:standard:xdomea_4.0.0:dokument:Spezifikation_zu_xdomea_4.0.0\nSchema files: https://www.xrepository.de/api/xrepository/urn:xoev-de:xdomea:kosit:standard:xdomea_4.0.0:xmlschema\nExample file: https://github.com/lavnrw/xdomea-examples/blob/main/v4.0.0/518c7c31-d1a0-11ef-accb-005056871b7c_0503_1.xml\nPRONOM submission: https://github.com/digital-preservation/PRONOM_Research/issues/100",
+  "lastUpdatedDate": "02 Dec 2025",
+  "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
+  "formatSourceDate": "02 Dec 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2081",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3444,
+      "name": "xdomea 4.0.0",
+      "note": "XML declaration <?xml version=\"1.0\" (alternatively with single quotes), followed by up to 320 arbitrary bytes (rest of XML declaration + possible whitespace, comments etc.). xdomea namespace declaration xmlns:xdomea=\"urn:xoev-de:xdomea:schema:4.0.0\" (alternatively with single quotes).",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A78646F6D65613D(22|27)75726E3A786F65762D64653A78646F6D65613A736368656D613A342E302E30(22|27)",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "xml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 232
+}

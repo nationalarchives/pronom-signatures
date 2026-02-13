@@ -1,0 +1,42 @@
+{
+  "fileFormatID": 3966,
+  "version": null,
+  "formatName": "FCPXML Interchange Format",
+  "formatDescription": "FCPXML files are XML-based files used by Apple's Final Cut Pro to describe project data, enabling users to transfer projects, projects, and metadata between Final Cut Pro and other compatible applications. They contain information about media, clips, editing decisions, and other project assets.",
+  "formatSourceID": 299,
+  "formatTypes": "Text (Mark-up)",
+  "formatNote": "Note: https://fileinfo.com/extension/fcp\nhttps://www.apple.com/uk/final-cut-pro/resources/",
+  "lastUpdatedDate": "04 Dec 2025",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatSourceDate": "04 Dec 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2089",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3452,
+      "name": "FCPXML Interchange Format",
+      "note": "Absolute from beginning of file, magic bytes: <?xml version=(\"|')1.0(\"|'){0-128}fcpxml",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-128}666370786D6C",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fcpxml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

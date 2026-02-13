@@ -9,7 +9,7 @@
   "formatNote": null,
   "lastUpdatedDate": "19 Apr 2012",
   "formatSourceID": 1,
-  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "provenanceCompoundName": "Archives New Zealand / Archives New Zealand",
   "formatProvenance": "This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.",
   "formatSourceDate": "11 Mar 2005",
   "formatDisclosure": "None",
@@ -112,7 +112,7 @@
   ],
   "supportedBy": 93,
   "developedBy": 93,
-  "source": 1,
+  "source": 214,
   "containerSignatures": [
     {
       "containerType": "OLE2",

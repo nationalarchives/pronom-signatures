@@ -1,0 +1,41 @@
+{
+  "fileFormatID": 3948,
+  "formatName": "Tilt Brush",
+  "formatDescription": "Tilt Brush files are outputs from the Open Brush software and Google Tilt Brush application (now discontinued), which allows the user to create digital paintings in virtual reality rendering a 3D image. The format has a prepended header and the format's zipped contents contain information about brush strokes, an array of models that can be imported into the sketch and a metadata.json file. This format is a container format currently identified with a binary signature.",
+  "formatSourceID": 349,
+  "formatTypes": "Model",
+  "formatNote": "https://docs.openbrush.app",
+  "lastUpdatedDate": "27 Nov 2025",
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche numérique du Canada – DFDR",
+  "formatSourceDate": "27 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2073",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3436,
+      "name": "Tilt Brush",
+      "note": "BOF; Offset: 0; Magic Bytes: 'tilT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "74696C54",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "tilt",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 349
+}

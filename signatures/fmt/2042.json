@@ -8,22 +8,7 @@
       "identifierType": "PUID"
     }
   ],
-  "internalSignatures": [
-    {
-      "signatureID": 3409,
-      "name": "Android App Bundle File",
-      "note": "",
-      "byteSequences": [
-        {
-          "positionType": "Absolute from BOF",
-          "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{0-4}504B0304",
-          "endianness": null
-        }
-      ]
-    }
-  ],
+  "internalSignatures": [],
   "containerSignatures": [
     {
       "containerType": "ZIP",

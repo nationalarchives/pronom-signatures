@@ -41,7 +41,12 @@
       ]
     }
   ],
-  "externalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "tex",
+      "signatureType": "File extension"
+    }
+  ],
   "relationships": [
     {
       "relationshipType": "Has lower priority than",

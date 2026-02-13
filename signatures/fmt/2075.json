@@ -1,0 +1,46 @@
+{
+  "fileFormatID": 3950,
+  "version": "1",
+  "formatName": "ACE",
+  "formatDescription": "ACE is a compressed archive format, originally developed by Marcel Lemke and later by e-merge GmbH. Some relevant software includes Ace (for DOS, OS/2 and Windows console, WinAce, Active ACE and ACE Compression.",
+  "formatSourceID": 299,
+  "formatTypes": "Aggregate",
+  "formatNote": "http://fileformats.archiveteam.org/wiki/ACE",
+  "lastUpdatedDate": "27 Nov 2025",
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "formatSourceDate": "27 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "application/x-ace-compressed",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "fmt/2075",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3438,
+      "name": "ACE Archive 1",
+      "note": "BOF; Offset: 7; Magic Bytes: '**ACE**' followed by byte of either 0x0A, 0x0B, 0x0C or 0x0D and then either 0x0A, 0x0B, 0x0C, 0x0D or 0x14",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 7,
+          "maxOffset": 0,
+          "byteSequence": "2A2A4143452A2A(0A|0B|0C|0D)(0A|0B|0C|0D|14)",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ace",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 299
+}

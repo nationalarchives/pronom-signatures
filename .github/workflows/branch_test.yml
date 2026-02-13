@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
       - name: Malware Scanner
-        uses: dell/common-github-actions/malware-scanner@main
+        uses: dell/common-github-actions/malware-scanner@c63b13266a54b23b4b7b6e9812e3e677357a5e64
         with:
           directories: .
           options: -ri
@@ -21,22 +21,22 @@ jobs:
     name: Run Skeleton Test Suite
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
         with:
           repository: digital-preservation/droid
           path: 'droid'
       - name: Set up JDK
-        uses: actions/setup-java@v2
+        uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 #v5.2.0
         with:
           java-version: 21
           distribution: temurin
       - run: .github/scripts/branch_test.sh
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f #v6.0.0
         with:
           name: signature-file.xml
           path: signature-file.xml
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f #v6.0.0
         with:
           name: container-signature-file.xml
           path: container-signature-file.xml

@@ -1,0 +1,40 @@
+{
+  "fileFormatID": 3945,
+  "formatName": "Autodesk ReCap RCS Indexed Point Cloud Data",
+  "formatDescription": "An RCS file are indexed point cloud scan files used by Autodesk ReCap",
+  "formatSourceID": 244,
+  "lastUpdatedDate": "23 Nov 2025",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatSourceDate": "23 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2070",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3435,
+      "name": "Autodesk ReCap RCS Indexed Point Cloud Data",
+      "note": "BOF; Offset:0; Magic Bytes: 'ADOCT'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41444F4354",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "rcs",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 244,
+  "developedBy": 18
+}

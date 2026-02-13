@@ -1,0 +1,51 @@
+{
+  "fileFormatID": 3944,
+  "formatName": "Draco",
+  "version": "2",
+  "formatDescription": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to provide efficient storage and transmission of 3D graphics.",
+  "formatSourceID": 244,
+  "lastUpdatedDate": "23 Nov 2025",
+  "provenanceCompoundName": "Preservica / Preservica",
+  "formatSourceDate": "23 Nov 2025",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2069",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3434,
+      "name": "Draco v.2",
+      "note": "BOF; Offset:0; Magic Bytes: 'DRACO' followed by 0x02",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "445241434F02",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "drc",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "bin",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is subsequent version of",
+      "relatedFormatID": 1851,
+      "relatedFormatName": "Draco 1"
+    }
+  ],
+  "source": 244,
+  "developedBy": 141
+}

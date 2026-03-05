@@ -1,21 +1,21 @@
 {
-  "fileFormatID": 631,
+  "fileFormatID": 3969,
   "formatName": "Rich Text Format",
-  "version": "1.5-1.6",
-  "formatDescription": "Rich Text Format (RTF) is a format developed by Microsoft to encode formatted text and graphics for use within applications or for data and formatting transfer between applications. It is closely associated with Microsoft Word, and new versions are developed with each release of Word. RTF files are encoded in plain text, typically ASCII, and consists of a series of control words, control symbols and groups. An RTF file comprises a Header section, containing various header tables, followed by a Document section, containing the document content and formatting. RTF version 1.5 is the version of the format associated with Microsoft Word 97, and introduced partially Unicode support.",
+  "version": "1",
+  "formatDescription": "Rich Text Format (RTF) is a format developed by Microsoft to encode formatted text and graphics for use within applications or for data and formatting transfer between applications. It is closely associated with Microsoft Word, and new versions are developed with each release of Word. RTF files are encoded in plain text, typically ASCII, and consists of a series of control words, control symbols and groups. An RTF file comprises a Header section, generally containing various header tables, followed by a Document section, containing the document content and formatting.",
   "releaseDate": null,
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
-  "formatNote": null,
-  "lastUpdatedDate": "02 Aug 2005",
+  "formatNote": "This is a fallback entry covering the entire RTF 1 family, matching only the \\rtf1 control word. While headers that consist only of \\rtf1 are technically valid according to the RTF 1.9 specification, modern applications such as Microsoft Word and LibreOffice are not known to produce such minimal headers. Hence, files matching only this signature are ambigious: they may be genuine RTF 1.9 files, or more likely, files that were meant to conform to an earlier RTF version, but with required parts of the header omitted.",
+  "lastUpdatedDate": null,
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
   "formatProvenance": null,
-  "formatSourceDate": "11 Mar 2005",
+  "formatSourceDate": null,
   "formatDisclosure": "Full",
   "formatEnvironment": null,
   "formatRisk": null,
-  "formatAliases": "RTF (1.5), RTF (97)",
+  "formatAliases": "RTF (1)",
   "formatTypes": "Word Processor",
   "byteOrders": null,
   "formatFamilies": "Rich Text Format",
@@ -25,29 +25,29 @@
       "identifierType": "MIME"
     },
     {
-      "identifierText": "fmt/50",
+      "identifierText": "fmt/2092",
       "identifierType": "PUID"
-    },
-    {
-      "identifierText": "public.rtf",
-      "identifierType": "Apple Uniform Type Identifier"
     },
     {
       "identifierText": "text/rtf",
       "identifierType": "MIME"
+    },
+    {
+      "identifierText": "public.rtf",
+      "identifierType": "Apple Uniform Type Identifier"
     }
   ],
   "internalSignatures": [
     {
-      "signatureID": 158,
-      "name": "RTF 1.5 - 1.6 (generic)",
-      "note": "\\rtf control word, \\ansicpg control word",
+      "signatureID": 3455,
+      "name": "RTF 1.x (generic fallback)",
+      "note": "\\rtf1 control word",
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": null,
-          "byteSequence": "7B5C7274(66|6631){0-1}5C(616E7369|6D6163|7063|706361)5C616E7369637067",
+          "byteSequence": "7B5C72746631",
           "endianness": null
         }
       ]
@@ -62,6 +62,16 @@
   "relationships": [
     {
       "relationshipType": "Has lower priority than",
+      "relatedFormatID": 626,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 631,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
       "relatedFormatID": 633,
       "relatedFormatName": "Rich Text Format"
     },
@@ -73,11 +83,6 @@
     {
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1101,
-      "relatedFormatName": "Rich Text Format"
-    },
-    {
-      "relationshipType": "Has priority over",
-      "relatedFormatID": 626,
       "relatedFormatName": "Rich Text Format"
     },
     {
@@ -102,17 +107,12 @@
     },
     {
       "relationshipType": "Has priority over",
-      "relatedFormatID": 3969,
-      "relatedFormatName": "Rich Text Format"
-    },
-    {
-      "relationshipType": "Is previous version of",
       "relatedFormatID": 632,
       "relatedFormatName": "Rich Text Format"
     },
     {
       "relationshipType": "Is subsequent version of",
-      "relatedFormatID": 630,
+      "relatedFormatID": 1174,
       "relatedFormatName": "Rich Text Format"
     }
   ],

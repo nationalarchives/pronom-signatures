@@ -21,7 +21,7 @@
   "formatFamilies": null,
   "identifiers": [
     {
-      "identifierText": "\tapplication/vnd.software602.filler.form+xml",
+      "identifierText": " application/vnd.software602.filler.form+xml",
       "identifierType": "MIME"
     },
     {

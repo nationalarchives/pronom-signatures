@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - develop
-
+permissions: {}
 jobs:
   malware_security_scan:
     name: Malware Scanner

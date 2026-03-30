@@ -1,5 +1,6 @@
 {
-  "fileFormatID": 3914,
+  "fileFormatID": 3915,
+  "version": "1.0",
   "formatName": "CityGML File",
   "formatSourceID": 232,
   "provenanceCompoundName": "Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen",
@@ -40,11 +41,6 @@
       "relationshipType": "Has priority over",
       "relatedFormatID": 319,
       "relatedFormatName": "3D Studio (V1)"
-    },
-        {
-      "relationshipType": "Has priority over",
-      "relatedFormatID": 1852,
-      "relatedFormatName": "XIFF eXtended Image File 3"
     }
   ],
   "source": 232

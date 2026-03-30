@@ -1,5 +1,5 @@
 {
-  "fileFormatID": 3919,
+  "fileFormatID": 3918,
   "formatName": "Android Archive File",
   "provenanceCompoundName": "Bibliothèque nationale de France / Bibliothèque nationale de France",
   "identifiers": [
@@ -35,7 +35,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 3410,
+      "signatureID": 3412,
       "name": "Android Archive File",
       "note": "",
       "byteSequences": [

@@ -21,10 +21,6 @@
   "formatFamilies": null,
   "identifiers": [
     {
-      "identifierText": "application/vnd.ms-excel",
-      "identifierType": "MIME"
-    },
-    {
       "identifierText": "com.microsoft.excel.xls",
       "identifierType": "Apple Uniform Type Identifier"
     },

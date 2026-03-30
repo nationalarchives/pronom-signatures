@@ -15,7 +15,7 @@ jobs:
       - name: Configure AWS credentials for Lambda
         uses: aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7  #v6.0.0
         with:
-          role-to-assume: arn:aws:iam::${{ secrets.ACCOUNT_ID }}:role/SandboxGithubActionsDeployPronom
+          role-to-assume: arn:aws:iam::${{ secrets.ACCOUNT_ID }}:role/PRONOMSignatureRole
           aws-region: eu-west-2
           role-session-name: DeployPRONOM
       - uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 #v5.2.0
@@ -24,11 +24,11 @@ jobs:
           java-version: '21'
       - run: |
           .github/scripts/create_signature_files.sh --release
-          NEW_SIGNATURE_FILENAME=$(aws s3 ls s3://intg-pronom-website/signatures/ | sort -t'V' -k2,2n | awk -F'V|\\.xml' '{print "DROID_SignatureFile_V" ($2+1) ".xml"}' | tail -1)
-          aws s3 cp signature-file.xml s3://intg-pronom-website/signatures/$NEW_SIGNATURE_FILENAME
-          aws s3 cp container-signature-file.xml s3://intg-pronom-website/container-signatures/container-signature-$(date +%Y%m%d).xml
-          aws s3 cp container-signature-file.xml s3://intg-pronom-website/container-signature.xml
-          python .github/scripts/generate_signature_json.py intg
+          NEW_SIGNATURE_FILENAME=$(echo DROID_SignatureFile_$(curl https://pronom.nationalarchives.gov.uk/signatures.json | jq '.latest_signature.version | tonumber'+1).xml)
+          aws s3 cp signature-file.xml s3://prod-pronom-website/signatures/$NEW_SIGNATURE_FILENAME
+          aws s3 cp container-signature-file.xml s3://prod-pronom-website/container-signatures/container-signature-$(date +%Y%m%d).xml
+          aws s3 cp container-signature-file.xml s3://prod-pronom-website/container-signature.xml
+          python .github/scripts/generate_signature_json.py prod
       - name: Build website
         uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d #v2.4.0
         with:

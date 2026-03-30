@@ -6,6 +6,10 @@
     {
       "identifierText": "fmt/2053",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "vnd.apache.arrow.file",
+      "identifierType": "MIME"
     }
   ],
   "internalSignatures": [
@@ -36,6 +40,7 @@
       "externalSignature": "arrow",
       "signatureType": "File extension"
     }
+
   ],
   "relationships": [],
   "source": 1

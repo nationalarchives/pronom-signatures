@@ -44,8 +44,8 @@
         },
         {
           "positionType": "Absolute from EOF",
-          "offset": 64,
-          "maxOffset": 0,
+          "offset": 0,
+          "maxOffset": 64,
           "byteSequence": "3A",
           "endianness": null
         }

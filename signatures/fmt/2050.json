@@ -1,11 +1,16 @@
 {
   "fileFormatID": 3925,
+  "version": "1",
   "formatName": "PDF/UA Portable Document Format",
   "provenanceCompoundName": "Preservica / Preservica",
   "identifiers": [
     {
       "identifierText": "fmt/2050",
       "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/pdf",
+      "identifierType": "MIME"
     }
   ],
   "internalSignatures": [

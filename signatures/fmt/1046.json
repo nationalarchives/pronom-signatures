@@ -1,7 +1,7 @@
 {
   "fileFormatID": 1851,
-  "formatName": "Draco 1",
-  "version": null,
+  "formatName": "Draco",
+  "version": "1",
   "formatDescription": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to provide efficient storage and transmission of 3D graphics.",
   "releaseDate": null,
   "withdrawnDate": null,

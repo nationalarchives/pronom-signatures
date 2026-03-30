@@ -37,6 +37,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ],
   "source": 299
 }

@@ -21,7 +21,7 @@
   "formatFamilies": null,
   "identifiers": [
     {
-      "identifierText": "\tapplication/vnd.isac.fcs",
+      "identifierText": " application/vnd.isac.fcs",
       "identifierType": "MIME"
     },
     {

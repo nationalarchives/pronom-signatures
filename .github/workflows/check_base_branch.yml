@@ -4,6 +4,8 @@ on:
     types:
       - opened
       - edited
+permissions: {}
+
 jobs:
   run_if:
     runs-on: ubuntu-latest

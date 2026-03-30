@@ -32,7 +32,7 @@
   "internalSignatures": [
     {
       "signatureID": 3380,
-      "specificity": "Generic",
+      "specificity": "Specific",
       "name": "Sony Open MG Audio",
       "note": "BOF; Offset: 0; Magic Bytes 'ea3.' followed in 996-3996 bytes by 'EA3'{1}0x0060{2}00000000010F5000",
       "byteSequences": [
@@ -46,8 +46,8 @@
       ]
     },
     {
-      "signatureID": 3407,
-      "specificity": "Generic",
+      "signatureID": 3405,
+      "specificity": "Specific",
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",

@@ -24,7 +24,7 @@ jobs:
           java-version: '21'
       - run: |
           .github/scripts/create_signature_files.sh --release
-          NEW_SIGNATURE_FILENAME=$(echo DROID_SignatureFile_$(curl https://pronom.nationalarchives.gov.uk/signatures.json | jq '.latest_signature.version | tonumber'+1).xml)
+          NEW_SIGNATURE_FILENAME=$(echo DROID_SignatureFile_V$(curl https://pronom.nationalarchives.gov.uk/signatures.json | jq '.latest_signature.version | tonumber'+1).xml)
           aws s3 cp signature-file.xml s3://prod-pronom-website/signatures/$NEW_SIGNATURE_FILENAME
           aws s3 cp container-signature-file.xml s3://prod-pronom-website/container-signatures/container-signature-$(date +%Y%m%d).xml
           aws s3 cp container-signature-file.xml s3://prod-pronom-website/container-signature.xml

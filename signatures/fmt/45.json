@@ -81,6 +81,11 @@
       "relatedFormatName": "Rich Text Format"
     },
     {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 3969,
+      "relatedFormatName": "Rich Text Format"
+    },
+    {
       "relationshipType": "Is previous version of",
       "relatedFormatID": 627,
       "relatedFormatName": "Rich Text Format"

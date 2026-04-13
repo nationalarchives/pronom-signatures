@@ -1,6 +1,10 @@
+# macOS
+.DS_Store
+
 .idea
 .venv
 indexes
 signature-file.xml
 container-signature-file.xml
 droid-bin
+changed_files.txt

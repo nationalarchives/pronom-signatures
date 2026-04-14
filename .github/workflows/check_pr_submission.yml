@@ -1,0 +1,23 @@
+name: Verify PR Submission
+on:
+  push:
+    branches-ignore:
+      - main
+    paths:
+      - "actors/**"
+permissions: {}
+
+jobs:
+  check_pr_submission:
+    runs-on: ubuntu-latest
+    name: Verify PR file are in the correct format
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Get files that have changed (compared to main)
+        run: git diff --name-status origin/main...HEAD > changed_files.txt
+      - name: Check actor submission is in the correct format
+        run: python3 .github/scripts/verify_pr_submission.py "actors" changed_files.txt

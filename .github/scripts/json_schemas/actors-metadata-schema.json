@@ -14,7 +14,6 @@
     "telephone": {"type": "string", "minLength": 1}
   },
   "required": [
-    "actorId",
     "name",
     "sourceDate"
   ]

@@ -26,15 +26,6 @@ def validate_actor_fields(json_metadata):
     return errors
 
 
-def validate_actor_id_matches_file_name(actor_metadata, actor_file_name):
-    error = []
-    actor_id_in_file = int(actor_file_name.split(".")[0])
-    actor_id = actor_metadata["actorId"]
-    if actor_id_in_file != actor_id:
-        error.append(f"the actorId provided '{actor_id}' does not match the id in the file name '{actor_file_name}'")
-    return error
-
-
 def run():
     cli_args = sys.argv
     cli_args_len = len(cli_args) - 1
@@ -59,14 +50,10 @@ def run():
                     actor_json = decode_json(actor_file_path)
                     actor_errors = validate_actor_fields(actor_json)
 
-                    actor_file_name = actor_file_path.split("/")[-1]
-                    id_error = validate_actor_id_matches_file_name(actor_json, actor_file_name)
-
-                    errors = actor_errors + id_error
-                    if errors:
+                    if actor_errors:
                         seperator = "\n   - "
                         raise Exception(
-                            f"Errors detected for file '{actor_file_path}':{seperator}{seperator.join(errors)}")
+                            f"Errors detected for file '{actor_file_path}':{seperator}{seperator.join(actor_errors)}")
         else:
             raise Exception(f"'{what_to_validate}' is not a valid argument")
 

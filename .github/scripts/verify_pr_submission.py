@@ -13,9 +13,9 @@ def decode_json(file_path):
         return json_as_dict
 
 
-def validate_actor_fields(json_metadata):
+def validate_json(json_metadata, schema):
     errors = []
-    metadata_schema = decode_json(".github/scripts/json_schemas/actors-metadata-schema.json")
+    metadata_schema = decode_json(f".github/scripts/json_schemas/{schema}.json")
 
     try:
         validator = jsonschema.Draft202012Validator(schema=metadata_schema,
@@ -85,7 +85,7 @@ def run():
 
         actor_files_paths = [file for file in changed_files if file[2:].startswith(f"submissions/actors/")]
         for actor_file_path in actor_files_paths:
-            actor_errors = validate_actor_fields(json_from_git_status(actor_file_path))
+            actor_errors = validate_json(json_from_git_status(actor_file_path), "actors-metadata-schema")
 
             if actor_errors:
                 seperator = "\n   - "
@@ -97,6 +97,7 @@ def run():
             all_json = json_by_id()
             for signature_submission in signature_file_paths:
                 submission_json = json_from_git_status(signature_submission)
+                validate_json(submission_json, "signature-schema")
                 if "relationships" in submission_json:
                     for each_relationship in submission_json["relationships"]:
                         for each_pair in relationship_pairs:

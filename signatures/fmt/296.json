@@ -89,6 +89,11 @@
       "relationshipType": "Has priority over",
       "relatedFormatID": 382,
       "relatedFormatName": "ZIP Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3923,
+      "relatedFormatName": "OpenDocument Graphics"
     }
   ],
   "developedBy": 127,

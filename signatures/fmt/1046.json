@@ -47,7 +47,13 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 3944,
+      "relatedFormatName": "Draco"
+    }
+  ],
   "supportedBy": 141,
   "developedBy": 141,
   "source": 1

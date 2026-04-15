@@ -71,6 +71,11 @@
       "relationshipType": "Is previous version of",
       "relatedFormatID": 1852,
       "relatedFormatName": "Geography Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3915,
+      "relatedFormatName": "CityGML File"
     }
   ],
   "source": 1

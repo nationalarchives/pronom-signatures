@@ -187,6 +187,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 2173,
       "relatedFormatName": "WARC"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3930,
+      "relatedFormatName": "Apple Mail EMLX Format"
     }
   ],
   "source": 1

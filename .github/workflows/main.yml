@@ -28,7 +28,9 @@ jobs:
           aws s3 cp signature-file.xml s3://prod-pronom-website/signatures/$NEW_SIGNATURE_FILENAME
           aws s3 cp container-signature-file.xml s3://prod-pronom-website/container-signatures/container-signature-$(date +%Y%m%d).xml
           aws s3 cp container-signature-file.xml s3://prod-pronom-website/container-signature.xml
-          python .github/scripts/generate_signature_json.py prod
+          python .github/scripts/generate_signature_json.py prod $ACCOUNT_ID
+        env:
+          ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
       - name: Build website
         uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d #v2.4.0
         with:

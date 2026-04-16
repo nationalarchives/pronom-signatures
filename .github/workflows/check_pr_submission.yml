@@ -18,6 +18,8 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Get files that have changed (compared to main)
-        run: git diff --name-status origin/main...HEAD > changed_files.txt
+        run: |
+          git add -N .
+          git diff --name-status origin/main...HEAD > changed_files.txt
       - name: Check actor submission is in the correct format
-        run: python3 .github/scripts/verify_pr_submission.py "actors" changed_files.txt
+        run: python3 .github/scripts/verify_pr_submission.py changed_files.txt

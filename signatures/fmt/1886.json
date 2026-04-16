@@ -216,6 +216,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 2823,
       "relatedFormatName": "Melco OFM Project"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3898,
+      "relatedFormatName": "CD Architect Project File"
     }
   ],
   "source": 231

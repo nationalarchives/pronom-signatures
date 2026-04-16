@@ -122,6 +122,11 @@
       "relationshipType": "Is previous version of",
       "relatedFormatID": 644,
       "relatedFormatName": "Extensible Hypertext Markup Language"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3956,
+      "relatedFormatName": "xdomea"
     }
   ],
   "developedBy": 106,

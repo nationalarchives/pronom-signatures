@@ -41,6 +41,12 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3939,
+      "relatedFormatName": "DaVinci Resolve Project File"
+    }
+  ],
   "source": 299
 }

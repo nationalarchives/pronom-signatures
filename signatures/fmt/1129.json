@@ -73,6 +73,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 2770,
       "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3926,
+      "relatedFormatName": "PDF/UA Portable Document Format"
     }
   ],
   "source": 1

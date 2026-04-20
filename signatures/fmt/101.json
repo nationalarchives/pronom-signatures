@@ -709,6 +709,21 @@
       "relationshipType": "Is supertype of",
       "relatedFormatID": 2697,
       "relatedFormatName": "Final Draft Document"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3966,
+      "relatedFormatName": "FCPXML Interchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3965,
+      "relatedFormatName": "Final Cut Pro XML Interchange Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3955,
+      "relatedFormatName": "xdomea"
     }
   ],
   "developedBy": 106,

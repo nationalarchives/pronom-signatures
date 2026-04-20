@@ -84,6 +84,11 @@
       "relationshipType": "Has priority over",
       "relatedFormatID": 1018,
       "relatedFormatName": "Internet Message Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3930,
+      "relatedFormatName": "Apple Mail EMLX Format"
     }
   ],
   "source": 178

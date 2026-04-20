@@ -216,6 +216,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 2521,
       "relatedFormatName": "EndNote Compressed Library"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3916,
+      "relatedFormatName": "Android Package File"
     }
   ],
   "source": 1

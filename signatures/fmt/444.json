@@ -67,6 +67,11 @@
       "relationshipType": "Is subtype of",
       "relatedFormatID": 778,
       "relatedFormatName": "OpenDocument Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3922,
+      "relatedFormatName": "OpenDocument Database"
     }
   ],
   "source": 1,

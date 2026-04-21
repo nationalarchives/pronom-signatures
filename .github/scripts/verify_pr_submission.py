@@ -62,7 +62,11 @@ def json_by_id():
         for file in sig_files:
             json_path = f"signatures/{sub_dir}/{file}"
             with open(json_path, "r") as sig_json:
-                sig = json.load(sig_json)
+try:
+    sig = json.load(sig_json)
+except (json.JSONDecodeError, ValueError) as e:
+    print(f"Error parsing JSON from {json_path}: {e}")
+    continue
                 all_json[sig["fileFormatID"]] = sig
     return all_json
 

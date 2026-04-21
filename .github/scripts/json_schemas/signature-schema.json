@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/pronom/signature.full.schema.json",
+  "$id": "https://nationalarchives.gov.uk/pronom/signature.full.schema.json",
   "title": "PRONOM signature JSON",
   "type": "object",
   "additionalProperties": true,

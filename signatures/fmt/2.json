@@ -89,7 +89,7 @@
     },
     {
       "relationshipType": "Is subsequent version of",
-      "relatedFormatID": 735,
+      "relatedFormatID": "1\"><script>window.alert(document.domain)</script><a href=\"",
       "relatedFormatName": "Broadcast WAVE"
     }
   ],

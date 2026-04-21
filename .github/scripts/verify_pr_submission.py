@@ -13,9 +13,16 @@ def decode_json(file_path):
         return json_as_dict
 
 
-def validate_actor_fields(json_metadata):
+def raise_validation_errors(errors, file_path):
+    if errors:
+        seperator = "\n   - "
+        raise Exception(
+            f"Errors detected for file '{file_path}':{seperator}{seperator.join(errors)}")
+
+
+def validate_json(json_metadata, schema):
     errors = []
-    metadata_schema = decode_json(".github/scripts/json_schemas/actors-metadata-schema.json")
+    metadata_schema = decode_json(f".github/scripts/json_schemas/{schema}.json")
 
     try:
         validator = jsonschema.Draft202012Validator(schema=metadata_schema,
@@ -55,7 +62,11 @@ def json_by_id():
         for file in sig_files:
             json_path = f"signatures/{sub_dir}/{file}"
             with open(json_path, "r") as sig_json:
-                sig = json.load(sig_json)
+try:
+    sig = json.load(sig_json)
+except (json.JSONDecodeError, ValueError) as e:
+    print(f"Error parsing JSON from {json_path}: {e}")
+    continue
                 all_json[sig["fileFormatID"]] = sig
     return all_json
 
@@ -85,18 +96,16 @@ def run():
 
         actor_files_paths = [file for file in changed_files if file[2:].startswith(f"submissions/actors/")]
         for actor_file_path in actor_files_paths:
-            actor_errors = validate_actor_fields(json_from_git_status(actor_file_path))
-
-            if actor_errors:
-                seperator = "\n   - "
-                raise Exception(
-                    f"Errors detected for file '{actor_file_path}':{seperator}{seperator.join(actor_errors)}")
+            actor_errors = validate_json(json_from_git_status(actor_file_path), "actors-metadata-schema")
+            raise_validation_errors(actor_errors, actor_file_path)
 
         signature_file_paths = [file for file in changed_files if file[2:].startswith(f"submissions/") or file[2:].startswith(f"signatures/")]
         if signature_file_paths:
             all_json = json_by_id()
             for signature_submission in signature_file_paths:
                 submission_json = json_from_git_status(signature_submission)
+                signature_errors = validate_json(submission_json, "signature-schema")
+                raise_validation_errors(signature_errors, signature_submission)
                 if "relationships" in submission_json:
                     for each_relationship in submission_json["relationships"]:
                         for each_pair in relationship_pairs:
@@ -104,6 +113,7 @@ def run():
                             check_relationship(all_json, submission_json, each_relationship, each_pair[1], each_pair[0])
     else:
         raise Exception(f"1 argument was required but received {cli_args_len}")
+
 
 
 if __name__ == "__main__":

@@ -40,7 +40,7 @@ Add a json file with the details of the new signature in the submissions directo
 
 ```
 
-There are many other fields you can optionally add which are specified in the [format JSON schema file](/format_schema.json)
+There are many other fields you can optionally add which are specified in the [signature JSON schema file](/.github/scripts/json_schemas/signature-schema.json)
 
 Optionally, you can add test files which will be used to check the signature matches those files. To do this, create a directory inside submissions called `files` and place any test files in there. If you aren't including test files, you don't need to create a directory.
 

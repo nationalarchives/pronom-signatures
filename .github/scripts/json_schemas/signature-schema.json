@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nationalarchives.gov.uk/pronom/signature.full.schema.json",
+  "title": "PRONOM signature JSON",
+  "type": "object",
+  "additionalProperties": true,
+
+  "required": [
+    "formatName",
+    "identifiers"
+  ],
+
+  "properties": {
+    "fileFormatID": { "type": "integer" },
+
+    "formatName": { "type": "string" },
+    "version": { "type": ["string", "null"] },
+
+    "formatDescription": { "type": ["string", "null"] },
+    "releaseDate": { "type": ["string", "null"] },
+    "withdrawnDate": { "type": ["string", "null"] },
+
+    "binaryFileFormat": { "type": ["string", "null"] },
+
+    "formatNote": { "type": ["string", "null"] },
+    "lastUpdatedDate": { "type": ["string", "null"] },
+
+    "formatSourceID": { "type": ["integer", "null"] },
+    "provenanceCompoundName": { "type": ["string", "null"] },
+    "formatProvenance": { "type": ["string", "null"] },
+    "formatSourceDate": { "type": ["string", "null"] },
+
+    "formatDisclosure": { "type": ["string", "null"] },
+    "formatEnvironment": { "type": ["string", "null"] },
+    "formatRisk": { "type": ["string", "null"] },
+    "formatAliases": { "type": ["string", "null"] },
+    "formatTypes": { "type": ["string", "null"] },
+    "byteOrders": { "type": ["string", "null"] },
+    "formatFamilies": { "type": ["string", "null"] },
+
+    "source": { "type": ["integer", "null"] },
+    "developedBy": { "type": ["integer", "null"] },
+    "supportedBy": { "type": ["integer", "null"] },
+
+    "identifiers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["identifierType", "identifierText"],
+        "properties": {
+          "identifierType": { "type": "string" },
+          "identifierText": { "type": "string" }
+        }
+      },
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "required": ["identifierType", "identifierText"],
+            "properties": {
+              "identifierType": { "const": "PUID" },
+              "identifierText": { "type": "string", "pattern": "^(fmt|x-fmt)/\\d+$" }
+            }
+          }
+        }
+      ]
+    },
+
+    "internalSignatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["signatureID", "byteSequences"],
+        "properties": {
+          "signatureID": { "type": "integer" },
+          "name": { "type": ["string", "null"] },
+          "note": { "type": ["string", "null"] },
+          "specificity": { "type": ["string", "null"] },
+
+          "byteSequences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": ["positionType", "offset", "maxOffset", "byteSequence", "endianness"],
+              "properties": {
+                "positionType": {
+                  "type": "string",
+                  "enum": [
+                    "Absolute from BOF",
+                    "Absolute from EOF",
+                    "Variable",
+                    "Indirect From BOF",
+                    "Indirect From EOF"
+                  ]
+                },
+                "offset": { "type": ["integer", "null"] },
+                "maxOffset": { "type": ["integer", "null"] },
+                "byteSequence": { "type": "string" },
+                "endianness": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "externalSignatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["externalSignature", "signatureType"],
+        "properties": {
+          "externalSignature": { "type": "string" },
+          "signatureType": { "type": "string" }
+        }
+      }
+    },
+
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["relationshipType", "relatedFormatID", "relatedFormatName"],
+        "properties": {
+          "relationshipType": { "type": "string" },
+          "relatedFormatID": { "type": "integer" },
+          "relatedFormatName": { "type": "string" }
+        }
+      }
+    },
+
+    "containerSignatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["id", "containerType", "description", "files"],
+        "properties": {
+          "id": { "type": "string" },
+          "puid": { "type": ["string", "null"] },
+          "containerType": { "type": "string" },
+          "description": { "type": "string" },
+
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": ["path"],
+              "properties": {
+                "path": { "type": "string" },
+
+                "byteSequences": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {
+                      "reference": { "type": "string" },
+                      "subSequences": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": true,
+                          "required": ["sequence"],
+                          "properties": {
+                            "sequence": { "type": "string" },
+                            "rightFragment": {
+                              "type": "object",
+                              "additionalProperties": true,
+                              "required": ["sequence"],
+                              "properties": {
+                                "sequence": { "type": "string" }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

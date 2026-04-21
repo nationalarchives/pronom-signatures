@@ -172,6 +172,31 @@
       "relationshipType": "Is supertype of",
       "relatedFormatID": 2604,
       "relatedFormatName": "OpenDocument Text"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3919,
+      "relatedFormatName": "OpenDocument Text"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3923,
+      "relatedFormatName": "OpenDocument Graphics"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3922,
+      "relatedFormatName": "OpenDocument Database"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3920,
+      "relatedFormatName": "OpenDocument Spreadsheet"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3921,
+      "relatedFormatName": "OpenDocument Presentation"
     }
   ],
   "developedBy": 127,

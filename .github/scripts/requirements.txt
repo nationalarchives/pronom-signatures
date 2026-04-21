@@ -1,0 +1,3 @@
+# Load all runtime and dev packages
+-r requirements-test.txt
+-r requirements-runtime.txt

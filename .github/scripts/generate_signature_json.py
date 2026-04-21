@@ -8,8 +8,9 @@ from datetime import datetime
 client = boto3.client('s3')
 
 environment = sys.argv[1]
+account_id = sys.argv[2]
 
-bucket_name = f'{environment}-pronom-website'
+bucket_name = f'{environment}-pronom-site-{account_id}-eu-west-2-an'
 
 
 def list_keys(prefix):

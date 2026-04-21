@@ -114,7 +114,7 @@ def create_signature_file(all_files, all_internal_signatures, latest_signature_v
     root_attributes = {
         'xmlns': 'http://www.nationalarchives.gov.uk/pronom/SignatureFile',
         'DateCreated': '2024-07-08T11:54:20',
-        'Version': latest_signature_version
+        'Version': str(int(latest_signature_version) + 1)
     }
     root_element = Et.Element('FFSignatureFile', attrib=root_attributes)
     internal_signature_collection = Et.Element('InternalSignatureCollection')
@@ -239,7 +239,7 @@ def create_container_file(all_container_signatures):
 
 
 def get_latest_signature_version():
-    url = "https://d21gi86t6uhf68.cloudfront.net/signatures.json"
+    url = "https://pronom.nationalarchives.gov.uk/signatures.json"
 
     with urllib.request.urlopen(url) as response:
         data = json.load(response)

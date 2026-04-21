@@ -213,6 +213,11 @@
       "relationshipType": "Is supertype of",
       "relatedFormatID": 1268,
       "relatedFormatName": "Acrobat PDF/A - Portable Document Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3925,
+      "relatedFormatName": "PDF/UA Portable Document Format"
     }
   ],
   "source": 1

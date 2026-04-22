@@ -103,6 +103,10 @@ def run():
                 raise_validation_errors(signature_errors, signature_submission)
                 if "relationships" in submission_json:
                     for each_relationship in submission_json["relationships"]:
+                        related_format_name = each_relationship["relatedFormatName"]
+                        related_signature_format_name = all_json[each_relationship["relatedFormatID"]]["formatName"]
+                        if related_signature_format_name != related_format_name:
+                            raise Exception(f"Related format name {related_format_name} does not match {related_signature_format_name}")
                         for each_pair in relationship_pairs:
                             check_relationship(all_json, submission_json, each_relationship, each_pair[0], each_pair[1])
                             check_relationship(all_json, submission_json, each_relationship, each_pair[1], each_pair[0])

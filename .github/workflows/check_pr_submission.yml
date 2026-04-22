@@ -3,10 +3,7 @@ on:
   push:
     branches-ignore:
       - main
-    paths:
-      - "actors/**"
 permissions: {}
-
 jobs:
   check_pr_submission:
     runs-on: ubuntu-latest
@@ -17,9 +14,11 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Get files that have changed (compared to main)
+      - name: Get files that have changed (compared to develop)
         run: |
           git add -N .
-          git diff --name-status origin/main...HEAD > changed_files.txt
-      - name: Check actor submission is in the correct format
-        run: python3 .github/scripts/verify_pr_submission.py changed_files.txt
+          git diff --name-status origin/develop...HEAD > changed_files.txt
+      - name: Check changes are in the correct format
+        run: |
+          pip install -r .github/scripts/requirements.txt
+          python3 .github/scripts/verify_pr_submission.py changed_files.txt

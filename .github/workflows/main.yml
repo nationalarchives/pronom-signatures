@@ -10,10 +10,13 @@ jobs:
   release:
     runs-on: ubuntu-latest
     name: Main release test
+    environment: prod
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
+        with:
+          persist-credentials: false
       - name: Configure AWS credentials for Lambda
-        uses: aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7  #v6.0.0
+        uses: aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37  #v6.1.0
         with:
           role-to-assume: arn:aws:iam::${{ secrets.ACCOUNT_ID }}:role/PRONOMSignatureRole
           aws-region: eu-west-2
@@ -32,7 +35,7 @@ jobs:
         env:
           ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
       - name: Build website
-        uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d #v2.4.0
+        uses: octokit/request-action@b91aabaa861c777dcdb14e2387e30eddf04619ae #v3.0.0
         with:
           ref: main
           route: POST /repos/nationalarchives/pronom-website/actions/workflows/release.yml/dispatches

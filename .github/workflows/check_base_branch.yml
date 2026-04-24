@@ -1,9 +1,6 @@
 name: Check base branch
 on:
   pull_request:
-    types:
-      - opened
-      - edited
 permissions: {}
 
 jobs:

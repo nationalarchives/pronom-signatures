@@ -22,7 +22,7 @@ def get_position_type(position):
 def get_identifiers(format_json, identifier_type):
     identifiers = format_json['identifiers']
     text = [
-        identifier['identifierText'] for identifier in identifiers if identifier['identifierType'] == identifier_type
+        identifier['identifierText'] for identifier in identifiers if identifier['identifierType'] == identifier_type and identifier['identifierText']
     ]
     if len(text) > 0:
         return ', '.join(text)

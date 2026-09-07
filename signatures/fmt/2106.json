@@ -1,0 +1,53 @@
+{
+  "formatName": "FictionBook eBook",
+  "version": "2",
+  "formatDescription": "FictionBook 2 is an xml-based ebook format.",
+  "binaryFileFormat": null,
+  "formatTypes": "Text (Structured)",
+  "source": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2106",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": null,
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4471,
+      "name": "FictionBook eBook v.2",
+      "note": "BOF: XML declaration, then '<FictionBook' element including namespace reference 'xmlns=(\"|')http://www.gribuser.ru/xml/fictionbook/2.0(\"|')'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-1024}3C46696374696F6E426F6F6B{1-256}786D6C6E733D(22|27)687474703A2F2F7777772E67726962757365722E72752F786D6C2F66696374696F6E626F6F6B2F322E30(22|27)",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fb2",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ],
+  "containerSignatures": [],
+  "formatNote": null,
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4982
+}

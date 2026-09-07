@@ -1,0 +1,46 @@
+{
+  "formatName": "NumPy Format",
+  "version": null,
+  "formatDescription": "The NumPy format is the standard binary format for saving NumPy arrays to disk. These formats preserve the exact data type (dtype), shape, and byte order of your numerical arrays, allowing you to save and load them without losing information.",
+  "binaryFileFormat": null,
+  "formatTypes": "Dataset",
+  "source": 349,
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche num\u00e9rique du Canada \u2013 DFDR",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2106",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/x-npy",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 28001,
+      "name": "NumPy",
+      "note": "BOF; Offset: 0; Magic Bytes: .NUMPY",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "934E554D5059",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "npy",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": "NumPy Manual - https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html",
+  "lastUpdatedDate": "05/08/2026",
+  "formatSourceDate": "05/08/2026"
+}

@@ -1,0 +1,47 @@
+{
+  "formatName": "Hugin Project File",
+  "version": "2.0",
+  "formatDescription": "The Hugin Project File from Hugin panorama stitcher, contains the instructions on how a photo should be stitched together. The file is associated with PanoTools.",
+  "binaryFileFormat": null,
+  "formatTypes": "Text (Structured)",
+  "source": 349,
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche num\u00e9rique du Canada \u2013 DFDR",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2116",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": null,
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4484,
+      "name": "Hugin Project File",
+      "note": "BOF; Offset: 0; Magic Bytes: # hugin project file\\n#hugin_ptoversion 2",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "2320687567696E2070726F6A6563742066696C650A23687567696E5F70746F76657273696F6E2032",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "pto",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": "Developed by Pablo d'Angelo and maintained by the community.\\nDocumentation: https://wiki.panotools.org/Hugin",
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4992
+}

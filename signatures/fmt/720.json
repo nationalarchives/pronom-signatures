@@ -7,10 +7,10 @@
   "withdrawnDate": null,
   "binaryFileFormat": null,
   "formatNote": null,
-  "lastUpdatedDate": "09 Jun 2026",
+  "lastUpdatedDate": "02 Sep 2026",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": "v.123- New signature created and priority added over fmt/950 MIME Email 1.0. Submitted by Preservica.",
+  "formatProvenance": "\tv.123- New signature created. Submitted by Preservica; v.125- Priority over fmt/950 MIME Email 1.0 added. Submitted by Preservica.",
   "formatSourceDate": "12 Feb 2015",
   "formatDisclosure": null,
   "formatEnvironment": null,
@@ -51,6 +51,13 @@
       "signatureType": "File extension"
     }
   ],
-  "relationships": [],
-  "source": 1
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1755,
+      "relatedFormatName": "MIME Email"
+    }
+  ],
+  "source": 1,
+  "containerSignatures": []
 }

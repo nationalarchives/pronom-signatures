@@ -7,10 +7,10 @@
   "withdrawnDate": null,
   "binaryFileFormat": "Text",
   "formatNote": null,
-  "lastUpdatedDate": "25 Oct 2012",
+  "lastUpdatedDate": "02 Sep 2026",
   "formatSourceID": 1,
   "provenanceCompoundName": "Digital Preservation Department / The National Archives",
-  "formatProvenance": null,
+  "formatProvenance": "v.125: Updated signature to allow for whitespace as per specification. Submitted by the Archives nationales de France.",
   "formatSourceDate": "11 Mar 2005",
   "formatDisclosure": "Full",
   "formatEnvironment": null,
@@ -47,7 +47,7 @@
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": null,
-          "byteSequence": "7B5C7274(66|6631)5C(616E7369|6D6163|7063|706361)",
+          "byteSequence": "7B5C7274(66|6631)(205C|5C)(616E7369|6D6163|7063|706361)",
           "endianness": null
         }
       ]
@@ -86,5 +86,6 @@
       "relatedFormatName": "Rich Text Format"
     }
   ],
-  "source": 1
+  "source": 1,
+  "containerSignatures": []
 }

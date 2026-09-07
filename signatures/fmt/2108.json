@@ -1,0 +1,50 @@
+{
+  "formatName": "FAB2 Book Container",
+  "version": "0.2",
+  "formatDescription": "A container for digital books that stores the book as typographic data, unlike other alternatives that store books as web documents inside an archive. The container has no scripting and no executable content. Page records carry resolved line geometry, so line breaks and optical margins are decided once when the book is typeset rather than recomputed on the reading device. The signature contains an initial 16 byte magic byte header, after which it holds two little-endian unsigned 32-bit lengths, a Zstandard-compressed JSON manifest, and a chunk arena containing one compressed page block and the book's assets.",
+  "binaryFileFormat": null,
+  "formatTypes": "Page Description, Word Processor",
+  "source": 365,
+  "provenanceCompoundName": "Fabylon / Fabylon",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2108",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": "application/vnd.fabylon.book",
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4473,
+      "name": "FAB2 Book Container",
+      "note": "BOF; Offset: 0; Magic Bytes: 'ASCII FABYLON_BOOK_02!'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "464142594C4F4E5F424F4F4B5F303221",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fab",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": "Specification: https://www.google.com/url?q=https://fabylon.net/fab/specification/&source=gmail&ust=1787034048114000&sa=E Related software: Fabylon Bookmaker \u2014 writes .fab \u2014 https://www.google.com/url?q=https://www.martijnbenders.nl/bookmaker/&source=gmail&ust=1787034048114000&sa=E Fabylon Reader \u2014 reads .fab \u2014 https://www.google.com/url?q=https://fabylon.net/fabreader/&source=gmail&ust=1787034048114000&sa=E",
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4984,
+  "supportedBy": 365,
+  "formatSourceID": null,
+  "developedBy": 365
+}

@@ -1,0 +1,43 @@
+{
+  "formatName": "Address Event DATa Format",
+  "version": null,
+  "formatDescription": "aedat4 files are associated with the DV (Dynamic Vision) framework and have been in use since 2019. The format captures IMU data and time and event based data. The format is binary and uses Google Flatbuffer for data serialization. It is the output of DV/jAer IniVitation event based cameras.",
+  "binaryFileFormat": null,
+  "formatTypes": "Dataset",
+  "source": 349,
+  "provenanceCompoundName": "Digital Research Alliance of Canada - FRDR / Alliance de recherche num\u00e9rique du Canada \u2013 DFDR",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2117",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4481,
+      "name": "Address Event DATa Format 4.0",
+      "note": "BOF; Offset: 0; Magic Bytes: #!AER-DAT4.0",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "23214145523D444154342E30",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aedat4",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": "Inivation- AEDAT 4.0 - https://docs.inivation.com/software/software-advanced-usage/file-formats/aedat-4.0.html",
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4993
+}

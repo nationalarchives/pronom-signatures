@@ -36,8 +36,9 @@ def move_json():
     actor_path = 'submissions/actors'
     if os.path.isdir(actor_path):
         actor_submission_files = [f for f in os.listdir(actor_path) if os.path.isfile(f'{actor_path}/{f}')]
-        next_id = get_next_actor_id() + 1
+        next_id = get_next_actor_id()
         for new_actor_submission in actor_submission_files:
+            next_id += 1
             with open(f'submissions/actors/{new_actor_submission}') as new_submission_file:
                 new_submission_json = json.load(new_submission_file)
                 new_submission_json['actorId'] = next_id
@@ -48,13 +49,16 @@ def move_json():
 
     if os.path.isdir('submissions'):
         submissions = [f for f in os.listdir('submissions') if os.path.isfile(f'submissions/{f}')]
-        new_puid = f'fmt/{puid_id + 1}'
         for submission in submissions:
+            puid_id += 1
+            signature_id += 1
+            new_puid = f'fmt/{puid_id}'
             with open(f'submissions/{submission}') as s:
                 submission_json = json.load(s)
             submission_json['fileFormatID'] = file_format_id + 1
             for idx, signature in enumerate(submission_json['internalSignatures']):
-                signature['signatureID'] = signature_id + (idx + 1)
+                signature_id += idx
+                signature['signatureID'] = signature_id
             new_identifier = {'identifierType': 'PUID', 'identifierText': new_puid}
             existing_identifiers = submission_json['identifiers'] if 'identifiers' in submission_json else []
             existing_identifiers.append(new_identifier)
@@ -63,6 +67,7 @@ def move_json():
                 json.dump(submission_json, sig, indent=2)
             os.remove(f'submissions/{submission}')
         return new_puid
+    return None
 
 
 def move_files(puid):

@@ -1,0 +1,51 @@
+{
+  "formatName": "FASTAQ",
+  "version": null,
+  "formatDescription": "FASTQ is a text based format for storing biological sequences (nucleotide and amino), but differs from the FASTA format by also storing corresponding quality scores alongside the sequences. Both the sequence letter and quality score are encoded with a single ASCII character.",
+  "binaryFileFormat": null,
+  "formatTypes": "Text (Structured)",
+  "source": 299,
+  "provenanceCompoundName": "Brigham Young University / Brigham Young University",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2118",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": null,
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4482,
+      "name": "FASTQ",
+      "note": "BOF; Magic Bytes: Searching for repeated sequencing data",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "40{0-65536}(0A|0D|0D0A)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54)(41|43|47|4E|54){0-2048}(0A|0D|0D0A)2B",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "fastq",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "fq",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": "https://en/wikipedia.org/wiki/FASTQ",
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4994
+}

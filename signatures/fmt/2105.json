@@ -1,0 +1,51 @@
+{
+  "formatName": "ForTheRecord TRM Audio",
+  "version": null,
+  "formatDescription": "TRM is the native format of ForTheRecord (FTR) software, audio recording software primarily used in a court setting, It has a similar internal structure to AVI, using proprietary audio encoding.",
+  "binaryFileFormat": null,
+  "formatTypes": "Audio",
+  "source": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2105",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierType": "PUID",
+      "identifierText": "fmt/2105"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 3471,
+      "name": "ForTheRecord TRM Audio",
+      "note": "BOF; Offset:0; Magic Bytes: 'RIFF' {4} 'AVI ' {2286} 'FTRA'",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "52494646{4}41564920{2286}46545241",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "trm",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 655,
+      "relatedFormatName": "Audio/Video Interleaved Format"
+    }
+  ],
+  "containerSignatures": [],
+  "formatNote": "ffmpeg includes a parser for FTR files: https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/a166b8a19bb34afc2c6727f20f551fce9a53d6fe:/libavcodec/ftr_parser.c",
+  "fileFormatID": 3982
+}

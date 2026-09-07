@@ -1,0 +1,51 @@
+{
+  "formatName": "LabVIEW Virtual Instrument File Format",
+  "version": "3.0",
+  "formatDescription": "LabVIEW Virtual Instrument is a proprietary format that stores the core building blocks of the LabVIEW software developed and maintained by the National Instruments company. It describes processes chaining together virtual instruments that reproduce the behavior of a physical traditional instrument (oscilloscope, multimeter, etc.). The format describes both a \"front panel\" - the GUI that displays controls, inputs and outputs and lets the user define the data flow according to a graphical programming language - and a \"block diagram\", which is the source code of the file. Some VI files can be distributed as templates and can be identified by their extension .vit.",
+  "binaryFileFormat": null,
+  "formatTypes": "Dataset",
+  "source": 235,
+  "provenanceCompoundName": "Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2111",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4476,
+      "name": "LabVIEW Virtual Instrument 3.0",
+      "note": "\"RSRC\" (0x52 0x53 0x52 0x43) \\r\\n (0x0D 0x0A) a version number on two bytes little-endian (first byte = minor version, second byte = major version) (here 0x00 0x03) \"LVIN\" for \"LabVIEW Instrument\" (0x4C 0x56 0x49 0x4E) \"LBVW\" for \"LabVIEW\" as the producer (0x4C 0x42 0x56 0x57)",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "525352430D0A00034C56494E4C425657",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "vi",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vim",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "vit",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": null,
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4987
+}

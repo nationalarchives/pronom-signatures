@@ -729,6 +729,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 1679,
       "relatedFormatName": "RDF/XML"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 4982,
+      "relatedFormatName": "FictionBook eBook"
     }
   ],
   "developedBy": 106,

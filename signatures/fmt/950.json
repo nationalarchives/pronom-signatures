@@ -89,6 +89,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 3930,
       "relatedFormatName": "Apple Mail EMLX Format"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 1519,
+      "relatedFormatName": "MBOX"
     }
   ],
   "source": 178

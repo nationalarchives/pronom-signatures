@@ -1,0 +1,38 @@
+{
+  "formatName": "New format",
+  "version": null,
+  "formatDescription": "Description here",
+  "binaryFileFormat": null,
+  "formatTypes": null,
+  "source": null,
+  "provenanceCompoundName": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/NEW",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 0,
+      "name": "sig",
+      "note": "",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "ext",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": []
+}

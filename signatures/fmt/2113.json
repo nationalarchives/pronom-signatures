@@ -1,0 +1,53 @@
+{
+  "formatName": "TIGER/Line ASCII",
+  "version": "1989-2006",
+  "formatDescription": "TIGER/Line Files are extracts of selected geographic and cartographic information from the US Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. Before 2007 these were constructed of ZIP files containing ASCII data. Each ZIP represents a single county or equivalent. Each ZIP contains a number of 'Record Type' files. In the 2000 Census data there were up to 17 Record Type files per ZIP, with each named RTx where x represents a value for the nature of the Record Type, so e.g. Record Type 1 = <filename>.RT1, Record Type Z = <filename>.RTZ. In the 1992 Census data the internal files had an .F5x extension, where x represents the value for each record type.",
+  "binaryFileFormat": null,
+  "formatTypes": "Dataset, GIS",
+  "source": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2113",
+      "identifierType": "PUID"
+    },
+    {
+      "identifierText": null,
+      "identifierType": "MIME"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4478,
+      "name": "Tiger/Line ASCII 1989-2006",
+      "note": "Identification relies on two elements: the \u2018PK\u2019 0x0304 ZIP declaration, following by the first record in the file listing following the naming convention TGRxxxxx., where x is a numeric value between 0-9 that represents a 5 digit \u2018FIPS\u2019 code \u2013 the identifier for each county, followed by a period (dot) that signifies the start of the file extension.",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "504B0304{26}544752[30:39][30:39][30:39][30:39][30:39]2E",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "zip",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    }
+  ],
+  "containerSignatures": [],
+  "formatNote": "Specifications for TIGER/Line can be found on the US Census Bureau website: https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.html",
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4989
+}

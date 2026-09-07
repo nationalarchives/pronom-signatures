@@ -258,6 +258,16 @@
       "relationshipType": "Is supertype of",
       "relatedFormatID": 2694,
       "relatedFormatName": "Digital Negative Format (DNG)"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3967,
+      "relatedFormatName": "Kodak DCS RAW Image"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 3968,
+      "relatedFormatName": "Kodak DCS RAW Image"
     }
   ],
   "developedBy": 82,

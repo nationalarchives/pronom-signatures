@@ -221,6 +221,11 @@
       "relationshipType": "Has lower priority than",
       "relatedFormatID": 3916,
       "relatedFormatName": "Android Package File"
+    },
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 4990,
+      "relatedFormatName": "TIGER/ Line Shapefile"
     }
   ],
   "source": 1

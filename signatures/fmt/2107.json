@@ -1,0 +1,47 @@
+{
+  "formatName": "Aseprite Sprite",
+  "version": null,
+  "formatDescription": "The native format of Aseprite, a graphics package primarily targeted at the creation of pixel art. Aseprite sprites can be static (technically single-framed), or animated.",
+  "binaryFileFormat": null,
+  "formatTypes": "Image (Raster)",
+  "source": 244,
+  "provenanceCompoundName": "Preservica / Preservica",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2107",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 4472,
+      "name": "Aseprite Sprite",
+      "note": "BOF; Offset: 4; Magic Bytes: 0xE0A5 followed by 126 bytes and then 0xFAF1",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 4,
+          "maxOffset": 0,
+          "byteSequence": "E0A5{126}FAF1",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "aseprite",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "ase",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "containerSignatures": [],
+  "formatNote": null,
+  "lastUpdatedDate": "02/09/2026",
+  "formatSourceDate": "02/09/2026",
+  "fileFormatID": 4983
+}

@@ -6,7 +6,7 @@
   "formatSourceID": 299,
   "formatTypes": "Image (Raster)",
   "formatNote": "https://github.com/thorsted/PRONOM_Research/tree/main/Submissions/DCS\nhttp://fileformats.archiveteam.org/wiki/Kodak\nhttps://preservation.tylerthorsted.com/2024/11/29/kodak-tiff/",
-  "lastUpdatedDate": "09 Jun 2026",
+  "lastUpdatedDate": "02 Sep 2026",
   "provenanceCompoundName": "Brigham Young University / Brigham Young University",
   "formatSourceDate": "04 Dec 2025",
   "identifiers": [
@@ -46,8 +46,14 @@
       "relationshipType": "Has priority over",
       "relatedFormatID": 917,
       "relatedFormatName": "Kodak Digital Camera Raw Image File"
+    },
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 1099,
+      "relatedFormatName": "Tagged Image File Format"
     }
   ],
   "source": 299,
-  "formatProvenance": "v.122: new signature. Submitted by Brigham Young University; v. 123: New extension added of .tiff and priority over fmt/192 Kodak Digital Camera Raw Image File. Submitted by Richard Lehane and Brigham Young University."
+  "formatProvenance": "v.122: new signature. Submitted by Brigham Young University; v. 123: New extension added of .tiff and priority over fmt/192 Kodak Digital Camera Raw Image File. Submitted by Richard Lehane and Brigham Young University; v.125: Added prioity over fmt/353 Tagged Image File Format. Submitted by Richard Lehane, Preservica and Brigham Young University.",
+  "containerSignatures": []
 }

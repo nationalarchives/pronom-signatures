@@ -2,7 +2,7 @@
   "fileFormatID": 3979,
   "version": null,
   "formatName": "BioSemi Data Format",
-  "formatDescription": "A Kodak DCS RAW image is a digital camera raw file from Kodak's Digital Camera System (DCS) series, saved in a proprietary format based on the Tagged Image File Format (TIFF). These files contain uncompressed, unprocessed image data.",
+  "formatDescription": "BioSemi Data Format is a 24 bit version of the older 16 bit European Data Format. It is used to record biological signals, primarily EEG/EMG readings, and can store multiple data types.",
   "formatSourceID": 349,
   "formatTypes": "Dataset",
   "formatNote": "https://www.biosemi.com/faq/file_format.htm",
@@ -38,5 +38,6 @@
     }
   ],
   "relationships": [],
-  "source": 349
+  "source": 349,
+  "containerSignatures": []
 }

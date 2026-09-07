@@ -1,68 +1,14 @@
 # PRONOM signatures
 
-This repository contains a record of all PRONOM signatures in JSON format. This is used to build the PRONOM signature file and container signature files.
+This repository contains the primary copy of all PRONOM signatures in JSON format. This is used to build the PRONOM signature file and container signature files, as used by DROID and other applications. 
 
-This repository can be used to submit new signatures to PRONOM.
+In future, this repository will be used to submit new signatures to PRONOM, but the process for this is currently being refined.
 
 ## Submitting new signatures
 
-[Create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) of this repository.
+We actively encourage the submission of new information to improve PRONOM. If you have information on a file format that is not currently in the database; believe you could improve an entry; or have feedback, then please do get in touch.
 
-Check out your fork locally.
+Currently, to contribute to PRONOM, the easiest way is to submit an issue via our [PRONOM Research GitHub repository](https://github.com/digital-preservation/PRONOM_Research/tree/main), where a member of the team can pick it up easily. We can also be contacted via email at [pronom@nationalarchives.gov.uk](mailto:pronom@nationalarchives.gov.uk).
 
-Create a directory called "submissions" in the root of the project.
-
-Add a JSON file with the details of the new signature in the "submissions" directory; the name of the file doesn't
-matter. The following fields are mandatory.
-
-```json
-{
-  "formatName": "A test PRONOM file",
-  "formatDescription": "This is a test file",
-  "internalSignatures": [
-    {
-      "positionType": "Absolute from BOF",
-      "offset": 0,
-      "maxOffset": 0,
-      "byteSequences": [
-        {
-          "positionType": "Absolute from EOF",
-          "offset": 0,
-          "maxOffset": 1024,
-          "byteSequence": "5445535450524F4E4F4D",
-          "endianness": null
-        }
-      ],
-      "name": "PRONOM test",
-      "note": "A PRONOM test signature"
-    }
-  ]
-}
-
-```
-
-There are many other fields you can optionally add which are specified in the [signature JSON schema file](/.github/scripts/json_schemas/signature-schema.json)
-
-Optionally, you can add test files which will be used to check the signature matches those files. To do this,
-create a directory inside "submissions" called `files` and place any test files in there.
-If you aren't including test files, you don't need to create a directory.
-
-So the final structure will look like:
-```bash
-└── submissions
-    ├── files
-    │   └── test.pronomtest
-    └── submission.json
-```
-
-Commit and push this to your forked repository and then [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to merge back to this repository.
-
-There are tests which will build your submission into a temporary signature file and run the DROID tests against it.
-If these pass then a member of staff at TNA will review and eventually merge the pull request.
-
-The tests will also generate a signature file and container signature file which you can download to test for yourself.
-There is a guide to downloading artifacts [here](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/downloading-workflow-artifacts).
-
-Merging the pull request won't immediately deploy a new version. At some point, a TNA staff member will raise a
-pull request to merge all the latest submissions into the main branch and once this is merged, a new release will be generated.
+We are currently working on improving our contribution process, and this guidance will be updated as new options become available.
 

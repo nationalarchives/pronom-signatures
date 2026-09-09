@@ -14,7 +14,7 @@
   ],
   "internalSignatures": [
     {
-      "signatureID": 4473,
+      "signatureID": 4474,
       "name": "Clock RINEX File Format 2.0",
       "note": "BOF; Offset: 5; Magic Bytes: 2.00{11}C{39}RINEX",
       "byteSequences": [
@@ -23,7 +23,8 @@
           "offset": 5,
           "maxOffset": 0,
           "byteSequence": "322E3030{11}43{39}52494E4558",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 4870
         }
       ]
     }

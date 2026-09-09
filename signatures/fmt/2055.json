@@ -17,44 +17,50 @@
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "3C2F706C6973743E{0-8}",
-          "endianness": null
+          "maxOffset": 8,
+          "byteSequence": "3C2F706C6973743E",
+          "endianness": null,
+          "byteSequenceID": 3800
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{0-16384}4D(494D45|696D65)2D(56|76)657273696F6E3A20312E30",
-          "endianness": null
+          "maxOffset": 16384,
+          "byteSequence": "4D(494D45|696D65)2D(56|76)657273696F6E3A20312E30",
+          "endianness": null,
+          "byteSequenceID": 3801
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{0-16384}546F3A20",
-          "endianness": null
+          "maxOffset": 16384,
+          "byteSequence": "546F3A20",
+          "endianness": null,
+          "byteSequenceID": 3802
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{0-16384}46726F6D3A20",
-          "endianness": null
+          "maxOffset": 16384,
+          "byteSequence": "46726F6D3A20",
+          "endianness": null,
+          "byteSequenceID": 3803
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{0-16384}446174653A20",
-          "endianness": null
+          "maxOffset": 16384,
+          "byteSequence": "446174653A20",
+          "endianness": null,
+          "byteSequenceID": 3804
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{0-16384}436F6E74656E742D(54|74)7970653A20",
-          "endianness": null
+          "maxOffset": 16384,
+          "byteSequence": "436F6E74656E742D(54|74)7970653A20",
+          "endianness": null,
+          "byteSequenceID": 3805
         }
       ]
     }

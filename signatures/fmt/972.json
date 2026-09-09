@@ -40,7 +40,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "F8726F(BA|BB)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1598
         }
       ]
     }

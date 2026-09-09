@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "30??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 683
         }
       ]
     },
@@ -50,7 +51,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "31??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 684
         }
       ]
     },
@@ -64,7 +66,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "32??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(42|43|44|49|4C|4D|4E|50|54|59)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 685
         }
       ]
     }

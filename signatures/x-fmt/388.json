@@ -40,14 +40,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "4D4D002A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 99
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 65535,
           "byteSequence": "900000070000000430323130",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 381
         }
       ]
     },
@@ -61,14 +63,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "49492A00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 100
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 65535,
           "byteSequence": "009007000400000030323130",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 382
         }
       ]
     },
@@ -82,14 +86,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "4D4D002A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 371
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "{10-65535}900000070000000430323130",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 372
         }
       ]
     },
@@ -103,14 +109,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "49492A00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 377
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 10,
           "maxOffset": 65535,
           "byteSequence": "009007000400000030323130",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 378
         }
       ]
     }

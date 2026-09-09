@@ -18,8 +18,9 @@
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "(FC|F8)0669616D66",
-          "endianness": null
+          "byteSequence": "(F8|FC)0669616D66",
+          "endianness": null,
+          "byteSequenceID": 3806
         }
       ]
     }

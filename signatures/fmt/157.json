@@ -40,14 +40,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "255044462D312E33",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 718
         },
         {
           "positionType": "Variable",
           "offset": null,
           "maxOffset": null,
           "byteSequence": "2F4754535F50444658436F6E666F726D616E6365{0-1}285044462F582D31613A3230303129",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 719
         }
       ]
     }

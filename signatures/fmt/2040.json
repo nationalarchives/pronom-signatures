@@ -20,8 +20,9 @@
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}(3A|3C)436974794D6F64656C{0-1024}786D6C6E73{0-8}3D(22|27)687474703A2F2F7777772E6F70656E6769732E6E65742F63697479676D6C2F312E30(22|27)",
-          "endianness": null
+          "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}(3C|3A)436974794D6F64656C{0-1024}786D6C6E73{0-8}3D(22|27)687474703A2F2F7777772E6F70656E6769732E6E65742F63697479676D6C2F312E30(22|27)",
+          "endianness": null,
+          "byteSequenceID": 3790
         }
       ]
     }
@@ -37,7 +38,7 @@
     }
   ],
   "relationships": [
-     {
+    {
       "relationshipType": "Has priority over",
       "relatedFormatID": 319,
       "relatedFormatName": "3D Studio (V1)"

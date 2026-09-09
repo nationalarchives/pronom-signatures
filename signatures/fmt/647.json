@@ -36,14 +36,16 @@
           "offset": 4,
           "maxOffset": null,
           "byteSequence": "30323569",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1199
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 4,
           "maxOffset": null,
           "byteSequence": "53566172{8-54}30323569",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1200
         }
       ]
     }

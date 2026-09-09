@@ -26,7 +26,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "CDCD(00|20)0850524556",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3864
         }
       ]
     }

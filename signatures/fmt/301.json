@@ -40,14 +40,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 456
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 2048,
           "byteSequence": "45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 463
         }
       ]
     },
@@ -61,14 +63,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 457
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 2048,
           "byteSequence": "65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 464
         }
       ]
     },
@@ -82,14 +86,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 458
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 2048,
           "byteSequence": "45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 465
         }
       ]
     },
@@ -103,14 +109,16 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 459
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 2048,
           "byteSequence": "65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 466
         }
       ]
     }

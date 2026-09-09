@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "CAFEBABE",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 284
         }
       ]
     }

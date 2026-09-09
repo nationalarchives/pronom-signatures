@@ -23,7 +23,8 @@
           "offset": 4,
           "maxOffset": 0,
           "byteSequence": "E0A5{126}FAF1",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 4866
         }
       ]
     }

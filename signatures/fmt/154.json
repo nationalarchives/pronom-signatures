@@ -40,7 +40,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "49492A00{6-4080}169201000400000000000001",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 827
         }
       ]
     },
@@ -54,14 +55,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "49492A00",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 828
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 4,
           "maxOffset": 4084,
           "byteSequence": "169201000400000000000001",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 829
         }
       ]
     },
@@ -75,7 +78,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "4D4D002A{6-4080}921600010000000401000000",
-          "endianness": "Big-endian"
+          "endianness": "Big-endian",
+          "byteSequenceID": 830
         }
       ]
     },
@@ -89,14 +93,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "4D4D002A",
-          "endianness": "Big-endian"
+          "endianness": "Big-endian",
+          "byteSequenceID": 831
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 4,
           "maxOffset": 4084,
           "byteSequence": "921600010000000401000000",
-          "endianness": "Big-endian"
+          "endianness": "Big-endian",
+          "byteSequenceID": 832
         }
       ]
     }

@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "3418ABCD",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1877
         }
       ]
     },
@@ -50,7 +51,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "CDAB1834",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1876
         }
       ]
     }

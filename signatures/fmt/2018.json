@@ -41,7 +41,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "656133{3069}454133",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3757
         }
       ]
     },
@@ -51,10 +52,11 @@
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
-          "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "{8-16}6F70656E4D47",
-          "endianness": null
+          "offset": 8,
+          "maxOffset": 8,
+          "byteSequence": "6F70656E4D47",
+          "endianness": null,
+          "byteSequenceID": 3789
         }
       ]
     }

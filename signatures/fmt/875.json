@@ -40,7 +40,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-1024}3C7264663A524446{1-2048}786D6C6E733A7264663D(22|27)687474703A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E7461782D6E7323(22|27)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3849
         }
       ]
     },
@@ -53,8 +54,9 @@
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": 0,
-          "byteSequence": "3C7264663A524446{1-2048}786D6C6E733A7264663D(22|27)786D6C6E733A7264663D(22|27)687474703A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E7461782D6E7323(22|27)",
-          "endianness": null
+          "byteSequence": "3C7264663A524446{1-2048}786D6C6E733A7264663D(22|27)687474703A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E7461782D6E7323(22|27)",
+          "endianness": null,
+          "byteSequenceID": 3850
         }
       ]
     }

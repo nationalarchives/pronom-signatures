@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "30??[01:0C][01:1F]{28}504C4154464F524D00000043{20}554E49515545494400000043{52}434C4153530000000000004D",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 694
         }
       ]
     }

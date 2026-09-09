@@ -40,7 +40,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1582
         }
       ]
     },
@@ -54,7 +55,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "6D646174*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1581
         }
       ]
     },
@@ -68,7 +70,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "636D6F76*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1580
         }
       ]
     },
@@ -82,7 +85,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "6674797071742020",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1579
         }
       ]
     },
@@ -96,7 +100,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "706E6F74*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1578
         }
       ]
     },
@@ -110,7 +115,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "736B6970*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1577
         }
       ]
     },
@@ -124,7 +130,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "66726565*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1576
         }
       ]
     },
@@ -138,7 +145,8 @@
           "offset": 4,
           "maxOffset": 4,
           "byteSequence": "77696465*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1575
         }
       ]
     }

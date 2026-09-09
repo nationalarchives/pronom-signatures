@@ -44,7 +44,8 @@
           "offset": 0,
           "maxOffset": 1024,
           "byteSequence": "3C21(444F4354595045|646F6374797065)20(48544D4C|68746D6C)20(5055424C4943|7075626C6963)20222D2F2F{1-16}2F2F(445444|647464)20{0-64}(48544D4C|68746D6C)20342E3031",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 266
         }
       ]
     }

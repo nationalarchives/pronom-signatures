@@ -44,7 +44,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "CDF30001(0000FFFF|CCCC0001){8}00000001",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2674
         }
       ]
     }

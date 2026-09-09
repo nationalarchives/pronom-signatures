@@ -36,14 +36,16 @@
           "offset": 32768,
           "maxOffset": 37700,
           "byteSequence": "4344303031{1-16384}FF4344303031",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2404
         },
         {
           "positionType": "Absolute from BOF",
           "offset": 32768,
           "maxOffset": 37700,
           "byteSequence": "00424541303101{2041}004E535230(32|33)01",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2405
         }
       ]
     }

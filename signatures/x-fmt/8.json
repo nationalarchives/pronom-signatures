@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "02{2}[01:1C][01:1F]????[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 488
         }
       ]
     },
@@ -50,7 +51,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "02{2}000000??[00:03]([41:5A]|[61:7A]){10}(43|4E|4C)",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 489
         }
       ]
     }

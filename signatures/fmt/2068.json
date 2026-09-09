@@ -16,10 +16,11 @@
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
-          "offset": 0,
+          "offset": 1024,
           "maxOffset": 0,
-          "byteSequence": "{1024}D2D7{12}0004{6}[!&01]00",
-          "endianness": null
+          "byteSequence": "D2D7{12}0004{6}[!&01]00",
+          "endianness": null,
+          "byteSequenceID": 3813
         }
       ]
     }

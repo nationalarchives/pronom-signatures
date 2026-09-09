@@ -23,14 +23,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "4152524F5731",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3798
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "4152524F5731",
-          "endianness": "Big-endian"
+          "endianness": "Big-endian",
+          "byteSequenceID": 3799
         }
       ]
     }
@@ -40,7 +42,6 @@
       "externalSignature": "arrow",
       "signatureType": "File extension"
     }
-
   ],
   "relationships": [],
   "source": 1

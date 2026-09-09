@@ -36,21 +36,24 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "000100005374616E64617264204A65742044420001000000",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2012
         },
         {
           "positionType": "Variable",
           "offset": null,
           "maxOffset": null,
           "byteSequence": "410063006300650073007300560065007200730069006F006E{0-2048}300038002E00[30:39]00[30:39]",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2013
         },
         {
           "positionType": "Variable",
           "offset": null,
           "maxOffset": null,
           "byteSequence": "4C656761637931",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2014
         }
       ]
     }

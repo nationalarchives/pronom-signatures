@@ -40,7 +40,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "04??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 675
         }
       ]
     },
@@ -54,7 +55,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "43??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 676
         }
       ]
     },
@@ -68,7 +70,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "63??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 677
         }
       ]
     },
@@ -82,7 +85,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "CB??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 678
         }
       ]
     },
@@ -96,7 +100,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "7B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 679
         }
       ]
     },
@@ -110,7 +115,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "8B??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 680
         }
       ]
     },
@@ -124,7 +130,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "8E??[01:0C][01:1F]{28}([41:5A]|[61:7A]){10}(43|44|46|4C|4D|4E)",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 681
         }
       ]
     }

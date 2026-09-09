@@ -40,14 +40,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "4657531C",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1348
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "0000",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1459
         }
       ]
     },
@@ -61,7 +63,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "4357531C",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1366
         }
       ]
     },
@@ -75,7 +78,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "5A57531C",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1382
         }
       ]
     }

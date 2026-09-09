@@ -19,14 +19,15 @@
     {
       "signatureID": 3450,
       "name": "Final Cut Pro Project File",
-      "note": "Absolute from beginning of file, magic bytes: ¢KeyG",
+      "note": "Absolute from beginning of file, magic bytes: \u00a2KeyG",
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "A24B657947",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3844
         }
       ]
     }

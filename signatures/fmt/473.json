@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "06{52}000600",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 927
         }
       ]
     },
@@ -50,7 +51,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "07{52}000700",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 928
         }
       ]
     },
@@ -64,7 +66,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "08{52}000800",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 929
         }
       ]
     },
@@ -78,7 +81,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "09{52}000900",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 930
         }
       ]
     },
@@ -92,7 +96,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "0A{52}000A00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 931
         }
       ]
     },
@@ -106,7 +111,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "0B{52}000B00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 932
         }
       ]
     },
@@ -120,7 +126,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "0C{52}000C00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 933
         }
       ]
     },
@@ -134,7 +141,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "0D{52}000D00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 934
         }
       ]
     },
@@ -148,7 +156,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "0E{52}000E00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 935
         }
       ]
     },
@@ -162,7 +171,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "0F{52}000F00",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 936
         }
       ]
     },
@@ -176,7 +186,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "01{52}000100",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1022
         }
       ]
     },
@@ -190,7 +201,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "02{52}000200",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1023
         }
       ]
     },
@@ -204,7 +216,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "03{52}000300",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1024
         }
       ]
     },
@@ -218,7 +231,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "04{52}000400",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1025
         }
       ]
     },
@@ -232,7 +246,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "05{52}000500",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1026
         }
       ]
     },
@@ -246,7 +261,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "14{52}001400",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1027
         }
       ]
     },
@@ -260,7 +276,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "10{52}001000",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1436
         }
       ]
     },
@@ -274,7 +291,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "11{52}001100",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1435
         }
       ]
     },
@@ -288,7 +306,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "12{52}001200",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1434
         }
       ]
     },
@@ -302,7 +321,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "13{52}001300",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1433
         }
       ]
     },
@@ -316,7 +336,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "15{52}001500",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2379
         }
       ]
     },
@@ -330,7 +351,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "16{52}001600",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2380
         }
       ]
     },
@@ -344,7 +366,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "17{52}001700",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2381
         }
       ]
     },
@@ -358,7 +381,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "18{52}001800",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2382
         }
       ]
     },
@@ -372,7 +396,8 @@
           "offset": 0,
           "maxOffset": null,
           "byteSequence": "19{52}001900",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 2383
         }
       ]
     }

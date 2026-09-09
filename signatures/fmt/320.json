@@ -36,14 +36,16 @@
           "offset": 0,
           "maxOffset": 152,
           "byteSequence": "47454F474353*444154554D*53504845524F4944*5052494D454D*554E4954",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 520
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 2,
           "byteSequence": "5D5D",
-          "endianness": "Little-endian"
+          "endianness": "Little-endian",
+          "byteSequenceID": 521
         }
       ]
     }

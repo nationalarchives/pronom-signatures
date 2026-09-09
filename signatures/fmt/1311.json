@@ -40,14 +40,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7B*2269645F737472223A*22726574776565746564223A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1955
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7D0A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1956
         }
       ]
     },
@@ -61,14 +63,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7B*2269645F737472223A*22726574776565746564223A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1957
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7D",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1958
         }
       ]
     },
@@ -82,14 +86,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7B*2269645F737472223A*22726574776565746564223A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1959
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7D0D0A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 1960
         }
       ]
     },
@@ -103,14 +109,16 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "7B*22726574776565746564223A*2269645F737472223A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3787
         },
         {
           "positionType": "Absolute from EOF",
           "offset": 0,
-          "maxOffset": 0,
-          "byteSequence": "7D{0-2}",
-          "endianness": null
+          "maxOffset": 2,
+          "byteSequence": "7D",
+          "endianness": null,
+          "byteSequenceID": 3788
         }
       ]
     }

@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "52494646{4}5346504A",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 3765
         }
       ]
     }
@@ -53,7 +54,7 @@
       "relatedFormatID": 3899,
       "relatedFormatName": "CD Architect Project File"
     },
-        {
+    {
       "relationshipType": "Has priority over",
       "relatedFormatID": 2741,
       "relatedFormatName": "Resource Interchange File Format (RIFF)"

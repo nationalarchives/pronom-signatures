@@ -1,7 +1,7 @@
 {
   "fileFormatID": 3916,
   "formatName": "Android Package File",
-  "provenanceCompoundName": "Bibliothèque nationale de France / Bibliothèque nationale de France",
+  "provenanceCompoundName": "Biblioth\u00e8que nationale de France / Biblioth\u00e8que nationale de France",
   "identifiers": [
     {
       "identifierText": "fmt/2041",
@@ -36,7 +36,6 @@
       ]
     }
   ],
-
   "internalSignatures": [],
   "externalSignatures": [
     {

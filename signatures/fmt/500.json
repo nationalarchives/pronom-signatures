@@ -36,7 +36,8 @@
           "offset": 0,
           "maxOffset": 0,
           "byteSequence": "2E5741460000004C",
-          "endianness": null
+          "endianness": null,
+          "byteSequenceID": 977
         }
       ]
     }

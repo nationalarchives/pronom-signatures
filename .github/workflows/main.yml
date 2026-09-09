@@ -5,6 +5,7 @@ on:
       release-signatures:
         type: boolean
         description: Whether to do a signature release or not
+        default: false
 permissions:
   id-token: write
   contents: write
@@ -30,6 +31,7 @@ jobs:
           mv signature-file.xml $NEW_SIGNATURE_FILENAME
           mv container-signature-file.xml container-signature-$(date +%Y%m%d).xml
           gh release create --title $NEXT_VERSION $NEXT_VERSION $NEW_SIGNATURE_FILENAME container-signature-$(date +%Y%m%d).xml
+        if: inputs.release-signatures
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Build website

@@ -29,8 +29,7 @@
     {
       "signatureID": 2302,
       "name": "IBM DisplayWrite DCA Text File",
-      "note": "Identification relies on the two structured fields that open every RFTDCA document per the architecture's own specification (IBM SC23-0758): the Format Unit Prefix (FUP), a fixed 5-byte field with class 0xE1, type 0x03, and a format byte fixed at 0x00, followed immediately by the Document Parameters (DP) field, class 0xE2, type 0x05, whose own length byte is constrained by the specification to the range 0x09–0x20 (the architecture's defined 9–32 byte range for this field) and whose format byte is likewise fixed at 0x00. The signature stops at this point deliberately, before the DP field's Graphic Character ID, since that value is locale/code-page dependent rather than architecturally constant. - SC23-0758-0, Document Content Architecture: Revisable-Form-Text Reference, June 1983
-https://bitsavers.org/pdf/ibm/sna/dia/SC23-0758-0_Document_Content_Architecture_-_Revisable-Form_Text_Reference_198306.pdf",
+      "note": "Identification relies on the two structured fields that open every RFTDCA document per the architecture's own specification (IBM SC23-0758): the Format Unit Prefix (FUP), a fixed 5-byte field with class 0xE1, type 0x03, and a format byte fixed at 0x00, followed immediately by the Document Parameters (DP) field, class 0xE2, type 0x05, whose own length byte is constrained by the specification to the range 0x09–0x20 (the architecture's defined 9–32 byte range for this field) and whose format byte is likewise fixed at 0x00. The signature stops at this point deliberately, before the DP field's Graphic Character ID, since that value is locale/code-page dependent rather than architecturally constant. - SC23-0758-0, Document Content Architecture: Revisable-Form-Text Reference, June 1983 https://bitsavers.org/pdf/ibm/sna/dia/SC23-0758-0_Document_Content_Architecture_-_Revisable-Form_Text_Reference_198306.pdf",
       "byteSequences": [
         {
           "positionType": "Absolute from BOF",
@@ -46,7 +45,7 @@ https://bitsavers.org/pdf/ibm/sna/dia/SC23-0758-0_Document_Content_Architecture_
     {
       "externalSignature": "dca",
       "signatureType": "File extension"
-    }
+    },
     {
       "externalSignature": "rft",
       "signatureType": "File extension"

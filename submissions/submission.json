@@ -1,0 +1,56 @@
+{
+  "fileFormatID": 209,
+  "formatName": "IBM DisplayWrite DCA Text File",
+  "version": null,
+  "formatDescription": "The Document Content Architecture (DCA) Revisable-Form-Text (RFT) format is an IBM-defined architecture, published in 1983 (IBM SC23-0758), for interchanging editable text documents between word-processing and office systems. RFT documents are streams of structured fields, each with a 5-byte introducer (Length, Class, Type, Format); every conformant document opens with a Format Unit Prefix field (Class X'E1', Type X'03') followed by a Document Parameters field (Class X'E2', Type X'05'). RFTDCA was implemented by a number of IBM office products, including the DisplayWrite family (DisplayWrite/1, /2, /3, and /36), making it the underlying format behind many files carrying a .RFT or .DCA extension. It is distinct from DCA's companion Final-Form-Text (FFT) profile (see x-fmt/284), which uses a different, SCS-derived control scheme and is conventionally identified by external means (a dataset label, SNA header, or DIA document profile) rather than by self-describing structured fields.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "25 Apr 2024",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "01/2024 (v.118): Added Internal signature and description.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Word Processor",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/148",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 2302,
+      "name": "IBM DisplayWrite DCA Text File",
+      "note": "Identification relies on the two structured fields that open every RFTDCA document per the architecture's own specification (IBM SC23-0758): the Format Unit Prefix (FUP), a fixed 5-byte field with class 0xE1, type 0x03, and a format byte fixed at 0x00, followed immediately by the Document Parameters (DP) field, class 0xE2, type 0x05, whose own length byte is constrained by the specification to the range 0x09–0x20 (the architecture's defined 9–32 byte range for this field) and whose format byte is likewise fixed at 0x00. The signature stops at this point deliberately, before the DP field's Graphic Character ID, since that value is locale/code-page dependent rather than architecturally constant. - SC23-0758-0, Document Content Architecture: Revisable-Form-Text Reference, June 1983 https://bitsavers.org/pdf/ibm/sna/dia/SC23-0758-0_Document_Content_Architecture_-_Revisable-Form_Text_Reference_198306.pdf",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "0005E1030000[09:20]E20500",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "dca",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "rft",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 1
+}
